@@ -31,7 +31,7 @@
         "richtext_JeRFaX": {
           "type": "richtext",
           "settings": {
-            "content": "<h4>We offer a $50 discount exclusively to military personnel, teachers, police officers, firefighters, and medical professionals.</h4>",
+            "content": "<h4>We offer a <em><strong>€</strong></em>50 discount exclusively to military personnel, teachers, police officers, firefighters, and medical professionals.</h4>",
             "content_pc_size": 16,
             "content_mb_size": 14
           }
@@ -165,7 +165,7 @@
         "richtext_L3Nxin": {
           "type": "richtext",
           "settings": {
-            "content": "<p>1. Please send us your photo ID via <a href=\"/pages/contact\" target=\"_blank\" title=\"Contact Us\">support.eu@yozmasport.com</a>, and once confirmed, we will offer you a special discount.<br/>2. Please apply this discount at the checkout page.<br/><br/>MORE INFO<br/>This promotion is valid in the US only. Each person can only redeem the discount coupon once. We reserve the right to change or discontinue this discount program at any time. This discount is only valid for e-bikes. This discount event is not available for products from Yozma's Amazon store.</p>",
+            "content": "<p>1. Please send us your photo ID via <a href=\"/pages/contact\" target=\"_blank\" title=\"Contact Us\">support.eu@yozmasport.com</a>, and once confirmed, we will offer you a special discount.<br/>2. Please apply this discount at the checkout page.<br/><br/>MORE INFO<br/>This promotion is valid in the EU only. Each person can only redeem the discount coupon once. We reserve the right to change or discontinue this discount program at any time. This discount is only valid for e-bikes. This discount event is not available for products from Yozma's Amazon store.</p>",
             "content_pc_size": 16,
             "content_mb_size": 14
           }
