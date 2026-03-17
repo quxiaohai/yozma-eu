@@ -677,12 +677,22 @@
             "title": "What's In The Box",
             "param_text": "<ul><li>&lcub;A&rcub;Yozma IN 10 Dirt Bike*1</li><li>&lcub;B&rcub;48V 23.4Ah Lithium-Ion*1</li><li>&lcub;C&rcub;Battery Charger*1</li><li>&lcub;D&rcub;Assembly Tools*1</li><li>&lcub;E&rcub;Right Pedals*1</li><li>&lcub;F&rcub;Handle Bars Shipped Installed On Bike*1</li><li>&lcub;G&rcub;User Manual*1</li><li>&lcub;H&rcub;Plate Stickers*1</li></ul>"
           }
+        },
+        "slide_iyDQ7j": {
+          "type": "slide_file",
+          "settings": {
+            "title": "User Manual",
+            "file_title": "Yozma IN 10 User Manual",
+            "file_name": "User Manual.pdf",
+            "file_url": "https://cdn.shopify.com/s/files/1/0856/4303/4658/files/YOZMA_IN10_User_Manual_20250828_01ee5f3f-4413-473b-a53d-6c5da1531b58.pdf?v=1773718277"
+          }
         }
       },
       "block_order": [
         "slide_GVk3Wt",
         "slide_myF8AV",
-        "slide_FafDa8"
+        "slide_FafDa8",
+        "slide_iyDQ7j"
       ],
       "name": "MC Param Text Slide",
       "settings": {
