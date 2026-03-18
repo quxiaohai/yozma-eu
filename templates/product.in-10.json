@@ -1331,6 +1331,7 @@
         },
         "item_G3YHFt": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "8. Can this promotion be combined with other discounts or offers?",
             "content": "<p>This promotion cannot be combined with any other promotions or discounts. Only one offer may be applied per order.</p>"
@@ -1338,6 +1339,7 @@
         },
         "item_pf66DX": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "9. When will the free gifts be shipped?",
             "content": "<p>Free gifts earned through this promotion are <strong>expected to ship in mid-March</strong>.<br/><br/>They may be shipped <strong>separately</strong> from the bike.</p>"
