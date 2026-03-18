@@ -1239,7 +1239,7 @@
           "settings": {
             "padding": "0px 0px 0px 0px",
             "mb_padding": "0px 0px 0px 0px",
-            "text": "<p>Frequently asked questions</p>",
+            "text": "<p><strong>Frequently asked questions</strong></p>",
             "image_height": 40,
             "mb_image_height": 32,
             "alignment": "left",
