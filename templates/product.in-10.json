@@ -1273,9 +1273,18 @@
       "blocks": {
         "item_3CNzMi": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "1. What is the Spring Sale period?",
             "content": "<p>The Spring Sale runs from <strong>February 27 to March 15</strong>.</p>"
+          }
+        },
+        "item_rgiCm7": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "1.What is the top speed of the Yozma IN 10?",
+            "content": "<p>The Yozma IN 10 reaches up to 20KM/H  in the third speed mode.</p>"
           }
         },
         "item_4mT3Pq": {
@@ -1337,6 +1346,7 @@
       },
       "block_order": [
         "item_3CNzMi",
+        "item_rgiCm7",
         "item_4mT3Pq",
         "item_QMHbRc",
         "item_GB6DXn",
