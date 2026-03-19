@@ -89,6 +89,34 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
 </script>
 <!-- / Nextop LiveChat {/literal} -->
 {%- endif -%}
+<script>
+  $heybike.on("DOMContentLoaded", () => {
+    const observer = new MutationObserver((mutationsList) => {
+      for (const mutation of mutationsList) {
+        if (mutation?.target?.id === 'usercentrics-cmp-ui') {
+          mutation.target.style.display = "block";
+          const shadow = mutation.target.shadowRoot;
+          const style = document.createElement('style');
+          style.textContent = `
+                #uc-cmp-footer .uc-button-link,
+                .privacyButton {
+                    display: none;
+                }
+            `;
+          shadow.appendChild(style);
+          observer.disconnect();
+        }
+      }
+    });
+
+    observer.observe(document.body, {
+      childList: true,
+      subtree: true,
+      attributes: true,
+      characterData: true
+    });
+  });
+</script>
 </head>
 
   <body class="{% if settings.zoom_image_on_hover %}zoom-image--enabled{% endif %}">
@@ -124,33 +152,5 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
         {%- sections 'footer-group' -%}
       {%- endif -%}
     </main>
-    <script>
-      (function (){
-        const observer = new MutationObserver((mutationsList) => {
-          for (const mutation of mutationsList) {
-            if (mutation?.target?.id === 'usercentrics-cmp-ui') {
-              observer.disconnect();
-              const shadow = mutation.target.shadowRoot;
-              const style = document.createElement('style');
-              style.textContent = `
-                #uc-cmp-footer .uc-button-link,
-                .privacyButton {
-                    display: none;
-                }
-            `;
-              shadow.appendChild(style);
-              mutation.target.style.display = "block";
-            }
-          }
-        });
-
-        observer.observe(document.body, {
-          childList: true,
-          subtree: true,
-          attributes: true,
-          characterData: true
-        });
-      })();
-    </script>
   </body>
 </html>
