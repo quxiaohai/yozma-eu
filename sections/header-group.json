@@ -78,7 +78,7 @@
           "type": "message",
           "settings": {
             "icon": "shopify://shop_images/yozma-bar-icon.png",
-            "text": "<p>Overy<em><strong>€49 </strong></em>Free Shipping on All Dirt Bikes!</p>",
+            "text": "<p>Over <em><strong>€49 </strong></em>Free Shipping on All Dirt Bikes!</p>",
             "url": "https://www.yozmasport.com/products/in-10?_pos=1&_psq=IN+10&_ss=e&_v=1.0"
           }
         }
