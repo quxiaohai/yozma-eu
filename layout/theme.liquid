@@ -91,10 +91,14 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
 {%- endif -%}
 <script>
   $heybike.on("DOMContentLoaded", () => {
-    setTimeout(() => {
-        const hostElement = document.querySelector('#usercentrics-cmp-ui');
-        if (hostElement && hostElement.shadowRoot) {
-            const shadow = hostElement.shadowRoot;
+    const hostElement = document.querySelector('#usercentrics-cmp-ui');
+    if (hostElement && hostElement.shadowRoot) {
+      const shadow = hostElement.shadowRoot;
+      const key = 'shadow_' + Date.now();
+      const observer = new MutationObserver((mutationsList) => {
+        for (const mutation of mutationsList) {
+          hostElement.style.display = "block";
+          $heybike.debounce(() => {
             const style = document.createElement('style');
             style.textContent = `
                 .privacyButton {
@@ -102,9 +106,18 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
                 }
             `;
             shadow.appendChild(style);
-            hostElement.style.display = "block";
+          }, 100, key);
         }
-      }, 1200);
+      });
+
+      // 4. 配置并开始观察
+      observer.observe(shadow, {
+        childList: true, // 观察子节点的添加或移除
+        subtree: true,   // 观察后代节点，非常重要！
+        attributes: true, // 观察属性变化
+        characterData: true // 观察文本节点变化
+      });
+    }
   });
 </script>
 </head>
