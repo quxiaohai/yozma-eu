@@ -94,6 +94,7 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     const observer = new MutationObserver((mutationsList) => {
       for (const mutation of mutationsList) {
         if (mutation?.target?.id === 'usercentrics-cmp-ui') {
+          observer.disconnect();
           mutation.target.style.display = "block";
           const shadow = mutation.target.shadowRoot;
           const style = document.createElement('style');
@@ -104,7 +105,6 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
                 }
             `;
           shadow.appendChild(style);
-          observer.disconnect();
         }
       }
     });
