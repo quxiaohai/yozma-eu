@@ -3635,8 +3635,76 @@
           "expiration_date_label": "Verfallsdatum",
           "event_label": "Veranstaltung",
           "events": {
-            "adjustment": "Einstellung"
+            "adjustment": "Einstellung",
+            "order_payment": "Bestellzahlung",
+            "order_refund": "Bestellrückerstattung",
+            "payment_failure": "Zahlung fehlgeschlagen",
+            "payment_returned": "Zahlung zurückerstattet"
+          },
+          "expirable_balance_info": "Ein Teil Ihres Guthabens wird zu einem späteren Zeitpunkt verfallen",
+          "expirable_amount_label": "Gesamt ablaufbare Menge",
+          "expirable_amounts_info": "Beträge, die früher verfallen, werden beim Bezahlen zuerst verwendet",
+          "expirable_amounts_button": "Ansicht",
+          "expired_amounts_button": "Abgelaufene Beträge anzeigen",
+          "pagination": {
+            "load_more_label": "Mehr laden",
+            "load_more_accessibility_label": "Mehr ablaufende Beträge laden"
           }
+        }
+      },
+      "payment_details": {
+        "title": "Zahlungsart-Details",
+        "payment_method_expiring_on": "Läuft ab am {{expiryDate}}",
+        "preauthorized_payments": "Vorausgenehmigte Zahlungen",
+        "close_payment_modal_accessibility_label": "Zahlungsart-Details-Fenster schließen",
+        "payment_method_not_found_error": "Zahlungsmethode nicht gefunden",
+        "payment_details_loading": "Lade Zahlungsart-Details",
+        "pre_authorized_payments": "Vorausgenehmigte Zahlungen",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "Insgesamt {{totalItems}} Artikel, {{totalItemsToDisplay}} Artikel werden angezeigt.",
+        "edit_payment_method_button_accessibility_label": "Zahlungsmethode mit Endung {{lastDigits}} bearbeiten",
+        "invalid_payment_method_message": "Verwenden Sie eine neue Kreditkarte, um weiterhin kommende Bestellungen zu erhalten.",
+        "replace_payment_method": "Zahlungsmethode ändern",
+        "checkout_card_banner": "Diese Zahlungsmethode kann nur für vorab genehmigte Zahlungen verwendet werden. Sie wird beim Bezahlen nicht angezeigt, wenn Sie in diesem Geschäft angemeldet sind."
+      },
+      "edit_payment_method": {
+        "cancel_edit_payment_method_button": "Abbrechen",
+        "billing_address_add_new": "Neu hinzufügen",
+        "billing_address_choose_from_list": "Aus Liste wählen",
+        "future_purchases_notice": "Diese Zahlungsmethode wird für zukünftige Einkäufe gespeichert.",
+        "generic_error": "Beim Aktualisieren ist ein Problem aufgetreten. Bitte versuchen Sie es erneut."
+      },
+      "update_payment_method": {
+        "disclaimer": "Diese Zahlungsmethode wird für zukünftige Einkäufe gespeichert und kann für wiederkehrende oder aufgeschobene Zahlungen verwendet werden.",
+        "pre_orders_title": "Bevorstehend",
+        "pre_orders_list_accessibility_label": "Liste der ausstehenden Bestellprodukte",
+        "resources_list_accessibility_label": "Abonnementprodukte und ausstehende Bestellprodukte, die diese Zahlungsmethode verwenden",
+        "resources_card_scroll": "Scrollen Sie für weitere Artikel",
+        "loading_form_accessibility_message": "Ladeformular zur Aktualisierung der Zahlungsmethode",
+        "loading_current_payment_method": "Lade die aktuelle Zahlungsmethode",
+        "loading_digital_wallets": "Ladeoptionen für digitale Geldbörse werden geladen",
+        "loading_card_fields": "Lade Kreditkartenfelder",
+        "loading_resources": "Abonnements und bevorstehende Bestellungen werden geladen"
+      },
+      "link_expired": {
+        "message": "Dieser Link zum Aktualisieren Ihrer Zahlungsmethode ist abgelaufen.",
+        "update_message": "Dieser Link zum Aktualisieren Ihrer Zahlungsmethode ist abgelaufen.",
+        "add_message": "Dieser Link zum Hinzufügen Ihrer Zahlungsmethode ist abgelaufen."
+      },
+      "update_success": {
+        "done_button": "Weiter einkaufen"
+      },
+      "add_success": {
+        "done_button": "Weiter einkaufen"
+      },
+      "card_fields": {
+        "name_on_card_label": "Name auf der Karte",
+        "name_on_card_placeholder": "Name auf der Karte",
+        "card_expiry_label": "Ablaufdatum (MM / JJ)",
+        "card_expiry_placeholder": "Ablaufdatum (MM / JJ)",
+        "card_start_label": "Ausgabedatum (MM / JJ)",
+        "card_start_placeholder": "Ausgabedatum (MM / JJ)",
+        "tooltip": {
+          "card_verification_value_explanation_amex": "4-stelliger Sicherheitscode auf der Vorderseite Ihrer Karte"
         }
       }
     }
