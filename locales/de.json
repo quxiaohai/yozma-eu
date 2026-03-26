@@ -2200,7 +2200,91 @@
       },
       "error_page": {
         "terminal": {
-          "title": "Es gab ein Problem bei unserem Bezahlvorgang"
+          "title": "Es gab ein Problem bei unserem Bezahlvorgang",
+          "message": "Aktualisieren Sie diese Seite oder versuchen Sie es in ein paar Minuten erneut"
+        },
+        "embed_errors": {
+          "storefront_password_required": "Dieser Laden ist passwortgeschützt",
+          "customer_account_required": "Ein Kundenkonto ist erforderlich, um den Kauf abzuschließen",
+          "cart_completed": "Dieser Bezahlvorgang wurde bereits abgeschlossen",
+          "invalid_cart": "Der Warenkorb ist nicht mehr gültig",
+          "not_authorized": "Die Anmeldung beim Bezahlen ist fehlgeschlagen. Überprüfen Sie Ihre Anwendungszugangsdaten.",
+          "killswitch_enabled": "Der Bezahlvorgang ist vorübergehend nicht verfügbar",
+          "policy_violation": "Bezahlung kann aufgrund von Richtlinienkonfigurationseinschränkungen nicht abgeschlossen werden",
+          "unrecoverable_failure": "Konnte den Bezahlvorgang nicht laden. Bitte erneut versuchen"
+        }
+      },
+      "notice_banner": {
+        "return_to_cart_link_text": "Zurück zum Warenkorb",
+        "subscription_changed": "Eines Ihrer Abonnements wurde geändert.",
+        "company_location_changed": "Ihr Warenkorb wurde aktualisiert. Überprüfen Sie Ihre Bestellung, bevor Sie sie absenden.",
+        "company_location_changed_product_removed": "Ihr Warenkorb wurde aktualisiert, da einige Produkte an diesem Standort nicht verfügbar sind. Überprüfen Sie Ihre Bestellung, bevor Sie sie absenden.",
+        "all_violations_content": "Rufen Sie uns an oder {{emailLink}}, um diese Informationen zu aktualisieren und Ihre Bestellung abzuschließen:",
+        "all_violations_email_link": "E-Mail",
+        "editable_shipping_address_violations_message_title": "Fügen Sie diese Informationen hinzu, um Ihre Bestellung abzuschließen:",
+        "editable_shipping_address_violations_email_link": "kontaktieren Sie uns",
+        "shipping_address_incomplete_title": "Die Lieferadresse ist unvollständig",
+        "calculating_shipping": "Der Versand wird noch berechnet. Versuchen Sie es in ein paar Sekunden erneut. Ihnen wurde noch nichts berechnet.",
+        "calculating_taxes": "Die Steuern werden noch berechnet. Versuchen Sie es in ein paar Sekunden erneut. Ihnen wurden keine Kosten berechnet.",
+        "generic_processing_error": {
+          "title": "Bei der Bearbeitung Ihrer Bestellung ist ein Problem aufgetreten",
+          "body": "Ihnen wurde nichts berechnet. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode."
+        },
+        "payment_method_not_available_with_payment_terms": "Die von Ihnen gewählte Zahlungsmethode ist nicht mehr verfügbar, da die Zahlung für diese Bestellung jetzt auf {{paymentTerms}} Basis erfolgt.",
+        "payment_method_not_available_with_fulfillment_terms": "Die von Ihnen gewählte Zahlungsmethode ist nicht mehr verfügbar, da die Zahlung für diese Bestellung nun bei Lieferung fällig ist.",
+        "payment_method_not_available_with_fixed_terms": "Die von Ihnen gewählte Zahlungsmethode ist nicht mehr verfügbar, da die Zahlung für diese Bestellung später fällig ist",
+        "payment_method_not_available_with_review_requirement": "Die von Ihnen gewählte Zahlungsmethode steht nicht mehr zur Verfügung, da die Zahlung fällig wird, sobald Ihre Bestellung bestätigt ist.",
+        "contact_information": {
+          "header": "Um Ihre Informationen zu aktualisieren, {{emailLink}}.",
+          "email_link": "kontaktieren Sie uns"
+        },
+        "validation_errors_banner": {
+          "section_label": {
+            "delivery": "Lieferung",
+            "billing": "Abrechnung"
+          },
+          "errors_in_section": {
+            "one": "{{count}} Fehler in {{section}}",
+            "other": "{{count}} Fehler in {{section}}"
+          }
+        }
+      },
+      "review_address_modal": {
+        "title": "Bewertungsadresse",
+        "subtitle": {
+          "other": "Diese Bestellung wird an eine von {{merchant}} angegebene Adresse versandt. Wählen Sie eine Versandadresse aus."
+        },
+        "subtitle_no_match": "Diese Adresse stimmt mit keiner Ihrer gespeicherten Adressen überein.",
+        "subtitle_must_use": "Ihre Bestellung wird an diese Adresse versandt.",
+        "use_saved_address": "Andere Adresse verwenden"
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "Bewertung",
+          "link_label": "{{partnerDisplayName}} Allgemeine Geschäftsbedingungen"
+        }
+      },
+      "online_store_chat": {
+        "title": "Fragen? Chatten Sie mit uns"
+      },
+      "local_pickup": {
+        "title": "Ort",
+        "location_closest": "Nächster Standort mit Ihrem Artikel",
+        "location_information": {
+          "one": "Es gibt %{count} Standort mit Lagerbestand in Ihrer Nähe",
+          "other": "Es gibt %{count} Standorte mit Lagerbestand in Ihrer Nähe"
+        },
+        "location_information_far_away": {
+          "one": "Es gibt %{count} Standort mit Ihrem Artikel",
+          "other": "Es gibt %{count} Standorte mit Ihrem Artikel"
+        },
+        "location_nearby": {
+          "one": "Es gibt %{count} nahegelegene Standorte mit Ihrem Artikel",
+          "other": "Es gibt %{count} nahegelegene Standorte mit Ihrem Artikel"
+        },
+        "location_nearby_short": {
+          "one": "%{count} nahegelegene Standorte mit Ihrem Artikel",
+          "other": "%{count} nahegelegene Standorte mit Ihrem Artikel"
         }
       }
     },
