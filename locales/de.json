@@ -3224,8 +3224,80 @@
           "view_schedule": "Zeitplan anzeigen"
         },
         "manual_payment_methods": {
-          "money_order": "Postanweisung - {{formattedTransactionAmount}}"
+          "money_order": "Postanweisung - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Nachnahme (COD) - {{formattedTransactionAmount}}",
+          "bank_deposit": "Bankeinzahlung - {{formattedTransactionAmount}}",
+          "manual": "Handbuch - {{formattedTransactionAmount}}"
+        },
+        "transactions": {
+          "details": "Einzelheiten"
+        },
+        "emv_details": {
+          "aid": "HILFE:",
+          "source": "Verwenden Sie das folgende Ausgabeformat (keine Codeblöcke, kein zusätzlicher Text):"
         }
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Bezahlt mit Shop Pay Ratenzahlung",
+        "description": "Behalten Sie Ihren Zahlungsplan mit Erinnerungen in der Shop-App im Blick.",
+        "desktop_qr_code_content": {
+          "title": "Nach Erinnerungen suchen",
+          "description": "Erhalte Erinnerungen an deine Ratenzahlungen mit Shop."
+        }
+      },
+      "refunded_amount": "Erstattet",
+      "request_return_failed": "Bei der Verarbeitung Ihrer Anfrage ist ein Problem aufgetreten. Bitte versuchen Sie es erneut.",
+      "login_card": {
+        "resend_link_and_login": "Um Ihre Bestelldetails anzusehen, melden Sie sich an oder senden Sie einen neuen Link an die beim Bezahlen verwendete E-Mail-Adresse oder Telefonnummer.",
+        "resend_link_only": "Um Ihre Bestelldetails einzusehen, senden Sie einen neuen Link an die beim Kauf verwendete E-Mail-Adresse oder Telefonnummer."
+      },
+      "marketing_description": "Sie erhalten Werbe-E-Mails. Sie können sich jederzeit abmelden.",
+      "marketing_checkbox_label": "Sende mir Neuigkeiten und Angebote per E-Mail zu",
+      "marketing_checkmark_label": "Sie sind angemeldet, um E-Mail-Nachrichten und Angebote zu erhalten",
+      "marketing_pending_confirmation": "Klicken Sie auf den Link in Ihrer E-Mail, um zu bestätigen.",
+      "marketing_resend_email_success": "Link gesendet",
+      "returns": {
+        "ineligible_return_message": "Keine Artikel in dieser Bestellung sind zur Rückgabe berechtigt.",
+        "ineligible_return_message_when_returned": "Keine weiteren Artikel in dieser Bestellung sind zur Rückgabe berechtigt.",
+        "return_and_refund_modal_header": "Rückerstattungsrichtlinie",
+        "tracking_number": "Sendungsnummer:",
+        "exchange_header": "Artikel tauschen",
+        "exchange_subheader": "Umtauschartikel werden der Bestellung hinzugefügt, sobald die Rückgabe abgeschlossen ist."
+      },
+      "shipping": {
+        "subscription": "Abonnementversand"
+      },
+      "pickup": {
+        "pickup": "Abholung",
+        "pickup_point": "Abholstelle"
+      },
+      "total_savings": "Gesamteinsparungen",
+      "subtitle": "Bestätigt {{date}}",
+      "summary_totals_title_accessibility_label": "Bestellsummen",
+      "shop_order_tracking": {
+        "download_shop_to_track": "Laden Sie den Laden herunter, um das Paket zu verfolgen",
+        "title_header": "Scannen Sie mit Ihrem Telefon",
+        "real_time_delivery_updates": "Der Laden wird Ihnen Echtzeit-Lieferbenachrichtigungen senden, sobald Ihre Bestellung versandt wurde."
+      },
+      "edit_summary": {
+        "added_with_quantity": "Hinzugefügt {{quantity}}",
+        "removed_with_quantity": "Entfernt {{quantity}}",
+        "updated_at": "Ihre Bestellung wurde am {{date}} aktualisiert",
+        "returned_with_quantities": "Zurückgegeben {{delta}} von {{total}}",
+        "removed_with_quantities": "Entfernt {{delta}} von {{total}}"
+      },
+      "taxes_included": "Inklusive {{amount}} Steuern",
+      "duties_and_taxes_included": "Der Gesamtbetrag beinhaltet Abgaben und Steuern. Keine zusätzlichen Gebühren bei der Lieferung.",
+      "duties": "Aufgaben",
+      "ok_duties_tooltip": "Diese Bestellung wird aus einem anderen Land versandt, daher wurden Zölle zu Ihrer Bestellsumme hinzugefügt.",
+      "error_duties_tooltip": "Diese Bestellung wird aus einem anderen Land versandt, daher können bei der Lieferung Zölle und Steuern anfallen.",
+      "zero_duties_tooltip": "Diese Bestellung wird aus einem anderen Land versandt. Für Bestellungen dieses Werts werden keine Zollgebühren erhoben.",
+      "tip": "Tipp",
+      "title": "Bestelle {{name}}",
+      "unit_price": "{{price}}/Stück",
+      "pagination": {
+        "load_more": "Mehr laden",
+        "load_more_accessibility_label": "Mehr Artikel laden"
       }
     }
   }
