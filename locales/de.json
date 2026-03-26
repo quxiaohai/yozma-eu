@@ -489,7 +489,17 @@
   "shopify": {
     "checkout": {
       "split_delivery": {
-        "items_for_shipping": "Artikel für den Versand"
+        "items_for_shipping": "Artikel zum Versand",
+        "pickup_all_items": "Alle Gegenstände aufheben",
+        "items_for_pickup": "Abholgegenstände",
+        "delivery_method": "Geteilte Liefermethode",
+        "delivery_method_menu": "Menü für Lieferart aufteilen",
+        "inventory_issue_banner": {
+          "pick_them_up_in_store": {
+            "one": "im Geschäft abholen",
+            "other": "im Geschäft abholen"
+          }
+        }
       },
       "general": {
         "page_title": "Zur Kasse",
@@ -2285,7 +2295,88 @@
         "location_nearby_short": {
           "one": "%{count} nahegelegene Standorte mit Ihrem Artikel",
           "other": "%{count} nahegelegene Standorte mit Ihrem Artikel"
+        },
+        "location_far_away": {
+          "one": "%{count} Standort mit Ihrem Artikel",
+          "other": "%{count} Standorte mit Ihrem Artikel"
+        },
+        "toggle_location": "Standort ändern",
+        "toggle_more_locations": {
+          "one": "%{count} weitere Standorte"
+        },
+        "toggle_multiple_locations": "%{count}+ weitere Standorte",
+        "cancel": "Abbrechen",
+        "your_location": "Ihr Standort",
+        "search_button": "Geschäfte finden",
+        "no_stores_found": "Keine Geschäfte gefunden",
+        "all_stores_far_away": {
+          "title": "Die nächstgelegenen Standorte sind mehr als %{distance} entfernt",
+          "title_with_item": {
+            "one": "Der nächstgelegene Standort mit Ihrem Artikel ist mehr als %{distance} von %{location} entfernt",
+            "other": "Der nächstgelegene Standort mit Ihren Artikeln ist mehr als %{distance} von %{location} entfernt"
+          },
+          "title_with_specific_location": "Der nächstgelegene Standort mit Ihrem Artikel ist mehr als %{distance} von %{location} entfernt.",
+          "description": "Wählen Sie einen Standort oder %{ship_to_address_link}",
+          "change_location_link": "Ändern Sie Ihren Standort"
+        },
+        "selected_pickup_option_no_longer_available": {
+          "title": "Ihr zuvor ausgewählter Standort ist nicht mehr verfügbar",
+          "description": "Wählen Sie einen neuen Standort oder %{ship_to_address_link}",
+          "ship_to_address_link": "Lieferadresse"
+        },
+        "could_not_resolve_address": "Ihre Adresse konnte nicht gefunden werden. Versuchen Sie es erneut oder verwenden Sie eine andere Adresse",
+        "paginator": {
+          "accessibility_label": "Abholung vor Ort Seitenumbruch",
+          "label": {
+            "one": "%{first} - %{last} von %{count} Geschäften",
+            "other": "%{first} - %{last} von %{count} Geschäften"
+          }
+        },
+        "reveal_more_label": {
+          "one": "Zeige %{count} weitere Standorte",
+          "other": "Weitere %{count} Standorte anzeigen"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Keine Standorte mit Ihrem Artikel",
+          "other": "Keine Orte mit Ihren Artikeln"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Keine Standorte in %{country} mit Ihrem Artikel",
+          "other": "Keine Standorte in %{country} mit Ihren Artikeln"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_items": "Versenden Sie Ihre Artikel",
+          "search_elsewhere": "anderswo suchen"
         }
+      },
+      "captcha": {
+        "title": "Vervollständigen Sie das CAPTCHA, um fortzufahren",
+        "errors": {
+          "not_solved": "Vervollständigen Sie das CAPTCHA, um fortzufahren"
+        }
+      },
+      "clipboard": {
+        "failed_to_copy": "Kopieren fehlgeschlagen"
+      },
+      "discount_errors": {
+        "generic_error": "Ihre Bestellung konnte nicht bearbeitet werden, da Ihr Rabattcode nicht mehr gültig ist. Überprüfen Sie Ihren Gesamtbestellwert und versuchen Sie es erneut."
+      },
+      "b2b_errors": {
+        "lost_b2b_purchasing_permissions": "Sie haben keine Berechtigung mehr, B2B-Bestellungen aufzugeben. %{logout_url}, um stattdessen eine persönliche Bestellung aufzugeben.",
+        "lost_permissions_subtitle": "Sie haben keine Berechtigung mehr, B2B-Bestellungen aufzugeben. Melden Sie sich ab, um eine persönliche Bestellung aufzugeben."
+      },
+      "shop_pay_external": {
+        "title": "Shop Pay Kasse",
+        "errors": {
+          "try_again_later": "Überprüfen Sie Ihre Verbindung oder schließen Sie dieses Fenster und versuchen Sie es in wenigen Augenblicken erneut.",
+          "checkout_has_expired": "Ihr Checkout ist abgelaufen. Schließen Sie dieses Fenster und versuchen Sie erneut, bei {{shopName}} zu bestellen."
+        },
+        "return_to_store_simple": "Zurück zum Geschäft"
+      },
+      "wallets": {
+        "return_to_store": "Zurück zum Geschäft",
+        "return_to_checkout": "Zurück zur Kasse",
+        "redirect_hint": "Sie werden aufgefordert, sich mit {{walletName}} anzumelden."
       }
     },
     "sentence": {
