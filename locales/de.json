@@ -157,8 +157,8 @@
   "collection": {
     "general": {
       "empty_collection": "Diese Sammlung ist leer",
-      "all_collections": "Alle Kategorien",
-      "no_collections": "Dieser Shop hat keine Kategorien.",
+      "all_collections": "Alle Sammlungen",
+      "no_collections": "Dieser Laden enthält keine Sammlung.",
       "continue_shopping": "Weiter einkaufen"
     },
     "products_count": {
@@ -169,41 +169,41 @@
     "faceting": {
       "filters": "Filter",
       "filter_and_sort": "Filtern und sortieren",
-      "filter_button": "Filtern",
-      "clear_filters": "Zurücksetzen",
+      "filter_button": "Filterung",
+      "clear_filters": "Alle löschen",
       "apply_filters": "Anwenden",
       "sort_by": "Sortieren nach",
       "remove_filter": "Filter \"{{ name }}\" entfernen",
-      "no_results": "Keine Produkte, die diesen Filterkriterien entsprechen.",
-      "price_range_to": "bis",
-      "price_filter_from": "Preis von",
-      "price_filter_to": "Preis bis",
+      "no_results": "Keine Produkte entsprechen diesen Filtern.",
+      "price_range_to": "zu",
+      "price_filter_from": "Ab Preis",
+      "price_filter_to": "Zu bewerten",
       "price_filter": "{{ min_price }} - {{ max_price }}",
-      "availability_label": "Nur lagernde Artikel"
+      "availability_label": "Nur vorrätig"
     }
   },
   "blog": {
     "general": {
       "empty_blog": "Dieser Blog ist leer",
-      "back_to_home": "Zurück",
-      "view": "Ansehen",
-      "all_posts": "Alle Artikel"
+      "back_to_home": "Zurück zur Startseite",
+      "view": "Ansicht",
+      "all_posts": "Alle Beiträge"
     },
     "post": {
       "written_by": "Von {{ author }}",
       "share": "Teilen",
-      "tags": "Tags",
-      "continue_reading": "Weiterlesen"
+      "tags": "Schlagwörter",
+      "continue_reading": "Nächste lesen"
     },
     "comments": {
-      "leave_comment": "Hinterlasse einen Kommentar",
-      "moderated": "Alle Kommentare werden vor der Veröffentlichung geprüft.",
+      "leave_comment": "Einen Kommentar hinterlassen",
+      "moderated": "Alle Kommentare werden moderiert, bevor sie veröffentlicht werden.",
       "name": "Name",
       "email": "E-Mail",
-      "message": "Kommentar",
+      "message": "Nachricht",
       "submit": "Absenden",
-      "comment_sent": "Dein Kommentar wurde abgesendet. Er wird nach der Prüfung durch den Shopinhaber veröffentlicht!",
-      "comment_published": "Dein Kommentar wurde veröffentlicht.",
+      "comment_sent": "Ihr Kommentar wurde gesendet. Wir werden ihn in Kürze veröffentlichen, da unser Blog moderiert wird.",
+      "comment_published": "Ihr Kommentar wurde veröffentlicht.",
       "count": {
         "zero": "{{ count }} Kommentare",
         "one": "{{ count }} Kommentar",
@@ -217,17 +217,17 @@
       "email": "E-Mail",
       "message": "Nachricht",
       "submit": "Nachricht senden",
-      "success_message": "Deine Nachricht wurde gesendet."
+      "success_message": "Ihre Nachricht wurde gesendet."
     }
   },
   "customer": {
     "account": {
       "welcome": "Willkommen, {{first_name}}",
-      "tagline": "Bestellübersicht ansehen und Kundenkonto verwalten.",
+      "tagline": "Alle Ihre Bestellungen anzeigen und Ihre Kontoinformationen verwalten.",
       "orders": "Bestellungen",
       "addresses": "Adressen",
       "logout": "Abmelden",
-      "no_orders": "Du hast noch nichts bestellt.",
+      "no_orders": "Sie haben noch keine Bestellungen aufgegeben.",
       "continue_shopping": "Weiter einkaufen"
     },
     "login": {
@@ -236,66 +236,66 @@
       "password": "Passwort",
       "submit": "Anmelden",
       "forgot_password": "Passwort vergessen?",
-      "sign_up": "Registrieren"
+      "sign_up": "Anmelden"
     },
     "recover_password": {
-      "title": "Passwort zurücksetzen",
+      "title": "Passwort wiederherstellen",
       "email": "E-Mail",
-      "submit": "Zurücksetzen",
+      "submit": "Wiederherstellen",
       "back_to_login": "Zurück zur Anmeldung",
-      "success_message": "Eine E-Mail mit Informationen zum Zurücksetzen des Passworts wurde an deine Adresse gesendet."
+      "success_message": "Eine E-Mail wurde an Ihre Adresse gesendet mit Anweisungen zum Zurücksetzen Ihres Passworts."
     },
     "register": {
-      "title": "Registrieren",
+      "title": "Anmelden",
       "first_name": "Vorname",
       "last_name": "Nachname",
       "email": "E-Mail",
       "password": "Passwort",
-      "accepts_marketing": "Newsletter abonnieren",
-      "submit": "Kundenkonto erstellen",
+      "accepts_marketing": "Melden Sie sich für unseren Rundbrief an",
+      "submit": "Konto erstellen",
       "login": "Anmelden"
     },
     "activate_account": {
-      "title": "Kundenkonto aktivieren",
-      "instructions": "Gib ein Passwort ein, um dein Kundenkonto zu erstellen:",
+      "title": "Konto aktivieren",
+      "instructions": "Geben Sie ein Passwort ein, um Ihr Konto zu erstellen:",
       "password": "Passwort",
-      "password_confirmation": "Passwort wiederholen",
+      "password_confirmation": "Passwortbestätigung",
       "submit": "Aktivieren",
       "cancel": "Abbrechen"
     },
     "reset_password": {
       "title": "Passwort zurücksetzen",
       "password": "Passwort",
-      "password_confirmation": "Passwort wiederholen",
+      "password_confirmation": "Passwortbestätigung",
       "submit": "Zurücksetzen"
     },
     "order": {
       "order": "Bestellung",
-      "order_name": "Bestellung {{name}}",
-      "view_details": "Bestelldetails",
+      "order_name": "Bestelle {{name}}",
+      "view_details": "Bestelldetails anzeigen",
       "back": "Zurück",
       "date": "Datum",
       "payment_status": "Zahlungsstatus",
-      "fulfillment_status": "Lieferstatus",
+      "fulfillment_status": "Erfüllungsstatus",
       "cancelled_on": "Storniert am {{date}}. Grund: {{reason}}",
       "product": "Produkt",
-      "quantity": "Anzahl",
-      "fulfillment_with_number": "Deine Bestellung wurde am {{date}} verschickt. Verfolge deine Sendung mit der Sendungsnummer {{tracking_number}}.",
-      "fulfillment": "Deine Bestellung wurde am {{date}} verschickt.",
-      "track_shipment": "Sendungsverfolgung",
+      "quantity": "Menge",
+      "fulfillment_with_number": "Ihre Bestellung wurde am {{date}} versandt. Verfolgen Sie die Sendung mit der Nummer {{tracking_number}}.",
+      "fulfillment": "Ihre Bestellung wurde am {{date}} versandt.",
+      "track_shipment": "Sendung verfolgen",
       "subtotal": "Zwischensumme",
       "discount": "Rabatt",
       "shipping": "Versand",
-      "taxes_included": "inkl. MwSt.",
-      "taxes_excluded": "zzgl. MwSt.",
-      "total_duties": "Zoll",
-      "refunded_amount": "Erstattungsbetrag",
-      "total": "Gesamtbetrag",
+      "taxes_included": "Steuern inbegriffen",
+      "taxes_excluded": "Steuern ausgeschlossen",
+      "total_duties": "Aufgaben",
+      "refunded_amount": "Erstatteter Betrag",
+      "total": "Gesamt",
       "shipping_address": "Lieferadresse",
       "billing_address": "Rechnungsadresse"
     },
     "addresses": {
-      "no_addresses": "Du hast noch keine Adressen gespeichert.",
+      "no_addresses": "Sie haben noch keine Adressen gespeichert.",
       "add_address": "Adresse hinzufügen",
       "edit_address": "Adresse bearbeiten",
       "save_address": "Adresse speichern",
@@ -303,12 +303,12 @@
       "delete": "Löschen",
       "default_address": "Standardadresse",
       "address_title": "Adresse {{ position }}",
-      "delete_confirm": "Diese Adresse löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.",
-      "fill_form": "Fülle bitte folgende Felder aus:",
+      "delete_confirm": "Diese Adresse entfernen? Nach Bestätigung kann diese Aktion nicht rückgängig gemacht werden.",
+      "fill_form": "Bitte füllen Sie die folgenden Informationen aus:",
       "first_name": "Vorname",
       "last_name": "Nachname",
-      "company": "Firma",
-      "phone": "Telefon",
+      "company": "Unternehmen",
+      "phone": "Telefonnummer",
       "address1": "Adresszeile 1",
       "address2": "Adresszeile 2",
       "city": "Ort",
