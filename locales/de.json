@@ -16,19 +16,19 @@
   },
   "general": {
     "page": "Seite {{ page }}",
-    "home": "Home",
+    "home": "Startseite",
     "accessibility": {
       "skip_to_content": "Zum Inhalt springen",
-      "pagination": "Seiten-Navigation",
+      "pagination": "Seitenzahl-Navigation",
       "go_to_page": "Gehe zu Seite {{ index }}",
-      "go_to_item": "Gehe zu Element {{ index }}",
-      "item_nth_of_count": "Element {{ index }} von {{ count }}",
+      "go_to_item": "Zum Artikel {{ index }} gehen",
+      "item_nth_of_count": "Artikel {{ index }} von {{ count }}",
       "drag": "Ziehen",
       "close": "Schließen",
-      "next": "Vor",
+      "next": "Weiter",
       "previous": "Zurück",
       "play_video": "Video abspielen",
-      "read_more": "Weiterlesen"
+      "read_more": "Mehr lesen"
     },
     "label": {
       "color": "Farbe",
@@ -36,7 +36,7 @@
       "size": "Größe"
     },
     "social": {
-      "follow_on": "Auf {{ social_media }} folgen",
+      "follow_on": "Folgen auf {{ social_media }}",
       "share": "Teilen",
       "share_on": "Auf {{ social_media }} teilen",
       "share_email": "Per E-Mail teilen"
@@ -48,7 +48,7 @@
       "email": "E-Mail",
       "subscribe": "Abonnieren",
       "notify_me": "Benachrichtige mich",
-      "subscribed_successfully": "Du hast den Newsletter abonniert."
+      "subscribed_successfully": "Sie haben unseren Newsletter abonniert."
     },
     "localization": {
       "country": "Land",
@@ -58,19 +58,19 @@
     },
     "privacy_bar": {
       "accept": "Akzeptieren",
-      "decline": "Verweigern"
+      "decline": "Ablehnen"
     },
     "form": {
-      "max_characters": "Maximal {{ max_chars }} Zeichen"
+      "max_characters": "maximal {{ max_chars }} Zeichen"
     },
     "on_boarding": {
       "blog_post_category": "Kategorie",
       "blog_post_title": "Artikel",
-      "blog_post_excerpt": "Schreibe eine Zusammenfassung des Artikels.",
-      "product_vendor": "Anbieter",
+      "blog_post_excerpt": "Schreiben Sie einen Text über Ihren Blogbeitrag.",
+      "product_vendor": "Verkäufer",
       "product_title": "Produkt",
-      "product_description": "Beschreibe das Produkt.",
-      "collection_title": "Kategorie"
+      "product_description": "Schreiben Sie einen Text über Ihr Produkt.",
+      "collection_title": "Sammlung"
     }
   },
   "header": {
@@ -78,7 +78,7 @@
       "account": "Konto",
       "login": "Anmelden",
       "menu": "Menü",
-      "search": "Suche",
+      "search": "Suchen",
       "cart": "Warenkorb"
     }
   },
@@ -86,22 +86,22 @@
     "general": {
       "description": "Beschreibung",
       "view_product": "Produkt ansehen",
-      "quick_add": "+ In den Warenkorb",
+      "quick_add": "+ Schnell hinzufügen",
       "add_to_cart_short": "+ Hinzufügen",
-      "add_to_cart_button": "In den Warenkorb",
+      "add_to_cart_button": "JETZT KAUFEN",
       "pre_order_button": "Vorbestellen",
       "sold_out_button": "Ausverkauft",
       "unavailable_button": "Nicht verfügbar",
-      "added_to_cart": "Zum Warenkorb hinzugefügt!",
+      "added_to_cart": "In Ihren Warenkorb gelegt!",
       "sold_out_badge": "Ausverkauft",
-      "on_sale_badge": "Sale",
-      "discount_badge_html": "Spare {{ savings }}",
-      "sku": "SKU:",
+      "on_sale_badge": "Im Angebot",
+      "discount_badge_html": "Sparen {{ savings }}",
+      "sku": "Artikelnummer:",
       "variant": "Variante",
-      "view_in_space": "In deinem Bereich ansehen",
-      "taxes_included": "inkl. MwSt.",
-      "taxes_excluded": "zzgl. MwSt.",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Versandkosten</a> werden an der Kasse berechnet",
+      "view_in_space": "Im eigenen Raum ansehen",
+      "taxes_included": "Steuer inbegriffen.",
+      "taxes_excluded": "Steuer ausgeschlossen.",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Versandkosten werden</a> an der Kasse berechnet",
       "size_chart": "Größentabelle",
       "available_colors_count": {
         "one": "{{ count }} Farbe verfügbar",
@@ -110,26 +110,26 @@
     },
     "gallery": {
       "close": "Galerie schließen",
-      "zoom": "Bild vergrößern",
+      "zoom": "Zoomen",
       "error": "Bild kann nicht geladen werden"
     },
     "price": {
       "regular_price": "Regulärer Preis",
-      "sale_price": "Angebot",
-      "from_price_html": "ab {{ price_min }}"
+      "sale_price": "Verkaufspreis",
+      "from_price_html": "Ab {{ price_min }}"
     },
     "quantity": {
-      "label": "Anzahl",
-      "increase_quantity": "Anzahl erhöhen",
-      "decrease_quantity": "Anzahl verringern",
-      "minimum_of": "Minimum von {{ min }}",
-      "maximum_of": "Maximum von {{ max }}",
-      "increment_of": "Schritt von {{ step }}"
+      "label": "Menge",
+      "increase_quantity": "Menge erhöhen",
+      "decrease_quantity": "Menge verringern",
+      "minimum_of": "Mindestens {{ min }}",
+      "maximum_of": "Maximal {{ max }}",
+      "increment_of": "Erhöhung um {{ step }}"
     },
     "volume_pricing": {
-      "title": "Volumenabhängige Preisgestaltung",
+      "title": "Mengenrabatt",
       "minimum": "{{ quantity }}+",
-      "price_at_each": "bei {{ price }}/Stück"
+      "price_at_each": "{{ price }}/Stück"
     },
     "rating_count": {
       "zero": "Keine Bewertungen",
@@ -138,25 +138,25 @@
     },
     "inventory": {
       "in_stock": "Auf Lager",
-      "oversell_stock": "Ware im Zulauf",
-      "incoming_stock": "Ware erwartet am {{ next_incoming_date }}",
+      "oversell_stock": "Bald wieder auf Lager",
+      "incoming_stock": "Wieder auf Lager am {{ next_incoming_date }}",
       "low_stock_with_quantity_count": {
-        "one": "Nur noch {{count}} Artikel",
-        "other": "Nur noch {{count}} Artikel"
+        "one": "Nur noch {{count}} Stück verfügbar",
+        "other": "Nur noch {{count}} Stück verfügbar"
       }
     },
     "store_availability": {
-      "view_store_info": "Shop-Informationen ansehen",
-      "check_other_stores": "Verfügbarkeit in anderen Shops prüfen",
+      "view_store_info": "Geschäftsinformationen anzeigen",
+      "check_other_stores": "Verfügbarkeit in anderen Geschäften prüfen",
       "pick_up_available": "Abholung möglich",
-      "pick_up_currently_unavailable": "Abholung momentan nicht möglich",
-      "pick_up_available_at": "Abholung von {{ location_name }} möglich",
-      "pick_up_unavailable_at": "Abholung von {{ location_name }} momentan nicht möglich"
+      "pick_up_currently_unavailable": "Abholung derzeit nicht verfügbar",
+      "pick_up_available_at": "Abholung verfügbar bei {{ location_name }}",
+      "pick_up_unavailable_at": "Abholung derzeit bei {{ location_name }} nicht verfügbar"
     }
   },
   "collection": {
     "general": {
-      "empty_collection": "Diese Kategorie ist leer",
+      "empty_collection": "Diese Sammlung ist leer",
       "all_collections": "Alle Kategorien",
       "no_collections": "Dieser Shop hat keine Kategorien.",
       "continue_shopping": "Weiter einkaufen"
@@ -3867,7 +3867,15 @@
         "consent_agreement": "Indem Sie fortfahren, stimmen Sie den %{terms} zu."
       },
       "step_two": {
-        "page_title": "Code eingeben - %{shop_name}"
+        "page_title": "Code eingeben - %{shop_name}",
+        "restart_link": "Mit einer anderen E-Mail anmelden",
+        "button": "Absenden"
+      },
+      "error": {
+        "invalid": {
+          "invalid_email": "Geben Sie eine gültige E-Mail-Adresse ein",
+          "invalid_code": "Geben Sie den richtigen 6-stelligen Code ein"
+        }
       }
     }
   }
