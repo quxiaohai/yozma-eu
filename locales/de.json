@@ -2667,8 +2667,88 @@
         "owner_ctas": {
           "header": "Sind Sie der Ladenbesitzer?",
           "fix_domain": "Schließen Sie die Einrichtung Ihrer neuen Webadresse ab, gehen Sie zu %{domain_settings_link}. Klicken Sie auf „Domain verbinden“ und geben Sie ein: %{domain}.<br>Wenn Sie Probleme haben, sich in Ihren Shop einzuloggen, versuchen Sie die Seite %{forgot_your_store_link}.",
-          "fix_domain_link_text": "deine Domain-Einstellungen"
+          "fix_domain_link_text": "deine Domain-Einstellungen",
+          "forgot_your_store_link_text": "Ihr Geschäft vergessen",
+          "add_storefront": "Sie können Ihre Website einrichten, indem Sie den Kanal „Online-Shop“ in Ihrem %{admin_link} hinzufügen. Wenn Sie Probleme haben, sich in Ihren Shop einzuloggen, versuchen Sie die Seite %{forgot_your_store_link}.",
+          "admin_link_text": "Administrator"
+        },
+        "ctas": {
+          "sell_in_person": {
+            "caption": "Erhalten Sie die Funktionen, die Sie benötigen, um Ihr Einzelhandelsgeschäft zu führen, egal ob Sie gerade erst anfangen oder wachsen möchten.",
+            "link_text": "Kostenlose Probephase starten"
+          },
+          "open_a_store": {
+            "header": "Eröffnen Sie einen neuen Shopify-Shop",
+            "caption": "Beginnen Sie eine 3-tägige kostenlose Probezeit, danach zahlen Sie für die nächsten 3 Monate 1 $ pro Monat.",
+            "link_text": "Jetzt anmelden"
+          },
+          "editions": {
+            "header": "Entdecken Sie Shopify-Ausgaben",
+            "caption": "Mit über 100 Produktaktualisierungen können Sie produktiver und einfallsreicher sein und im Handel kraftvoller agieren, als Sie es sich je vorgestellt haben.",
+            "link_text": "Entdecken Sie die neuesten Ausgaben"
+          },
+          "store_owner": {
+            "header": "Sind Sie der Ladenbesitzer?",
+            "caption": "Haben Sie Schwierigkeiten, sich in Ihren Shop einzuloggen? Versuchen Sie die Funktion %{forgot_your_store_link}. Wenn Sie Ihren Shop reaktivieren möchten, kontaktieren Sie %{shopify_support_link}.",
+            "shopify_support_link_text": "Shopify-Unterstützung"
+          }
         }
+      }
+    },
+    "notices": {
+      "customer": {
+        "subscribe_error": "Abonnementfehler",
+        "unsubscribe_error": "Fehler beim Abbestellen",
+        "no_account_found": "Kein Konto mit dieser E-Mail-Adresse gefunden.",
+        "invalid_credentials": "Falsche E-Mail-Adresse oder falsches Passwort.",
+        "denylisted_reset_password": "Auf Ihr Konto konnte nicht zugegriffen werden, da das aktuelle Kennwort nicht sicher ist. Sie erhalten eine E-Mail, um Ihr Kennwort zu aktualisieren.",
+        "signup_disabled": "Die Erstellung von Kundenkonten wurde deaktiviert."
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "Hinzugefügt %{delta}",
+          "increment_item": "Hinzugefügt %{delta}",
+          "decrement_item": "Entfernt %{delta} von %{total}",
+          "decrement_fulfilled_line_item": "Zurückgegeben %{delta} von %{total}"
+        }
+      },
+      "order": {
+        "financial_status": {
+          "voided": "Ungültig",
+          "refunded": "Erstattet"
+        },
+        "fulfillment_status": {
+          "complete": "Abschließen",
+          "unfulfilled": "Unerfüllt",
+          "restocked": "Wieder aufgefüllt"
+        },
+        "transaction_status": {
+          "failure": "Fehler"
+        },
+        "cancel_reason": {
+          "declined": "Zahlung abgelehnt",
+          "fraud": "Betrügerische Bestellung",
+          "customer": "Kunde hat Bestellung geändert/storniert",
+          "other": "Andere"
+        },
+        "cash_on_delivery": "Nachnahme (Barzahlung bei Lieferung)"
+      },
+      "cart": {
+        "only_n_items_available": "Sie können nur %{count} %{name} zum Warenkorb hinzufügen.",
+        "too_many_items_in_cart": "Sie können nicht mehr %{name} zum Warenkorb hinzufügen.",
+        "only_one_added_to_cart": "Aufgrund der Verfügbarkeit wurde nur 1 Artikel zu Ihrem Warenkorb hinzugefügt.",
+        "only_n_added_to_cart": "Aufgrund der Verfügbarkeit wurden nur %{quantity} Artikel zu Ihrem Warenkorb hinzugefügt.",
+        "maximum_available_quantity_reached": "Die Höchstmenge dieses Artikels befindet sich bereits in Ihrem Warenkorb.",
+        "not_respect_step": "Sie können diesen Artikel nur in Schritten von %{step} hinzufügen.",
+        "all_items_in_cart": "Alle %{count} %{name} sind in deinem Warenkorb.",
+        "empty_update": "Leeren Warenkorb kann nicht aktualisiert werden",
+        "missing_parameters": "keine gültige ID oder Zeilenparameter",
+        "generic_error": "Warenkorbfehler",
+        "invalid_input": "Der Parameter %{parameter} ist ungültig.",
+        "too_many_line_items_error": "Ihr Warenkorb darf nicht mehr als %{max} Artikel enthalten.",
+        "stock_problems_html": "Ein oder mehrere Artikel sind nicht mehr verfügbar. Wir haben einen <a href='%{link}'>aktualisierten Warenkorb</a> bereitgestellt.",
+        "items_changed": "Ein oder mehrere Artikel wurden geändert.",
+        "variant_not_found": "Variante nicht gefunden"
       }
     }
   },
