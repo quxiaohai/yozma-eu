@@ -2106,7 +2106,101 @@
       },
       "customer_payment_methods": {
         "delete_customer_mandate": {
-          "generic_error": "Bei der Verarbeitung Ihrer Anfrage ist ein Problem aufgetreten."
+          "generic_error": "Bei der Verarbeitung Ihrer Anfrage ist ein Problem aufgetreten.",
+          "success_message": "Ihre Zahlungsmethode wurde erfolgreich gelöscht"
+        }
+      },
+      "throttle": {
+        "too_many_attempts": {
+          "description": "Versuchen Sie es in ein paar Minuten erneut"
+        },
+        "line_to_check_out": "Sie sind an der Reihe zur Kasse",
+        "cart_summary_heading": "Ihr Warenkorb",
+        "inventory": {
+          "partial_inventory_banner": "Ein Teil Ihres Warenkorbs ist ausverkauft und kann beim Bezahlen nicht erworben werden.",
+          "sold_out": {
+            "heading": "Ihr Warenkorb ist ausverkauft",
+            "storefront_body": "Zurück zum Laden, um mit dem Einkaufen fortzufahren",
+            "no_storefront_body": "Leider ist der Artikel, den Sie kaufen möchten, nicht mehr verfügbar.",
+            "link": "Zurück zum Geschäft"
+          }
+        },
+        "time_to_checkout_title": "Zeit zum Bezahlen - {{shopName}}",
+        "estimated_wait_time": {
+          "calculating": "Berechnung der geschätzten Wartezeit",
+          "one": "Geschätzte Wartezeit: {{count}} Minute",
+          "other": "Geschätzte Wartezeit: {{count}} Minuten"
+        },
+        "last_checked": "(Zuletzt geprüft: {{time}})",
+        "footer": {
+          "heading": "Aktualisieren Sie diese Seite nicht, sie wird automatisch erneuert.",
+          "body": "Artikel in Ihrem Warenkorb sind erst nach Abschluss des Bestellvorgangs reserviert."
+        }
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "Bei der Verarbeitung Ihrer Anfrage ist ein Problem aufgetreten. Bitte wenden Sie sich an den Ladenbesitzer."
+      },
+      "no_address_location": {
+        "title": "Ort ohne Adresse",
+        "header": "Für diesen Ort ist keine Lieferadresse hinterlegt",
+        "message": "Kontaktieren Sie uns, um eine Adresse für diesen Standort hinzuzufügen, damit der Kauf abgeschlossen werden kann.",
+        "email_us_button_label": "Senden Sie uns eine E-Mail"
+      },
+      "order_errors": {
+        "creation_failure": "Bei der Erstellung Ihrer Bestellung ist ein Problem aufgetreten. Versuchen Sie es erneut oder kontaktieren Sie uns für weitere Informationen.",
+        "network_failure": "Ihre Bestellung konnte aufgrund eines Netzwerkfehlers nicht abgeschickt werden. Überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
+        "inventory_reservation_failure": "Einige Artikel sind nicht mehr verfügbar."
+      },
+      "session_errors": {
+        "session_not_unique": "Bei der Bearbeitung Ihrer Bestellung ist ein Problem aufgetreten. Laden Sie diese Seite neu, um zum Geschäft zurückzukehren.",
+        "session_already_finished": "Diese Bestellung wurde bereits abgeschickt. Sie können zum Laden zurückkehren, um eine neue Bestellung zu beginnen."
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "Bei der Bearbeitung Ihrer Bestellung ist ein Problem aufgetreten. Versuchen Sie es in ein paar Minuten erneut."
+      },
+      "pickup_point": {
+        "title": "Abholstelle",
+        "search_button": "Suchen",
+        "selector_tabs": "Abholstellen-Auswahl",
+        "could_not_resolve_address": "Ihre Adresse konnte nicht gefunden werden. Versuchen Sie es erneut oder verwenden Sie eine andere Adresse",
+        "no_pickup_points_near_you": "Keine Abholstellen in der Nähe der ausgewählten Adresse gefunden",
+        "no_pickup_points_near_location": "Keine Abholstellen in Ihrer Nähe gefunden",
+        "pickup_unavailable_banner_title": {
+          "one": "Für Ihren Artikel sind keine Abholstellen verfügbar",
+          "other": "Für Ihre Artikel sind keine Abholstellen verfügbar"
+        },
+        "no_pickup_points_found": "Keine Abholstellen gefunden",
+        "paginator": {
+          "header": {
+            "one": "Zeige %{first} - %{last} von %{count} Punkt",
+            "other": "Zeige %{first} - %{last} von %{count} Punkten"
+          },
+          "selected_pickup_point_label": {
+            "one": "%{pickup_point_index} von %{count} Punkt",
+            "other": "%{pickup_point_index} von %{count} Punkten"
+          },
+          "selected_page": {
+            "one": "%{first} - %{last} von %{count} Punkt",
+            "other": "%{first} - %{last} von %{count} Punkten"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "one": "%{count} Abholstelle in Ihrer Nähe",
+          "other": "%{count} Abholstellen in Ihrer Nähe"
+        },
+        "change": "Standort ändern",
+        "waiting_on_pickup_point_location_notice": "Suche nach Abholstellen...",
+        "geolocation": {
+          "errors": {
+            "unsuported_by_browser": "Die Standortbestimmung wird von Ihrem Browser nicht unterstützt. Versuchen Sie es erneut oder verwenden Sie einen anderen Browser.",
+            "permission_not_allowed": "Standortfreigabe erlauben.",
+            "permission_denied": "Standort konnte nicht ermittelt werden. Bitte versuchen Sie es erneut."
+          }
+        }
+      },
+      "error_page": {
+        "terminal": {
+          "title": "Es gab ein Problem bei unserem Bezahlvorgang"
         }
       }
     },
