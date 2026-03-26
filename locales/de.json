@@ -2748,8 +2748,90 @@
         "too_many_line_items_error": "Ihr Warenkorb darf nicht mehr als %{max} Artikel enthalten.",
         "stock_problems_html": "Ein oder mehrere Artikel sind nicht mehr verfügbar. Wir haben einen <a href='%{link}'>aktualisierten Warenkorb</a> bereitgestellt.",
         "items_changed": "Ein oder mehrere Artikel wurden geändert.",
-        "variant_not_found": "Variante nicht gefunden"
+        "variant_not_found": "Variante nicht gefunden",
+        "selling_plan_not_available_for_company_locations": "Für B2B-Bestellungen ist nur ein einmaliger Kauf möglich",
+        "digital_product_not_available_for_company_locations": "Dieser Artikel kann nicht zu einer B2B-Bestellung hinzugefügt werden",
+        "buyer_cannot_purchase_for_company_locations": "Für diesen Standort können Sie nicht einkaufen",
+        "selling_plan_not_applicable": "Verkaufsplan kann nicht auf Variante angewendet werden",
+        "shipping_address_invalid": "Bei der Berechnung Ihrer Versandkosten ist ein Problem aufgetreten. Fahren Sie mit dem Bezahlen fort, um eine Versandart auszuwählen, bevor Sie Ihre Bestellung abschließen.",
+        "bundle_requires_components": "Das Bundle-Produkt '%{name}' kann nicht zum Warenkorb hinzugefügt werden.",
+        "gift_card_with_components_not_supported": "Das Bundle-Produkt '%{name}' kann nicht zum Warenkorb hinzugefügt werden.",
+        "gift_card_price_must_be_greater_than_zero": "Das Bundle-Produkt '%{name}' kann nicht zum Warenkorb hinzugefügt werden.",
+        "gift_card_recipient_validation_error": "Der angegebene Empfänger der Geschenkkarte ist ungültig",
+        "view_lines_limit_reached": "Zeilen müssen weniger als oder gleich %{limit} sein",
+        "cart_too_large": "Der Warenkorb ist zu groß.",
+        "cart_attributes_error": "Warenkorbattribute enthalten ungültige Daten.",
+        "merchandise_line_transformers": {
+          "run_error": "In Ihrem Warenkorb ist ein Fehler aufgetreten."
+        },
+        "merchandise_not_applicable": "Artikel kann in der gewählten Konfiguration nicht gekauft werden."
+      },
+      "storefront": {
+        "invalid_password": "Passwort falsch, bitte versuchen Sie es erneut."
+      },
+      "tags": {
+        "add_articles": "Suche auf Artikel mit dem Tag %{tag} eingrenzen",
+        "add_products": "Auswahl auf Produkte mit dem Tag %{tag} eingrenzen",
+        "remove_articles": "Suche auf Artikel ausweiten, die nicht mit %{tag} markiert sind",
+        "remove_products": "Entferne das Tag %{tag}"
       }
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Vielen Dank, dass Sie sich für unseren Verteiler angemeldet haben.",
+        "disclaimer": "Sie können sich jederzeit abmelden.",
+        "unsubscribe": "Abbestellen"
+      },
+      "unsubscribed": {
+        "confirmation": "Sie haben sich von unserem Verteiler abgemeldet.",
+        "disclaimer": "Sie erhalten keine weiteren Werbeinformationen von uns. Sie können sich jederzeit wieder anmelden.",
+        "preview": "Sie sehen eine Vorschau dessen, was Kunden sehen werden, wenn sie sich abmelden."
+      },
+      "sms_unsubscribe_confirm": {
+        "message": "Sind Sie sicher, dass Sie den SMS-Werbeversand abbestellen möchten?"
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Sie haben sich für die Verfolgung des Öffnens von E-Mails angemeldet.</b>",
+          "visibility": "Die Öffnungsraten von E-Mails werden anonym gemeldet. Wir sehen nur, ob Sie eine E-Mail im Rahmen einer zusammengefassten Öffnungsrate geöffnet haben.",
+          "opt_out_html": "Sie können <a style='text-decoration:underline;' href='%{link}'>die E-Mail-Öffnungsüberwachung deaktivieren</a>, wenn Sie diese Informationen nicht teilen möchten.",
+          "preview_bar": "Sie sehen eine Vorschau dessen, was Kunden sehen werden, wenn sie sich für die Verfolgung des Öffnens von E-Mails anmelden."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Sie haben sich gegen das Nachverfolgen des Öffnens von E-Mails entschieden.</b>",
+          "visibility": "Wir können nicht sehen, ob Sie unsere E-Mails geöffnet haben.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Anmelden</a> für das E-Mail-Öffnungs-Tracking.",
+          "preview_bar": "Sie sehen eine Vorschau dessen, was Kunden sehen werden, wenn sie das Nachverfolgen des Öffnens von E-Mails ablehnen."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Wir verfolgen keine E-Mail-Öffnungen mehr.</b>",
+          "privacy_policy": "Nachdem diese E-Mail versandt wurde, haben wir unsere Datenschutzerklärung aktualisiert und verfolgen das Öffnen nicht mehr."
+        },
+        "track": {
+          "status_html": "<b>Das Öffnen der E-Mail wird gemeldet.</b>",
+          "visibility": "Wir sehen nur, ob Sie die E-Mail geöffnet haben, als Teil der gesamten Öffnungsrate der E-Mails."
+        },
+        "updated_policy": {
+          "status_html": "<b>Das Öffnen der E-Mail wird gemeldet.</b>",
+          "visibility": "Wir haben unsere Richtlinie aktualisiert und verfolgen nun das Öffnen von E-Mails. Die Öffnungsraten der E-Mails werden anonym gemeldet. Wir sehen nur, ob Sie eine E-Mail geöffnet haben, als Teil der gesamten Öffnungsrate.",
+          "opt_out_html": "Wenn Sie diese Informationen nicht teilen möchten, können Sie <a style='text-decoration:underline;' href='%{link}'>abmelden.</a>"
+        }
+      }
+    },
+    "search": {
+      "error": "Beim Laden Ihrer Suchergebnisse ist ein Problem aufgetreten. Bitte laden Sie die Seite neu oder versuchen Sie es später noch einmal.",
+      "sorting": {
+        "price_ascending": "Preis, aufsteigend",
+        "price_descending": "Preis, von hoch nach niedrig"
+      }
+    },
+    "page_titles": {
+      "blog_or_article_with_error": "Fehler - %{title}",
+      "shopping_cart": "Ihr Einkaufskorb",
+      "order": "Bestelle %{name}",
+      "search": "Suchen",
+      "collections": "Sammlungen",
+      "checkpoint": "Kontrollpunkt"
     }
   },
   "products": {
