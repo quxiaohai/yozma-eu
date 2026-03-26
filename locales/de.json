@@ -309,19 +309,19 @@
       "last_name": "Nachname",
       "company": "Unternehmen",
       "phone": "Telefonnummer",
-      "address1": "Adresszeile 1",
-      "address2": "Adresszeile 2",
-      "city": "Ort",
-      "zip": "PLZ",
+      "address1": "Adresse 1",
+      "address2": "Adresse 2",
+      "city": "Stadt",
+      "zip": "Postleitzahl",
       "country": "Land",
-      "province": "Bundesland/Kanton",
+      "province": "Provinz",
       "set_default": "Als Standardadresse festlegen"
     }
   },
   "cart": {
     "general": {
       "title": "Warenkorb",
-      "empty": "Dein Warenkorb ist leer",
+      "empty": "Ihr Warenkorb ist leer",
       "item_count": {
         "one": "{{ count }} Artikel",
         "other": "{{ count }} Artikel",
@@ -330,13 +330,13 @@
       "continue_shopping": "Weiter einkaufen",
       "weight": "Gewicht",
       "subtotal": "Zwischensumme",
-      "total": "Gesamtbetrag",
-      "taxes_and_shipping_policy_at_checkout_html": "Steuern und <a href=\"{{ link }}\" class=\"link\">Versand</a> werden beim Checkout berechnet",
-      "taxes_included_but_shipping_at_checkout": "Inklusive Steuern, Versand wird beim Checkout berechnet",
-      "taxes_included_and_shipping_policy_html": "Inklusive Steuern. <a href=\"{{ link }}\" class=\"link\">Versand </a> wird beim Checkout berechnet",
-      "taxes_and_shipping_at_checkout": "Steuern und Versand werden beim Checkout berechnet",
-      "add_order_note": "Bestellhinweis hinzufügen",
-      "edit_order_note": "Bestellhinweis bearbeiten",
+      "total": "Gesamt",
+      "taxes_and_shipping_policy_at_checkout_html": "Steuern und <a href=\"{{ link }}\" class=\"link\">Versand</a> werden an der Kasse berechnet",
+      "taxes_included_but_shipping_at_checkout": "Steuer enthalten und Versandkosten werden beim Bezahlen berechnet",
+      "taxes_included_and_shipping_policy_html": "Steuern inklusive. <a href=\"{{ link }}\" class=\"link\">Versand</a> wird an der Kasse berechnet.",
+      "taxes_and_shipping_at_checkout": "Steuern und Versandkosten werden beim Bezahlen berechnet",
+      "add_order_note": "Bestellnotiz hinzufügen",
+      "edit_order_note": "Bestellungshinweis bearbeiten",
       "order_note": "Bestellhinweis",
       "save_note": "Speichern",
       "view_cart": "Warenkorb ansehen",
@@ -345,71 +345,71 @@
     },
     "order": {
       "product": "Produkt",
-      "total": "Summe",
-      "quantity": "Anzahl",
-      "change_quantity": "Anzahl ändern",
-      "increase_quantity": "Anzahl erhöhen",
-      "decrease_quantity": "Anzahl verringern",
+      "total": "Gesamt",
+      "quantity": "Menge",
+      "change_quantity": "Menge ändern",
+      "increase_quantity": "Menge erhöhen",
+      "decrease_quantity": "Menge verringern",
       "remove": "Entfernen",
       "remove_with_title": "Entfernen {{ title }}"
     },
     "free_shipping_bar": {
-      "limit_unreached_html": "Füge deiner Bestellung Artikel im Wert von {{ remaining_amount }} hinzu und erhalte kostenlosen Versand!",
-      "limit_reached_html": "Deine Bestellung ist für kostenlosen Versand qualizifiert."
+      "limit_unreached_html": "Gib noch {{ remaining_amount }} aus und erhalte kostenlosen Versand!",
+      "limit_reached_html": "Sie sind berechtigt für kostenlosen Versand."
     },
     "shipping_estimator": {
-      "estimate_shipping": "Versandkosten berechnen",
+      "estimate_shipping": "Versandkosten schätzen",
       "country": "Land",
-      "province": "Bundesland/Kanton",
-      "zip": "PLZ",
-      "estimate": "Berechnen",
-      "no_results": "Tut uns leid, aber wir verschicken leider nicht an deine Adresse.",
-      "one_result": "Für deine Adresse gibt es einen Versandtarif:",
-      "multiple_results": "Für deine Adresse gibt es mehrere Versandtarife:",
-      "error": "Beim Berechnen der Versandkosten ist ein Fehler aufgetreten:"
+      "province": "Provinz",
+      "zip": "Postleitzahl",
+      "estimate": "Schätzung",
+      "no_results": "Entschuldigung, wir liefern nicht an Ihre Adresse.",
+      "one_result": "Für Ihre Adresse gilt ein einheitlicher Versandtarif:",
+      "multiple_results": "Für Ihre Adresse gibt es mehrere Versandtarife:",
+      "error": "Beim Abrufen der Versandkosten ist ein oder mehrere Fehler aufgetreten:"
     }
   },
   "search": {
     "general": {
       "title": "Suchen",
-      "terms": "Treffer für \"{{ terms }}\"",
-      "search_placeholder": "Gib etwas ein...",
+      "terms": "Ergebnisse für \"{{ terms }}\"",
+      "search_placeholder": "Suche nach...",
       "products": "Produkte",
-      "suggestions": "Anregungen",
-      "collections": "Kategorien",
-      "posts": "Blog-Artikel",
+      "suggestions": "Vorschläge",
+      "collections": "Sammlungen",
+      "posts": "Blogbeiträge",
       "pages": "Seiten",
-      "clear": "Zurücksetzen",
-      "view_all": "Alle Treffer anzeigen",
-      "view_all_results": "Alle Treffer anzeigen",
-      "no_results": "Keine Treffer"
+      "clear": "Klar",
+      "view_all": "Alle anzeigen",
+      "view_all_results": "Alle Ergebnisse anzeigen",
+      "no_results": "Es konnten keine Ergebnisse gefunden werden."
     },
     "results_count": {
-      "zero": "0 Treffer für \"{{ terms }}\"",
-      "one": "1 Treffer für \"{{ terms }}\"",
-      "other": "{{ count }} Treffer für \"{{ terms }}\""
+      "zero": "0 Ergebnisse für \"{{ terms }}\"",
+      "one": "1 Ergebnis für \"{{ terms }}\"",
+      "other": "{{ count }} Ergebnisse für \"{{ terms }}\""
     }
   },
   "gift_card": {
     "general": {
-      "title": "Hier ist dein Geschenkgutschein",
+      "title": "Hier ist Ihre Geschenkkarte",
       "copy": "Kopieren",
       "print": "Drucken",
-      "scan": "oder scanne diesen QR-Code",
-      "back_to_store": "Zurück zum Shop"
+      "scan": "oder scannen Sie diesen QR-Code",
+      "back_to_store": "Zurück zum Geschäft"
     },
     "issued": {
-      "remaining_amount": "Restbetrag",
-      "out_of_html": "von {{ initial_value }}",
-      "redeem_instructions": "Benutze diesen Code, um deinen Geschenkgutschein an der Kasse einzulösen:",
-      "code": "Gutscheincode",
+      "remaining_amount": "Verbleibender Betrag",
+      "out_of_html": "von {{ initial_value }} übrig",
+      "redeem_instructions": "Verwenden Sie diesen Code, um Ihre Geschenkkarte an der Kasse einzulösen:",
+      "code": "Geschenkkartencode",
       "expires_on": "Läuft ab am: {{ expires_on }}",
-      "expired": "Dein Geschenkgutschein ist abgelaufen oder wurde deaktiviert.",
-      "add_to_apple_wallet": "Zu deinem Apple Wallet hinzufügen"
+      "expired": "Ihre Geschenkkarte ist abgelaufen oder wurde deaktiviert.",
+      "add_to_apple_wallet": "Zur Apple Wallet hinzufügen"
     },
     "recipient": {
       "checkbox": "Ich möchte dies als Geschenk senden",
-      "email_label": "Empfänger E-Mail",
+      "email_label": "Empfänger-E-Mail",
       "name_label": "Name des Empfängers (optional)",
       "send_on_label": "Senden am (optional)",
       "message_label": "Nachricht (optional)"
