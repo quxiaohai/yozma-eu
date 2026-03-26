@@ -3297,7 +3297,85 @@
       "unit_price": "{{price}}/Stück",
       "pagination": {
         "load_more": "Mehr laden",
-        "load_more_accessibility_label": "Mehr Artikel laden"
+        "load_more_accessibility_label": "Mehr Artikel laden",
+        "loading_accessibility_label": "Lade Gegenstände"
+      },
+      "login_to_view_all_order_details": "Melden Sie sich an, um alle Bestelldetails einzusehen.",
+      "logged_in_account_no_permission_to_order": "Sie sind angemeldet als {{email}}. Dieses Konto hat keine Berechtigung, diese Bestellung zu verwalten.",
+      "log_in_to_a_different_account": "Bei einem anderen Konto anmelden",
+      "fees": {
+        "restocking_fee": "Wiederauffüllungsgebühr",
+        "return_shipping_fee": "Rückversand"
+      },
+      "vat_invoices": {
+        "title": "Mehrwertsteuerrechnungen"
+      },
+      "cash_rounding": "Bargeldrundung",
+      "adjusted_total": "Angepasste Summe",
+      "due_on_fulfillment": "Fällig bei Erfüllung",
+      "due_on_receipt": "Zahlbar bei Erhalt"
+    },
+    "addresses": {
+      "add_address_banner": "Adressen zum Bezahlen hinzufügen",
+      "address_deleted_notification": "Adresse gelöscht",
+      "cancel_deletion_button": "Abbrechen",
+      "cancel_deletion_button_accessibility_label": "Löschen von {{address}} abbrechen",
+      "delete_button_accessibility_label": "Lösche {{address}}",
+      "delete_confirmation_button_accessibility_label": "Lösche {{address}}",
+      "delete_confirmation_message": "Adresse löschen? Bestehende Bestellungen bleiben unberührt.",
+      "delete_confirmation_description": "Bestehende Bestellungen sind nicht betroffen.",
+      "edit_button_accessibility_label": "Bearbeite {{address}}",
+      "edit_section_accessibility_label": "Bearbeite {{address}}",
+      "loading_billing_accessibility_message": "Lade Rechnungsadresse",
+      "loading_finished_accessibility_message": "Neue Seite mit Adressen wurde geladen",
+      "loading_shipping_accessibility_message": "Lade Lieferadresse",
+      "pagination": {
+        "load_more": "Mehr laden",
+        "load_more_accessibility_label": "Mehr Adressen laden"
+      }
+    },
+    "address_form": {
+      "attention": "Achtung",
+      "attention_company": "Firma/Aufmerksamkeit",
+      "cancel": "Abbrechen",
+      "default_address": "Dies ist meine Standardadresse",
+      "loading_edit_form_accessibility_message": "Lade Formular zur Adressbearbeitung",
+      "loading_form_accessibility_message": "Lade Adressformular",
+      "update_success_notification": "Adresse aktualisiert"
+    },
+    "account_menu": {
+      "signed_out_state": {
+        "section_divider": "Mehr Möglichkeiten zur Anmeldung",
+        "email_field_label": "E-Mail",
+        "continue_with_google": "Mit Google fortfahren",
+        "continue_with_facebook": "Mit Facebook fortfahren"
+      },
+      "signed_in_state": {
+        "greeting_with_name": "Hallo, {{first_name}}"
+      },
+      "location_picker": {
+        "sheet_title": "Orte",
+        "search_field_placeholder": "Suchen"
+      },
+      "aria_labels": {
+        "open_submenu": "{{title}}, Untermenü öffnen",
+        "sign_in_with_email": "Mit E-Mail anmelden"
+      }
+    },
+    "B2B": {
+      "account_information": {
+        "company_card_name_label": "Firmenname"
+      },
+      "locations": {
+        "contact_list_title": "Menschen",
+        "location_picker_label": "Ortsname",
+        "net_payment_terms_description": "{{name}}: Zahlungen fällig innerhalb von {{numberOfDays}} Tagen",
+        "deposit_percentage": "{{percentage}} Anzahlung",
+        "pagination": {
+          "load_more": "Mehr laden"
+        },
+        "permissions_label": "Ihre Berechtigungen",
+        "section_title": "Ort"
       }
     }
   }
