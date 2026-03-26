@@ -899,9 +899,75 @@
             "other": "Keine Lieferung für %{count} Artikel verfügbar"
           },
           "message": {
-            "one": "Dieser Artikel wird aus Ihrem Warenkorb entfernt, da für Ihre Adresse keine Liefermöglichkeiten verfügbar sind."
-          }
+            "one": "Dieser Artikel wird aus Ihrem Warenkorb entfernt, da für Ihre Adresse keine Liefermöglichkeiten verfügbar sind.",
+            "other": "Diese Artikel werden aus Ihrem Warenkorb entfernt, da für Ihre Adresse keine Liefermöglichkeiten verfügbar sind."
+          },
+          "label": "Keine Lieferung"
         }
+      },
+      "order_summary": {
+        "from_other_stores_heading": "Aus anderen Geschäften",
+        "from_multiple_stores_heading": "Von mehreren Geschäften",
+        "view_all_items": {
+          "one": "%{count} Artikel anzeigen"
+        },
+        "more_items_modal": {
+          "search_item": "Suchen",
+          "clear_search": "Suche löschen",
+          "empty_results": "Keine Ergebnisse für \"%{searchText}\" gefunden. Überprüfen Sie die Rechtschreibung oder verwenden Sie ein anderes Wort oder eine andere Phrase."
+        },
+        "order_name_label": "Bestelle %{name}",
+        "shopping_cart_label": "Einkaufswagen",
+        "discount_order_stacking": {
+          "one": "Bestellrabatt",
+          "other": "Bestellrabatte"
+        },
+        "discount_not_found": "Es konnte kein gültiger Rabatt gefunden werden, der dem eingegebenen Code entspricht",
+        "discount_code_applied_with_code": "Der Rabattcode %{code} wurde angewendet",
+        "discount_code_removed": "Der Rabattcode %{code} wurde entfernt",
+        "discount_code_replaced": "Rabattcode %{old_code} wurde entfernt und %{code} wurde angewendet",
+        "discount_code_replaced_multiple": "Mehrere Rabattcodes wurden entfernt und %{code} wurde angewendet",
+        "discount_code_allocations_mismatch": "Ihr <strong style=\"text-transform:uppercase\">%{code}</strong>-Rabattcode wurde geändert. Überprüfen Sie Ihren Warenkorb und versuchen Sie es erneut.",
+        "order_discounts_apply_to_local_shop": "Rabatte gelten nur für Artikel von %{shop_name}",
+        "gift_card_applied": "Geschenkkarte angewendet",
+        "gift_card_and_discount_title": "Rabattcode oder Geschenkkarte",
+        "gift_card_and_discount_label": "Rabattcode oder Geschenkkarte",
+        "gift_card_and_discount_placeholder": "Rabattcode oder Geschenkkarte",
+        "gift_cards_apply_to_local_shop": "Geschenkkarten gelten nur für Artikel von %{shop_name}",
+        "add_discount_or_gift_card": "Geben Sie einen Rabattcode oder eine Geschenkkarte ein",
+        "return_restocking_fee_label": "Wiederauffüllungsgebühr",
+        "return_shipping_fee_label": "Rückversand",
+        "free_shipping_discount_label": "Kostenloser Versand",
+        "applied_discount_message": "%{amount} Rabatt auf den Gesamtbestellpreis",
+        "discount_has_been_applied": "Rabatt wurde angewendet",
+        "discount_has_been_removed": "Rabatt wurde entfernt",
+        "gift_card_has_been_applied": "Geschenkkarte wurde angewendet",
+        "gift_card_has_been_removed": "Geschenkkarte wurde entfernt",
+        "gift_card_subscriptions_notice": "Geschenkkarten werden nur auf Ihre erste Zahlung angerechnet",
+        "discount_already_applied": "Ein Rabatt wurde auf diese Bestellung angewendet. Sie können keinen weiteren Rabatt hinzufügen.",
+        "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong>-Rabattcode ist für die Artikel in Ihrem Warenkorb nicht gültig",
+        "discount_requires_customer_notice": "Geben Sie Ihre Versandinformationen ein, um den Rabattcode <strong style=\"text-transform:uppercase\">%{code}</strong> anzuwenden",
+        "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong>-Rabattcode ist derzeit für Sie nicht verfügbar",
+        "shipping_information_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong>-Rabattcode ist für Ihre Versandadresse nicht verfügbar",
+        "customer_already_used_once_per_customer_discount_notice": "Der Rabattcode <strong style=\"text-transform:uppercase\">%{code}</strong> wurde bereits verwendet",
+        "subtotal_label_with_quantity": {
+          "one": "Zwischensumme · %{count} Artikel",
+          "other": "Zwischensumme · %{count} Artikel"
+        },
+        "pickup_label": "Abholung im Geschäft",
+        "pickup_unavailable_banner_title": {
+          "one": "Keine Geschäfte mit Ihrem Artikel verfügbar",
+          "other": "Keine Geschäfte mit Ihren Artikeln verfügbar"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Keine Geschäfte in %{country} mit Ihrem Artikel verfügbar",
+          "other": "Keine Geschäfte in %{country} mit Ihren Artikeln verfügbar"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "An Lieferadresse senden"
+        },
+        "tip_label": "Tipp",
+        "unconfirmed_label": "Unbestätigt"
       }
     },
     "sentence": {
