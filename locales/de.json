@@ -2533,7 +2533,62 @@
               "de": "Deutsche Umsatzsteuer-Identifikationsnummern enthalten DE und 9 Zeichen",
               "gr": "Griechische Mehrwertsteuernummern enthalten EL und 9 Zeichen",
               "hu": "Ungarische Mehrwertsteuernummern enthalten HU und 8 Zeichen",
-              "ie": "Irische Mehrwertsteuernummern enthalten IE und 8-9 Zeichen"
+              "ie": "Irische Mehrwertsteuernummern enthalten IE und 8-9 Zeichen",
+              "it": "Italienische Mehrwertsteuernummern enthalten IT und 11 Zeichen",
+              "lv": "Lettische Mehrwertsteuernummern enthalten LV und 11 Zeichen",
+              "lt": "Litauische Mehrwertsteuernummern enthalten LT und 9-12 Zeichen",
+              "lu": "Luxemburgische Mehrwertsteuernummern enthalten LU und 8 Zeichen",
+              "mt": "Maltesische Mehrwertsteuernummern enthalten MT und 8 Zeichen",
+              "nl": "Niederländische Mehrwertsteuernummern enthalten NL und 12 Zeichen",
+              "pl": "Polnische Mehrwertsteuernummern enthalten PL und 10 Zeichen",
+              "pt": "Portugiesische Mehrwertsteuernummern enthalten PT und 9 Zeichen",
+              "ro": "Rumänische Mehrwertsteuernummern enthalten RO und 10 Zeichen",
+              "sk": "Slowakische Mehrwertsteuernummern enthalten SK und 10 Zeichen",
+              "si": "Slowenische Mehrwertsteuernummern enthalten SI und 8 Zeichen",
+              "es": "Spanische Umsatzsteuer-Identifikationsnummern enthalten ES und 9 Zeichen",
+              "se": "Schwedische Mehrwertsteuernummern enthalten SE und 12 Zeichen",
+              "gb": "Die Mehrwertsteuernummern des Vereinigten Königreichs enthalten GB oder XI und 5-12 Zeichen"
+            },
+            "invalid_number": {
+              "at": "Geben Sie eine gültige österreichische Umsatzsteuer-Identifikationsnummer ein",
+              "be": "Geben Sie eine gültige belgische Umsatzsteuer-Identifikationsnummer ein",
+              "bg": "Geben Sie eine gültige bulgarische Umsatzsteuer-Identifikationsnummer ein",
+              "hr": "Geben Sie eine gültige kroatische Umsatzsteuer-Identifikationsnummer ein",
+              "cy": "Geben Sie eine gültige zyprische Umsatzsteuer-Identifikationsnummer ein",
+              "cz": "Geben Sie eine gültige tschechische Umsatzsteuer-Identifikationsnummer ein",
+              "dk": "Geben Sie eine gültige dänische Umsatzsteuer-Identifikationsnummer ein",
+              "ee": "Geben Sie eine gültige estnische Umsatzsteuer-Identifikationsnummer ein",
+              "fi": "Geben Sie eine gültige finnische Umsatzsteuer-Identifikationsnummer ein",
+              "fr": "Geben Sie eine gültige französische Umsatzsteuer-Identifikationsnummer ein",
+              "de": "Geben Sie eine gültige deutsche Umsatzsteuer-Identifikationsnummer ein",
+              "gr": "Geben Sie eine gültige griechische Umsatzsteuer-Identifikationsnummer ein",
+              "hu": "Geben Sie eine gültige ungarische Umsatzsteuer-Identifikationsnummer ein",
+              "ie": "Geben Sie eine gültige irische Umsatzsteuer-Identifikationsnummer ein",
+              "it": "Geben Sie eine gültige italienische Umsatzsteuer-Identifikationsnummer ein",
+              "lv": "Geben Sie eine gültige lettische Umsatzsteuer-Identifikationsnummer ein",
+              "lt": "Geben Sie eine gültige litauische Umsatzsteuer-Identifikationsnummer ein",
+              "lu": "Geben Sie eine gültige luxemburgische Umsatzsteuer-Identifikationsnummer ein",
+              "mt": "Geben Sie eine gültige maltesische Umsatzsteuer-Identifikationsnummer ein",
+              "nl": "Geben Sie eine gültige niederländische Umsatzsteuer-Identifikationsnummer ein",
+              "pl": "Geben Sie eine gültige polnische Umsatzsteuer-Identifikationsnummer ein",
+              "pt": "Geben Sie eine gültige portugiesische Umsatzsteuer-Identifikationsnummer ein",
+              "ro": "Geben Sie eine gültige rumänische Umsatzsteuer-Identifikationsnummer ein",
+              "sk": "Geben Sie eine gültige slowakische Umsatzsteuer-Identifikationsnummer ein",
+              "si": "Geben Sie eine gültige slowenische Umsatzsteuer-Identifikationsnummer ein",
+              "es": "Geben Sie eine gültige spanische Umsatzsteuer-Identifikationsnummer ein",
+              "se": "Geben Sie eine gültige schwedische Umsatzsteuer-Identifikationsnummer ein",
+              "gb": "Geben Sie eine gültige Mehrwertsteuernummer des Vereinigten Königreichs ein"
+            }
+          },
+          "accessibility": {
+            "status": {
+              "validating": "Die Mehrwertsteuernummer wird überprüft",
+              "valid": "Umsatzsteuer-Identifikationsnummer ist gültig",
+              "applied": "Die Mehrwertsteuerbefreiung wurde angewendet",
+              "domestic": "Mehrwertsteuerbefreiung nicht angewendet",
+              "invalid_number": "Mehrwertsteuerbefreiung fehlgeschlagen",
+              "service_unavailable": "Umsatzsteuerbefreiung kann nicht bestätigt werden",
+              "service_error": "Umsatzsteuerbefreiung kann nicht bestätigt werden"
             }
           }
         }
@@ -2542,6 +2597,79 @@
     "sentence": {
       "two_words_connector": "und",
       "last_word_connector": ", und"
+    },
+    "pagination": {
+      "previous": "Zurück",
+      "next": "Weiter"
+    },
+    "links": {
+      "powered_by_shopify": "Angetrieben von Shopify"
+    },
+    "attributes": {
+      "password_confirmation": "Die Passwortbestätigung",
+      "body": "Körper"
+    },
+    "addresses": {
+      "pincode": "PIN-Code",
+      "state": "Status",
+      "state_and_territory": "Bundesland/Gebiet",
+      "county": "Grafschaft",
+      "emirate": "Emirat",
+      "governorate": "Gouvernement",
+      "confirm": "Sind Sie sicher, dass Sie diese Adresse löschen möchten?"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Empfohlen",
+        "best_selling": "Bestseller",
+        "az": "Alphabetisch, A–Z",
+        "price_ascending": "Preis, aufsteigend",
+        "price_descending": "Preis, von hoch nach niedrig",
+        "date_descending": "Datum, neu nach alt"
+      }
+    },
+    "errors": {
+      "credit_card_session_expired": "Die Kreditkartenautorisierung ist abgelaufen, bitte geben Sie Ihre Zahlungsinformationen erneut ein. Ihre Karte wurde nicht belastet.",
+      "invalid_email": "muss eine gültige E-Mail-Adresse sein",
+      "discount_not_found": "Es konnte kein gültiger Rabatt gefunden werden, der dem eingegebenen Code entspricht",
+      "gift_card_already_applied": "Der Code wurde bereits auf Ihren Kauf angewendet",
+      "gift_card_code_invalid": "Code ist ungültig",
+      "gift_card_currency_mismatch": "Ihre Geschenkkarte ist in %{gift_card_currency}. Kontaktieren Sie uns, um sie in %{checkout_currency} neu ausstellen zu lassen.",
+      "gift_card_depleted": "Auf dieser Geschenkkarte sind keine Guthaben mehr vorhanden",
+      "gift_card_disabled": "Geschenkkarte ist deaktiviert",
+      "bad_domain": "enthält einen ungültigen Domainnamen",
+      "taken": "ist bereits vergeben",
+      "too_short": "ist zu kurz (mindestens %{count} Zeichen)",
+      "too_long": "ist zu lang (maximal %{count} Zeichen)",
+      "contains_spaces": "beginnt oder endet mit Leerzeichen.",
+      "invalid_for_country": "ist für %{country} nicht gültig",
+      "invalid_state_in_country": "ist kein gültiger Bundesstaat in %{country}",
+      "full_name_required": "Geben Sie einen Vor- und Nachnamen ein",
+      "invalid_for_card_type": "ist ungültig",
+      "invalid_type": "Entschuldigung, wir akzeptieren keine Karten dieses Typs",
+      "invalid_format": "Format ist ungültig",
+      "expired": "ist abgelaufen",
+      "invalid_start_date_or_issue_number_for_debit": "Ein gültiges Anfangsdatum oder eine Ausgabennummer ist erforderlich",
+      "reset_password_html": "Diese E-Mail-Adresse ist bereits mit einem Konto verknüpft. Wenn dieses Konto Ihnen gehört, können Sie <a href=\"/account/login#recover\">Ihr Passwort zurücksetzen</a>",
+      "verify_email": "Wir haben eine E-Mail an %{customer_email} gesendet. Bitte klicken Sie auf den enthaltenen Link, um Ihre E-Mail-Adresse zu bestätigen.",
+      "product_not_available": "Produkt ist für diesen Kunden nicht veröffentlicht.",
+      "shop_404": {
+        "title": "Erstellen Sie eine Handelswebseite und verkaufen Sie online! Handelssoftware von Shopify",
+        "heros": {
+          "store_unavailable": "Entschuldigung, dieses Geschäft ist derzeit nicht verfügbar.",
+          "store_not_exist": "Dieses Geschäft existiert nicht.",
+          "no_storefront": "Dieser Laden hat noch keine Webseite."
+        },
+        "links": {
+          "explore_other_stores": "Andere Geschäfte erkunden",
+          "start_free_trial": "Starte eine kostenlose Probezeit"
+        },
+        "owner_ctas": {
+          "header": "Sind Sie der Ladenbesitzer?",
+          "fix_domain": "Schließen Sie die Einrichtung Ihrer neuen Webadresse ab, gehen Sie zu %{domain_settings_link}. Klicken Sie auf „Domain verbinden“ und geben Sie ein: %{domain}.<br>Wenn Sie Probleme haben, sich in Ihren Shop einzuloggen, versuchen Sie die Seite %{forgot_your_store_link}.",
+          "fix_domain_link_text": "deine Domain-Einstellungen"
+        }
+      }
     }
   },
   "products": {
