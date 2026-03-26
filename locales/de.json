@@ -3149,8 +3149,82 @@
           },
           "details_modal": {
             "title": "Lieferung garantiert durch",
-            "modal_accessiblity_label": "Details zum Lieferzusagen"
+            "modal_accessiblity_label": "Details zum Lieferzusagen",
+            "delivery_guarantee_label": "Liefergarantie",
+            "delivery_by_label": "Lieferung bis {{date}}",
+            "delivery_guaranteed_by_label": "Lieferung garantiert bis {{date}}",
+            "shop_cash_claim": {
+              "may_be_eligible_label": "Shop-Versprechen garantiert schnelle, verlässliche Lieferung. Fordern Sie Shop-Geld zurück, wenn Ihre Bestellung verspätet ankommt.",
+              "may_be_eligible_not_authorized_label": "Sie könnten Anspruch auf Einkaufsgeld haben, da diese Bestellung verspätet eingetroffen ist. Melden Sie sich an, um Einzelheiten zu sehen.",
+              "redeemed_label": "Sie haben bereits Shop-Guthaben erhalten, da diese Bestellung verspätet eingetroffen ist.",
+              "expired_label": "Für diese Bestellung kann kein Anspruch auf verspätete Lieferung geltend gemacht werden, da die 30-Tage-Garantie abgelaufen ist.",
+              "no_shop_cash_label": "Diese Bestellung ist nicht für eine Nachlieferungsforderung berechtigt, da sie nicht mit Shop Pay bezahlt wurde.",
+              "no_longer_guaranteed_label": "Für diese Artikel wird keine Liefergarantie mehr gegeben.",
+              "claim_shop_cash_title": "Scannen, um {{amount}} Shop-Guthaben zu erhalten",
+              "claim_shop_cash_description": "Sie können Ihr Shop-Guthaben für zukünftige Einkäufe in der Shop-App verwenden."
+            }
           }
+        }
+      },
+      "fulfillment_status_title": "Erfüllungsstatus: {{status}}",
+      "buy_again_accessibility_label": "Erneut kaufen für Bestellung {{orderId}}"
+    },
+    "order_details": {
+      "shipment_timeline": {
+        "expand_events_accessibility_label": "Bestelldetails zur Sendung anzeigen",
+        "hide_events_accessibility_label": "Bestelldaten zum Versand ausblenden"
+      },
+      "addresses_section_title": "Rechnungs- und Versandadresse",
+      "order_details_skeleton_accessibility_label": "Melden Sie sich an, um alle Bestelldetails einzusehen.",
+      "company_and_location": "Firma und Standort",
+      "fully_refunded_label": "RÜCKERSTATTET",
+      "grouped_view_components": {
+        "expand_line_items": "Zeige {{count}} Artikel",
+        "line_item_summary_list_accessibility_label": "Artikel im {{productTitle}} Bundle"
+      },
+      "price_before_discount_accessibility_label": "Ursprünglicher Preis",
+      "price_after_discount_accessibility_label": "Reduzierter Preis",
+      "compare_at_sale": "Verkauf ({{saleAmount}})",
+      "hide_items": "Elemente ausblenden",
+      "loading": "Lade Bestelldetails",
+      "location": "Ort",
+      "image_gallery": {
+        "product_name_and_quantity": "{{productName}} Menge {{quantity}}",
+        "load_more_items": {
+          "one": "Weitere {{count}} Artikel laden",
+          "other": "Weitere {{count}} Artikel laden"
+        }
+      },
+      "mobile_summary_toggle_button": {
+        "closed": "Bestellübersicht ausblenden"
+      },
+      "not_applicable": "Nicht verfügbar",
+      "partially_refunded_label": "TEILWEISE ERSTATTET",
+      "payment_confirmation": {
+        "payment_received": "Danke! Ihre Zahlung über {{amount}} wurde erhalten.",
+        "full_payment_received": "Vielen Dank! Ihre Zahlung in Höhe von {{amount}} wurde erhalten, und diese Bestellung ist nun vollständig bezahlt.",
+        "payment_authorized": "Danke! Der Kontostand wird aktualisiert, sobald die Zahlung eingegangen ist.",
+        "dismiss_label": "Zahlungsbestätigung verwerfen"
+      },
+      "payment": {
+        "status_in_review": "Zahlung fällig nach Überprüfung",
+        "payment_type": {
+          "gift_card": "Geschenkkarte",
+          "store_credit": "Guthaben im Geschäft",
+          "money_order": "Postanweisung",
+          "cash_on_delivery": "Nachnahme (Barzahlung bei Lieferung)",
+          "bank_deposit": "Bankeinzahlung",
+          "manual": "Handbuch"
+        },
+        "card_payment_details": "endet mit {{lastDigits}} - {{formattedTransactionAmount}}",
+        "gift_card_payment_details": "endet mit {{lastDigits}} - {{formattedTransactionAmount}}",
+        "store_credit_payment_details": "Guthaben - {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "Bezahlung in Raten mit Shop Pay",
+          "view_schedule": "Zeitplan anzeigen"
+        },
+        "manual_payment_methods": {
+          "money_order": "Postanweisung - {{formattedTransactionAmount}}"
         }
       }
     }
