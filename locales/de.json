@@ -3533,7 +3533,111 @@
         "description": "Verbindungsfehler. Überprüfen Sie Ihre Internetverbindung und versuchen Sie es erneut."
       },
       "banner_title": {
-        "one": "Es gibt {{count}} Fehler"
+        "one": "Es gibt {{count}} Fehler",
+        "other": "Es gibt {{count}} Fehler"
+      },
+      "failed_address_creation": {
+        "description": "Beim Erstellen Ihrer Adresse ist ein Problem aufgetreten. Versuchen Sie, diese Seite zu aktualisieren, oder überprüfen Sie Ihre Internetverbindung."
+      },
+      "failed_address_update": {
+        "description": "Beim Aktualisieren Ihrer Adresse ist ein Problem aufgetreten. Versuchen Sie, diese Seite zu aktualisieren, oder überprüfen Sie Ihre Internetverbindung."
+      },
+      "load_address_form_error": {
+        "title": "Adresseformular kann nicht geladen werden",
+        "description": "Das Adressformular konnte nicht geladen werden."
+      },
+      "load_orders_error": {
+        "description": "Erneut versuchen oder später zurückkommen."
+      },
+      "load_paypal_error": {
+        "description": "Es gibt ein Problem beim Laden von PayPal. Bitte versuchen Sie es erneut."
+      },
+      "logout_everywhere": {
+        "description": "Beim Abmelden ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
+      },
+      "no_access_to_locations": {
+        "description": "Sie haben keinen Zugriff auf irgendwelche Standorte"
+      },
+      "not_found": {
+        "description": "Überprüfen Sie die Webadresse oder versuchen Sie es in ein paar Minuten erneut."
+      },
+      "order_not_found": {
+        "description": "Diese Bestellung existiert nicht oder Sie haben keine Berechtigung, sie einzusehen."
+      },
+      "profile_update_error": {
+        "description": "Beim Aktualisieren Ihres Profils ist ein Problem aufgetreten. Versuchen Sie, diese Seite neu zu laden, oder überprüfen Sie Ihre Internetverbindung."
+      },
+      "profile_name_update_error": {
+        "description": "Beim Aktualisieren Ihres Namens ist ein Problem aufgetreten. Versuchen Sie, diese Seite zu aktualisieren, oder überprüfen Sie Ihre Internetverbindung."
+      },
+      "resend_link": {
+        "too_many_requests": "Zu viele Anfragen. Bitte versuchen Sie es später erneut.",
+        "generic": "Fehlgeschlagene Anfrage"
+      },
+      "load_extension_error": {
+        "description": "Aktualisieren Sie diese Seite oder versuchen Sie es in ein paar Minuten erneut."
+      },
+      "already_upgraded": "Kundenkonten sind bereits aufgerüstet.",
+      "failed_to_upgrade": "Fehler beim Aktualisieren der Kundeneinstellungen.",
+      "not_upgraded": "Kundenkonten werden nicht aufgewertet.",
+      "failed_to_revert": "Fehler beim Zurücksetzen der Kundeneinstellungen.",
+      "revert_window_expired": "Das Rücksetzfenster ist abgelaufen."
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "description": "Bitte versuchen Sie es in ein paar Minuten erneut"
+      }
+    },
+    "payment_methods": {
+      "add_payment_method_dropdown": {
+        "bank_account_consent": "Indem Sie eine Zahlungsmethode hinzufügen, erteilen Sie die Erlaubnis, Ihre Karte für zukünftige genehmigte Einkäufe zu belasten oder Ihr Bankkonto zu belasten, bis Sie dies widerrufen."
+      },
+      "bank_account": {
+        "loading_accessibility_message": "Bankkontoschaltfläche wird geladen",
+        "iframe_title_accessibility_label": "Einrichtung des Bankkontos",
+        "generic_error": "Konnte das Bankkonto nicht hinzufügen. Bitte versuchen Sie es später erneut."
+      },
+      "add_payment_method_banner": "Zahlungsmethode hinzufügen für schnelleren Bezahlvorgang oder vorab genehmigte Dienste",
+      "edit_payment_method_button_accessibility_label": "{{paymentMethodName}} mit Endung {{lastDigits}} bearbeiten",
+      "expiration_warning_button_accessibility_label": "Ablaufwarnung für {{paymentMethodName}} mit Endung {{lastDigits}} anzeigen",
+      "card_update_consent": "Diese Zahlungsmethode wird für zukünftige Einkäufe gespeichert.",
+      "card_update_consent_subscriptions": "Diese Zahlungsmethode wird für zukünftige Einkäufe gespeichert und kann für wiederkehrende oder aufgeschobene Zahlungen verwendet werden.",
+      "digital_wallet_title": "Digitale Geldbörse",
+      "credit_or_debit_card_title": "Kredit- oder Bankkarte",
+      "or": "ODER",
+      "google_pay": {
+        "errors": {
+          "generic": "Es gab ein Problem mit Google Pay. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
+          "missing_billing_address": "Google Pay benötigt eine Rechnungsadresse. Bitte fügen Sie eine zu Ihrem Konto hinzu."
+        }
+      },
+      "pay_pal": {
+        "iframe_title_accessibility_label": "Zahlungsmethode PayPal hinzufügen",
+        "loading_accessibility_message": "Lade PayPal",
+        "errors": {
+          "generic": "Es gab ein Problem mit PayPal. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode."
+        }
+      },
+      "apple_pay": {
+        "errors": {
+          "generic": "Es gab ein Problem mit Apple Pay. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
+          "missing_billing_address": "Apple Pay benötigt eine Rechnungsadresse. Bitte fügen Sie eine zu Ihrem Konto hinzu."
+        }
+      },
+      "store_credit": {
+        "label": "Guthaben im Geschäft",
+        "accesibility_label": "Guthaben - {{formattedBalance}}",
+        "expirable_amounts_button": "Verfallsfähige Beträge anzeigen",
+        "expirable_amounts_label": "Verfallbare Mengen",
+        "details_modal": {
+          "title": "Verfallbarer Ladenkredit",
+          "balance_label": "Gleichgewicht",
+          "expiration_date_label": "Verfallsdatum",
+          "event_label": "Veranstaltung",
+          "events": {
+            "adjustment": "Einstellung"
+          }
+        }
       }
     }
   }
