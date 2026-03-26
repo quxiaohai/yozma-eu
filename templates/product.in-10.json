@@ -834,19 +834,6 @@
     "mc_product_compare_XipJGP": {
       "type": "mc_product-compare",
       "blocks": {
-        "product_N6Prf7": {
-          "type": "product",
-          "settings": {
-            "product_group": "",
-            "product_title": "Txxxxx Brand",
-            "show_button": true,
-            "button_text": "Learn More",
-            "button_color": "#000000",
-            "button_hover_color": "#ffffff",
-            "button_url": "",
-            "product_params": "€1,899.99\n1350W\n48V 20Ah\n120Nm\n80 Miles\nNo\n28 MPH\nFront & Rear Lights\nHydraulic Brakes\n400 Ibs\nFull suspension\nLCD\n26'' x 4''\n5'4'' - 6'6''\n84.79 lbs"
-          }
-        },
         "product_XrAM3e": {
           "type": "product",
           "settings": {
@@ -861,11 +848,25 @@
             "button_url": "shopify://products/in-10",
             "product_params": "€1,599\n2600 W\n48V23.4 Ah\n146 Nm\n85Km\n20 Km/h\n265lbs（120kg)\n14''/12''\n3.94ft - 5.9ft\n5-6 Hours"
           }
+        },
+        "product_N6Prf7": {
+          "type": "product",
+          "settings": {
+            "product_group": "",
+            "product_title": "Txxxxx Brand",
+            "show_button": true,
+            "button_bg_image": "shopify://shop_images/compare-button-bg.avif",
+            "button_text": "Learn More",
+            "button_color": "#000000",
+            "button_hover_color": "#ffffff",
+            "button_url": "",
+            "product_params": "€1,899.99\n1350W\n48V 20Ah\n120Nm\n80 Miles\nNo\n28 MPH\nFront & Rear Lights\nHydraulic Brakes\n400 Ibs\nFull suspension\nLCD\n26'' x 4''\n5'4'' - 6'6''\n84.79 lbs"
+          }
         }
       },
       "block_order": [
-        "product_N6Prf7",
-        "product_XrAM3e"
+        "product_XrAM3e",
+        "product_N6Prf7"
       ],
       "name": "MC Product Compare",
       "settings": {
