@@ -1359,7 +1359,91 @@
         "no_working_method_error": "Dieses Geschäft kann derzeit keine Zahlungen annehmen. Laden Sie diese Seite neu oder kommen Sie später wieder.",
         "brand_not_available": "Dieser Shop akzeptiert {{brand}} nicht. Verwenden Sie eine andere Karte zur Zahlung.",
         "shipping_rate_updated": "Verfügbare Versandarten wurden aktualisiert. Bestätigen Sie Ihre Auswahl, bevor Sie zur Kasse gehen.",
-        "billing_address_invalid_phone": "Aktualisieren Sie die Telefonnummer in Ihrer Rechnungsadresse für {{label}} {{last_digits}}, um fortzufahren."
+        "billing_address_invalid_phone": "Aktualisieren Sie die Telefonnummer in Ihrer Rechnungsadresse für {{label}} {{last_digits}}, um fortzufahren.",
+        "billing_address_invalid_phone_no_card": "Aktualisieren Sie die Telefonnummer in Ihrer Rechnungsadresse, um fortzufahren.",
+        "preview_not_available": {
+          "content": "Keine Sorge, dieser Schnellkauf funktioniert für Ihre Kunden.",
+          "button": "In Ordnung"
+        },
+        "card_fields": {
+          "errors": {
+            "required": {
+              "issue_date": "Geben Sie ein gültiges Ausstellungsdatum ein",
+              "issue_number": "Geben Sie eine gültige Ausgabenummer ein"
+            },
+            "invalid": {
+              "verification_value": "Geben Sie einen gültigen CVV- oder Sicherheitscode ein"
+            }
+          }
+        },
+        "simulated_checkout": "Vorschau bald verfügbar",
+        "simulated_express_checkout": "Brieftaschen sind in der Vorschau des Editors aufgrund Ihrer Region oder Ihres Browsers nicht verfügbar",
+        "vaulting_agreement_label": "Speichere meine Zahlungsinformationen bei %{company} für einen schnelleren Checkout.",
+        "business_customer_vaulting_payment_label": "Speichern Sie diese Zahlungsmethode beim Bezahlen und autorisieren Sie %{company}, sie für zukünftige Einkäufe an diesem Standort zu belasten. Alle Kontakte, die diesem Standort zugewiesen sind, können die Zahlungsmethode verwenden.",
+        "business_customer_with_bank_account_vaulting_payment_label": "Speichern Sie diese Zahlungsmethode beim Bezahlen und autorisieren Sie %{company}, Ihr Konto für zukünftige Einkäufe an diesem Standort, die Sie genehmigen, zu belasten, bis Sie widerrufen. Alle Kontakte, die diesem Standort zugewiesen sind, können die Zahlungsmethode verwenden.",
+        "purchase_options_and_vaulting_agreement_label": "Ein oder mehrere Artikel in Ihrem Warenkorb sind ein aufgeschobener Kauf oder ein Abonnement. Wenn Sie mit der Zahlung fortfahren, stimmen Sie zu, dass Ihre Zahlungsmethode automatisch zum auf dieser Seite angegebenen Preis und in der angegebenen Häufigkeit belastet wird, bis das Abonnement endet oder Sie es kündigen. Alle Kündigungen unterliegen der %{cancellation_policy_label}.",
+        "purchase_options_cancellation_policy_label": "Stornierungsbedingungen",
+        "saved_credit_card": "Ihre gespeicherte Kreditkarte",
+        "saved_credit_card_info": "Letzte vier Ziffern",
+        "saved_credit_card_cvv_verification": "Geben Sie zur Überprüfung den Sicherheitscode Ihrer Karte ein.",
+        "saved_credit_cards_modal": {
+          "done": "Erledigt",
+          "cancel": "Abbrechen"
+        },
+        "add_credit_card_modal": {
+          "cancel": "Abbrechen"
+        },
+        "delete_credit_card_modal": {
+          "confirmation": "Sind Sie sicher, dass Sie das {{brandName}} mit der Endung {{lastDigits}} löschen möchten?",
+          "cancel": "Abbrechen"
+        },
+        "edit_credit_card_modal": {
+          "done": "Erledigt",
+          "cancel": "Abbrechen",
+          "description": "Sie können nur die Rechnungsadresse Ihrer Karte ändern.",
+          "fields": {
+            "expiry": "Verfallsdatum",
+            "name": "Name auf der Karte"
+          }
+        },
+        "expired_cards_info": {
+          "one": "Es gibt %{count} abgelaufene Karte, die Sie in Ihrem Konto ansehen und bearbeiten können.",
+          "other": "Es gibt %{count} abgelaufene Karten, die Sie in Ihrem Konto ansehen und bearbeiten können."
+        },
+        "local_payment_method_receiver_notice": "Nach Aufgabe Ihrer Bestellung erhalten Sie die Zahlungsdetails. Tätigen Sie die Zahlung innerhalb von {{dueDays}} Tagen an einem Geldautomaten oder online.",
+        "order_edit_banner_title": "Zahlung von {{amount_owed}} ist erforderlich",
+        "order_edit_banner_subtitle": "Ihre Bestellung {{order_number}} wurde aktualisiert. Überprüfen Sie diese Änderungen und bezahlen Sie dann, um Ihre Bestellung zu bestätigen.",
+        "order_edit_banner_items_added": {
+          "other": "Hinzugefügt %{count}"
+        },
+        "order_edit_banner_items_removed": {
+          "with_quantities": "Entfernt {{delta}} von {{quantity}}"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "Zurückgegeben {{quantity}}",
+          "with_quantities": "Zurückgegeben {{delta}} von {{quantity}}"
+        },
+        "order_edit_banner_multiple_items_added": "Hinzugefügt {{amount}}",
+        "order_edit_banner_multiple_items_removed": "Entfernt {{amount}}",
+        "order_edit_banner_multiple_items_returned": "Zurückgegeben {{amount}}",
+        "order_edit_banner_multiple_items_return_line_item_removed": "{{amount}} von der Rückgabe entfernt",
+        "gift_card_wrapper": {
+          "heading": "Geschenkkarte",
+          "apply_gift_card_label": "Geschenkkarte einlösen",
+          "apply_another_gift_card_label": "Eine weitere Geschenkkarte einlösen",
+          "gift_card_label": "Geschenkkarte %{identifier}",
+          "payment_tag": "Geschenkkarte",
+          "add_label": "Geschenkkarte hinzufügen",
+          "manage_label": "Geschenkkarten verwalten"
+        },
+        "gift_card_store_credit": {
+          "add_label": "Fügen Sie eine Geschenkkarte oder einen Ladenkredit hinzu",
+          "manage_label": "Geschenkkarten oder Guthaben verwalten"
+        },
+        "gift_card_checkbox_label": "Geschenkkarte einlösen",
+        "custom_onsite_payment_method_modal": {
+          "title": "Benutzerdefinierte Bestätigung der Zahlung vor Ort"
+        }
       }
     },
     "sentence": {
