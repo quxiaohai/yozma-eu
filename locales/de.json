@@ -2920,6 +2920,84 @@
         "errors": {
           "invalid_email_format": "Geben Sie eine gültige E-Mail-Adresse ein"
         }
+      },
+      "verify_new_email_modal": {
+        "title": "E-Mail bestätigen",
+        "description": "Geben Sie den an {{email}} gesendeten Code ein",
+        "email_resend_button_accessibility_label": "Verifizierungscode erneut senden",
+        "verify_button": "Überprüfen",
+        "verify_button_accessibility_label": "Einmalpasswort überprüfen",
+        "cancel_button_accessibility_label": "Bearbeitung der E-Mail abbrechen",
+        "email_resend_button_success_toast_message": "Verifizierungscode gesendet",
+        "email_resend_button_failure_banner_message": "Verifizierungscode konnte nicht gesendet werden"
+      },
+      "email_update_success_modal": {
+        "title": "E-Mail bestätigen",
+        "description": "E-Mail erfolgreich aktualisiert. Weiterleitung zur Anmeldung."
+      },
+      "profile_update_confirmation_message": "Profil aktualisiert",
+      "email_update_confirmation_message": "E-Mail auf {{email}} aktualisiert",
+      "people": {
+        "pagination": {
+          "load_more": "Mehr laden",
+          "load_more_accessibility_label": "Mehr Personen laden",
+          "loading_accessibility_label": "Lade Personen"
+        }
+      }
+    },
+    "orders": {
+      "switch_order_type_pending_orders_accessibility_label": "Bestellart wechseln, derzeit ausstehende Bestellungen anzeigen",
+      "switch_order_type_confirmed_orders_accessibility_label": "Bestellart wechseln, derzeit bestätigte Bestellungen anzeigen",
+      "order_list": {
+        "delivered": "Geliefert am {{date}}",
+        "empty_state_order_source_description": "Nur Bestellungen, die von {{email}} aufgegeben wurden, werden hier angezeigt.",
+        "empty_state_subtitle": "Gehen Sie zum Geschäft, um eine Bestellung aufzugeben.",
+        "no_order_banner": "Um Ihre Erweiterung auf der Bestellstatusseite zu testen, erstellen Sie eine Bestellung.",
+        "estimated_shortform": "Geschätzt {{date}}",
+        "estimated_delivery": "Erwartet {{date}}",
+        "one_images_accessibility_label": "Bestellung enthält {{lineItemName1}}",
+        "two_images_accessibility_label": "Bestellung enthält {{lineItemName1}}, {{lineItemName2}}",
+        "three_images_accessibility_label": "Bestellung enthält {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}",
+        "more_than_three_products_accessibility_label": "Die Bestellung enthält {{lineItemName1}}, {{lineItemName2}} und {{numberOfAdditionalProducts}} weitere Produkte",
+        "more_than_four_products_accessibility_label": "Die Bestellung enthält {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}} und {{numberOfAdditionalProducts}} weitere Produkte",
+        "carousel": {
+          "six_and_more_products_accessibility_label": "Die Bestellung enthält {{lineItemName1}} Menge {{lineItemQuantity1}}, {{lineItemName2}} Menge {{lineItemQuantity2}}, {{lineItemName3}} Menge {{lineItemQuantity3}}, {{lineItemName4}} Menge {{lineItemQuantity4}}, {{lineItemName5}} Menge {{lineItemQuantity5}}, {{lineItemName6}} Menge {{lineItemQuantity6}} und mehr",
+          "previous": "Zurück"
+        },
+        "no_filtered_results_description": "Filter entfernen oder anpassen, um Ihre Bestellungen zu sehen",
+        "no_filtered_results_title": "Keine gefilterten Ergebnisse",
+        "order_link": "Bestellung {{name}} anzeigen",
+        "order_number": "Bestelle {{name}}",
+        "pagination": {
+          "nav_accessibility_label": "Bestellungs-Navigationsschaltflächen",
+          "previous_accessibility_label": "Frühere Bestellungen",
+          "load_more": "Mehr laden",
+          "load_more_accessibility_label": "Mehr Bestellungen laden"
+        },
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "Bestellung zur Ansicht der Einzelheiten",
+            "estimated_delivery": "Erwartet {{date}}",
+            "last_updated": "Zuletzt aktualisiert {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "Voraussichtliche Lieferung {{date}}"
+          }
+        },
+        "payment_status": {
+          "gallery_view": {
+            "due_without_date": "Zahlung fällig",
+            "due_on_fulfillment": "Zahlung bei Erfüllung fällig",
+            "pay_to_confirm": "Zahlen zur Bestätigung",
+            "payment_not_due": "Zahlung noch nicht fällig"
+          },
+          "list_view": {
+            "due_today": "Fällig heute",
+            "due_on_fulfillment": "Fällig bei Erfüllung",
+            "pay_to_confirm": "Zahlen zur Bestätigung"
+          }
+        },
+        "sort_currently_sorted_by_accessibility_label": "Derzeit sortiert nach: {{option}}"
       }
     }
   }
