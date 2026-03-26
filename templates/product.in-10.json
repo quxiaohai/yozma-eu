@@ -834,6 +834,19 @@
     "mc_product_compare_XipJGP": {
       "type": "mc_product-compare",
       "blocks": {
+        "product_N6Prf7": {
+          "type": "product",
+          "settings": {
+            "product_group": "",
+            "product_title": "Txxxxx Brand",
+            "show_button": true,
+            "button_text": "Learn More",
+            "button_color": "#000000",
+            "button_hover_color": "#ffffff",
+            "button_url": "",
+            "product_params": "€1,899.99\n1350W\n48V 20Ah\n120Nm\n80 Miles\nNo\n28 MPH\nFront & Rear Lights\nHydraulic Brakes\n400 Ibs\nFull suspension\nLCD\n26'' x 4''\n5'4'' - 6'6''\n84.79 lbs"
+          }
+        },
         "product_XrAM3e": {
           "type": "product",
           "settings": {
@@ -851,6 +864,7 @@
         }
       },
       "block_order": [
+        "product_N6Prf7",
         "product_XrAM3e"
       ],
       "name": "MC Product Compare",
