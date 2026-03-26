@@ -603,7 +603,73 @@
             "delivery_price_is_abstract": "Der zugehörige Lieferpreis ist abstrakt.",
             "tax_inclusivity_mismatch": "Neu verhandeln mit dem konkreten Gesamtbetrag für Steuern und Abgaben oder dem im Zielwert enthaltenen Gesamtbetrag.",
             "tax_exemption_not_supported": "Steuerbefreiungen werden für die aktuelle Verhandlungsrunde nicht unterstützt.",
-            "delivery_tax_exemption_not_supported": "Steuerbefreiungen für Lieferpositionen werden derzeit nicht unterstützt."
+            "delivery_tax_exemption_not_supported": "Steuerbefreiungen für Lieferpositionen werden derzeit nicht unterstützt.",
+            "proposed_allocations_required": "Fehlendes Feld „vorgeschlagene Zuweisungen“.",
+            "merchandise_terms_must_be_defined": "Die Verkaufsbedingungen müssen festgelegt werden.",
+            "delivery_terms_must_be_defined": "Lieferbedingungen müssen festgelegt werden.",
+            "merchandise_discount_terms_must_be_defined": "Die Bedingungen für den Warenrabatt müssen festgelegt werden.",
+            "delivery_discount_terms_must_be_defined": "Liefernachlassbedingungen müssen festgelegt werden.",
+            "allocated_required": "Fehlendes Feld 'zugewiesen'.",
+            "value_required": "Fehlendes 'Wert'-Feld.",
+            "line_splits_not_supported": "Das Feld „Produktlinien“ muss so aufgeteilt werden, dass jede einzelne eine einzelne Linienkomponente im Verkäuferangebot enthält."
+          },
+          "payment": {
+            "manual_payments_not_allowed_for_b2b": "Manuelle Zahlungen sind in B2B-Geschäften nicht erlaubt.",
+            "total_amount_mismatch": "Gesamtbetrag stimmt nicht mit der Summe der Zahlungen überein.",
+            "subscription_terms_not_accepted": "Abonnementbedingungen nicht akzeptiert.",
+            "missing_session_id": "Fehlende Sitzungsinformationen zur Kreditkarte.",
+            "gateway_not_supported": "Das Zahlungstor unterstützt das Speichern der Zahlungsmethode nicht.",
+            "credit_card_last_name_required": "'Nachname' darf nicht leer sein.",
+            "credit_card_update_failed": "Aktualisierung der Kreditkarte fehlgeschlagen.",
+            "missing_retail_attributions": "Einzelhandelszuordnungen sind für manuell eingegebene Kreditkartenzahlungen erforderlich.",
+            "unexpected_retail_attributions": "Einzelhandelszuordnungen wurden unerwartet für die Kreditkartenzahlung bereitgestellt.",
+            "invalid_card_source": "Diese Sitzung hat keine Berechtigung, diese Kartenquelle zu verwenden.",
+            "wallet_content_missing": "Inhalt der Brieftasche fehlt.",
+            "payment_instrument_not_found": "Zahlungsmethode konnte nicht gefunden werden",
+            "unauthorized_capture_method": "Die Konfiguration der Zahlungsmethode für die Abbuchung ist nicht erlaubt.",
+            "saved_payment_methods_not_allowed": "Gespeicherte Zahlungsmethoden sind nicht erlaubt.",
+            "saved_payment_methods_not_enabled": "Gespeicherte Zahlungsmethoden sind für diesen Laden nicht aktiviert.",
+            "saved_payment_methods_cvv_verification_disabled": "Die gewählte Zahlungsmethode erfordert eine CVV-Prüfung, die für diesen Laden nicht aktiviert ist. Wählen Sie eine andere Zahlungsmethode.",
+            "store_credit_not_enabled": "Ladenguthaben ist für diesen Laden nicht aktiviert.",
+            "store_credit_account_not_found": "Guthabenkonto nicht gefunden.",
+            "store_credit_account_mismatch": "Das Guthabenkonto stimmt nicht mit der Käuferidentität überein.",
+            "store_credit_mismatched_currency": "Die Währung des Guthabenkontos stimmt nicht mit der Währung beim Bezahlen überein.",
+            "store_credit_insufficient_funds": "Das Guthabenkonto im Geschäft weist unzureichende Mittel auf.",
+            "store_credit_buying_gift_card": "Sie können Guthaben aus dem Geschäft nicht verwenden, um eine Geschenkkarte zu kaufen.",
+            "gift_cards_not_allowed_for_b2b": "Geschenkkarten sind in B2B-Geschäften nicht erlaubt.",
+            "method_required": "Eine Zahlungsmethode muss vorgeschlagen werden."
+          },
+          "tip": {
+            "not_accepted_by_shop": "Das Geschäft nimmt keine Trinkgelder an.",
+            "only_one_tip_line_allowed": "Mehrere Tippzeilen werden nicht unterstützt.",
+            "tips_not_allowed_for_b2b": "Trinkgelder sind in B2B-Geschäften nicht erlaubt.",
+            "currency_change_reset": "Der Trinkgeldbetrag wurde aufgrund der Währungsänderung zurückgesetzt.",
+            "tips_not_allowed_for_deferred_purchase_options": "Trinkgelder werden für aufgeschobene Kaufoptionen noch nicht unterstützt."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "Dieser Entwurf einer Bestellung existiert im aktuellen Geschäft nicht.",
+            "staff_member_not_exist": "Dieser Stab ist im aktuellen Laden nicht vorhanden.",
+            "location_not_exist": "Dieser Ort existiert im aktuellen Geschäft nicht.",
+            "point_of_sale_device_not_exist": "Dieses Verkaufsgerät existiert im aktuellen Geschäft nicht.",
+            "unresolvable_target_merchandise_lines": "Die vorgeschlagenen Verkaufszuweisungen sind im aktuellen Verhandlungskontext nicht auflösbar."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "Ihr Kaufvorschlag sollte unverhandelbare_Bedingungen enthalten."
+          },
+          "inventory": {
+            "missing_quantity_value": "Das Mengenfeld fehlt in den Lagerbestandszeilen des Käufers.",
+            "changing_behavior_not_allowed": "Dieser Kunde hat keine Berechtigung, das Lagerverhalten zu ändern.",
+            "only_one_inventory_behavior_allowed": "Derzeit ist pro Kaufvorgang nur ein Lagerverhalten erlaubt."
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "Die Ablehnung von Gebühren ist bei diesem Bezahlvorgang nicht erlaubt."
+          },
+          "attribution": {
+            "retail_attribution_not_allowed": "Die Einzelhandelszuordnung ist für diesen Kaufvorgang nicht erlaubt.",
+            "retail_attribution_required": "Für diesen Kaufabschluss ist eine Einzelhandelszuordnung erforderlich."
+          },
+          "captcha": {
+            "metadata_missing": "Das Ausfüllen eines Captchas ist für diesen Kaufvorgang erforderlich."
           }
         }
       }
