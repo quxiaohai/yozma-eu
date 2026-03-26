@@ -417,23 +417,23 @@
   },
   "password": {
     "general": {
-      "follow_us": "Folge uns",
-      "powered_by": "Dieser Shop wird betrieben mit",
-      "store_owner": "Shopinhaber?",
+      "follow_us": "Folgen Sie uns",
+      "powered_by": "Dieser Shop wird betrieben von",
+      "store_owner": "Geschäftsinhaber?",
       "login": "Anmelden"
     },
     "storefront_access": {
-      "enter_password": "Mit Passwort betreten",
-      "store_access": "Shopzugang",
-      "instructions": "Gib das Passwort unten ein, um den Shop zu betreten",
+      "enter_password": "Mit Passwort eingeben",
+      "store_access": "Zugriff auf den Laden",
+      "instructions": "Geben Sie das Passwort unten ein, um auf den Laden zuzugreifen",
       "password": "Passwort",
-      "enter_store": "Shop betreten"
+      "enter_store": "Betreten Sie den Laden"
     }
   },
   "apps": {
     "shopify_reviews": {
-      "review_info": "Dieses Produkt wurde mit {{ rating_value }} von {{ rating_max }} Sternen bewertet.",
-      "leave_review": "Hinterlasse eine Bewertung",
+      "review_info": "Dieses Produkt hat eine Bewertung von {{ rating_value }} von {{ rating_max }} Sternen.",
+      "leave_review": "Hinterlassen Sie eine Bewertung",
       "review_count": {
         "zero": "Dieses Produkt hat noch keine Bewertungen.",
         "one": "Es hat {{ count }} Bewertung erhalten.",
@@ -444,46 +444,46 @@
   "pagefly": {
     "products": {
       "product": {
-        "regular_price": "Regular price",
-        "sold_out": "Sold out",
-        "unavailable": "Unavailable",
-        "on_sale": "Sale",
-        "quantity": "Quantity",
-        "add_to_cart": "Add to cart",
-        "back_to_collection": "Back to {{ title }}",
-        "view_details": "View details"
+        "regular_price": "Regulärer Preis",
+        "sold_out": "Ausverkauft",
+        "unavailable": "Nicht verfügbar",
+        "on_sale": "Verkauf",
+        "quantity": "Menge",
+        "add_to_cart": "In den Warenkorb legen",
+        "back_to_collection": "Zurück zu {{ title }}",
+        "view_details": "Details anzeigen"
       }
     },
     "article": {
-      "tags": "Tags:",
-      "all_topics": "All topics",
-      "by_author": "by {{ author }}",
-      "posted_in": "Posted in",
-      "read_more": "Read more",
-      "back_to_blog": "Back to {{ title }}"
+      "tags": "Schlagwörter:",
+      "all_topics": "Alle Themen",
+      "by_author": "von {{ author }}",
+      "posted_in": "Veröffentlicht in",
+      "read_more": "Mehr lesen",
+      "back_to_blog": "Zurück zu {{ title }}"
     },
     "comments": {
-      "title": "Leave a comment",
+      "title": "Einen Kommentar hinterlassen",
       "name": "Name",
-      "email": "Email",
-      "message": "Message",
-      "post": "Post comment",
-      "moderated": "Please note, comments must be approved before they are published",
-      "success_moderated": "Your comment was posted successfully. We will publish it in a little while, as our blog is moderated.",
-      "success": "Your comment was posted successfully! Thank you!",
+      "email": "E-Mail",
+      "message": "Nachricht",
+      "post": "Kommentar posten",
+      "moderated": "Bitte beachten Sie, dass Kommentare genehmigt werden müssen, bevor sie veröffentlicht werden.",
+      "success_moderated": "Ihr Kommentar wurde erfolgreich veröffentlicht. Wir werden ihn in Kürze freischalten, da unser Blog moderiert wird.",
+      "success": "Ihr Kommentar wurde erfolgreich veröffentlicht! Vielen Dank!",
       "comments_with_count": {
-        "one": "{{ count }} comment",
-        "other": "{{ count }} comments"
+        "one": "{{ count }} Kommentar",
+        "other": "{{ count }} Kommentare"
       }
     },
     "password_page": {
-      "login_form_message": "Enter store using password:",
-      "login_form_password_label": "Password",
-      "login_form_password_placeholder": "Your password",
-      "login_form_submit": "Enter",
-      "signup_form_email_label": "Email",
-      "signup_form_success": "We will send you an email right before we open!",
-      "password_link": "Enter using password"
+      "login_form_message": "Geschäft mit Passwort betreten:",
+      "login_form_password_label": "Passwort",
+      "login_form_password_placeholder": "Ihr Passwort",
+      "login_form_submit": "Eingeben",
+      "signup_form_email_label": "E-Mail",
+      "signup_form_success": "Wir senden Ihnen eine E-Mail kurz bevor wir öffnen!",
+      "password_link": "Mit Passwort eingeben"
     }
   },
   "shopify": {
@@ -2868,7 +2868,9 @@
   },
   "products": {
     "product": {
-      "photos": "Fotos"
+      "photos": "Fotos",
+      "video": "Video",
+      "3d": "3D"
     }
   },
   "customer_accounts": {
