@@ -2442,7 +2442,99 @@
           "formatting": {
             "name_contains_emojis": "Lösche das Emoji aus deinem Namen",
             "postal_code_contains_emoji": "Lösche Emojis aus deiner Postleitzahl",
-            "first_name_too_long": "Der Vorname enthält zu viele Buchstaben"
+            "first_name_too_long": "Der Vorname enthält zu viele Buchstaben",
+            "last_name_too_long": "Der Nachname enthält zu viele Buchstaben"
+          },
+          "select_different_shipping_address_to_resolve_errors": "Ihre Lieferadresse ist ungültig. Wählen Sie eine andere Adresse oder verwenden Sie eine neue.",
+          "processing_error_checkout_as_guest": "Bei der Verarbeitung Ihrer Zahlung ist ein Problem aufgetreten. Versuchen Sie es erneut oder {{checkout_as_guest_link}}."
+        },
+        "scrim": {
+          "continue_purchase_in_window": "Fahren Sie mit Ihrem Kauf im {{walletName}} Fenster fort",
+          "and_return_to_checkout": "und zur Kasse zurückkehren"
+        }
+      },
+      "note": {
+        "length_exceeds_maximum": "Reduzieren Sie die Größe der Notiz auf 5000 oder weniger Zeichen."
+      },
+      "offsite_payment_failed": {
+        "title": "Zahlung außerhalb der Seite fehlgeschlagen",
+        "payment_not_processed_text": "Versuchen Sie erneut, den QR-Code zu scannen. Wenn es immer noch nicht funktioniert, informieren Sie unser Personal und versuchen Sie eine andere Zahlungsmethode.",
+        "payment_link_expired_text": "Versuchen Sie erneut, den QR-Code zu scannen."
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "Der Wert der Geschenkkarte muss größer als 0 sein.",
+            "gift_card_price_must_not_exceed_limit": "Der Preis der Geschenkkarte darf %{gift_card_limit} nicht überschreiten.",
+            "subtotal_limit_reached": "Der Höchstwert der Positionen wurde erreicht.",
+            "signature_mismatch": "Unstimmigkeit bei der Warenunterschrift für Zeile %{stable_id}."
+          }
+        }
+      },
+      "remote": {
+        "errors": {
+          "only_remote_merchandise_lines": "Der Warenkorb enthält nur entfernte Waren. Um den Kauf abzuschließen, ist eine Weiterleitung zum entfernten Laden erforderlich.",
+          "currency_mismatch": "Dieser Artikel kann nicht zu Ihrem Warenkorb hinzugefügt werden, da er aus einem Geschäft stammt, das eine andere Währung verwendet.",
+          "currency_mismatch_removal": "Ein Artikel wurde aus Ihrem Warenkorb entfernt, da er aus einem Geschäft stammt, das eine andere Währung verwendet.",
+          "max_remote_shops_exceeded": "Dieses Produkt kann nicht hinzugefügt werden, da Ihr Warenkorb bereits die Höchstmenge von anderen Geschäften enthält."
+        }
+      },
+      "units": {
+        "centiliter": "kl",
+        "ounce": "Unze",
+        "pound": "Pfund",
+        "gallon": "Liter"
+      },
+      "memberships": {
+        "delivery_promise_unfulfillable": "Die Adresse wird für die aktuelle Mitgliedschaft nicht unterstützt.",
+        "items_split_across_locations_unsupported": "Prime-Lieferung ist für Ihre Bestellung nicht verfügbar. Ihre Versandoptionen wurden aktualisiert."
+      },
+      "editor": {
+        "navigation": {
+          "store_logo_accessibility_label": "Zum Onlineshop gehen"
+        }
+      },
+      "tooltip": {
+        "accessibility_label_context": "Mehr Informationen über %{context}"
+      },
+      "too_many_requests": {
+        "title": "Zu viele Versuche beim Bezahlen",
+        "body": "Bitte warten Sie einige Minuten und versuchen Sie es erneut von Ihrem Warenkorb aus.",
+        "body_no_cart": "Bitte warten Sie ein paar Minuten und versuchen Sie es erneut."
+      },
+      "required_extensions": {
+        "errors": {
+          "interaction_required": "Für den Abschluss des Kaufs ist eine Erweiterungsinteraktion erforderlich."
+        }
+      },
+      "taxes": {
+        "tax_details": "Zusätzliche Steuerangaben",
+        "vat_number": {
+          "field": {
+            "label": "Umsatzsteuer-Identifikationsnummer (optional)",
+            "tooltip": "Überprüft die Umsatzsteuer-Identifikationsnummer und wendet bei berechtigten Bestellungen automatisch das Umkehrverfahren an"
+          },
+          "add": "Eine Umsatzsteuer-Identifikationsnummer hinzufügen",
+          "vaulted": "Umsatzsteuer-Identifikationsnummer: %{number}",
+          "badge": "Umsatzsteuer-Identifikationsnummer: %{number}",
+          "domestic_order": "Die Umkehrung der Steuerschuldnerschaft gilt nur für grenzüberschreitende Bestellungen innerhalb der EU. Für lokale Bestellungen wird die reguläre Mehrwertsteuer berechnet.",
+          "status": {
+            "invalid_format": {
+              "at": "Österreichische Umsatzsteuer-Identifikationsnummern enthalten AT und 9 Zeichen",
+              "be": "Belgische Mehrwertsteuernummern enthalten BE und 10 Zeichen",
+              "bg": "Bulgarische Mehrwertsteuernummern enthalten BG und 9-10 Zeichen",
+              "hr": "Kroatische Mehrwertsteuernummern enthalten HR und 11 Zeichen",
+              "cy": "Zyprische Mehrwertsteuernummern enthalten CY und 9 Zeichen",
+              "cz": "Umsatzsteuer-Identifikationsnummern der Tschechischen Republik enthalten CZ und 8-10 Zeichen",
+              "dk": "Dänische Mehrwertsteuernummern enthalten DK und 8 Zeichen",
+              "ee": "Estnische Mehrwertsteuernummern enthalten EE und 9 Zeichen",
+              "fi": "Finnische Mehrwertsteuernummern enthalten FI und 8 Zeichen",
+              "fr": "Französische Mehrwertsteuernummern enthalten FR und 11 Zeichen",
+              "de": "Deutsche Umsatzsteuer-Identifikationsnummern enthalten DE und 9 Zeichen",
+              "gr": "Griechische Mehrwertsteuernummern enthalten EL und 9 Zeichen",
+              "hu": "Ungarische Mehrwertsteuernummern enthalten HU und 8 Zeichen",
+              "ie": "Irische Mehrwertsteuernummern enthalten IE und 8-9 Zeichen"
+            }
           }
         }
       }
