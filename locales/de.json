@@ -1234,6 +1234,70 @@
           "tax_credential_my": "Steuer-Identifikationsnummer/Registrierungsnummer",
           "shipping_credential_my": "Steuer-Identifikationsnummer/Registrierungsnummer"
         }
+      },
+      "payment": {
+        "paypal_disconnect": "Trennen",
+        "card_vaulted_company_location": "Karte für diesen Ort gespeichert",
+        "expiry_long": "(Läuft ab %{month}/%{year})",
+        "expiry_short": "(Exp %{month}/%{year})",
+        "crypto_payment_method": {
+          "description": "Stellen Sie eine sichere Verbindung zu Ihrer Geldbörse im Base-Netzwerk her",
+          "tooltip": "Ihr Wallet-Guthaben und Ihre Adresse werden nicht weitergegeben, und es kann nur der angeforderte Betrag abgebucht werden.",
+          "cashback_descriptor": {
+            "one": "Sie erhalten Ihr Cashback nach %{count} Tagen.",
+            "other": "Sie erhalten Ihr Cashback nach %{count} Tagen."
+          }
+        },
+        "crypto_modal": {
+          "header": "Zahlen Sie %{total_price} USDC an %{shop_name}"
+        },
+        "saved_by_payment_method": "Gespeichert mit %{payment_method}",
+        "pay_with_payment_method": "Bezahlen mit %{payment_method}",
+        "different_credit_card_label": "Verwenden Sie eine andere Kreditkarte",
+        "same_billing_address_label": "Wie die Lieferadresse",
+        "different_billing_address_label": "Verwenden Sie eine andere Rechnungsadresse",
+        "billing_address_associated_with_mandate": "Adresse verwenden, die mit der Zahlungsmethode verknüpft ist",
+        "billing_address_associated_with_mandate_info": "Wenn Sie Ihre Rechnungsadresse ändern möchten, entfernen Sie bitte Ihre Kreditkartendaten und geben Sie sie erneut ein.",
+        "free_order_notice_html": "Ihre Bestellung ist <strong>kostenlos</strong>. Es ist keine Zahlung erforderlich.",
+        "express_checkout_free_order": "Für eine kostenlose Bestellung wird Ihnen nichts berechnet",
+        "order_covered_by_gift_cards_notice": {
+          "one": "Ihre Bestellung wird durch Ihre Geschenkkarte abgedeckt.",
+          "other": "Ihre Bestellung wird durch Ihre Geschenkkarten abgedeckt."
+        },
+        "offsite_gateway_redirect_hint": "Sie werden zu %{gateway_label} weitergeleitet, um Ihren Kauf abzuschließen.",
+        "offsite_gateway_review_page_redirect_hint": "Nachdem Sie Ihre Bestellung überprüft haben, werden Sie zu %{gateway_label} weitergeleitet, um Ihren Kauf abzuschließen.",
+        "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label} Gesamt %{total_shop_price}",
+        "offsite_gateway_redirect_hint_no_button_label": "Sie werden zu %{gateway_label} weitergeleitet, um Ihren Kauf abzuschließen.",
+        "receiver_payment_experience_hint": "Nach Aufgabe Ihrer Bestellung erhalten Sie die Zahlungsdetails. Zahlen Sie den Betrag bei Multibanco oder online innerhalb von %{due_days} Tagen.",
+        "billing_address_rollup_accessibility_label": "Rechnungsadresse Optionen",
+        "billing_address_description": "Wählen Sie die Adresse aus, die mit Ihrer Karte oder Zahlungsmethode übereinstimmt.",
+        "billing_address_description_no_shipping_address": "Geben Sie die Adresse ein, die mit Ihrer Karte oder Zahlungsmethode übereinstimmt.",
+        "no_js_credit_card_fields_redirect_hint": "Sie werden weitergeleitet, um Ihre Zahlungsinformationen hinzuzufügen.",
+        "card_fields_container_prefix": "Feldbehälter für:",
+        "card_fields_unavailable_html": {
+          "one": "Kredit- und Debitkartenzahlungen sind derzeit nicht verfügbar.<br><a href=\"%{current_url}\">Diese Seite aktualisieren</a> oder später erneut versuchen.",
+          "other": "Kredit- und Debitkartenzahlungen sind derzeit nicht verfügbar.<br><a href=\"%{current_url}\">Diese Seite aktualisieren</a> oder eine andere Zahlungsmethode ausprobieren."
+        },
+        "card_fields_processing_error": "Bei der Zahlungsabwicklung ist ein Problem aufgetreten. Versuchen Sie, diese Seite zu aktualisieren, oder überprüfen Sie Ihre Internetverbindung.",
+        "technical_error": "Zahlungen können derzeit wegen eines technischen Problems nicht bearbeitet werden. Versuchen Sie es in ein paar Minuten erneut.",
+        "no_method_error": "Dieses Geschäft kann derzeit keine Zahlungen annehmen.",
+        "not_configured_error": "Dieses Geschäft kann derzeit keine Zahlungen annehmen.",
+        "missing_credit_card_error": "Geben Sie Ihre Kartendaten ein, um die Zahlung abzuschließen",
+        "shop_pay_ideal_unavailable_error": "iDEAL | Wero steht für diese Bestellung nicht zur Verfügung. Wählen Sie eine andere Zahlungsmethode.",
+        "payment_method_not_available_for_shipping_address_error": "Zahlungsmethode für die gewählte Lieferadresse nicht verfügbar. Wählen Sie eine andere Zahlungsmethode.",
+        "billing_address_not_supported_for_payment_method_error": "Diese Zahlungsmethode ist für Ihre Rechnungsadresse und Währung nicht verfügbar. Versuchen Sie eine andere Zahlungsmethode.",
+        "generic_incorrect_card_info": "Ihre Zahlungsdaten konnten nicht überprüft werden. Überprüfen Sie Ihre Kartendaten und versuchen Sie es erneut.",
+        "sofort_label": "Sofort Banküberweisung",
+        "paypal_wallet_label": "PayPal-Brieftasche",
+        "shop_pay_installments_label": "Shop Pay Ratenzahlung",
+        "continue_to_guest_checkout": "Weiter zur Kasse als Gast",
+        "paypal_modal": {
+          "order_contains_fixed_selling_plans": "Der Gesamtbetrag kann Steuern, Versandkosten, aufgeschobene Gebühren und einige Rabatte nicht enthalten. Fahren Sie mit dem Bezahlen fort, um den heute fälligen Betrag zu sehen."
+        },
+        "klarna_pay_later_label": "Später bezahlen mit Klarna",
+        "klarna_pay_now_label": "Jetzt mit Klarna bezahlen",
+        "multibanco_label": "Multibank",
+        "klarna_slice_it_label": "Finanzieren mit Klarna"
       }
     },
     "sentence": {
