@@ -3375,7 +3375,81 @@
           "load_more": "Mehr laden"
         },
         "permissions_label": "Ihre Berechtigungen",
-        "section_title": "Ort"
+        "section_title": "Ort",
+        "shipping_address_required": "Fügen Sie eine Lieferadresse zu diesem Ort hinzu, um mit der Bestellung zu beginnen.",
+        "staff_and_permissions_title": "Personal und Berechtigungen",
+        "tax_details_title": "Steuerangaben",
+        "tax_id": "Steuer-Identifikationsnummer",
+        "multiple_tax_exemptions": "{{taxExemptionsCount}} mehr",
+        "tax_exemption_not_applicable": "Nicht verfügbar"
+      },
+      "location_selection": {
+        "continue_to_store": "Weiter zum Geschäft",
+        "description": "Wenn sich bereits Artikel in Ihrem Warenkorb befinden, kann das Ändern des Standorts die Preise und Mengen im Warenkorb beeinflussen.",
+        "description_switch_later": "Sie können später jederzeit wechseln",
+        "list_loading_accessibility_message": "Lade Liste der Orte",
+        "list_loading_finished_accessibility_message": "Liste der Standorte wurde geladen",
+        "loading_store_accessibility_message": "Zum Laden gehen",
+        "no_location_title": "Nur persönliche Bestellungen",
+        "no_location_description": "Sie haben keine Berechtigung mehr, Bestellungen für {{company}} aufzugeben. Persönliche Bestellungen können Sie weiterhin aufgeben.",
+        "search": "Orte suchen",
+        "search_location_title": "Ort auswählen",
+        "selection_cancel_button": "Abbrechen",
+        "selection_confirmation_button": "Ort wählen",
+        "selection_continue_button": "Fortfahren",
+        "title": "Für welchen Ort kaufen Sie ein?",
+        "title_choose_location": "Wählen Sie einen Ort aus",
+        "clear_search": "Suche löschen",
+        "try_new_search": "Versuchen Sie eine neue Suche"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all_accessibility_label": "Alle Bestellungen in Überprüfung ausblenden",
+          "show_all_accessibility_label": "Alle Bestellungen in der Überprüfung anzeigen",
+          "show_all_orders_in_review": "Alle Bestellungen in der Überprüfung anzeigen",
+          "show_less_orders_in_review": "Weniger Bestellungen in Prüfung anzeigen",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "Sie haben keine ausstehenden Bestellungen",
+            "pending_orders": {
+              "one": "Sie haben {{count}} ausstehende Bestellung",
+              "other": "Sie haben {{count}} ausstehende Bestellungen"
+            },
+            "more_than_pagination_length": "Sie haben mehr als {{count}} ausstehende Bestellungen"
+          },
+          "pagination": {
+            "nav_accessibility_label": "Schaltflächen zur Navigation bei der Überprüfung von Bestellungen"
+          }
+        },
+        "order_list_column_headers_location": "Ort",
+        "removed_company_contact_tooltip": "Aus dem Unternehmen entfernt"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Bestätigt am {{date}} von Bestellung {{draftOrderName}}",
+        "loading": "Lade Bestelldetails",
+        "payment_status": {
+          "pending": {
+            "banner_overdue": {
+              "one": "Ihre Zahlung ist {{count}} Tag überfällig",
+              "other": "Ihre Zahlung ist {{count}} Tage überfällig"
+            },
+            "banner_due": {
+              "one": "Ihre Zahlung ist in {{count}} Tag fällig",
+              "other": "Ihre Zahlung ist in {{count}} Tagen fällig"
+            },
+            "banner_due_today": "Ihre Zahlung ist heute fällig",
+            "banner_due_today_for_single_fulfillment": "Eine Zahlung in Höhe von {{amount}} ist heute fällig. {{link}}",
+            "banner_due_today_for_multiple_fulfillments": "Zahlung heute fällig für {{count}} Aufträge",
+            "banner_overdue_for_single_fulfillment": {
+              "one": "Die Zahlung von {{amount}} ist {{count}} Tag überfällig. {{link}}",
+              "other": "Die Zahlung von {{amount}} ist {{count}} Tage überfällig. {{link}}"
+            },
+            "banner_overdue_for_multiple_fulfillments": "Zahlung fällig für {{count}} Erfüllungen",
+            "title": "Zahlung fällig",
+            "title_due_on_fulfillment": "Zahlung bei Erfüllung fällig",
+            "description_overdue": "Ihre Zahlung ist überfällig.",
+            "description_partially_paid": "Diese Bestellung wurde teilweise bezahlt. Es bleibt ein Restbetrag offen."
+          }
+        }
       }
     }
   }
