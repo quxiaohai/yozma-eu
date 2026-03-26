@@ -3704,8 +3704,170 @@
         "card_start_label": "Ausgabedatum (MM / JJ)",
         "card_start_placeholder": "Ausgabedatum (MM / JJ)",
         "tooltip": {
-          "card_verification_value_explanation_amex": "4-stelliger Sicherheitscode auf der Vorderseite Ihrer Karte"
+          "card_verification_value_explanation_amex": "4-stelliger Sicherheitscode auf der Vorderseite Ihrer Karte",
+          "card_verification_value_explanation_other": "3-stelliger Sicherheitscode auf der Rückseite Ihrer Karte",
+          "card_verification_value_explanation": "3-stelliger Sicherheitscode, der sich normalerweise auf der Rückseite Ihrer Karte befindet. American-Express-Karten haben einen 4-stelligen Code auf der Vorderseite."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Geben Sie Ihren Namen genau so ein, wie er auf Ihrer Karte steht",
+          "credit_card_number_invalid": "Geben Sie eine gültige Kartennummer ein",
+          "credit_card_expiry_invalid": "Geben Sie ein gültiges Ablaufdatum der Karte ein",
+          "credit_card_verification_value_blank": "Geben Sie den CVV- oder Sicherheitscode auf Ihrer Karte ein"
+        },
+        "unavailable": {
+          "text": "Zahlungen mit Kredit- und Bankkarten sind derzeit nicht möglich.",
+          "link_text": "Diese Seite neu laden",
+          "suffix": "oder versuchen Sie es später noch einmal."
         }
+      },
+      "payment_delete": {
+        "description_without_replacement": "Diese Zahlungsmethode wird für zukünftige Einkäufe nicht mehr verfügbar sein.",
+        "description_with_replacement": "Das Löschen dieser Zahlungsmethode wirkt sich auf vorab genehmigte Zahlungen aus. Sie können sie optional durch eine andere Zahlungsmethode ersetzen, um weiterhin kommende Bestellungen zu erhalten.",
+        "warning_message_with_replacement": {
+          "with_pending_orders_and_subscriptions": "Das Löschen dieser Zahlungsmethode wirkt sich auf vorab genehmigte Zahlungen aus. Sofern Sie keine alternative Zahlungsmethode auswählen, wird diese Zahlungsmethode weiterhin für ausstehende Beträge bei bestehenden Bestellungen belastet. Die Auswahl einer alternativen Zahlungsmethode ermöglicht es Ihnen, kommende Abonnementbestellungen ohne Unterbrechung zu erhalten.",
+          "with_pending_orders": "Das Löschen dieser Zahlungsmethode entfernt sie aus Ihrem Konto und macht sie für zukünftige Einkäufe nicht mehr verfügbar. Sofern Sie keine alternative Zahlungsmethode auswählen, wird sie weiterhin für ausstehende Beträge bei bestehenden Bestellungen belastet.",
+          "with_subscriptions": "Das Löschen dieser Zahlungsmethode wirkt sich auf vorab genehmigte Zahlungen aus. Ersetzen Sie sie durch eine alternative Zahlungsmethode, um weiterhin kommende Bestellungen zu erhalten."
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "Das Löschen dieser Zahlungsmethode wirkt sich auf vorab genehmigte Zahlungen aus. Für ausstehende Beträge bei bestehenden Bestellungen wird diese Zahlungsmethode weiterhin belastet, aber Sie erhalten keine zukünftigen Abonnementbestellungen mehr. Fügen Sie eine alternative Zahlungsmethode hinzu, um weiterhin Abonnementbestellungen zu erhalten.",
+          "with_pending_orders": "Das Löschen dieser Zahlungsmethode entfernt sie aus Ihrem Konto und macht sie für zukünftige Einkäufe nicht mehr verfügbar. Für ausstehende Beträge bei bestehenden Bestellungen wird sie weiterhin belastet.",
+          "with_subscriptions": "Das Löschen dieser Zahlungsmethode wirkt sich auf vorab genehmigte Zahlungen aus. Fügen Sie eine alternative Zahlungsmethode hinzu, um weiterhin kommende Bestellungen zu erhalten."
+        },
+        "payment_method_selector_placeholder": "Wählen Sie eine Ersatz-Zahlungsart (optional)",
+        "replace_method_with_new_method_description": "Ihre {{currentPaymentMethodName}} wird gelöscht und durch Ihre {{newPaymentMethodName}} ersetzt.",
+        "error_when_deleting": "Wir entschuldigen uns, aber es ist ein Fehler aufgetreten und wir konnten diese Zahlungsmethode nicht löschen. Bitte versuchen Sie es später erneut oder laden Sie die Seite neu.",
+        "delete_and_replace_button_accessibility_label": "Löschen Sie {{currentPaymentMethodName}} und ersetzen Sie es durch {{newPaymentMethodName}}.",
+        "loading_available_payment_methods_accessibility_label": "Lade verfügbare Zahlungsmethoden"
+      },
+      "add_payment_method": {
+        "missing_customer_error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder wenden Sie sich an den Kundendienst.",
+        "replace_mode_warning": "Das Löschen dieser Zahlungsmethode wirkt sich auf Abonnements oder Vorbestellungen aus. Ersetzen Sie sie durch eine andere Zahlungsmethode, um weiterhin kommende Bestellungen zu erhalten.",
+        "choose_from_list": "Aus Liste wählen",
+        "add_new_button": "Neu hinzufügen",
+        "billing_address": {
+          "add_billing_address_button": "Neu hinzufügen",
+          "choose_billing_address_from_list_button": "Aus Liste wählen",
+          "choose_billing_address_from_list_button_accessibility_label": "Wählen Sie eine Rechnungsadresse aus der Liste aus",
+          "missing_billing_address_error_message": "Bitte geben Sie eine Rechnungsadresse an",
+          "default_checkbox": "Als Standardzahlungsmethode festlegen"
+        },
+        "subscription_contracts": {
+          "product_count": {
+            "one": "{{count}} Produkt",
+            "other": "{{count}} Produkte"
+          }
+        },
+        "updating_contracts": {
+          "one": "Aktualisiere {{count}} Abonnementvertrag...",
+          "other": "Aktualisiere {{count}} Abonnementverträge..."
+        },
+        "contracts_updated": {
+          "one": "{{count}} Abonnementvertrag erfolgreich aktualisiert",
+          "other": "Erfolgreich {{count}} Abonnementverträge aktualisiert"
+        },
+        "subscription_contracts_updated": "Aktualisiert {{succeeded}} von {{total}} Abonnements",
+        "invalid_wallet_type_error": "Ungültiger Brieftaschentyp."
+      },
+      "three_d_secure": {
+        "title": "3D Sicherung",
+        "verification_failed": "Ihre Zahlung konnte nicht bestätigt werden. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode."
+      }
+    },
+    "payment_method_brands": {
+      "mastercard": "Masterkarte",
+      "forbrugsforeningen": "Verbrauchervereinigung",
+      "dankort": "Dankkarte",
+      "hipercard": "Hiperkarte",
+      "shoppay": "Shop-Zahlung",
+      "applepay": "Apple Bezahlen",
+      "googlepay": "Google Bezahlen",
+      "storecredit": "Guthaben im Geschäft",
+      "bogus": "Falsch"
+    },
+    "ui_components": {
+      "clear": "Klar",
+      "clipboardFailedToCopy": "Kopieren fehlgeschlagen",
+      "submit": "Absenden",
+      "processing": "Verarbeitung…",
+      "increase": "Erhöhe {{type}}",
+      "decrease": "Verringern {{type}}",
+      "minimumReached": "Mindestmenge von {{value}} erreicht",
+      "maximumReached": "Maximal {{value}} erreicht",
+      "tuesdayAbbreviation": "Du",
+      "wednesdayAbbreviation": "Wir",
+      "thursdayAbbreviation": "Der",
+      "sundayAbbreviation": "Su",
+      "showPreviousMonth": "Vorherigen Monat anzeigen, {{month}} {{year}}",
+      "inRange": "In Reichweite",
+      "removeItem": "Entfernen {{label}}",
+      "mapClusterTitle": {
+        "one": "Gruppe von {{number}} Markern",
+        "other": "Gruppe von {{number}} Markierungen"
+      }
+    },
+    "profile_preview_bar": {
+      "navigate_to_admin": "Zur Verwaltung gehen",
+      "previewing": "Sie sehen eine Vorschau:",
+      "viewing": "Sie sehen:"
+    },
+    "active_inspector": {
+      "extension": {
+        "select": "Wählen Sie die Erweiterung mit dem Namen {{extensionName}} aus",
+        "unselect": "Deaktivieren Sie die Erweiterung mit dem Namen {{extensionName}}",
+        "move_down": "Erweiterung an die nächste Position verschieben",
+        "move_up": "Erweiterung an die vorherige Position verschieben",
+        "move_down_tooltip": "Zur nächsten Position wechseln",
+        "move_up_tooltip": "Zur vorherigen Position wechseln"
+      }
+    },
+    "editor": {
+      "link_new_tab_confirmation": "Dieser Link kann nicht im Editor geöffnet werden. Er wird in einem neuen Fenster geöffnet ({{resolved_to_link}}). Klicken Sie auf OK, um fortzufahren."
+    },
+    "settings": {
+      "loading_accessibility_message": "Lade Einstellungsseite",
+      "log_out_everywhere": {
+        "description": "Wenn Sie ein Gerät verloren haben oder Sicherheitsbedenken haben, melden Sie sich überall ab, um die Sicherheit Ihres Kontos zu gewährleisten.",
+        "warning_message": "Sie werden auf diesem Gerät ebenfalls abgemeldet."
+      }
+    },
+    "shop_ads": {
+      "title": "Weitere Produkte, die Ihnen gefallen könnten",
+      "subtitle": "Für begrenzte Zeit verfügbar",
+      "button": "Im Shop entdecken"
+    },
+    "knowledge_base": {
+      "self_serve_returns": {
+        "enabled": "Kunden können Rücksendungen selbst anfordern und verwalten.",
+        "disabled": "Kunden müssen den Händler kontaktieren, um eine Rückgabe zu beantragen."
+      }
+    },
+    "subscriptions": {
+      "update_payment_instrument": {
+        "title": "Zahlungsmethode ändern",
+        "loading": "Zahlungsarten werden geladen",
+        "select_new_payment_method": "Wählen Sie eine neue Zahlungsmethode aus"
+      }
+    },
+    "intents": {
+      "subscription_replace_payment_method": {
+        "title": "Zahlungsmethode ändern",
+        "loading": "Ladefenster zum Ersetzen der Zahlungsmethode",
+        "invalid_subscription_contract": "Abonnement nicht gefunden",
+        "expiry_date": "Ablauf {{expiryDate}}"
+      }
+    },
+    "sign_in": {
+      "brand_logo_alt_text": "%{shop_name} Logo",
+      "processing": "Verarbeitung…",
+      "step_one": {
+        "page_title": "Anmelden - %{shop_name}",
+        "subheading": "Geben Sie Ihre E-Mail-Adresse ein, und wir senden Ihnen einen Bestätigungscode zu",
+        "input_field_label": "E-Mail",
+        "button": "Fortfahren",
+        "consent_agreement": "Indem Sie fortfahren, stimmen Sie den %{terms} zu."
+      },
+      "step_two": {
+        "page_title": "Code eingeben - %{shop_name}"
       }
     }
   }
