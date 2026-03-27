@@ -524,8 +524,8 @@
         "description_mb_size": 14,
         "description_pc_margin_bottom": 40,
         "description_mb_margin_bottom": 30,
-        "pc_image": "shopify://shop_images/in_10_a64fdc0a-c8d7-4bb8-ab6e-5770fc0be5db.png",
-        "mb_image": "shopify://shop_images/in_10-m.png",
+        "pc_image": "shopify://shop_images/in-10-pc.png",
+        "mb_image": "shopify://shop_images/in_10-m_fd6fdd50-f7de-4e05-b14a-82cf57e6962a.png",
         "image_radius": 0,
         "mb_image_radius": 0,
         "image_width": 100,
@@ -846,7 +846,7 @@
             "button_color": "#000000",
             "button_hover_color": "#ffffff",
             "button_url": "shopify://products/in-10",
-            "product_params": "€1,599\n2600 W\n48V23.4 Ah\n146 Nm\n85 Km\n20 Km/h\n120 KG\n14''/12''\n120 cm-180 cm\n5-6 Hours"
+            "product_params": "€1,599\n2600 W\n48V 23.4 Ah\n146 Nm\n85 Km\n20 Km/h\n120 KG\n14''/12''\n120 cm-180 cm\n5-6 Hours"
           }
         },
         "product_N6Prf7": {
