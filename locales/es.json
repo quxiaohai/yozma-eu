@@ -3030,7 +3030,77 @@
       "shop_pay": {
         "learn_more": "Aprender más"
       },
-      "taxes_included": "Incluyendo {{amount}} en impuestos"
+      "taxes_included": "Incluyendo {{amount}} en impuestos",
+      "duties_and_taxes_included": "El total incluye aranceles e impuestos. No hay cargos adicionales en la entrega.",
+      "duties": "Deberes",
+      "ok_duties_tooltip": "Este pedido se está enviando desde otro país, por lo que se han añadido aranceles al total de su pedido.",
+      "error_duties_tooltip": "Este pedido se está enviando desde otro país, por lo que es posible que se cobren aranceles e impuestos al momento de la entrega.",
+      "zero_duties_tooltip": "Este pedido se está enviando desde otro país. No se cobran aranceles en pedidos de este valor.",
+      "tip": "Consejo",
+      "title": "Ordenar {{name}}",
+      "login_to_view_all_order_details": "Inicie sesión para ver todos los detalles del pedido.",
+      "logged_in_account_no_permission_to_order": "Has iniciado sesión como {{email}}. Esta cuenta no tiene permiso para gestionar este pedido.",
+      "log_in_to_a_different_account": "Iniciar sesión con una cuenta diferente",
+      "fees": {
+        "restocking_fee": "Tarifa de reposición"
+      },
+      "adjusted_payment": "Pago ajustado",
+      "adjusted_total": "Total ajustado",
+      "due_on_date": "Vence {{date}}",
+      "due_on_fulfillment": "Debido al cumplimiento",
+      "due_on_receipt": "Pago al recibir"
+    },
+    "addresses": {
+      "add_button_text": "Añadir",
+      "back_button_accessibility_label": "Volver a editar la dirección {{address}}",
+      "add_address_banner": "Agregar direcciones para usar al pagar",
+      "no_addresses_banner": "No se han añadido direcciones",
+      "cancel_adding_address_accessibility_label": "Cancelar añadir dirección",
+      "cancel_deletion_button_accessibility_label": "Cancelar la eliminación de {{address}}",
+      "delete_confirmation_title": "¿Eliminar dirección?",
+      "delete_confirmation_description": "Los pedidos existentes no se ven afectados.",
+      "loading_billing_accessibility_message": "Cargando dirección de facturación",
+      "loading_finished_accessibility_message": "Se ha cargado una nueva página de direcciones"
+    },
+    "address_form": {
+      "attention_company": "Empresa/atención",
+      "attention_help_text": "El nombre de una persona o departamento",
+      "auto_complete_close_accessibility_label": "Cerrar sugerencias",
+      "cancel_accessibility_label": "Cancelar edición de la dirección {{address}}",
+      "creation_success_notification": "Dirección añadida",
+      "default_address": "Esta es mi dirección predeterminada",
+      "default_address_creation_success_notification": "Dirección predeterminada añadida",
+      "loading_edit_form_accessibility_message": "Cargando formulario para editar dirección",
+      "loading_finished_accessibility_message": "El formulario de dirección se ha cargado",
+      "save_accessibility_label": "Guardar dirección {{address}}"
+    },
+    "account_menu": {
+      "signed_out_state": {
+        "alternate_divider": "O\n\no",
+        "use_email_button": "Usa el correo electrónico en su lugar"
+      },
+      "location_picker": {
+        "sheet_title": "Ubicaciones",
+        "search_field_placeholder": "Buscar"
+      },
+      "aria_labels": {
+        "open_submenu": "{{title}}, abre el submenú"
+      }
+    },
+    "B2B": {
+      "locations": {
+        "contact_list_title": "Personas",
+        "location_picker_label": "Nombre del lugar",
+        "location_picker_accessibility_label": "Nombre de la ubicación: {{locationName}}",
+        "net_payment_terms_description": "{{name}}: pagos vencidos dentro de {{numberOfDays}} días",
+        "deposit_percentage": "depósito de {{percentage}}",
+        "pagination": {
+          "load_more_accessibility_label": "Cargar más ubicaciones"
+        },
+        "payment_details_title": "Detalles de pago",
+        "payment_terms": "Condiciones de pago",
+        "permissions_label": "Tus permisos"
+      }
     }
   }
 }
