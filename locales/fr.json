@@ -11,7 +11,7 @@
   "404": {
     "general": {
       "title": "Page non trouvée",
-      "continue_shopping": "Explorer nos produits"
+      "continue_shopping": "Continuer vos achats"
     }
   },
   "general": {
@@ -19,15 +19,15 @@
     "home": "Accueil",
     "accessibility": {
       "skip_to_content": "Passer au contenu",
-      "pagination": "Pagination",
+      "pagination": "Navigation de pagination",
       "go_to_page": "Aller à la page {{ index }}",
-      "go_to_item": "Aller à l'élément {{ index }}",
-      "item_nth_of_count": "Elément {{ index }} de {{ count }}",
-      "drag": "Tirer",
+      "go_to_item": "Aller à l'article {{ index }}",
+      "item_nth_of_count": "Article {{ index }} sur {{ count }}",
+      "drag": "Glisser",
       "close": "Fermer",
       "next": "Suivant",
       "previous": "Précédent",
-      "play_video": "Lancer la video",
+      "play_video": "Lire la vidéo",
       "read_more": "En savoir plus"
     },
     "label": {
@@ -36,19 +36,19 @@
       "size": "Taille"
     },
     "social": {
-      "follow_on": "Nous suivre sur {{ social_media }}",
+      "follow_on": "Suivre sur {{ social_media }}",
       "share": "Partager",
       "share_on": "Partager sur {{ social_media }}",
-      "share_email": "Partager par email"
+      "share_email": "Partager par courriel"
     },
     "rating": {
       "info": "{{ rating_value }} sur {{ rating_max }} étoiles"
     },
     "newsletter": {
-      "email": "E-mail",
-      "subscribe": "S'inscrire",
-      "notify_me": "Me notifier",
-      "subscribed_successfully": "Vous êtes maintenant inscrit à notre newsletter."
+      "email": "Courriel",
+      "subscribe": "S'abonner",
+      "notify_me": "M'avertir",
+      "subscribed_successfully": "Vous avez été abonné à notre bulletin d'information."
     },
     "localization": {
       "country": "Pays",
@@ -61,15 +61,15 @@
       "decline": "Refuser"
     },
     "form": {
-      "max_characters": "{{ max_chars }} caractères au maximum"
+      "max_characters": "{{ max_chars }} caractères maximum"
     },
     "on_boarding": {
       "blog_post_category": "Catégorie",
       "blog_post_title": "Article",
-      "blog_post_excerpt": "Ecrivez quelque chose à propos de votre article de blog.",
-      "product_vendor": "Marque",
+      "blog_post_excerpt": "Rédigez un texte à propos de votre article de blogue.",
+      "product_vendor": "Vendeur",
       "product_title": "Produit",
-      "product_description": "Ecrivez quelque choes à propos de votre produit.",
+      "product_description": "Rédigez un texte à propos de votre produit.",
       "collection_title": "Collection"
     }
   },
@@ -85,18 +85,18 @@
   "product": {
     "general": {
       "description": "Description",
-      "view_product": "Voir produit",
-      "quick_add": "+ Ajouter",
+      "view_product": "Voir le produit",
+      "quick_add": "+ Ajout rapide",
       "add_to_cart_short": "+ Ajouter",
-      "add_to_cart_button": "Ajouter au panier",
-      "pre_order_button": "Pré-commander",
-      "sold_out_button": "En rupture",
+      "add_to_cart_button": "ACHETER MAINTENANT",
+      "pre_order_button": "Précommande",
+      "sold_out_button": "Épuisé",
       "unavailable_button": "Indisponible",
-      "added_to_cart": "Produit ajouté au panier !",
-      "sold_out_badge": "En rupture",
-      "on_sale_badge": "Promo",
-      "discount_badge_html": "Economisez {{ savings }}",
-      "sku": "SKU:",
+      "added_to_cart": "Ajouté à votre panier !",
+      "sold_out_badge": "Épuisé",
+      "on_sale_badge": "En solde",
+      "discount_badge_html": "Économisez {{ savings }}",
+      "sku": "UGS :",
       "variant": "Variant",
       "view_in_space": "Afficher dans votre espace",
       "taxes_included": "Taxes inclues",
@@ -3872,6 +3872,52 @@
     "shop_ads": {
       "title": "Autres produits qui pourraient vous plaire",
       "button": "Explorer sur la boutique"
+    },
+    "knowledge_base": {
+      "self_serve_returns": {
+        "disabled": "Les clients doivent contacter le commerçant pour demander un retour."
+      }
+    },
+    "subscriptions": {
+      "update_payment_instrument": {
+        "title": "Remplacer le mode de paiement",
+        "loading": "Chargement des modes de paiement",
+        "select_new_payment_method": "Sélectionnez un nouveau mode de paiement",
+        "success": "Méthode de paiement mise à jour",
+        "use_new_payment_method": "+ Utiliser un nouveau mode de paiement"
+      }
+    },
+    "intents": {
+      "subscription_replace_payment_method": {
+        "title": "Remplacer le mode de paiement",
+        "loading": "Chargement du modal de remplacement de méthode de paiement",
+        "success": "Méthode de paiement mise à jour",
+        "invalid_subscription_contract": "Impossible de trouver l'abonnement",
+        "expiry_date": "Exp. {{expiryDate}}",
+        "edit_current_payment_method": "Modifier le mode de paiement actuel",
+        "edit_selected_payment_method": "Modifier le mode de paiement sélectionné"
+      }
+    },
+    "sign_in": {
+      "brand_logo_alt_text": "Logo %{shop_name}",
+      "processing": "Traitement…",
+      "step_one": {
+        "subheading": "Entrez votre adresse e-mail et nous vous enverrons un code de vérification",
+        "subheading_with_sign_in_options": "Connectez-vous ou créez un compte",
+        "input_field_label": "Courriel"
+      },
+      "step_two": {
+        "page_title": "Entrez le code - %{shop_name}",
+        "heading": "Saisir le code",
+        "restart_link": "Se connecter avec une autre adresse courriel",
+        "input_field_label": "code à 6 chiffres"
+      },
+      "error": {
+        "invalid": {
+          "invalid_email": "Entrez une adresse courriel valide",
+          "invalid_code": "Entrez le code correct à 6 chiffres"
+        }
+      }
     }
   }
 }
