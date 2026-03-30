@@ -3542,7 +3542,157 @@
         "generic_error": "Kon bankrekening niet toevoegen. Probeer het later opnieuw."
       },
       "add_payment_method_banner": "Betaalmethode toevoegen voor snellere afhandeling of vooraf goedgekeurde diensten",
-      "edit_payment_method_button_accessibility_label": "Bewerk {{paymentMethodName}} eindigend op {{lastDigits}}"
+      "edit_payment_method_button_accessibility_label": "Bewerk {{paymentMethodName}} eindigend op {{lastDigits}}",
+      "edit_payment_method_brand_button_accessibility_label": "Bewerk {{paymentMethodName}}",
+      "delete_payment_method_button_accessibility_label": "Verwijder {{paymentMethodName}}",
+      "expiration_warning_button_accessibility_label": "Toon vervaldatumwaarschuwing voor {{paymentMethodName}} eindigend op {{lastDigits}}",
+      "card_update_consent": "Deze betaalmethode wordt opgeslagen voor toekomstige aankopen.",
+      "card_update_consent_subscriptions": "Deze betaalmethode wordt opgeslagen voor toekomstige aankopen en kan worden gebruikt voor terugkerende of uitgestelde aankopen.",
+      "credit_or_debit_card_title": "Creditcard of betaalkaart",
+      "credit_card_title": "Kredietkaart",
+      "or": "OF",
+      "google_pay": {
+        "iframe_title_accessibility_label": "Voeg betaalmethode Google Pay toe",
+        "errors": {
+          "generic": "Er was een probleem met Google Pay. Probeer het opnieuw of gebruik een andere betaalmethode.",
+          "missing_billing_address": "Google Pay vereist een factuuradres. Voeg er alstublieft een toe aan uw account."
+        }
+      },
+      "pay_pal": {
+        "iframe_title_accessibility_label": "Betaalmethode PayPal toevoegen",
+        "loading_accessibility_message": "Laden van PayPal"
+      },
+      "apple_pay": {
+        "errors": {
+          "generic": "Er was een probleem met Apple Pay. Probeer het opnieuw of gebruik een andere betaalmethode.",
+          "missing_billing_address": "Apple Pay vereist een factuuradres. Voeg er alstublieft een toe aan uw account."
+        }
+      },
+      "store_credit": {
+        "expirable_amounts_button": "Bekijk vervalbare bedragen",
+        "expirable_amounts_label": "Vervalbare hoeveelheden",
+        "details_modal": {
+          "title": "Verloopbare winkeltegoed",
+          "balance_label": "Balans",
+          "amount_label": "Hoeveelheid",
+          "event_label": "Evenement",
+          "events": {
+            "order_payment": "Bestelling betaling",
+            "order_refund": "Bestelling terugbetaling",
+            "payment_failure": "Betalingsfout",
+            "order_cancellation": "Bestelling annuleren",
+            "tax_finalization": "Belastingafhandeling"
+          },
+          "expirable_balance_info": "Een deel van uw tegoed vervalt op een toekomstige datum",
+          "expirable_amount_label": "Totaal vervalbare hoeveelheid",
+          "expirable_amounts_info": "Bedragen die eerder vervallen, worden als eerste toegepast bij het afrekenen",
+          "expired_amounts_button": "Bekijk verlopen bedragen",
+          "pagination": {
+            "load_more_accessibility_label": "Meer vervalbare hoeveelheden laden"
+          }
+        }
+      },
+      "payment_details": {
+        "title": "Betalingsmethode details",
+        "preauthorized_payments": "Vooraf goedgekeurde betalingen",
+        "close_payment_modal_accessibility_label": "Sluit het venster met betaalmethodegegevens",
+        "payment_details_loading": "Betalingsmethodegegevens laden",
+        "pre_authorized_payments": "Vooraf goedgekeurde betalingen",
+        "total_amount_of_subscription_line_items_left": "en nog {{total}} meer",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "{{totalItems}} artikelen in totaal, {{totalItemsToDisplay}} artikelen worden weergegeven.",
+        "edit_payment_method_button_accessibility_label": "Bewerk betaalmethode die eindigt op {{lastDigits}}",
+        "invalid_payment_method_message": "Gebruik een nieuwe kredietkaart om toekomstige bestellingen te blijven ontvangen.",
+        "checkout_card_banner": "Deze betaalmethode kan alleen worden gebruikt voor vooraf goedgekeurde betalingen. Het verschijnt niet bij het afrekenen als u bent ingelogd in deze winkel.",
+        "default_checkbox": "Instellen als standaard"
+      },
+      "edit_payment_method": {
+        "title": "Betaalmethode bewerken",
+        "billing_address_add_new": "Nieuw toevoegen",
+        "billing_address_choose_from_list": "Kies uit de lijst",
+        "future_purchases_notice": "Deze betaalmethode wordt opgeslagen voor toekomstige aankopen.",
+        "generic_error": "Er is een probleem opgetreden bij het bijwerken. Probeer het alstublieft opnieuw."
+      },
+      "update_payment_method": {
+        "title": "Betaalmethode bijwerken",
+        "button_title": "Bijwerken",
+        "disclaimer": "Deze betaalmethode wordt opgeslagen voor toekomstige aankopen en kan worden gebruikt voor terugkerende of uitgestelde aankopen.",
+        "current": "Huidig",
+        "pre_orders_title": "Aankomend",
+        "pre_orders_list_accessibility_label": "Lijst met producten van lopende bestellingen",
+        "resources_list_accessibility_label": "Abonnementsproducten en bestellingen in behandeling die deze betaalmethode gebruiken",
+        "loading_form_accessibility_message": "Bezig met laden van het formulier voor het bijwerken van de betaalmethode",
+        "loading_current_payment_method": "Huidige betaalmethode laden",
+        "loading_digital_wallets": "Digitale portemonnee-opties laden",
+        "loading_card_fields": "Creditcardvelden laden",
+        "loading_resources": "Abonnementen en aankomende bestellingen laden"
+      },
+      "link_expired": {
+        "message": "Deze link om uw betaalmethode bij te werken is verlopen.",
+        "update_message": "Deze link om uw betaalmethode bij te werken is verlopen.",
+        "add_message": "Deze link om uw betaalmethode toe te voegen is verlopen.",
+        "return_home_button": "Terug naar startpagina"
+      },
+      "card_fields": {
+        "card_expiry_label": "Vervaldatum (MM / JJ)",
+        "card_expiry_placeholder": "Vervaldatum (MM / JJ)",
+        "card_start_label": "Uitgiftedatum (MM / JJ)",
+        "card_start_placeholder": "Uitgiftedatum (MM / JJ)",
+        "tooltip": {
+          "card_verification_value_explanation_amex": "4-cijferige beveiligingscode aan de voorkant van uw kaart",
+          "card_verification_value_explanation_other": "3-cijferige beveiligingscode op de achterkant van uw kaart",
+          "card_verification_value_explanation": "3-cijferige beveiligingscode die meestal op de achterkant van uw kaart te vinden is. American Express-kaarten hebben een 4-cijferige code aan de voorkant.",
+          "card_security_notice": "Alle transacties zijn veilig en versleuteld."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Voer uw naam precies in zoals deze op uw kaart staat geschreven",
+          "credit_card_expiry_invalid": "Voer een geldige vervaldatum van de kaart in",
+          "credit_card_verification_value_blank": "Voer de CVV- of beveiligingscode van uw kaart in"
+        },
+        "unavailable": {
+          "text": "Betalingen met creditcard en betaalpas zijn momenteel niet beschikbaar."
+        }
+      },
+      "payment_delete": {
+        "description_without_replacement": "Deze betaalmethode zal niet langer beschikbaar zijn voor toekomstige aankopen.",
+        "description_with_replacement": "Het verwijderen van deze betaalmethode heeft invloed op vooraf goedgekeurde betalingen. U kunt deze eventueel vervangen door een andere betaalmethode om toekomstige bestellingen te blijven ontvangen.",
+        "warning_message_with_replacement": {
+          "with_pending_orders_and_subscriptions": "Het verwijderen van deze betaalmethode heeft invloed op vooraf goedgekeurde betalingen. Tenzij u een andere betaalmethode kiest, wordt deze betaalmethode nog steeds belast voor eventuele openstaande saldi van bestaande bestellingen. Het kiezen van een andere betaalmethode zorgt ervoor dat u toekomstige abonnementbestellingen zonder onderbreking ontvangt.",
+          "with_pending_orders": "Het verwijderen van deze betaalmethode zal deze uit uw account verwijderen en zal niet langer beschikbaar zijn voor toekomstige aankopen. Tenzij u een andere betaalmethode kiest, wordt deze nog steeds gebruikt voor eventuele openstaande saldi op bestaande bestellingen.",
+          "with_subscriptions": "Het verwijderen van deze betaalmethode heeft invloed op vooraf goedgekeurde betalingen. Vervang deze door een andere betaalmethode om toekomstige bestellingen te blijven ontvangen."
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "Het verwijderen van deze betaalmethode heeft invloed op vooraf goedgekeurde betalingen. Deze betaalmethode wordt nog steeds gebruikt voor openstaande bedragen bij bestaande bestellingen, maar u zult geen toekomstige abonnementbestellingen meer ontvangen. Voeg een alternatieve betaalmethode toe om abonnementbestellingen te blijven ontvangen.",
+          "with_pending_orders": "Het verwijderen van deze betaalmethode zal deze uit uw account verwijderen en zal niet langer beschikbaar zijn voor toekomstige aankopen. Eventuele openstaande saldi op bestaande bestellingen worden nog steeds in rekening gebracht.",
+          "with_subscriptions": "Het verwijderen van deze betaalmethode heeft invloed op vooraf goedgekeurde betalingen. Voeg een alternatieve betaalmethode toe om toekomstige bestellingen te blijven ontvangen."
+        },
+        "payment_method_selector_placeholder": "Kies een vervangende betaalmethode (optioneel)",
+        "payment_method_selector_no_alternative_payment": "Geen vervangingsmethode",
+        "replace_method_with_new_method_description": "Uw {{currentPaymentMethodName}} wordt verwijderd en vervangen door uw {{newPaymentMethodName}}.",
+        "error_when_deleting": "Onze excuses, er is iets misgegaan en we konden deze betaalmethode niet verwijderen. Probeer het later opnieuw of vernieuw de pagina.",
+        "delete_and_replace_button_accessibility_label": "Verwijder {{currentPaymentMethodName}} en vervang door {{newPaymentMethodName}}.",
+        "deleted_successfully": "Betaalmethode succesvol verwijderd."
+      },
+      "add_payment_method": {
+        "missing_customer_error": "Er is iets misgegaan. Probeer het opnieuw of neem contact op met de klantenservice.",
+        "replace_mode_warning": "Het verwijderen van deze betaalmethode heeft invloed op abonnementen of vooruitbestellingen. Vervang deze door een andere betaalmethode om toekomstige bestellingen te blijven ontvangen.",
+        "choose_from_list": "Kies uit de lijst",
+        "add_new_button": "Nieuw toevoegen",
+        "billing_address": {
+          "add_billing_address_button": "Nieuw toevoegen",
+          "choose_billing_address_from_list_button": "Kies uit de lijst",
+          "missing_billing_address_error_message": "Geef een factuuradres op alstublieft"
+        },
+        "subscription_contracts": {
+          "title": "Gebruik betaalmethode voor terugkerende bestellingen",
+          "more_items": {
+            "one": "{{count}} meer product",
+            "other": "{{count}} meer producten"
+          }
+        },
+        "updating_contracts": {
+          "one": "Bezig met bijwerken van {{count}} abonnementsovereenkomst..."
+        }
+      }
     }
   }
 }
