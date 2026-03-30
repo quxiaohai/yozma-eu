@@ -1377,7 +1377,69 @@
         },
         "alternative_payment_currency_total_notice": "Nota: ti verrà addebitato %{amount_due}.",
         "alternative_payment_currency_total_manual_payment_notice": "Nota: il totale convertito è %{amount_due}.",
-        "waiting_on_taxes_message": "Se le tue tasse non vengono calcolate entro i prossimi secondi, aggiorna la pagina."
+        "waiting_on_taxes_message": "Se le tue tasse non vengono calcolate entro i prossimi secondi, aggiorna la pagina.",
+        "waiting_on_taxes_notice": "Calcolo delle tasse",
+        "payment_method_rollup_accessibility_label": "Opzioni di metodo di pagamento",
+        "payment_method_incompatible_with_payment_terms": "Il metodo di pagamento non è compatibile con le condizioni di pagamento.",
+        "proposed_gateway_unavailable": "Il sistema di pagamento proposto non è disponibile",
+        "pay_in_installments_split_pay_short": "4 pagamenti di %{amount}",
+        "gift_cards_unavailable": "La tua carta regalo non può più essere applicata a questo ordine ed è stata rimossa",
+        "payment_flexibility_terms_id_mismatch": "Discrepanza nell'ID delle condizioni di flessibilità di pagamento",
+        "payment_option": {
+          "accessibility_label": "Scegli un metodo di pagamento"
+        },
+        "bank_account_type": {
+          "checking": "Controllo",
+          "savings": "Risparmi"
+        },
+        "new_bank_account_disclaimer": "Completando il tuo ordine, autorizzi %{shop_name} a addebitare il conto sottostante tramite ACH per l'importo e al momento indicati.",
+        "bank_account_disclaimer": "I pagamenti ACH possono richiedere fino a 4 giorni lavorativi per essere elaborati.",
+        "bank_account_choose": "Scegli un conto per completare l'acquisto in modo sicuro",
+        "separate_payments_label": "I tuoi articoli provengono da più negozi. Ti verrà addebitato in %{separate_payments_link}."
+      },
+      "billing": {
+        "billing_address_title": "Fatturare a",
+        "billing_address_rollup_accessibility_label": "Fattura a opzioni",
+        "add_address": "Usa un indirizzo diverso",
+        "address_confirm": "Sei sicuro di voler eliminare questo indirizzo dal tuo account?"
+      },
+      "company_location": {
+        "location_title": "Sede dell'azienda",
+        "location_rollup_accessibility_label": "Opzioni per la sede dell'azienda"
+      },
+      "payment_summary": {
+        "credit_card_expires_on_notice": "Scade il %{month}/%{year}",
+        "express_payment_gateway_label": "Espresso"
+      },
+      "field_errors": {
+        "email_or_phone_blank": "Inserisci un indirizzo email o un numero di telefono",
+        "email_or_phone_invalid": "Inserisci un indirizzo email valido o un numero di telefono cellulare",
+        "address_first_name_blank": "Inserisci un nome",
+        "address_first_name_too_long": "Il nome è troppo lungo (il massimo è di 255 caratteri)",
+        "address_first_name_contains_emojis": "Il nome non può contenere emoticon",
+        "address_first_name_contains_url": "Il nome non può contenere un indirizzo web",
+        "address_first_name_contains_mathematical_symbols": "Il nome non può contenere simboli matematici",
+        "address_last_name_blank": "Inserisci un cognome",
+        "address_last_name_too_long": "Il cognome è troppo lungo (il massimo è di 255 caratteri)",
+        "address_last_name_contains_emojis": "Il cognome non può contenere emoticon",
+        "address_last_name_contains_url": "Il cognome non può contenere un indirizzo web",
+        "address_last_name_contains_mathematical_symbols": "Il cognome non può contenere simboli matematici",
+        "address_address1_blank": "Inserisci un indirizzo",
+        "address_address1_too_long": "La prima riga dell'indirizzo è troppo lunga (il massimo è di 255 caratteri)",
+        "address_address1_contains_emojis": "Indirizzo1 non può contenere emoticon",
+        "address_address1_contains_html_tags": "Indirizzo1 non può contenere tag HTML.",
+        "address_address1_contains_mathematical_symbols": "La prima riga dell'indirizzo non può contenere simboli matematici",
+        "address_address2_blank": "Entra in un appartamento, suite, ecc.",
+        "address_address2_too_long": "La seconda riga dell'indirizzo è troppo lunga (il massimo è di 255 caratteri)",
+        "address_address2_contains_emojis": "Indirizzo2 non può contenere emoticon",
+        "address_address2_contains_html_tags": "Address2 non può contenere tag HTML.",
+        "address_address2_contains_mathematical_symbols": "La seconda riga dell'indirizzo non può contenere simboli matematici",
+        "address_city_blank": "Inserisci una città",
+        "address_city_too_long": "La città è troppo lunga (il massimo è di 255 caratteri)",
+        "address_city_contains_emojis": "La città non può contenere emoticon",
+        "address_city_contains_mathematical_symbols": "La città non può contenere simboli matematici",
+        "address_country_blank": "Seleziona un paese/regione",
+        "address_country_not_supported": "Non spediamo in questo paese o regione. Inserisci un nuovo indirizzo di spedizione e riprova."
       }
     }
   }
