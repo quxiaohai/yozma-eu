@@ -1049,7 +1049,155 @@
           "other": "Terugkerende leveringen"
         },
         "subscription_shipping": "Abonnementsverzending",
-        "subscription_local_delivery": "Abonnementsbezorging lokaal"
+        "subscription_local_delivery": "Abonnementsbezorging lokaal",
+        "subscription_pickup": "Abonnementsafhaling",
+        "waiting_on_rate_notice": "Beschikbare verzendtarieven ophalen…",
+        "waiting_on_pickup_location_notice": "Beschikbare afhaallocaties ophalen…",
+        "no_rates_for_cart_or_destination_notice": "Er zijn geen verzendmethoden beschikbaar voor uw winkelwagen of adres",
+        "no_pickup_location_notice": "Ten minste één van uw producten is niet beschikbaar voor afhaling",
+        "no_rates_for_country_notice": "Geen verzendkosten gevonden voor dit adres.",
+        "no_rates_contact_notice": "Neem contact met ons op voor meer informatie",
+        "cheapest_rate_label": "Goedkoopste",
+        "estimated_delivery_time": "Geschatte levering %{time}",
+        "estimated_delivery_time_range": "Geschatte levering %{min_time}–%{max_time}",
+        "delivery_today": "Bezorging dezelfde dag %{time}",
+        "delivery_tomorrow": "Bezorging de volgende dag %{time}",
+        "two_day_delivery": "2-daagse levering %{time}",
+        "delivery": "Levering %{time}",
+        "arrives_time": "Komt aan over %{time}",
+        "arrives_time_range": "Aankomst binnen %{min_time}–%{max_time}",
+        "estimated_time": "Geschatte %{time}",
+        "estimated_time_range": "Geschatte %{min_time}–%{max_time}",
+        "default_description": "Verzending binnen 1 werkdag",
+        "unbranded_description_with_fulfillment_days": {
+          "one": "Verzending op de volgende werkdag",
+          "other": "Wordt verzonden binnen %{count} werkdagen"
+        },
+        "unbranded_description_with_fulfillment_weeks": {
+          "one": "Wordt verzonden in %{count} week",
+          "other": "Verzending binnen %{count} weken"
+        },
+        "shipping_line_phone": "Uw koerier kan dit nummer gebruiken om contact met u op te nemen.",
+        "shipping_line_delivery_phone": "U kunt worden gecontacteerd met updates over uw levering.",
+        "optional_shipping_line_delivery_instructions_label": "Bezorginstructies (optioneel)",
+        "shipping_line_delivery_instructions": "Voer de benodigde informatie in, zoals deurcodes of afleverinstructies.",
+        "other_method": {
+          "one": "%{count} andere methode beschikbaar bij",
+          "other": "%{count} andere methoden beschikbaar vanaf"
+        },
+        "prime_not_available": {
+          "default": "Prime-levering is niet beschikbaar voor uw bestelling. Uw verzendopties zijn bijgewerkt."
+        },
+        "subscription_delivery_description": {
+          "free_shipping_cycles": {
+            "one": "Gratis verzending bij nog %{count} levering(en)",
+            "other": "Gratis verzending voor nog %{count} leveringen"
+          },
+          "free_shipping_cycles_delivery_not_included": {
+            "one": "Gratis verzending voor %{count} levering",
+            "other": "Gratis verzending voor %{count} leveringen"
+          },
+          "first_n_order_free_with_cycle": {
+            "one": "Gratis verzending bij nog %{count} leveringen, daarna %{recurring_order_shipping_price}",
+            "other": "Gratis verzending voor nog %{count} leveringen, daarna %{recurring_order_shipping_price}"
+          },
+          "first_n_order_free_with_cycle_delivery_not_included": {
+            "one": "Gratis verzending voor %{count} levering, daarna %{recurring_order_shipping_price}",
+            "other": "Gratis verzending voor %{count} leveringen, daarna %{recurring_order_shipping_price}"
+          },
+          "max_cycles_base_shipping": {
+            "one": "%{count} extra levering voor %{shipping_price}",
+            "other": "%{count} extra leveringen voor %{shipping_price} per stuk"
+          },
+          "max_cycles_base_shipping_delivery_not_included": {
+            "one": "%{count} levering voor %{shipping_price}",
+            "other": "%{count} extra leveringen voor %{shipping_price} per stuk"
+          },
+          "prepaid_free_shipping_with_cycles": {
+            "one": "Gratis verzending voor de eerste %{cycle}, daarna %{recurring_order_shipping_price}",
+            "other": "Gratis verzending voor de eerste %{cycle}, daarna %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle": {
+            "one": "%{shipping_price} voor %{count} extra levering",
+            "other": "%{shipping_price} voor %{count} extra leveringen (%{per_delivery_cost})"
+          },
+          "prepaid_order_one_cycle_delivery_not_included": {
+            "one": "%{shipping_price} voor %{count} levering",
+            "other": "%{shipping_price} voor %{count} leveringen (%{per_delivery_cost})"
+          },
+          "prepaid_order_no_cycle": {
+            "one": "%{shipping_price} voor %{count} extra levering, gevolgd door %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} voor %{count} extra leveringen (%{per_delivery_cost}), gevolgd door %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "one": "%{shipping_price} voor %{count} levering, gevolgd door %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} voor %{count} leveringen (%{per_delivery_cost}), gevolgd door %{recurring_order_shipping_price}"
+          },
+          "prepaid_delivery_frequency": {
+            "one": "voor %{count} levering",
+            "other": "voor %{count} leveringen"
+          },
+          "multiple_subscriptions_shipping_price_label": "%{shipping_price} per levering",
+          "prepaid_shipping_price_label": "%{shipping_price} per levering x %{delivery_interval_count}",
+          "initial_order_discounted": "Eerst verzendkosten %{discounted_shipping_cost}, daarna %{frequency_description}",
+          "free_for_first_n_order": {
+            "one": "Voor de eerste bestelling",
+            "other": "Voor de eerste %{count} bestellingen"
+          }
+        },
+        "one_time_purchase_shipping": "Eenmalige verzending",
+        "duties_and_taxes_title": "Heffingen en belastingen",
+        "shipping_information_required_notice": "Verzendinformatie is vereist. {{link}}.",
+        "shipping_information_redirect_link": "Voer hier uw gegevens in",
+        "loading_progressive_rates": "Meer tarieven zoeken…",
+        "duties_and_taxes_options": {
+          "ddu_title": "Betalen bij aflevering",
+          "ddu_caption": "Er kunnen extra kosten in rekening worden gebracht",
+          "ddp_title": "Betaal nu",
+          "ddp_caption": "Geen extra kosten bij levering"
+        },
+        "shipping_used_as_billing_notice": "Dit wordt ook gebruikt als uw factuuradres voor deze bestelling.",
+        "shipping_address_rollup_accessibility_label": "Verzend naar adres opties",
+        "third_party_address_timeout": "Kan adressen niet laden. Probeer opnieuw of gebruik een ander adres.",
+        "third_party_address_error": "Er is een fout opgetreden bij het laden van de adreskeuze. Voer hieronder handmatig uw adres in.",
+        "third_party_payment_error": "Er is een fout opgetreden bij het laden van de betalingskeuze. Gebruik een andere betaalmethode.",
+        "add_delivery_instructions": "Voeg bezorginstructies toe",
+        "address_confirm": "Weet u zeker dat u dit adres uit uw account wilt verwijderen?",
+        "address_default": "Instellen als standaard",
+        "address_form": {
+          "generic_error": "Er was een probleem met het opslaan van uw adres. Probeer het opnieuw.",
+          "one_time_address_subtitle": "Gebruik een eenmalig adres voor deze bestelling"
+        },
+        "different_shipping_method_summary": "Voer een ander afleveradres in om de beschikbare verzendmethoden te bekijken",
+        "invalid_shipping_method_summary": "Voer een geldig afleveradres in om de beschikbare verzendmethoden te zien",
+        "invalid_shipping_method_summary_selected": "Selecteer een ander afleveradres om de beschikbare verzendmethoden te bekijken",
+        "method_summary": {
+          "incomplete_address_entered": "Voer een volledig verzendadres in om de beschikbare verzendmethoden te bekijken",
+          "incomplete_address_selected": "Selecteer een volledig verzendadres om de beschikbare verzendmethoden te bekijken"
+        },
+        "local_pickup": {
+          "search_address": "Zoek naar adres",
+          "rollup_accessibility_label": "Ophaalopties locatie"
+        },
+        "missing_shipping_address": "Verzendadres ontbreekt",
+        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} meer",
+        "pre_order_ships_later": "Verzending later",
+        "pre_order_ships_date": "Verzending op %{date}",
+        "split_shipping_shipping_label": "Methode",
+        "split_shipping_shipment_notice": "Je bestelling arriveert in %{quantity_shipments}",
+        "split_shipping_first_shipment_notice": "Je eerste bestelling arriveert in %{quantity_shipments}",
+        "split_shipping_multiple_shipment_notice": "Uw bestelling wordt in meerdere zendingen geleverd",
+        "split_shipping_more_shipping_options": "Meer verzendmogelijkheden",
+        "add_shipping_address": "Voeg verzendadres toe",
+        "add_new_delivery_address": "Voeg een nieuw afleveradres toe"
+      },
+      "localized_fields": {
+        "additional_information": {
+          "tax_credential_br": "BSN/KVK",
+          "shipping_credential_br": "BSN/KVK",
+          "shipping_credential_cn": "Inwonersidentificatienummer",
+          "tax_credential_it": "Fiscaal nummer (optioneel)"
+        }
       }
     }
   }
