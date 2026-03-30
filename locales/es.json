@@ -1385,7 +1385,67 @@
         "markets_pro_disclaimer_terms_and_conditions_title": "Términos y Condiciones del Comerciante Registrado",
         "markets_pro_disclaimer_privacy_policy_title": "Política de Privacidad del Comerciante Registrado",
         "alternative_payment_currency_total_notice": "Nota: se le cobrará %{amount_due}.",
-        "alternative_payment_currency_total_manual_payment_notice": "Nota: el total convertido es %{amount_due}."
+        "alternative_payment_currency_total_manual_payment_notice": "Nota: el total convertido es %{amount_due}.",
+        "waiting_on_taxes_message": "Si sus impuestos no se calculan en los próximos segundos, actualice la página.",
+        "payment_method": "Método de pago",
+        "payment_method_rollup_accessibility_label": "Opciones de método de pago",
+        "expired_payment_method": "El método de pago seleccionado ha expirado",
+        "payment_method_update_failed": "La actualización del método de pago falló.",
+        "payment_method_incompatible_with_payment_terms": "El método de pago es incompatible con las condiciones de pago.",
+        "proposed_gateway_unavailable": "La pasarela de pago propuesta no está disponible",
+        "pay_in_installments_split_pay_short": "4 pagos de %{amount}",
+        "gift_cards_unavailable": "Su tarjeta de regalo ya no puede aplicarse a este pedido y ha sido retirada",
+        "payment_flexibility_terms_id_mismatch": "Incompatibilidad de ID en los términos de flexibilidad de pago",
+        "bank_account_type": {
+          "checking": "Comprobando",
+          "savings": "Ahorros"
+        },
+        "new_bank_account_disclaimer": "Al completar su pedido, usted autoriza a %{shop_name} a debitar la cuenta indicada a continuación mediante ACH por el monto y en el momento mostrados.",
+        "bank_account_disclaimer": "Los pagos ACH pueden tardar hasta 4 días hábiles en procesarse.",
+        "bank_account_choose": "Elija una cuenta para completar su compra de forma segura",
+        "bank_account_connect_another": "Conectar otra cuenta bancaria",
+        "bank_account_connect": "Conectar cuenta bancaria",
+        "bank_account_missing": "La cuenta bancaria debe estar conectada",
+        "separate_payments_label": "Tus artículos provienen de más de una tienda. Se te cobrará en %{separate_payments_link}.",
+        "add_payment_method": "Agregar método de pago",
+        "add_new_payment_method": "Agregar un nuevo método de pago",
+        "choose_new_payment_method": "Elige un nuevo método de pago"
+      },
+      "billing": {
+        "billing_address_rollup_accessibility_label": "Facturar a opciones",
+        "add_address": "Usar una dirección diferente",
+        "address_confirm": "¿Está seguro de que desea eliminar esta dirección de su cuenta?"
+      },
+      "company_location": {
+        "location_rollup_accessibility_label": "Opciones de ubicación de la empresa"
+      },
+      "payment_summary": {
+        "credit_card_expires_on_notice": "Expira el %{month}/%{year}"
+      },
+      "field_errors": {
+        "handle_phone_invalid": "Ingrese un número de teléfono válido",
+        "email_or_phone_blank": "Introduce un correo electrónico o número de teléfono",
+        "email_or_phone_invalid": "Introduce un correo electrónico válido o un número de teléfono móvil",
+        "address_first_name_blank": "Introduzca un nombre",
+        "address_first_name_contains_emojis": "El nombre no puede contener emoticonos",
+        "address_first_name_contains_url": "El nombre no puede contener una dirección web",
+        "address_last_name_blank": "Introduzca un apellido",
+        "address_last_name_contains_emojis": "El apellido no puede contener emoticonos",
+        "address_last_name_contains_url": "El apellido no puede contener una dirección web",
+        "address_address1_blank": "Introduzca una dirección",
+        "address_address1_contains_emojis": "Address1 no puede contener emoticonos",
+        "address_address1_contains_html_tags": "Address1 no puede contener etiquetas HTML.",
+        "address_address2_blank": "Ingrese un apartamento, suite, etc.",
+        "address_address2_too_long": "La segunda línea de dirección es demasiado larga (el máximo es de 255 caracteres)",
+        "address_address2_contains_emojis": "Address2 no puede contener emoticonos",
+        "address_address2_contains_html_tags": "Address2 no puede contener etiquetas HTML.",
+        "address_city_blank": "Introduce una ciudad",
+        "address_city_too_long": "La ciudad es demasiado larga (el máximo es de 255 caracteres)",
+        "address_city_contains_emojis": "La ciudad no puede contener emoticonos",
+        "address_country_blank": "Seleccione un país/región",
+        "address_country_not_supported": "No realizamos envíos a este país o región. Introduzca una nueva dirección de envío y vuelva a intentarlo.",
+        "address_province_blank": "Seleccione un estado / provincia",
+        "address_province_invalid": "Seleccione un estado / provincia válido"
       }
     }
   }
