@@ -101,7 +101,7 @@
       "view_in_space": "Im eigenen Raum ansehen",
       "taxes_included": "Steuer inbegriffen.",
       "taxes_excluded": "Steuer ausgeschlossen.",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Versandkosten werden</a> beim Bezahlen berechnet",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Versandkosten berechnet</a> beim Bezahlen",
       "size_chart": "Größentabelle",
       "available_colors_count": {
         "one": "{{ count }} Farbe verfügbar",
@@ -331,7 +331,7 @@
       "weight": "Gewicht",
       "subtotal": "Zwischensumme",
       "total": "Gesamt",
-      "taxes_and_shipping_policy_at_checkout_html": "Steuern und <a href=\"{{ link }}\" class=\"link\">Versand</a> werden beim Bezahlen berechnet",
+      "taxes_and_shipping_policy_at_checkout_html": "Steuern und <a href=\"{{ link }}\" class=\"link\">Versandkosten</a> werden beim Bezahlen berechnet",
       "taxes_included_but_shipping_at_checkout": "Steuer enthalten und Versandkosten werden beim Bezahlen berechnet",
       "taxes_included_and_shipping_policy_html": "Inklusive Steuern. <a href=\"{{ link }}\" class=\"link\">Versand</a> wird beim Bezahlen berechnet.",
       "taxes_and_shipping_at_checkout": "Steuern und Versandkosten werden beim Bezahlen berechnet",
@@ -1295,7 +1295,7 @@
         "card_fields_container_prefix": "Feldbehälter für:",
         "card_fields_unavailable_html": {
           "one": "Zahlungen mit Kredit- und Debitkarten sind derzeit nicht verfügbar.<br><a href=\"%{current_url}\">Diese Seite aktualisieren</a> oder später erneut versuchen.",
-          "other": "Kredit- und Debitkartenzahlungen sind derzeit nicht verfügbar.<br><a href=\"%{current_url}\">Diese Seite neu laden</a> oder eine andere Zahlungsmethode versuchen."
+          "other": "Kredit- und Debitkartenzahlungen sind derzeit nicht verfügbar.<br><a href=\"%{current_url}\">Diese Seite aktualisieren</a> oder eine andere Zahlungsmethode ausprobieren."
         },
         "card_fields_processing_error": "Bei der Zahlungsabwicklung ist ein Problem aufgetreten. Versuchen Sie, diese Seite zu aktualisieren, oder überprüfen Sie Ihre Internetverbindung.",
         "technical_error": "Zahlungen können derzeit wegen eines technischen Problems nicht bearbeitet werden. Versuchen Sie es in ein paar Minuten erneut.",
@@ -1326,7 +1326,7 @@
         "kcp_creditcard_label": "KCP Kreditkarte",
         "usdc_cashback_title": "%{incentive_percentage}% Cashback",
         "usdc_cashback_additional_info": "Erhalte %{incentive_percentage}% in USDC auf Base innerhalb von 30 Tagen zurück, bis zu 100 USDC.",
-        "purchase_options_card_update_agreement_label_html": "Indem Sie Ihre Zahlungsmethode aktualisieren, autorisieren Sie Zahlungen für alle wiederkehrenden oder aufgeschobenen Käufe gemäß der <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">Stornierungsrichtlinie</a> dieses Shops.",
+        "purchase_options_card_update_agreement_label_html": "Indem Sie Ihre Zahlungsmethode aktualisieren, erteilen Sie die Erlaubnis für Zahlungen bei wiederkehrenden oder aufgeschobenen Käufen gemäß der <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">%{cancellation_policy}</a> dieses Shops.",
         "subscription_card_update_agreement_label": "Die Änderung der Zahlungsmethode aktualisiert Ihr Abonnement und zukünftige wiederkehrende Zahlungen.",
         "subscription_agreement_label": "Ein oder mehrere Artikel in Ihrem Warenkorb sind ein aufgeschobener Kauf oder ein Abonnement. Wenn Sie mit der Zahlung fortfahren, stimmen Sie zu, dass Ihre Zahlungsmethode automatisch zum auf dieser Seite angegebenen Preis und in der angegebenen Häufigkeit belastet wird, bis das Abonnement endet oder Sie es kündigen. Alle Kündigungen unterliegen dem %{cancelled}.",
         "subscription_agreement_cancelled": "Stornierungsbedingungen",
@@ -1349,7 +1349,7 @@
         "google": {
           "connect": "Klicken Sie, um sich mit Ihrem Google Pay-Konto zu verbinden"
         },
-        "mor_disclaimer_html": "Indem Sie unten klicken und Ihre Bestellung abschließen, stimmen Sie zu, Ihre(n) Artikel bei Global-e als Händler für diese Transaktion zu kaufen, gemäß den <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Allgemeinen Geschäftsbedingungen</a> von Global-e und der <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Datenschutzerklärung</a>. Global-e ist ein internationaler Fulfillment-Dienstleister für %{shop_name}.",
+        "mor_disclaimer_html": "Indem Sie unten klicken und Ihre Bestellung abschließen, stimmen Sie zu, Ihre(n) Artikel bei Global-e als Händler der Aufzeichnung für diese Transaktion gemäß den <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Allgemeinen Geschäftsbedingungen</a> und der <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Datenschutzerklärung</a> von Global-e zu kaufen. Global-e ist ein internationaler Fulfillment-Dienstleister für %{shop_name}.",
         "pending_payment": {
           "due_notice": "Ihre Zahlung in Höhe von %{amount_due} ist fällig am %{due_date}.",
           "multibanco": {
