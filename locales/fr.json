@@ -3583,6 +3583,80 @@
       "add_payment_method_button": "Ajouter un mode de paiement",
       "add_payment_method_dropdown": {
         "bank_account_consent": "En ajoutant un mode de paiement, vous autorisez le débit de votre carte ou de votre compte bancaire pour les achats futurs que vous approuvez, jusqu'à ce que vous annuliez."
+      },
+      "bank_account": {
+        "loading_accessibility_message": "Le bouton du compte bancaire est en cours de chargement",
+        "generic_error": "Impossible d'ajouter le compte bancaire. Veuillez réessayer plus tard."
+      },
+      "add_payment_method_banner": "Ajouter un mode de paiement pour un passage en caisse plus rapide ou des services préautorisés",
+      "no_payment_methods_banner": "Aucune méthode de paiement ajoutée",
+      "expiration_warning_button_accessibility_label": "Afficher l’avertissement d’expiration pour {{paymentMethodName}} se terminant par {{lastDigits}}",
+      "expired": "Cette carte est périmée",
+      "card_update_consent": "Cette méthode de paiement sera enregistrée pour les achats futurs.",
+      "card_update_consent_subscriptions": "Cette méthode de paiement sera enregistrée pour les achats futurs et pourra être utilisée pour tout achat récurrent ou différé.",
+      "digital_wallet_title": "Portefeuille numérique",
+      "credit_or_debit_card_title": "Carte de crédit ou de débit",
+      "additional_payment_methods": "Méthodes de paiement supplémentaires",
+      "or": "OU",
+      "google_pay": {
+        "iframe_title_accessibility_label": "Ajouter un mode de paiement Google Pay",
+        "loading_accessibility_message": "Chargement de Google Pay",
+        "loading": "Chargement de Google Pay",
+        "errors": {
+          "generic": "Un problème est survenu avec Google Pay. Veuillez réessayer ou utiliser un autre mode de paiement.",
+          "missing_billing_address": "Google Pay nécessite une adresse de facturation. Veuillez en ajouter une à votre compte."
+        }
+      },
+      "pay_pal": {
+        "iframe_title_accessibility_label": "Ajouter un mode de paiement PayPal",
+        "loading_accessibility_message": "Chargement de PayPal",
+        "errors": {
+          "generic": "Il y avait un problème avec PayPal. Réessayez ou utilisez un autre mode de paiement."
+        }
+      },
+      "apple_pay": {
+        "loading": "Chargement d'Apple Pay",
+        "errors": {
+          "generic": "Il y avait un problème avec Apple Pay. Réessayez ou utilisez un autre mode de paiement.",
+          "not_available": "Apple Pay n'est pas disponible sur cet appareil.",
+          "missing_billing_address": "Apple Pay nécessite une adresse de facturation. Veuillez en ajouter une à votre compte."
+        }
+      },
+      "store_credit": {
+        "expirable_amounts_button": "Voir les montants périssables",
+        "expirable_amounts_label": "Montants périssables",
+        "details_modal": {
+          "title": "Crédit en magasin périssable",
+          "balance_label": "Équilibre",
+          "expiration_date_label": "Date d'expiration",
+          "events": {
+            "adjustment": "Réglage",
+            "order_payment": "Paiement de commande",
+            "order_refund": "Remboursement de commande",
+            "order_cancellation": "Annulation de commande",
+            "tax_finalization": "Finalisation des impôts"
+          },
+          "expirable_balance_info": "Une partie de votre solde expirera à une date ultérieure",
+          "expirable_amount_label": "Montant total périssable",
+          "expirable_amounts_info": "Les montants expirant plus tôt sont appliqués en premier lors du paiement.",
+          "expirable_amounts_button": "Voir",
+          "expired_amounts_button": "Voir les montants expirés",
+          "pagination": {
+            "load_more_accessibility_label": "Charger plus de montants périssables"
+          }
+        }
+      },
+      "payment_details": {
+        "title": "Détails du mode de paiement",
+        "card_info_title": "Informations sur la carte",
+        "payment_method_expiring_on": "Expire le {{expiryDate}}",
+        "preauthorized_payments": "Paiements préautorisés",
+        "close_payment_modal_accessibility_label": "Fermer le modal des détails de la méthode de paiement",
+        "payment_method_not_found_error": "Impossible de trouver un mode de paiement",
+        "payment_details_loading": "Chargement des détails de la méthode de paiement",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "{{totalItems}} articles au total, affichage de {{totalItemsToDisplay}} articles.",
+        "next_payment_due": "Prochain paiement dû le {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button_accessibility_label": "Modifier le mode de paiement se terminant par {{lastDigits}}"
       }
     }
   }
