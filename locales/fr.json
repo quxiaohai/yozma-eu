@@ -603,9 +603,163 @@
             "line_splits_not_supported": "Le champ « lignes de marchandises » doit être divisé de manière à ce que chacune contienne un seul élément de ligne dans la proposition du vendeur."
           },
           "payment": {
-            "manual_payments_not_allowed_for_b2b": "Les paiements manuels ne sont pas autorisés dans les boutiques interentreprises."
+            "manual_payments_not_allowed_for_b2b": "Les paiements manuels ne sont pas autorisés dans les boutiques interentreprises.",
+            "total_amount_mismatch": "Le total à payer ne correspond pas à la somme des montants des paiements.",
+            "subscription_terms_not_accepted": "Conditions d'abonnement non acceptées.",
+            "missing_session_id": "Informations de session de carte de crédit manquantes.",
+            "gateway_not_supported": "La passerelle de paiement ne prend pas en charge l'enregistrement du mode de paiement.",
+            "credit_card_last_name_required": "« nom de famille » ne peut pas être nul.",
+            "invalid_address_type": "Le type d'adresse fourni n'est pas valide pour ce mode de paiement.",
+            "missing_retail_attributions": "Les attributions commerciales sont requises pour les paiements par carte de crédit saisis manuellement.",
+            "unexpected_retail_attributions": "Attributions commerciales fournies de manière inattendue pour le paiement par carte de crédit.",
+            "invalid_card_source": "Cette session n'a pas l'autorisation d'utiliser cette source de carte.",
+            "payment_instrument_not_found": "Méthode de paiement introuvable",
+            "unauthorized_capture_method": "La configuration de la méthode de saisie du paiement n'est pas autorisée.",
+            "saved_payment_methods_not_allowed": "Les méthodes de paiement enregistrées ne sont pas autorisées.",
+            "saved_payment_methods_not_enabled": "Les méthodes de paiement enregistrées ne sont pas activées pour cette boutique.",
+            "saved_payment_methods_cvv_verification_disabled": "La méthode de paiement sélectionnée nécessite une vérification CVV qui n'est pas activée pour cette boutique. Veuillez choisir une autre méthode de paiement.",
+            "store_credit_not_enabled": "Le crédit en magasin n'est pas activé pour cette boutique.",
+            "store_credit_account_mismatch": "Le compte de crédit en magasin ne correspond pas à l'identité de l'acheteur.",
+            "store_credit_mismatched_currency": "La devise du compte de crédit en magasin ne correspond pas à la devise de paiement.",
+            "store_credit_insufficient_funds": "Le solde du compte de crédit en magasin est insuffisant.",
+            "store_credit_buying_gift_card": "Vous ne pouvez pas utiliser le crédit en magasin pour acheter une carte-cadeau.",
+            "gift_cards_not_allowed_for_b2b": "Les cartes-cadeaux ne sont pas autorisées dans les magasins interentreprises.",
+            "method_required": "Une méthode de paiement doit être proposée.",
+            "paypal_express_address_invalid": "PayPal a renvoyé une adresse invalide."
+          },
+          "tip": {
+            "not_accepted_by_shop": "La boutique n'accepte pas les pourboires.",
+            "only_one_tip_line_allowed": "Plusieurs lignes d'astuces ne sont pas prises en charge.",
+            "tips_not_allowed_for_b2b": "Les pourboires ne sont pas autorisés dans les magasins B2B.",
+            "currency_change_reset": "Le pourboire a été réinitialisé en raison du changement de devise.",
+            "tips_not_allowed_for_deferred_purchase_options": "Les pourboires ne sont pas encore pris en charge pour les options d'achat différé."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "Cette commande provisoire n'existe pas dans la boutique actuelle.",
+            "staff_member_not_exist": "Ce bâton n'existe pas dans la boutique actuelle.",
+            "location_not_exist": "Cet emplacement n'existe pas dans la boutique actuelle.",
+            "point_of_sale_device_not_exist": "Ce dispositif de point de vente n'existe pas dans la boutique actuelle.",
+            "unresolvable_target_merchandise_lines": "Les attributions de vente proposées sont impossibles à résoudre compte tenu du contexte actuel de la négociation."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "La proposition de votre acheteur doit contenir des conditions non négociables.",
+            "invalid_signature": "La signature pour {{target_terms}} est invalide."
+          },
+          "inventory": {
+            "missing_quantity_value": "Le champ de quantité est manquant dans les lignes d'inventaire de l'acheteur.",
+            "changing_behavior_not_allowed": "Ce client n'a pas la permission de modifier le comportement des stocks.",
+            "only_one_inventory_behavior_allowed": "Actuellement, un seul mode de gestion des stocks est autorisé par passage en caisse."
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "Le refus des droits n'est pas autorisé pour ce passage en caisse."
+          },
+          "attribution": {
+            "retail_attribution_not_allowed": "L'attribution commerciale au détail n'est pas autorisée pour ce passage en caisse.",
+            "retail_attribution_required": "L'attribution au commerce de détail est requise pour ce passage en caisse."
+          },
+          "captcha": {
+            "metadata_missing": "Il est nécessaire de remplir un captcha pour ce paiement.",
+            "metadata_mismatch": "Le fournisseur et le type de captcha fournis ne correspondent pas aux valeurs attendues.",
+            "token_missing": "Un jeton captcha doit être fourni pour finaliser cet achat.",
+            "job_enqueue_failed": "La mise en file d'attente de la tâche de validation captcha a échoué.",
+            "job_already_queued": "La validation Captcha a déjà été mise en file d'attente pour ce jeton captcha.",
+            "token_expired": "Le jeton captcha fourni a expiré. Veuillez compléter un nouveau captcha pour continuer le paiement.",
+            "token_invalid": "Le jeton captcha fourni était invalide. Veuillez compléter un nouveau captcha pour continuer le paiement."
+          },
+          "fx_reconciliation_override": {
+            "shop_currency_mismatch": "Le montant reçu doit être dans la monnaie du magasin."
+          },
+          "checkout_source": {
+            "revoked": "Cette caisse n'est plus disponible."
           }
+        },
+        "full_price": "Prix plein :",
+        "loading": "Chargement…",
+        "google_map_title": "Carte Google",
+        "submit_for_review_notice_label": "Le paiement ne sera pas exigible avant que votre commande ait été examinée",
+        "choose_delivery_strategy": "Choisissez un mode de livraison",
+        "autocomplete_powered_by_google": "Propulsé par {{brandName}}",
+        "submit": "Soumettre",
+        "processing": "Traitement…",
+        "stepper": {
+          "increase": "Augmenter {{type}}",
+          "decrease": "Diminuer {{type}}"
+        },
+        "remove_chip": "Supprimer l'article",
+        "remove_tag": "Supprimer l’étiquette",
+        "dates": {
+          "weekdays": {
+            "monday": "lundi",
+            "saturday": "samedi",
+            "sunday": "dimanche"
+          },
+          "weekdays_abbreviation": {
+            "monday": "Mo",
+            "tuesday": "Toi",
+            "wednesday": "Nous",
+            "thursday": "Th",
+            "friday": "Français",
+            "saturday": "Sa",
+            "sunday": "Su"
+          },
+          "months": {
+            "january": "janvier",
+            "march": "mars",
+            "may": "mai",
+            "june": "juin",
+            "july": "juillet",
+            "august": "août",
+            "september": "septembre",
+            "october": "octobre",
+            "december": "décembre"
+          }
+        },
+        "datepicker": {
+          "range_start": "Début de la gamme",
+          "in_range": "À portée",
+          "range_end": "Fin de gamme"
+        },
+        "list_formatter": {
+          "and": {
+            "lastWordConnector": "{{previousWords}}, et {{lastWord}}"
+          },
+          "or": {
+            "lastWordConnector": "{{previousWords}}, ou {{lastWord}}"
+          }
+        },
+        "map": {
+          "cluster_title": {
+            "one": "Groupe de {{number}} marqueurs",
+            "other": "Groupe de {{number}} marqueurs"
+          }
+        },
+        "sheet": {
+          "expand": "Développer"
+        },
+        "dropzone": {
+          "dragged_over": "Déposez le fichier pour le téléverser"
         }
+      },
+      "embed": {
+        "header": {
+          "review_order": "Vérifiez votre commande"
+        },
+        "shipping": {
+          "shipping_options": "Voir toutes les options d'expédition"
+        }
+      },
+      "payment_collection": {
+        "cancelled": "Ce paiement n'est plus nécessaire. Consultez la page de commande pour plus de détails.",
+        "paid": "Ce paiement a déjà été effectué. Consultez la page de la commande pour plus de détails."
+      },
+      "contact": {
+        "shipping_used_as_billing_notice": "Cela servira également d'adresse de facturation pour cette commande.",
+        "contact_method_title": "Contactez-nous",
+        "email_label": "Courriel",
+        "email_rollup_accessibility_label": "Options de courriel",
+        "email_placeholder": "Courriel",
+        "email_or_phone_label": "Adresse courriel ou numéro de téléphone mobile",
+        "email_or_phone_placeholder": "Adresse courriel ou numéro de téléphone mobile"
       }
     },
     "sentence": {
