@@ -2367,7 +2367,91 @@
             "other": "Items verwijderen"
           },
           "ship_separately": {
-            "one": "verzend het apart"
+            "one": "verzend het apart",
+            "other": "verzend ze apart"
+          },
+          "pick_them_up_in_store": {
+            "one": "haal het in de winkel op",
+            "other": "haal ze in de winkel op"
+          }
+        }
+      },
+      "captcha": {
+        "title": "Voltooi de CAPTCHA om door te gaan",
+        "errors": {
+          "not_solved": "Voltooi de CAPTCHA om door te gaan"
+        }
+      },
+      "clipboard": {
+        "failed_to_copy": "Kopiëren mislukt"
+      },
+      "discount_errors": {
+        "generic_error": "Uw bestelling kon niet worden verwerkt omdat uw kortingscode niet langer beschikbaar is. Controleer het totaalbedrag van uw bestelling en probeer het opnieuw."
+      },
+      "b2b_errors": {
+        "lost_b2b_purchasing_permissions": "Je hebt geen toestemming meer om B2B-bestellingen te plaatsen. %{logout_url} om in plaats daarvan een persoonlijke bestelling te plaatsen.",
+        "log_out_link_text": "Afmelden",
+        "lost_permissions_subtitle": "U hebt geen toestemming meer om B2B-bestellingen te plaatsen. Log uit om een persoonlijke bestelling te plaatsen.",
+        "lost_permissions_title": "Geen locatie-toestemmingen"
+      },
+      "shop_pay_external": {
+        "title": "Shop Pay Afrekenen",
+        "errors": {
+          "problem_loading": "Er is een probleem met het laden van Shop Pay",
+          "try_again_later": "Controleer uw verbinding of sluit dit venster en probeer het over een paar ogenblikken opnieuw.",
+          "checkout_has_expired": "Je afrekenproces is verlopen. Sluit dit venster en probeer opnieuw af te rekenen bij {{shopName}}."
+        }
+      },
+      "wallets": {
+        "return_to_checkout": "Terug naar afrekenen",
+        "redirect_hint": "Je wordt gevraagd om in te loggen met {{walletName}}.",
+        "payment_in_progress_title": "Betaling bezig",
+        "payment_in_progress_body": "Uw betaling wordt verwerkt. Uw bestelling wordt binnenkort afgerond.",
+        "redirection_notice": "Je wordt doorgestuurd naar {{walletName}} om je aankoop te voltooien",
+        "recovery_notice": "Er is een probleem met uw bestelgegevens. Werk uw informatie bij om de betaling te voltooien.",
+        "errors": {
+          "unavailable": {
+            "title": "{{walletName}} niet beschikbaar",
+            "instructions": "Er was een probleem met {{walletName}}. Ga terug naar de winkel om het opnieuw te proberen of kies een andere betaalmethode.",
+            "unavailable_for_country": "{{walletName}} is niet beschikbaar in {{countryName}}. Kies een andere betaalmethode om uw aankoop te voltooien"
+          },
+          "unavailable_terminal": {
+            "instructions": "{{walletName}} is momenteel niet beschikbaar voor uw bestelling. Om uw aankoop voort te zetten, kiest u een andere betaalmethode."
+          },
+          "generic": "Er was een probleem met {{walletName}}. Probeer het opnieuw of gebruik een andere betaalmethode.",
+          "discount_code": "Kan deze kortingscode niet toepassen. Controleer uw code en probeer het opnieuw.",
+          "terminal": "Er was een probleem met {{walletName}}. Gebruik een andere betaalmethode.",
+          "detour": {
+            "price_change": "Sommige artikelprijzen zijn gewijzigd. Sluit {{walletName}} om je bestelling te bekijken en het opnieuw te proberen.",
+            "queue": "Je bent in een wachtrij geplaatst om af te rekenen. Sluit {{walletName}} om door te gaan.",
+            "currency_change": "Je kunt geen ander adres gebruiken met {{walletName}}. Gebruik het oorspronkelijke adres, of probeer een andere betaalmethode."
+          },
+          "unsupported": {
+            "address": "De handelaar kan niet op dit adres leveren",
+            "wallet_is_unavailable": "{{walletName}} kan niet worden gebruikt met dit adres. Kies een ander adres of sluit {{walletName}} af om uw aankoop te voltooien"
+          },
+          "outdated": {
+            "shipping_method": "De verzendopties voor uw bestelling zijn gewijzigd. Controleer uw keuze.",
+            "payment_terms": "De betalingsvoorwaarden zijn gewijzigd. Controleer uw bestelling"
+          },
+          "invalid": {
+            "shipping_address": "Voer een geldig afleveradres in",
+            "zone": "Voer een geldige staat / provincie in",
+            "billing_zone": "Voer een geldige staat / provincie van het factuuradres in",
+            "emirate": "Voer een geldige emiraten in",
+            "postal_code": "Voer een geldige postcode in",
+            "billing_must_match_shipping": "Moet overeenkomen met het afleveradres",
+            "billing_zip": "Voer een geldige postcode voor het factuuradres in"
+          },
+          "missing": {
+            "address2": "Voer een appartement, suite, enz. in.",
+            "billing_address2": "Voer een factuuradres in, appartement, suite, enz.",
+            "city": "Voer een stad in",
+            "billing_city": "Voer een factuuradresstad in",
+            "province": "Selecteer een staat / provincie",
+            "billing_province": "Selecteer een factuuradres provincie / gewest",
+            "zip": "Voer een postcode in",
+            "billing_zip": "Voer een factuuradres postcode in"
           }
         }
       }
