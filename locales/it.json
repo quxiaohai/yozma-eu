@@ -905,7 +905,149 @@
         "calculating": "Calcolando…",
         "shipping_default_value": "Calcolato al passaggio successivo",
         "taxes_label": "Tasse",
-        "estimated_taxes_label": "Tasse stimate"
+        "estimated_taxes_label": "Tasse stimate",
+        "estimated_taxes_label_short": "Stimato",
+        "information_estimated_taxes_label": "Tasse (stimate)",
+        "estimated_taxes_finalization_tooltip_content": "L'imposta finale e il totale saranno confermati via email o messaggio di testo dopo aver effettuato l'ordine.",
+        "order_total_label": "Totale Ordine",
+        "total_savings": "Risparmio totale",
+        "deposit_label": "Deposito",
+        "total_due_later_label": "Totale dovuto in seguito",
+        "vat_label_html": "Inclusi %{amount} di tasse",
+        "duties_included_label": "Il totale include tasse e dazi. Nessun costo aggiuntivo alla consegna.",
+        "discount_and_gift_card_savings_notice": "Dopo %{discount_amount} di sconti e %{gift_card_amount} in buoni regalo",
+        "discount_savings_notice": "Dopo %{discount_amount} di sconti",
+        "gift_card_savings_notice": "Dopo %{gift_card_amount} in carte regalo",
+        "cost_table_title": "Riepilogo dei costi",
+        "price_per_item": {
+          "label": "%{price}/cad"
+        },
+        "product_image_label": "Immagine del prodotto",
+        "scroll_order_summary": "Scorri per altri articoli",
+        "total_updated_label": "Prezzo totale aggiornato:",
+        "unit_price": {
+          "per_item": {
+            "single": "%{price} ciascuno"
+          }
+        },
+        "gift_card_ending": "Carta regalo terminante con %{last_characters}",
+        "estimated_tax_label": "Imposta stimata",
+        "recurring_subtotal_label": "Totale parziale ricorrente",
+        "recurring_total_tooltip": "Non include spedizione, tasse, dazi o eventuali sconti applicabili.",
+        "confirmation_number_label": "Conferma #%{confirmation_number}",
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> non può essere utilizzato con gli sconti già applicati.",
+        "percent_off_shipping": "%{percent}% di sconto sulla spedizione",
+        "amount_off_shipping": "%{amount} di sconto sulla spedizione",
+        "deferred_payment_info": {
+          "title": "Il pagamento di %{amount_due} è dovuto entro %{due_at}",
+          "due_on_fulfillment_title": "Il pagamento di %{amount_due} è dovuto al completamento",
+          "due_on_receipt_title": "Il pagamento di %{amount_due} è dovuto al ricevimento"
+        },
+        "deferred_balance_info": {
+          "title": "Il saldo di {{amount_due}} è dovuto il {{due_at}}",
+          "due_on_fulfillment_title": "Il saldo di {{amount_due}} è dovuto al completamento dell'ordine"
+        },
+        "payment_terms_totals": {
+          "due_today_next": "Da consegnare oggi",
+          "due_later": "Totale dovuto %{due_at}",
+          "due_on_fulfillment": "Totale dovuto al completamento",
+          "due_on_fulfillment_next": "Due alla consegna",
+          "due_on_receipt": "Totale da pagare alla ricezione",
+          "due_later_checkout_to_draft": "Totale dovuto in seguito"
+        },
+        "maximum_discount_code_limit_reached": "Hai raggiunto il numero massimo di codici sconto. Rimuovi un codice esistente per usare <strong style=\"text-transform:uppercase\">%{code}</strong>.",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> non funziona al momento. Contattaci per assistenza.",
+        "due_on_fulfillment": "Due alla consegna",
+        "duties_label": "Compiti",
+        "error_duties_tooltip": "Questo ordine viene spedito da un altro paese, quindi potrebbero essere addebitati dazi e imposte alla consegna.",
+        "may_be_charged_on_delivery": "Può essere pagato alla consegna",
+        "updated_shipping_method": "Metodo di spedizione aggiornato: %{shipping_method}",
+        "recurring_total_multiple_label": "Questo ordine prevede un addebito ricorrente per più articoli.",
+        "deferred_total_due_date_label": "Totale dovuto {{date}}",
+        "deferred_total_due_date_label_next": "Due %{date}",
+        "collapse_component_information": {
+          "other": "Nascondi %{count} elementi"
+        },
+        "alternative_payment_currency_total": "Addebitato %{amount_due}",
+        "discount_applies_to_subscription_items_only": "Questo sconto si applica solo agli articoli in abbonamento"
+      },
+      "shipping": {
+        "shipping_method_rollup_accessibility_label": "Opzioni di metodo di spedizione",
+        "shipping_method_one_time_purchase_group_title": "Acquisto unico",
+        "subscription_local_delivery": "Consegna locale in abbonamento",
+        "subscription_pickup": "Ritiro in abbonamento",
+        "waiting_on_rate_notice": "Recupero delle tariffe di spedizione disponibili…",
+        "waiting_on_pickup_location_notice": "Recupero delle sedi di ritiro disponibili…",
+        "no_rates_for_cart_or_destination_notice": "Non sono disponibili metodi di spedizione per il tuo carrello o indirizzo",
+        "cheapest_rate_label": "Più economico",
+        "estimated_delivery_date_range": "da %{minimum} a %{maximum} giorni lavorativi",
+        "estimated_delivery_time": "Consegna stimata %{time}",
+        "estimated_delivery_time_range": "Consegna stimata %{min_time}–%{max_time}",
+        "delivery_today": "Consegna in giornata %{time}",
+        "delivery_tomorrow": "Consegna il giorno successivo %{time}",
+        "two_day_delivery": "Consegna in 2 giorni %{time}",
+        "arrives_time": "Arriva in %{time}",
+        "arrives_time_range": "Arriva in %{min_time}–%{max_time}",
+        "estimated_time": "Stimato %{time}",
+        "estimated_time_range": "Stimato %{min_time}–%{max_time}",
+        "default_description": "Spedito entro 1 giorno lavorativo",
+        "unbranded_description_same_day": "Spedito lo stesso giorno lavorativo",
+        "unbranded_description_with_fulfillment_days": {
+          "one": "Spedito il giorno lavorativo successivo",
+          "other": "Spedito in %{count} giorni lavorativi"
+        },
+        "unbranded_description_with_fulfillment_weeks": {
+          "one": "Spedizione in %{count} settimana",
+          "other": "Spedizione in %{count} settimane"
+        },
+        "shipping_line_phone_label": "Numero di cellulare (obbligatorio)",
+        "shipping_line_phone": "Il tuo corriere potrebbe utilizzare questo numero per contattarti.",
+        "shipping_line_delivery_phone_label": "Numero di telefono cellulare",
+        "shipping_line_delivery_phone": "Potresti essere contattato per aggiornamenti sulla tua consegna.",
+        "optional_shipping_line_delivery_instructions_label": "Istruzioni per la consegna (facoltative)",
+        "shipping_line_delivery_instructions": "Inserisci le informazioni necessarie come i codici della porta o le istruzioni per la consegna.",
+        "other_method": {
+          "zero": "Nessun altro metodo disponibile",
+          "one": "%{count} altro metodo disponibile su",
+          "other": "Altri %{count} metodi disponibili a partire da"
+        },
+        "shipping_rate_discounted_amount": "Prima: %{original_amount}. Ora: %{amount}",
+        "subscription_delivery_description": {
+          "free_shipping_cycles": {
+            "one": "Spedizione gratuita per %{count} consegne in più",
+            "other": "Spedizione gratuita per %{count} consegne in più"
+          },
+          "free_shipping_cycles_delivery_not_included": {
+            "one": "Spedizione gratuita per %{count} consegne"
+          },
+          "first_n_order_free_with_cycle": {
+            "one": "Spedizione gratuita per %{count} consegne aggiuntive, poi %{recurring_order_shipping_price}",
+            "other": "Spedizione gratuita per %{count} consegne aggiuntive, poi %{recurring_order_shipping_price}"
+          },
+          "first_n_order_free_with_cycle_delivery_not_included": {
+            "one": "Spedizione gratuita per %{count} consegna, poi %{recurring_order_shipping_price}",
+            "other": "Spedizione gratuita per %{count} consegne, poi %{recurring_order_shipping_price}"
+          },
+          "max_cycles_base_shipping": {
+            "one": "%{count} consegne in più per %{shipping_price}",
+            "other": "%{count} consegne aggiuntive a %{shipping_price} ciascuna"
+          },
+          "max_cycles_base_shipping_delivery_not_included": {
+            "one": "%{count} consegna per %{shipping_price}",
+            "other": "%{count} consegne aggiuntive a %{shipping_price} ciascuna"
+          },
+          "prepaid_free_shipping_with_cycles": {
+            "one": "Spedizione gratuita per il primo %{cycle}, poi %{recurring_order_shipping_price}",
+            "other": "Spedizione gratuita per il primo %{cycle}, poi %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle": {
+            "one": "%{shipping_price} per %{count} consegne aggiuntive",
+            "other": "%{shipping_price} per %{count} consegne aggiuntive (%{per_delivery_cost})"
+          },
+          "prepaid_order_no_cycle": {
+            "one": "%{shipping_price} per %{count} ulteriori consegne, seguito da %{recurring_order_shipping_price}"
+          }
+        }
       }
     }
   }
