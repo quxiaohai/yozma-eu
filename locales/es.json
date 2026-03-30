@@ -3428,7 +3428,77 @@
         "unavailable": {
           "link_text": "Actualizar esta página"
         }
+      },
+      "payment_delete": {
+        "title": "Eliminar método de pago",
+        "description_without_replacement": "Este método de pago ya no estará disponible para compras futuras.",
+        "description_with_replacement": "Eliminar este método de pago afectará los pagos preautorizados. Opcionalmente, puede reemplazarlo con otro método de pago para seguir recibiendo los pedidos próximos.",
+        "warning_message_with_replacement": {
+          "with_pending_orders_and_subscriptions": "Eliminar este método de pago afectará los pagos preautorizados. A menos que seleccione un método de pago alternativo, este método de pago seguirá siendo cargado por cualquier saldo pendiente en pedidos existentes. Seleccionar un método de pago alternativo le permitirá recibir los próximos pedidos de suscripción sin interrupciones.",
+          "with_pending_orders": "Eliminar este método de pago lo quitará de su cuenta y ya no estará disponible para compras futuras. A menos que seleccione un método de pago alternativo, aún se le cobrará cualquier saldo pendiente en pedidos existentes.",
+          "with_subscriptions": "Eliminar este método de pago afectará los pagos preautorizados. Sustitúyalo por otro método de pago para seguir recibiendo los pedidos próximos."
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "Eliminar este método de pago afectará los pagos preautorizados. Este método de pago seguirá siendo cobrado por cualquier saldo pendiente en pedidos existentes, pero no recibirá los próximos pedidos de suscripción. Añada un método de pago alternativo para continuar recibiendo pedidos de suscripción.",
+          "with_pending_orders": "Eliminar este método de pago lo quitará de su cuenta y ya no estará disponible para compras futuras. Sin embargo, se seguirá cobrando cualquier saldo pendiente en pedidos existentes.",
+          "with_subscriptions": "Eliminar este método de pago afectará los pagos preautorizados. Añada un método de pago alternativo para seguir recibiendo los pedidos próximos."
+        },
+        "payment_method_selector_placeholder": "Seleccione un método de pago alternativo (opcional)",
+        "payment_method_selector_no_alternative_payment": "Sin método de reemplazo",
+        "replace_method_with_new_method_description": "Tu {{currentPaymentMethodName}} será eliminado y reemplazado por tu {{newPaymentMethodName}}.",
+        "error_when_deleting": "Nos disculpamos, pero algo salió mal y no pudimos eliminar este método de pago. Por favor, inténtelo de nuevo más tarde o actualice la página.",
+        "delete_and_replace_button_accessibility_label": "Eliminar {{currentPaymentMethodName}} y reemplazar por {{newPaymentMethodName}}.",
+        "deleted_successfully": "Método de pago eliminado con éxito.",
+        "loading_available_payment_methods_accessibility_label": "Cargando métodos de pago disponibles"
+      },
+      "add_payment_method": {
+        "title": "Agregar método de pago",
+        "button_title": "Añadir",
+        "payment_method_added_confirmation": "Método de pago añadido",
+        "missing_customer_error": "Algo salió mal. Por favor, inténtelo de nuevo o contacte con el servicio de ayuda.",
+        "replace_mode_warning": "Eliminar este método de pago afectará las suscripciones o pedidos anticipados. Sustitúyalo por un método de pago alternativo para seguir recibiendo los pedidos próximos.",
+        "choose_from_list": "Elija de la lista",
+        "add_new_button": "Agregar nuevo",
+        "billing_address": {
+          "add_billing_address_button": "Agregar nuevo",
+          "choose_billing_address_from_list_button": "Elija de la lista",
+          "choose_billing_address_from_list_button_accessibility_label": "Elija una dirección de facturación de la lista",
+          "missing_billing_address_error_message": "Por favor, especifique una dirección de facturación",
+          "default_checkbox": "Establecer como método de pago predeterminado"
+        },
+        "subscription_contracts": {
+          "title": "Usar método de pago para pedidos recurrentes",
+          "product_details": "Detalles del producto"
+        },
+        "contracts_updated": {
+          "one": "Contrato de suscripción actualizado con éxito {{count}}"
+        },
+        "contracts_update_failed": "No se pudo actualizar algunos contratos de suscripción",
+        "subscription_contracts_updated": "Actualizadas {{succeeded}} de {{total}} suscripciones",
+        "invalid_wallet_type_error": "Tipo de billetera inválido."
+      },
+      "three_d_secure": {
+        "title": "3D Seguro",
+        "verification_failed": "No se pudo verificar su pago. Intente de nuevo o use un método de pago diferente."
       }
+    },
+    "payment_method_brands": {
+      "discover": "Descubrir",
+      "dinersclub": "Club de Comensales",
+      "visaelectron": "Visa Electrón",
+      "forbrugsforeningen": "Asociación de Consumo",
+      "hipercard": "Hipertarjeta",
+      "laser": "Láser",
+      "shoppay": "Pago en la tienda",
+      "applepay": "Pago con Apple",
+      "googlepay": "Google Paga",
+      "bogus": "Falso"
+    },
+    "ui_components": {
+      "processing": "Procesando…",
+      "decrease": "Disminuir {{type}}",
+      "minimumReached": "Se alcanzó un mínimo de {{value}}",
+      "april": "abril"
     }
   }
 }
