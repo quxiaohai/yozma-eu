@@ -101,7 +101,7 @@
       "view_in_space": "Bekijk in je ruimte",
       "taxes_included": "Inclusief btw.",
       "taxes_excluded": "Exclusief btw.",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Verzendkosten berekend<\/a> bij het afrekenen",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Verzendkosten berekend</a> bij het afrekenen",
       "size_chart": "Maattabel",
       "available_colors_count": {
         "one": "{{ count }} kleur beschikbaar",
@@ -110,7 +110,7 @@
     },
     "gallery": {
       "close": "Galerie sluiten",
-      "zoom": "In-\/uitzoomen",
+      "zoom": "In-/uitzoomen",
       "error": "Afbeelding kan niet worden geladen"
     },
     "price": {
@@ -129,7 +129,7 @@
     "volume_pricing": {
       "title": "Volumeprijsstelling",
       "minimum": "Meer dan {{ quantity }}",
-      "price_at_each": "{{ price }}\/st."
+      "price_at_each": "{{ price }}/st."
     },
     "rating_count": {
       "zero": "Geen recensies",
@@ -337,9 +337,9 @@
       "view_cart": "Winkelwagen bekijken",
       "checkout": "Afrekenen",
       "we_accept": "We accepteren",
-      "taxes_and_shipping_policy_at_checkout_html": "Btw en <a href=\"{{ link }}\" class=\"link\">verzendkosten<\/a> berekend bij het afrekenen",
+      "taxes_and_shipping_policy_at_checkout_html": "Btw en <a href=\"{{ link }}\" class=\"link\">verzendkosten</a> berekend bij het afrekenen",
       "taxes_included_but_shipping_at_checkout": "Btw inbegrepen en verzendkosten berekend bij het afrekenen",
-      "taxes_included_and_shipping_policy_html": "Btw inbegrepen. <a href=\"{{ link }}\" class=\"link\">Verzendkosten<\/a> berekend bij het afrekenen.",
+      "taxes_included_and_shipping_policy_html": "Btw inbegrepen. <a href=\"{{ link }}\" class=\"link\">Verzendkosten</a> berekend bij het afrekenen.",
       "taxes_and_shipping_at_checkout": "Btw en verzendkosten berekend bij het afrekenen"
     },
     "order": {
@@ -483,6 +483,132 @@
       "signup_form_email_label": "Email",
       "signup_form_success": "We will send you an email right before we open!",
       "password_link": "Enter using password"
+    }
+  },
+  "shopify": {
+    "sentence": {
+      "two_words_connector": "en",
+      "last_word_connector": ", en"
+    },
+    "checkout": {
+      "general": {
+        "page_title": "Afrekenen",
+        "skip_to_content": "Sla naar inhoud over",
+        "breadcrumb": "Broodkruimelspoor",
+        "pay_now_button_label": "Betaal nu",
+        "authenticate_purchase_button_label": "Betaling verifiëren",
+        "edit_link_label": "Bewerken",
+        "expand_notice_label": "Bekijk meer",
+        "continue_to_shipping_method": "Doorgaan naar verzending",
+        "continue_to_payment_method": "Doorgaan naar betaling",
+        "continue_to_review": "Bestelling controleren",
+        "back_to_shipping_method": "Terug naar verzending",
+        "contact_us_html": "Neem contact met ons op voor meer informatie",
+        "autocomplete_selection": "{{number}} van {{total}}",
+        "autocomplete_close": "Suggesties sluiten",
+        "forwarding_indicator": {
+          "new_window": "Opent in een nieuw venster."
+        },
+        "checkout_context": {
+          "step_one": "%{shop_name} - Afrekenen"
+        },
+        "errors": {
+          "session_identifier_not_unique_error": "Er is iets misgegaan met uw bestelling, probeer het opnieuw af te rekenen.",
+          "line_item_limit_reached": "Het maximale aantal regelitems is bereikt.",
+          "session_is_already_finished": "Deze afrekenbeurt is al afgerond.",
+          "merchandise": {
+            "only_value_constraint": "Alleen exacte waarden zijn toegestaan in de invoer voor goederen.",
+            "mixed_currencies": "De kassa bevat artikelen met verschillende valuta.",
+            "bundle_products_not_supported_for_b2b": "Gecombineerde artikelen kunnen niet aan B2B-bestellingen voor deze locatie worden toegevoegd.",
+            "gift_card_quantity_mismatch": "Bij het opgeven van cadeauboncodes moeten het aantal artikelen en het aantal cadeauboncodes overeenkomen.",
+            "gift_card_not_supported": "Cadeaubonnen worden niet ondersteund bij deze kassa.",
+            "gift_card_not_unique": "Cadeaubon met code {{code}} komt meer dan eens voor bij deze afrekening. Codes worden geformatteerd vóór vergelijking.",
+            "gift_card_used": "Cadeauboncode {{code}} is al toegewezen aan een cadeaubon. Codes worden voorafgaand aan de vergelijking geformatteerd.",
+            "gift_card_invalid": "Cadeauboncode {{code}} is ongeldig.",
+            "gift_card_code_changed": "Cadeaukaartcode {{proposed_code}} is gewijzigd in {{formatted_code}} om te voldoen aan de opmaakregels.",
+            "gift_card_with_attributes_not_supported": "Cadeaubonnen met aangepaste eigenschappen worden niet ondersteund bij deze kassa.",
+            "gift_card_with_components_not_supported": "Cadeaubonnen met onderdelen worden niet ondersteund bij deze kassa.",
+            "selling_plan_not_supported_b2b": "Abonnementen worden niet ondersteund bij B2B-afrekenen.",
+            "price_mismatch": "De eerder voorgestelde prijs voor dit artikel was ongeldig en is bijgewerkt.",
+            "inventory_not_found": "Geen voorraad gevonden voor dit artikel.",
+            "product_not_published_in_buyer_location": "Product is niet gepubliceerd op de locatie van de koper.",
+            "duplicated_stable_id": "Deze productlijn heeft dezelfde stabiele-ID als een andere lijn.",
+            "minimum_quantity_not_met": "De hoeveelheid van sommige artikelen voldoet niet aan het vereiste minimum.",
+            "maximum_quantity_exceeded": "De hoeveelheid van sommige artikelen overschrijdt het toegestane maximum.",
+            "quantity_increment_not_met": "De hoeveelheid van sommige artikelen voldoet niet aan de bestelgrenzen.",
+            "quantity_rules_not_met": "De hoeveelheid van sommige artikelen voldoet niet aan de bestelgrenzen.",
+            "bundle_requires_components": "Dit samengestelde product bevat geen onderdelen.",
+            "combined_listing_parent_not_purchasable": "Gecombineerde lijst hoofdproducten kunnen niet direct worden gekocht.",
+            "title_too_long": "De titel van het product is te lang.",
+            "title_empty": "De titel van het product is leeg."
+          },
+          "buyer_identity": {
+            "business_customer_does_not_match_company": "Bedrijfcontactpersoon heeft geen toegang tot het bedrijf.",
+            "customer_account_required": "U moet zich aanmelden om door te gaan.",
+            "company_location_required": "De klant moet een bedrijfsvestiging kiezen om door te gaan.",
+            "company_purchase_permission_required": "De klant heeft geen toestemming om bedrijfsbestellingen te plaatsen.",
+            "personal_order_not_allowed": "Persoonlijke bestellingen zijn niet toegestaan in deze winkel.",
+            "lost_access_to_company": "Klant heeft de toegang tot elk bedrijf verloren.",
+            "contact_info_does_not_match_customer_account": "Contactgegevens moeten overeenkomen met het account waarmee u bent ingelogd.",
+            "phone_number_does_not_match_expected_pattern": "Het opgegeven telefoonnummer komt niet overeen met het verwachte patroon.",
+            "email_required": "Een e-mailadres is vereist wanneer de goederen worden gekocht met een abonnement.",
+            "checkout_completion_target_is_missing": "Doel voor het voltooien van de kassa ontbreekt.",
+            "invalid_customer_profile": "Er werd een ongeldig klantprofiel opgegeven.",
+            "customer_profile_access_restricted": "De kassa heeft geen toestemming om toegang te krijgen tot het klantenprofiel.",
+            "checkout_completion_target_is_invalid_proc": "Ongeldig voltooiingsdoel voor afrekenen.",
+            "buyer_identity_presentment_currency_does_not_match": "Er was een probleem bij het verwerken van uw bestelling. Probeer het over een paar minuten opnieuw."
+          },
+          "delivery": {
+            "only_one_delivery_line_allowed": "De winkelwagen mag slechts één leveringsregel bevatten.",
+            "wrong_number_of_delivery_lines": "Voor elke groep goederen moet een leveringslijn worden opgegeven.",
+            "external_delivery_promise_error": "Een fout bij het ophalen van de externe leveringsbelofte.",
+            "options_instructions_invalid": "De opgegeven instructies komen niet overeen met het verwachte patroon.",
+            "destination_address_required": "Een bestemmingsadres is vereist om door te gaan.",
+            "local_pickup_delivery_line_detail_changed": "De huidige afhaalstrategie voor lokale levering moet worden gewijzigd om door te kunnen gaan.",
+            "selected_pickup_option_no_longer_available": "De eerder gekozen afhaaloptie is niet langer beschikbaar.",
+            "local_pickup_no_delivery_strategy_available": "Geen beschikbare afhaalbezorgingsmethode gevonden.",
+            "origin_location_id_required": "Een herkomstlocatie-ID is vereist wanneer de LEVERING IN WINKEL wordt aangevraagd.",
+            "invalid_origin_location_id": "Kon geen locatie vinden die overeenkomt met de oorsprongslocatie-ID.",
+            "origin_location_id_not_allowed": "De gevraagde bezorgmethoden ondersteunen geen herkomstlocatie-ID.",
+            "auto_fulfill_not_allowed": "Deze sessie is niet gemachtigd om het afhandelingsgedrag te overschrijven.",
+            "auto_fulfill_required": "Automatisch uitvoeren is vereist wanneer de VERKOOP-leveringsmethode wordt aangevraagd.",
+            "prefetch_shipping_rates_used": "Vooraf opgehaalde verzendtarieven mogen nooit tarieven teruggeven.",
+            "fulfillment_constraints_not_satisfied": "Een of meer leveringsvoorwaarden zijn niet voldaan.",
+            "must_fulfill_from_constraint_not_satisfied": "Vereisten voor uitvoering worden niet voldaan omdat artikelen niet vanuit de benodigde locaties kunnen worden geleverd.",
+            "must_fulfill_from_same_location_constraint_not_satisfied": "Vereisten voor uitvoering worden niet voldaan omdat artikelen niet vanuit dezelfde locatie kunnen worden geleverd.",
+            "delivery_strategy_conditions_not_satisfied": "Bezorgmethoden zijn beschikbaar voor deze locatie, maar aan de voorwaarden ervan wordt niet voldaan.",
+            "out_of_stock_at_origin_location": "Geen voorraad op de oorspronkelijke locatie.",
+            "invalid_signature": "Ongeldige kortingshandtekening."
+          },
+          "discount": {
+            "custom_discount_not_honoured": "De opgegeven aangepaste korting is niet gehonoreerd.",
+            "unsupported_expectation": "De opgegeven kortingsregel bevatte een verwachting die het beleid niet kon interpreteren.",
+            "additional_requested_discount_code_discarded": "{{code}} is geldig maar niet toepasbaar. Controleer de kortingsvoorwaarden.",
+            "additional_requested_discount_discarded": "Uw korting is geldig maar niet toepasbaar. Controleer de kortingsvoorwaarden.",
+            "allocations_mismatch": "Je kortingscode is gewijzigd. Bekijk je winkelwagen en probeer het opnieuw.",
+            "discount_title_too_long": "Kortingtitel mag niet langer zijn dan 255 tekens."
+          },
+          "tax": {
+            "new_tax_must_be_accepted": "De belastingen die aan uw bestelling verbonden zijn, zijn gewijzigd. Controleer en probeer het opnieuw.",
+            "unresolvable_tax_terms": "De voorgestelde voorwaarden zijn onoplosbaar gezien de huidige onderhandelingssituatie.",
+            "delivery_price_is_abstract": "De bijbehorende bezorgprijs is abstract.",
+            "tax_exemption_not_supported": "Belastingvrijstellingen worden niet ondersteund voor de huidige onderhandelingssessie.",
+            "delivery_tax_exemption_not_supported": "Belastingvrijstellingen voor leveringsregels worden momenteel niet ondersteund.",
+            "proposed_allocations_required": "Ontbrekend veld 'voorgestelde toewijzingen'.",
+            "merchandise_terms_must_be_defined": "Voorwaarden voor goederen moeten worden vastgesteld.",
+            "delivery_terms_must_be_defined": "Leveringsvoorwaarden moeten worden vastgesteld.",
+            "merchandise_discount_terms_must_be_defined": "Voorwaarden voor korting op goederen moeten worden vastgesteld.",
+            "delivery_discount_terms_must_be_defined": "De voorwaarden voor de bezorgkorting moeten worden vastgesteld.",
+            "allocated_required": "Ontbrekend 'toegewezen' veld.",
+            "value_required": "Ontbrekend 'waarde' veld.",
+            "line_splits_not_supported": "Het veld 'assortimentlijnen' moet zodanig worden opgesplitst dat elke regelcomponent afzonderlijk voorkomt in het verkopersvoorstel."
+          },
+          "payment": {
+            "total_amount_mismatch": "Het totaal te betalen bedrag komt niet overeen met de som van de betalingsbedragen.",
+            "missing_session_id": "Ontbrekende sessie-informatie van de kredietkaart."
+          }
+        }
+      }
     }
   }
 }
