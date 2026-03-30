@@ -2875,10 +2875,162 @@
             "not_delivered_by_label": "Entregado después de {{date}}",
             "delivery_guarantee_expired_label": "Garantía de entrega vencida",
             "modal_accessibility_button_label": "Detalles de la promesa de entrega",
-            "download_shop_app_button_label": "Descargar Tienda para rastrear"
+            "download_shop_app_button_label": "Descargar Tienda para rastrear",
+            "track_with_shop_button_label": "Rastrear con Tienda",
+            "claim_shop_cash_button_label": "Reclamar Dinero de la Tienda"
+          },
+          "details_modal": {
+            "active_delivery_guarantee_label": "Entrega para {{date}}",
+            "expired_delivery_guarantee_description": "La garantía de la Promesa de Compra de 30 días para este pedido ha expirado.",
+            "expired_badge_label": "Caducado",
+            "order_includes_guarantees_label": "Su pedido incluye {{deliveryAgreementsCount}} garantías",
+            "order_includes_guarantees_description": "Shop Promise garantiza una entrega rápida y confiable. Reclama Shop Cash si tu pedido llega después de {{date}}.",
+            "delivered_after_label": "Entregado después de {{date}}",
+            "delivered_after_description": "Debido a que tu pedido llegó tarde, eres elegible para reclamar {{amount}} de Crédito de Tienda.",
+            "claimed_shop_cash_description": "Debido a que este pedido llegó tarde, reclamaste {{amount}} Shop Cash.",
+            "eligible_to_claim_shop_cash_description": "Debido a que tu pedido llegó tarde, eres elegible para reclamar {{amount}} de Crédito de Tienda.",
+            "learn_more_button_label": "Aprender más",
+            "claim_shop_cash_button_label": "Reclamar Dinero de la Tienda",
+            "view_balance_in_shop_button_label": "Ver saldo en la tienda",
+            "scan_to_claim_shop_cash_label": "Escanea para reclamar {{amount}} Dinero de la Tienda"
+          }
+        },
+        "delivery_promise": {
+          "promise_line": {
+            "not_delivered_by_label": "No entregado para {{date}}",
+            "modal_accessibility_button_label": "Detalles de la promesa de entrega"
+          },
+          "claim_shop_cash_cta": {
+            "has_shop_app_label": "Reclama tu Dinero de Tienda",
+            "no_shop_app_label": "{{appDownloadLink}} para reclamar Dinero de la Tienda",
+            "download_shop_app_label": "Descargar tienda"
+          },
+          "details_modal": {
+            "modal_accessiblity_label": "Detalles de la promesa de entrega",
+            "delivery_by_label": "Entrega para {{date}}",
+            "delivery_guaranteed_by_label": "Entrega garantizada para {{date}}",
+            "shop_cash_claim": {
+              "may_be_eligible_label": "Shop Promise garantiza una entrega rápida y confiable. Reclama Dinero de Tienda si tu pedido llega tarde.",
+              "may_be_eligible_not_authorized_label": "Es posible que pueda reclamar Dinero de Tienda porque este pedido llegó tarde. Inicie sesión para ver los detalles.",
+              "redeemed_label": "Ya has reclamado el Dinero de la Tienda porque este pedido llegó tarde.",
+              "expired_label": "Este pedido no es elegible para una reclamación por entrega tardía porque la garantía de 30 días ha expirado.",
+              "no_shop_cash_label": "Este pedido no es elegible para una reclamación por entrega tardía porque no se pagó con Shop Pay.",
+              "no_longer_guaranteed_label": "Estos artículos ya no cuentan con garantía de entrega.",
+              "claim_shop_cash_title": "Escanea para reclamar {{amount}} en Dinero de Tienda",
+              "claim_shop_cash_description": "Puedes usar tu Dinero de la Tienda en futuras compras en la aplicación de la Tienda."
+            }
           }
         }
-      }
+      },
+      "fulfillment_status_title": "Estado de cumplimiento: {{status}}",
+      "buy_again": "Comprar de nuevo",
+      "buy_again_accessibility_label": "Comprar de nuevo para el pedido {{orderId}}"
+    },
+    "order_details": {
+      "shipment_timeline": {
+        "expand_events_accessibility_label": "Mostrar detalles del envío del pedido",
+        "hide_events_accessibility_label": "Ocultar detalles del envío del pedido"
+      },
+      "order_details_skeleton_accessibility_label": "Inicie sesión para ver todos los detalles del pedido.",
+      "card_ending_with": "terminando con {{lastDigits}}",
+      "company_and_location": "Empresa y ubicación",
+      "grouped_view_components": {
+        "line_item_summary_accessibility_label": "{{productTitle}}, Cantidad: {{refundableQuantity}}"
+      },
+      "discount_order_stacking": {
+        "one": "Descuento por pedido",
+        "other": "Descuentos por pedido"
+      },
+      "price_after_discount_accessibility_label": "Precio con descuento",
+      "hide_items": "Ocultar elementos",
+      "loading_finished_accessibility_message": "Los detalles del pedido han sido cargados",
+      "location": "Ubicación",
+      "image_gallery": {
+        "product_name_and_quantity": "Cantidad de {{productName}} {{quantity}}",
+        "next": "Mostrar siguientes artículos"
+      },
+      "not_applicable": "No disponible",
+      "partially_refunded_label": "PARCIALMENTE REEMBOLSADO",
+      "payment_confirmation": {
+        "payment_received": "¡Gracias! Su pago de {{amount}} ha sido recibido.",
+        "full_payment_received": "¡Gracias! Su pago de {{amount}} ha sido recibido, y este pedido ahora está completamente pagado."
+      },
+      "payment": {
+        "status_in_review": "Pago debido después de la revisión",
+        "status_unpaid": "Pago debido el {{date}}",
+        "payment_type": {
+          "cash_on_delivery": "Pago contra reembolso (PCR)"
+        },
+        "card_payment_details": "terminando con {{lastDigits}} - {{formattedTransactionAmount}}",
+        "gift_card_payment_details": "terminando con {{lastDigits}} - {{formattedTransactionAmount}}",
+        "store_credit_payment_details": "Crédito en tienda - {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "Pagado con cuotas de Shop Pay",
+          "view_schedule": "Ver horario"
+        },
+        "manual_payment_methods": {
+          "money_order": "Giro postal - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Pago contra entrega (COD) - {{formattedTransactionAmount}}",
+          "bank_deposit": "Depósito bancario - {{formattedTransactionAmount}}"
+        },
+        "emv_details": {
+          "auth": "AUTOR:",
+          "aid": "AYUDA:",
+          "source": "Utilice el siguiente formato de salida (sin comillas de código, sin texto adicional):"
+        }
+      },
+      "paid_with_shop_pay_installments_card": {
+        "description": "Mantente al día con tu calendario de pagos con recordatorios en la aplicación Tienda.",
+        "payment_reminders_button": "Recibe recordatorios de pago",
+        "desktop_qr_code_content": {
+          "title": "Buscar recordatorios",
+          "description": "Recibe recordatorios de tus pagos a plazos con Shop."
+        }
+      },
+      "request_return_failed": "Hubo un problema al procesar su solicitud. Por favor, inténtelo de nuevo.",
+      "login_card": {
+        "resend_link_and_login": "Para ver los detalles de su pedido, inicie sesión o envíe un nuevo enlace al correo electrónico o número de teléfono utilizado al realizar la compra.",
+        "resend_link_only": "Para ver los detalles de su pedido, envíe un nuevo enlace al correo electrónico o número de teléfono utilizado al finalizar la compra.",
+        "link_expired": "Enlace caducado"
+      },
+      "marketing_description": "Recibirás correos electrónicos de mercadotecnia. Puedes darte de baja en cualquier momento.",
+      "marketing_checkbox_label": "Envíame correos con noticias y ofertas",
+      "marketing_pending_confirmation": "Haz clic en el enlace de tu correo electrónico para confirmar.",
+      "returns": {
+        "ineligible_return_message": "Ningún artículo de este pedido es elegible para devolución.",
+        "ineligible_return_message_when_returned": "No hay artículos adicionales en este pedido que sean aptos para devolución.",
+        "exchange_subheader": "Los artículos de cambio se añadirán al pedido una vez que se complete la devolución."
+      },
+      "pickup": {
+        "pickup": "Recoger",
+        "pickup_location": "Lugar de recogida",
+        "pickup_point": "Punto de recogida"
+      },
+      "show_order_summary": "Mostrar resumen del pedido",
+      "hide_order_summary": "Ocultar resumen del pedido",
+      "subtitle": "Confirmado {{date}}",
+      "subtotal_label_with_quantity": {
+        "other": "Subtotal · {{count}} artículos"
+      },
+      "shop_order_tracking": {
+        "download_shop_to_track": "Descargar Tienda para rastrear el paquete",
+        "track_order_with_shop": "Rastrea tu pedido con Shop",
+        "real_time_delivery_updates": "La tienda le enviará actualizaciones en tiempo real sobre la entrega una vez que su pedido haya sido enviado."
+      },
+      "edit_summary": {
+        "added": "Añadido",
+        "added_with_quantity": "Añadido {{quantity}}",
+        "removed_with_quantity": "Eliminado {{quantity}}",
+        "updated_at": "Su pedido fue actualizado el {{date}}",
+        "returned_with_quantities": "Devuelto {{delta}} de {{total}}",
+        "removed_with_quantities": "Eliminado {{delta}} de {{total}}",
+        "return_line_item_removed": "Retirado de la devolución",
+        "return_line_item_removed_with_quantities": "Eliminado {{delta}} de la devolución"
+      },
+      "shop_pay": {
+        "learn_more": "Aprender más"
+      },
+      "taxes_included": "Incluyendo {{amount}} en impuestos"
     }
   }
 }
