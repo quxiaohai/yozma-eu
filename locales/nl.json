@@ -3006,6 +3006,150 @@
         "show_order_actions_accessibility_label": "Toon bestelacties voor bestelling {{name}}",
         "view_order": "Bekijk bestelling",
         "view_order_accessibility_label": "Bekijk bestelling {{orderName}}"
+      },
+      "order_status": {
+        "attempted_to_deliver_label": "Bezorgpoging gedaan",
+        "preparing_for_shipping_label": "Voorbereiden op verzending",
+        "ready_for_pickup_label": "Klaar om op te halen",
+        "ready_for_pickup_description": "Deze artikelen zijn klaar om opgehaald te worden. Breng alstublieft uw bestelbevestiging mee wanneer u uw bestelling komt ophalen.",
+        "ready_for_pickup_location": "Uw bestelling is klaar om op te halen op locatie",
+        "picked_up_label": "Opgehaald",
+        "canceled_title": "Uw bestelling is geannuleerd",
+        "come_back": "Kom terug naar deze pagina voor updates over de status van uw zending.",
+        "company_tracking_number": "{{company}} trackingnummer:",
+        "confirmed_title": "Uw bestelling is bevestigd",
+        "confirmed_description_pickup": "Je ontvangt een e-mail zodra je bestelling klaar is om op te halen.",
+        "confirmed_description_digital": "Je ontvangt een e-mail zodra je bestelling klaar is.",
+        "confirmed_description_gift_card_text": "Je ontvangt een sms-bericht zodra je bestelling klaar is.",
+        "delivered_label": "Geleverd",
+        "delivered_description_gift_card_text": {
+          "one": "Cadeaubon is per sms verzonden.",
+          "other": "Cadeaubonnen zijn per sms verzonden."
+        },
+        "gift_resend_failure": {
+          "one": "Er was een probleem met het opnieuw verzenden van uw cadeaubon. Probeer het opnieuw of neem contact met ons op.",
+          "other": "Er was een probleem met het opnieuw verzenden van uw cadeaubonnen. Probeer het opnieuw of neem contact met ons op."
+        },
+        "confirmed_gift_card_additional_description": {
+          "one": "Cadeaubon wordt in een aparte e-mail verzonden."
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "one": "Cadeaubon wordt in een aparte tekst verzonden.",
+          "other": "Elke cadeaubon wordt in een aparte tekst verzonden."
+        },
+        "status_timestamp": "Bijgewerkt {{date}}",
+        "estimated_delivery": "Verwacht {{date}}",
+        "expected_by": "Verwacht op {{date}}",
+        "was_expected_by": "Werd verwacht op {{date}}",
+        "delivered": "Aangekomen {{date}}",
+        "buy_with_prime_logo_accessibility_label": "Amazon Koop met Prime-logo",
+        "in_review_label": "In beoordeling",
+        "in_review_title": "Uw bestelling wordt beoordeeld",
+        "last_updated": "Laatst bijgewerkt {{date}}",
+        "no_tracking_number": "Er is geen traceernummer voor deze zending.",
+        "tracking_number": {
+          "one": "Volgnummer",
+          "other": "Volgnummer"
+        },
+        "out_for_delivery_label": "Onderweg voor bezorging",
+        "resume_tracking": "Voortgang bijhouden",
+        "submitted_description": "Controleer de bestelling en betalingsgegevens.",
+        "track_shipment": "Volg zending",
+        "request_return": "Retouraanvraag",
+        "view_order_for_details": "Bekijk bestelling voor details",
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "text": "Beheer met Amazon",
+            "new_window_disclaimer": "(opent een nieuw venster)"
+          }
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "external_promise_brand_label": "Bezorging door",
+            "not_delivered_by_label": "Geleverd na {{date}}",
+            "delivery_guarantee_expired_label": "Bezorggarantie verlopen",
+            "modal_accessibility_button_label": "Details van de leveringsbelofte",
+            "download_shop_app_button_label": "Download Winkel om te volgen",
+            "track_with_shop_button_label": "Volg met Winkel",
+            "claim_shop_cash_button_label": "Claim winkeltegoed"
+          },
+          "details_modal": {
+            "title": "Bezorggarantie",
+            "expired_delivery_guarantee_description": "De 30-dagen Winkelen Garantie voor deze bestelling is verlopen.",
+            "order_includes_guarantees_label": "Uw bestelling bevat {{deliveryAgreementsCount}} garanties",
+            "order_includes_guarantees_description": "Shop Promise garandeert snelle, betrouwbare levering. Vraag Shop Cash aan als je bestelling na {{date}} aankomt.",
+            "delivered_after_label": "Geleverd na {{date}}",
+            "delivered_after_description": "Omdat je bestelling te laat is aangekomen, kom je in aanmerking om {{amount}} Shop Cash te claimen.",
+            "claimed_shop_cash_description": "Omdat deze bestelling te laat aankwam, hebt u {{amount}} Shop Cash geclaimd.",
+            "eligible_to_claim_shop_cash_description": "Omdat je bestelling te laat is aangekomen, kom je in aanmerking om {{amount}} Shop Cash te claimen.",
+            "claim_shop_cash_button_label": "Claim winkeltegoed",
+            "view_balance_in_shop_button_label": "Bekijk saldo in Winkel",
+            "scan_to_claim_shop_cash_label": "Scan om {{amount}} Shop Cash te claimen"
+          }
+        },
+        "delivery_promise": {
+          "promise_line": {
+            "single_brand_label": "Bezorging gegarandeerd door",
+            "not_delivered_by_label": "Niet geleverd voor {{date}}",
+            "modal_accessibility_button_label": "Details van de leveringsbelofte"
+          },
+          "claim_shop_cash_cta": {
+            "has_shop_app_label": "Claim uw Winkeltegoed",
+            "download_shop_app_label": "Download Winkel"
+          },
+          "details_modal": {
+            "title": "Bezorging gegarandeerd door",
+            "modal_accessiblity_label": "Details van de leveringsbelofte",
+            "delivery_guarantee_label": "Bezorggarantie",
+            "delivery_by_label": "Bezorging voor {{date}}",
+            "delivery_guaranteed_by_label": "Levering gegarandeerd voor {{date}}",
+            "shop_cash_claim": {
+              "may_be_eligible_label": "Shopbelofte garandeert snelle, betrouwbare levering. Vraag Shoptegoed aan als uw bestelling te laat aankomt.",
+              "may_be_eligible_not_authorized_label": "U komt mogelijk in aanmerking om Shop Cash te ontvangen omdat deze bestelling te laat is aangekomen. Meld u aan om de details te bekijken.",
+              "redeemed_label": "Je hebt al Shop Cash ontvangen omdat deze bestelling te laat is aangekomen.",
+              "expired_label": "Deze bestelling komt niet in aanmerking voor een claim wegens te late levering omdat de 30-dagen garantie is verlopen.",
+              "no_shop_cash_label": "Deze bestelling komt niet in aanmerking voor een claim wegens late levering omdat deze niet is betaald met Shop Pay.",
+              "no_longer_guaranteed_label": "Deze artikelen worden niet langer ondersteund door een leveringsgarantie.",
+              "claim_shop_cash_description": "Je kunt je Shop Cash gebruiken voor toekomstige aankopen in de Shop-app."
+            }
+          }
+        }
+      },
+      "status_mark_as_delivered": "Markeer als geleverd",
+      "fulfillment_status_title": "Status van de uitvoering: {{status}}",
+      "manage_accessiblity_label": "Beheer bestelling {{orderId}}"
+    },
+    "order_details": {
+      "shipment_timeline": {
+        "expand_events_label": "Toon details",
+        "expand_events_accessibility_label": "Toon verzendgegevens van bestelling",
+        "hide_events_label": "Details verbergen",
+        "hide_events_accessibility_label": "Verberg verzendgegevens van bestelling"
+      },
+      "addresses_section_title": "Facturering en verzending",
+      "order_details_skeleton_accessibility_label": "Meld u aan om alle bestelgegevens te bekijken.",
+      "card_ending_with": "eindigend op {{lastDigits}}",
+      "contact": "Contact opnemen",
+      "view_controls": {
+        "gallery": "Galerij"
+      },
+      "grouped_view_components": {
+        "expand_line_items": "Toon {{count}} items",
+        "collapse_line_items": "Verberg {{count}} items",
+        "line_item_summary_accessibility_label": "{{productTitle}}, Aantal: {{refundableQuantity}}",
+        "line_item_summary_list_accessibility_label": "Items in {{productTitle}} bundel"
+      },
+      "discount_order_stacking": {
+        "one": "Bestelkorting",
+        "other": "Bestelkortingen"
+      },
+      "price_after_discount_accessibility_label": "Afgeprijsde prijs",
+      "hide_items": "Verberg artikelen",
+      "loading": "Bestelgegevens laden",
+      "loading_finished_accessibility_message": "Bestelgegevens zijn geladen",
+      "image_gallery": {
+        "product_name_and_quantity": "{{productName}} hoeveelheid {{quantity}}",
+        "next": "Toon volgende items"
       }
     }
   }
