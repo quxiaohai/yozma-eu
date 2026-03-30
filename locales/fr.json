@@ -1768,8 +1768,142 @@
         },
         "shipping_method_not_available_due_to_unsatisfied_conditions": "Les articles dans le panier ne remplissent pas les conditions de prix ou de poids pour bénéficier de la livraison. Mettez à jour votre panier et réessayez.",
         "shipping_method_not_available_updated": {
-          "one": "L'article que vous avez ajouté ne peut pas être expédié à votre adresse. Retirez-le pour passer à la caisse, ou contactez le magasin."
+          "one": "L'article que vous avez ajouté ne peut pas être expédié à votre adresse. Retirez-le pour passer à la caisse, ou contactez le magasin.",
+          "other": "Un ou plusieurs articles que vous avez ajoutés ne sont pas expédiés à votre adresse. Supprimez-les pour passer à la caisse, ou contactez le magasin."
+        },
+        "payment_method_not_supported": "Vous ne pouvez pas utiliser ce mode de paiement pour %{country}. Utilisez un autre mode de paiement pour expédier vers ce pays.",
+        "empty_state": "Saisissez votre adresse de livraison pour voir les modes d'expédition disponibles.",
+        "title": "Livraison non disponible",
+        "invalid_selected_address": "L'adresse de livraison sélectionnée n'est pas valide",
+        "invalid_selected_address_with_update_link": "L'adresse de livraison sélectionnée n'est pas valide. %{update_address_link} ou choisissez une autre adresse",
+        "unavailable_addresses_only_countries": "Votre commande ne peut être expédiée qu'à {{countriesList}}. Ajoutez une nouvelle adresse pour continuer.",
+        "unavailable_address_country": "La livraison n'est pas disponible dans le pays que vous avez choisi. Utilisez une autre adresse pour continuer",
+        "unavailable_selected_address": "Livraison non disponible pour l'adresse sélectionnée",
+        "unavailable_selected_address_for_region": "La livraison n’est pas disponible pour {{region}}. Sélectionnez une autre adresse pour continuer"
+      },
+      "alternative_payment_method_banner": {
+        "or_pay_another_way": "Ou payez d'une autre manière",
+        "or_check_out_another_way": "Ou essayez une autre méthode",
+        "or_pay_with_credit_card": "Ou payez par carte de crédit",
+        "show_more_options": "Afficher plus d'options",
+        "hide_more_options": "Masquer plus d'options"
+      },
+      "post_purchase": {
+        "page_title": "Après-achat",
+        "title": "Après-achat",
+        "escape_action": "Voir la confirmation de commande ›",
+        "components": {
+          "expand": "Voir plus",
+          "processing": "Traitement…"
         }
+      },
+      "processing": {
+        "redirecting_page_title": "Redirection…",
+        "redirecting_title": "Redirection…",
+        "redirecting_notice": "Veuillez patienter pendant que nous vous redirigeons.",
+        "redirecting_to_bank": "Redirection vers {{bank}}",
+        "complete_your_purchase_title_error": "Corrigez vos informations de paiement",
+        "continue_to_payment_gateway_notice_error": "Nous n'avons pas pu vérifier vos informations de paiement.",
+        "you_will_receive_confirmation": "Nous recevons actuellement de nombreuses commandes. Vous devriez bientôt recevoir une confirmation par courriel ou par message texte. Si vous ne la recevez pas dans l'heure qui vient, faites-le nous savoir.",
+        "you_will_not_be_charged": "Vous ne serez pas encore facturé",
+        "wait": {
+          "medium": {
+            "one": "Votre commande est en cours de traitement. Le temps d'attente estimé est de %{count} minute.",
+            "other": "Votre commande est en cours de traitement. Le temps d'attente estimé est de %{count} minutes."
+          },
+          "long": "Vous recevrez un courriel dès que votre commande sera traitée. Il y a actuellement un grand nombre de commandes.",
+          "no_auto_refresh_html": "Si vous n’êtes pas redirigé automatiquement, %{link}.",
+          "refresh_this_page": "rafraîchir cette page"
+        },
+        "remote_shops_payments_processing": "Traitement des paiements"
+      },
+      "payment_challenge_modal": {
+        "instructions": "Finalisez votre achat en utilisant votre code {{paymentMethod}}",
+        "qr_code": {
+          "instructions": "Finalisez votre achat en utilisant votre code {{paymentMethod}}"
+        },
+        "close": "Fermer le défi"
+      },
+      "failed_payment": {
+        "page_title": "Le paiement n'a pas pu être traité",
+        "title": "Le paiement n'a pas pu être traité",
+        "payment_not_processed_text": "Vous n'avez pas été facturé. Retournez à votre panier pour finaliser votre achat."
+      },
+      "payment_gateway": {
+        "bank_deposit_label": "Dépôt bancaire",
+        "cash_on_delivery_label": "Paiement à la livraison (PAL)",
+        "money_order_label": "Mandat postal",
+        "credit_or_debit_card_label": "Crédit/Débit",
+        "deferred_payment_label": "Choisir le mode de paiement plus tard",
+        "fixed_payment_label": "Votre paiement sera dû le {{dueDate}}.",
+        "generic_payment_terms": "Vous êtes en termes avec {{translatedName}}. Votre paiement sera dû le {{dueDate}}.",
+        "login_prompt": {
+          "no_access": {
+            "message": "{{logIn}} à un compte ayant accès à cet emplacement pour ajouter ou utiliser des méthodes de paiement enregistrées.",
+            "link": "Se connecter"
+          }
+        },
+        "direct_payment_terms": "Vous êtes en termes avec {{translatedName}}. Votre carte sera débitée le {{dueDate}}.",
+        "fixed_direct_payment_terms": "Votre carte sera débitée le {{dueDate}}.",
+        "order_due_on_fulfillment_choose_later": "Votre paiement sera exigible une fois votre commande exécutée.",
+        "order_due_on_fulfillment_payment": "Votre carte sera débitée une fois votre commande exécutée.",
+        "order_due_on_receipt_choose_later": "Votre paiement sera exigible à réception.",
+        "order_deposit_due_now": "{{depositAmount}} est dû aujourd'hui. Le solde est selon les conditions de {{translatedName}} et est dû le {{dueDate}}.",
+        "order_deposit_due_on_fulfillment": "{{depositAmount}} est dû aujourd’hui. Le solde sera dû une fois votre commande traitée.",
+        "order_deposit_due_on_receipt": "{{depositAmount}} est dû aujourd'hui. Le solde sera dû plus tard.",
+        "order_deposit_due_on_fixed_date": "{{depositAmount}} est dû aujourd'hui. Le solde sera dû le {{dueDate}}.",
+        "draft_order_payment_due_later_no_terms": "Votre paiement sera exigible une fois votre commande confirmée.",
+        "draft_order_payment_due_later_terms": "Vous serez en bons termes avec {{translatedName}} une fois votre commande confirmée.",
+        "draft_order_payment_due_on_fulfillment": "Votre paiement sera exigible une fois que votre commande aura été confirmée et exécutée.",
+        "draft_order_deposit_due_later": "{{depositAmount}} sera dû lors de la confirmation de votre commande. Le solde sera selon les conditions de {{translatedName}}.",
+        "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} sera dû lorsque votre commande sera confirmée. Le solde sera à régler une fois votre commande exécutée."
+      },
+      "thank_you": {
+        "title": "Merci pour votre achat !",
+        "confirmation_email_sent_text": "Un e-mail de confirmation a été envoyé à %{email}",
+        "return_to_store_link_label": "Continuer vos achats",
+        "print_link_label": "Imprimer le reçu",
+        "shipping_information_title": "Informations sur la livraison",
+        "page_title": "Merci, %{display_name} !",
+        "page_title_no_name": "Merci !",
+        "purchase_order_number_title": "Numéro de bon de commande #%{purchase_order_number}",
+        "failed_pending_payment_page_title": "Il y a un problème avec votre paiement",
+        "cashback_notice": "Vous recevrez votre remboursement après 30 jours",
+        "shipping_address_map_title": "Carte Google affichant l'emplacement de l'adresse de livraison : %{address}",
+        "payment_method_title": "Méthode de paiement",
+        "payment_method_not_charged": "Non chargé",
+        "shipping_method_title": "Mode d'expédition",
+        "company_tracking_number": "Numéro de suivi %{company} :",
+        "estimated_arrival": "Date de livraison estimée :",
+        "estimated_delivery": "Estimation actuelle de la livraison :",
+        "re-order": "Commander à nouveau les mêmes articles",
+        "confirmed_items_count": "%{confirmed_count} sur %{total_count} articles sont confirmés",
+        "items_fulfilled_by_store": {
+          "one": "Les articles que vous avez achetés proviendront de %{remote_shop_name}.",
+          "other": "Les articles que vous avez achetés proviendront d'autres magasins."
+        },
+        "gift_card_confirmation_by_text": "Si vous ne l'avez pas reçu, renvoyez le message ou contactez-nous.",
+        "gift_card_confirmation_by_email": "Si vous ne l'avez pas reçu, renvoyez l'email ou contactez-nous.",
+        "resend_gift_cards": "Renvoyer les cartes-cadeaux",
+        "thank_you_title": "Votre commande est confirmée",
+        "thank_you_title_review": "Votre commande a été soumise pour examen",
+        "thank_you_confirmed_with_email_description": {
+          "single_store": "Vous recevrez bientôt un courriel de confirmation",
+          "multi_store": "Vous recevrez bientôt des courriels de confirmation distincts de chaque magasin."
+        },
+        "thank_you_confirmed_with_phone_description": {
+          "single_store": "Vous recevrez bientôt un message de confirmation",
+          "multi_store": "Vous recevrez bientôt des messages de confirmation distincts de chaque magasin."
+        },
+        "thank_you_confirmed_with_email_and_phone_description": {
+          "single_store": "Vous recevrez bientôt un courriel de confirmation",
+          "multi_store": "Vous recevrez bientôt des courriels de confirmation distincts de chaque magasin."
+        },
+        "thank_you_confirmed_order_with_email": "Vous recevrez bientôt un courriel de confirmation avec votre numéro de commande.",
+        "thank_you_confirmed_order_with_phone": "Vous recevrez bientôt un message de confirmation avec votre numéro de commande.",
+        "thank_you_confirmed_order_with_email_and_phone": "Vous recevrez bientôt un courriel de confirmation avec votre numéro de commande.",
+        "thank_you_confirmed_orders_with_email": "Vous recevrez bientôt des courriels de confirmation distincts avec vos numéros de commande",
+        "thank_you_confirmed_orders_with_phone": "Vous recevrez bientôt des textos de confirmation séparés avec vos numéros de commande"
       }
     },
     "sentence": {
