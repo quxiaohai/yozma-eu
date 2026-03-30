@@ -2080,6 +2080,296 @@
       "mor_policies": {
         "terms_and_conditions": "Voorwaarden van de Handelsverkoper",
         "privacy_policy": "Privacybeleid van de Handelsregisterhouder"
+      },
+      "markets": {
+        "invalid_market_manager_error": "Controleer uw contactgegevens voordat u de betaling voltooit"
+      },
+      "order_payment_collection": {
+        "changes_summary": {
+          "added": {
+            "other": "Toegevoegd %{count}"
+          },
+          "subtracted": "Verwijderd %{count}",
+          "returned": "Geretourneerd %{count}"
+        },
+        "checkout_review_and_pay": "Uw bestelling %{order_name} is bijgewerkt. Bekijk deze wijzigingen en betaal vervolgens om uw bestelling te bevestigen.",
+        "order_updated_on": "Uw bestelling is bijgewerkt op %{last_edited_at}.",
+        "order_review_and_pay": "Uw bestelling is bijgewerkt. Controleer en betaal om uw bestelling te bevestigen.",
+        "pay_now": "Betaal nu"
+      },
+      "change_currency": {
+        "credit_card_will_be_charged_html": "Uw creditcard wordt belast met %{amount}",
+        "payment_total_label": "Totaal betaling",
+        "change_currency_link": "Wijzig naar %{currency_name}",
+        "card_provider_fx_charges_warning": "Uw kaartaanbieder kan kosten in rekening brengen voor transacties in %{currency_code}.",
+        "currency_not_supported_by_shop": "De door u geselecteerde valuta is niet langer beschikbaar. Alle prijzen zijn nu in %{currency_code}."
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Je winkelwagen is bijgewerkt op basis van je verzendland.",
+        "cart_and_currency_updated_based_on_country": "Je winkelwagen en valuta zijn bijgewerkt op basis van het land van verzending."
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Uw land/regio is bijgewerkt. Voer uw verzendadres in om door te gaan met afrekenen."
+      },
+      "tips": {
+        "description": "Toon je steun voor het team bij %{shop_name}",
+        "presets_description": "Selecteer een fooipercentage",
+        "custom_label": "Aangepaste tip",
+        "update_tip": "Bijwerktip",
+        "message": "Dank u, wij stellen het op prijs."
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "Koop %{product_name}",
+          "one": "Koop %{product_name} en %{count} ander item",
+          "other": "Koop %{product_name} en %{count} andere artikelen"
+        }
+      },
+      "subscriptions": {
+        "recurring_totals": "%{total_price} elke %{interval}",
+        "recurring_totals_with_initial_order_shipping_discount": "Eerste betaling %{total_price_with_discount}, daarna %{recurring_total}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "other": "Eerste %{count} betalingen van elk %{total_price}"
+          },
+          "following_cycles": ", dan %{total_price} elke %{interval}"
+        },
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", dan %{count} betaling van %{total_price}",
+            "other": ", dan %{count} betalingen van elk %{total_price}"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "update_card_button_label": "Kaart bijwerken",
+        "delete_customer_mandate": {
+          "generic_error": "Er was een probleem bij het verwerken van uw verzoek.",
+          "success_message": "Uw betaalmethode is succesvol verwijderd"
+        }
+      },
+      "throttle": {
+        "inventory": {
+          "partial_inventory_banner": "Een deel van uw winkelwagen is uitverkocht en zal niet beschikbaar zijn om af te rekenen.",
+          "sold_out": {
+            "storefront_body": "Ga terug naar de winkel om verder te winkelen",
+            "no_storefront_body": "Helaas is het artikel dat u wilt kopen niet langer beschikbaar."
+          }
+        },
+        "time_to_checkout_title": "Tijd om af te rekenen - {{shopName}}",
+        "estimated_wait_time": {
+          "less_than_one": "Geschatte wachttijd: Minder dan een minuut"
+        },
+        "footer": {
+          "heading": "Ververs deze pagina niet, deze wordt automatisch bijgewerkt.",
+          "body": "Artikelen in uw winkelwagen zijn niet gereserveerd totdat u de aankoop afrondt."
+        }
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "Er was een probleem bij het verwerken van uw verzoek. Neem contact op met de winkelier."
+      },
+      "no_address_location": {
+        "header": "U heeft geen verzendadres voor deze locatie",
+        "alt_header": "Ontbrekend afleveradres",
+        "message": "Neem contact met ons op om een adres voor deze locatie toe te voegen om de aankoop af te ronden."
+      },
+      "order_errors": {
+        "creation_failure": "Er is een probleem opgetreden bij het aanmaken van uw bestelling. Probeer het opnieuw, of neem contact met ons op voor meer informatie.",
+        "network_failure": "Uw bestelling kon niet worden verzonden vanwege een netwerkfout. Controleer uw verbinding en probeer het opnieuw.",
+        "inventory_reservation_failure": "Sommige artikelen zijn niet langer beschikbaar."
+      },
+      "session_errors": {
+        "session_not_unique": "Er is een probleem opgetreden bij het verwerken van uw bestelling. Vernieuw deze pagina om terug te keren naar de winkel.",
+        "session_already_finished": "Deze bestelling is al ingediend. U kunt terugkeren naar de winkel om een nieuwe bestelling te starten."
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "Er was een probleem bij het verwerken van uw bestelling. Probeer het over een paar minuten opnieuw."
+      },
+      "pickup_point": {
+        "open_twenty_four_hours": "24 uur per dag, 7 dagen per week open",
+        "selector_tabs": "Afhaalpuntkiezer",
+        "could_not_resolve_address": "Uw adres kon niet worden gevonden. Probeer het opnieuw of gebruik een ander adres",
+        "no_pickup_points_near_you": "Geen afhaalpunten gevonden in de buurt van het gekozen adres",
+        "no_pickup_points_near_location": "Geen afhaalpunten gevonden in de buurt van uw locatie",
+        "pickup_unavailable_banner_title": {
+          "one": "Geen afhaalpunten beschikbaar voor uw artikel",
+          "other": "Geen afhaalpunten beschikbaar voor uw artikelen"
+        },
+        "paginator": {
+          "header": {
+            "one": "Weergeven %{first} - %{last} van %{count} punt",
+            "other": "Weergeven %{first} - %{last} van %{count} punten"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "one": "%{count} afhaalpunt bij u in de buurt",
+          "other": "%{count} afhaalpunten bij u in de buurt"
+        },
+        "waiting_on_pickup_point_location_notice": "Zoeken naar afhaalpunten...",
+        "geolocation": {
+          "shared_location_button": "Gebruik mijn locatie",
+          "errors": {
+            "unsuported_by_browser": "Het bepalen van de locatie wordt niet ondersteund door uw browser. Probeer het opnieuw of gebruik een andere browser.",
+            "permission_not_allowed": "Sta het delen van uw locatie toe.",
+            "permission_denied": "Kon uw locatie niet bepalen. Probeer het opnieuw."
+          }
+        }
+      },
+      "error_page": {
+        "terminal": {
+          "title": "Er was een probleem met onze kassa",
+          "message": "Ververs deze pagina of probeer het over een paar minuten opnieuw",
+          "action": {
+            "cta": "Pagina vernieuwen"
+          },
+          "request_id": "Verzoek-ID: {{requestId}}"
+        },
+        "embed_errors": {
+          "customer_account_required": "Een klantaccount is vereist om de aankoop af te ronden",
+          "cart_completed": "Deze afhandeling is al voltooid",
+          "not_authorized": "Authenticatie bij afrekenen mislukt. Controleer uw toepassingsgegevens.",
+          "killswitch_enabled": "Afrekenen is tijdelijk niet beschikbaar",
+          "policy_violation": "Kan de betaling niet voltooien vanwege beperkingen in het beleid.",
+          "unrecoverable_failure": "Kan de kassa niet laden. Probeer het opnieuw."
+        }
+      },
+      "notice_banner": {
+        "subscription_changed": "Een van uw abonnementen is gewijzigd.",
+        "company_location_changed": "Je winkelwagen is bijgewerkt. Controleer je bestelling voordat je deze verzendt.",
+        "company_location_changed_product_removed": "Je winkelwagen is bijgewerkt omdat sommige producten op deze locatie niet beschikbaar zijn. Controleer je bestelling voordat je deze verzendt.",
+        "individual_violations_title": {
+          "DeliveryViolations": "Verzendadres",
+          "OtherViolations": "Bestelinformatie",
+          "UnhandledViolations": "Bestelinformatie"
+        },
+        "all_violations_content": "Bel ons of {{emailLink}} om deze informatie bij te werken en uw bestelling te voltooien:",
+        "editable_shipping_address_violations_message_title": "Voeg deze informatie toe om uw bestelling te voltooien:",
+        "editable_shipping_address_violations_message_footer": "Om het adres voor deze locatie permanent bij te werken, {{emailLink}}.",
+        "editable_shipping_address_violations_email_link": "neem contact met ons op",
+        "shipping_address_incomplete_title": "Verzendadres is onvolledig",
+        "calculating_shipping": "De verzendkosten worden nog berekend. Probeer het over een paar seconden opnieuw. Er is nog niets in rekening gebracht.",
+        "calculating_taxes": "Belastingen worden nog berekend. Probeer het over een paar seconden opnieuw. Er is nog niets in rekening gebracht.",
+        "generic_processing_error": {
+          "title": "Er was een probleem bij het verwerken van uw bestelling",
+          "body": "Je bent niet belast. Probeer het opnieuw of gebruik een andere betaalmethode."
+        },
+        "payment_method_not_available_with_payment_terms": "De door u gekozen betaalmethode is niet langer beschikbaar omdat de betaling voor deze bestelling nu op {{paymentTerms}} voorwaarden plaatsvindt.",
+        "payment_method_not_available_with_fulfillment_terms": "De door u gekozen betaalmethode is niet langer beschikbaar omdat de betaling voor deze bestelling nu bij levering verschuldigd is",
+        "payment_method_not_available_with_fixed_terms": "De door u gekozen betaalmethode is niet langer beschikbaar omdat de betaling voor deze bestelling later verschuldigd is.",
+        "payment_method_not_available_with_review_requirement": "De door u gekozen betaalmethode is niet langer beschikbaar omdat de betaling verschuldigd wordt zodra uw bestelling is bevestigd.",
+        "contact_information": {
+          "header": "Om uw gegevens bij te werken, {{emailLink}}.",
+          "email_link": "neem contact met ons op"
+        },
+        "validation_errors_banner": {
+          "section_label": {
+            "contact": "Contact opnemen"
+          }
+        }
+      },
+      "review_address_modal": {
+        "title": "Beoordelingsadres",
+        "subtitle": {
+          "one": "Deze bestelling wordt verzonden naar het door {{merchant}} opgegeven adres.",
+          "other": "Deze bestelling wordt verzonden naar een adres dat door {{merchant}} is opgegeven. Kies een verzendadres."
+        },
+        "subtitle_no_match": "Dit adres komt niet overeen met een van uw opgeslagen adressen.",
+        "subtitle_must_use": "Uw bestelling wordt naar dit adres verzonden.",
+        "use_saved_address": "Gebruik een ander adres"
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "Beoordeling",
+          "link_label": "{{partnerDisplayName}} Algemene Voorwaarden"
+        }
+      },
+      "online_store_chat": {
+        "title": "Vragen? Chat met ons"
+      },
+      "local_pickup": {
+        "location_closest": "Dichtstbijzijnde locatie met uw artikel",
+        "location_information": {
+          "one": "Er is %{count} locatie met voorraad bij u in de buurt",
+          "other": "Er zijn %{count} locaties met voorraad bij u in de buurt"
+        },
+        "location_information_far_away": {
+          "one": "Er is %{count} locatie met uw artikel",
+          "other": "Er zijn %{count} locaties met uw artikel"
+        },
+        "location_nearby": {
+          "one": "Er is %{count} nabijgelegen locatie met uw artikel",
+          "other": "Er zijn %{count} locaties in de buurt met uw artikel"
+        },
+        "location_nearby_short": {
+          "one": "%{count} nabijgelegen locatie met uw artikel",
+          "other": "%{count} nabijgelegen locaties met uw artikel"
+        },
+        "location_far_away": {
+          "one": "%{count} locatie met uw item",
+          "other": "%{count} locaties met uw artikel"
+        },
+        "toggle_more_locations": {
+          "one": "%{count} locatie(s) meer",
+          "other": "%{count} meer locaties"
+        },
+        "toggle_multiple_locations": "%{count}+ meer locaties",
+        "your_location": "je locatie",
+        "search_button": "Winkels vinden",
+        "all_stores_far_away": {
+          "title": "De dichtstbijzijnde locaties zijn meer dan %{distance} verwijderd",
+          "title_with_item": {
+            "one": "De dichtstbijzijnde locatie met uw artikel is meer dan %{distance} van %{location} verwijderd",
+            "other": "De dichtstbijzijnde locatie met uw artikelen is meer dan %{distance} van %{location} verwijderd"
+          },
+          "title_with_specific_location": "De dichtstbijzijnde locatie met uw artikel is meer dan %{distance} verwijderd van %{location}",
+          "ship_to_address_link": "verzendadres",
+          "change_location_link": "Wijzig uw locatie"
+        },
+        "selected_pickup_option_no_longer_available": {
+          "title": "Uw eerder gekozen locatie is niet langer beschikbaar",
+          "ship_to_address_link": "verzendadres"
+        },
+        "could_not_resolve_address": "Uw adres kon niet worden gevonden. Probeer het opnieuw of gebruik een ander adres",
+        "paginator": {
+          "accessibility_label": "Paginering voor afhalen op locatie"
+        },
+        "reveal_more_label": {
+          "one": "Toon %{count} meer locaties",
+          "other": "Toon %{count} meer locaties"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Geen locaties met uw artikel",
+          "other": "Geen locaties met uw artikelen"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Geen locaties in %{country} met uw artikel",
+          "other": "Geen locaties in %{country} met uw artikelen"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_items": "Verzend uw artikelen",
+          "search_elsewhere": "zoek elders"
+        }
+      },
+      "split_delivery": {
+        "pickup_all_items": "Pak alle artikelen op",
+        "items_for_pickup": "Items om af te halen",
+        "items_for_shipping": "Te verzenden artikelen",
+        "delivery_method": "Gesplitste leveringsmethode",
+        "delivery_method_menu": "Gesplitste bezorgmethode menu",
+        "inventory_issue_banner": {
+          "heading": {
+            "cannot_be_picked_up": {
+              "other": "%{count} items kunnen niet worden opgehaald"
+            }
+          },
+          "remove_item": {
+            "one": "Verwijder artikel",
+            "other": "Items verwijderen"
+          },
+          "ship_separately": {
+            "one": "verzend het apart"
+          }
+        }
       }
     }
   }
