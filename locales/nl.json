@@ -605,9 +605,77 @@
           },
           "payment": {
             "total_amount_mismatch": "Het totaal te betalen bedrag komt niet overeen met de som van de betalingsbedragen.",
-            "missing_session_id": "Ontbrekende sessie-informatie van de kredietkaart."
+            "missing_session_id": "Ontbrekende sessie-informatie van de kredietkaart.",
+            "gateway_not_supported": "Betaalpoort ondersteunt het opslaan van de betaalmethode niet.",
+            "credit_card_update_failed": "Bijwerken van creditcard mislukt.",
+            "invalid_address_type": "Het opgegeven adresstype is ongeldig voor deze betaalmethode.",
+            "missing_retail_attributions": "Winkeltoeschrijvingen zijn vereist voor handmatig ingevoerde creditcardbetalingen.",
+            "unexpected_retail_attributions": "Winkelgegevens onverwacht verstrekt voor betaling met creditcard.",
+            "invalid_card_source": "Deze sessie heeft geen toestemming om deze kaartbron te gebruiken.",
+            "wallet_content_missing": "Inhoud van portemonnee ontbreekt.",
+            "payment_instrument_not_found": "Betaalmethode niet gevonden",
+            "unauthorized_capture_method": "Het configureren van de betaalmethode voor incasso is niet toegestaan.",
+            "saved_payment_methods_not_allowed": "Opgeslagen betaalmethoden zijn niet toegestaan.",
+            "saved_payment_methods_not_enabled": "Opgeslagen betaalmethoden zijn niet ingeschakeld voor deze winkel.",
+            "saved_payment_methods_cvv_verification_disabled": "De gekozen betaalmethode vereist CVV-verificatie, wat niet is ingeschakeld voor deze winkel. Kies een andere betaalmethode.",
+            "store_credit_account_not_found": "Winkelkredietaccount niet gevonden.",
+            "store_credit_account_mismatch": "Winkelkredietaccount komt niet overeen met de identiteit van de koper.",
+            "store_credit_mismatched_currency": "De valuta van de winkelkredietrekening komt niet overeen met de valuta bij het afrekenen.",
+            "store_credit_insufficient_funds": "Er staat onvoldoende saldo op de winkeltegoedrekening.",
+            "store_credit_buying_gift_card": "Je kunt geen winkeltegoed gebruiken om een cadeaubon te kopen.",
+            "paypal_express_address_invalid": "PayPal gaf een ongeldig adres terug."
+          },
+          "tip": {
+            "not_accepted_by_shop": "Winkel accepteert geen fooien.",
+            "only_one_tip_line_allowed": "Meerdere tipregels worden niet ondersteund.",
+            "tips_not_allowed_for_b2b": "Fooi is niet toegestaan in B2B-winkels.",
+            "currency_change_reset": "De tip is opnieuw ingesteld vanwege de wisseling van valuta.",
+            "tips_not_allowed_for_deferred_purchase_options": "Fooi wordt nog niet ondersteund voor uitgestelde aankoopopties."
+          },
+          "sale_attribution": {
+            "staff_member_not_exist": "Deze staf bestaat niet in de huidige winkel.",
+            "point_of_sale_device_not_exist": "Dit kassa-apparaat bestaat niet in de huidige winkel.",
+            "unresolvable_target_merchandise_lines": "De voorgestelde verkooptoewijzingen kunnen niet worden opgelost gezien de huidige onderhandelingssituatie."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "Uw koopvoorstel moet niet-onderhandelbare_voorwaarden bevatten."
+          },
+          "inventory": {
+            "missing_quantity_value": "Het hoeveelheidveld ontbreekt in de voorraadregels van de koper.",
+            "changing_behavior_not_allowed": "Deze klant heeft geen toestemming om het voorraadgedrag te wijzigen.",
+            "only_one_inventory_behavior_allowed": "Momenteel is per afrekenproces slechts één voorraadgedrag toegestaan."
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "Het weigeren van invoerrechten is niet toegestaan bij deze kassa."
+          },
+          "attribution": {
+            "retail_attribution_not_allowed": "Retailtoewijzing is niet toegestaan voor deze afhandeling.",
+            "retail_attribution_required": "Winkeltoewijzing is vereist voor deze afhandeling."
+          },
+          "captcha": {
+            "metadata_missing": "Het invullen van een captcha is vereist voor deze afhandeling.",
+            "metadata_mismatch": "De opgegeven captcha-aanbieder en het type komen niet overeen met de verwachte waarden.",
+            "token_missing": "Er moet een captcha-token worden opgegeven om deze aankoop te voltooien.",
+            "job_enqueue_failed": "Het valideren van de captcha kon niet in de wachtrij worden geplaatst.",
+            "job_already_queued": "Captcha-validatie is al in de wachtrij geplaatst voor deze captcha-token.",
+            "token_expired": "De opgegeven captcha-token is verlopen. Voltooi een nieuwe captcha om door te gaan met afrekenen.",
+            "token_invalid": "De opgegeven captcha-token was ongeldig. Voltooi een nieuwe captcha om door te gaan met afrekenen.",
+            "token_not_valid_for_session": "De opgegeven captcha kan niet worden gebruikt bij deze kassa."
+          },
+          "fx_reconciliation_override": {
+            "shop_currency_mismatch": "Het ontvangen bedrag moet in de winkelmunt zijn."
+          },
+          "checkout_source": {
+            "revoked": "Deze kassa is niet langer beschikbaar."
           }
-        }
+        },
+        "full_price": "Volledige prijs:",
+        "title": "Afrekenen - {{shopName}}",
+        "full_title": "{{pageTitle}} - {{shopName}} - Afrekenen",
+        "loading": "Bezig met laden…",
+        "loading_title": "Afrekenen - {{shopName}}",
+        "google_map_title": "Google Kaart",
+        "submit_order_button_label": "Bestelling verzenden"
       }
     }
   }
