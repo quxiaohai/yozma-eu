@@ -3196,7 +3196,87 @@
       },
       "already_upgraded": "Gli account dei clienti sono già stati aggiornati.",
       "failed_to_upgrade": "Impossibile aggiornare le impostazioni dell'account cliente.",
-      "not_upgraded": "Gli account dei clienti non vengono aggiornati."
+      "not_upgraded": "Gli account dei clienti non vengono aggiornati.",
+      "failed_to_revert": "Impossibile ripristinare le impostazioni dell'account cliente.",
+      "revert_window_expired": "La finestra di ripristino è scaduta."
+    },
+    "payment_methods": {
+      "add_payment_method_dropdown": {
+        "bank_account_consent": "Aggiungendo un metodo di pagamento, autorizzi la tua carta ad essere addebitata o il tuo conto bancario ad essere addebitato per futuri acquisti che approvi, fino a quando non annulli."
+      },
+      "bank_account": {
+        "loading_accessibility_message": "Il pulsante del conto bancario si sta caricando"
+      },
+      "add_payment_method_banner": "Aggiungi un metodo di pagamento per un pagamento più rapido o per servizi con pre-autorizzazione",
+      "edit_payment_method_button_accessibility_label": "Modifica {{paymentMethodName}} terminante con {{lastDigits}}",
+      "expiration_warning_button_accessibility_label": "Mostra avviso di scadenza per {{paymentMethodName}} terminante con {{lastDigits}}",
+      "card_update_consent": "Questo metodo di pagamento sarà salvato per acquisti futuri.",
+      "card_update_consent_subscriptions": "Questo metodo di pagamento sarà salvato per acquisti futuri e potrà essere utilizzato per qualsiasi acquisto ricorrente o differito.",
+      "credit_or_debit_card_title": "Carta di credito o di debito",
+      "or": "OPPURE",
+      "google_pay": {
+        "iframe_title_accessibility_label": "Aggiungi metodo di pagamento Google Pay",
+        "loading_accessibility_message": "Caricamento di Google Pay",
+        "loading": "Caricamento di Google Pay",
+        "errors": {
+          "generic": "Si è verificato un problema con Google Pay. Riprova oppure usa un metodo di pagamento diverso.",
+          "missing_billing_address": "Google Pay richiede un indirizzo di fatturazione. Per favore, aggiungine uno al tuo account."
+        }
+      },
+      "pay_pal": {
+        "iframe_title_accessibility_label": "Aggiungi metodo di pagamento PayPal",
+        "loading_accessibility_message": "Caricamento PayPal",
+        "errors": {
+          "generic": "Si è verificato un problema con PayPal. Riprova oppure usa un metodo di pagamento diverso."
+        }
+      },
+      "apple_pay": {
+        "loading": "Caricamento Apple Pay",
+        "errors": {
+          "generic": "Si è verificato un problema con Apple Pay. Riprova oppure usa un metodo di pagamento diverso.",
+          "missing_billing_address": "Apple Pay richiede un indirizzo di fatturazione. Per favore, aggiungine uno al tuo account."
+        }
+      },
+      "store_credit": {
+        "accesibility_label": "Credito negozio - {{formattedBalance}}",
+        "expirable_amounts_label": "Importi scadibili",
+        "details_modal": {
+          "title": "Credito negozio con scadenza",
+          "balance_label": "Equilibrio",
+          "amount_label": "Quantità",
+          "events": {
+            "adjustment": "Regolazione",
+            "order_payment": "Pagamento dell'ordine",
+            "order_refund": "Rimborso dell'ordine",
+            "payment_failure": "Pagamento non riuscito",
+            "order_cancellation": "Cancellazione dell'ordine",
+            "tax_finalization": "Finalizzazione delle imposte"
+          },
+          "expirable_balance_info": "Una parte del tuo saldo scadrà in una data futura",
+          "expirable_amount_label": "Importo totale scadibile",
+          "expirable_amounts_info": "Gli importi in scadenza prima vengono applicati per primi al momento del pagamento",
+          "expired_amounts_button": "Visualizza importi scaduti",
+          "pagination": {
+            "load_more_accessibility_label": "Carica altri importi scadibili"
+          }
+        }
+      },
+      "payment_details": {
+        "credit_card_details_accessibility_label": "terminando con {{lastDigits}}",
+        "card_info_title": "Informazioni sulla carta",
+        "payment_method_expired_on": "Scaduto il {{expiryDate}}",
+        "close_payment_modal_accessibility_label": "Chiudi la finestra dei dettagli del metodo di pagamento",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "{{totalItems}} articoli in totale, visualizzando {{totalItemsToDisplay}} articoli.",
+        "next_payment_due": "Prossimo pagamento dovuto il {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button_accessibility_label": "Modifica il metodo di pagamento terminante con {{lastDigits}}",
+        "loading_shop_pay": "Caricamento Shop Pay",
+        "invalid_payment_method_message": "Usa una nuova carta di credito per continuare a ricevere gli ordini futuri.",
+        "checkout_card_banner": "Questo metodo di pagamento può essere utilizzato solo per pagamenti preautorizzati. Non apparirà al momento del pagamento se hai effettuato l'accesso a questo negozio."
+      },
+      "edit_payment_method": {
+        "title": "Modifica metodo di pagamento",
+        "billing_address_choose_from_list": "Scegli dalla lista"
+      }
     }
   }
 }
