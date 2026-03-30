@@ -1257,7 +1257,215 @@
         "card_security_vault_notice": "We hebben uw gegevens nodig voor toekomstige betalingen. Alle transacties zijn veilig en versleuteld.",
         "card_information_notice": "Alle transacties zijn veilig en versleuteld. Creditcardgegevens worden nooit opgeslagen.",
         "card_expiry_label": "Vervaldatum (MM / JJ)",
-        "card_expiry_placeholder": "Vervaldatum (MM / JJ)"
+        "card_expiry_placeholder": "Vervaldatum (MM / JJ)",
+        "credit_card_start_month": "Startmaand",
+        "credit_card_start_year": "Startjaar",
+        "delete_customer_mandate_modal_body": "Als u deze kaart verwijdert, moet u deze opnieuw toevoegen voordat u ermee kunt betalen.",
+        "card_verification_confirm": "Voer voor verificatiedoeleinden de beveiligingscode van uw kaart in.",
+        "card_expiry_date_explanation": "Kaartvervaldatum in formaat: maand, maand, jaar, jaar",
+        "card_expiration_year_label": "Vervaldatum jaar",
+        "card_verification_value_explanation": "3-cijferige beveiligingscode die meestal op de achterkant van uw kaart te vinden is. American Express-kaarten hebben een 4-cijferige code aan de voorkant.",
+        "card_verification_value_explanation_amex": "4-cijferige beveiligingscode aan de voorkant van uw kaart",
+        "card_verification_value_explanation_other": "3-cijferige beveiligingscode op de achterkant van uw kaart",
+        "card_issue_number_label": "Uitgave nummer",
+        "card_issue_number_placeholder": "Uitgave nummer",
+        "card_update_label": "Kaart bijwerken",
+        "paypal_disconnect": "Verbreek verbinding",
+        "ends_with_label": "eindigend op %{last_digits}",
+        "crypto_payment_method": {
+          "description": "Maak veilig verbinding met uw portemonnee op het Base-netwerk",
+          "tooltip": "Uw portemonnee saldo en adres worden niet gedeeld en alleen het gevraagde bedrag kan worden afgeschreven"
+        },
+        "crypto_modal": {
+          "error": {
+            "sandbox_error": "Er is iets misgegaan",
+            "web_component_error": "Er was een probleem met het laden van deze pagina"
+          }
+        },
+        "saved_by_payment_method": "Opgeslagen door %{payment_method}",
+        "pay_with_payment_method": "Betalen met %{payment_method}",
+        "different_credit_card_label": "Gebruik een andere kredietkaart",
+        "same_billing_address_label": "Zelfde als het afleveradres",
+        "different_billing_address_label": "Gebruik een ander factuuradres",
+        "billing_address_associated_with_mandate": "Gebruik het adres dat aan de betaalmethode is gekoppeld",
+        "billing_address_associated_with_mandate_info": "Als u uw factuuradres wilt wijzigen, verwijder dan uw creditcardgegevens en voer ze opnieuw in",
+        "free_order_notice_html": "Uw bestelling is <strong>gratis</strong>. Betaling is niet vereist.",
+        "express_checkout_free_order": "Je wordt niet belast voor een gratis bestelling",
+        "order_covered_by_gift_cards_notice": {
+          "one": "Uw bestelling wordt gedekt door uw cadeaubon.",
+          "other": "Uw bestelling wordt gedekt door uw cadeaubonnen."
+        },
+        "offsite_gateway_redirect_hint": "Je wordt doorgestuurd naar %{gateway_label} om je aankoop te voltooien.",
+        "offsite_gateway_review_page_redirect_hint": "Nadat u uw bestelling heeft gecontroleerd, wordt u doorgestuurd naar %{gateway_label} om uw aankoop te voltooien.",
+        "offsite_gateway_redirect_hint_no_button_label": "Je wordt doorgestuurd naar %{gateway_label} om je aankoop te voltooien.",
+        "receiver_payment_experience_hint": "Na het plaatsen van uw bestelling ontvangt u de betalingsgegevens. Voer de betaling uit bij Multibanco of online binnen %{due_days} dagen.",
+        "billing_address_rollup_accessibility_label": "Factuuradresopties",
+        "billing_address_description": "Selecteer het adres dat overeenkomt met uw kaart of betaalmethode.",
+        "billing_address_description_no_shipping_address": "Voer het adres in dat overeenkomt met uw kaart of betaalmethode.",
+        "no_js_credit_card_fields_redirect_hint": "U wordt doorgestuurd om uw betaalgegevens toe te voegen.",
+        "card_fields_container_prefix": "Veldcontainer voor:",
+        "card_fields_unavailable_html": {
+          "one": "Betalingen met creditcard en pinpas zijn momenteel niet beschikbaar.<br><a href=\"%{current_url}\">Ververs deze pagina</a> of probeer het later opnieuw.",
+          "other": "Betalingen met creditcard en betaalpas zijn momenteel niet beschikbaar.<br><a href=\"%{current_url}\">Ververs deze pagina</a> of probeer een andere betaalmethode."
+        },
+        "card_fields_processing_error": "Er was een probleem bij het verwerken van de betaling. Probeer deze pagina te vernieuwen of controleer uw internetverbinding.",
+        "technical_error": "Betalingen kunnen op dit moment niet worden verwerkt vanwege een technisch probleem. Probeer het over een paar minuten opnieuw.",
+        "missing_credit_card_error": "Voer uw kaartgegevens in om de betaling te voltooien",
+        "payment_method_not_available_for_shipping_address_error": "Betaalmethode niet beschikbaar voor het gekozen afleveradres. Kies een andere betaalmethode.",
+        "billing_address_not_supported_for_payment_method_error": "Deze betaalmethode is niet beschikbaar voor uw factuuradres en valuta. Probeer een andere betaalmethode.",
+        "generic_incorrect_card_info": "Uw betaalgegevens konden niet worden geverifieerd. Controleer uw kaartgegevens en probeer het opnieuw.",
+        "sofort_label": "Directe bankoverschrijving",
+        "paypal_wallet_label": "PayPal-portemonnee",
+        "shop_pay_installments_label": "Shop Pay-termijnen",
+        "continue_to_guest_checkout": "Doorgaan naar afrekenen als gast",
+        "paypal_modal": {
+          "order_contains_fixed_selling_plans": "Het totaalbedrag kan belastingen, verzendkosten, uitgestelde kosten en sommige kortingen niet bevatten. Ga door naar de kassa voor het vandaag te betalen bedrag."
+        },
+        "klarna_pay_later_label": "Betaal later met Klarna",
+        "multibanco_label": "Multibank",
+        "eps_label": "eps-overschrijving",
+        "klarna_slice_it_label": "Financiering met Klarna",
+        "afterpay_label": "Achteraf betalen",
+        "cashapppay_label": "Cash App Betalen",
+        "swish_label": "Zwijgzaam",
+        "grabpay_label": "PakBetalen",
+        "kcp_creditcard_label": "KCP Kredietkaart",
+        "usdc_cashback_additional_info": "Ontvang %{incentive_percentage}% terug in USDC op Base binnen 30 dagen, tot 100 USDC.",
+        "usdc_cashback_terms": "Voorwaarden van toepassing",
+        "purchase_options_card_update_agreement_label_html": "Door uw betaalmethode bij te werken, geeft u toestemming voor betalingen voor elke terugkerende of uitgestelde aankoop volgens het <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">%{cancellation_policy}</a> van deze winkel.",
+        "subscription_card_update_agreement_label": "Het wijzigen van de betaalmethode zal uw abonnement en toekomstige terugkerende betalingen bijwerken.",
+        "subscription_agreement_label": "Een of meer artikelen in uw winkelwagen zijn een uitgestelde of abonnementsaankoop. Door door te gaan met uw betaling, gaat u ermee akkoord dat uw betaalmethode automatisch wordt belast tegen de prijs en frequentie die op deze pagina staan vermeld, totdat het eindigt of u annuleert. Alle annuleringen zijn onderhevig aan de %{cancelled}.",
+        "subscription_agreement_cancelled": "annuleringsbeleid",
+        "subscription_heading": "Abonnementsvoorwaarden",
+        "subscription_agreement_label_html": "Ik begrijp dat ik akkoord ga met een abonnement. Dit wordt verlengd tegen de vermelde prijs en frequentie totdat het eindigt of wordt\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">geannuleerd</a>.",
+        "purchase_options_agreement_label": "Een of meer artikelen in uw winkelwagen zijn een uitgestelde, abonnement- of terugkerende aankoop. Door door te gaan met uw betaling, gaat u ermee akkoord dat uw betaalmethode automatisch wordt belast tegen de prijs en frequentie die op deze pagina staan vermeld totdat het eindigt of u annuleert. Alle annuleringen zijn onderhevig aan de %{cancellation_policy_label}.",
+        "purchase_options_agreement_label_html": "Ik begrijp dat een of meer artikelen in mijn winkelwagen een uitgestelde, abonnement- of terugkerende aankoop zijn. Door door te gaan, ga ik akkoord met het\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">annuleringsbeleid</a>\nen machtig ik u om mijn betaalmethode te belasten tegen de prijzen, frequentie en data die op deze pagina staan vermeld totdat mijn\nbestelling is voltooid of ik annuleer, indien toegestaan.",
+        "purchase_options_agreement_label_wallets": "Door door te gaan met uw betaling, gaat u akkoord met de toekomstige kosten die op deze pagina staan vermeld en het annuleringsbeleid.",
+        "change_currency_section_description": "Selecteer een valutaoptie",
+        "no_real_orders_dev_store": "Deze winkel kan geen echte bestellingen of echte betalingen accepteren.",
+        "apple_pay_payment_error": "Uw betaling kon niet worden voltooid. Probeer het opnieuw of gebruik een andere betaalmethode.",
+        "taxes_not_included": "Belastingen niet inbegrepen",
+        "no_taxes_banner_content": "Er worden geen belastingen in rekening gebracht op deze bestelling. Zodra u de betaling heeft ontvangen, kunnen er geen belastingen meer worden toegevoegd.",
+        "paypal": {
+          "connect": "Klik om uw PayPal-rekening te koppelen"
+        },
+        "apple": {
+          "connect": "Klik om uw Apple Pay-account te koppelen",
+          "not_available": "Apple Pay is niet beschikbaar in deze browser. Om uw Apple Pay-account te koppelen, moet u Safari gebruiken op een Apple-apparaat."
+        },
+        "google": {
+          "connect": "Klik om verbinding te maken met uw Google Pay-account",
+          "error_authorizing": "Fout bij het autoriseren van betaling"
+        },
+        "account_connected": "Account verbonden.",
+        "mor_disclaimer_html": "Door hieronder te klikken en uw bestelling te voltooien, gaat u akkoord met de aankoop van uw artikel(en) via Global-e als handelaar van registratie voor deze transactie, volgens de <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Algemene Voorwaarden</a> van Global-e en het <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Privacybeleid</a>. Global-e is een internationale fulfilmentdienstverlener voor %{shop_name}",
+        "pending_payment": {
+          "due_notice": "Uw betaling van %{amount_due} is verschuldigd op %{due_date}.",
+          "multibanco": {
+            "buyer_action_info": "Uw betaling van %{amount_due} is verschuldigd.",
+            "instruction_html": "Doe uw betaling bij Multibanco of online met de onderstaande gegevens. Voor vragen of om betaalgegevens bij te werken, %{contact_us}.",
+            "entity": "Entiteit",
+            "amount": "Hoeveelheid",
+            "find_nearest_atm": "Vind de dichtstbijzijnde geldautomaat"
+          }
+        },
+        "order_covered_by_store_credit_notice": "Uw bestelling wordt gedekt door uw winkeltegoed.",
+        "order_covered_by_redeemables_notice": "Uw bestelling is verzekerd.",
+        "store_credit": {
+          "apply_label": "Winkeltegoed gebruiken",
+          "manage_label": "Beheer winkeltegoed",
+          "buying_gift_card": "Je kunt geen winkeltegoed gebruiken om een cadeaubon te kopen",
+          "no_fixed_selling_plans": "Je kunt geen winkeltegoed gebruiken bij uitgestelde aankoopopties"
+        },
+        "clear": "Helder",
+        "billing_must_match_shipping_notice": "Het factuuradres van uw betaalmethode moet overeenkomen met het afleveradres.",
+        "same_billing_address_checkbox_label": "Gebruik het afleveradres als factuuradres",
+        "location_billing_address_label": "Factuuradres locatie",
+        "location_shipping_address_label": "Verzendadres locatie",
+        "use_order_billing_address_label": "Gebruik het factuuradres van de bestelling",
+        "use_location_billing_address_label": "Gebruik factuuradres locatie",
+        "use_location_shipping_address_label": "Gebruik verzendadres van locatie",
+        "no_working_method_error": "Deze winkel kan op dit moment geen betalingen accepteren. Vernieuw deze pagina of kom later terug.",
+        "brand_not_available": "Deze winkel accepteert {{brand}} niet. Gebruik een andere kaart om te betalen.",
+        "shipping_rate_updated": "Beschikbare verzendmethoden zijn bijgewerkt. Bevestig uw keuze voordat u afrekent.",
+        "billing_address_invalid_phone": "Werk het telefoonnummer in uw factuuradres voor {{label}} {{last_digits}} bij om door te gaan.",
+        "billing_address_invalid_phone_no_card": "Werk het telefoonnummer in uw factuuradres bij om door te gaan.",
+        "preview_not_available": {
+          "content": "Maak je geen zorgen, deze snelle kassa werkt voor jouw klanten.",
+          "button": "Oké"
+        },
+        "card_fields": {
+          "errors": {
+            "required": {
+              "issue_number": "Voer een geldig uitgavenummer in"
+            },
+            "invalid": {
+              "verification_value": "Voer een geldige CVV- of beveiligingscode in"
+            }
+          }
+        },
+        "simulated_checkout": "Voorvertoning binnenkort beschikbaar",
+        "simulated_express_checkout": "Portefeuilles zijn niet beschikbaar in de bewerkingsvoorbeeldweergave vanwege uw regio of browser",
+        "vaulting_agreement_label": "Sla mijn betaalgegevens op bij %{company} voor een snellere afhandeling.",
+        "business_customer_vaulting_payment_label": "Sla deze betaalmethode op bij het afrekenen en geef %{company} toestemming om deze te gebruiken voor toekomstige aankopen op deze locatie. Alle contactpersonen die aan deze locatie zijn toegewezen, kunnen de betaalmethode gebruiken.",
+        "business_customer_with_bank_account_vaulting_payment_label": "Sla deze betaalmethode op bij het afrekenen en geef %{company} toestemming om uw rekening te debiteren voor toekomstige aankopen die u voor deze locatie goedkeurt, totdat u deze intrekt. Alle contactpersonen die aan deze locatie zijn toegewezen, kunnen de betaalmethode gebruiken.",
+        "purchase_options_and_vaulting_agreement_label": "Een of meer artikelen in uw winkelwagen zijn een uitgestelde of abonnementsaankoop. Door door te gaan met uw betaling, gaat u ermee akkoord dat uw betaalmethode automatisch wordt belast tegen de prijs en frequentie die op deze pagina staan vermeld totdat het eindigt of u annuleert. Alle annuleringen zijn onderhevig aan de %{cancellation_policy_label}.",
+        "use_different_credit_card_label": "Gebruik een andere kaart",
+        "saved_credit_card": "Uw opgeslagen creditcard",
+        "saved_credit_card_cvv_verification": "Voer voor verificatiedoeleinden de beveiligingscode van uw kaart in.",
+        "saved_credit_cards_modal": {
+          "view_all_label": "Bekijk alle opgeslagen kaarten",
+          "done": "Klaar"
+        },
+        "delete_credit_card_modal": {
+          "confirmation": "Weet je zeker dat je de {{brandName}} die eindigt op {{lastDigits}} wilt verwijderen?"
+        },
+        "edit_credit_card_modal": {
+          "done": "Klaar",
+          "description": "U kunt alleen het factuuradres van uw kaart wijzigen.",
+          "fields": {
+            "default": "Instellen als standaard"
+          }
+        },
+        "expired_cards_info": {
+          "one": "Er is %{count} verlopen kaart, die je kunt bekijken en bewerken in je account.",
+          "other": "Er zijn %{count} verlopen kaarten, die je kunt bekijken en bewerken in je account."
+        },
+        "local_payment_method_receiver_notice": "Na het plaatsen van uw bestelling ontvangt u de betalingsgegevens. Voer de betaling uit bij een geldautomaat of online binnen {{dueDays}} dagen.",
+        "order_edit_banner_subtitle": "Uw bestelling {{order_number}} is bijgewerkt. Bekijk deze wijzigingen en betaal vervolgens om uw bestelling te bevestigen.",
+        "order_edit_banner_items_added": {
+          "other": "Toegevoegd %{count}"
+        },
+        "order_edit_banner_items_removed": {
+          "with_quantities": "Verwijderd {{delta}} van {{quantity}}"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "Geretourneerd {{quantity}}",
+          "with_quantities": "Teruggegeven {{delta}} van {{quantity}}"
+        },
+        "order_edit_banner_multiple_items_added": "Toegevoegd {{amount}}",
+        "order_edit_banner_multiple_items_removed": "Verwijderd {{amount}}",
+        "order_edit_banner_multiple_items_returned": "Geretourneerd {{amount}}",
+        "gift_card_wrapper": {
+          "apply_gift_card_label": "Een cadeaubon gebruiken",
+          "apply_another_gift_card_label": "Een andere cadeaubon gebruiken",
+          "add_label": "Voeg een cadeaubon toe"
+        },
+        "gift_card_store_credit": {
+          "add_label": "Voeg een cadeaubon of winkeltegoed toe",
+          "manage_label": "Beheer cadeaubonnen of winkeltegoed"
+        },
+        "custom_onsite_payment_method_modal": {
+          "title": "Aangepaste Betalingsbevestiging Ter Plaatse"
+        },
+        "markets_pro_disclaimer_label": "Door uw bestelling te plaatsen, gaat u akkoord met de aankoop bij Global-e als de geregistreerde verkoper, onderhevig aan de %{markets_pro_terms} en %{privacy_policy} van Global-e, en deelt u uw gegevens met %{shop_name}.",
+        "markets_pro_disclaimer_terms_and_conditions": "Algemene Voorwaarden",
+        "markets_pro_disclaimer_privacy_policy": "Privacybeleid",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Voorwaarden van de Handelsverkoper",
+        "markets_pro_disclaimer_privacy_policy_title": "Privacybeleid van de Handelsregisterhouder",
+        "purchase_order_number": {
+          "title": "PO-nummer"
+        }
       }
     }
   }
