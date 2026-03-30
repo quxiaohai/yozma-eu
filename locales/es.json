@@ -1113,7 +1113,73 @@
           "one_time_address_subtitle": "Usa una dirección de un solo uso para este pedido"
         },
         "different_shipping_method_summary": "Ingrese una dirección de envío diferente para ver los métodos de envío disponibles",
-        "invalid_shipping_method_summary": "Ingrese una dirección de envío válida para ver los métodos de envío disponibles"
+        "invalid_shipping_method_summary": "Ingrese una dirección de envío válida para ver los métodos de envío disponibles",
+        "invalid_shipping_method_summary_selected": "Seleccione una dirección de envío diferente para ver los métodos de envío disponibles",
+        "method_summary": {
+          "incomplete_address_entered": "Ingrese una dirección de envío completa para ver los métodos de envío disponibles",
+          "incomplete_address_selected": "Seleccione una dirección de envío completa para ver los métodos de envío disponibles"
+        },
+        "local_pickup": {
+          "search_address": "Buscar dirección",
+          "rollup_title": "Lugar de recogida",
+          "rollup_accessibility_label": "Opciones de lugar de recogida"
+        },
+        "missing_shipping_address": "Falta la dirección de envío",
+        "pre_order_ships_now": "Envío inmediato",
+        "pre_order_ships_later": "Envío posterior",
+        "pre_order_ships_date": "Envíos %{date}",
+        "split_shipping_shipped_by_shop": "Enviado por %{shop_name}",
+        "split_shipping_multiple_shipment_label": "Envíos múltiples",
+        "split_shipping_multiple_shipment_notice": "Su pedido llegará en varios envíos",
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "Su pedido llegará en %{quantity} envíos",
+        "split_shipping_option_fastest": "Más rápido"
+      },
+      "localized_fields": {
+        "additional_information": {
+          "shipping_credential_kr": "Código Personal de Aduanas",
+          "tax_credential_it": "Código Fiscal (opcional)",
+          "tax_email_it": "PEC (opcional)",
+          "tax_credential_type_co": "Tipo de documento",
+          "shipping_credential_type_co": "Tipo de documento",
+          "tax_credential_gt": "NIF/IVA",
+          "shipping_credential_gt": "NIF/IVA",
+          "tax_credential_my": "Número de Identificación Fiscal/Registro",
+          "shipping_credential_my": "Número de Identificación Fiscal/Registro",
+          "tax_credential_type_mx": "Régimen Tributario",
+          "shipping_credential_tw": "Número de Identificación Nacional/IVA",
+          "tax_credential_tr": "Número de Identidad de la República de Turquía/IVA",
+          "shipping_credential_tr": "Número de Identidad de la República de Turquía/IVA"
+        }
+      },
+      "payment": {
+        "network_card_payment_options": "Elija una red de tarjetas",
+        "network_card_persistence_description": "La red seleccionada se guardará con su método de pago para futuras transacciones.",
+        "amazon_payments_label": "Pago Amazon",
+        "amazon_payments_login_hint": "Se te pedirá que inicies sesión con Amazon.",
+        "amazon_payments_logout": "Cerrar sesión en Amazon Pay",
+        "amazon_payments_failed_mfa_challenge": "No se pudo usar el método de pago seleccionado. Elija un método diferente o contacte a su banco o emisor de la tarjeta.",
+        "amazon_payments_abandoned_mfa_challenge": "No se pudo completar su pago. Intente con otro método de pago o comuníquese con su banco o emisor de la tarjeta.",
+        "amazon_payments_could_not_enqueue_authorize": "Hubo un problema al procesar su pago. Intente de nuevo o use un método de pago diferente.",
+        "amount_left_to_pay_label": "Pago debido:",
+        "discount_codes_removed_summary": {
+          "one": "Se eliminó el código de descuento %{count}"
+        },
+        "discount_codes_modified_summary": {
+          "one": "Se modificó el código de descuento %{count}"
+        },
+        "discount_codes_removed_or_modified_summary": {
+          "one": "El código de descuento %{count} fue eliminado o modificado",
+          "other": "Se eliminaron o modificaron %{count} códigos de descuento"
+        },
+        "gift_card_balance_label": "Equilibrio:",
+        "detected_card_brand": "Marca de tarjeta detectada: {brand}",
+        "credit_card_vaulting_sign_in_banner_info": "Inicia sesión o crea una cuenta para guardar tu tarjeta de crédito para futuras compras.",
+        "ftd_vault_credit_card_label": "Guardar esta tarjeta de crédito en mi cuenta para un pago más rápido",
+        "card_pay_with": "Paga con:",
+        "card_security_notice": "Todas las transacciones son seguras y están cifradas.",
+        "card_security_vault_notice": "Necesitamos sus datos para futuros pagos. Todas las transacciones son seguras y están cifradas.",
+        "card_information_notice": "Todas las transacciones son seguras y están cifradas. La información de la tarjeta de crédito nunca se almacena.",
+        "name_on_card_label": "Nombre en la tarjeta"
       }
     }
   }
