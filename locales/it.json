@@ -2530,7 +2530,177 @@
       "gift_card_disabled": "La carta regalo è disabilitata",
       "gift_card_expired": "La carta regalo è scaduta",
       "taken": "è già stato preso",
-      "too_short": "è troppo corto (il minimo è %{count} caratteri)"
+      "too_short": "è troppo corto (il minimo è %{count} caratteri)",
+      "too_long": "è troppo lungo (il massimo è %{count} caratteri)",
+      "password_mismatch": "deve corrispondere alla password fornita",
+      "contains_spaces": "inizia o finisce con spazi.",
+      "invalid_for_country": "non è valido per %{country}",
+      "invalid_for_country_and_province": "non è valido per %{province} e %{country}",
+      "invalid_province_in_country": "non è una provincia valida in %{country}",
+      "invalid_state_in_country": "non è uno stato valido in %{country}",
+      "invalid_region_in_country": "non è una regione valida in %{country}",
+      "less_than_or_equal_to": "deve essere minore o uguale a %{count}",
+      "full_name_required": "Inserisci un nome e un cognome",
+      "invalid_type": "ci dispiace, non accettiamo carte di questo tipo",
+      "invalid_start_date_or_issue_number_for_debit": "è richiesta una data di inizio valida o un numero di emissione",
+      "invalid_expiry_year": "non è un anno di scadenza valido",
+      "reset_password_html": "Questo indirizzo email è già associato a un account. Se questo account è tuo, puoi <a href=\"/account/login#recover\">reimpostare la tua password</a>",
+      "verify_email": "Abbiamo inviato un'email a %{customer_email}, per favore clicca sul link incluso per verificare il tuo indirizzo email.",
+      "product_not_available": "il prodotto non è pubblicato per questo cliente.",
+      "shop_404": {
+        "title": "Crea un sito web di commercio elettronico e vendi online! Software per commercio elettronico di Shopify",
+        "heros": {
+          "store_unavailable": "Spiacenti, questo negozio non è attualmente disponibile."
+        },
+        "links": {
+          "start_free_trial": "Inizia una prova gratuita"
+        },
+        "owner_ctas": {
+          "fix_domain": "Completa la configurazione del tuo nuovo indirizzo web, vai a %{domain_settings_link}. Clicca su “Collega dominio” e inserisci: %{domain}.<br>Se hai difficoltà ad accedere al tuo negozio, prova la pagina %{forgot_your_store_link}.",
+          "fix_domain_link_text": "le impostazioni del tuo dominio",
+          "add_storefront": "Puoi configurare il tuo sito web aggiungendo il canale Negozio Online nel tuo %{admin_link}. Se hai difficoltà ad accedere al tuo negozio, prova la pagina %{forgot_your_store_link}.",
+          "admin_link_text": "amministratore"
+        },
+        "ctas": {
+          "sell_in_person": {
+            "caption": "Ottieni le funzionalità di cui hai bisogno per gestire il tuo negozio al dettaglio, sia che tu stia iniziando o espandendo."
+          },
+          "open_a_store": {
+            "caption": "Inizia una prova gratuita di 3 giorni, poi continua per 1€/mese per i successivi 3 mesi."
+          },
+          "editions": {
+            "header": "Scopri le Edizioni di Shopify",
+            "caption": "Con oltre 100 aggiornamenti di prodotto, puoi essere più produttivo e creativo, e più potente nel commercio di quanto tu abbia mai immaginato.",
+            "link_text": "Esplora le ultime Edizioni"
+          },
+          "store_owner": {
+            "caption": "Hai difficoltà ad accedere al tuo negozio? Prova la funzione %{forgot_your_store_link}. Se desideri riattivare il tuo negozio, contatta %{shopify_support_link}."
+          }
+        }
+      }
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Errore nel ripristino della password",
+        "subscribe_error": "Errore di iscrizione",
+        "unsubscribe_error": "Errore durante la cancellazione dall'iscrizione",
+        "no_account_found": "Nessun account trovato con quell'indirizzo email.",
+        "denylisted_reset_password": "Il tuo account non è stato accessibile perché la password attuale non è sicura. Riceverai una email per aggiornare la tua password.",
+        "signup_disabled": "La creazione dell'account cliente è stata disabilitata."
+      },
+      "address": {
+        "error_creating": "Errore nella creazione dell'indirizzo."
+      },
+      "line_item": {
+        "item_status": {
+          "decrement_item": "Rimossi %{delta} di %{total}",
+          "decrement_fulfilled_line_item": "Restituiti %{delta} di %{total}"
+        }
+      },
+      "order": {
+        "financial_status": {
+          "unpaid": "Non pagato",
+          "partially_refunded": "Rimborso parziale"
+        },
+        "fulfillment_status": {
+          "complete": "Completo",
+          "partial": "Parziale",
+          "unfulfilled": "Non soddisfatto"
+        },
+        "transaction_status": {
+          "success": "Successo",
+          "failure": "Errore"
+        },
+        "cancel_reason": {
+          "customer": "Cliente ha modificato/annullato l'ordine",
+          "staff": "Errore del personale"
+        },
+        "cash_on_delivery": "Pagamento alla consegna (PAC)"
+      },
+      "cart": {
+        "only_one_added_to_cart": "È stato aggiunto al carrello solo 1 articolo a causa della disponibilità.",
+        "only_n_added_to_cart": "Sono stati aggiunti al carrello solo %{quantity} articoli a causa della disponibilità.",
+        "maximum_available_quantity_reached": "La quantità massima di questo articolo è già nel tuo carrello.",
+        "empty_update": "impossibile aggiornare il carrello vuoto",
+        "missing_parameters": "nessun id valido o parametro di linea",
+        "generic_error": "Errore nel carrello",
+        "product_not_available": "Prodotto non disponibile",
+        "too_many_line_items_error": "Il tuo carrello non può contenere più di %{max} articoli.",
+        "link_expired": "Collegamento scaduto",
+        "link_no_longer_exists": "Il collegamento non esiste più.",
+        "stock_problems_html": "Uno o più articoli non sono più disponibili. Abbiamo fornito un <a href='%{link}'>carrello aggiornato</a>.",
+        "items_changed": "Uno o più elementi sono cambiati.",
+        "variant_not_found": "Impossibile trovare la variante",
+        "variant_requires_selling_plan": "La variante può essere acquistata solo con un piano di vendita.",
+        "selling_plan_not_available_for_company_locations": "È disponibile solo l'acquisto singolo per gli ordini B2B",
+        "buyer_cannot_purchase_for_company_locations": "Non puoi acquistare per questa posizione",
+        "selling_plan_not_applicable": "Impossibile applicare il piano di vendita alla variante",
+        "shipping_address_invalid": "Si è verificato un problema nel calcolo delle tariffe di spedizione. Procedi al pagamento per scegliere una tariffa di spedizione prima di completare il tuo ordine.",
+        "bundle_requires_components": "Il prodotto in bundle '%{name}' non può essere aggiunto al carrello.",
+        "gift_card_with_components_not_supported": "Il prodotto in bundle '%{name}' non può essere aggiunto al carrello.",
+        "gift_card_price_must_be_greater_than_zero": "Il prodotto in bundle '%{name}' non può essere aggiunto al carrello.",
+        "gift_card_recipient_validation_error": "Il destinatario della carta regalo specificato non è valido",
+        "view_lines_limit_reached": "Le righe devono essere lunghe al massimo %{limit}",
+        "merchandise_line_transformers": {
+          "run_error": "Si è verificato un errore nel tuo carrello."
+        },
+        "merchandise_not_applicable": "L'articolo non può essere acquistato nella configurazione selezionata."
+      },
+      "storefront": {
+        "invalid_password": "Password errata, riprova per favore."
+      },
+      "tags": {
+        "add_articles": "Restringi la ricerca agli articoli che hanno anche il tag %{tag}",
+        "add_products": "Restringi la selezione ai prodotti corrispondenti al tag %{tag}",
+        "remove_articles": "Estendi la ricerca agli articoli non contrassegnati con %{tag}"
+      }
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Grazie per esserti iscritto alla nostra lista di distribuzione.",
+        "unsubscribe": "Disiscriviti"
+      },
+      "unsubscribed": {
+        "confirmation": "Ti sei disiscritto dalla nostra lista di distribuzione.",
+        "preview": "Stai visualizzando cosa vedranno i clienti quando si disiscriveranno."
+      },
+      "sms_unsubscribe_confirm": {
+        "message": "Sei sicuro di voler disiscrivere dalla marketing via SMS?",
+        "button": "Disiscriviti"
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Hai scelto di attivare il tracciamento delle aperture delle email.</b>",
+          "visibility": "I tassi di apertura delle email saranno riportati in modo anonimo. Vedremo solo se hai aperto un'email come parte di un tasso di apertura aggregato delle email.",
+          "opt_out_html": "Puoi <a style='text-decoration:underline;' href='%{link}'>disattivare</a> il tracciamento dell'apertura delle email se non desideri condividere queste informazioni.",
+          "preview_bar": "Stai visualizzando cosa vedranno i clienti quando si iscriveranno al tracciamento delle aperture delle email."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Hai disattivato il tracciamento delle aperture delle email.</b>",
+          "visibility": "Non vedremo se hai aperto le nostre email.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Iscriviti</a> al tracciamento delle aperture email.",
+          "preview_bar": "Stai visualizzando cosa vedranno i clienti quando disattiveranno il tracciamento delle aperture delle email."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Non tracciamo più l'apertura di nessuna email.</b>",
+          "privacy_policy": "Dopo l'invio di questa email, abbiamo aggiornato la nostra informativa sulla privacy e non tracciamo più le aperture."
+        },
+        "track": {
+          "status_html": "<b>Il tracciamento dell'apertura delle email è segnalato.</b>",
+          "visibility": "Vedremo solo se hai aperto l'email, come parte del tasso totale di apertura delle email."
+        },
+        "updated_policy": {
+          "status_html": "<b>Il tracciamento dell'apertura delle email è segnalato.</b>",
+          "visibility": "Abbiamo aggiornato la nostra politica e ora tracciamo le aperture delle email. I tassi di apertura delle email saranno riportati in modo anonimo. Vedremo solo se hai aperto un'email come parte del tasso totale di apertura delle email.",
+          "opt_out_html": "Se non desideri condividere queste informazioni, puoi <a style='text-decoration:underline;' href='%{link}'>annullare l'iscrizione.</a>"
+        }
+      }
+    },
+    "search": {
+      "error": "C'è stato un problema nel caricare i risultati della tua ricerca. Ti preghiamo di aggiornare la pagina o riprovare più tardi.",
+      "sorting": {
+        "relevance": "Rilevanza"
+      }
     }
   }
 }
