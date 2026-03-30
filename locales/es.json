@@ -3274,6 +3274,160 @@
       },
       "profile_update_error": {
         "description": "Hubo un problema al actualizar tu perfil. Intenta recargar esta página o verifica tu conexión a internet."
+      },
+      "profile_name_update_error": {
+        "description": "Hubo un problema al actualizar tu nombre. Intenta actualizar esta página o verifica tu conexión a internet."
+      },
+      "load_extension_error": {
+        "description": "Actualice esta página o intente de nuevo en unos minutos."
+      },
+      "already_upgraded": "Las cuentas de los clientes ya están actualizadas.",
+      "failed_to_upgrade": "No se pudo actualizar la configuración de la cuenta del cliente.",
+      "not_upgraded": "Las cuentas de los clientes no se actualizan.",
+      "failed_to_revert": "No se pudo revertir la configuración de la cuenta del cliente.",
+      "revert_window_expired": "La ventana para revertir ha expirado."
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "description": "Por favor, inténtelo de nuevo en unos minutos"
+      }
+    },
+    "payment_methods": {
+      "replacement_payment_method_title": "Método de pago alternativo",
+      "title": "Métodos de pago",
+      "add_payment_method_button": "Agregar método de pago",
+      "add_payment_method_dropdown": {
+        "bank_account_consent": "Al agregar un método de pago, autorizas que se cargue tu tarjeta o se debite tu cuenta bancaria para futuras compras que apruebes, hasta que canceles."
+      },
+      "bank_account": {
+        "loading_accessibility_message": "El botón de la cuenta bancaria se está cargando",
+        "generic_error": "No se pudo agregar la cuenta bancaria. Inténtalo de nuevo más tarde."
+      },
+      "add_payment_method_banner": "Agregar método de pago para un pago más rápido o servicios preautorizados",
+      "no_payment_methods_banner": "No se han añadido métodos de pago",
+      "default": "Predeterminado",
+      "expiration_warning_button_accessibility_label": "Mostrar advertencia de vencimiento para {{paymentMethodName}} que termina en {{lastDigits}}",
+      "expires_soon": "Esta tarjeta está por vencer pronto",
+      "expired": "Esta tarjeta ha caducado",
+      "card_update_consent": "Este método de pago se guardará para futuras compras.",
+      "card_update_consent_subscriptions": "Este método de pago se guardará para futuras compras y podrá usarse para cualquier compra recurrente o aplazada.",
+      "additional_payment_methods": "Métodos de pago adicionales",
+      "or": "O\n\no",
+      "google_pay": {
+        "iframe_title_accessibility_label": "Agregar método de pago Google Pay",
+        "errors": {
+          "generic": "Hubo un problema con Google Pay. Intenta de nuevo o usa un método de pago diferente.",
+          "missing_billing_address": "Google Pay requiere una dirección de facturación. Por favor, añada una a su cuenta."
+        }
+      },
+      "pay_pal": {
+        "iframe_title_accessibility_label": "Agregar método de pago PayPal",
+        "errors": {
+          "generic": "Hubo un problema con PayPal. Intente de nuevo o use un método de pago diferente."
+        }
+      },
+      "apple_pay": {
+        "errors": {
+          "generic": "Hubo un problema con Apple Pay. Inténtalo de nuevo o usa un método de pago diferente.",
+          "missing_billing_address": "Apple Pay requiere una dirección de facturación. Por favor, añada una a su cuenta."
+        }
+      },
+      "store_credit": {
+        "accesibility_label": "Crédito en tienda - {{formattedBalance}}",
+        "expirable_amounts_button": "Ver cantidades que expiran",
+        "expirable_amounts_label": "Cantidades que caducan",
+        "details_modal": {
+          "title": "Crédito de tienda con fecha de vencimiento",
+          "balance_label": "Equilibrio",
+          "expiration_date_label": "Fecha de caducidad",
+          "amount_label": "Cantidad",
+          "events": {
+            "payment_failure": "Fallo en el pago",
+            "order_cancellation": "Cancelación de pedido",
+            "tax_finalization": "Finalización de impuestos"
+          },
+          "expirable_balance_info": "Parte de su saldo expirará en una fecha futura",
+          "expirable_amount_label": "Cantidad total que puede expirar",
+          "expirable_amounts_info": "Las cantidades que expiran antes se aplican primero al pagar",
+          "pagination": {
+            "load_more_accessibility_label": "Cargar más cantidades que expiran"
+          }
+        }
+      },
+      "payment_details": {
+        "title": "Detalles del método de pago",
+        "credit_card_details_accessibility_label": "terminando en {{lastDigits}}",
+        "payment_method_expiring_on": "Expira el {{expiryDate}}",
+        "payment_method_expired_on": "Expirado el {{expiryDate}}",
+        "close_payment_modal_accessibility_label": "Cerrar el cuadro de detalles del método de pago",
+        "payment_method_not_found_error": "No se pudo encontrar el método de pago",
+        "payment_details_loading": "Cargando detalles del método de pago",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "{{totalItems}} artículos en total, mostrando {{totalItemsToDisplay}} artículos.",
+        "next_payment_due": "Próximo pago vence el {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button_accessibility_label": "Editar método de pago que termina en {{lastDigits}}",
+        "invalid_payment_method": "Método de pago inválido",
+        "invalid_payment_method_message": "Utilice una tarjeta de crédito nueva para seguir recibiendo los próximos pedidos.",
+        "replace_payment_method": "Cambiar método de pago",
+        "checkout_card_banner": "Este método de pago solo puede usarse para pagos preautorizados. No aparecerá en la caja si has iniciado sesión en esta tienda.",
+        "default_checkbox": "Establecer como predeterminado",
+        "default_checkbox_accessibility_label": "Establecer este método de pago como predeterminado"
+      },
+      "edit_payment_method": {
+        "title": "Editar método de pago",
+        "payment_method_updated_toast": "Método de pago actualizado",
+        "billing_address_add_new": "Agregar nuevo",
+        "billing_address_choose_from_list": "Elija de la lista",
+        "future_purchases_notice": "Este método de pago se guardará para futuras compras.",
+        "generic_error": "Hubo un problema al actualizar. Por favor, inténtelo de nuevo."
+      },
+      "update_payment_method": {
+        "title": "Actualizar método de pago",
+        "disclaimer": "Este método de pago se guardará para futuras compras y podrá usarse para cualquier compra recurrente o aplazada.",
+        "error_message": "No se pudo actualizar el método de pago",
+        "pre_orders_title": "Próximamente",
+        "pre_orders_list_accessibility_label": "Lista de productos de pedidos pendientes",
+        "resources_list_accessibility_label": "Productos de suscripción y productos de pedidos pendientes que utilizan este método de pago",
+        "resources_card_scroll": "Desplácese para ver más artículos",
+        "loading_form_accessibility_message": "Cargando el formulario de actualización del método de pago",
+        "loading_current_payment_method": "Cargando método de pago actual",
+        "loading_resources": "Cargando suscripciones y pedidos próximos"
+      },
+      "link_expired": {
+        "message": "Este enlace para actualizar su método de pago ha expirado.",
+        "update_message": "Este enlace para actualizar su método de pago ha expirado.",
+        "add_message": "Este enlace para agregar tu método de pago ha expirado.",
+        "return_home_button": "Volver a la página principal"
+      },
+      "update_success": {
+        "title": "Método de pago actualizado",
+        "done_button": "Continuar comprando"
+      },
+      "add_success": {
+        "title": "Método de pago añadido",
+        "done_button": "Continuar comprando"
+      },
+      "card_fields": {
+        "name_on_card_label": "Nombre en la tarjeta",
+        "name_on_card_placeholder": "Nombre en la tarjeta",
+        "card_expiry_label": "Fecha de caducidad (MM / AA)",
+        "card_expiry_placeholder": "Fecha de caducidad (MM / AA)",
+        "card_start_label": "Fecha de emisión (MM / AA)",
+        "card_start_placeholder": "Fecha de emisión (MM / AA)",
+        "tooltip": {
+          "card_verification_value_explanation_amex": "Código de seguridad de 4 dígitos en el anverso de su tarjeta",
+          "card_verification_value_explanation_other": "Código de seguridad de 3 dígitos en el reverso de su tarjeta",
+          "card_verification_value_explanation": "Código de seguridad de 3 dígitos que generalmente se encuentra en el reverso de su tarjeta. Las tarjetas American Express tienen un código de 4 dígitos ubicado en el anverso.",
+          "card_security_notice": "Todas las transacciones son seguras y están cifradas."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Ingrese su nombre tal como está escrito en su tarjeta",
+          "credit_card_number_invalid": "Introduzca un número de tarjeta válido",
+          "credit_card_expiry_invalid": "Introduzca una fecha de vencimiento de tarjeta válida",
+          "credit_card_verification_value_blank": "Introduzca el CVV o código de seguridad de su tarjeta"
+        },
+        "unavailable": {
+          "link_text": "Actualizar esta página"
+        }
       }
     }
   }
