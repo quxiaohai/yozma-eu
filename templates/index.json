@@ -357,13 +357,13 @@
             "mb_media_ratio": "",
             "show_subhead": true,
             "subhead": "",
-            "subhead_color": "#ff0000",
+            "subhead_color": "#1a1a1a",
             "head": "EU Countries We Ship to",
-            "head_color": "#ff0000",
+            "head_color": "#1a1a1a",
             "head_gradient_color": "",
             "text": "<p>We ship from our warehouse in <strong>Germany or Italy</strong> to the following 25 countries:<br/>Austria, Belgium, Bulgaria, Croatia, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Italy, Ireland, Latvia, Lithuania, Luxembourg, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden.</p>",
-            "text_color": "#b2b2b2",
-            "text_bold_color": "#ff0000"
+            "text_color": "#1a1a1a",
+            "text_bold_color": "#1a1a1a"
           }
         }
       },
