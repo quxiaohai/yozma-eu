@@ -2336,6 +2336,222 @@
         "errors": {
           "interaction_required": "Se requiere una interacción con la extensión para completar la compra."
         }
+      },
+      "taxes": {
+        "tax_details": "Detalles fiscales adicionales",
+        "vat_number": {
+          "field": {
+            "tooltip": "Valida el número de IVA y aplica automáticamente la inversión del sujeto pasivo en los pedidos cuando corresponde"
+          },
+          "domestic_order": "La exención de inversión del sujeto pasivo se aplica solo a pedidos transfronterizos dentro de la UE. Se cobra el IVA estándar para pedidos locales.",
+          "status": {
+            "invalid_format": {
+              "bg": "Los números de IVA de Bulgaria contienen BG y 9-10 caracteres",
+              "gr": "Los números de IVA de Grecia contienen EL y 9 caracteres",
+              "ie": "Los números de IVA de Irlanda contienen IE y 8-9 caracteres",
+              "ro": "Los números de IVA de Rumania contienen RO y 10 caracteres"
+            },
+            "invalid_number": {
+              "at": "Introduzca un número de IVA válido de Austria",
+              "be": "Introduzca un número de IVA válido de Bélgica",
+              "bg": "Introduzca un número de IVA válido de Bulgaria",
+              "hr": "Introduzca un número de IVA válido de Croacia",
+              "cy": "Introduzca un número de IVA de Chipre válido",
+              "cz": "Introduzca un número de IVA checo válido",
+              "dk": "Introduzca un número de IVA válido de Dinamarca",
+              "ee": "Introduzca un número de IVA válido de Estonia",
+              "fi": "Introduzca un número de IVA válido de Finlandia",
+              "fr": "Introduzca un número de IVA válido de Francia",
+              "de": "Introduzca un número de IVA válido de Alemania",
+              "gr": "Introduzca un número de IVA válido de Grecia",
+              "hu": "Introduzca un número de IVA válido de Hungría",
+              "ie": "Introduzca un número de IVA válido de Irlanda",
+              "it": "Introduzca un número de IVA válido de Italia",
+              "lv": "Introduzca un número de IVA válido de Letonia",
+              "lt": "Introduzca un número de IVA válido de Lituania",
+              "lu": "Introduzca un número de IVA válido de Luxemburgo",
+              "mt": "Introduzca un número de IVA válido de Malta",
+              "nl": "Introduzca un número de IVA válido de los Países Bajos",
+              "pl": "Introduzca un número de IVA válido de Polonia",
+              "pt": "Introduzca un número de IVA válido de Portugal",
+              "ro": "Introduzca un número de IVA válido de Rumanía",
+              "sk": "Introduzca un número de IVA válido de Eslovaquia",
+              "si": "Introduzca un número de IVA válido de Eslovenia",
+              "es": "Introduzca un número de IVA válido de España",
+              "se": "Introduzca un número de IVA válido de Suecia",
+              "gb": "Introduzca un número de IVA válido del Reino Unido"
+            }
+          },
+          "accessibility": {
+            "status": {
+              "validating": "La validación del número de IVA está en progreso",
+              "applied": "Se ha aplicado la exención de IVA",
+              "domestic": "Exención de IVA no aplicada",
+              "service_unavailable": "No se puede verificar la exención del IVA",
+              "service_error": "No se puede verificar la exención del IVA"
+            }
+          }
+        }
+      }
+    },
+    "links": {
+      "powered_by_shopify": "Impulsado por Shopify",
+      "learn_more": "Aprender más"
+    },
+    "attributes": {
+      "password_confirmation": "La confirmación de la contraseña",
+      "first_name": "nombre",
+      "last_name": "apellido",
+      "body": "cuerpo"
+    },
+    "addresses": {
+      "state_and_territory": "Estado/territorio",
+      "governorate": "Gobernación",
+      "confirm": "¿Está seguro de que desea eliminar esta dirección?"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Destacado",
+        "best_selling": "Más vendido",
+        "az": "Alfabéticamente, de la A a la Z",
+        "price_ascending": "Precio, de menor a mayor",
+        "price_descending": "Precio, de mayor a menor",
+        "date_ascending": "Fecha, de más antiguo a más reciente",
+        "date_descending": "Fecha, de nuevo a antiguo"
+      }
+    },
+    "errors": {
+      "blank": "no puede estar vacío",
+      "blocked_address": "Esta ubicación no está soportada",
+      "credit_card_session_expired": "La autorización de la tarjeta de crédito ha expirado, por favor ingrese su información de pago nuevamente. Su tarjeta no ha sido cargada.",
+      "empty": "no puede estar vacío",
+      "invalid_email": "debe ser una dirección de correo electrónico válida",
+      "discount_disabled": "Este descuento ha sido desactivado",
+      "discount_limit_reached": "Este descuento ha alcanzado su límite de uso",
+      "discount_not_found": "No se pudo encontrar un descuento válido que coincida con el código ingresado",
+      "customer_already_used_once_per_customer_discount_notice": "Este descuento ha alcanzado su límite de uso",
+      "gift_card_already_applied": "El código ya ha sido aplicado a su compra",
+      "gift_card_code_invalid": "El código no es válido",
+      "gift_card_currency_mismatch": "Tu tarjeta de regalo está en %{gift_card_currency}. Contáctanos para que sea reemitida en %{checkout_currency}.",
+      "gift_card_depleted": "No quedan fondos en esta tarjeta de regalo",
+      "gift_card_expired": "La tarjeta de regalo ha expirado",
+      "invalid": "es inválido",
+      "bad_domain": "contiene un nombre de dominio no válido",
+      "taken": "ya ha sido tomado",
+      "too_short": "es demasiado corto (el mínimo es de %{count} caracteres)",
+      "too_long": "es demasiado largo (el máximo es %{count} caracteres)",
+      "password_mismatch": "debe coincidir con la contraseña proporcionada",
+      "full_name_required": "Ingrese un nombre y un apellido",
+      "invalid_for_card_type": "no es válido",
+      "invalid_type": "lo sentimos, no aceptamos tarjetas de este tipo",
+      "invalid_format": "el formato no es válido",
+      "expired": "ha expirado",
+      "invalid_start_date_or_issue_number_for_debit": "se requiere una fecha de inicio válida o un número de emisión",
+      "reset_password_html": "Esta dirección de correo electrónico ya está asociada a una cuenta. Si esta cuenta es suya, puede <a href=\"/account/login#recover\">restablecer su contraseña</a>",
+      "verify_email": "Hemos enviado un correo electrónico a %{customer_email}, por favor haz clic en el enlace incluido para verificar tu dirección de correo electrónico.",
+      "product_not_available": "el producto no está publicado para este cliente.",
+      "shop_404": {
+        "title": "¡Crea un sitio web de comercio electrónico y vende en línea! Software de comercio electrónico por Shopify",
+        "heros": {
+          "store_unavailable": "Lo sentimos, esta tienda no está disponible en este momento.",
+          "no_storefront": "Esta tienda aún no tiene un sitio web."
+        },
+        "links": {
+          "start_free_trial": "Comience una prueba gratuita"
+        },
+        "owner_ctas": {
+          "header": "¿Eres el dueño de la tienda?",
+          "fix_domain": "Termina de configurar tu nueva dirección web, ve a %{domain_settings_link}. Haz clic en “Conectar dominio” e ingresa: %{domain}.<br>Si tienes problemas para acceder a tu tienda, prueba la página %{forgot_your_store_link}.",
+          "fix_domain_link_text": "tus ajustes de dominio",
+          "forgot_your_store_link_text": "olvidaste tu tienda",
+          "add_storefront": "Puedes configurar tu sitio web agregando el canal de Tienda Online en tu %{admin_link}. Si tienes problemas para acceder a tu tienda, prueba la página %{forgot_your_store_link}.",
+          "admin_link_text": "administrador"
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "Vender en persona",
+            "caption": "Obtén las funciones que necesitas para administrar tu tienda al por menor, ya sea que estés comenzando o expandiéndote.",
+            "link_text": "Comenzar prueba gratuita"
+          },
+          "open_a_store": {
+            "header": "Abrir una nueva tienda Shopify",
+            "caption": "Comience una prueba gratuita de 3 días, luego continúe por $1/mes durante los próximos 3 meses."
+          },
+          "editions": {
+            "header": "Descubre las Ediciones de Shopify",
+            "caption": "Con más de 100 actualizaciones de productos, puedes ser más productivo y creativo, y tener más poder en el comercio de lo que jamás imaginaste.",
+            "link_text": "Explorar las últimas ediciones"
+          },
+          "store_owner": {
+            "header": "¿Eres el dueño de la tienda?",
+            "caption": "¿Tienes problemas para acceder a tu tienda? Prueba la función %{forgot_your_store_link}. Si deseas reactivar tu tienda, contacta con %{shopify_support_link}.",
+            "shopify_support_link_text": "Soporte de Shopify"
+          }
+        }
+      }
+    },
+    "notices": {
+      "customer": {
+        "no_account_found": "No se encontró ninguna cuenta con ese correo electrónico.",
+        "denylisted_reset_password": "No se pudo acceder a su cuenta porque la contraseña actual no es segura. Recibirá un correo electrónico para actualizar su contraseña.",
+        "signup_disabled": "La creación de cuentas de cliente ha sido deshabilitada."
+      },
+      "address": {
+        "error_updating": "Error al actualizar la dirección",
+        "deleted": "Dirección eliminada con éxito"
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "Añadido %{delta}",
+          "increment_item": "Añadido %{delta}",
+          "decrement_item": "Eliminado %{delta} de %{total}",
+          "decrement_fulfilled_line_item": "Devuelto %{delta} de %{total}",
+          "decrement_return_line_item": "Eliminado %{delta} de la devolución"
+        }
+      },
+      "order": {
+        "not_available": "Este pedido no está disponible",
+        "financial_status": {
+          "authorized": "Autorizado",
+          "paid": "Pagado",
+          "unpaid": "No pagado",
+          "voided": "Anulado",
+          "partially_paid": "Parcialmente pagado",
+          "partially_refunded": "Parcialmente reembolsado",
+          "refunded": "Reembolsado",
+          "expired": "Caducado"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Cumplido",
+          "unfulfilled": "No cumplido",
+          "restocked": "Reabastecido"
+        },
+        "cancel_reason": {
+          "customer": "Cliente cambió/canceló el pedido",
+          "staff": "Error del personal"
+        },
+        "cash_on_delivery": "Pago contra reembolso (PCR)"
+      },
+      "cart": {
+        "not_found": "Carrito no encontrado",
+        "too_many_items_in_cart": "No puedes añadir más %{name} al carrito.",
+        "only_one_added_to_cart": "Solo se añadió 1 artículo a tu carrito debido a la disponibilidad.",
+        "only_n_added_to_cart": "Solo se añadieron %{quantity} artículos a tu carrito debido a la disponibilidad.",
+        "maximum_available_quantity_reached": "La cantidad máxima de este artículo ya está en tu carrito.",
+        "all_items_in_cart": "Todos los %{count} %{name} están en tu carrito.",
+        "empty_update": "no se puede actualizar el carrito vacío",
+        "missing_parameters": "no hay un parámetro de identificación o línea válido",
+        "product_not_available": "Producto no disponible",
+        "too_many_line_items_error": "Tu carrito no puede contener más de %{max} artículos.",
+        "link_expired": "Enlace caducado",
+        "stock_problems_html": "Uno o más artículos ya no están disponibles. Hemos proporcionado un <a href='%{link}'>carrito actualizado</a>.",
+        "changed": "Carrito modificado",
+        "items_changed": "Uno o más artículos han cambiado.",
+        "product_sold_out": "El producto '%{name}' ya está agotado.",
+        "variant_not_found": "No se puede encontrar la variante",
+        "variant_requires_selling_plan": "La variante solo se puede comprar con un plan de venta.",
+        "selling_plan_not_available_for_company_locations": "Solo está disponible la compra única para pedidos B2B",
+        "digital_product_not_available_for_company_locations": "Este artículo no se puede añadir a un pedido B2B"
       }
     }
   }
