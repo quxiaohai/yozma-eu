@@ -1029,7 +1029,91 @@
         },
         "shipping_line_phone": "Su mensajero puede usar este número para contactarlo.",
         "shipping_line_delivery_phone_label": "Número de teléfono móvil",
-        "shipping_line_delivery_phone": "Es posible que se pongan en contacto con usted para informarle sobre actualizaciones de su entrega."
+        "shipping_line_delivery_phone": "Es posible que se pongan en contacto con usted para informarle sobre actualizaciones de su entrega.",
+        "shipping_line_delivery_instructions": "Ingrese la información necesaria como códigos de puerta o instrucciones de entrega.",
+        "other_method": {
+          "zero": "No hay otros métodos disponibles",
+          "one": "%{count} otro método disponible en",
+          "other": "%{count} otros métodos disponibles desde"
+        },
+        "prime_not_available": {
+          "default": "La entrega Prime no está disponible para su pedido. Sus opciones de envío han sido actualizadas."
+        },
+        "subscription_delivery_description": {
+          "free_shipping_cycles": {
+            "one": "Envío gratis por %{count} entregas más"
+          },
+          "free_shipping_cycles_delivery_not_included": {
+            "one": "Envío gratis para %{count} entregas"
+          },
+          "first_n_order_free_with_cycle": {
+            "one": "Envío gratis por %{count} entregas más, luego %{recurring_order_shipping_price}",
+            "other": "Envío gratis por %{count} entregas más, luego %{recurring_order_shipping_price}"
+          },
+          "first_n_order_free_with_cycle_delivery_not_included": {
+            "one": "Envío gratis para %{count} entregas, luego %{recurring_order_shipping_price}",
+            "other": "Envío gratis para %{count} entregas, luego %{recurring_order_shipping_price}"
+          },
+          "max_cycles_base_shipping": {
+            "one": "%{count} entregas más por %{shipping_price}"
+          },
+          "prepaid_free_shipping_with_cycles": {
+            "one": "Envío gratis durante el primer %{cycle}, seguido de %{recurring_order_shipping_price}",
+            "other": "Envío gratis durante el primer %{cycle}, seguido de %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_one_cycle": {
+            "one": "%{shipping_price} por %{count} entregas adicionales",
+            "other": "%{shipping_price} por %{count} entregas más (%{per_delivery_cost})"
+          },
+          "prepaid_order_one_cycle_delivery_not_included": {
+            "one": "%{shipping_price} por %{count} entrega",
+            "other": "%{shipping_price} por %{count} entregas (%{per_delivery_cost})"
+          },
+          "prepaid_order_no_cycle": {
+            "one": "%{shipping_price} por %{count} entregas adicionales, seguido de %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} por %{count} entregas adicionales (%{per_delivery_cost}), seguido de %{recurring_order_shipping_price}"
+          },
+          "prepaid_order_no_cycle_delivery_not_included": {
+            "one": "%{shipping_price} por %{count} entrega, seguido de %{recurring_order_shipping_price}",
+            "other": "%{shipping_price} por %{count} entregas (%{per_delivery_cost}), seguido de %{recurring_order_shipping_price}"
+          },
+          "prepaid_delivery_frequency": {
+            "one": "para entrega de %{count}"
+          },
+          "initial_order_discounted": "Primero el costo de envío %{discounted_shipping_cost}, luego %{frequency_description}",
+          "prepaid_initial_order_discounted": "Primer costo de envío %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Primer costo de envío %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Primer costo de envío %{discounted_shipping_price} %{prepaid_delivery_frequency}, luego %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Primer costo de envío %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), luego %{shipping_price} %{billing_cycle}",
+          "first_n_order_free": {
+            "one": "Primera orden gratis"
+          }
+        },
+        "duties_and_taxes_title": "Derechos e impuestos",
+        "shipping_information_required_notice": "Se requiere información de envío. {{link}}.",
+        "shipping_information_redirect_link": "Ingrese su información aquí",
+        "loading_progressive_rates": "Buscando más tarifas…",
+        "no_other_methods_available": "No hay otros métodos disponibles",
+        "duties_and_taxes_options": {
+          "ddu_title": "Pagar contra entrega",
+          "ddu_caption": "Pueden aplicarse cargos adicionales",
+          "ddp_caption": "Sin cargos adicionales en la entrega"
+        },
+        "shipping_used_as_billing_notice": "Esto también se usará como su dirección de facturación para este pedido.",
+        "address_update": "Actualizar dirección",
+        "shipping_address_rollup_accessibility_label": "Opciones de dirección de envío",
+        "third_party_address_timeout": "No se pueden cargar las direcciones. Intente de nuevo o use una dirección diferente.",
+        "third_party_address_error": "Se produjo un error al cargar la selección de dirección. Introduzca su dirección manualmente a continuación.",
+        "third_party_payment_timeout": "No se pueden cargar los métodos de pago. Intente de nuevo o use un método de pago diferente.",
+        "third_party_payment_error": "Se produjo un error al cargar la selección de pago. Utilice un método de pago diferente.",
+        "address_confirm": "¿Está seguro de que desea eliminar esta dirección de su cuenta?",
+        "address_default": "Establecer como predeterminado",
+        "address_form": {
+          "generic_error": "Hubo un problema al guardar su dirección. Inténtelo de nuevo.",
+          "one_time_address_subtitle": "Usa una dirección de un solo uso para este pedido"
+        },
+        "different_shipping_method_summary": "Ingrese una dirección de envío diferente para ver los métodos de envío disponibles",
+        "invalid_shipping_method_summary": "Ingrese una dirección de envío válida para ver los métodos de envío disponibles"
       }
     }
   }
