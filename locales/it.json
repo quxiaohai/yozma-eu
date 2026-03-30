@@ -1847,7 +1847,171 @@
         "cancelled_description": "Il tuo ordine è stato annullato il %{date}. Contattaci se hai domande.",
         "order_number_label": "Numero d'ordine",
         "customer_validation_error": "Inserisci un'email o un numero d'ordine valido.",
-        "customer_validation_error_phone": "Inserisci un numero di telefono o un numero d'ordine valido."
+        "customer_validation_error_phone": "Inserisci un numero di telefono o un numero d'ordine valido.",
+        "unfulfilled_items_title": "Preparazione per la spedizione",
+        "unfulfilled_items_description": "Stiamo attualmente preparando questi articoli per la spedizione.",
+        "marker": {
+          "current": "Posizione attuale della spedizione"
+        },
+        "pick_up_in_store_marker": {
+          "current": "Posizione attuale della spedizione",
+          "shipping": "Luogo di ritiro"
+        },
+        "fulfillment": {
+          "product_image_label": "Immagine del prodotto"
+        },
+        "order_updates_description_missing": "Non stai ricevendo aggiornamenti sulla spedizione.",
+        "order_updates_subscribe_to_email_notifications": "Ricevi aggiornamenti sulla spedizione via email",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Ricevi aggiornamenti sulla spedizione via email o messaggio di testo",
+        "order_updates_subscribe_to_phone_notifications": "Ricevi aggiornamenti sulla spedizione via SMS",
+        "gift_card_sent_confirmation": "Carte regalo inviate",
+        "qr_code": {
+          "send_link_to_phone": "Oppure invia un collegamento al tuo telefono",
+          "title": "Traccia sul tuo telefono"
+        },
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Scansiona con il tuo telefono"
+          },
+          "sms": {
+            "title": "Oppure invia un collegamento al tuo telefono"
+          }
+        },
+        "breadcrumbs_in_review": "In revisione",
+        "missing_shipping_address_banner": {
+          "title": "L'ordine non ha un indirizzo di spedizione"
+        },
+        "thank_you_ready_for_picked_up": "Il tuo ordine è stato ritirato a %{address}.",
+        "order_updates_subscribe_to_email_notifications_failed": "Non possiamo memorizzare questa email per gli aggiornamenti. Riprova o utilizza un'altra email.",
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "L'indirizzo email che hai inserito esiste già.",
+        "subscriptions_management": {
+          "description": "Continua al tuo account per visualizzare e gestire i tuoi abbonamenti.",
+          "button_label": "Gestisci il tuo abbonamento"
+        },
+        "gift_card_confirmation_by_text_typ": {
+          "one": "Riceverai un messaggio di testo con la tua carta regalo tra pochi minuti.",
+          "other": "Riceverai un messaggio di testo con le tue carte regalo tra pochi minuti."
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "one": "Riceverai un’email con la tua carta regalo tra pochi minuti.",
+          "other": "Riceverai un'email con le tue carte regalo tra pochi minuti."
+        },
+        "gift_card_email_title": {
+          "one": "La carta regalo è stata inviata via email",
+          "other": "Le carte regalo sono state inviate via email"
+        },
+        "gift_card_text_title": {
+          "one": "La carta regalo è stata inviata tramite messaggio di testo",
+          "other": "Le carte regalo sono state inviate tramite messaggio di testo"
+        },
+        "resend_gift_cards_by_email": "Reinvia email",
+        "resend_gift_cards_by_text": "Reinvia messaggio di testo",
+        "gift_card_resent_confirmation": {
+          "one": "La carta regalo è stata reinviata.",
+          "other": "Le carte regalo sono state rinviate."
+        },
+        "gift_card_resend_failure": {
+          "one": "C'è stato un problema nel reinviare la tua carta regalo. Riprova o contattaci.",
+          "other": "C'è stato un problema nel reinviare le tue carte regalo. Riprova o contattaci."
+        },
+        "verify_shop_account_message": "Le tue informazioni sono state salvate con Shop, verifica il tuo account per usarle automaticamente in milioni di negozi.",
+        "verify_shop_account_confirmation": "Dettagli di pagamento salvati"
+      },
+      "vaulted": {
+        "change_button": "Cambia"
+      },
+      "review": {
+        "title": "Recensione",
+        "review_title": "Completa il tuo ordine",
+        "review_and_confirm_title": "Rivedi e conferma",
+        "checkout_as_guest": "Procedi come ospite",
+        "checkout_a_different_way": "Prova un modo diverso",
+        "blocks": {
+          "change_contact_method_link_label": "Modifica le informazioni di contatto",
+          "change_billing_address_link_label": "Cambia indirizzo di fatturazione",
+          "change_shipping_address_link_label": "Cambia indirizzo di spedizione",
+          "change_shipping_method_link_label": "Cambia metodo di spedizione",
+          "change_payment_method_link_label": "Cambia metodo di pagamento",
+          "purchase_order_number_title": "Numero d'ordine",
+          "change_purchase_order_number_label": "Cambia il numero dell'ordine",
+          "no_address": "(Senza indirizzo)",
+          "no_purchase_order_number": "(Nessun numero PO)",
+          "due_after_order_reviewed_html": "Due dopo che l'ordine è stato esaminato",
+          "company_location": "Sede dell'azienda",
+          "pickup_items_at": {
+            "one": "Ritira %{count} articolo presso",
+            "other": "Ritira %{count} articoli presso"
+          }
+        },
+        "block_title": "Rivedi le tue informazioni",
+        "item_header": {
+          "change_value": "Cambia valore",
+          "value": "Valore"
+        }
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Inviami via email notizie e offerte",
+        "post_accept_marketing_checkbox_label": "Sei iscritto per ricevere notizie e offerte via email",
+        "pending_accept_marketing_checkbox_label": "Controlla la tua posta elettronica per confermare l'iscrizione a notizie e offerte",
+        "accept_sms_checkbox_label": "Mandami un messaggio con notizie e offerte",
+        "disclaimer": {
+          "terms_of_service": "Termini di servizio"
+        },
+        "sms": {
+          "disclaimer": {
+            "terms_of_service": "Termini di servizio",
+            "description_html": "Iscrivendoti tramite SMS, accetti di ricevere messaggi di marketing automatizzati ricorrenti, inclusi promemoria del carrello, al numero di telefono fornito. Il consenso non è una condizione per l'acquisto. Rispondi STOP per annullare l'iscrizione. Rispondi HELP per assistenza. La frequenza dei messaggi può variare. Potrebbero essere applicate tariffe per messaggi e dati. Consulta la nostra %{privacy_policy_link} e %{terms_of_service_link}.",
+            "description_transactional_html": "Potresti ricevere messaggi di testo relativi alla conferma dell'ordine e agli aggiornamenti sulla spedizione. Rispondi STOP per annullare l'iscrizione. Rispondi HELP per assistenza. La frequenza dei messaggi può variare. Potrebbero essere applicate tariffe per messaggi e dati. Consulta la nostra %{privacy_policy_modal_link} e %{terms_of_service_modal_link}."
+          },
+          "mobile_phone_number": "Numero di telefono cellulare",
+          "get_offers_by_text": "Ricevi offerte via messaggio di testo"
+        },
+        "unsubscribe": {
+          "title": "Ti sei cancellato dalla newsletter",
+          "description": "Non riceverai più promemoria del carrello da parte nostra."
+        }
+      },
+      "shop_policies": {
+        "policy_label": "Politica",
+        "policies_label": "Politiche",
+        "select_policy_label": "Seleziona una politica",
+        "refund_policy": "Politica di rimborso",
+        "terms_of_service": "Condizioni di servizio",
+        "legal_notice": "Avviso legale",
+        "shipping_policy": "Spedizione",
+        "terms_of_sale": "Condizioni di vendita",
+        "subscription_policy": "Cancellazioni",
+        "purchase_options_policy": "Politica sulle opzioni di acquisto",
+        "contact_information": "Contatto",
+        "purchase_options_cancellation_policy": "Cancellazioni",
+        "cookie_preferences": "Biscotti",
+        "terms_and_policies": "Termini e condizioni"
+      },
+      "mor_policies": {
+        "terms_and_conditions": "Termini e Condizioni del Commerciante Registrato",
+        "privacy_policy": "Informativa sulla privacy del commerciante ufficiale"
+      },
+      "markets": {
+        "invalid_market_manager_error": "Controlla le tue informazioni di contatto prima di completare il pagamento"
+      },
+      "order_payment_collection": {
+        "changes_summary": {
+          "added": {
+            "one": "Aggiunto",
+            "other": "Aggiunto %{count}"
+          },
+          "removed": "Rimosso",
+          "subtracted": "Rimosso %{count}",
+          "returned": "Restituiti %{count}"
+        },
+        "additional_payment_requested": "È necessario il pagamento di %{total_outstanding}",
+        "checkout_review_and_pay": "Il tuo ordine %{order_name} è stato aggiornato. Controlla queste modifiche, quindi paga per confermare il tuo ordine.",
+        "order_updated_on": "Il tuo ordine è stato aggiornato il %{last_edited_at}.",
+        "order_review_and_pay": "Il tuo ordine è stato aggiornato. Controlla e paga per confermare il tuo ordine."
+      },
+      "change_currency": {
+        "credit_card_will_be_charged_html": "La tua carta di credito sarà addebitata di %{amount}",
+        "change_currency_link": "Cambia in %{currency_name}"
       }
     }
   }
