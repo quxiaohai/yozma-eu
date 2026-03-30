@@ -2691,6 +2691,176 @@
     "sentence": {
       "two_words_connector": "et",
       "last_word_connector": ", et"
+    },
+    "errors": {
+      "shop_404": {
+        "ctas": {
+          "store_owner": {
+            "header": "Êtes-vous le propriétaire du magasin ?",
+            "caption": "Vous avez des difficultés à accéder à votre boutique ? Essayez la fonctionnalité %{forgot_your_store_link}. Si vous souhaitez réactiver votre boutique, contactez %{shopify_support_link}.",
+            "shopify_support_link_text": "Assistance Shopify"
+          }
+        }
+      }
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Erreur de réinitialisation du mot de passe",
+        "subscribe_error": "Erreur d'abonnement",
+        "no_account_found": "Aucun compte trouvé avec cet courriel.",
+        "invalid_credentials": "Adresse courriel ou mot de passe incorrect.",
+        "denylisted_reset_password": "Votre compte n'a pas pu être consulté car le mot de passe actuel n'est pas sûr. Vous recevrez un courriel pour mettre à jour votre mot de passe.",
+        "signup_disabled": "La création de compte client a été désactivée."
+      },
+      "address": {
+        "updated": "Adresse mise à jour avec succès.",
+        "created": "Adresse créée avec succès",
+        "deleted": "Adresse supprimée avec succès"
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "Ajouté %{delta}",
+          "increment_item": "Ajouté %{delta}",
+          "decrement_item": "Supprimé %{delta} sur %{total}",
+          "decrement_fulfilled_line_item": "Restitué %{delta} sur %{total}",
+          "decrement_return_line_item": "Retiré %{delta} du retour"
+        }
+      },
+      "order": {
+        "financial_status": {
+          "authorized": "Autorisé",
+          "pending": "En attente",
+          "paid": "Payé",
+          "unpaid": "Non payé",
+          "voided": "Annulé",
+          "partially_paid": "Partiellement payé",
+          "partially_refunded": "Partiellement remboursé",
+          "refunded": "Remboursé"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Expédié",
+          "complete": "Terminer",
+          "partial": "Partiel",
+          "unfulfilled": "Non réalisé",
+          "restocked": "Réapprovisionné"
+        },
+        "transaction_status": {
+          "success": "Succès",
+          "pending": "En attente"
+        },
+        "cancel_reason": {
+          "inventory": "Articles indisponibles",
+          "customer": "Client a modifié/annulé la commande"
+        },
+        "cash_on_delivery": "Paiement à la livraison (PAL)"
+      },
+      "cart": {
+        "only_n_items_available": "Vous ne pouvez ajouter que %{count} %{name} au panier.",
+        "only_one_added_to_cart": "Un seul article a été ajouté à votre panier en raison de la disponibilité.",
+        "only_n_added_to_cart": "Seulement %{quantity} articles ont été ajoutés à votre panier en raison de la disponibilité.",
+        "not_respect_step": "Vous ne pouvez ajouter cet article qu'en incréments de %{step}.",
+        "all_items_in_cart": "Tous les %{count} %{name} sont dans votre panier.",
+        "empty_update": "impossible de mettre à jour un panier vide",
+        "missing_parameters": "aucun identifiant ou paramètre de ligne valide",
+        "generic_error": "Erreur de panier",
+        "invalid_input": "Le paramètre %{parameter} est invalide.",
+        "product_not_available": "Produit non disponible",
+        "too_many_line_items_error": "Votre panier ne peut pas contenir plus de %{max} articles.",
+        "link_expired": "Lien expiré",
+        "stock_problems_html": "Un ou plusieurs articles ne sont plus disponibles. Nous avons mis à jour votre <a href='%{link}'>panier</a>.",
+        "changed": "Panier modifié",
+        "product_sold_out": "Le produit '%{name}' est déjà en rupture de stock.",
+        "variant_not_found": "Impossible de trouver la variante",
+        "variant_requires_selling_plan": "La variante ne peut être achetée qu'avec un plan de vente.",
+        "selling_plan_not_available_for_company_locations": "Un achat unique est disponible pour les commandes interentreprises",
+        "digital_product_not_available_for_company_locations": "Cet article ne peut pas être ajouté à une commande interentreprises",
+        "selling_plan_not_applicable": "Impossible d'appliquer le plan de vente à la variante",
+        "shipping_address_not_required": "Ce panier ne nécessite pas d'expédition",
+        "shipping_address_invalid": "Un problème est survenu lors du calcul de vos frais de port. Continuez vers la caisse pour choisir un tarif d'expédition avant de finaliser votre commande.",
+        "bundle_requires_components": "Le produit groupé '%{name}' ne peut pas être ajouté au panier.",
+        "gift_card_with_components_not_supported": "Le produit groupé '%{name}' ne peut pas être ajouté au panier.",
+        "gift_card_price_must_be_greater_than_zero": "Le produit groupé '%{name}' ne peut pas être ajouté au panier.",
+        "gift_card_recipient_validation_error": "Le destinataire spécifié de la carte-cadeau est invalide",
+        "view_lines_limit_reached": "Les lignes doivent contenir au maximum %{limit} caractères",
+        "cart_too_large": "Le panier est trop volumineux.",
+        "cart_attributes_error": "Les attributs du panier contiennent des données invalides.",
+        "merchandise_line_transformers": {
+          "run_error": "Une erreur est survenue dans votre panier."
+        },
+        "merchandise_not_applicable": "L'article ne peut pas être acheté dans cette configuration."
+      },
+      "storefront": {
+        "invalid_password": "Mot de passe incorrect, veuillez réessayer."
+      },
+      "tags": {
+        "add_articles": "Restreindre la recherche aux articles contenant également le tag %{tag}",
+        "add_products": "Restreindre la sélection aux produits correspondant au tag %{tag}",
+        "remove_articles": "Élargir la recherche aux articles qui ne sont pas étiquetés %{tag}",
+        "remove_products": "Supprimer le %{tag}"
+      }
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Merci de vous être abonné à notre liste de diffusion."
+      },
+      "unsubscribed": {
+        "confirmation": "Vous vous êtes désabonné de notre liste de diffusion.",
+        "disclaimer": "Vous ne recevrez plus aucune mise à jour commerciale de notre part. Vous pouvez vous réabonner à tout moment.",
+        "preview": "Vous prévisualisez ce que les clients verront lorsqu'ils se désabonneront."
+      },
+      "sms_unsubscribe_confirm": {
+        "message": "Êtes-vous sûr de vouloir vous désabonner du marketing par SMS ?"
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Vous avez choisi de suivre l'ouverture des courriels.</b>",
+          "visibility": "Les taux d'ouverture des courriels seront rapportés de manière anonyme. Nous verrons seulement si vous avez ouvert un courriel dans le cadre d'un taux d'ouverture global.",
+          "opt_out_html": "Vous pouvez <a style='text-decoration:underline;' href='%{link}'>vous désinscrire</a> du suivi d'ouverture des e-mails si vous ne souhaitez pas partager cette information.",
+          "preview_bar": "Vous prévisualisez ce que les clients verront lorsqu'ils accepteront le suivi d'ouverture des courriels."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Vous avez choisi de ne pas activer le suivi d'ouverture des courriels.</b>",
+          "visibility": "Nous ne saurons pas si vous avez ouvert nos courriels.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Acceptez</a> le suivi d'ouverture des e-mails.",
+          "preview_bar": "Vous prévisualisez ce que les clients verront lorsqu'ils refuseront le suivi d'ouverture des courriels."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Nous ne suivons plus aucune ouverture d’e-mail.</b>",
+          "privacy_policy": "Après l'envoi de ce courriel, nous avons mis à jour notre politique de confidentialité et nous ne suivons plus les ouvertures."
+        },
+        "track": {
+          "status_html": "<b>Le suivi d'ouverture des courriels est signalé.</b>",
+          "visibility": "Nous verrons uniquement si vous avez ouvert le courriel, dans le cadre du taux total d'ouverture des courriels."
+        },
+        "updated_policy": {
+          "status_html": "<b>Le suivi d'ouverture des courriels est signalé.</b>",
+          "visibility": "Nous avons mis à jour notre politique et suivons désormais l'ouverture des courriels. Les taux d'ouverture des courriels seront communiqués de manière anonyme. Nous verrons seulement si vous avez ouvert un courriel dans le cadre du taux total d'ouverture des courriels.",
+          "opt_out_html": "Si vous ne souhaitez pas partager ces informations, vous pouvez <a style='text-decoration:underline;' href='%{link}'>vous désabonner.</a>"
+        }
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "out_of_stock": "Rupture de stock"
+        }
+      }
+    },
+    "search": {
+      "error": "Un problème est survenu lors du chargement de vos résultats de recherche. Veuillez rafraîchir la page ou réessayer plus tard.",
+      "sorting": {
+        "price_ascending": "Prix, du plus bas au plus élevé",
+        "price_descending": "Prix, du plus élevé au plus bas"
+      }
+    },
+    "page_titles": {
+      "blog_or_article_with_error": "Erreur - %{title}",
+      "shopping_cart": "Votre panier d'achat",
+      "order": "Commander %{name}",
+      "search": "Recherche",
+      "search_results": {
+        "one": "Recherche : %{count} résultat trouvé pour « %{terms} »"
+      }
     }
   },
   "products": {
