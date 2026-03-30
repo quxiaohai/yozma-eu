@@ -380,110 +380,110 @@
       "posts": "Post del blog",
       "pages": "Pagine",
       "clear": "Cancella",
-      "view_all": "Vedi tutto",
-      "view_all_results": "Vedi tutto",
-      "no_results": "Non sono stati trovati risultati per \"{{ terms }}\""
+      "view_all": "Visualizza tutto",
+      "view_all_results": "Visualizza tutti i risultati",
+      "no_results": "Nessun risultato trovato."
     },
     "results_count": {
-      "zero": "nessun risultato per \"{{ terms }}\"",
+      "zero": "0 risultati per \"{{ terms }}\"",
       "one": "1 risultato per \"{{ terms }}\"",
-      "other": "{{ count }} isultati per \"{{ terms }}\""
+      "other": "{{ count }} risultati per \"{{ terms }}\""
     }
   },
   "gift_card": {
     "general": {
-      "title": "Ecco il tuo buono regalo!",
+      "title": "Ecco la tua carta regalo",
       "copy": "Copia",
       "print": "Stampa",
-      "scan": "o scansiona questo QR code",
+      "scan": "oppure scansiona questo codice QR",
       "back_to_store": "Torna al negozio"
     },
     "issued": {
-      "remaining_amount": "Importo rimanente",
-      "out_of_html": "da un totale di {{ initial_value }}",
-      "redeem_instructions": "Usa questo codice al checkout per riscattare il tuo buono regalo :",
-      "code": "Codice buono regalo",
-      "expires_on": "Il tuo buono regalo scade il: {{ expires_on }}",
-      "expired": "Il tuo buono regalo è scaduto o è stato disattivato",
-      "add_to_apple_wallet": "Aggiungi all'Apple Wallet"
+      "remaining_amount": "Importo residuo",
+      "out_of_html": "esaurito {{ initial_value }}",
+      "redeem_instructions": "Usa questo codice per riscattare la tua carta regalo al momento del pagamento:",
+      "code": "Codice della carta regalo",
+      "expires_on": "Scade il: {{ expires_on }}",
+      "expired": "La tua carta regalo è scaduta o è stata disabilitata.",
+      "add_to_apple_wallet": "Aggiungi a Apple Wallet"
     },
     "recipient": {
-      "checkbox": "Voglio inviarlo come regalo",
-      "email_label": "Email destinatario",
-      "name_label": "Nome destinatario (facoltativo)",
-      "send_on_label": "Spedisci il giorno (facoltativo)",
+      "checkbox": "Voglio inviare questo come regalo",
+      "email_label": "Email del destinatario",
+      "name_label": "Nome del destinatario (facoltativo)",
+      "send_on_label": "Invia (opzionale)",
       "message_label": "Messaggio (facoltativo)"
     }
   },
   "password": {
     "general": {
       "follow_us": "Seguici",
-      "powered_by": "Questo negozio è stato offerto da",
-      "store_owner": "Sei il proprietario del negozio?",
-      "login": "Accedi"
+      "powered_by": "Questo negozio è alimentato da",
+      "store_owner": "Proprietario del negozio?",
+      "login": "Accesso"
     },
     "storefront_access": {
-      "enter_password": "Accedi utilizzando la password",
-      "store_access": "Accesso negozio",
-      "instructions": "Inserisci la password per accedere al negozio",
+      "enter_password": "Accedi usando la password",
+      "store_access": "Accesso al negozio",
+      "instructions": "Inserisci la password qui sotto per accedere al negozio",
       "password": "Password",
-      "enter_store": "Accedi al negozio"
+      "enter_store": "Entra nel negozio"
     }
   },
   "apps": {
     "shopify_reviews": {
-      "review_info": "Questo prodotto ha ricevuto {{ rating_value }} su {{ rating_max }} stelle.",
-      "leave_review": "Scrivi una recensione",
+      "review_info": "Questo prodotto ha una valutazione di {{ rating_value }} su {{ rating_max }} stelle.",
+      "leave_review": "Lascia una recensione",
       "review_count": {
-        "zero": "Questo prodotto non ha ancora nessuna recensione.",
-        "one": "Questo prodotto ha {{ count }} recensione.",
-        "other": "Questo prodotto ha {{ count }} recensioni."
+        "zero": "Questo prodotto non ha ancora recensioni.",
+        "one": "Ha ricevuto {{ count }} recensione.",
+        "other": "Ha ricevuto {{ count }} recensioni."
       }
     }
   },
   "pagefly": {
     "products": {
       "product": {
-        "regular_price": "Regular price",
-        "sold_out": "Sold out",
-        "unavailable": "Unavailable",
-        "on_sale": "Sale",
-        "quantity": "Quantity",
-        "add_to_cart": "Add to cart",
-        "back_to_collection": "Back to {{ title }}",
-        "view_details": "View details"
+        "regular_price": "Prezzo normale",
+        "sold_out": "Esaurito",
+        "unavailable": "Non disponibile",
+        "on_sale": "Saldi",
+        "quantity": "Quantità",
+        "add_to_cart": "Aggiungi al carrello",
+        "back_to_collection": "Torna a {{ title }}",
+        "view_details": "Visualizza dettagli"
       }
     },
     "article": {
-      "tags": "Tags:",
-      "all_topics": "All topics",
-      "by_author": "by {{ author }}",
-      "posted_in": "Posted in",
-      "read_more": "Read more",
-      "back_to_blog": "Back to {{ title }}"
+      "tags": "Etichette:",
+      "all_topics": "Tutti gli argomenti",
+      "by_author": "di {{ author }}",
+      "posted_in": "Pubblicato in",
+      "read_more": "Leggi di più",
+      "back_to_blog": "Torna a {{ title }}"
     },
     "comments": {
-      "title": "Leave a comment",
-      "name": "Name",
-      "email": "Email",
-      "message": "Message",
-      "post": "Post comment",
-      "moderated": "Please note, comments must be approved before they are published",
-      "success_moderated": "Your comment was posted successfully. We will publish it in a little while, as our blog is moderated.",
-      "success": "Your comment was posted successfully! Thank you!",
+      "title": "Lascia un commento",
+      "name": "Nome",
+      "email": "Posta elettronica",
+      "message": "Messaggio",
+      "post": "Pubblica commento",
+      "moderated": "Si prega di notare che i commenti devono essere approvati prima di essere pubblicati",
+      "success_moderated": "Il tuo commento è stato pubblicato con successo. Lo pubblicheremo tra poco, poiché il nostro blog è moderato.",
+      "success": "Il tuo commento è stato pubblicato con successo! Grazie!",
       "comments_with_count": {
-        "one": "{{ count }} comment",
-        "other": "{{ count }} comments"
+        "one": "{{ count }} commento",
+        "other": "{{ count }} commenti"
       }
     },
     "password_page": {
-      "login_form_message": "Enter store using password:",
+      "login_form_message": "Accedi al negozio usando la password:",
       "login_form_password_label": "Password",
-      "login_form_password_placeholder": "Your password",
-      "login_form_submit": "Enter",
-      "signup_form_email_label": "Email",
-      "signup_form_success": "We will send you an email right before we open!",
-      "password_link": "Enter using password"
+      "login_form_password_placeholder": "La tua password",
+      "login_form_submit": "Entra",
+      "signup_form_email_label": "Posta elettronica",
+      "signup_form_success": "Ti invieremo un'email poco prima dell'apertura!",
+      "password_link": "Accedi usando la password"
     }
   },
   "shopify": {
@@ -1255,9 +1255,9 @@
         "subscription_agreement_label": "Uno o più articoli nel tuo carrello sono un acquisto differito o in abbonamento. Continuando con il pagamento, accetti che il tuo metodo di pagamento venga addebitato automaticamente al prezzo e con la frequenza indicati in questa pagina fino alla fine o alla cancellazione. Tutte le cancellazioni sono soggette al %{cancelled}.",
         "subscription_agreement_cancelled": "politica di cancellazione",
         "subscription_heading": "Contratto di abbonamento",
-        "subscription_agreement_label_html": "Capisco che sto accettando un abbonamento. Verrà rinnovato al prezzo e con la frequenza indicati fino a quando non terminerà o sarà\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">annullato</a>.",
+        "subscription_agreement_label_html": "Capisco che sto accettando un abbonamento. Si rinnoverà al prezzo e con la frequenza indicati fino a quando non terminerà o sarà\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">annullato</a>.",
         "purchase_options_agreement_label": "Uno o più articoli nel tuo carrello sono un acquisto differito, in abbonamento o ricorrente. Continuando con il pagamento, accetti che il tuo metodo di pagamento venga addebitato automaticamente al prezzo e alla frequenza indicati in questa pagina fino alla sua conclusione o alla tua cancellazione. Tutte le cancellazioni sono soggette alla %{cancellation_policy_label}.",
-        "purchase_options_agreement_label_html": "Capisco che uno o più articoli nel mio carrello sono un acquisto differito, in abbonamento o ricorrente. Continuando, accetto la\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">politica di cancellazione</a>\ne autorizzo ad addebitare il mio metodo di pagamento ai prezzi, con la frequenza e nelle date indicate in questa pagina fino a quando il mio ordine non sarà evaso o non annullerò, se consentito.",
+        "purchase_options_agreement_label_html": "Capisco che uno o più articoli nel mio carrello siano un acquisto differito, in abbonamento o ricorrente. Continuando, accetto la\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">politica di cancellazione</a>\ne autorizzo ad addebitare il mio metodo di pagamento ai prezzi, con la frequenza e nelle date indicate in questa pagina fino a quando il mio ordine non sarà evaso o fino a quando non annullerò, se consentito.",
         "purchase_options_agreement_label_wallets": "Continuando con il pagamento, accetti gli addebiti futuri elencati in questa pagina e la politica di cancellazione.",
         "no_real_orders_dev_store": "Questo negozio non può accettare ordini o pagamenti reali.",
         "waiting_on_payment_methods": "Recupero dei metodi di pagamento disponibili...",
@@ -1275,7 +1275,7 @@
           "connect": "Fai clic per collegarti al tuo account Google Pay",
           "error_authorizing": "Errore nell'autorizzazione del pagamento"
         },
-        "mor_disclaimer_html": "Cliccando qui sotto e completando il tuo ordine, accetti di acquistare il tuo/i tuoi articolo/i da Global-e come merchant of record per questa transazione, secondo i <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Termini e Condizioni</a> e la <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Informativa sulla Privacy</a> di Global-e. Global-e è un fornitore internazionale di servizi di evasione ordini per %{shop_name}",
+        "mor_disclaimer_html": "Cliccando qui sotto e completando il tuo ordine, accetti di acquistare il/i tuo/i articolo/i da Global-e come commerciante ufficiale per questa transazione, secondo i <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Termini e Condizioni</a> e la <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Informativa sulla Privacy</a> di Global-e. Global-e è un fornitore internazionale di servizi di evasione ordini per %{shop_name}",
         "pending_payment": {
           "due_notice": "Il tuo pagamento di %{amount_due} è dovuto entro %{due_date}.",
           "multibanco": {
@@ -1481,7 +1481,7 @@
         "payment_gateway_not_in_test_mode": "non è configurato per testare gli ordini. Questo negozio non può accettare ordini reali o pagamenti veri.",
         "payment_gateway_incompatible_with_multi_currency": "Per completare questo pagamento nella tua valuta locale, devi pagare con carta di credito.",
         "payment_gateway_unsupported_for_deferred_purchase_options": "Questo metodo di pagamento non è disponibile per le opzioni di acquisto differito.",
-        "payment_gateway_unsupported_for_development_store_html": "Per effettuare un ordine di prova, dovrai utilizzare un gateway di pagamento di test. Scopri di più su <a href=\"%{docs_link}\">come testare gli ordini nei negozi di sviluppo</a>.",
+        "payment_gateway_unsupported_for_development_store_html": "Per effettuare un ordine di prova, dovrai utilizzare un gateway di pagamento di test. Scopri di più su <a href=\"%{docs_link}\">testare gli ordini nei negozi di sviluppo</a>.",
         "payment_gateway_unsupported_for_order_above_maximum_orders_html": "Hai raggiunto il limite per gli ordini del negozio di sviluppo con questo processore di pagamento. Per effettuare un altro ordine, dovrai utilizzare un gateway di pagamento di prova. Scopri di più su <a href=\"%{docs_link}\">come testare gli ordini nei negozi di sviluppo</a>.",
         "purchase_options_agreement_blank": "Per continuare con il tuo acquisto, accetta i termini per l'acquisto differito o ricorrente.",
         "physical_gift_card_invalid_quantity": "Gli articoli della carta regalo fisica devono avere una quantità che corrisponde al numero di codici della carta regalo.",
@@ -2700,8 +2700,37 @@
     "search": {
       "error": "C'è stato un problema nel caricare i risultati della tua ricerca. Ti preghiamo di aggiornare la pagina o riprovare più tardi.",
       "sorting": {
-        "relevance": "Rilevanza"
+        "relevance": "Rilevanza",
+        "price_ascending": "Prezzo, dal più basso al più alto",
+        "price_descending": "Prezzo, da alto a basso"
       }
+    },
+    "page_titles": {
+      "blog_or_article_with_error": "Errore - %{title}",
+      "shopping_cart": "Il tuo Carrello della Spesa",
+      "create_account": "Crea account",
+      "reset_account": "Ripristina Account",
+      "order": "Ordina %{name}",
+      "search": "Cerca",
+      "not_found": "404 Non Trovato",
+      "checkpoint": "Punto di controllo"
+    },
+    "challenge": {
+      "error": "La tua risposta non era corretta, per favore riprova."
+    },
+    "checkpoint": {
+      "error": "La convalida del Captcha è fallita"
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "five_or_more_days": "Di solito pronto in più di 5 giorni",
+        "immediately": "Pronto per il ritiro ora"
+      }
+    },
+    "subscriptions": {
+      "buyer_consent_product": "Questo articolo è un acquisto ricorrente o differito. Continuando, accetto la %{cancellationPolicyLink} e autorizzo ad addebitare il mio metodo di pagamento ai prezzi, con la frequenza e nelle date indicate in questa pagina fino al completamento dell'ordine o alla cancellazione, se consentito.",
+      "buyer_consent_cart": "Uno o più articoli nel tuo carrello sono acquisti ricorrenti o differiti. Continuando, accetto la %{cancellationPolicyLink} e autorizzo ad addebitare il mio metodo di pagamento ai prezzi, con la frequenza e nelle date indicate in questa pagina fino al completamento dell’ordine o alla cancellazione, se consentito.",
+      "cancellation_policy": "politica di cancellazione"
     }
   },
   "customer_accounts": {
@@ -3480,6 +3509,52 @@
           "invalid_code": "Inserisci il codice corretto di 6 cifre"
         }
       }
+    },
+    "date": {
+      "humanize": {
+        "lessThanOneYearAgo": "{{date}} alle {{time}}",
+        "lessThanOneHourAgo": {
+          "one": "{{count}} minuti fa"
+        },
+        "lessThanOneMinuteAgo": "Proprio adesso",
+        "lessThanOneWeekAgo": "{{weekday}} alle {{time}}",
+        "today": "Oggi alle {{time}}",
+        "tomorrow": "Domani alle {{time}}",
+        "lessThanOneWeekAway": "{{weekday}} alle {{time}}",
+        "lessThanOneYearAway": "{{date}} alle {{time}}"
+      }
+    },
+    "enable_javascript": "Per visualizzare il tuo account, abilita JavaScript nelle impostazioni del tuo browser o accedi con un altro browser.",
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "Nascondi il menu Account",
+        "show_accessibility_label": "Mostra menu Account",
+        "nav_accessibility_label": "Navigazione account",
+        "open_menu_accessibility_label": "Navigazione Apri Account",
+        "close_menu_accessibility_label": "Chiudi navigazione dell'account",
+        "loading_message": "Caricamento navigazione dell'account"
+      },
+      "close_menu_accessibility_label": "Chiudi la navigazione principale",
+      "contact_email_subject": "Contatto dal negozio online {{shopName}}",
+      "contact_link": "Informazioni di contatto",
+      "dismiss_toast": "Chiudi",
+      "loading_message": "Caricamento",
+      "loading_policy_content_accessibility_label": "Caricamento del contenuto della politica",
+      "log_out_link": "Disconnetti",
+      "nav_label_accessibility_label": "Navigazione principale",
+      "navigation_accessibility_message": "Sei arrivato a {{sectionName}}",
+      "open_menu_accessibility_label": "Apri il menu principale",
+      "country_switcher_toast_message": "Paese cambiato in {{countryName}}",
+      "location_switcher_toast_message": "Posizione cambiata in {{locationName}}",
+      "switch_location": "Cambia posizione",
+      "no_locations_found": "Nessuna località trovata"
+    }
+  },
+  "products": {
+    "product": {
+      "photos": "Foto",
+      "video": "Video",
+      "3d": "3D"
     }
   }
 }
