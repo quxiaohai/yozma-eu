@@ -2164,8 +2164,92 @@
               "other": "No se pueden recoger %{count} artículos"
             },
             "cannot_be_shipped": {
-              "one": "No se puede enviar %{count} artículo"
+              "one": "No se puede enviar %{count} artículo",
+              "other": "No se pueden enviar %{count} artículos"
             }
+          },
+          "remove_item": {
+            "one": "Quitar artículo"
+          },
+          "ship_separately": {
+            "one": "envíalo por separado"
+          },
+          "pick_them_up_in_store": {
+            "one": "recógelo en la tienda",
+            "other": "recógelos en la tienda"
+          }
+        }
+      },
+      "captcha": {
+        "title": "Complete el CAPTCHA para continuar",
+        "errors": {
+          "not_solved": "Complete el CAPTCHA para continuar"
+        }
+      },
+      "discount_errors": {
+        "generic_error": "No se pudo procesar su pedido porque su código de descuento ya no está disponible. Revise el total de su pedido y vuelva a intentarlo."
+      },
+      "b2b_errors": {
+        "lost_b2b_purchasing_permissions": "Ya no tienes permiso para realizar pedidos B2B. %{logout_url} para hacer un pedido personal en su lugar.",
+        "lost_permissions_title": "Sin permisos de ubicación"
+      },
+      "shop_pay_external": {
+        "title": "Pago rápido con Shop Pay",
+        "errors": {
+          "problem_loading": "Hay un problema al cargar Shop Pay",
+          "try_again_later": "Verifique su conexión o cierre esta ventana y vuelva a intentarlo en unos momentos.",
+          "checkout_has_expired": "Tu sesión de pago ha expirado. Cierra esta ventana y vuelve a intentar realizar la compra en {{shopName}}."
+        },
+        "return_to_store_simple": "Volver a la tienda"
+      },
+      "wallets": {
+        "return_to_checkout": "Volver a la caja",
+        "redirect_hint": "Se le pedirá que inicie sesión con {{walletName}}.",
+        "payment_in_progress_body": "Su pago está siendo procesado. Su pedido se completará pronto.",
+        "call_to_action": "Paga con {{walletName}}",
+        "place_order": "Realizar pedido",
+        "redirection_notice": "Serás redirigido a {{walletName}} para completar tu compra",
+        "recovery_notice": "Hay un problema con los detalles de su pedido. Actualice su información para completar el pago.",
+        "errors": {
+          "unavailable": {
+            "title": "{{walletName}} no disponible",
+            "description": "{{walletName}} no estaba disponible. Usa un método de pago diferente o intenta de nuevo más tarde.",
+            "instructions": "Hubo un problema con {{walletName}}. Regresa a la tienda para intentarlo de nuevo o elige otra forma de pago.",
+            "unavailable_for_country": "{{walletName}} no está disponible en {{countryName}}. Seleccione un método de pago diferente para completar su compra"
+          },
+          "unavailable_terminal": {
+            "instructions": "{{walletName}} no está disponible actualmente para su pedido. Para continuar con su compra, elija otro método de pago."
+          },
+          "generic": "Hubo un problema con {{walletName}}. Intenta de nuevo o usa un método de pago diferente.",
+          "discount_code": "No se puede aplicar este código de descuento. Revise su código y vuelva a intentarlo.",
+          "terminal": "Hubo un problema con {{walletName}}. Usa un método de pago diferente.",
+          "detour": {
+            "stock_problems": "Algunos artículos ya no están disponibles. Cierra {{walletName}} y vuelve a intentarlo.",
+            "price_change": "Algunos precios de los artículos han cambiado. Cierra {{walletName}} para revisar tu pedido y vuelve a intentarlo.",
+            "queue": "Has sido colocado en una fila para realizar el pago. Cierra {{walletName}} para continuar.",
+            "currency_change": "No puedes usar una dirección diferente con {{walletName}}. Usa la dirección original o prueba un método de pago diferente."
+          },
+          "unsupported": {
+            "address": "El comerciante no puede entregar a esta dirección",
+            "wallet_is_unavailable": "{{walletName}} no se puede usar con esta dirección. Seleccione una dirección diferente o cierre {{walletName}} para completar su compra",
+            "postal_code": "Esta ubicación no está soportada"
+          },
+          "outdated": {
+            "shipping_method": "Las opciones de envío han cambiado para su pedido. Revise su selección.",
+            "payment_terms": "Los términos de pago han cambiado. Revise su pedido"
+          },
+          "invalid": {
+            "shipping_address": "Introduzca una dirección de envío válida",
+            "billing_address": "Introduzca una dirección de facturación válida",
+            "shipping_option": "Elija una opción de envío válida",
+            "zone": "Ingrese un estado / provincia válido",
+            "billing_zone": "Ingrese un estado / provincia de facturación válido",
+            "emirate": "Ingrese un emirato válido",
+            "postal_code": "Introduzca un código postal válido",
+            "phone": "Ingrese un número de teléfono válido",
+            "billing_phone": "Introduzca un número de teléfono válido para la dirección de facturación",
+            "reduction_code": "Introduce un código de descuento o tarjeta de regalo válido",
+            "billing_must_match_shipping": "Debe coincidir con la dirección de envío"
           }
         }
       }
