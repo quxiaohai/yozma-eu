@@ -3017,8 +3017,186 @@
         "list_loading_finished_accessibility_message": "L'elenco delle località è stato caricato",
         "loading_store_accessibility_message": "Andare al negozio",
         "no_location_title": "Ordini personali soltanto",
-        "no_location_description": "Non hai più il permesso di effettuare ordini per {{company}}. Puoi comunque effettuare ordini personali."
+        "no_location_description": "Non hai più il permesso di effettuare ordini per {{company}}. Puoi comunque effettuare ordini personali.",
+        "no_locations_found": "Nessuna località trovata",
+        "search": "Cerca località",
+        "search_location_title": "Seleziona una località",
+        "selection_confirmation_button": "Scegli la posizione",
+        "title": "Per quale luogo stai acquistando?",
+        "title_choose_location": "Scegli una località"
+      },
+      "addresses": {
+        "cancel_adding_billing_address_accessibility_label": "Annulla aggiunta dell'indirizzo di fatturazione",
+        "cancel_adding_shipping_address_accessibility_label": "Annulla aggiunta indirizzo di spedizione"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all_accessibility_label": "Nascondi tutti gli ordini in revisione",
+          "show_all_accessibility_label": "Mostra tutti gli ordini in revisione",
+          "show_all_orders_in_review": "Mostra tutti gli ordini in revisione",
+          "show_less_orders_in_review": "Mostra meno ordini in revisione",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "Non hai ordini in sospeso",
+            "pending_orders": {
+              "one": "Hai {{count}} ordine in sospeso",
+              "other": "Hai {{count}} ordini in sospeso"
+            },
+            "more_than_pagination_length": "Hai più di {{count}} ordini in sospeso"
+          },
+          "pagination": {
+            "nav_accessibility_label": "Pulsanti di navigazione per ordini in revisione"
+          }
+        },
+        "order_list_column_headers_location": "Posizione",
+        "order_list_column_headers_contact": "Contatto",
+        "removed_company_contact_tooltip": "Rimosso dall'azienda"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Confermato il {{date}} dall'ordine {{draftOrderName}}",
+        "loading": "Caricamento dettagli dell'ordine",
+        "loading_finished_accessibility_message": "I dettagli dell'ordine sono stati caricati",
+        "payment_status": {
+          "pending": {
+            "banner_overdue": {
+              "one": "Il tuo pagamento è in ritardo di {{count}} giorno",
+              "other": "Il tuo pagamento è in ritardo di {{count}} giorni"
+            },
+            "banner_due": {
+              "one": "Il tuo pagamento è dovuto tra {{count}} giorno",
+              "other": "Il tuo pagamento è dovuto tra {{count}} giorni"
+            },
+            "banner_due_today": "Il tuo pagamento è dovuto oggi",
+            "banner_due_today_for_single_fulfillment": "Il pagamento di {{amount}} è dovuto oggi. {{link}}",
+            "banner_due_today_for_multiple_fulfillments": "Pagamento dovuto oggi per {{count}} evasioni",
+            "title": "Pagamento dovuto",
+            "title_with_date": "Pagamento dovuto {{date}}",
+            "title_due_on_receipt": "Pagamento non dovuto ancora",
+            "title_due_on_fulfillment": "Pagamento dovuto al completamento",
+            "description_overdue": "Il tuo pagamento è in ritardo.",
+            "description_partially_paid": "Questo ordine è stato parzialmente pagato. Hai un saldo rimanente.",
+            "description_authorized": "Il tuo metodo di pagamento sarà addebitato alla data di scadenza, oppure puoi pagare ora.",
+            "description_waiting_for_manual_payment": "Questo ordine ha un pagamento in sospeso. Il saldo sarà aggiornato quando il pagamento sarà ricevuto.",
+            "description_due_on_receipt": "Riceverai una fattura quando il pagamento è dovuto.",
+            "description_due_on_receipt_partially_paid": "Questo ordine è stato parzialmente pagato. Hai un saldo residuo. Riceverai una fattura quando il pagamento sarà dovuto.",
+            "description_due_on_fulfillment": "Il pagamento è dovuto una volta che tutti gli articoli di questo ordine sono stati evasi.",
+            "description_due_on_fulfillment_partially_paid": "Questo ordine è stato parzialmente pagato. Hai un saldo residuo. Il pagamento è dovuto una volta che tutti gli articoli di questo ordine sono stati evasi.",
+            "description_due_on_fulfillment_partially_paid_next": "Questo ordine è stato parzialmente pagato. Hai un saldo rimanente."
+          },
+          "draft": {
+            "description": "I dettagli di pagamento vengono definiti quando l'ordine è confermato.",
+            "title": "Pagamento non ancora dovuto",
+            "in_review": {
+              "description": "I dettagli di pagamento vengono definiti quando l'ordine è confermato.",
+              "title": "Pagamento non ancora dovuto"
+            },
+            "submitted": {
+              "description": "Invia il pagamento per confermare questo ordine.",
+              "deposit": {
+                "title": "Il pagamento è dovuto",
+                "due_later": "Il saldo è secondo i termini di {{translatedName}} ed è dovuto entro {{dueDate}}.",
+                "due_on_fulfillment": "Il saldo è dovuto una volta che tutti gli articoli di questo ordine sono stati evasi.",
+                "due_on_receipt": "Riceverai una fattura per il saldo rimanente.",
+                "due_on_date": "Il saldo è dovuto il {{dueDate}}."
+              }
+            },
+            "deposit": {
+              "due_later": "{{depositAmount}} sarà dovuto al momento della conferma dell'ordine. Il saldo sarà secondo i termini di {{translatedName}}.",
+              "due_on_fulfillment": "{{depositAmount}} sarà dovuto al momento della conferma dell'ordine. Il saldo sarà dovuto al momento dell'evasione dell'ordine.",
+              "due_on_receipt": "{{depositAmount}} sarà dovuto al momento della conferma dell'ordine. Il saldo sarà dovuto successivamente.",
+              "due_on_date": "{{depositAmount}} sarà dovuto al momento della conferma dell'ordine. Il saldo sarà dovuto il {{dueDate}}."
+            }
+          },
+          "paid": {
+            "title_with_date": "Pagato {{date}}",
+            "description": "Il tuo ordine è stato completamente pagato."
+          },
+          "refund": {
+            "title_with_date": "Rimborsato {{date}}"
+          },
+          "canceled": {
+            "description": "Non ti è stato addebitato alcun costo."
+          },
+          "due_date": "Due {{date}}",
+          "pay_now_accessibility_label": "Paga ora per l'ordine {{orderName}}"
+        },
+        "order_timeline": {
+          "expand_events_accessibility_label": "Mostra i dettagli dell'ordine di bozza",
+          "hide_events_accessibility_label": "Nascondi i dettagli dell'ordine provvisorio"
+        },
+        "subtitle": "Inviato {{date}}",
+        "title": "Ordina {{name}}"
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "Questo metodo di pagamento non sarà più disponibile per acquisti futuri da questa posizione.",
+          "description_with_replacement": "Eliminare questo metodo di pagamento influenzerà i pagamenti preautorizzati per questa posizione. Sostituiscilo con un metodo di pagamento alternativo per continuare a ricevere gli ordini futuri."
+        },
+        "payment_details": {
+          "order_label": "Ordina {{name}}",
+          "draft_label": "Bozza d'ordine {{name}}"
+        }
+      },
+      "purchase_order_number": {
+        "add_accessibility_label": "Aggiungi numero d'ordine d'acquisto",
+        "add_modal_title": "Aggiungi numero d'ordine d'acquisto",
+        "close_modal_accessibility_label": "Chiudi la finestra del numero dell'ordine di acquisto",
+        "discard": "Scarta",
+        "discard_changes_modal_title": "Scartare le modifiche?",
+        "edit_accessibility_label": "Modifica il numero dell'ordine",
+        "edit_modal_title": "Modifica il numero dell'ordine",
+        "empty_state": "Nessun numero PO",
+        "modal_po_number_input_label": "Numero d'ordine",
+        "modal_po_number_input_max_length_error": "I numeri PO possono contenere al massimo {{maxLength}} caratteri.",
+        "title": "Ordine d'acquisto n. {{poNumber}}"
       }
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": "Si è verificato un problema durante la cancellazione di questo indirizzo. Riprova o aggiorna la pagina."
+      },
+      "addresses_loading_issue": {
+        "description": "Errore di connessione. Controlla la tua connessione a internet e riprova."
+      },
+      "banner_title": {
+        "one": "C'è {{count}} errore",
+        "other": "Ci sono {{count}} errori"
+      },
+      "failed_address_creation": {
+        "description": "C'è stato un problema nella creazione del tuo indirizzo. Prova a ricaricare questa pagina o controlla la tua connessione a Internet."
+      },
+      "failed_address_update": {
+        "description": "Si è verificato un problema durante l'aggiornamento del tuo indirizzo. Prova a ricaricare questa pagina o controlla la tua connessione a internet."
+      },
+      "load_address_form_error": {
+        "description": "Impossibile caricare il modulo dell'indirizzo."
+      },
+      "load_paypal_error": {
+        "description": "Si è verificato un problema nel caricamento di PayPal. Per favore, riprova."
+      },
+      "logout_everywhere": {
+        "description": "Si è verificato un errore durante il disconoscimento. Per favore riprova."
+      },
+      "no_access_to_locations": {
+        "description": "Non hai accesso a nessuna posizione"
+      },
+      "not_found": {
+        "title": "C'è un problema nel caricare questa pagina"
+      },
+      "order_not_found": {
+        "description": "Questo ordine non esiste o non hai il permesso di visualizzarlo."
+      },
+      "profile_update_error": {
+        "description": "C'è stato un problema nell'aggiornare il tuo profilo. Prova a ricaricare questa pagina o controlla la tua connessione a Internet."
+      },
+      "profile_name_update_error": {
+        "description": "Si è verificato un problema durante l'aggiornamento del tuo nome. Prova a ricaricare questa pagina o controlla la tua connessione a internet."
+      },
+      "load_extension_error": {
+        "description": "Aggiorna questa pagina o riprova tra qualche minuto."
+      },
+      "already_upgraded": "Gli account dei clienti sono già stati aggiornati.",
+      "failed_to_upgrade": "Impossibile aggiornare le impostazioni dell'account cliente.",
+      "not_upgraded": "Gli account dei clienti non vengono aggiornati."
     }
   }
 }
