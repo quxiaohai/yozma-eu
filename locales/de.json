@@ -1242,7 +1242,16 @@
           "tax_credential_id": "Steueridentifikationsnummer",
           "shipping_credential_id": "Steueridentifikationsnummer",
           "tax_credential_my": "Steuer-Identifikationsnummer/Registrierungsnummer",
-          "shipping_credential_my": "Steuer-Identifikationsnummer/Registrierungsnummer"
+          "shipping_credential_my": "Steuer-Identifikationsnummer/Registrierungsnummer",
+          "tax_credential_type_mx": "Steuersystem",
+          "tax_credential_use_mx": "Verwendung von CFDI",
+          "tax_credential_py": "CI/RUC/UST",
+          "shipping_credential_py": "CI/RUC/UST",
+          "tax_credential_pt": "NIF/UST-ID",
+          "shipping_credential_pt": "NIF/UST-ID",
+          "shipping_credential_tw": "Nationale Ausweisnummer/Umsatzsteuer-Identifikationsnummer",
+          "tax_credential_tr": "Türkei Republik Identitätsnummer/Mehrwertsteuer",
+          "shipping_credential_tr": "Türkei Republik Identitätsnummer/Mehrwertsteuer"
         }
       },
       "payment": {
@@ -1483,7 +1492,54 @@
         "bank_account_generic_error": "Konnte das Bankkonto nicht hinzufügen. Bitte versuchen Sie es später erneut.",
         "separate_payments_label": "Ihre Artikel stammen aus mehr als einem Geschäft. Die Zahlung erfolgt in %{separate_payments_link}.",
         "separate_payments_text": "getrennte Zahlungen",
-        "choose_new_payment_method": "Wählen Sie eine neue Zahlungsmethode aus"
+        "choose_new_payment_method": "Wählen Sie eine neue Zahlungsmethode aus",
+        "network_card_payment_options": "Wählen Sie ein Kartennetzwerk",
+        "network_card_persistence_description": "Das ausgewählte Netzwerk wird zusammen mit Ihrer Zahlungsmethode für zukünftige Transaktionen gespeichert.",
+        "amazon_payments_label": "Amazon Bezahlung",
+        "amazon_payments_login_hint": "Sie werden gebeten, sich mit Amazon anzumelden.",
+        "amazon_payments_failed_mfa_challenge": "Die gewählte Zahlungsmethode konnte nicht verwendet werden. Wählen Sie eine andere Methode oder wenden Sie sich an Ihre Bank oder Kartenaussteller.",
+        "amazon_payments_abandoned_mfa_challenge": "Ihre Zahlung konnte nicht abgeschlossen werden. Versuchen Sie eine andere Zahlungsmethode oder wenden Sie sich an Ihre Bank oder Kartenherausgeber.",
+        "amazon_payments_could_not_enqueue_authorize": "Bei der Verarbeitung Ihrer Zahlung ist ein Problem aufgetreten. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
+        "amount_left_to_pay_label": "Zahlung fällig:",
+        "discount_button_action_label": "Rabattcode anwenden",
+        "discount_codes_modified_summary": {
+          "one": "%{count} Rabattcode wurde geändert",
+          "other": "%{count} Rabattcodes wurden geändert"
+        },
+        "discount_codes_removed_or_modified_summary": {
+          "one": "%{count} Rabattcode wurde entfernt oder geändert",
+          "other": "%{count} Rabattcodes wurden entfernt oder geändert"
+        },
+        "discount_show_more_warnings": {
+          "one": "Zeige %{count} weitere",
+          "other": "Zeige %{count} weitere"
+        },
+        "gift_card_code_label": "Geschenkkartencode",
+        "gift_card_balance_label": "Gleichgewicht:",
+        "supported_card_brands_more_label": "und mehr…",
+        "credit_card_vaulting_sign_in_banner_title": "Speichern Sie Ihre Kreditkarte",
+        "credit_card_vaulting_sign_in_banner_info": "Melden Sie sich an oder erstellen Sie ein Konto, um Ihre Kreditkarte für zukünftige Einkäufe zu speichern.",
+        "credit_card_vaulting_sign_in_banner_button_label": "Anmelden",
+        "ftd_vault_credit_card_label": "Diese Kreditkarte in meinem Konto speichern für eine schnellere Kasse",
+        "card_pay_with": "Bezahlen mit:",
+        "card_security_vault_notice": "Wir benötigen Ihre Angaben für zukünftige Zahlungen. Alle Transaktionen sind sicher und verschlüsselt.",
+        "name_on_card_label": "Name auf der Karte",
+        "name_on_card_placeholder": "Name auf der Karte",
+        "card_expiry_label": "Ablaufdatum (MM / JJ)",
+        "card_expiry_placeholder": "Ablaufdatum (MM / JJ)",
+        "credit_card_start_month": "Startmonat",
+        "credit_card_start_year": "Startjahr",
+        "delete_customer_mandate_modal_body": "Wenn Sie diese Karte entfernen, müssen Sie sie erneut hinzufügen, bevor Sie sie für Zahlungen verwenden können.",
+        "delete_customer_mandate_modal_cancel": "Abbrechen",
+        "card_verification_confirm": "Geben Sie zur Überprüfung den Sicherheitscode Ihrer Karte ein.",
+        "card_expiry_date_explanation": "Kartenablaufdatum im Format: Monat, Monat, Jahr, Jahr",
+        "card_verification_value_explanation": "3-stelliger Sicherheitscode, der sich normalerweise auf der Rückseite Ihrer Karte befindet. American-Express-Karten haben einen 4-stelligen Code auf der Vorderseite.",
+        "card_verification_value_explanation_amex": "4-stelliger Sicherheitscode auf der Vorderseite Ihrer Karte",
+        "card_verification_value_explanation_other": "3-stelliger Sicherheitscode auf der Rückseite Ihrer Karte",
+        "card_start_label": "Ausgabedatum (MM / JJ)",
+        "card_start_placeholder": "Ausgabedatum (MM / JJ)",
+        "card_issue_number_label": "Ausgabenummer",
+        "card_issue_number_placeholder": "Ausgabenummer"
       },
       "billing": {
         "billing_address_rollup_accessibility_label": "Rechnung an Optionen",
