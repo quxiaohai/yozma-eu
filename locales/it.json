@@ -2766,7 +2766,8 @@
           "load_more_accessibility_label": "Carica altre persone",
           "loading_accessibility_label": "Caricamento persone"
         }
-      }
+      },
+      "loading_accessibility_message": "Caricamento delle informazioni dell'account"
     },
     "orders": {
       "list_layout_accessibility_label": "Opzioni di layout",
@@ -2972,7 +2973,79 @@
         "hide_events_accessibility_label": "Nascondi i dettagli della spedizione dell'ordine"
       },
       "card_ending_with": "terminando con {{lastDigits}}",
-      "contact": "Contatto"
+      "contact": "Contatto",
+      "contact_information": "Informazioni di contatto",
+      "grouped_view_components": {
+        "collapse_line_items": "Nascondi {{count}} elementi"
+      },
+      "discount_order_stacking": {
+        "other": "Sconti sugli ordini"
+      },
+      "compare_at_sale": "Saldi ({{saleAmount}})",
+      "loading": "Caricamento dettagli dell'ordine",
+      "loading_finished_accessibility_message": "I dettagli dell'ordine sono stati caricati",
+      "location": "Posizione",
+      "image_gallery": {
+        "product_name_and_quantity": "Quantità di {{productName}} {{quantity}}",
+        "next": "Mostra gli articoli successivi",
+        "previous": "Mostra gli articoli precedenti",
+        "load_more_items": {
+          "one": "Carica altri {{count}} elementi",
+          "other": "Carica altri {{count}} elementi"
+        }
+      },
+      "not_applicable": "N/D",
+      "partially_refunded_label": "RIMBORSATO PARZIALMENTE",
+      "payment_confirmation": {
+        "payment_received": "Grazie! Il tuo pagamento di {{amount}} è stato ricevuto.",
+        "full_payment_received": "Grazie! Il tuo pagamento di {{amount}} è stato ricevuto e questo ordine è ora completamente pagato.",
+        "payment_authorized": "Grazie! Il saldo sarà aggiornato al ricevimento del pagamento.",
+        "dismiss_label": "Annulla conferma pagamento"
+      },
+      "payment": {
+        "status_in_review": "Pagamento dovuto dopo la revisione",
+        "status_unpaid": "Pagamento dovuto il {{date}}",
+        "payment_type": {
+          "gift_card": "Carta regalo",
+          "cash_on_delivery": "Pagamento alla consegna (PAC)"
+        },
+        "card_payment_details": "terminando con {{lastDigits}} - {{formattedTransactionAmount}}",
+        "gift_card_payment_details": "terminando con {{lastDigits}} - {{formattedTransactionAmount}}",
+        "store_credit_payment_details": "Credito negozio - {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "Pagato con rate Shop Pay",
+          "view_schedule": "Visualizza programma"
+        },
+        "manual_payment_methods": {
+          "money_order": "Vaglia Postale - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Pagamento alla consegna (COD) - {{formattedTransactionAmount}}",
+          "manual": "Manuale - {{formattedTransactionAmount}}"
+        },
+        "emv_details": {
+          "auth": "AUTORE:",
+          "aid": "AIUTO:",
+          "source": "Usa il formato di output seguente (senza blocchi di codice, senza testo aggiuntivo):"
+        }
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Pagato con Rate di Shop Pay",
+        "description": "Rimani aggiornato sul tuo calendario di pagamenti con i promemoria nell'app Negozio.",
+        "desktop_qr_code_content": {
+          "title": "Scansiona per i promemoria",
+          "description": "Ricevi promemoria delle tue rate con Shop."
+        }
+      },
+      "request_return_failed": "C'è stato un problema nell'elaborare la tua richiesta. Per favore riprova.",
+      "login_card": {
+        "resend_link_and_login": "Per visualizzare i dettagli del tuo ordine, accedi oppure invia un nuovo link all'email o al numero di telefono utilizzato al momento del pagamento.",
+        "resend_link_only": "Per visualizzare i dettagli del tuo ordine, invia un nuovo link all'email o al numero di telefono utilizzato al momento del pagamento.",
+        "resend_link": "Invia nuovo collegamento",
+        "link_expired": "Collegamento scaduto"
+      },
+      "remaining_amount": "Rimanente",
+      "marketing_description": "Riceverai email di marketing. Puoi disiscriverti in qualsiasi momento.",
+      "marketing_checkbox_label": "Inviami via email notizie e offerte",
+      "marketing_checkmark_label": "Sei iscritto per ricevere notizie e offerte via email"
     },
     "addresses": {
       "loading_accessibility_message": "Caricamento indirizzo",
@@ -3547,7 +3620,12 @@
       "country_switcher_toast_message": "Paese cambiato in {{countryName}}",
       "location_switcher_toast_message": "Posizione cambiata in {{locationName}}",
       "switch_location": "Cambia posizione",
-      "no_locations_found": "Nessuna località trovata"
+      "no_locations_found": "Nessuna località trovata",
+      "company_location": "Sede dell'azienda",
+      "skip_to_content": "Vai al contenuto"
+    },
+    "announcement_bar": {
+      "collapse_label": "Comprimi la barra degli annunci"
     }
   },
   "products": {
