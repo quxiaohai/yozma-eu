@@ -2608,7 +2608,79 @@
       "powered_by_shopify": "Aangedreven door Shopify"
     },
     "attributes": {
-      "password_confirmation": "De wachtwoordbevestiging"
+      "password_confirmation": "De wachtwoordbevestiging",
+      "body": "lichaam"
+    },
+    "addresses": {
+      "pincode": "Pincode",
+      "state_and_territory": "Staat/gebied",
+      "county": "Graafschap",
+      "confirm": "Weet u zeker dat u dit adres wilt verwijderen?"
+    },
+    "collections": {
+      "sorting": {
+        "best_selling": "Bestverkocht",
+        "az": "Alfabetisch, A-Z",
+        "za": "Alfabetisch, Z-A",
+        "price_ascending": "Prijs, van laag naar hoog",
+        "price_descending": "Prijs, van hoog naar laag",
+        "date_ascending": "Datum, oud naar nieuw",
+        "date_descending": "Datum, nieuw naar oud"
+      }
+    },
+    "errors": {
+      "blank": "mag niet leeg zijn",
+      "credit_card_session_expired": "De machtiging voor de creditcard is verlopen, voer alstublieft opnieuw uw betaalgegevens in. Uw kaart is niet belast.",
+      "empty": "mag niet leeg zijn",
+      "discount_disabled": "Deze korting is uitgeschakeld",
+      "discount_limit_reached": "Deze korting heeft zijn gebruikslimiet bereikt",
+      "discount_not_found": "Kan geen geldige korting vinden die overeenkomt met de ingevoerde code",
+      "customer_already_used_once_per_customer_discount_notice": "Deze korting heeft zijn gebruikslimiet bereikt",
+      "gift_card_already_applied": "De code is al toegepast op uw afrekenproces",
+      "gift_card_currency_mismatch": "Je cadeaubon is in %{gift_card_currency}. Neem contact met ons op om deze opnieuw uit te geven in %{checkout_currency}.",
+      "gift_card_disabled": "Cadeaubon is uitgeschakeld",
+      "taken": "is al in gebruik genomen",
+      "contains_html_tags": "mag geen HTML-tags bevatten",
+      "too_short": "is te kort (minimaal %{count} tekens)",
+      "too_long": "is te lang (maximaal %{count} tekens)",
+      "password_mismatch": "moet overeenkomen met het opgegeven wachtwoord",
+      "less_than_or_equal_to": "moet minder dan of gelijk zijn aan %{count}",
+      "full_name_required": "Voer een voornaam en achternaam in",
+      "invalid_for_card_type": "is niet geldig",
+      "invalid_type": "sorry, we accepteren geen kaarten van dit type",
+      "invalid_format": "indeling is niet geldig",
+      "invalid_start_date_or_issue_number_for_debit": "een geldige begindatum of uitgiftenummer is vereist",
+      "reset_password_html": "Dit e-mailadres is al gekoppeld aan een account. Als dit account van u is, kunt u <a href=\"/account/login#recover\">uw wachtwoord opnieuw instellen</a>",
+      "verify_email": "We hebben een e-mail gestuurd naar %{customer_email}, klik alstublieft op de bijgevoegde link om uw e-mailadres te verifiëren.",
+      "shop_404": {
+        "title": "Maak een webwinkel en verkoop online! Webwinkelsoftware van Shopify",
+        "heros": {
+          "store_unavailable": "Sorry, deze winkel is momenteel niet beschikbaar."
+        },
+        "links": {
+          "explore_other_stores": "Ontdek andere winkels",
+          "start_free_trial": "Begin een gratis proefperiode"
+        },
+        "owner_ctas": {
+          "header": "Bent u de winkelier?",
+          "fix_domain": "Rond het instellen van je nieuwe webadres af via %{domain_settings_link}. Klik op “Domein verbinden” en voer in: %{domain}.<br>Als je problemen hebt met inloggen in je winkel, probeer dan de pagina %{forgot_your_store_link}.",
+          "forgot_your_store_link_text": "je winkel vergeten",
+          "add_storefront": "Je kunt je website instellen door het kanaal Online Winkel toe te voegen in je %{admin_link}. Als je problemen hebt met het openen van je winkel, probeer dan de pagina %{forgot_your_store_link}.",
+          "admin_link_text": "beheerder"
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "Verkoop persoonlijk",
+            "caption": "Krijg de functies die u nodig hebt om uw winkel te runnen, of u nu net begint of wilt uitbreiden.",
+            "link_text": "Begin gratis proefperiode"
+          },
+          "open_a_store": {
+            "header": "Open een nieuwe Shopify-winkel",
+            "caption": "Begin een gratis proefperiode van 3 dagen, daarna gaat u door voor $1/maand gedurende de volgende 3 maanden.",
+            "link_text": "Meld u nu aan"
+          }
+        }
+      }
     }
   }
 }
