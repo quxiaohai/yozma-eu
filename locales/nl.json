@@ -2841,6 +2841,172 @@
     },
     "cart": {
       "discounts_with_count": "%{count} kortingen zijn toegepast"
+    },
+    "challenge": {
+      "message": "Om door te gaan, laat ons weten dat je geen robot bent.",
+      "error": "Uw antwoord was niet correct, probeer het alstublieft opnieuw."
+    },
+    "checkpoint": {
+      "message": "Los de captcha op om door te gaan",
+      "error": "Captcha-validatie mislukt"
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Gewoonlijk klaar binnen 1 uur",
+        "two_hours": "Gewoonlijk klaar binnen 2 uur",
+        "four_hours": "Gewoonlijk klaar binnen 4 uur",
+        "twenty_four_hours": "Gewoonlijk binnen 24 uur klaar",
+        "two_to_four_days": "Gewoonlijk klaar binnen 2-4 dagen",
+        "five_or_more_days": "Gewoonlijk binnen 5+ dagen klaar",
+        "zero_to_two_hours": "Gewoonlijk klaar binnen 2 uur",
+        "two_to_four_hours": "Gewoonlijk klaar binnen 4 uur",
+        "next_day": "Klaar voor afhaling de volgende dag"
+      }
+    },
+    "subscriptions": {
+      "buyer_consent_product": "Dit artikel is een terugkerende of uitgestelde aankoop. Door door te gaan, ga ik akkoord met de %{cancellationPolicyLink} en machtig ik u om mijn betaalmethode te belasten tegen de prijzen, frequentie en data die op deze pagina staan vermeld totdat mijn bestelling is voltooid of ik annuleer, indien toegestaan.",
+      "buyer_consent_cart": "Een of meer van de artikelen in uw winkelwagen zijn een terugkerende of uitgestelde aankoop. Door door te gaan, ga ik akkoord met de %{cancellationPolicyLink} en machtig ik u om mijn betaalmethode te belasten tegen de prijzen, frequentie en data die op deze pagina staan vermeld totdat mijn bestelling is voltooid of ik annuleer, indien toegestaan.",
+      "cancellation_policy": "annuleringsbeleid"
+    }
+  },
+  "customer_accounts": {
+    "callback": {
+      "try_again": "Probeer het opnieuw"
+    },
+    "date": {
+      "humanize": {
+        "lessThanOneYearAgo": "{{date}} om {{time}}",
+        "lessThanOneWeekAgo": "{{weekday}} om {{time}}",
+        "lessThanOneWeekAway": "{{weekday}} om {{time}}",
+        "lessThanOneYearAway": "{{date}} om {{time}}"
+      }
+    },
+    "enable_javascript": "Om uw account te bekijken, schakelt u JavaScript in de instellingen van uw browser in of meldt u zich aan met een andere browser.",
+    "navigation_and_structure": {
+      "account_menu": {
+        "show_accessibility_label": "Toon accountmenu",
+        "open_menu_accessibility_label": "Open Account navigatie",
+        "close_menu_accessibility_label": "Sluit accountnavigatie"
+      },
+      "close_menu_accessibility_label": "Sluit hoofdmenu",
+      "contact_email_subject": "Contact van de online winkel {{shopName}}",
+      "document_title": "{{sectionName}} - {{shopName}} - Account",
+      "loading_policy_content_accessibility_label": "Beleidinhoud laden",
+      "loading_section_accessibility_label": "Laden {{sectionName}}",
+      "policy_load_error": "Kon {{policyName}} niet laden",
+      "log_out_link": "Afmelden",
+      "logout_overlay_label": "Afmelden...",
+      "open_menu_accessibility_label": "Open hoofdmenu",
+      "shop_logo_accessibility_label": "{{shopName}} logo",
+      "country_switcher_toast_message": "Land gewijzigd naar {{countryName}}",
+      "switch_country": "Land wisselen",
+      "location_switcher_toast_message": "Locatie gewijzigd naar {{locationName}}",
+      "switch_location": "Locatie wisselen",
+      "view_details": "Bekijk details",
+      "skip_to_content": "Sla naar inhoud over"
+    },
+    "announcement_bar": {
+      "expand_label": "Uitklapbare aankondigingsbalk",
+      "collapse_label": "Vouw aankondigingsbalk in",
+      "close_label": "Sluit aankondigingsbalk"
+    },
+    "account_information": {
+      "profile_card": {
+        "cancel_accessibility_label": "Bewerking profiel annuleren",
+        "email_help_text": "E-mail kan niet worden bewerkt"
+      },
+      "verify_new_email_modal": {
+        "one_time_password_label": "6-cijferige code",
+        "verify_button": "Controleren",
+        "verify_button_accessibility_label": "Verifieer eenmalig wachtwoord",
+        "cancel_button_accessibility_label": "Bewerken e-mail annuleren"
+      },
+      "email_update_success_modal": {
+        "description": "E-mail succesvol bijgewerkt. Wordt doorgestuurd naar inloggen."
+      },
+      "email_update_confirmation_message": "E-mail bijgewerkt naar {{email}}",
+      "people": {
+        "pagination": {
+          "load_more_accessibility_label": "Laad meer mensen in",
+          "loading_accessibility_label": "Mensen laden"
+        }
+      }
+    },
+    "orders": {
+      "list_layout_accessibility_label": "Indelingsopties",
+      "switch_order_type_pending_orders_accessibility_label": "Wijzig bestellingssoort, momenteel worden openstaande bestellingen bekeken",
+      "switch_order_type_confirmed_orders_accessibility_label": "Wijzig bestellingssoort, momenteel bevestigde bestellingen bekijken",
+      "order_list": {
+        "delivered": "Geleverd op {{date}}",
+        "empty_state_order_source_description": "Alleen bestellingen geplaatst door {{email}} worden hier weergegeven.",
+        "empty_state_title_for_pending_orders": "Geen openstaande bestellingen",
+        "no_order_banner": "Om uw uitbreiding te testen op de pagina Bestelstatus, maakt u een bestelling aan.",
+        "estimated_shortform": "Geschat {{date}}",
+        "estimated_delivery": "Verwacht {{date}}",
+        "more_than_three_products_accessibility_label": "Bestelling bevat {{lineItemName1}}, {{lineItemName2}} en nog {{numberOfAdditionalProducts}} producten",
+        "more_than_four_products_accessibility_label": "Bestelling bevat {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}} en nog {{numberOfAdditionalProducts}} producten",
+        "plus_more_products": "+{{numberOfAdditionalProducts}} producten",
+        "carousel": {
+          "view_order_details": "Bekijk bestelgegevens"
+        },
+        "no_filtered_results_description": "Verwijder of pas filters aan om uw bestellingen te zien",
+        "order_link": "Bekijk bestelling {{name}}",
+        "order_number": "Bestel {{name}}",
+        "pagination": {
+          "nav_accessibility_label": "Knoppen voor het navigeren door bestellingen"
+        },
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "Bekijk bestelling voor details",
+            "estimated_delivery": "Verwacht {{date}}",
+            "last_updated": "Laatst bijgewerkt {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "Geschatte levering {{date}}"
+          }
+        },
+        "payment_status": {
+          "gallery_view": {
+            "overdue": "Betaling achterstallig",
+            "due": "Betaling verschuldigd {{date}}",
+            "due_today": "Betaling vandaag verschuldigd",
+            "due_on_fulfillment": "Betaling verschuldigd bij levering",
+            "pay_to_confirm": "Betaal om te bevestigen",
+            "payment_not_due": "Betaling nog niet verschuldigd"
+          },
+          "list_view": {
+            "due": "Vervaldatum {{date}}",
+            "due_today": "Vervaldag vandaag",
+            "due_without_date": "Vervaldatum",
+            "due_on_fulfillment": "Vervaldatum bij uitvoering",
+            "pay_to_confirm": "Betaal om te bevestigen"
+          }
+        },
+        "sort_hide_options_accessibility_label": "Verberg sorteermogelijkheden voor bevestigde bestellingen.",
+        "sort_show_options_accessibility_label": "Toon sorteermogelijkheden voor bevestigde bestellingen.",
+        "sort": {
+          "date": {
+            "newest": "Nieuwste eerst naar oudste",
+            "oldest": "Oudste eerst"
+          }
+        },
+        "location_filter_picker": {
+          "switch_view": "Bekijk wisselen"
+        },
+        "filter_title": "Filteren",
+        "filter": {
+          "date": {
+            "start_date": "Startdatum",
+            "last_7_days": "Laatste 7 dagen",
+            "last_30_days": "Laatste 30 dagen",
+            "last_90_days": "Laatste 90 dagen",
+            "last_365_days": "Laatste 12 maanden"
+          }
+        },
+        "show_order_actions_accessibility_label": "Toon bestelacties voor bestelling {{name}}",
+        "view_order": "Bekijk bestelling",
+        "view_order_accessibility_label": "Bekijk bestelling {{orderName}}"
+      }
     }
   }
 }
