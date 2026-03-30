@@ -605,9 +605,153 @@
             "credit_card_last_name_required": "'cognome' non può essere nullo.",
             "missing_retail_attributions": "Le attribuzioni di vendita al dettaglio sono necessarie per i pagamenti con carta di credito inseriti manualmente.",
             "unexpected_retail_attributions": "Attribuzioni di vendita al dettaglio fornite inaspettatamente per il pagamento con carta di credito.",
-            "invalid_card_source": "Questa sessione non ha il permesso di utilizzare questa fonte della carta."
+            "invalid_card_source": "Questa sessione non ha il permesso di utilizzare questa fonte della carta.",
+            "wallet_content_missing": "Il contenuto del portafoglio è mancante.",
+            "payment_instrument_not_found": "Metodo di pagamento non trovato",
+            "unauthorized_capture_method": "La configurazione del metodo di acquisizione del pagamento non è consentita.",
+            "saved_payment_methods_cvv_verification_disabled": "Il metodo di pagamento selezionato richiede la verifica CVV, che non è abilitata per questo negozio. Seleziona un metodo di pagamento diverso.",
+            "store_credit_not_enabled": "Il credito negozio non è abilitato per questo negozio.",
+            "store_credit_account_not_found": "Account di credito negozio non trovato.",
+            "store_credit_account_mismatch": "Il conto credito del negozio non corrisponde all'identità dell'acquirente.",
+            "store_credit_mismatched_currency": "La valuta del conto credito del negozio non corrisponde alla valuta del pagamento.",
+            "store_credit_insufficient_funds": "Non ci sono fondi sufficienti nel conto del credito del negozio.",
+            "store_credit_buying_gift_card": "Non puoi usare il credito del negozio per acquistare una carta regalo.",
+            "gift_cards_not_allowed_for_b2b": "Le carte regalo non sono consentite nei negozi B2B.",
+            "method_required": "Deve essere proposta una modalità di pagamento."
+          },
+          "tip": {
+            "not_accepted_by_shop": "Il negozio non accetta mance.",
+            "only_one_tip_line_allowed": "Non sono supportate più linee di suggerimenti.",
+            "currency_change_reset": "La mancia è stata azzerata a causa del cambio di valuta.",
+            "tips_not_allowed_for_deferred_purchase_options": "Le mance non sono ancora supportate per le opzioni di acquisto differito."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "Questo ordine provvisorio non esiste nel negozio attuale.",
+            "staff_member_not_exist": "Questo bastone non esiste nel negozio attuale.",
+            "location_not_exist": "Questa località non esiste nel negozio attuale.",
+            "point_of_sale_device_not_exist": "Questo dispositivo per il punto vendita non esiste nel negozio attuale.",
+            "unresolvable_target_merchandise_lines": "Le attribuzioni di vendita proposte non possono essere risolte dato l'attuale contesto di trattativa."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "La tua proposta d'acquisto dovrebbe contenere termini non negoziabili."
+          },
+          "inventory": {
+            "missing_quantity_value": "Il campo quantità manca nelle righe dell'inventario dell'acquirente.",
+            "changing_behavior_not_allowed": "Questo cliente non ha il permesso di modificare il comportamento dell'inventario.",
+            "only_one_inventory_behavior_allowed": "Attualmente è consentito un solo comportamento di inventario per ogni pagamento."
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "Rifiutare i dazi non è consentito per questo pagamento."
+          },
+          "attribution": {
+            "retail_attribution_not_allowed": "L'attribuzione al dettaglio non è consentita per questo pagamento.",
+            "retail_attribution_required": "L'attribuzione al dettaglio è necessaria per questo pagamento."
+          },
+          "captcha": {
+            "metadata_missing": "Per completare questo acquisto è necessario risolvere un captcha.",
+            "metadata_mismatch": "Il fornitore e il tipo di captcha forniti non corrispondono ai valori attesi.",
+            "token_missing": "Deve essere fornito un token captcha per completare questo pagamento.",
+            "job_enqueue_failed": "Il compito di convalida captcha non è stato messo in coda.",
+            "token_expired": "Il token captcha fornito è scaduto. Completa un nuovo captcha per continuare il pagamento.",
+            "token_invalid": "Il token captcha fornito non è valido. Completa un nuovo captcha per continuare con il pagamento.",
+            "token_not_valid_for_session": "Il captcha fornito non può essere utilizzato con questo pagamento."
+          },
+          "checkout_source": {
+            "revoked": "Questo pagamento non è più disponibile."
+          }
+        },
+        "full_price": "Prezzo intero:",
+        "title": "Pagamento - {{shopName}}",
+        "full_title": "{{pageTitle}} - {{shopName}} - Pagamento",
+        "loading": "Caricamento…",
+        "loading_title": "Pagamento - {{shopName}}",
+        "submit_for_review_button_label": "Invia per revisione",
+        "submit_for_review_notice_label": "Il pagamento non sarà dovuto fino a quando il tuo ordine non sarà esaminato",
+        "continue_to_payment_plans_button_label": "Continua ai piani di pagamento",
+        "back_button_label": "Ritorno",
+        "autocomplete_powered_by_google": "Alimentato da {{brandName}}",
+        "processing": "Elaborazione…",
+        "remove_tag": "Rimuovi etichetta",
+        "dates": {
+          "weekdays": {
+            "monday": "Lunedì",
+            "tuesday": "Martedì",
+            "wednesday": "Mercoledì",
+            "thursday": "Giovedì",
+            "friday": "Venerdì",
+            "saturday": "Sabato",
+            "sunday": "Domenica"
+          },
+          "weekdays_abbreviation": {
+            "monday": "Mo",
+            "tuesday": "Tu",
+            "wednesday": "Noi",
+            "thursday": "Th",
+            "saturday": "Sa",
+            "sunday": "Su"
+          },
+          "months": {
+            "may": "Maggio"
+          }
+        },
+        "datepicker": {
+          "in_range": "Nel raggio",
+          "range_end": "Fine gamma"
+        },
+        "list_formatter": {
+          "and": {
+            "lastWordConnector": "{{previousWords}}, e {{lastWord}}"
+          },
+          "or": {
+            "lastWordConnector": "{{previousWords}}, o {{lastWord}}"
+          }
+        },
+        "map": {
+          "cluster_title": {
+            "one": "Gruppo di {{number}} marker",
+            "other": "Gruppo di {{number}} indicatori"
           }
         }
+      },
+      "embed": {
+        "header": {
+          "review_order": "Rivedi il tuo ordine"
+        }
+      },
+      "payment_collection": {
+        "cancelled": "Questo pagamento non è più necessario. Visita la pagina dell'ordine per i dettagli.",
+        "paid": "Questo pagamento è già stato inviato. Visita la pagina dell'ordine per i dettagli."
+      },
+      "contact": {
+        "shipping_used_as_billing_notice": "Questo sarà anche utilizzato come il tuo indirizzo di fatturazione per questo ordine.",
+        "contact_method_title": "Contatto",
+        "email_label": "Posta elettronica",
+        "email_placeholder": "Posta elettronica",
+        "stored_addresses_label": "Indirizzi salvati",
+        "storefront_link": "sito web del commerciante",
+        "company_attention_label": "Azienda/Attenzione",
+        "optional_company_attention_label": "Azienda/Attenzione (facoltativo)",
+        "address2_label": "Appartamento, suite, ecc.",
+        "optional_address2_label": "Appartamento, suite, ecc. (facoltativo)",
+        "suburb_label": "Periferia",
+        "country_label": "Paese/Regione",
+        "country_code": "Codice paese/regione",
+        "region_label": "Regione",
+        "region_placeholder": "Regione",
+        "region_none": "Nessuno selezionato",
+        "phone_tooltip": "Nel caso in cui dobbiamo contattarti riguardo al tuo ordine",
+        "zip_code_label": "Codice postale",
+        "zip_code_placeholder": "Codice postale",
+        "postal_code_label": "Codice postale",
+        "optional_postal_code_label": "Codice postale (facoltativo)",
+        "postal_code_placeholder": "Codice postale",
+        "postcode_label": "Codice postale",
+        "postcode_placeholder": "Codice postale",
+        "pincode_label": "Codice PIN",
+        "pincode_placeholder": "Codice PIN",
+        "civic_number_warning": "Aggiungi un numero civico se ne hai uno",
+        "different_shipping_address_text": "Usa un indirizzo usa e getta per questo ordine",
+        "change_company_location_link_label": "Cambia sede aziendale"
       }
     }
   }
