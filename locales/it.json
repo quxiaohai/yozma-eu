@@ -3045,7 +3045,72 @@
       "remaining_amount": "Rimanente",
       "marketing_description": "Riceverai email di marketing. Puoi disiscriverti in qualsiasi momento.",
       "marketing_checkbox_label": "Inviami via email notizie e offerte",
-      "marketing_checkmark_label": "Sei iscritto per ricevere notizie e offerte via email"
+      "marketing_checkmark_label": "Sei iscritto per ricevere notizie e offerte via email",
+      "marketing_pending_confirmation": "Fai clic sul collegamento nella tua email per confermare.",
+      "marketing_resend_email": "Reinvia email",
+      "returns": {
+        "ineligible_return_message": "Nessun articolo in questo ordine può essere restituito.",
+        "ineligible_return_message_when_returned": "Nessun altro articolo in questo ordine può essere restituito.",
+        "print_shipping_label": "Stampa l'etichetta di spedizione",
+        "return_and_refund_modal_header": "Politica di rimborso",
+        "exchange_header": "Scambia articoli",
+        "exchange_subheader": "Gli articoli di cambio saranno aggiunti all'ordine una volta completato il reso."
+      },
+      "shipping": {
+        "one_time": "Spedizione unica"
+      },
+      "pickup": {
+        "pickup_location": "Luogo di ritiro"
+      },
+      "total_savings": "Risparmio totale",
+      "subtitle": "Confermato {{date}}",
+      "subtotal": "Totale parziale",
+      "subtotal_label_with_quantity": {
+        "one": "Totale parziale",
+        "other": "Totale parziale · {{count}} articoli"
+      },
+      "summary_title": "Riepilogo dell'ordine",
+      "shop_order_tracking": {
+        "download_shop_to_track": "Scarica l'App per tracciare il pacco",
+        "track_order_with_shop": "Traccia l'ordine con Shop",
+        "title_header": "Scansiona con il tuo telefono",
+        "real_time_delivery_updates": "Il negozio ti invierà aggiornamenti sulla consegna in tempo reale non appena il tuo ordine sarà spedito."
+      },
+      "edit_summary": {
+        "added_with_quantity": "Aggiunto {{quantity}}",
+        "removed_with_quantity": "Rimosso {{quantity}}",
+        "updated_at": "Il tuo ordine è stato aggiornato il {{date}}",
+        "returned": "Restituito",
+        "returned_with_quantities": "Restituiti {{delta}} di {{total}}",
+        "removed_with_quantities": "Rimosso {{delta}} di {{total}}"
+      },
+      "shop_pay": {
+        "learn_more": "Scopri di più"
+      },
+      "taxes": "Tasse",
+      "taxes_included": "Inclusi {{amount}} nelle tasse",
+      "duties_and_taxes_included": "Il totale include dazi e imposte. Nessun costo aggiuntivo alla consegna.",
+      "duties": "Compiti",
+      "ok_duties_tooltip": "Questo ordine viene spedito da un altro paese, quindi sono stati aggiunti dazi al totale del tuo ordine.",
+      "error_duties_tooltip": "Questo ordine viene spedito da un altro paese, quindi potrebbero essere addebitati dazi e imposte alla consegna.",
+      "zero_duties_tooltip": "Questo ordine viene spedito da un altro paese. Non vengono applicati dazi su ordini di questo valore.",
+      "tip": "Suggerimento",
+      "title": "Ordina {{name}}",
+      "unit_price": "{{price}}/cad",
+      "pagination": {
+        "loading_accessibility_label": "Caricamento elementi"
+      },
+      "logged_in_account_no_permission_to_order": "Sei connesso come {{email}}. Questo account non ha il permesso di gestire questo ordine.",
+      "log_in_to_a_different_account": "Accedi a un altro account",
+      "fees": {
+        "restocking_fee": "Spese di reintegro",
+        "return_shipping_fee": "Spedizione di ritorno"
+      },
+      "cash_rounding": "Arrotondamento in contanti",
+      "adjusted_payment": "Pagamento regolato",
+      "due_on_date": "Due {{date}}",
+      "due_on_fulfillment": "Due alla consegna",
+      "due_on_receipt": "Due alla ricezione"
     },
     "addresses": {
       "loading_accessibility_message": "Caricamento indirizzo",
@@ -3055,7 +3120,14 @@
       "loading_shipping_accessibility_message": "Caricamento indirizzo di spedizione",
       "pagination": {
         "load_more_accessibility_label": "Carica altri indirizzi"
-      }
+      },
+      "back_button_accessibility_label": "Torna a modificare l'indirizzo {{address}}",
+      "add_address_banner": "Aggiungi indirizzi da utilizzare al momento del pagamento",
+      "no_addresses_banner": "Nessun indirizzo aggiunto",
+      "cancel_adding_address_accessibility_label": "Annulla aggiunta indirizzo",
+      "delete_confirmation_message": "Eliminare l'indirizzo? Gli ordini esistenti non saranno influenzati.",
+      "delete_confirmation_title": "Eliminare l'indirizzo?",
+      "delete_confirmation_description": "Gli ordini esistenti non sono interessati."
     },
     "address_form": {
       "attention": "Attenzione",
