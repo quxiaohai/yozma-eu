@@ -1635,7 +1635,141 @@
         "successful_offsite_with_gift_card_error": "Er was een probleem bij het verwerken van uw cadeaubonbetaling. Probeer het opnieuw of gebruik een andere betaalmethode.",
         "development_store_order_limit_reached": "Je hebt het limiet bereikt voor bestellingen in de ontwikkelwinkel met deze betaalverwerker. Om een nieuwe bestelling te plaatsen, moet je een test-betaalgateway gebruiken. Lees meer over %{development_store_order_testing_docs_link}.",
         "development_store_with_order_limit": "Om een testbestelling te plaatsen, moet je een test-betaalgateway gebruiken. Lees meer over %{development_store_order_testing_docs_link}.",
-        "development_store_order_testing_docs_link": "bestellingen testen in ontwikkelwinkels"
+        "development_store_order_testing_docs_link": "bestellingen testen in ontwikkelwinkels",
+        "payment_above_threshold": "Het te betalen bedrag is hoger dan de geldlimiet voor deze regio. Verlaag het totaal en probeer het opnieuw.",
+        "risky": "Er was een probleem bij het verwerken van uw betaling. Probeer het opnieuw of gebruik een andere betaalmethode.",
+        "expired_buyer_action": "De betaalmethode is verlopen. Probeer het opnieuw.",
+        "name_mismatch": "Controleer uw kaartgegevens. De naam op uw kaart en het factuuradres komen niet overeen.",
+        "shop_pay_wallet_not_available": "Shop Pay is niet beschikbaar voor deze kassa.",
+        "market_manager_blocks_wallet_payments": "Betaalmethode wordt niet ondersteund in uw land.",
+        "paypal_over_capture": "Uw totaalbedrag is bijgewerkt. Betaal met {{walletName}} om uw bestelling te voltooien.",
+        "captcha_required": "Voer betalingsgegevens in en los de captcha op om uw aankoop te voltooien.",
+        "captcha_required_without_payment_information": "Los de captcha op om uw aankoop te voltooien.",
+        "payment_credential_delegation_error": "Er was een probleem bij het verwerken van uw betaling. Kies een nieuwe betaalmethode."
+      },
+      "shipping_errors": {
+        "shipping_method": "De verzendopties voor uw bestelling zijn gewijzigd. Controleer uw keuze.",
+        "shipping_method_not_available": "Je winkelwagen is bijgewerkt en de artikelen die je hebt toegevoegd kunnen niet naar je adres worden verzonden. Verwijder de artikelen om je bestelling te voltooien.",
+        "shipping_method_not_available_generic": {
+          "one": "Uw bestelling kan niet naar het opgegeven adres worden verzonden. Controleer uw adres om zeker te zijn dat het klopt en probeer het opnieuw, of kies een ander adres.",
+          "other": "Sommige artikelen in uw winkelwagen kunnen niet naar het door u opgegeven adres worden verzonden. Controleer uw adres om zeker te zijn dat het klopt en probeer het opnieuw, of kies een ander adres."
+        },
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "De artikelen in de winkelwagen voldoen niet aan de prijs- of gewichtseisen om in aanmerking te komen voor verzending. Werk uw winkelwagen bij en probeer het opnieuw.",
+        "shipping_method_not_available_updated": {
+          "one": "Het artikel dat u hebt toegevoegd wordt niet naar uw locatie verzonden. Verwijder het om af te rekenen, of neem contact op met de winkel.",
+          "other": "Een of meer artikelen die u hebt toegevoegd, worden niet naar uw locatie verzonden. Verwijder ze om af te rekenen, of neem contact op met de winkel."
+        },
+        "empty_state": "Voer uw verzendadres in om de beschikbare verzendwijzen te bekijken.",
+        "invalid_selected_address": "Geselecteerd verzendadres is niet geldig",
+        "invalid_selected_address_with_update_link": "De geselecteerde verzendadres is niet geldig. %{update_address_link} of kies een ander adres",
+        "unavailable_addresses_only_countries": "Uw bestelling kan alleen worden verzonden naar {{countriesList}}. Voeg een nieuw adres toe om door te gaan.",
+        "unavailable_address_country": "Verzending is niet mogelijk naar het door u gekozen land. Gebruik een ander adres om door te gaan",
+        "unavailable_selected_address_for_region": "Verzending is niet beschikbaar voor {{region}}. Kies een ander adres om door te gaan"
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Snel afrekenen",
+        "or_pay_another_way": "Of betaal op een andere manier",
+        "or_check_out_another_way": "Of bekijk een andere manier",
+        "or_pay_with_credit_card": "Of betaal met creditcard"
+      },
+      "post_purchase": {
+        "escape_confirmation": "U heeft voor uw bestelling betaald.",
+        "escape_action": "Bekijk bestelbevestiging ›",
+        "components": {
+          "expand": "Bekijk meer",
+          "processing": "Bezig met verwerken…",
+          "submit": "Verzenden"
+        }
+      },
+      "processing": {
+        "redirecting_page_title": "Wordt doorgestuurd…",
+        "redirecting_title": "Wordt doorgestuurd…",
+        "redirecting_notice": "Wacht terwijl we u doorverwijzen.",
+        "redirecting_to_bank": "Doorverwijzen naar {{bank}}",
+        "complete_your_purchase_title": "Voltooi uw aankoop",
+        "continue_to_payment_gateway_notice": "Ga door naar betaling om uw betaalgegevens toe te voegen.",
+        "continue_to_payment_gateway_button_label": "Doorgaan naar betaling",
+        "complete_your_purchase_title_error": "Corrigeer uw betaalgegevens",
+        "continue_to_payment_gateway_notice_error": "Uw betaalgegevens konden niet worden geverifieerd.",
+        "continue_to_payment_gateway_button_label_error": "Werk betalingsgegevens bij",
+        "page_title": "Bestelling verwerken",
+        "title": "Bestelling verwerken",
+        "your_order_has_been_received_title": "Bedankt voor uw bestelling",
+        "you_will_receive_confirmation": "We krijgen op dit moment veel bestellingen binnen. U ontvangt binnenkort een bevestiging per e-mail of sms. Als u deze binnen het uur niet ontvangt, laat het ons dan weten.",
+        "you_will_not_be_charged": "Je wordt nog niet in rekening gebracht",
+        "wait": {
+          "short": "Uw bestelling wordt verwerkt.",
+          "medium": {
+            "one": "Je bestelling wordt verwerkt. De geschatte wachttijd is %{count} minuut.",
+            "other": "Je bestelling wordt verwerkt. De geschatte wachttijd is %{count} minuten."
+          },
+          "long": "Je ontvangt een e-mail zodra je bestelling is verwerkt. Er is momenteel een grote hoeveelheid bestellingen.",
+          "no_auto_refresh_html": "Als je niet automatisch wordt doorgestuurd, %{link}.",
+          "refresh_this_page": "ververs deze pagina"
+        },
+        "modal_notice": "We nemen contact op met {{paymentMethod}}"
+      },
+      "payment_challenge_modal": {
+        "instructions": "Voltooi je aankoop met je {{paymentMethod}} code",
+        "timer_message": "Je hebt {{timeLeft}} om te betalen",
+        "copy_text": "Kopieer {{paymentMethod}} code",
+        "open_app_text": "Open de {{paymentMethod}} app",
+        "header": "Betalen met {{paymentMethod}}",
+        "qr_code": {
+          "instructions": "Voltooi je aankoop met je {{paymentMethod}} code"
+        },
+        "external": {
+          "instructions": "Bevestig de betaling in uw app om deze aankoop te voltooien"
+        },
+        "close": "Sluit de uitdaging af"
+      },
+      "failed_payment": {
+        "page_title": "Betaling kon niet worden verwerkt",
+        "title": "Betaling kon niet worden verwerkt",
+        "payment_not_processed_title": "Uw betaling kon niet worden verwerkt",
+        "payment_not_processed_text": "Je bent nog niet belast. Keer terug naar je winkelwagen om je aankoop te voltooien."
+      },
+      "payment_gateway": {
+        "credit_card_label": "Kredietkaart",
+        "cash_on_delivery_label": "Contant bij aflevering (CBA)",
+        "debit_card_label": "Debetkaart",
+        "credit_or_debit_card_label": "Creditcard/Debetkaart",
+        "deferred_payment_label": "Kies later de betaalmethode",
+        "fixed_payment_label": "Uw betaling is verschuldigd op {{dueDate}}.",
+        "generic_payment_terms": "Je hebt betalingsvoorwaarden bij {{translatedName}}. Je betaling is verschuldigd op {{dueDate}}.",
+        "login_prompt": {
+          "no_access": {
+            "message": "{{logIn}} op een account met toegang tot deze locatie om opgeslagen betaalmethoden toe te voegen of te gebruiken.",
+            "link": "Inloggen"
+          }
+        },
+        "direct_payment_terms": "Je bent akkoord met de voorwaarden van {{translatedName}}. Je kaart wordt op {{dueDate}} belast.",
+        "fixed_direct_payment_terms": "Uw kaart wordt op {{dueDate}} belast.",
+        "order_due_on_fulfillment_choose_later": "Uw betaling is verschuldigd zodra uw bestelling is voltooid.",
+        "order_due_on_fulfillment_payment": "Uw kaart wordt belast zodra uw bestelling is voltooid.",
+        "order_due_on_receipt_choose_later": "Uw betaling is verschuldigd bij ontvangst.",
+        "order_deposit_due_now": "{{depositAmount}} is vandaag verschuldigd. Het resterende bedrag valt onder de voorwaarden van {{translatedName}} en is verschuldigd op {{dueDate}}.",
+        "order_deposit_due_on_fulfillment": "{{depositAmount}} is vandaag verschuldigd. Het resterende bedrag wordt betaald zodra uw bestelling is voltooid.",
+        "order_deposit_due_on_receipt": "{{depositAmount}} is vandaag verschuldigd. Het resterende bedrag wordt later betaald.",
+        "order_deposit_due_on_fixed_date": "{{depositAmount}} is vandaag verschuldigd. Het resterende bedrag is verschuldigd op {{dueDate}}.",
+        "draft_order_payment_due_later_no_terms": "Uw betaling is verschuldigd zodra uw bestelling is bevestigd.",
+        "draft_order_payment_due_later_no_terms_payment_selected": "Uw kaart wordt belast zodra uw bestelling is bevestigd.",
+        "draft_order_payment_due_later_terms": "Je zult op {{translatedName}} voorwaarden zijn zodra je bestelling is bevestigd.",
+        "draft_order_payment_due_on_fulfillment": "Uw betaling is verschuldigd zodra uw bestelling is bevestigd en uitgevoerd.",
+        "draft_order_deposit_due_later": "{{depositAmount}} is verschuldigd zodra uw bestelling is bevestigd. Het resterende bedrag wordt volgens de voorwaarden van {{translatedName}} voldaan.",
+        "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} is verschuldigd zodra uw bestelling is bevestigd. Het resterende bedrag wordt betaald zodra uw bestelling is voltooid."
+      },
+      "thank_you": {
+        "title": "Dank u voor uw aankoop!",
+        "confirmation_email_sent_text": "Er is een bevestigingsmail gestuurd naar %{email}",
+        "return_to_store_link_label": "Doorgaan met winkelen",
+        "print_link_label": "Bon afdrukken",
+        "payment_information_title": "Betalingsinformatie",
+        "shipping_information_title": "Verzendinformatie",
+        "page_title": "Dank je wel, %{display_name}!",
+        "page_title_no_name": "Dank u wel!",
+        "purchase_order_number_title": "PO-nummer #%{purchase_order_number}",
+        "failed_pending_payment_page_title": "Er is een probleem met uw betaling"
       }
     }
   }
