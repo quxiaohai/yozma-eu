@@ -2871,8 +2871,78 @@
         "delivered": "Arrivato {{date}}",
         "buy_with_prime_logo_accessibility_label": "Logo Acquista con Prime di Amazon",
         "in_review_label": "In revisione",
-        "last_updated": "Ultimo aggiornamento {{date}}"
-      }
+        "last_updated": "Ultimo aggiornamento {{date}}",
+        "multiple_statuses_label": "Stati multipli dell'ordine",
+        "no_tracking_number": "Non è disponibile un numero di tracciamento per questa spedizione.",
+        "on_its_way_label": "In cammino",
+        "resume_tracking": "Tracciamento del curriculum",
+        "submitted_description": "Rivedi i dettagli dell'ordine e del pagamento.",
+        "there_was_a_problem_label": "C'è stato un problema",
+        "track_shipment": "Traccia la spedizione",
+        "request_return": "Richiesta di reso",
+        "view_order_for_details": "Visualizza l'ordine per i dettagli",
+        "delivery_promise_v2": {
+          "promise_line": {
+            "shop_promise_brand_label": "Consegna garantita da",
+            "external_promise_brand_label": "Consegna entro",
+            "not_delivered_by_label": "Consegnato dopo il {{date}}",
+            "delivery_guarantee_expired_label": "Garanzia di consegna scaduta",
+            "modal_accessibility_button_label": "Dettagli della promessa di consegna",
+            "download_shop_app_button_label": "Scarica il Negozio per tracciare",
+            "track_with_shop_button_label": "Segui con Negozio",
+            "claim_shop_cash_button_label": "Richiedi denaro negozio"
+          },
+          "details_modal": {
+            "active_delivery_guarantee_label": "Consegna entro {{date}}",
+            "expired_delivery_guarantee_description": "La garanzia Promessa di Acquisto di 30 giorni per questo ordine è scaduta.",
+            "expired_badge_label": "Scaduto",
+            "order_includes_guarantees_description": "Shop Promise garantisce una consegna veloce e affidabile. Richiedi Shop Cash se il tuo ordine arriva dopo {{date}}.",
+            "delivered_after_label": "Consegnato dopo il {{date}}",
+            "delivered_after_description": "Poiché il tuo ordine è arrivato in ritardo, hai diritto a richiedere {{amount}} Shop Cash.",
+            "claimed_shop_cash_description": "Poiché questo ordine è arrivato in ritardo, hai richiesto {{amount}} Shop Cash.",
+            "eligible_to_claim_shop_cash_description": "Poiché il tuo ordine è arrivato in ritardo, hai diritto a richiedere {{amount}} Shop Cash.",
+            "learn_more_button_label": "Scopri di più",
+            "claim_shop_cash_button_label": "Richiedi denaro negozio",
+            "view_balance_in_shop_button_label": "Visualizza saldo nel Negozio",
+            "scan_to_claim_shop_cash_label": "Scansiona per richiedere {{amount}} Cash Negozio"
+          }
+        },
+        "delivery_promise": {
+          "promise_line": {
+            "not_delivered_by_label": "Non consegnato entro {{date}}",
+            "modal_accessibility_button_label": "Dettagli della promessa di consegna"
+          },
+          "claim_shop_cash_cta": {
+            "has_shop_app_label": "Richiedi il tuo credito negozio",
+            "no_shop_app_label": "{{appDownloadLink}} per richiedere Shop Cash",
+            "download_shop_app_label": "Scarica Negozio"
+          },
+          "details_modal": {
+            "modal_accessiblity_label": "Dettagli della promessa di consegna",
+            "delivery_by_label": "Consegna entro {{date}}",
+            "delivery_guaranteed_by_label": "Consegna garantita entro {{date}}",
+            "shop_cash_claim": {
+              "may_be_eligible_label": "La Garanzia di Negozio promette una consegna veloce e affidabile. Richiedi il Credito Negozio se il tuo ordine arriva in ritardo.",
+              "may_be_eligible_not_authorized_label": "Potresti avere diritto a richiedere il Cash Shop perché questo ordine è arrivato in ritardo. Accedi per visualizzare i dettagli.",
+              "redeemed_label": "Hai già riscattato Shop Cash perché questo ordine è arrivato in ritardo.",
+              "expired_label": "Questo ordine non è idoneo per una richiesta di consegna tardiva perché la garanzia di 30 giorni è scaduta.",
+              "no_shop_cash_label": "Questo ordine non è idoneo per una richiesta di consegna in ritardo perché non è stato pagato con Shop Pay.",
+              "no_longer_guaranteed_label": "Questi articoli non sono più coperti da una garanzia di consegna.",
+              "claim_shop_cash_title": "Scansiona per richiedere {{amount}} in Shop Cash",
+              "claim_shop_cash_description": "Puoi utilizzare il tuo Shop Cash per acquisti futuri nell'app Shop."
+            }
+          }
+        }
+      },
+      "status_mark_as_delivered": "Segna come consegnato"
+    },
+    "order_details": {
+      "shipment_timeline": {
+        "expand_events_accessibility_label": "Mostra i dettagli della spedizione dell'ordine",
+        "hide_events_accessibility_label": "Nascondi i dettagli della spedizione dell'ordine"
+      },
+      "card_ending_with": "terminando con {{lastDigits}}",
+      "contact": "Contatto"
     }
   }
 }
