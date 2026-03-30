@@ -3656,8 +3656,154 @@
         "payment_details_loading": "Chargement des détails de la méthode de paiement",
         "total_amount_of_subscription_line_items_left_accessibility_label": "{{totalItems}} articles au total, affichage de {{totalItemsToDisplay}} articles.",
         "next_payment_due": "Prochain paiement dû le {{dueDateInMonthDayYear}}",
-        "edit_payment_method_button_accessibility_label": "Modifier le mode de paiement se terminant par {{lastDigits}}"
+        "edit_payment_method_button_accessibility_label": "Modifier le mode de paiement se terminant par {{lastDigits}}",
+        "loading_shop_pay": "Chargement de Shop Pay",
+        "invalid_payment_method": "Méthode de paiement invalide",
+        "replace_payment_method": "Remplacer le mode de paiement",
+        "checkout_card_banner": "Ce mode de paiement ne peut être utilisé que pour des paiements préautorisés. Il n'apparaîtra pas lors du passage à la caisse si vous êtes connecté à cette boutique.",
+        "default_checkbox": "Définir par défaut",
+        "default_checkbox_accessibility_label": "Définir ce mode de paiement comme par défaut"
+      },
+      "edit_payment_method": {
+        "title": "Modifier le mode de paiement",
+        "payment_method_updated_toast": "Méthode de paiement mise à jour",
+        "billing_address_add_new": "Ajouter nouveau",
+        "billing_address_choose_from_list": "Choisissez dans la liste",
+        "future_purchases_notice": "Cette méthode de paiement sera enregistrée pour les achats futurs.",
+        "generic_error": "Il y a eu un problème lors de la mise à jour. Veuillez réessayer."
+      },
+      "update_payment_method": {
+        "title": "Mettre à jour le mode de paiement",
+        "button_title": "Mise à jour",
+        "disclaimer": "Cette méthode de paiement sera enregistrée pour les achats futurs et pourra être utilisée pour tout achat récurrent ou différé.",
+        "error_message": "Impossible de mettre à jour le mode de paiement",
+        "subscriptions_list_accessibility_label": "Liste des produits par abonnement",
+        "pre_orders_list_accessibility_label": "Liste des produits en attente de commande",
+        "resources_list_accessibility_label": "Produits d'abonnement et produits de commande en attente utilisant ce mode de paiement",
+        "resources_card_scroll": "Faites défiler pour voir plus d’articles",
+        "loading_form_accessibility_message": "Chargement du formulaire de mise à jour du mode de paiement",
+        "loading_current_payment_method": "Chargement du mode de paiement actuel",
+        "loading_digital_wallets": "Chargement des options de portefeuille numérique",
+        "loading_card_fields": "Chargement des champs de carte de crédit"
+      },
+      "link_expired": {
+        "message": "Ce lien pour mettre à jour votre mode de paiement a expiré.",
+        "update_message": "Ce lien pour mettre à jour votre mode de paiement a expiré.",
+        "add_message": "Ce lien pour ajouter votre méthode de paiement a expiré.",
+        "return_home_button": "Retour à la page d'accueil"
+      },
+      "update_success": {
+        "title": "Méthode de paiement mise à jour",
+        "done_button": "Continuer vos achats"
+      },
+      "add_success": {
+        "done_button": "Continuer vos achats"
+      },
+      "card_fields": {
+        "card_expiry_label": "Date d'expiration (MM / AA)",
+        "card_expiry_placeholder": "Date d'expiration (MM / AA)",
+        "card_start_label": "Date d'émission (MM / AA)",
+        "card_start_placeholder": "Date d'émission (MM / AA)",
+        "tooltip": {
+          "tooltip_accessibility_label": "Plus d'informations",
+          "card_verification_value_explanation_amex": "Code de sécurité à 4 chiffres au recto de votre carte",
+          "card_verification_value_explanation_other": "Code de sécurité à 3 chiffres au dos de votre carte",
+          "card_verification_value_explanation": "Code de sécurité à 3 chiffres généralement situé au dos de votre carte. Les cartes American Express possèdent un code à 4 chiffres situé sur le devant.",
+          "card_security_notice": "Toutes les transactions sont sûres et chiffrées."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Entrez votre nom exactement comme il est écrit sur votre carte",
+          "credit_card_expiry_invalid": "Entrez une date d'expiration de carte valide",
+          "credit_card_verification_value_blank": "Saisissez le CVV ou le code de sécurité de votre carte"
+        },
+        "unavailable": {
+          "link_text": "Rafraîchir cette page"
+        }
+      },
+      "payment_delete": {
+        "title": "Supprimer le mode de paiement",
+        "description_without_replacement": "Ce mode de paiement ne sera plus disponible pour les futurs achats.",
+        "description_with_replacement": "La suppression de ce mode de paiement affectera les paiements préautorisés. Vous pouvez éventuellement le remplacer par un autre mode de paiement pour continuer à recevoir les commandes à venir.",
+        "warning_message_with_replacement": {
+          "with_pending_orders_and_subscriptions": "La suppression de ce mode de paiement affectera les paiements préautorisés. À moins que vous ne choisissiez un autre mode de paiement, ce mode de paiement sera toujours débité pour tout solde impayé sur les commandes existantes. Choisir un autre mode de paiement vous permettra de recevoir les prochaines commandes d’abonnement sans interruption.",
+          "with_pending_orders": "Supprimer ce mode de paiement le retirera de votre compte et il ne sera plus disponible pour les achats futurs. À moins que vous ne choisissiez un autre mode de paiement, il sera toujours utilisé pour régler les soldes impayés des commandes en cours.",
+          "with_subscriptions": "La suppression de ce mode de paiement affectera les paiements préautorisés. Remplacez-le par un autre mode de paiement pour continuer à recevoir les commandes à venir."
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "La suppression de ce mode de paiement affectera les paiements préautorisés. Ce mode de paiement sera toujours débité pour tout solde impayé sur les commandes en cours, mais vous ne recevrez plus les prochaines commandes d’abonnement. Ajoutez un autre mode de paiement pour continuer à recevoir les commandes d’abonnement.",
+          "with_pending_orders": "Supprimer ce mode de paiement le retirera de votre compte et il ne sera plus disponible pour les achats futurs. Il sera toutefois toujours prélevé pour tout solde impayé sur les commandes en cours.",
+          "with_subscriptions": "La suppression de ce mode de paiement affectera les paiements préautorisés. Ajoutez un autre mode de paiement pour continuer à recevoir les commandes à venir."
+        },
+        "payment_method_selector_placeholder": "Sélectionnez un mode de paiement de remplacement (facultatif)",
+        "payment_method_selector_no_alternative_payment": "Aucune méthode de remplacement",
+        "error_when_deleting": "Nous sommes désolés, mais une erreur est survenue et nous n'avons pas pu supprimer ce mode de paiement. Veuillez réessayer plus tard ou actualiser la page.",
+        "deleted_successfully": "Méthode de paiement supprimée avec succès.",
+        "loading_available_payment_methods_accessibility_label": "Chargement des méthodes de paiement disponibles"
+      },
+      "add_payment_method": {
+        "title": "Ajouter un mode de paiement",
+        "missing_customer_error": "Une erreur s'est produite. Veuillez réessayer ou contacter le support.",
+        "replace_mode_warning": "La suppression de ce mode de paiement affectera les abonnements ou les précommandes. Remplacez-le par un mode de paiement alternatif pour continuer à recevoir les commandes à venir.",
+        "choose_from_list": "Choisissez dans la liste",
+        "add_new_button": "Ajouter nouveau",
+        "billing_address": {
+          "add_billing_address_button": "Ajouter nouveau",
+          "add_billing_address_button_accessibility_label": "Ajouter une nouvelle adresse de facturation",
+          "choose_billing_address_from_list_button": "Choisissez dans la liste",
+          "choose_billing_address_from_list_button_accessibility_label": "Choisissez une adresse de facturation dans la liste",
+          "missing_billing_address_error_message": "Veuillez indiquer une adresse de facturation",
+          "default_checkbox": "Définir comme méthode de paiement par défaut"
+        },
+        "subscription_contracts": {
+          "title": "Utiliser le mode de paiement pour les commandes récurrentes",
+          "more_items": {
+            "one": "{{count}} produit supplémentaire",
+            "other": "{{count}} produits supplémentaires"
+          },
+          "product_count": {
+            "one": "{{count}} produit",
+            "other": "{{count}} produits"
+          }
+        },
+        "updating_contracts": {
+          "one": "Mise à jour de {{count}} contrat d'abonnement...",
+          "other": "Mise à jour de {{count}} contrats d'abonnement..."
+        },
+        "contracts_updated": {
+          "one": "Contrat d'abonnement mis à jour avec succès pour {{count}}",
+          "other": "{{count}} contrats d'abonnement mis à jour avec succès"
+        },
+        "contracts_update_failed": "Échec de la mise à jour de certains contrats d'abonnement",
+        "subscription_contracts_updated": "Mise à jour de {{succeeded}} abonnements sur {{total}}",
+        "invalid_wallet_type_error": "Type de portefeuille invalide."
+      },
+      "three_d_secure": {
+        "title": "3D Sécurisé",
+        "verification_failed": "Votre paiement n'a pas pu être vérifié. Réessayez ou utilisez un autre mode de paiement."
       }
+    },
+    "payment_method_brands": {
+      "mastercard": "Carte Mastercard",
+      "discover": "Découvrir",
+      "dinersclub": "Club des Dîners",
+      "elo": "Élo",
+      "visaelectron": "Visa Électron",
+      "maestro": "Maître",
+      "forbrugsforeningen": "Association de consommation",
+      "hipercard": "Hipercarte",
+      "unionpay": "UnionPay",
+      "shoppay": "Boutique Pay",
+      "applepay": "Paiement Apple",
+      "googlepay": "Paiement Google",
+      "bogus": "Faux"
+    },
+    "privacy_banner": {
+      "cookie_preferences_link": "Préférences des cookies"
+    },
+    "ui_components": {
+      "clear": "Clair",
+      "clipboardFailedToCopy": "Échec de la copie",
+      "processing": "Traitement…"
     }
   }
 }
