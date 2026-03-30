@@ -2458,11 +2458,79 @@
               "fi": "Inserisci un numero di partita IVA finlandese valido",
               "fr": "Inserisci un numero di partita IVA francese valido",
               "de": "Inserisci un numero di partita IVA tedesco valido",
-              "gr": "Inserisci un numero di partita IVA valido della Grecia"
+              "gr": "Inserisci un numero di partita IVA valido della Grecia",
+              "hu": "Inserisci un numero di partita IVA ungherese valido",
+              "ie": "Inserisci un numero di partita IVA irlandese valido",
+              "it": "Inserisci un numero di partita IVA valido per l'Italia",
+              "lv": "Inserisci un numero di partita IVA valido della Lettonia",
+              "lt": "Inserisci un numero di partita IVA lituano valido",
+              "lu": "Inserisci un numero di partita IVA del Lussemburgo valido",
+              "mt": "Inserisci un numero di partita IVA maltese valido",
+              "nl": "Inserisci un numero di partita IVA valido dei Paesi Bassi",
+              "pl": "Inserisci un numero di partita IVA valido della Polonia",
+              "pt": "Inserisci un numero di partita IVA valido per il Portogallo",
+              "ro": "Inserisci un numero di partita IVA valido della Romania",
+              "sk": "Inserisci un numero di partita IVA valido della Slovacchia",
+              "si": "Inserisci un numero di partita IVA sloveno valido",
+              "es": "Inserisci un numero di partita IVA spagnolo valido",
+              "se": "Inserisci un numero di partita IVA svedese valido",
+              "gb": "Inserisci un numero di partita IVA valido del Regno Unito"
+            }
+          },
+          "accessibility": {
+            "status": {
+              "validating": "La verifica del numero di partita IVA è in corso",
+              "valid": "Il numero di partita IVA è valido"
             }
           }
         }
       }
+    },
+    "pagination": {
+      "next": "Avanti"
+    },
+    "links": {
+      "powered_by_shopify": "Alimentato da Shopify",
+      "learn_more": "Scopri di più"
+    },
+    "attributes": {
+      "email": "posta elettronica",
+      "password": "parola d'ordine",
+      "body": "corpo"
+    },
+    "addresses": {
+      "zip_code": "Codice postale",
+      "postal_code": "Codice postale",
+      "pincode": "Codice PIN",
+      "region": "Regione"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "In evidenza",
+        "best_selling": "I più venduti",
+        "price_ascending": "Prezzo, dal più basso al più alto",
+        "price_descending": "Prezzo, da alto a basso",
+        "date_ascending": "Data, dal più vecchio al più nuovo",
+        "date_descending": "Data, dal più recente al più vecchio"
+      }
+    },
+    "errors": {
+      "blank": "non può essere vuoto",
+      "credit_card_session_expired": "L'autorizzazione della carta di credito è scaduta, per favore inserisci nuovamente le tue informazioni di pagamento. La tua carta non è stata addebitata.",
+      "empty": "non può essere vuoto",
+      "invalid_email": "deve essere un indirizzo email valido",
+      "discount_disabled": "Questo sconto è stato disattivato",
+      "discount_expired": "Questo sconto non è più valido",
+      "discount_limit_reached": "Questo sconto ha raggiunto il suo limite di utilizzo",
+      "customer_already_used_once_per_customer_discount_notice": "Questo sconto ha raggiunto il suo limite di utilizzo",
+      "gift_card_already_applied": "Il codice è già stato applicato al tuo checkout",
+      "gift_card_code_invalid": "Il codice non è valido",
+      "gift_card_currency_mismatch": "La tua carta regalo è in %{gift_card_currency}. Contattaci per farla riemettere in %{checkout_currency}.",
+      "gift_card_depleted": "Non ci sono più fondi su questa carta regalo",
+      "gift_card_disabled": "La carta regalo è disabilitata",
+      "gift_card_expired": "La carta regalo è scaduta",
+      "taken": "è già stato preso",
+      "too_short": "è troppo corto (il minimo è %{count} caratteri)"
     }
   }
 }
