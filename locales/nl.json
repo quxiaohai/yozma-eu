@@ -3296,7 +3296,81 @@
     "address_form": {
       "attention": "Let op",
       "attention_company": "Bedrijf/aandacht",
-      "attention_help_text": "De naam van een persoon of afdeling"
+      "attention_help_text": "De naam van een persoon of afdeling",
+      "cancel_accessibility_label": "Bewerken van adres {{address}} annuleren",
+      "loading_add_form_accessibility_message": "Nieuw adresformulier laden",
+      "loading_edit_form_accessibility_message": "Adresbewerkingsformulier laden",
+      "loading_form_accessibility_message": "Adresformulier laden",
+      "loading_finished_accessibility_message": "Adresformulier is geladen"
+    },
+    "account_menu": {
+      "signed_out_state": {
+        "use_email_button": "Gebruik in plaats daarvan e-mail",
+        "shop_login_button": "Aanmelden met Shop"
+      },
+      "signed_in_state": {
+        "greeting_with_name": "Hoi, {{first_name}}",
+        "greeting_without_name": "Rekening"
+      },
+      "aria_labels": {
+        "close_menu": "Sluit menu",
+        "back_to_main_menu": "Terug naar hoofdmenu van {{title}}",
+        "open_submenu": "{{title}}, submenu openen",
+        "account": "Rekening"
+      }
+    },
+    "B2B": {
+      "locations": {
+        "contact_email": "E-mail",
+        "contact_permissions": "Toestemmingen",
+        "deposit_percentage": "{{percentage}} aanbetaling",
+        "permissions_label": "Uw toestemmingen",
+        "permissions_title": "Toestemmingen",
+        "shipping_address_required": "Voeg een verzendadres toe aan deze locatie om bestellingen te plaatsen.",
+        "staff_and_permissions_title": "Personeel en toestemmingen",
+        "tax_id": "Belastingnummer",
+        "multiple_tax_exemptions": "{{taxExemptionsCount}} meer",
+        "tax_exemption_not_applicable": "N.v.t.",
+        "tax_exemptions_modal_button_accessibility_label": "Bekijk alle belastingvrijstellingen"
+      },
+      "location_selection": {
+        "description": "Als u al artikelen in uw winkelwagen heeft, kan het wijzigen van de locatie invloed hebben op de prijzen en aantallen in de winkelwagen.",
+        "list_accessibility_label": "Lijst met locaties",
+        "list_item_without_address_accessibility_label": "{{name}}: Geen adres",
+        "list_loading_accessibility_message": "Lijst met locaties laden",
+        "list_loading_address_accessibility_message": "Adres laden voor {{locationName}}",
+        "list_loading_finished_accessibility_message": "Lijst met locaties is geladen",
+        "loading_store_accessibility_message": "Naar de winkel gaan",
+        "no_location_description": "Je hebt geen toestemming meer om bestellingen te plaatsen voor {{company}}. Je kunt nog wel persoonlijke bestellingen plaatsen.",
+        "search": "Zoek locaties",
+        "selection_confirmation_button": "Kies locatie",
+        "title": "Voor welke locatie koopt u?",
+        "clear_search": "Zoekopdracht wissen"
+      },
+      "addresses": {
+        "add_shipping_address_button": "Voeg verzendadres toe",
+        "add_shipping_address_section_accessibility_label": "Voeg verzendadres toe",
+        "cancel_adding_billing_address_accessibility_label": "Annuleren van het toevoegen van het factuuradres",
+        "cancel_adding_shipping_address_accessibility_label": "Annuleren van het toevoegen van het verzendadres",
+        "save_new_billing_address_accessibility_label": "Adres voor facturering opslaan",
+        "save_new_shipping_address_accessibility_label": "Adres voor verzending opslaan",
+        "shipping_address_card_title": "Verzendadres"
+      },
+      "orders": {
+        "draft_order_list": {
+          "show_all": "Alles tonen",
+          "hide_all_accessibility_label": "Verberg alle bestellingen in beoordeling",
+          "show_all_accessibility_label": "Toon alle bestellingen in beoordeling",
+          "show_all_orders_in_review": "Toon alle bestellingen in beoordeling",
+          "show_less_orders_in_review": "Toon minder bestellingen in beoordeling",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "Je hebt geen openstaande bestellingen",
+            "pending_orders": {
+              "one": "Je hebt {{count}} openstaande bestelling"
+            }
+          }
+        }
+      }
     }
   }
 }
