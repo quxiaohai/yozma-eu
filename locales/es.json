@@ -1893,7 +1893,279 @@
         "custom_line_item_description": "Cantidad a pagar por el pedido %{order_name}",
         "changes_summary": {
           "added": {
-            "one": "Añadido"
+            "one": "Añadido",
+            "other": "Añadido %{count}"
+          },
+          "removed": "Eliminado",
+          "subtracted": "Eliminado %{count}",
+          "returned": "Devuelto %{count}",
+          "return_line_item_removed": "Eliminado %{count} de la devolución"
+        },
+        "checkout_review_and_pay": "Su pedido %{order_name} fue actualizado. Revise estos cambios y luego pague para confirmar su pedido.",
+        "order_updated_on": "Su pedido fue actualizado el %{last_edited_at}.",
+        "order_review_and_pay": "Su pedido fue actualizado. Revíselo y pague para confirmar su pedido."
+      },
+      "change_currency": {
+        "credit_card_will_be_charged_html": "Su tarjeta de crédito será cargada con %{amount}",
+        "change_currency_link": "Cambiar a %{currency_name}",
+        "card_provider_fx_charges_warning": "Su proveedor de tarjeta puede cobrar tarifas en transacciones de %{currency_code}.",
+        "currency_not_supported_by_shop": "La moneda que seleccionaste ya no está disponible. Todos los precios ahora están en %{currency_code}."
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Tu carrito ha sido actualizado según tu país de envío.",
+        "cart_and_currency_updated_based_on_country": "Tu carrito y la moneda se han actualizado según tu país de envío."
+      },
+      "change_cart_localization": {
+        "verify_shipping_address": "Su país/región ha sido actualizado. Ingrese su dirección de envío para continuar con la compra."
+      },
+      "tips": {
+        "description": "Muestra tu apoyo al equipo en %{shop_name}",
+        "presets_description": "Seleccione un porcentaje de propina",
+        "custom_label": "Consejo personalizado",
+        "update_tip": "Actualizar consejo",
+        "message": "Gracias, lo apreciamos."
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "one": "Compra %{product_name} y %{count} otro artículo",
+          "other": "Compra %{product_name} y %{count} otros artículos"
+        }
+      },
+      "subscriptions": {
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "other": "Primeros %{count} pagos de %{total_price} cada uno"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "page_title": "Métodos de pago",
+        "title": "Métodos de pago",
+        "delete_customer_mandate": {
+          "generic_error": "Hubo un problema al procesar su solicitud.",
+          "success_message": "Su método de pago ha sido eliminado con éxito"
+        }
+      },
+      "throttle": {
+        "too_many_attempts": {
+          "message": "Demasiados intentos",
+          "description": "Inténtalo de nuevo en unos minutos"
+        },
+        "line_to_check_out": "Estás en la fila para pagar",
+        "inventory": {
+          "partial_inventory_banner": "Parte de los artículos en tu carrito está agotada y no estará disponible para comprar al finalizar la compra.",
+          "sold_out": {
+            "heading": "Tu carrito está agotado",
+            "storefront_body": "Regresa a la tienda para seguir comprando",
+            "no_storefront_body": "Lamentablemente, el artículo que desea comprar ya no está disponible."
+          }
+        },
+        "title": "Cola",
+        "estimated_wait_time": {
+          "calculating": "Calculando el tiempo de espera estimado",
+          "less_than_one": "Tiempo de espera estimado: Menos de un minuto"
+        },
+        "last_checked": "(Ultima revisión: {{time}})",
+        "footer": {
+          "heading": "No actualice esta página, se actualizará automáticamente.",
+          "body": "Los artículos en su carrito no están reservados hasta que complete la compra."
+        }
+      },
+      "cart_checkout_validation": {
+        "runtime_error": "Hubo un problema al procesar su solicitud. Contacte al propietario de la tienda."
+      },
+      "no_address_location": {
+        "title": "Ubicación sin dirección",
+        "header": "No tienes una dirección de envío para esta ubicación",
+        "alt_header": "Dirección de envío faltante",
+        "message": "Contáctanos para agregar una dirección para esta ubicación y completar la compra."
+      },
+      "order_errors": {
+        "creation_failure": "Hubo un problema al crear su pedido. Inténtelo de nuevo o contáctenos para más detalles.",
+        "network_failure": "No se pudo enviar su pedido debido a un error de red. Verifique su conexión y vuelva a intentarlo."
+      },
+      "session_errors": {
+        "session_not_unique": "Hubo un problema al procesar su pedido. Actualice esta página para volver a la tienda.",
+        "session_already_finished": "Este pedido ya ha sido enviado. Puede regresar a la tienda para iniciar un nuevo pedido."
+      },
+      "artifact_errors": {
+        "artifact_dissatisfaction_without_violation": "Hubo un problema al procesar su pedido. Intente de nuevo en unos minutos."
+      },
+      "pickup_point": {
+        "business_hours": "Horario de atención",
+        "no_business_hours": "No hay horarios de apertura disponibles",
+        "open_twenty_four_hours": "Abierto las 24 horas, los 7 días de la semana",
+        "title": "Punto de recogida",
+        "search_button": "Buscar",
+        "selector_tabs": "Selector de punto de recogida",
+        "could_not_resolve_address": "No se pudo localizar su dirección. Intente de nuevo o use una dirección diferente",
+        "no_pickup_points_near_you": "No se encontraron puntos de recogida cerca de la dirección seleccionada",
+        "no_pickup_points_near_location": "No se encontraron puntos de recogida cerca de su ubicación",
+        "pickup_unavailable_banner_title": {
+          "one": "No hay puntos de recogida disponibles para su artículo"
+        },
+        "no_pickup_points_found": "No se encontraron puntos de recogida",
+        "paginator": {
+          "previous_accessibility_label": "Página anterior"
+        },
+        "number_of_pickup_points_near_location": {
+          "one": "%{count} punto de recogida cerca de tu ubicación",
+          "other": "%{count} puntos de recogida cerca de tu ubicación"
+        },
+        "waiting_on_pickup_point_location_notice": "Buscando puntos de recogida...",
+        "geolocation": {
+          "errors": {
+            "unsuported_by_browser": "La obtención de la geolocalización no es compatible con su navegador. Intente de nuevo o use un navegador diferente.",
+            "permission_not_allowed": "Permitir compartir tu ubicación.",
+            "permission_denied": "No se pudo obtener tu ubicación. Inténtalo de nuevo."
+          }
+        }
+      },
+      "error_page": {
+        "terminal": {
+          "title": "Hubo un problema con nuestro proceso de pago",
+          "message": "Actualice esta página o intente de nuevo en unos minutos",
+          "action": {
+            "cta": "Actualizar página"
+          },
+          "request_id": "ID de solicitud: {{requestId}}"
+        },
+        "embed_errors": {
+          "customer_account_required": "Se requiere una cuenta de cliente para completar la compra",
+          "cart_completed": "Esta compra ya ha sido completada",
+          "not_authorized": "La autenticación de pago falló. Verifique las credenciales de su aplicación",
+          "killswitch_enabled": "El pago está temporalmente no disponible",
+          "policy_violation": "No se pudo completar la compra debido a restricciones en la configuración de la política",
+          "unrecoverable_failure": "No se puede cargar el pago. Inténtalo de nuevo"
+        }
+      },
+      "notice_banner": {
+        "return_to_cart_to_update_quantities": "%{return_to_cart_link_text} para actualizar las cantidades",
+        "subscription_changed": "Uno de tus suscripciones ha cambiado.",
+        "company_location_changed": "Tu carrito ha sido actualizado. Revisa tu pedido antes de enviarlo.",
+        "company_location_changed_product_removed": "Tu carrito ha sido actualizado porque algunos productos no están disponibles en esta ubicación. Revisa tu pedido antes de enviarlo.",
+        "violations_title": "{{violation}} falta o es inválido",
+        "individual_violations_title": {
+          "OtherViolations": "Información del pedido"
+        },
+        "all_violations_content": "Llámanos o {{emailLink}} para actualizar esta información y completar tu pedido:",
+        "all_violations_email_link": "correo electrónico",
+        "editable_shipping_address_violations_message_footer": "Para actualizar permanentemente la dirección de esta ubicación, {{emailLink}}.",
+        "editable_shipping_address_violations_email_link": "contáctanos",
+        "calculating_shipping": "El envío aún se está calculando. Inténtalo de nuevo en unos segundos. No se te ha cobrado.",
+        "calculating_taxes": "Los impuestos aún se están calculando. Inténtalo de nuevo en unos segundos. No se te ha cobrado.",
+        "generic_processing_error": {
+          "title": "Hubo un problema al procesar su pedido",
+          "body": "No se ha realizado ningún cargo. Intenta de nuevo o utiliza otro método de pago."
+        },
+        "payment_method_not_available_with_payment_terms": "El método de pago que seleccionaste ya no está disponible porque el pago de este pedido ahora es bajo los términos {{paymentTerms}}.",
+        "payment_method_not_available_with_fulfillment_terms": "El método de pago que seleccionaste ya no está disponible porque el pago de este pedido ahora se debe realizar al momento de la entrega",
+        "payment_method_not_available_with_fixed_terms": "El método de pago que seleccionaste ya no está disponible porque el pago de este pedido se debe realizar más adelante",
+        "payment_method_not_available_with_review_requirement": "El método de pago que seleccionaste ya no está disponible porque el pago se realizará una vez que tu pedido sea confirmado.",
+        "contact_information": {
+          "header": "Para actualizar su información, {{emailLink}}.",
+          "email_link": "contáctanos"
+        }
+      },
+      "review_address_modal": {
+        "title": "Dirección de revisión",
+        "subtitle": {
+          "one": "Este pedido será enviado a la dirección proporcionada por {{merchant}}.",
+          "other": "Este pedido será enviado a una dirección proporcionada por {{merchant}}. Seleccione una dirección de envío."
+        },
+        "subtitle_must_use": "Su pedido será enviado a esta dirección."
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "Reseña",
+          "link_label": "Términos y Condiciones de {{partnerDisplayName}}"
+        }
+      },
+      "online_store_chat": {
+        "title": "¿Preguntas? Chatea con nosotros"
+      },
+      "local_pickup": {
+        "title": "Ubicación",
+        "location_closest": "Ubicación más cercana con su artículo",
+        "location_information": {
+          "one": "Hay %{count} ubicación con stock cerca de ti",
+          "other": "Hay %{count} ubicaciones con stock cerca de ti"
+        },
+        "location_information_far_away": {
+          "one": "Hay %{count} ubicación con su artículo",
+          "other": "Hay %{count} ubicaciones con tu artículo"
+        },
+        "location_nearby": {
+          "one": "Hay %{count} ubicación cercana con su artículo",
+          "other": "Hay %{count} ubicaciones cercanas con tu artículo"
+        },
+        "location_nearby_short": {
+          "one": "%{count} ubicación cercana con tu artículo",
+          "other": "%{count} ubicaciones cercanas con tu artículo"
+        },
+        "location_far_away": {
+          "one": "%{count} ubicación con tu artículo",
+          "other": "%{count} ubicaciones con tu artículo"
+        },
+        "toggle_location": "Cambiar ubicación",
+        "toggle_more_locations": {
+          "one": "%{count} ubicación más",
+          "other": "%{count} ubicaciones más"
+        },
+        "toggle_multiple_locations": "%{count}+ ubicaciones más",
+        "or": "O\n\no",
+        "search_button": "Encontrar tiendas",
+        "all_stores_far_away": {
+          "title": "Las ubicaciones más cercanas están a más de %{distance} de distancia",
+          "title_with_item": {
+            "one": "La ubicación más cercana con su artículo está a más de %{distance} de %{location}",
+            "other": "La ubicación más cercana con tus artículos está a más de %{distance} de %{location}"
+          },
+          "title_with_specific_location": "La ubicación más cercana con su artículo está a más de %{distance} de %{location}",
+          "description": "Seleccione una ubicación o %{ship_to_address_link}",
+          "change_location_link": "Cambiar tu ubicación"
+        },
+        "selected_pickup_option_no_longer_available": {
+          "title": "La ubicación que seleccionaste anteriormente ya no está disponible",
+          "description": "Seleccione una nueva ubicación o %{ship_to_address_link}",
+          "ship_to_address_link": "enviar a la dirección"
+        },
+        "could_not_resolve_address": "No se pudo localizar su dirección. Intente de nuevo o use una dirección diferente",
+        "paginator": {
+          "accessibility_label": "Paginación de recogida local",
+          "previous": "Página anterior"
+        },
+        "reveal_more_label": {
+          "one": "Mostrar %{count} ubicaciones más",
+          "other": "Mostrar %{count} ubicaciones más"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "No hay ubicaciones con su artículo",
+          "other": "No hay ubicaciones con tus artículos"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "No hay ubicaciones en %{country} con tu artículo",
+          "other": "No hay ubicaciones en %{country} con tus artículos"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_items": "Envíe sus artículos",
+          "search_elsewhere": "buscar en otro lugar"
+        }
+      },
+      "split_delivery": {
+        "pickup_all_items": "Recoger todos los artículos",
+        "items_for_pickup": "Artículos para recoger",
+        "delivery_method": "Método de entrega dividida",
+        "delivery_method_menu": "Menú de método de entrega dividida",
+        "inventory_issue_banner": {
+          "heading": {
+            "cannot_be_picked_up": {
+              "one": "No se puede recoger %{count} artículo",
+              "other": "No se pueden recoger %{count} artículos"
+            },
+            "cannot_be_shipped": {
+              "one": "No se puede enviar %{count} artículo"
+            }
           }
         }
       }
