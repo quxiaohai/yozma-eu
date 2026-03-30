@@ -3275,8 +3275,158 @@
       },
       "edit_payment_method": {
         "title": "Modifica metodo di pagamento",
-        "billing_address_choose_from_list": "Scegli dalla lista"
+        "billing_address_choose_from_list": "Scegli dalla lista",
+        "future_purchases_notice": "Questo metodo di pagamento sarà salvato per acquisti futuri.",
+        "generic_error": "Si è verificato un problema durante l'aggiornamento. Per favore riprova."
+      },
+      "update_payment_method": {
+        "disclaimer": "Questo metodo di pagamento sarà salvato per acquisti futuri e potrà essere utilizzato per qualsiasi acquisto ricorrente o differito.",
+        "pre_orders_list_accessibility_label": "Elenco dei prodotti in ordine in sospeso",
+        "resources_list_accessibility_label": "Prodotti in abbonamento e prodotti in attesa d'ordine che utilizzano questo metodo di pagamento",
+        "resources_card_scroll": "Scorri per altri articoli",
+        "resources_card_show_less": "Mostra meno",
+        "loading_current_payment_method": "Caricamento del metodo di pagamento attuale"
+      },
+      "link_expired": {
+        "message": "Questo collegamento per aggiornare il metodo di pagamento è scaduto.",
+        "update_message": "Questo collegamento per aggiornare il metodo di pagamento è scaduto.",
+        "add_message": "Questo collegamento per aggiungere il tuo metodo di pagamento è scaduto.",
+        "return_home_button": "Torna alla pagina principale"
+      },
+      "update_success": {
+        "done_button": "Continua a fare acquisti"
+      },
+      "add_success": {
+        "done_button": "Continua a fare acquisti"
+      },
+      "card_fields": {
+        "card_number_label": "Numero della carta",
+        "card_number_placeholder": "Numero della carta",
+        "card_expiry_label": "Data di scadenza (MM / AA)",
+        "card_expiry_placeholder": "Data di scadenza (MM / AA)",
+        "card_start_label": "Data di emissione (MM / AA)",
+        "card_start_placeholder": "Data di emissione (MM / AA)",
+        "tooltip": {
+          "tooltip_accessibility_label": "Ulteriori informazioni",
+          "card_verification_value_explanation_amex": "Codice di sicurezza a 4 cifre sul fronte della tua carta",
+          "card_verification_value_explanation_other": "Codice di sicurezza a 3 cifre sul retro della tua carta",
+          "card_verification_value_explanation": "Codice di sicurezza a 3 cifre solitamente presente sul retro della tua carta. Le carte American Express hanno un codice a 4 cifre situato sul davanti.",
+          "card_security_notice": "Tutte le transazioni sono sicure e criptate."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Inserisci il tuo nome esattamente come è scritto sulla tua carta",
+          "credit_card_expiry_invalid": "Inserisci una data di scadenza della carta valida",
+          "credit_card_verification_value_blank": "Inserisci il CVV o il codice di sicurezza della tua carta"
+        },
+        "unavailable": {
+          "text": "I pagamenti con carta di credito e debito non sono disponibili al momento."
+        }
+      },
+      "payment_delete": {
+        "description_without_replacement": "Questo metodo di pagamento non sarà più disponibile per acquisti futuri.",
+        "description_with_replacement": "Eliminare questo metodo di pagamento influirà sui pagamenti preautorizzati. Puoi opzionalmente sostituirlo con un altro metodo di pagamento per continuare a ricevere gli ordini futuri.",
+        "warning_message_with_replacement": {
+          "with_pending_orders_and_subscriptions": "Eliminare questo metodo di pagamento influirà sui pagamenti preautorizzati. A meno che non selezioni un metodo di pagamento alternativo, questo metodo verrà comunque addebitato per eventuali saldi in sospeso sugli ordini esistenti. Selezionare un metodo di pagamento alternativo ti permetterà di ricevere gli ordini di abbonamento futuri senza interruzioni.",
+          "with_pending_orders": "Eliminare questo metodo di pagamento lo rimuoverà dal tuo account e non sarà più disponibile per acquisti futuri. A meno che tu non selezioni un metodo di pagamento alternativo, verrà comunque addebitato per eventuali saldi in sospeso su ordini esistenti.",
+          "with_subscriptions": "Eliminare questo metodo di pagamento influenzerà i pagamenti preautorizzati. Sostituiscilo con un metodo di pagamento alternativo per continuare a ricevere gli ordini futuri."
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "Eliminare questo metodo di pagamento influenzerà i pagamenti preautorizzati. Questo metodo di pagamento verrà comunque addebitato per eventuali saldi in sospeso su ordini esistenti, ma non riceverai ordini di abbonamento futuri. Aggiungi un metodo di pagamento alternativo per continuare a ricevere ordini di abbonamento.",
+          "with_pending_orders": "Eliminare questo metodo di pagamento lo rimuoverà dal tuo account e non sarà più disponibile per acquisti futuri. Sarà comunque addebitato per eventuali saldi in sospeso su ordini esistenti.",
+          "with_subscriptions": "Eliminare questo metodo di pagamento influirà sui pagamenti preautorizzati. Aggiungi un metodo di pagamento alternativo per continuare a ricevere gli ordini futuri."
+        },
+        "payment_method_selector_no_alternative_payment": "Nessun metodo di sostituzione",
+        "replace_method_with_new_method_description": "Il tuo {{currentPaymentMethodName}} sarà eliminato e sostituito con il tuo {{newPaymentMethodName}}.",
+        "error_when_deleting": "Ci scusiamo, ma si è verificato un errore e non siamo riusciti a eliminare questo metodo di pagamento. Ti preghiamo di riprovare più tardi o di aggiornare la pagina.",
+        "delete_and_replace_button_accessibility_label": "Elimina {{currentPaymentMethodName}} e sostituiscilo con {{newPaymentMethodName}}.",
+        "deleted_successfully": "Metodo di pagamento eliminato con successo.",
+        "loading_available_payment_methods_accessibility_label": "Caricamento dei metodi di pagamento disponibili"
+      },
+      "add_payment_method": {
+        "missing_customer_error": "Qualcosa è andato storto. Per favore riprova o contatta l'assistenza.",
+        "replace_mode_warning": "Eliminare questo metodo di pagamento influenzerà gli abbonamenti o i preordini. Sostituiscilo con un metodo di pagamento alternativo per continuare a ricevere gli ordini futuri.",
+        "choose_from_list": "Scegli dalla lista",
+        "billing_address": {
+          "choose_billing_address_from_list_button": "Scegli dalla lista",
+          "choose_billing_address_from_list_button_accessibility_label": "Scegli un indirizzo di fatturazione dall'elenco",
+          "missing_billing_address_error_message": "Si prega di specificare un indirizzo di fatturazione"
+        },
+        "subscription_contracts": {
+          "title": "Utilizza il metodo di pagamento per ordini ricorrenti",
+          "more_items": {
+            "one": "{{count}} prodotto in più",
+            "other": "{{count}} prodotti in più"
+          },
+          "product_details": "Dettagli del prodotto",
+          "load_more": "Carica altri"
+        },
+        "contracts_updated": {
+          "one": "Contratto di abbonamento aggiornato con successo per {{count}}",
+          "other": "Contratti di abbonamento aggiornati con successo: {{count}}"
+        },
+        "contracts_update_failed": "Impossibile aggiornare alcuni contratti di abbonamento",
+        "subscription_contracts_updated": "Aggiornate {{succeeded}} di {{total}} iscrizioni",
+        "invalid_wallet_type_error": "Tipo di portafoglio non valido."
+      },
+      "three_d_secure": {
+        "title": "3D Sicuro",
+        "verification_failed": "Il tuo pagamento non può essere verificato. Riprova o utilizza un metodo di pagamento diverso."
       }
+    },
+    "payment_method_brands": {
+      "visa": "Visto",
+      "discover": "Scopri",
+      "dinersclub": "Club dei Ristoratori",
+      "forbrugsforeningen": "Associazione dei consumatori",
+      "hipercard": "Carta Iper",
+      "shoppay": "Pagamento Shop",
+      "bogus": "Falso"
+    },
+    "privacy_banner": {
+      "cookie_preferences_link": "Preferenze dei cookie"
+    },
+    "ui_components": {
+      "clipboardFailedToCopy": "Copia non riuscita",
+      "expandNotification": "Vedi di più",
+      "processing": "Elaborazione…",
+      "monday": "Lunedì",
+      "tuesday": "Martedì",
+      "wednesday": "Mercoledì",
+      "thursday": "Giovedì",
+      "friday": "Venerdì",
+      "saturday": "Sabato",
+      "sunday": "Domenica",
+      "mondayAbbreviation": "Mo",
+      "tuesdayAbbreviation": "Tu",
+      "wednesdayAbbreviation": "Noi",
+      "thursdayAbbreviation": "Th",
+      "saturdayAbbreviation": "Sa",
+      "sundayAbbreviation": "Su",
+      "inRange": "Nel raggio",
+      "rangeEnd": "Fine gamma",
+      "removeTag": "Rimuovi etichetta",
+      "mapClusterTitle": {
+        "one": "Gruppo di {{number}} marker",
+        "other": "Gruppo di {{number}} indicatori"
+      },
+      "qrCode": "Codice QR"
+    },
+    "profile_preview_bar": {
+      "navigate_to_admin": "Vai all'amministrazione",
+      "previewing": "Stai visualizzando l'anteprima:",
+      "saved_at": "Salvato il {{date}} alle {{time}}",
+      "not_available": "Dati del profilo non disponibili"
+    },
+    "active_inspector": {
+      "extension": {
+        "select": "Seleziona l'estensione chiamata {{extensionName}}",
+        "unselect": "Deseleziona l'estensione chiamata {{extensionName}}",
+        "remove": "Rimuovi estensione",
+        "move_up_tooltip": "Torna alla posizione precedente"
+      }
+    },
+    "editor": {
+      "link_new_tab_confirmation": "Questo link non può essere aperto all'interno dell'editor. Verrà aperto in una nuova finestra ({{resolved_to_link}}). Clicca OK per continuare."
     }
   }
 }
