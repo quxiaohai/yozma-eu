@@ -357,12 +357,12 @@
             "mb_media_ratio": "",
             "show_subhead": true,
             "subhead": "",
-            "subhead_color": "#FF0000",
+            "subhead_color": "#ff0000",
             "head": "EU Countries We Ship to",
             "head_color": "#ff0000",
             "head_gradient_color": "",
             "text": "<p>We ship from our warehouse in <strong>Germany or Italy</strong> to the following 25 countries:<br/>Austria, Belgium, Bulgaria, Croatia, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Italy, Ireland, Latvia, Lithuania, Luxembourg, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden.</p>",
-            "text_color": "#B2B2B2",
+            "text_color": "#b2b2b2",
             "text_bold_color": "#ff0000"
           }
         }
@@ -372,7 +372,7 @@
       ],
       "name": "MC Media Text",
       "settings": {
-        "page_color": "",
+        "page_color": "#ffffff",
         "show_title": false,
         "title": "",
         "title_style": "normal",
