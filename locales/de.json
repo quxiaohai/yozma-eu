@@ -1738,7 +1738,15 @@
         "payment_method_not_applicable": "Diese Zahlungsmethode ist nicht anwendbar. Verwenden Sie eine andere Zahlungsmethode.",
         "card_declined": "Ihre Karte wurde abgelehnt. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
         "processing_error": "Bei der Verarbeitung Ihrer Zahlung ist ein Problem aufgetreten. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
-        "processing_error_checkout_as_guest": "Bei der Verarbeitung Ihrer Zahlung ist ein Problem aufgetreten. Versuchen Sie es erneut mit einer anderen Zahlungsmethode oder {{checkout_as_guest_link}}."
+        "processing_error_checkout_as_guest": "Bei der Verarbeitung Ihrer Zahlung ist ein Problem aufgetreten. Versuchen Sie es erneut mit einer anderen Zahlungsmethode oder {{checkout_as_guest_link}}.",
+        "selected_payment_method": "Es gab ein Problem mit Ihrer gewählten Zahlungsmethode und Ihnen wurde nichts berechnet. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
+        "payment_method_billing_address": "Es gab ein Problem mit der Rechnungsadresse Ihrer gewählten Zahlungsmethode. Überprüfen Sie die Adresse und versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
+        "call_issuer": "Ihre Karte wurde abgelehnt. Verwenden Sie eine andere Zahlungsmethode oder wenden Sie sich für weitere Informationen an Ihre Bank.",
+        "test_mode_live_card": "Dieser Laden kann keine echten Bestellungen oder Zahlungen annehmen.",
+        "transient_error": "Bei der Verarbeitung Ihrer Zahlung ist ein Problem aufgetreten. Versuchen Sie, diese Seite zu aktualisieren, oder überprüfen Sie Ihre Internetverbindung.",
+        "missing_shipping_address": "Ihre Zahlung konnte nicht bearbeitet werden, da Ihre Lieferadresse fehlt. Fügen Sie eine Lieferadresse hinzu und versuchen Sie es erneut.",
+        "invalid_shipping_address": "Ihre Zahlung konnte nicht bearbeitet werden, da wir Ihre Lieferadresse nicht finden konnten. Überprüfen Sie Ihre Lieferadresse und versuchen Sie es erneut.",
+        "successful_offsite_with_gift_card_error": "Bei der Verarbeitung Ihrer Geschenkkarten-Zahlung ist ein Problem aufgetreten. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode."
       },
       "shipping_errors": {
         "shipping_method": "Die Versandoptionen für Ihre Bestellung haben sich geändert. Überprüfen Sie Ihre Auswahl.",
@@ -1798,13 +1806,13 @@
         "action_required": "Handlung erforderlich"
       },
       "payment_challenge_modal": {
-        "instructions": "Vervollständigen Sie Ihren Kauf mit Ihrem {{paymentMethod}}-Code",
+        "instructions": "Schließen Sie Ihren Kauf mit Ihrem {{paymentMethod}}-Code ab",
         "timer_message": "Sie haben {{timeLeft}}, um zu bezahlen",
-        "copy_text": "Kopiere {{paymentMethod}}-Code",
+        "copy_text": "{{paymentMethod}}-Code kopieren",
         "open_app_text": "Öffne die {{paymentMethod}} App",
         "header": "Bezahlen mit {{paymentMethod}}",
         "qr_code": {
-          "instructions": "Vervollständigen Sie Ihren Kauf mit Ihrem {{paymentMethod}}-Code"
+          "instructions": "Schließen Sie Ihren Kauf mit Ihrem {{paymentMethod}}-Code ab"
         },
         "external": {
           "instructions": "Bestätigen Sie die Zahlung in Ihrer App, um diesen Kauf abzuschließen"
@@ -2085,7 +2093,46 @@
         "verify_shop_account_confirmation": "Kassendaten gespeichert",
         "announcement": {
           "collapse": "Zusammenklappen"
-        }
+        },
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Nach Abschluss Ihrer Zahlung erhalten Sie eine Bestätigungs-E-Mail. Verfolgen Sie Ihre Bestellung mit der Einkaufs-App.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "Nach Abschluss Ihrer Zahlung erhalten Sie eine Bestätigungs-E-Mail. Verfolgen Sie Ihre Bestellung mit der Einkaufs-App.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "Nach Abschluss Ihrer Zahlung erhalten Sie eine Bestätigungs-E-Mail. Verfolgen Sie Ihre Bestellung mit der Einkaufs-App.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email": "Nach Abschluss Ihrer Zahlung erhalten Sie eine Bestätigungs-E-Mail. Verfolgen Sie Ihre Bestellung mit der Einkaufs-App.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "Nach Abschluss Ihrer Zahlung erhalten Sie eine Bestätigungs-E-Mail. Verfolgen Sie Ihre Bestellung mit der Einkaufs-App.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Nach Abschluss Ihrer Zahlung erhalten Sie eine Bestätigungs-E-Mail. Verfolgen Sie Ihre Bestellung mit der Einkaufs-App.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone": "Nach Abschluss Ihrer Zahlung erhalten Sie eine Bestätigungsnachricht. Verfolgen Sie Ihre Bestellung mit der Einkaufs-App.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Nach Abschluss Ihrer Zahlung erhalten Sie eine Bestätigungsnachricht. Verfolgen Sie Ihre Bestellung mit der Einkaufs-App.",
+        "order_status_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Nach Abschluss Ihrer Zahlung erhalten Sie eine Bestätigungsnachricht. Verfolgen Sie Ihre Bestellung mit der Einkaufs-App.",
+        "order_status_payments_app_failed_pending_payment": "Ihnen wurde Ihre Bestellung nicht berechnet. Kehren Sie zu Ihrem Warenkorb zurück, um Ihre Bestellung zu überprüfen und erneut zu bezahlen.",
+        "order_status_payments_app_failed_pending_payment_payment": "Ihnen wurde Ihre Bestellung nicht berechnet. Kehren Sie zu Ihrem Warenkorb zurück, um Ihre Bestellung zu überprüfen und erneut zu bezahlen.",
+        "order_status_payments_app_failed_pending_payment_pick_up": "Ihnen wurde Ihre Bestellung nicht berechnet. Kehren Sie zu Ihrem Warenkorb zurück, um Ihre Bestellung zu überprüfen und erneut zu bezahlen.",
+        "order_status_confirmed_order_local": "Wir bereiten Ihre Bestellung für die Lieferung vor.",
+        "order_status_confirmed_order_local_pick_up": "Wir bereiten Ihre Bestellung vor.",
+        "order_status_confirmed_order_local_payment": "Wir bereiten Ihre Bestellung vor.",
+        "order_status_updates_with_email": "Sie erhalten Versand- und Zustellungsbenachrichtigungen per E-Mail.",
+        "order_status_updates_with_phone": "Sie können Versand- und Lieferbenachrichtigungen per SMS erhalten.",
+        "order_status_updates_with_email_and_phone": "Sie erhalten Versand- und Zustellungsbenachrichtigungen per E-Mail.",
+        "order_status_updates_with_missing": "Wählen Sie, wie Sie Versandbenachrichtigungen erhalten möchten.",
+        "order_status_confirmed_with_installments_payment_return": "Richten Sie Ihre Aufmerksamkeit wieder auf die Verkaufsberaterin.",
+        "order_status_confirmed_with_installments_payment_confirm": "Sie erhalten in Kürze eine Bestätigungs-E-Mail mit Ihrer Bestellnummer und den Einzelheiten Ihres Ratenzahlungsplans.",
+        "confirmed_title": "Ihre Bestellung ist bestätigt",
+        "confirmed_description": "Wir haben Ihre Bestellung angenommen und bereiten sie vor. Kehren Sie auf diese Seite zurück, um Aktualisierungen zum Versandstatus zu erhalten.",
+        "confirmed_orders_title": "Ihre Bestellungen sind bestätigt",
+        "ready_for_pickup_title": "Ihre Bestellung ist zur Abholung bereit",
+        "ready_for_pickup_description": "Ihre Bestellung ist zur Abholung bereit. Bringen Sie Ihre Bestellbestätigung mit, wenn Sie Ihre Bestellung abholen.",
+        "ready_for_delivery_title": "Ihre Bestellung ist versandbereit",
+        "ready_for_delivery_description": "Wir haben Ihre Bestellung vorbereitet.",
+        "order_updates_title": "Bestellaktualisierungen",
+        "shop_phone_description": "Sie erhalten eine Nachricht mit einem Link zur Shop-App, der Ihnen hilft, Ihre Bestellung zu verfolgen.",
+        "order_updates_description_html": "Updates werden an %{customer_contact} gesendet",
+        "order_updates_current_step_prefix": "Aktueller Schritt:",
+        "order_updates_past_step_prefix": "Vorheriger Schritt:",
+        "order_updates_upcoming_step_prefix": "Nächster Schritt:",
+        "in_transit_title": "Ihre Bestellung ist unterwegs",
+        "in_transit_description": "Sie erhalten Aktualisierungen zum Fortschritt.",
+        "in_transit_description_days": "Sie sollten Ihre Bestellung in den nächsten %{number} Tagen erhalten.",
+        "in_transit_description_today": "Sie sollten Ihre Bestellung heute erhalten.",
+        "in_transit_description_tomorrow": "Sie sollten Ihre Bestellung am nächsten Tag erhalten."
       },
       "review": {
         "title": "Bewertung",
