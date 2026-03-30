@@ -1503,7 +1503,141 @@
         "invalid_selected_address_with_update_link": "La dirección de envío seleccionada no es válida. %{update_address_link} o seleccione una dirección diferente",
         "unavailable_addresses_only_countries": "Su pedido solo puede enviarse a {{countriesList}}. Agregue una nueva dirección para continuar.",
         "unavailable_address_country": "El envío no está disponible en el país que seleccionaste. Usa una dirección diferente para continuar",
-        "unavailable_selected_address": "Envío no disponible para la dirección seleccionada"
+        "unavailable_selected_address": "Envío no disponible para la dirección seleccionada",
+        "unavailable_selected_address_for_region": "El envío no está disponible para {{region}}. Seleccione una dirección diferente para continuar"
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Pago rápido",
+        "or": "O\n\no",
+        "or_check_out_another_way": "O prueba otra forma",
+        "or_pay_with_credit_card": "O pagar con tarjeta de crédito"
+      },
+      "post_purchase": {
+        "components": {
+          "processing": "Procesando…"
+        }
+      },
+      "processing": {
+        "redirecting_notice": "Espere mientras lo redirigimos.",
+        "redirecting_to_bank": "Redirigiendo a {{bank}}",
+        "complete_your_purchase_title": "Completa tu compra",
+        "continue_to_payment_gateway_notice": "Continúe al pago para agregar su información de pago.",
+        "complete_your_purchase_title_error": "Corrija su información de pago",
+        "continue_to_payment_gateway_notice_error": "No se pudo verificar la información de su pago.",
+        "continue_to_payment_gateway_button_label_error": "Actualizar información de pago",
+        "page_title": "Procesando pedido",
+        "title": "Procesando pedido",
+        "your_order_has_been_received_title": "Gracias por su pedido",
+        "you_will_receive_confirmation": "Estamos recibiendo muchos pedidos en este momento. Deberías recibir una confirmación por correo electrónico o mensaje de texto pronto. Si no la recibes en la próxima hora, avísanos.",
+        "you_will_not_be_charged": "Aún no se le cobrará",
+        "wait": {
+          "medium": {
+            "one": "Tu pedido está siendo procesado. El tiempo estimado de espera es de %{count} minuto.",
+            "other": "Tu pedido está siendo procesado. El tiempo estimado de espera es de %{count} minutos."
+          },
+          "long": "Recibirás un correo electrónico tan pronto como se procese tu pedido. Actualmente hay un gran volumen de pedidos.",
+          "refresh_this_page": "actualizar esta página"
+        },
+        "action_required": "Acción requerida",
+        "modal_notice": "Estamos contactando a {{paymentMethod}}"
+      },
+      "payment_challenge_modal": {
+        "instructions": "Completa tu compra usando tu código {{paymentMethod}}",
+        "copy_text": "Copiar código de {{paymentMethod}}",
+        "header": "Paga con {{paymentMethod}}",
+        "qr_code": {
+          "instructions": "Completa tu compra usando tu código {{paymentMethod}}"
+        }
+      },
+      "failed_payment": {
+        "page_title": "No se pudo procesar el pago",
+        "title": "No se pudo procesar el pago",
+        "payment_not_processed_title": "No se pudo procesar su pago",
+        "payment_not_processed_text": "No se te ha cobrado. Regresa a tu carrito para completar tu compra."
+      },
+      "payment_gateway": {
+        "bank_deposit_label": "Depósito bancario",
+        "cash_on_delivery_label": "Pago contra reembolso (PCR)",
+        "money_order_label": "Giro postal",
+        "credit_or_debit_card_label": "Crédito/Débito",
+        "deferred_payment_label": "Elegir método de pago más tarde",
+        "fixed_payment_label": "Su pago vencerá el {{dueDate}}.",
+        "generic_payment_terms": "Estás en términos de {{translatedName}}. Tu pago vencerá el {{dueDate}}.",
+        "login_prompt": {
+          "no_access": {
+            "message": "{{logIn}} en una cuenta con acceso a esta ubicación para agregar o usar métodos de pago guardados.",
+            "link": "Iniciar sesión"
+          }
+        },
+        "direct_payment_terms": "Estás en los términos de {{translatedName}}. Tu tarjeta será cargada el {{dueDate}}.",
+        "fixed_direct_payment_terms": "Tu tarjeta será cargada el {{dueDate}}.",
+        "order_due_on_fulfillment_choose_later": "Su pago será exigible una vez que su pedido haya sido completado.",
+        "order_due_on_fulfillment_payment": "Su tarjeta será cargada una vez que su pedido haya sido completado.",
+        "order_due_on_receipt_choose_later": "Su pago será exigible al recibirlo.",
+        "order_deposit_due_now": "{{depositAmount}} vence hoy. El saldo está bajo los términos de {{translatedName}} y vence el {{dueDate}}.",
+        "order_deposit_due_on_fulfillment": "{{depositAmount}} vence hoy. El saldo se deberá pagar una vez que su pedido sea procesado.",
+        "order_deposit_due_on_receipt": "{{depositAmount}} vence hoy. El saldo se deberá pagar más adelante.",
+        "order_deposit_due_on_fixed_date": "{{depositAmount}} vence hoy. El saldo se deberá pagar el {{dueDate}}.",
+        "draft_order_payment_due_later_no_terms": "Su pago será exigible una vez que su pedido sea confirmado.",
+        "draft_order_payment_due_later_no_terms_payment_selected": "Su tarjeta será cargada una vez que su pedido sea confirmado.",
+        "draft_order_payment_due_later_terms": "Estarás en términos de {{translatedName}} una vez que tu pedido sea confirmado.",
+        "draft_order_payment_due_on_fulfillment": "Su pago será exigible una vez que su pedido haya sido confirmado y cumplido.",
+        "draft_order_deposit_due_later": "Se deberá pagar {{depositAmount}} cuando se confirme su pedido. El saldo se pagará según los términos de {{translatedName}}.",
+        "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} se deberá pagar cuando se confirme su pedido. El saldo se pagará una vez que su pedido sea completado."
+      },
+      "thank_you": {
+        "title": "¡Gracias por su compra!",
+        "confirmation_email_sent_text": "Se ha enviado un correo de confirmación a %{email}",
+        "return_to_store_link_label": "Continuar comprando",
+        "print_link_label": "Imprimir recibo",
+        "page_title_no_name": "¡Gracias!",
+        "purchase_order_number_title": "Número de orden de compra #%{purchase_order_number}",
+        "failed_pending_payment_page_title": "Hay un problema con su pago",
+        "cashback_notice": "Recibirás tu reembolso después de 30 días",
+        "company_location_title": "Ubicación",
+        "shipping_address_map_title": "Mapa de Google mostrando el punto exacto de la dirección de envío: %{address}",
+        "payment_method_title": "Método de pago",
+        "payment_method_not_charged": "No cargado",
+        "estimated_arrival": "Fecha estimada de entrega:",
+        "estimated_delivery": "Estimación actual de entrega:",
+        "re-order": "Volver a pedir los mismos artículos",
+        "items_fulfilled_by_store": {
+          "one": "Los artículos que has comprado provendrán de %{remote_shop_name}.",
+          "other": "Los artículos que has comprado provendrán de otras tiendas."
+        },
+        "gift_card_confirmation_by_text": "Si no lo recibiste, reenvía el mensaje o contáctanos.",
+        "gift_card_confirmation_by_email": "Si no lo recibiste, reenvía el correo electrónico o contáctanos.",
+        "thank_you_title_payment": "Su pago está confirmado",
+        "thank_you_title_review": "Su pedido ha sido enviado para revisión",
+        "thank_you_title_payments_app_pending_default": "Su pago está siendo procesado",
+        "thank_you_title_payments_app_pending_buyer_action_required": "Su pedido ha sido recibido",
+        "thank_you_title_payments_app_failed_pending_payment": "No se pudo procesar su pago",
+        "thank_you_confirmed_with_email_description": {
+          "multi_store": "Pronto recibirás correos electrónicos de confirmación por separado de cada tienda"
+        },
+        "thank_you_confirmed_with_phone_description": {
+          "single_store": "Pronto recibirás un mensaje de confirmación",
+          "multi_store": "Pronto recibirás mensajes de confirmación separados de cada tienda"
+        },
+        "thank_you_confirmed_with_email_and_phone_description": {
+          "multi_store": "Pronto recibirás correos electrónicos de confirmación por separado de cada tienda"
+        },
+        "thank_you_confirmed_order_with_email": "Recibirá un correo electrónico de confirmación con su número de pedido en breve.",
+        "thank_you_confirmed_order_with_phone": "Recibirás un mensaje de confirmación con tu número de pedido en breve.",
+        "thank_you_confirmed_order_with_email_and_phone": "Recibirá un correo electrónico de confirmación con su número de pedido en breve.",
+        "thank_you_confirmed_orders_with_email": "Pronto recibirás correos electrónicos de confirmación separados con tus números de pedido",
+        "thank_you_confirmed_orders_with_phone": "Pronto recibirás mensajes de confirmación separados con tus números de pedido",
+        "thank_you_confirmed_orders_with_email_and_phone": "Pronto recibirás correos electrónicos de confirmación separados con tus números de pedido",
+        "thank_you_confirmed_order_with_email_payment": "Realizaste un pago en tu pedido %{date}.",
+        "thank_you_confirmed_order_with_phone_payment": "Realizaste un pago en tu pedido %{date}.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Realizaste un pago en tu pedido %{date}.",
+        "thank_you_confirmed_order_with_email_pick_up": "Recibirá un correo electrónico cuando su pedido esté listo para recoger.",
+        "thank_you_confirmed_order_with_phone_pick_up": "Recibirás un mensaje de texto cuando tu pedido esté listo para recoger.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Recibirá un correo electrónico cuando su pedido esté listo para recoger.",
+        "thank_you_confirmed_order_with_missing": "Contáctenos por correo electrónico o teléfono para recibir una confirmación de pedido.",
+        "thank_you_confirmed_order_with_missing_payment": "Contáctenos por correo electrónico o teléfono para recibir una confirmación de pedido.",
+        "thank_you_confirmed_order_with_missing_pick_up": "Contáctenos por correo electrónico o teléfono para recibir una confirmación de pedido.",
+        "thank_you_confirmed_order_with_draft": "Le informaremos si necesitamos más información o cuando su pedido esté confirmado."
       }
     }
   }
