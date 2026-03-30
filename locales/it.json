@@ -2209,6 +2209,100 @@
         },
         "location_far_away": {
           "one": "%{count} località con il tuo articolo"
+        },
+        "toggle_location": "Cambia posizione",
+        "toggle_more_locations": {
+          "one": "%{count} altra posizione",
+          "other": "%{count} altre località"
+        },
+        "toggle_multiple_locations": "%{count}+ altre località",
+        "your_location": "la tua posizione",
+        "search_button": "Trova negozi",
+        "all_stores_far_away": {
+          "title": "Le località più vicine sono a più di %{distance} di distanza",
+          "title_with_item": {
+            "one": "La sede più vicina con il tuo articolo si trova a più di %{distance} da %{location}",
+            "other": "La sede più vicina con i tuoi articoli si trova a più di %{distance} da %{location}"
+          },
+          "description": "Seleziona una località o %{ship_to_address_link}",
+          "ship_to_address_link": "spedire all'indirizzo",
+          "change_location_link": "Cambia la tua posizione"
+        },
+        "selected_pickup_option_no_longer_available": {
+          "title": "La tua posizione precedentemente selezionata non è più disponibile",
+          "ship_to_address_link": "spedire all'indirizzo"
+        },
+        "could_not_resolve_address": "Non è stato possibile trovare il tuo indirizzo. Riprova oppure usa un indirizzo diverso",
+        "paginator": {
+          "accessibility_label": "Paginazione per ritiro locale"
+        },
+        "reveal_more_label": {
+          "one": "Mostra %{count} altre località",
+          "other": "Mostra %{count} altre località"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "Nessuna località con il tuo articolo",
+          "other": "Nessuna posizione con i tuoi articoli"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Nessuna località in %{country} con il tuo articolo",
+          "other": "Nessuna località in %{country} con i tuoi articoli"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_items": "Spedisci i tuoi articoli"
+        }
+      },
+      "split_delivery": {
+        "pickup_all_items": "Raccogli tutti gli articoli",
+        "items_for_pickup": "Articoli da ritirare",
+        "delivery_method": "Metodo di consegna frazionata",
+        "delivery_method_menu": "Menu metodo di consegna divisa",
+        "inventory_issue_banner": {
+          "heading": {
+            "cannot_be_picked_up": {
+              "one": "Non è possibile ritirare %{count} articolo",
+              "other": "Non è possibile ritirare %{count} articoli"
+            },
+            "cannot_be_shipped": {
+              "one": "Non è possibile spedire %{count} articolo",
+              "other": "Non è possibile spedire %{count} articoli"
+            }
+          }
+        }
+      },
+      "clipboard": {
+        "failed_to_copy": "Copia non riuscita"
+      },
+      "discount_errors": {
+        "generic_error": "Il tuo ordine non può essere elaborato perché il tuo codice sconto non è più disponibile. Controlla il totale del tuo ordine e riprova."
+      },
+      "b2b_errors": {
+        "lost_b2b_purchasing_permissions": "Non hai più il permesso di effettuare ordini B2B. %{logout_url} per effettuare invece un ordine personale.",
+        "log_out_link_text": "Disconnetti",
+        "lost_permissions_subtitle": "Non hai più il permesso di effettuare ordini B2B. Disconnettiti per effettuare un ordine personale.",
+        "lost_permissions_title": "Nessun permesso di localizzazione"
+      },
+      "shop_pay_external": {
+        "title": "Pagamento con Shop Pay",
+        "errors": {
+          "problem_loading": "C'è un problema nel caricare Shop Pay",
+          "try_again_later": "Controlla la tua connessione oppure chiudi questa finestra e riprova tra qualche istante.",
+          "checkout_has_expired": "Il tuo checkout è scaduto. Chiudi questa finestra e prova a completare l'acquisto di nuovo da {{shopName}}."
+        },
+        "return_to_store": "Torna a {{shopName}}",
+        "return_to_store_simple": "Torna al negozio"
+      },
+      "wallets": {
+        "return_to_store": "Torna al negozio",
+        "return_to_checkout": "Torna al pagamento",
+        "payment_in_progress_body": "Il tuo pagamento è in corso di elaborazione. Il tuo ordine sarà completato a breve.",
+        "place_order": "Effettua l'ordine",
+        "redirection_notice": "Verrai reindirizzato a {{walletName}} per completare il tuo acquisto",
+        "recovery_notice": "C'è un problema con i dettagli del tuo ordine. Aggiorna le tue informazioni per completare il pagamento.",
+        "errors": {
+          "unavailable": {
+            "description": "{{walletName}} non era disponibile. Usa un metodo di pagamento diverso o riprova più tardi."
+          }
         }
       }
     }
