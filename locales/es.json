@@ -2551,7 +2551,179 @@
         "variant_not_found": "No se puede encontrar la variante",
         "variant_requires_selling_plan": "La variante solo se puede comprar con un plan de venta.",
         "selling_plan_not_available_for_company_locations": "Solo está disponible la compra única para pedidos B2B",
-        "digital_product_not_available_for_company_locations": "Este artículo no se puede añadir a un pedido B2B"
+        "digital_product_not_available_for_company_locations": "Este artículo no se puede añadir a un pedido B2B",
+        "buyer_cannot_purchase_for_company_locations": "No puedes comprar para esta ubicación",
+        "shipping_address_invalid": "Hubo un problema al calcular sus tarifas de envío. Continúe al pago para elegir una tarifa de envío antes de completar su pedido.",
+        "bundle_requires_components": "El producto combinado '%{name}' no se puede añadir al carrito.",
+        "gift_card_with_components_not_supported": "El producto combinado '%{name}' no se puede añadir al carrito.",
+        "gift_card_price_must_be_greater_than_zero": "El producto combinado '%{name}' no se puede añadir al carrito.",
+        "gift_card_recipient_validation_error": "El destinatario especificado de la tarjeta de regalo no es válido",
+        "view_lines_limit_reached": "Las líneas deben tener una longitud menor o igual a %{limit}",
+        "cart_attributes_error": "Los atributos del carrito contienen datos no válidos.",
+        "merchandise_line_transformers": {
+          "run_error": "Se produjo un error en su carrito."
+        },
+        "merchandise_not_applicable": "El artículo no puede comprarse con la configuración actual."
+      },
+      "storefront": {
+        "invalid_password": "Contraseña incorrecta, por favor intente de nuevo."
+      },
+      "tags": {
+        "add_articles": "Restringir la búsqueda a artículos que también tengan la etiqueta %{tag}",
+        "add_products": "Reducir la selección a productos que coincidan con la etiqueta %{tag}",
+        "remove_articles": "Ampliar la búsqueda a artículos que no estén etiquetados con %{tag}"
+      }
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Gracias por suscribirse a nuestra lista de correo.",
+        "disclaimer": "Puedes darte de baja en cualquier momento."
+      },
+      "unsubscribed": {
+        "confirmation": "Te has dado de baja de nuestra lista de correo.",
+        "disclaimer": "No recibirás más actualizaciones de mercadotecnia de nuestra parte. Puedes suscribirte de nuevo en cualquier momento.",
+        "preview": "Estás viendo una vista previa de lo que los clientes verán cuando se den de baja."
+      },
+      "sms_unsubscribe_confirm": {
+        "message": "¿Está seguro de que desea darse de baja del marketing por SMS?",
+        "button": "Darse de baja"
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Has aceptado el seguimiento de apertura de correos electrónicos.</b>",
+          "visibility": "Las tasas de apertura de correos electrónicos se informarán de forma anónima. Solo veremos si has abierto un correo electrónico como parte de una tasa de apertura de correos electrónicos agregada.",
+          "opt_out_html": "Puedes <a style='text-decoration:underline;' href='%{link}'>darte de baja</a> del seguimiento de apertura de correos electrónicos si no deseas compartir esta información.",
+          "preview_bar": "Estás viendo una vista previa de lo que los clientes verán cuando acepten el seguimiento de apertura de correos electrónicos."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Has optado por no permitir el seguimiento de apertura de correos electrónicos.</b>",
+          "visibility": "No sabremos si has abierto nuestros correos electrónicos.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Suscríbete</a> para el seguimiento de apertura de correos electrónicos.",
+          "preview_bar": "Estás viendo una vista previa de lo que los clientes verán cuando decidan no permitir el seguimiento de apertura de correos electrónicos."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Ya no rastreamos ninguna apertura de correo electrónico.</b>",
+          "privacy_policy": "Después de enviar este correo electrónico, actualizamos nuestra política de privacidad y ya no registramos las aperturas."
+        },
+        "track": {
+          "status_html": "<b>Se informa la apertura del correo electrónico.</b>",
+          "visibility": "Solo veremos si has abierto el correo electrónico, como parte de la tasa total de apertura de correos."
+        },
+        "updated_policy": {
+          "status_html": "<b>Se informa la apertura del correo electrónico.</b>",
+          "visibility": "Hemos actualizado nuestra política y ahora registramos las aperturas de correos electrónicos. Las tasas de apertura de correos se informarán de forma anónima. Solo veremos si has abierto un correo como parte de la tasa total de apertura de correos.",
+          "opt_out_html": "Si no desea compartir esta información, puede <a style='text-decoration:underline;' href='%{link}'>darse de baja.</a>"
+        }
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "in_stock": "En stock"
+        }
+      }
+    },
+    "search": {
+      "error": "Hubo un problema al cargar los resultados de su búsqueda. Por favor, actualice la página o intente de nuevo más tarde.",
+      "sorting": {
+        "price_ascending": "Precio, de menor a mayor",
+        "price_descending": "Precio, de mayor a menor"
+      }
+    },
+    "page_titles": {
+      "blog_or_article_with_error": "Error - %{title}",
+      "shopping_cart": "Tu Carrito de Compras",
+      "order": "Ordenar %{name}",
+      "search_results": {
+        "one": "Buscar: %{count} resultado encontrado para \"%{terms}\"",
+        "other": "Buscar: %{count} resultados encontrados para \"%{terms}\""
+      },
+      "not_found": "404 No Encontrado"
+    },
+    "cart": {
+      "discounts_with_count": "Se han aplicado %{count} descuentos"
+    },
+    "challenge": {
+      "error": "Tu respuesta no fue correcta, por favor intenta de nuevo."
+    },
+    "checkpoint": {
+      "error": "La validación del captcha falló"
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Normalmente listo en 1 hora",
+        "two_hours": "Normalmente listo en 2 horas",
+        "four_hours": "Normalmente listo en 4 horas",
+        "twenty_four_hours": "Normalmente listo en 24 horas",
+        "two_to_four_days": "Normalmente listo en 2-4 días",
+        "five_or_more_days": "Por lo general listo en más de 5 días",
+        "zero_to_two_hours": "Normalmente listo en 2 horas",
+        "two_to_four_hours": "Normalmente listo en 4 horas",
+        "immediately": "Listo para recoger ahora",
+        "next_day": "Listo para recoger al día siguiente"
+      }
+    },
+    "subscriptions": {
+      "buyer_consent_product": "Este artículo es una compra recurrente o diferida. Al continuar, acepto la %{cancellationPolicyLink} y autorizo que se cargue mi método de pago con los precios, frecuencia y fechas indicados en esta página hasta que mi pedido se complete o cancele, si está permitido.",
+      "buyer_consent_cart": "Uno o más de los artículos en tu carrito son compras recurrentes o diferidas. Al continuar, acepto la %{cancellationPolicyLink} y autorizo que se cargue mi método de pago con los precios, frecuencia y fechas indicados en esta página hasta que mi pedido se complete o lo cancele, si está permitido."
+    }
+  },
+  "customer_accounts": {
+    "callback": {
+      "try_again": "Intentar de nuevo"
+    },
+    "date": {
+      "humanize": {
+        "lessThanOneYearAgo": "{{date}} a las {{time}}",
+        "lessThanOneHourAgo": {
+          "one": "hace {{count}} minuto",
+          "other": "hace {{count}} minutos"
+        },
+        "lessThanOneMinuteAgo": "Justo ahora",
+        "lessThanOneWeekAgo": "{{weekday}} a las {{time}}",
+        "yesterday": "Ayer a las {{time}}",
+        "today": "Hoy a las {{time}}",
+        "tomorrow": "Mañana a las {{time}}",
+        "lessThanOneWeekAway": "{{weekday}} a las {{time}}",
+        "lessThanOneYearAway": "{{date}} a las {{time}}"
+      }
+    },
+    "enable_javascript": "Para ver su cuenta, active JavaScript en la configuración de su navegador o inicie sesión con otro navegador.",
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "Ocultar menú de cuenta",
+        "show_accessibility_label": "Mostrar menú de cuenta",
+        "open_menu_accessibility_label": "Navegación de apertura de cuenta",
+        "close_menu_accessibility_label": "Cerrar navegación de cuenta",
+        "loading_message": "Cargando navegación de la cuenta"
+      },
+      "close_menu_accessibility_label": "Cerrar navegación principal",
+      "contact_email_subject": "Contacto de la tienda en línea {{shopName}}",
+      "policy_load_error": "No se pudo cargar {{policyName}}",
+      "policy_try_again": "Intentar de nuevo",
+      "logout_overlay_label": "Cerrando sesión...",
+      "navigation_accessibility_message": "Has navegado a {{sectionName}}",
+      "shop_logo_accessibility_label": "Logotipo de {{shopName}}",
+      "country_switcher_toast_message": "País cambiado a {{countryName}}",
+      "location_switcher_toast_message": "Ubicación cambiada a {{locationName}}",
+      "no_locations_found": "No se encontraron ubicaciones",
+      "try_new_search": "Prueba una nueva búsqueda",
+      "view_details": "Ver detalles",
+      "skip_to_content": "Saltar al contenido"
+    },
+    "account_information": {
+      "loading_finished_accessibility_message": "La información de la cuenta se ha cargado",
+      "profile_card": {
+        "cancel_accessibility_label": "Cancelar edición de perfil",
+        "email_help_text": "No se puede editar el correo electrónico",
+        "editable_email_help_text": "Este correo electrónico se utiliza para iniciar sesión y recibir actualizaciones de pedidos.",
+        "no_name_provided_accessibility_label": "Sin nombre añadido",
+        "phone_number_help_text": "El número de teléfono no se puede editar",
+        "errors": {
+          "name_too_long": "{{fieldName}} es demasiado largo (el máximo es de 255 caracteres)",
+          "name_cannot_contain_url": "{{fieldName}} no puede contener URL",
+          "email_cant_be_blank": "El correo electrónico no puede estar vacío"
+        }
       }
     }
   }
