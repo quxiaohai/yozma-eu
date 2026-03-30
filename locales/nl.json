@@ -3366,11 +3366,183 @@
           "pending_tab_accessibility_label": {
             "no_pending_orders": "Je hebt geen openstaande bestellingen",
             "pending_orders": {
-              "one": "Je hebt {{count}} openstaande bestelling"
-            }
+              "one": "Je hebt {{count}} openstaande bestelling",
+              "other": "Je hebt {{count}} openstaande bestellingen"
+            },
+            "more_than_pagination_length": "Je hebt meer dan {{count}} openstaande bestellingen"
           }
+        },
+        "order_list_column_headers_contact": "Contact opnemen",
+        "removed_company_contact_tooltip": "Verwijderd uit bedrijf"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Bevestigd {{date}} van bestelling {{draftOrderName}}",
+        "loading": "Bestelgegevens laden",
+        "loading_finished_accessibility_message": "Bestelgegevens zijn geladen",
+        "payment_status": {
+          "pending": {
+            "banner_overdue": {
+              "one": "Uw betaling is {{count}} dag te laat",
+              "other": "Uw betaling is {{count}} dagen te laat"
+            },
+            "banner_due": {
+              "one": "Uw betaling is verschuldigd over {{count}} dag",
+              "other": "Uw betaling is verschuldigd over {{count}} dagen"
+            },
+            "banner_due_today": "Uw betaling is vandaag verschuldigd",
+            "banner_due_today_for_single_fulfillment": "Een betaling van {{amount}} is vandaag verschuldigd. {{link}}",
+            "banner_due_today_for_multiple_fulfillments": "Betaling vandaag verschuldigd voor {{count}} bestellingen",
+            "banner_overdue_for_single_fulfillment": {
+              "one": "{{amount}} betaling is {{count}} dag te laat. {{link}}",
+              "other": "{{amount}} betaling is {{count}} dagen te laat. {{link}}"
+            },
+            "banner_overdue_for_multiple_fulfillments": "Betaling verschuldigd voor {{count}} leveringen",
+            "title_with_date": "Betaling verschuldigd {{date}}",
+            "title_due_on_receipt": "Betaling nog niet verschuldigd",
+            "title_due_on_fulfillment": "Betaling verschuldigd bij levering",
+            "description_overdue": "Uw betaling is te laat.",
+            "description_partially_paid": "Deze bestelling is gedeeltelijk betaald. U heeft nog een openstaand saldo.",
+            "description_authorized": "Uw betaalmethode wordt op de vervaldatum belast, of u kunt nu betalen.",
+            "description_waiting_for_manual_payment": "Deze bestelling heeft een openstaande betaling. Het saldo wordt bijgewerkt zodra de betaling is ontvangen.",
+            "description_due_on_receipt": "U ontvangt een factuur wanneer de betaling verschuldigd is.",
+            "description_due_on_receipt_partially_paid": "Deze bestelling is gedeeltelijk betaald. U heeft nog een openstaand saldo. U ontvangt een factuur wanneer de betaling verschuldigd is.",
+            "description_due_on_fulfillment": "Betaling is verschuldigd zodra alle artikelen in deze bestelling zijn geleverd.",
+            "description_due_on_fulfillment_partially_paid": "Deze bestelling is gedeeltelijk betaald. U heeft nog een openstaand saldo. Betaling is verschuldigd zodra alle artikelen in deze bestelling zijn geleverd.",
+            "description_due_on_fulfillment_partially_paid_next": "Deze bestelling is gedeeltelijk betaald. U heeft nog een openstaand saldo."
+          },
+          "draft": {
+            "description": "Betalingsgegevens worden vastgesteld wanneer de bestelling wordt bevestigd.",
+            "title": "Betaling nog niet verschuldigd",
+            "in_review": {
+              "description": "Betalingsgegevens worden vastgesteld wanneer de bestelling wordt bevestigd.",
+              "title": "Betaling nog niet verschuldigd"
+            },
+            "submitted": {
+              "description": "Dien betaling in om deze bestelling te bevestigen.",
+              "title": "Betaal om te bevestigen",
+              "deposit": {
+                "due_later": "Het saldo is volgens de voorwaarden van {{translatedName}} en moet worden voldaan op {{dueDate}}.",
+                "due_on_fulfillment": "Het saldo is verschuldigd zodra alle artikelen in deze bestelling zijn geleverd.",
+                "due_on_receipt": "U ontvangt een factuur voor het resterende bedrag.",
+                "due_on_date": "Het saldo moet worden voldaan op {{dueDate}}."
+              }
+            },
+            "deposit": {
+              "due_later": "{{depositAmount}} is verschuldigd zodra uw bestelling is bevestigd. Het resterende bedrag wordt volgens de voorwaarden van {{translatedName}} voldaan.",
+              "due_on_fulfillment": "{{depositAmount}} is verschuldigd zodra uw bestelling is bevestigd. Het resterende bedrag is verschuldigd zodra de bestelling is voltooid.",
+              "due_on_receipt": "{{depositAmount}} is verschuldigd zodra uw bestelling is bevestigd. Het resterende bedrag wordt later betaald.",
+              "due_on_date": "{{depositAmount}} is verschuldigd zodra uw bestelling is bevestigd. Het resterende bedrag is verschuldigd op {{dueDate}}."
+            }
+          },
+          "paid": {
+            "title_with_date": "Betaald {{date}}",
+            "description": "Uw bestelling is volledig betaald."
+          },
+          "refund": {
+            "title_with_date": "Terugbetaald {{date}}",
+            "description_full_refund": "U heeft een volledige terugbetaling voor deze bestelling ontvangen.",
+            "description_single_refund": "U heeft een gedeeltelijke terugbetaling voor deze bestelling ontvangen.",
+            "description_multiple_refunds": "U heeft gedeeltelijke terugbetalingen ontvangen voor deze bestelling."
+          },
+          "canceled": {
+            "description": "Je bent niet in rekening gebracht."
+          },
+          "due_date": "Vervaldatum {{date}}",
+          "title": "Betalingsstatus"
+        },
+        "order_timeline": {
+          "expand_events_label": "Toon details",
+          "expand_events_accessibility_label": "Toon conceptbestelgegevens",
+          "hide_events_label": "Details verbergen",
+          "hide_events_accessibility_label": "Conceptbestellinggegevens verbergen"
+        },
+        "subtitle": "Ingediend {{date}}",
+        "title": "Bestel {{name}}"
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "Deze betaalmethode zal niet langer beschikbaar zijn voor toekomstige aankopen op deze locatie.",
+          "description_with_replacement": "Het verwijderen van deze betaalmethode heeft invloed op vooraf goedgekeurde betalingen voor deze locatie. Vervang deze door een alternatieve betaalmethode om toekomstige bestellingen te blijven ontvangen."
+        },
+        "payment_details": {
+          "order_label": "Bestel {{name}}"
         }
+      },
+      "purchase_order_number": {
+        "add_accessibility_label": "Voeg inkoopordernummer toe",
+        "add_modal_title": "Voeg inkoopordernummer toe",
+        "close_modal_accessibility_label": "Sluit PO-nummervenster",
+        "discard": "Weggooien",
+        "discard_changes_modal_title": "Wijzigingen negeren?",
+        "edit_accessibility_label": "Bewerk inkoopordernummer",
+        "edit_modal_title": "Bewerk inkoopordernummer",
+        "empty_state": "Geen inkoopordernummer",
+        "modal_po_number_input_label": "PO-nummer",
+        "modal_po_number_input_max_length_error": "PO-nummers mogen maximaal {{maxLength}} tekens bevatten.",
+        "title": "Bestelnummer #{{poNumber}}"
       }
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": "Er is een probleem opgetreden bij het verwijderen van dit adres. Probeer het opnieuw of vernieuw de pagina."
+      },
+      "addresses_loading_issue": {
+        "description": "Verbindingsfout. Controleer uw internetverbinding en probeer het opnieuw."
+      },
+      "failed_address_creation": {
+        "description": "Er is een probleem opgetreden bij het aanmaken van uw adres. Probeer deze pagina te vernieuwen of controleer uw internetverbinding."
+      },
+      "failed_address_update": {
+        "description": "Er was een probleem met het bijwerken van uw adres. Probeer deze pagina te vernieuwen of controleer uw internetverbinding."
+      },
+      "load_address_form_error": {
+        "title": "Kan het adresformulier niet laden",
+        "description": "Kon het adresformulier niet laden.",
+        "refresh_button": "Pagina vernieuwen"
+      },
+      "load_paypal_error": {
+        "description": "Er is een probleem met het laden van PayPal. Probeer het alstublieft opnieuw."
+      },
+      "logout_everywhere": {
+        "description": "Er is iets misgegaan tijdens het uitloggen. Probeer het alstublieft opnieuw."
+      },
+      "not_found": {
+        "title": "Er is een probleem met het laden van deze pagina"
+      },
+      "order_not_found": {
+        "description": "Deze bestelling bestaat niet of u heeft geen toestemming om deze te bekijken."
+      },
+      "profile_update_error": {
+        "description": "Er was een probleem met het bijwerken van uw profiel. Probeer deze pagina te vernieuwen of controleer uw internetverbinding."
+      },
+      "profile_name_update_error": {
+        "description": "Er was een probleem met het bijwerken van uw naam. Probeer deze pagina te vernieuwen of controleer uw internetverbinding."
+      },
+      "resend_link": {
+        "too_many_requests": "Te veel verzoeken. Probeer het later opnieuw.",
+        "generic": "Mislukte aanvraag"
+      },
+      "load_extension_error": {
+        "description": "Ververs deze pagina of probeer het over een paar minuten opnieuw."
+      },
+      "already_upgraded": "Klantaccounts zijn al bijgewerkt.",
+      "failed_to_upgrade": "Het is niet gelukt om de instellingen van het klantaccount bij te werken.",
+      "not_upgraded": "Klantaccounts worden niet geüpdatet.",
+      "failed_to_revert": "Het is niet gelukt om de instellingen van het klantaccount terug te zetten.",
+      "revert_window_expired": "Het terugzetvenster is verlopen."
+    },
+    "payment_methods": {
+      "replacement_payment_method_title": "Vervangende betaalmethode",
+      "add_payment_method_dropdown": {
+        "bank_account_consent": "Door een betaalmethode toe te voegen, geeft u toestemming om uw kaart te belasten of uw bankrekening te debiteren voor toekomstige aankopen die u goedkeurt, totdat u deze annuleert."
+      },
+      "bank_account": {
+        "loading_accessibility_message": "Bankrekeningknop wordt geladen",
+        "iframe_title_accessibility_label": "Bankrekening instellen",
+        "generic_error": "Kon bankrekening niet toevoegen. Probeer het later opnieuw."
+      },
+      "add_payment_method_banner": "Betaalmethode toevoegen voor snellere afhandeling of vooraf goedgekeurde diensten",
+      "edit_payment_method_button_accessibility_label": "Bewerk {{paymentMethodName}} eindigend op {{lastDigits}}"
     }
   }
 }
