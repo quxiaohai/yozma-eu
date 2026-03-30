@@ -177,7 +177,7 @@
       "no_results": "Geen producten komen overeen met die filters.",
       "price_range_to": "naar",
       "price_filter_from": "Vanaf prijs",
-      "price_filter_to": "Prijs tot",
+      "price_filter_to": "Te koop",
       "price_filter": "{{ min_price }} - {{ max_price }}",
       "availability_label": "Alleen op voorraad"
     }
@@ -185,28 +185,28 @@
   "blog": {
     "general": {
       "empty_blog": "Deze blog is leeg",
-      "back_to_home": "Terug naar start",
-      "view": "Weergeven",
+      "back_to_home": "Terug naar startpagina",
+      "view": "Bekijken",
       "all_posts": "Alle berichten"
     },
     "post": {
       "written_by": "Door {{ author }}",
       "share": "Delen",
       "tags": "Labels",
-      "continue_reading": "Volgende lezen"
+      "continue_reading": "Lezen volgende"
     },
     "comments": {
       "leave_comment": "Laat een reactie achter",
-      "moderated": "Alle reacties worden gemodereerd voordat ze worden gepubliceerd.",
+      "moderated": "Alle opmerkingen worden gematigd voordat ze worden gepubliceerd.",
       "name": "Naam",
-      "email": "E-mailadres",
+      "email": "E-mail",
       "message": "Bericht",
       "submit": "Verzenden",
-      "comment_sent": "Je reactie is verzonden. We publiceren het over enige tijd, omdat ons blog wordt gemodereerd.",
-      "comment_published": "Je reactie is gepubliceerd.",
+      "comment_sent": "Je opmerking is verzonden. We zullen deze over een tijdje publiceren, aangezien onze blog gemodereerd is.",
+      "comment_published": "Uw opmerking is gepubliceerd.",
       "count": {
         "zero": "{{ count }} reacties",
-        "one": "{{ count }} reactie",
+        "one": "{{ count }} opmerking",
         "other": "{{ count }} reacties"
       }
     }
@@ -214,81 +214,81 @@
   "contact": {
     "form": {
       "name": "Naam",
-      "email": "E-mailadres",
+      "email": "E-mail",
       "message": "Bericht",
       "submit": "Bericht verzenden",
-      "success_message": "Je bericht is verzonden."
+      "success_message": "Uw bericht is verzonden."
     }
   },
   "customer": {
     "account": {
       "welcome": "Welkom, {{first_name}}",
-      "tagline": "Bekijk al je bestellingen bekijken en beheer je accountgegevens.",
+      "tagline": "Bekijk al uw bestellingen en beheer uw accountinformatie.",
       "orders": "Bestellingen",
       "addresses": "Adressen",
-      "logout": "Afmelden",
+      "logout": "Uitloggen",
       "no_orders": "Je hebt nog geen bestellingen geplaatst.",
       "continue_shopping": "Doorgaan met winkelen"
     },
     "login": {
       "title": "Inloggen",
-      "email": "E-mailadres",
+      "email": "E-mail",
       "password": "Wachtwoord",
       "submit": "Inloggen",
       "forgot_password": "Wachtwoord vergeten?",
       "sign_up": "Aanmelden"
     },
     "recover_password": {
-      "title": "Wachtwoord herstellen",
-      "email": "E-mailadres",
+      "title": "Herstel wachtwoord",
+      "email": "E-mail",
       "submit": "Herstellen",
       "back_to_login": "Terug naar inloggen",
-      "success_message": "Er is een e-mail naar je adres gestuurd met instructies om je wachtwoord opnieuw in te stellen."
+      "success_message": "Er is een e-mail naar uw adres gestuurd met instructies om uw wachtwoord opnieuw in te stellen."
     },
     "register": {
       "title": "Aanmelden",
       "first_name": "Voornaam",
       "last_name": "Achternaam",
-      "email": "E-mailadres",
+      "email": "E-mail",
       "password": "Wachtwoord",
-      "accepts_marketing": "Registreren voor onze nieuwsbrief",
+      "accepts_marketing": "Meld u aan voor onze nieuwsbrief",
       "submit": "Account aanmaken",
       "login": "Inloggen"
     },
     "activate_account": {
       "title": "Account activeren",
-      "instructions": "Voer een wachtwoord in om je account aan te maken:",
+      "instructions": "Voer een wachtwoord in om uw account aan te maken:",
       "password": "Wachtwoord",
-      "password_confirmation": "Bevestig wachtwoord",
+      "password_confirmation": "Wachtwoordbevestiging",
       "submit": "Activeren",
       "cancel": "Annuleren"
     },
     "reset_password": {
       "title": "Wachtwoord opnieuw instellen",
       "password": "Wachtwoord",
-      "password_confirmation": "Bevestig wachtwoord",
-      "submit": "Opnieuw instellen"
+      "password_confirmation": "Wachtwoordbevestiging",
+      "submit": "Herstellen"
     },
     "order": {
       "order": "Bestelling",
-      "order_name": "Bestelling {{name}}",
-      "view_details": "Bestelgegevens bekijken",
+      "order_name": "Bestel {{name}}",
+      "view_details": "Bekijk bestelgegevens",
       "back": "Terug",
       "date": "Datum",
       "payment_status": "Betalingsstatus",
-      "fulfillment_status": "Afhandelingsstatus",
+      "fulfillment_status": "Status van de bestelling",
       "cancelled_on": "Geannuleerd op {{date}}. Reden: {{reason}}",
       "product": "Product",
       "quantity": "Aantal",
-      "fulfillment_with_number": "Je bestelling is verzonden op {{date}}. Volg de zending met nummer {{tracking_number}}.",
-      "fulfillment": "Je bestelling is verzonden op {{date}}.",
-      "track_shipment": "Zending volgen",
-      "subtotal": "Subtotaal",
+      "fulfillment_with_number": "Uw bestelling is verzonden op {{date}}. Volg de zending met nummer {{tracking_number}}.",
+      "fulfillment": "Uw bestelling is verzonden op {{date}}.",
+      "track_shipment": "Volg zending",
+      "subtotal": "Tussentotaal",
       "discount": "Korting",
-      "shipping": "Verzendkosten",
-      "taxes_included": "Inclusief btw",
-      "taxes_excluded": "Exclusief btw",
-      "total_duties": "Invoerrechten",
+      "shipping": "Verzending",
+      "taxes_included": "Belastingen inbegrepen",
+      "taxes_excluded": "Belastingen uitgesloten",
+      "total_duties": "Belastingen",
       "refunded_amount": "Terugbetaald bedrag",
       "total": "Totaal",
       "shipping_address": "Verzendadres",
@@ -303,19 +303,19 @@
       "delete": "Verwijderen",
       "default_address": "Standaardadres",
       "address_title": "Adres {{ position }}",
-      "delete_confirm": "Dit adres verwijderen? Eenmaal bevestigd kan deze actie niet meer ongedaan worden gemaakt.",
-      "fill_form": "Vul onderstaande informatie in:",
+      "delete_confirm": "Dit adres verwijderen? Zodra dit is bevestigd, kan deze actie niet ongedaan gemaakt worden.",
+      "fill_form": "Vul alstublieft de onderstaande informatie in:",
       "first_name": "Voornaam",
       "last_name": "Achternaam",
       "company": "Bedrijf",
       "phone": "Telefoonnummer",
       "address1": "Adres 1",
       "address2": "Adres 2",
-      "city": "Plaats",
+      "city": "Stad",
       "zip": "Postcode",
       "country": "Land",
       "province": "Provincie",
-      "set_default": "Als standaardadres instellen"
+      "set_default": "Instellen als standaardadres"
     }
   },
   "cart": {
@@ -324,23 +324,24 @@
       "empty": "Je winkelwagen is leeg",
       "item_count": {
         "one": "{{ count }} artikel",
-        "other": "{{ count }} artikelen"
+        "other": "{{ count }} artikelen",
+        "zero": "{{ count }} artikelen"
       },
       "continue_shopping": "Doorgaan met winkelen",
       "weight": "Gewicht",
-      "subtotal": "Subtotaal",
+      "subtotal": "Tussentotaal",
       "total": "Totaal",
-      "add_order_note": "Bestelnotitie toevoegen",
-      "edit_order_note": "Bestelnotitie bewerken",
+      "add_order_note": "Voeg bestelnotitie toe",
+      "edit_order_note": "Bewerk bestelnotitie",
       "order_note": "Bestelnotitie",
       "save_note": "Opslaan",
-      "view_cart": "Winkelwagen bekijken",
+      "view_cart": "Bekijk winkelwagen",
       "checkout": "Afrekenen",
-      "we_accept": "We accepteren",
-      "taxes_and_shipping_policy_at_checkout_html": "Btw en <a href=\"{{ link }}\" class=\"link\">verzendkosten</a> berekend bij het afrekenen",
-      "taxes_included_but_shipping_at_checkout": "Btw inbegrepen en verzendkosten berekend bij het afrekenen",
-      "taxes_included_and_shipping_policy_html": "Btw inbegrepen. <a href=\"{{ link }}\" class=\"link\">Verzendkosten</a> berekend bij het afrekenen.",
-      "taxes_and_shipping_at_checkout": "Btw en verzendkosten berekend bij het afrekenen"
+      "we_accept": "Wij accepteren",
+      "taxes_and_shipping_policy_at_checkout_html": "Belastingen en <a href=\"{{ link }}\" class=\"link\">verzending</a> worden berekend bij het afrekenen",
+      "taxes_included_but_shipping_at_checkout": "Belastingen inbegrepen en verzendkosten worden berekend bij het afrekenen",
+      "taxes_included_and_shipping_policy_html": "Inclusief belasting. <a href=\"{{ link }}\" class=\"link\">Verzending</a> wordt berekend bij het afrekenen.",
+      "taxes_and_shipping_at_checkout": "Belastingen en verzendkosten worden berekend bij het afrekenen"
     },
     "order": {
       "product": "Product",
@@ -348,12 +349,12 @@
       "quantity": "Aantal",
       "change_quantity": "Aantal wijzigen",
       "increase_quantity": "Aantal verhogen",
-      "decrease_quantity": "Aantal verlagen",
+      "decrease_quantity": "Aantal verminderen",
       "remove": "Verwijderen",
       "remove_with_title": "Verwijder {{ title }}"
     },
     "free_shipping_bar": {
-      "limit_unreached_html": "Besteed {{ remaining_amount }} meer en krijg gratis verzending!",
+      "limit_unreached_html": "Besteed nog {{ remaining_amount }} en krijg gratis verzending!",
       "limit_reached_html": "Je komt in aanmerking voor gratis verzending."
     },
     "shipping_estimator": {
