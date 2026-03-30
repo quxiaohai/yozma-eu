@@ -2249,8 +2249,92 @@
             "phone": "Ingrese un número de teléfono válido",
             "billing_phone": "Introduzca un número de teléfono válido para la dirección de facturación",
             "reduction_code": "Introduce un código de descuento o tarjeta de regalo válido",
-            "billing_must_match_shipping": "Debe coincidir con la dirección de envío"
+            "billing_must_match_shipping": "Debe coincidir con la dirección de envío",
+            "billing_zip": "Introduzca un código postal / código ZIP válido para la dirección de facturación"
+          },
+          "missing": {
+            "first_name": "Introduzca un nombre",
+            "billing_first_name": "Introduzca un nombre de pila para la dirección de facturación",
+            "last_name": "Introduzca un apellido",
+            "address1": "Introduzca una dirección",
+            "billing_address1": "Introduzca una dirección de facturación",
+            "address2": "Ingrese un apartamento, suite, etc.",
+            "billing_address2": "Ingrese un apartamento, suite, etc., para la dirección de facturación.",
+            "billing_city": "Introduzca una ciudad para la dirección de facturación",
+            "province": "Seleccione un estado / provincia",
+            "billing_province": "Seleccione un estado / provincia para la dirección de facturación",
+            "country": "Seleccione un país/región",
+            "zip": "Introduzca un código postal",
+            "billing_zip": "Introduzca un código postal / código ZIP de facturación",
+            "phone": "Introduzca un número de teléfono",
+            "contact_info": "Introduzca la información de contacto"
+          },
+          "formatting": {
+            "name_contains_emojis": "Eliminar emoji de tu nombre",
+            "postal_code_contains_emoji": "Elimine el emoticón de su código postal",
+            "first_name_too_long": "El nombre contiene demasiadas letras",
+            "last_name_too_long": "El apellido contiene demasiadas letras",
+            "address_too_long": "La línea de dirección es demasiado larga"
+          },
+          "select_different_shipping_address_to_resolve_errors": "Su dirección de envío no es válida. Seleccione una dirección diferente o use una nueva.",
+          "processing_error_checkout_as_guest": "Hubo un problema al procesar su pago. Intente de nuevo o {{checkout_as_guest_link}}."
+        },
+        "scrim": {
+          "and_return_to_checkout": "y volver a la caja"
+        }
+      },
+      "offsite_payment_failed": {
+        "title": "El pago fuera del sitio falló",
+        "payment_not_processed_text": "Intente escanear el código QR nuevamente. Si aún no funciona, informe a nuestro personal y pruebe un método de pago diferente.",
+        "payment_link_expired_title": "Enlace de pago caducado"
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "El precio de la tarjeta de regalo debe ser mayor que 0.",
+            "gift_card_price_must_not_exceed_limit": "El precio de la tarjeta de regalo no debe exceder %{gift_card_limit}.",
+            "subtotal_limit_reached": "Se ha alcanzado el valor máximo de los artículos en la línea.",
+            "signature_mismatch": "Incompatibilidad de firma de mercancía para la línea %{stable_id}."
           }
+        }
+      },
+      "remote": {
+        "errors": {
+          "only_remote_merchandise_lines": "El pago solo contiene mercancía a distancia. Se requiere una redirección a la tienda a distancia para completar el pago.",
+          "currency_mismatch": "Este artículo no se puede añadir a tu carrito porque proviene de una tienda que utiliza una moneda diferente.",
+          "currency_mismatch_removal": "Se eliminó un artículo de su carrito porque proviene de una tienda que utiliza una moneda diferente.",
+          "max_remote_shops_exceeded": "Este producto no se puede añadir porque tu carrito ya tiene el máximo permitido de otras tiendas."
+        }
+      },
+      "units": {
+        "meter": "mediano",
+        "ounce": "onza",
+        "pound": "libra",
+        "fluid_ounce": "onzas fluidas",
+        "quart": "cuarto de galón",
+        "gallon": "galón",
+        "inch": "en",
+        "foot": "pie"
+      },
+      "memberships": {
+        "delivery_promise_unfulfillable": "La dirección no está admitida para la membresía actual.",
+        "items_split_across_locations_unsupported": "La entrega Prime no está disponible para su pedido. Sus opciones de envío han sido actualizadas."
+      },
+      "editor": {
+        "navigation": {
+          "store_logo_accessibility_label": "Navegar a la Tienda en Línea"
+        }
+      },
+      "tooltip": {
+        "additional_payment_methods": "Métodos de pago adicionales"
+      },
+      "too_many_requests": {
+        "body": "Por favor, espere unos minutos y vuelva a intentarlo desde su carrito.",
+        "body_no_cart": "Por favor, espere unos minutos y vuelva a intentarlo."
+      },
+      "required_extensions": {
+        "errors": {
+          "interaction_required": "Se requiere una interacción con la extensión para completar la compra."
         }
       }
     }
