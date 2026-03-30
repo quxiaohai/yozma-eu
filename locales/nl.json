@@ -3149,8 +3149,154 @@
       "loading_finished_accessibility_message": "Bestelgegevens zijn geladen",
       "image_gallery": {
         "product_name_and_quantity": "{{productName}} hoeveelheid {{quantity}}",
-        "next": "Toon volgende items"
-      }
+        "next": "Toon volgende items",
+        "previous": "Toon vorige items",
+        "load_more_items": {
+          "one": "Laad nog {{count}} items meer",
+          "other": "Laad nog {{count}} items meer"
+        }
+      },
+      "mobile_summary_toggle_button": {
+        "open": "Toon besteloverzicht"
+      },
+      "not_applicable": "N.v.t.",
+      "partially_refunded_label": "DEELS TERUGBETAALD",
+      "payment_confirmation": {
+        "payment_received": "Bedankt! Uw betaling van {{amount}} is ontvangen.",
+        "full_payment_received": "Bedankt! Uw betaling van {{amount}} is ontvangen en deze bestelling is nu volledig betaald.",
+        "payment_authorized": "Dank u wel! Het saldo wordt bijgewerkt zodra de betaling is ontvangen.",
+        "dismiss_label": "Betaling bevestiging sluiten"
+      },
+      "payment": {
+        "payment_type": {
+          "cash_on_delivery": "Contant bij aflevering (CBA)",
+          "manual": "Handleiding"
+        },
+        "shop_pay_installments": {
+          "paid_in_installments": "Betaald met Shop Pay termijnen",
+          "view_schedule": "Bekijk schema"
+        },
+        "manual_payment_methods": {
+          "money_order": "Geldwissel - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Contant bij aflevering (COD) - {{formattedTransactionAmount}}",
+          "bank_deposit": "Bankstorting - {{formattedTransactionAmount}}",
+          "manual": "Handleiding - {{formattedTransactionAmount}}"
+        },
+        "transactions": {
+          "show_all": "Alles tonen",
+          "details": "Details",
+          "payment_details": "Betalingsgegevens"
+        },
+        "emv_details": {
+          "aid": "HULP:",
+          "source": "Gebruik het volgende uitvoerformaat (geen codeblokken, geen extra tekst):"
+        }
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Betaald met Shop Pay-termijnen",
+        "description": "Blijf op de hoogte van uw betalingsschema met herinneringen in de Winkel-app.",
+        "payment_reminders_button": "Ontvang betalingsherinneringen",
+        "desktop_qr_code_content": {
+          "description": "Ontvang herinneringen aan je termijnen met Shop."
+        }
+      },
+      "request_return_failed": "Er was een probleem bij het verwerken van uw verzoek. Probeer het alstublieft opnieuw.",
+      "login_card": {
+        "resend_link_and_login": "Om uw bestelgegevens te bekijken, log in of stuur een nieuwe link naar het e-mailadres of telefoonnummer dat bij het afrekenen is gebruikt.",
+        "resend_link_only": "Om uw bestelgegevens te bekijken, stuur een nieuwe link naar het e-mailadres of telefoonnummer dat bij het afrekenen is gebruikt.",
+        "resend_link": "Verzend nieuwe link"
+      },
+      "marketing_description": "Je ontvangt marketing-e-mails. Je kunt je op elk moment afmelden.",
+      "marketing_checkmark_label": "U bent ingeschreven om e-mailnieuws en aanbiedingen te ontvangen",
+      "marketing_pending_confirmation": "Klik op de link in uw e-mail om te bevestigen.",
+      "returns": {
+        "expand_events_label": "Toon details",
+        "hide_events_label": "Details verbergen",
+        "ineligible_return_message": "Geen artikelen in deze bestelling komen in aanmerking voor retournering.",
+        "ineligible_return_message_when_returned": "Er komen geen extra artikelen in deze bestelling in aanmerking voor retournering.",
+        "tracking_number": "Volgnummer:",
+        "exchange_header": "Ruil artikelen",
+        "exchange_subheader": "Ruilartikelen worden aan de bestelling toegevoegd zodra de retour is afgerond."
+      },
+      "shipping": {
+        "address": "Verzendadres",
+        "address_map_marker": "Verzendadres",
+        "summary": "Verzending",
+        "free_shipping_discount": "Gratis Verzending",
+        "one_time": "Eenmalige verzending",
+        "subscription": "Abonnementsverzending"
+      },
+      "show_items": "Toon artikelen",
+      "total_savings": "Totale besparingen",
+      "show_order_summary": "Toon besteloverzicht",
+      "subtitle": "Bevestigd {{date}}",
+      "subtotal": "Tussentotaal",
+      "subtotal_label_with_quantity": {
+        "one": "Tussentotaal"
+      },
+      "summary_list_title_accessibility_label": "Bestelartikelen",
+      "summary_totals_title_accessibility_label": "Besteltotalen",
+      "shop_order_tracking": {
+        "download_shop_to_track": "Download Winkel om pakket te volgen",
+        "track_order_with_shop": "Volg bestelling met Winkel",
+        "title_header": "Scan met uw telefoon",
+        "real_time_delivery_updates": "Winkel stuurt u realtime bezorgupdates zodra uw bestelling is verzonden."
+      },
+      "edit_summary": {
+        "added_with_quantity": "Toegevoegd {{quantity}}",
+        "removed_with_quantity": "Verwijderd {{quantity}}",
+        "updated_at": "Uw bestelling is bijgewerkt op {{date}}",
+        "returned_with_quantities": "Retour gestuurd {{delta}} van {{total}}",
+        "removed_with_quantities": "Verwijderd {{delta}} van {{total}}"
+      },
+      "taxes_included": "Inclusief {{amount}} aan belastingen",
+      "duties_and_taxes_included": "Totaal inclusief invoerrechten en belastingen. Geen extra kosten bij levering.",
+      "duties": "Belastingen",
+      "ok_duties_tooltip": "Deze bestelling wordt vanuit een ander land verzonden, daarom zijn er invoerrechten aan het totaalbedrag van uw bestelling toegevoegd.",
+      "error_duties_tooltip": "Deze bestelling wordt vanuit een ander land verzonden, dus er kunnen invoerrechten en belastingen bij aflevering in rekening worden gebracht.",
+      "zero_duties_tooltip": "Deze bestelling wordt vanuit een ander land verzonden. Er worden geen invoerrechten geheven op bestellingen van deze waarde.",
+      "tip": "Tip",
+      "title": "Bestel {{name}}",
+      "unit_price": "{{price}}/stuk",
+      "pagination": {
+        "loading_accessibility_label": "Items laden"
+      },
+      "login_to_view_all_order_details": "Meld u aan om alle bestelgegevens te bekijken.",
+      "logged_in_account_no_permission_to_order": "Je bent ingelogd als {{email}}. Dit account heeft geen toestemming om deze bestelling te beheren.",
+      "log_in_to_a_different_account": "Meld u aan bij een ander account",
+      "fees": {
+        "restocking_fee": "Aanvulvergoeding",
+        "return_shipping_fee": "Retourverzending"
+      },
+      "vat_invoices": {
+        "title": "btw-facturen"
+      },
+      "cash_rounding": "Contant afronden",
+      "adjusted_total": "Aangepaste totaalprijs",
+      "due_on_date": "Vervaldatum {{date}}",
+      "due_on_fulfillment": "Vervaldatum bij uitvoering"
+    },
+    "addresses": {
+      "back_button_accessibility_label": "Terug naar het bewerken van adres {{address}}",
+      "add_address_banner": "Voeg adressen toe om te gebruiken bij het afrekenen",
+      "cancel_deletion_button_accessibility_label": "Annuleren van het verwijderen van {{address}}",
+      "delete_button_accessibility_label": "Verwijder {{address}}",
+      "delete_confirmation_button_accessibility_label": "Verwijder {{address}}",
+      "delete_confirmation_message": "Adres verwijderen? Bestaande bestellingen worden niet beïnvloed.",
+      "delete_confirmation_description": "Bestaande bestellingen worden niet beïnvloed.",
+      "edit_button_accessibility_label": "Bewerk {{address}}",
+      "edit_section_accessibility_label": "Bewerk {{address}}",
+      "edit_modal_title": {
+        "billing": "Bewerk factuuradres",
+        "shipping": "Adres voor verzending bewerken"
+      },
+      "loading_billing_accessibility_message": "Adres voor facturering laden",
+      "loading_shipping_accessibility_message": "Adres voor verzending laden"
+    },
+    "address_form": {
+      "attention": "Let op",
+      "attention_company": "Bedrijf/aandacht",
+      "attention_help_text": "De naam van een persoon of afdeling"
     }
   }
 }
