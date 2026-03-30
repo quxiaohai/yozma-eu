@@ -675,7 +675,251 @@
         "loading": "Bezig met laden…",
         "loading_title": "Afrekenen - {{shopName}}",
         "google_map_title": "Google Kaart",
-        "submit_order_button_label": "Bestelling verzenden"
+        "submit_order_button_label": "Bestelling verzenden",
+        "submit_for_review_button_label": "Indienen ter beoordeling",
+        "submit_for_review_notice_label": "Betaling is pas verschuldigd nadat uw bestelling is beoordeeld",
+        "continue_to_payment_plans_button_label": "Doorgaan naar betaalplannen",
+        "back_button_label": "Teruggeven",
+        "autocomplete_powered_by_google": "Aangedreven door {{brandName}}",
+        "submit": "Verzenden",
+        "processing": "Bezig met verwerken…",
+        "stepper": {
+          "increase": "Verhoog {{type}}",
+          "decrease": "Verlaag {{type}}"
+        },
+        "remove_chip": "Verwijder artikel",
+        "remove_item": "Verwijder %{label}",
+        "dates": {
+          "weekdays": {
+            "monday": "Maandag",
+            "tuesday": "Dinsdag",
+            "wednesday": "Woensdag",
+            "thursday": "Donderdag",
+            "friday": "Vrijdag",
+            "sunday": "Zondag"
+          },
+          "weekdays_abbreviation": {
+            "monday": "Maandag",
+            "tuesday": "Jij",
+            "wednesday": "Wij",
+            "thursday": "De",
+            "friday": "Fr",
+            "saturday": "Za",
+            "sunday": "Su"
+          },
+          "months": {
+            "august": "Augustus",
+            "october": "Oktober",
+            "november": "November",
+            "december": "December"
+          }
+        },
+        "datepicker": {
+          "show_previous_month": "Toon vorige maand, {{month}} {{year}}",
+          "show_next_month": "Toon volgende maand, {{month}} {{year}}",
+          "range_start": "Bereik begin",
+          "range_end": "Einde van het assortiment"
+        },
+        "list_formatter": {
+          "and": {
+            "lastWordConnector": "{{previousWords}}, en {{lastWord}}"
+          },
+          "or": {
+            "lastWordConnector": "{{previousWords}}, of {{lastWord}}"
+          }
+        },
+        "map": {
+          "cluster_title": {
+            "one": "Cluster van {{number}} markeerder",
+            "other": "Cluster van {{number}} markeringen"
+          }
+        },
+        "dropzone": {
+          "invalid_file_type": "Bestandstype niet ondersteund"
+        }
+      },
+      "embed": {
+        "header": {
+          "review_order": "Beoordeel uw bestelling"
+        },
+        "payment": {
+          "payment_options": "Bekijk alle betaalmogelijkheden"
+        }
+      },
+      "payment_collection": {
+        "cancelled": "Deze betaling is niet langer vereist. Bezoek de bestelpagina voor details.",
+        "paid": "Deze betaling is al ingediend. Bezoek de bestelpagina voor details."
+      },
+      "contact": {
+        "shipping_used_as_billing_notice": "Dit wordt ook gebruikt als uw factuuradres voor deze bestelling.",
+        "contact_method_title": "Contact opnemen",
+        "email_or_phone_label": "E-mailadres of mobiel telefoonnummer",
+        "email_or_phone_placeholder": "E-mailadres of mobiel telefoonnummer",
+        "storefront_link": "website van de handelaar",
+        "company_attention_label": "Bedrijf/Aandacht",
+        "optional_company_attention_label": "Bedrijf/Aandacht (optioneel)",
+        "address2_label": "Appartement, suite, enz.",
+        "optional_address2_label": "Appartement, suite, enzovoort (optioneel)",
+        "suburb_label": "Voorstad",
+        "country_label": "Land/Regio",
+        "county_label": "Graafschap",
+        "county_placeholder": "Graafschap",
+        "state_and_territory_label": "Staat/gebied",
+        "state_and_territory_placeholder": "Staat/gebied",
+        "phone_country_code_label": "Landcode telefoonnummer",
+        "phone_tooltip": "Voor het geval we contact met u moeten opnemen over uw bestelling",
+        "pincode_label": "PIN-code",
+        "optional_pincode_label": "PIN-code (optioneel)",
+        "pincode_placeholder": "PIN-code",
+        "civic_number_warning": "Voeg een huisnummer toe als u er een heeft",
+        "different_shipping_address_label": "Verzenden naar een ander adres",
+        "different_shipping_address_text": "Gebruik een eenmalig adres voor deze bestelling",
+        "change_company_location_link_label": "Bedrijfsadres wijzigen"
+      },
+      "delivery_options": {
+        "ship_to_address": "Verzend naar adres",
+        "shipping_address": "Verzendadres",
+        "pickup_point_map_title": "Afhaalpuntkaart",
+        "pick_up_in_one_hour": "Gewoonlijk klaar binnen 1 uur",
+        "pick_up_in_two_hours": "Gewoonlijk klaar binnen 2 uur",
+        "pick_up_in_four_hours": "Gewoonlijk klaar binnen 4 uur",
+        "pick_up_in_twenty_four_hours": "Gewoonlijk binnen 24 uur klaar",
+        "pick_up_in_two_to_four_days": "Gewoonlijk klaar binnen 2-4 dagen",
+        "pick_up_in_five_or_more_days": "Gewoonlijk binnen 5+ dagen klaar",
+        "pick_up_in_zero_to_two_hours": "Klaar om op te halen over 2 uur",
+        "pick_up_in_two_to_four_hours": "Klaar om op te halen over 4 uur",
+        "pick_up_next_day": "Klaar voor afhaling de volgende dag",
+        "retail_method_definition": "Detailhandel verzending",
+        "company_location_no_address_banner": "Bestellingen die naar locaties zonder adres worden verzonden, worden ter beoordeling ingediend.",
+        "none_method_definition": "Geen verzending",
+        "subscription_pickup_information": "Deze bezorgmethode geldt voor alle artikelen in deze bestelling en voor alle toekomstige bestellingen van dit abonnement."
+      },
+      "customer_account": {
+        "not_user_label": "Niet %{first_name}?",
+        "sign_out_link_label": "Afmelden",
+        "save_my_information_label": "Bewaar deze informatie voor de volgende keer",
+        "invalid_address": "Gekozen adres is ongeldig. %{update_address_link} of selecteer een ander adres.",
+        "incomplete_address": "Geselecteerd adres is onvolledig. %{update_address_link} of kies een ander adres.",
+        "rollup_label": "Rekening",
+        "invalid_shipping_method_summary": "Selecteer een geldig afleveradres om de beschikbare verzendmethoden te bekijken"
+      },
+      "remote_merchandise_only": {
+        "title": "Voltooi uw aankoop",
+        "remote_only_notice": "Deze artikelen worden verkocht en verzonden door andere winkels. Rond uw aankoop af bij elke winkel afzonderlijk.",
+        "single_shop_transition": "We leiden je door naar %{advertiser} om je aankoop te voltooien."
+      },
+      "stock": {
+        "page_title": "Voorraadproblemen",
+        "items_unavailable_notice": "Sommige artikelen zijn niet langer beschikbaar.",
+        "reduced_with_quantity_label": "Nog maar %{quantity_available} beschikbaar",
+        "remove_from_cart_button_label": "Uit winkelwagen verwijderen",
+        "go_back_to_cart_button_label": "Ga terug naar mijn winkelwagen",
+        "continue_cta_label": "Doorgaan met afrekenen",
+        "quantity_update": {
+          "page_title": "Aantal bijwerken",
+          "title": "Aantal bijwerken",
+          "description": "De beschikbare hoeveelheden voor deze artikelen zijn gewijzigd en zijn bijgewerkt in uw winkelwagen."
+        },
+        "unpurchasable_product": {
+          "title": "Niet te koop staand product",
+          "header": "Sommige artikelen zijn uit uw winkelwagen verwijderd",
+          "message": "Deze artikelen zijn niet beschikbaar voor zakelijke bestellingen."
+        },
+        "unpurchasable_product_generic": {
+          "title": "Niet te koop staand product",
+          "header": "Sommige artikelen zijn uit uw winkelwagen verwijderd"
+        },
+        "unfulfillable_product": {
+          "message": {
+            "one": "%{delivery_method} is niet langer beschikbaar voor dit artikel.",
+            "other": "%{delivery_method} is niet langer beschikbaar voor deze artikelen."
+          },
+          "default_message": {
+            "one": "De gekozen bezorgmethode is niet langer beschikbaar voor dit artikel.",
+            "other": "De gekozen bezorgmethode is niet langer beschikbaar voor deze artikelen."
+          }
+        },
+        "unshippable_product": {
+          "title": "Geen levering beschikbaar",
+          "header": {
+            "one": "Geen levering beschikbaar voor %{count} artikel",
+            "other": "Geen levering beschikbaar voor %{count} artikelen"
+          },
+          "message": {
+            "one": "Dit artikel wordt uit uw winkelwagen verwijderd omdat er geen bezorgmethoden beschikbaar zijn voor uw adres.",
+            "other": "Deze artikelen worden uit uw winkelwagen verwijderd omdat er geen bezorgmethoden beschikbaar zijn voor uw adres."
+          },
+          "status_column_header": "Geen levering"
+        },
+        "price_update": {
+          "description": "De prijzen van deze artikelen zijn gewijzigd en zijn bijgewerkt in uw winkelwagen."
+        },
+        "price_and_quantity_update": {
+          "title": "Prijs- en hoeveelheidupdate",
+          "description": "De prijzen en beschikbare hoeveelheden van deze artikelen zijn gewijzigd en bijgewerkt in uw winkelwagen."
+        },
+        "out_of_stock": {
+          "description": "Deze artikelen zijn niet langer beschikbaar en zijn uit uw winkelwagen verwijderd.",
+          "items_unavailable": "Sommige artikelen zijn niet langer beschikbaar en zijn uit uw winkelwagen verwijderd."
+        },
+        "out_of_stock_in_context_label": "Dit product is niet beschikbaar in uw land/regio."
+      },
+      "contextual_availability": {
+        "title": {
+          "one": "Niet beschikbaar product",
+          "other": "Niet beschikbare producten"
+        },
+        "products_not_available": {
+          "one": "Dit product wordt uit uw winkelwagen verwijderd omdat het niet beschikbaar is in uw land/regio.",
+          "other": "Deze producten worden uit uw winkelwagen verwijderd omdat ze niet beschikbaar zijn in uw land/regio."
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "Dit product is niet beschikbaar in uw land/regio.",
+          "other": "Deze producten zijn niet beschikbaar in uw land/regio."
+        }
+      },
+      "merchandise_unavailable_in_buyer_location": {
+        "banner_title": {
+          "some_products_one": "Dit product is niet beschikbaar voor levering naar %{location_name}.",
+          "some_products_other": "Deze producten zijn niet beschikbaar voor levering aan %{location_name}.",
+          "all_products_one": "Het product in uw winkelwagen is niet beschikbaar voor levering aan %{location_name}.",
+          "all_products_other": "De producten in uw winkelwagen zijn niet beschikbaar voor levering naar %{location_name}."
+        },
+        "indeterminate_location_fallback": "je locatie",
+        "change_address_only": "Wijzig het afleveradres om door te gaan.",
+        "change_address_or_remove": "Wijzig het afleveradres of %{remove_action}.",
+        "remove_items_action": {
+          "one": "verwijder niet-beschikbaar artikel",
+          "other": "verwijder niet-beschikbare artikelen"
+        },
+        "empty_cart_action": "winkelwagen legen en terugkeren naar de winkel"
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "Geen levering beschikbaar voor %{count} artikel",
+            "other": "Geen levering beschikbaar voor %{count} artikelen"
+          },
+          "message": {
+            "one": "Dit artikel wordt uit uw winkelwagen verwijderd omdat er geen bezorgmethoden beschikbaar zijn voor uw adres.",
+            "other": "Deze artikelen worden uit uw winkelwagen verwijderd omdat er geen bezorgmethoden beschikbaar zijn voor uw adres."
+          },
+          "label": "Geen levering"
+        }
+      },
+      "order_summary": {
+        "group_title_label": "Onderdeel van \"%{group_title}\"",
+        "from_multiple_stores_heading": "Van meerdere winkels",
+        "view_all_items": {
+          "one": "Bekijk %{count} item",
+          "other": "Bekijk alle %{count} items"
+        },
+        "more_items_modal": {
+          "clear_search": "Zoekopdracht wissen",
+          "empty_results": "Geen resultaten gevonden voor \"%{searchText}\". Controleer de spelling of gebruik een ander woord of een andere uitdrukking.",
+          "number_items_shown": "%{shownNumber} van %{totalNumber} items"
+        },
+        "order_name_label": "Bestel %{name}"
       }
     }
   }
