@@ -1465,7 +1465,67 @@
         "markets_pro_disclaimer_privacy_policy_title": "Privacybeleid van de Handelsregisterhouder",
         "purchase_order_number": {
           "title": "PO-nummer"
-        }
+        },
+        "alternative_payment_currency_total_notice": "Opmerking: er wordt %{amount_due} in rekening gebracht.",
+        "alternative_payment_currency_total_manual_payment_notice": "Opmerking: het omgerekende totaalbedrag is %{amount_due}.",
+        "waiting_on_taxes_message": "Als uw belastingen niet binnen enkele seconden worden berekend, vernieuw dan de pagina.",
+        "payment_method_rollup_accessibility_label": "Betaalmethoden opties",
+        "expired_payment_method": "De gekozen betaalmethode is verlopen",
+        "payment_method_update_failed": "Bijwerken van betaalmethode mislukt.",
+        "payment_method_incompatible_with_payment_terms": "Betaalmethode is niet compatibel met de betalingsvoorwaarden.",
+        "proposed_gateway_unavailable": "De voorgestelde betaalmethode is niet beschikbaar",
+        "pay_in_installments_split_pay_short": "4 betalingen van %{amount}",
+        "gift_cards_unavailable": "Uw cadeaubon kan niet langer op deze bestelling worden toegepast en is verwijderd",
+        "payment_flexibility_terms_id_mismatch": "Betalingsflexibiliteit voorwaarden ID komt niet overeen",
+        "payment_option": {
+          "accessibility_label": "Kies een betaalmethode"
+        },
+        "bank_account_type": {
+          "checking": "Controleren",
+          "savings": "Besparingen"
+        },
+        "new_bank_account_disclaimer": "Door uw bestelling te voltooien, geeft u %{shop_name} toestemming om het onderstaande rekeningnummer via ACH te debiteren voor het getoonde bedrag en op het aangegeven tijdstip.",
+        "bank_account_disclaimer": "ACH-betalingen kunnen tot 4 werkdagen in beslag nemen om te verwerken.",
+        "bank_account_choose": "Kies een account om uw aankoop veilig te voltooien",
+        "bank_account_connect_another": "Verbind een andere bankrekening",
+        "bank_account_missing": "Bankrekening moet worden gekoppeld",
+        "bank_account_generic_error": "Kon bankrekening niet toevoegen. Probeer het later opnieuw.",
+        "separate_payments_label": "Je artikelen komen uit meer dan één winkel. Je wordt in %{separate_payments_link} gefactureerd.",
+        "separate_payments_text": "gescheiden betalingen",
+        "add_new_payment_method": "Voeg een nieuwe betaalmethode toe"
+      },
+      "billing": {
+        "billing_address_title": "Factureren aan",
+        "billing_address_rollup_accessibility_label": "Factureren aan opties",
+        "same_as_shipping": "Zelfde als het afleveradres",
+        "add_address": "Gebruik een ander adres",
+        "address_confirm": "Weet u zeker dat u dit adres uit uw account wilt verwijderen?"
+      },
+      "payment_summary": {
+        "express_payment_gateway_label": "Druk uit",
+        "manual_payment_gateway_label": "Handleiding"
+      },
+      "field_errors": {
+        "email_or_phone_blank": "Voer een e-mailadres of telefoonnummer in",
+        "email_or_phone_invalid": "Voer een geldig e-mailadres of een mobiel telefoonnummer in",
+        "address_first_name_too_long": "Voornaam is te lang (maximaal 255 tekens)",
+        "address_first_name_contains_mathematical_symbols": "Voornaam mag geen wiskundige tekens bevatten",
+        "address_last_name_too_long": "Achternaam is te lang (maximaal 255 tekens)",
+        "address_address1_too_long": "De eerste adresregel is te lang (maximaal 255 tekens)",
+        "address_address1_contains_emojis": "Adresregel 1 mag geen emoji's bevatten",
+        "address_address1_contains_html_tags": "Adresregel 1 mag geen HTML-tags bevatten.",
+        "address_address1_contains_mathematical_symbols": "De eerste adresregel mag geen wiskundige tekens bevatten",
+        "address_address2_blank": "Voer een appartement, suite, enz. in.",
+        "address_address2_too_long": "De tweede adresregel is te lang (maximaal 255 tekens)",
+        "address_address2_contains_emojis": "Adres2 mag geen emoji's bevatten",
+        "address_address2_contains_mathematical_symbols": "De tweede adresregel mag geen wiskundige tekens bevatten",
+        "address_city_too_long": "De plaatsnaam is te lang (maximaal 255 tekens)",
+        "address_city_contains_emojis": "De stad mag geen emoji's bevatten",
+        "address_city_contains_html_tags": "Plaatsnaam mag geen HTML-tags bevatten.",
+        "address_city_contains_mathematical_symbols": "Plaatsnaam mag geen wiskundige symbolen bevatten",
+        "address_country_not_supported": "We verzenden niet naar dit land of deze regio. Voer een nieuw verzendadres in en probeer het opnieuw.",
+        "address_province_blank": "Selecteer een staat / provincie",
+        "address_province_invalid": "Selecteer een geldige staat / provincie"
       }
     }
   }
