@@ -1235,7 +1235,149 @@
         "continue_to_guest_checkout": "Continua come ospite",
         "paypal_modal": {
           "order_contains_fixed_selling_plans": "Il totale potrebbe non includere tasse, spedizione, oneri differiti e alcuni sconti. Procedi al pagamento per l'importo dovuto oggi."
-        }
+        },
+        "klarna_pay_later_label": "Paga più tardi con Klarna",
+        "multibanco_label": "Multibanca",
+        "eps_label": "bonifico eps",
+        "klarna_slice_it_label": "Finanzia con Klarna",
+        "afterpay_label": "Paga dopo",
+        "cashapppay_label": "Pagamento con Cash App",
+        "blik_label": "Sguardo",
+        "twint_label": "DOPPIO GEMELLO",
+        "swish_label": "Fruscio",
+        "grabpay_label": "PagaRapido",
+        "kcp_creditcard_label": "Carta di Credito KCP",
+        "usdc_cashback_additional_info": "Ricevi indietro %{incentive_percentage}% in USDC su Base entro 30 giorni, fino a 100 USDC.",
+        "usdc_cashback_terms": "Si applicano i termini",
+        "purchase_options_card_update_agreement_label_html": "Aggiornando il metodo di pagamento, autorizzi i pagamenti per qualsiasi acquisto ricorrente o differito secondo la <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">%{cancellation_policy}</a> di questo negozio.",
+        "subscription_card_update_agreement_label": "Modificare il metodo di pagamento aggiornerà il tuo abbonamento e i pagamenti ricorrenti futuri.",
+        "subscription_agreement_label": "Uno o più articoli nel tuo carrello sono un acquisto differito o in abbonamento. Continuando con il pagamento, accetti che il tuo metodo di pagamento venga addebitato automaticamente al prezzo e con la frequenza indicati in questa pagina fino alla fine o alla cancellazione. Tutte le cancellazioni sono soggette al %{cancelled}.",
+        "subscription_agreement_cancelled": "politica di cancellazione",
+        "subscription_heading": "Contratto di abbonamento",
+        "subscription_agreement_label_html": "Capisco che sto accettando un abbonamento. Verrà rinnovato al prezzo e con la frequenza indicati fino a quando non terminerà o sarà\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">annullato</a>.",
+        "purchase_options_agreement_label": "Uno o più articoli nel tuo carrello sono un acquisto differito, in abbonamento o ricorrente. Continuando con il pagamento, accetti che il tuo metodo di pagamento venga addebitato automaticamente al prezzo e alla frequenza indicati in questa pagina fino alla sua conclusione o alla tua cancellazione. Tutte le cancellazioni sono soggette alla %{cancellation_policy_label}.",
+        "purchase_options_agreement_label_html": "Capisco che uno o più articoli nel mio carrello sono un acquisto differito, in abbonamento o ricorrente. Continuando, accetto la\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">politica di cancellazione</a>\ne autorizzo ad addebitare il mio metodo di pagamento ai prezzi, con la frequenza e nelle date indicate in questa pagina fino a quando il mio ordine non sarà evaso o non annullerò, se consentito.",
+        "purchase_options_agreement_label_wallets": "Continuando con il pagamento, accetti gli addebiti futuri elencati in questa pagina e la politica di cancellazione.",
+        "no_real_orders_dev_store": "Questo negozio non può accettare ordini o pagamenti reali.",
+        "waiting_on_payment_methods": "Recupero dei metodi di pagamento disponibili...",
+        "apple_pay_payment_error": "Il tuo pagamento non è stato completato. Riprova oppure usa un metodo di pagamento diverso.",
+        "taxes_not_included": "Tasse non incluse",
+        "no_taxes_banner_content": "Le tasse non saranno addebitate su questo ordine. Una volta incassato il pagamento, non sarà più possibile aggiungere le tasse.",
+        "paypal": {
+          "connect": "Fai clic per collegare il tuo conto PayPal"
+        },
+        "apple": {
+          "connect": "Fai clic per collegare il tuo conto Apple Pay",
+          "not_available": "Apple Pay non è disponibile in questo browser. Per collegare il tuo conto Apple Pay dovrai usare Safari su un dispositivo Apple."
+        },
+        "google": {
+          "connect": "Fai clic per collegarti al tuo account Google Pay",
+          "error_authorizing": "Errore nell'autorizzazione del pagamento"
+        },
+        "mor_disclaimer_html": "Cliccando qui sotto e completando il tuo ordine, accetti di acquistare il tuo/i tuoi articolo/i da Global-e come merchant of record per questa transazione, secondo i <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Termini e Condizioni</a> e la <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Informativa sulla Privacy</a> di Global-e. Global-e è un fornitore internazionale di servizi di evasione ordini per %{shop_name}",
+        "pending_payment": {
+          "due_notice": "Il tuo pagamento di %{amount_due} è dovuto entro %{due_date}.",
+          "multibanco": {
+            "buyer_action_info": "Il tuo pagamento di %{amount_due} è dovuto.",
+            "instruction_html": "Effettua il pagamento presso Multibanco o online utilizzando i dettagli sottostanti. Per domande o per aggiornare i dettagli di pagamento, %{contact_us}.",
+            "amount": "Quantità",
+            "find_nearest_atm": "Trova il bancomat più vicino"
+          }
+        },
+        "order_covered_by_store_credit_notice": "Il tuo ordine è coperto dal credito del tuo negozio.",
+        "store_credit": {
+          "apply_label": "Applica il credito del negozio",
+          "add_label": "Aggiungi credito negozio",
+          "manage_label": "Gestisci il credito del negozio",
+          "buying_gift_card": "Non puoi usare il credito del negozio per acquistare una carta regalo",
+          "no_fixed_selling_plans": "Non puoi utilizzare il credito del negozio con le opzioni di acquisto differito"
+        },
+        "use_order_billing_address_label": "Usa l'indirizzo di fatturazione dell'ordine",
+        "use_location_billing_address_label": "Usa l'indirizzo di fatturazione della località",
+        "use_location_shipping_address_label": "Usa l'indirizzo di spedizione della località",
+        "no_working_method_error": "Questo negozio non può accettare pagamenti in questo momento. Ricarica questa pagina o torna più tardi.",
+        "brand_not_available": "Questo negozio non accetta {{brand}}. Usa una carta diversa per pagare.",
+        "shipping_rate_updated": "I metodi di spedizione disponibili sono stati aggiornati. Conferma la tua scelta prima di procedere al pagamento.",
+        "billing_address_invalid_phone": "Aggiorna il numero di telefono nel tuo indirizzo di fatturazione per {{label}} {{last_digits}} per continuare.",
+        "billing_address_invalid_phone_no_card": "Aggiorna il numero di telefono nel tuo indirizzo di fatturazione per continuare.",
+        "preview_not_available": {
+          "content": "Non preoccuparti, questo pagamento rapido funziona per i tuoi clienti.",
+          "button": "Va bene"
+        },
+        "card_fields": {
+          "errors": {
+            "required": {
+              "issue_number": "Inserisci un numero di problema valido"
+            },
+            "invalid": {
+              "verification_value": "Inserisci un CVV o codice di sicurezza valido"
+            }
+          }
+        },
+        "simulated_checkout": "Anteprima in arrivo presto",
+        "simulated_express_checkout": "I portafogli non sono disponibili nell'anteprima dell'editor a causa della tua regione o del tuo browser",
+        "vaulting_agreement_label": "Salva le mie informazioni di pagamento con %{company} per un checkout più veloce.",
+        "business_customer_vaulting_payment_label": "Salva questo metodo di pagamento al momento del pagamento e autorizza %{company} a addebitare l'importo per acquisti futuri in questa sede. Tutti i contatti assegnati a questa sede possono utilizzare il metodo di pagamento.",
+        "business_customer_with_bank_account_vaulting_payment_label": "Salva questo metodo di pagamento al momento del checkout e autorizza %{company} a addebitare il tuo conto per gli acquisti futuri che approvi per questa sede, fino a quando non annulli. Tutti i contatti assegnati a questa sede possono utilizzare il metodo di pagamento.",
+        "purchase_options_and_vaulting_agreement_label": "Uno o più articoli nel tuo carrello sono un acquisto differito o in abbonamento. Continuando con il pagamento, accetti che il tuo metodo di pagamento venga addebitato automaticamente al prezzo e con la frequenza indicati in questa pagina fino alla sua conclusione o alla tua cancellazione. Tutte le cancellazioni sono soggette alla %{cancellation_policy_label}.",
+        "purchase_options_cancellation_policy_label": "politica di cancellazione",
+        "use_different_credit_card_label": "Usa una carta diversa",
+        "saved_credit_card_cvv_verification": "Per scopi di verifica, inserisci il codice di sicurezza della tua carta.",
+        "delete_credit_card_modal": {
+          "confirmation": "Sei sicuro di voler eliminare il {{brandName}} che termina con {{lastDigits}}?"
+        },
+        "edit_credit_card_modal": {
+          "fields": {
+            "card_number": "Numero della carta",
+            "billing": "Fatturare a"
+          }
+        },
+        "local_payment_method_receiver_notice": "Dopo aver effettuato l'ordine, riceverai i dettagli per il pagamento. Effettua il pagamento presso un bancomat o online entro {{dueDays}} giorni.",
+        "order_edit_banner_title": "È necessario il pagamento di {{amount_owed}}",
+        "order_edit_banner_subtitle": "Il tuo ordine {{order_number}} è stato aggiornato. Controlla queste modifiche, quindi paga per confermare il tuo ordine.",
+        "order_edit_banner_items_added": {
+          "other": "Aggiunto %{count}"
+        },
+        "order_edit_banner_items_removed": {
+          "with_quantities": "Rimosso {{delta}} di {{quantity}}"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "Restituiti {{quantity}}",
+          "with_quantities": "Restituiti {{delta}} di {{quantity}}"
+        },
+        "order_edit_banner_multiple_items_added": "Aggiunto {{amount}}",
+        "order_edit_banner_multiple_items_removed": "Rimosso {{amount}}",
+        "order_edit_banner_single_item_returned": "Restituito",
+        "order_edit_banner_multiple_items_returned": "Reso {{amount}}",
+        "order_edit_banner_multiple_items_return_line_item_removed": "Rimosso {{amount}} dal reso",
+        "gift_card_wrapper": {
+          "heading": "Carta regalo",
+          "apply_gift_card_label": "Usa una carta regalo",
+          "apply_another_gift_card_label": "Applica un'altra carta regalo",
+          "gift_card_label": "Carta regalo %{identifier}",
+          "payment_tag": "Carta regalo",
+          "add_label": "Aggiungi una carta regalo",
+          "manage_label": "Gestisci le carte regalo"
+        },
+        "gift_card_store_credit": {
+          "add_label": "Aggiungi una carta regalo o un credito negozio",
+          "manage_label": "Gestisci le carte regalo o il credito del negozio"
+        },
+        "gift_card_checkbox_label": "Applica la carta regalo",
+        "custom_onsite_payment_method_modal": {
+          "title": "Conferma personalizzata del pagamento in loco"
+        },
+        "markets_pro_disclaimer_label": "Effettuando l'ordine accetti di acquistare da Global-e come commerciante ufficiale, soggetto ai %{markets_pro_terms} e %{privacy_policy} di Global-e, e di condividere le tue informazioni con %{shop_name}.",
+        "markets_pro_disclaimer_terms_and_conditions": "Termini e Condizioni",
+        "markets_pro_disclaimer_terms_and_conditions_title": "Termini e Condizioni del Commerciante Registrato",
+        "markets_pro_disclaimer_privacy_policy_title": "Informativa sulla privacy del commerciante ufficiale",
+        "purchase_order_number": {
+          "title": "Numero d'ordine",
+          "label": "Numero d'ordine (facoltativo)"
+        },
+        "alternative_payment_currency_total_notice": "Nota: ti verrà addebitato %{amount_due}.",
+        "alternative_payment_currency_total_manual_payment_notice": "Nota: il totale convertito è %{amount_due}.",
+        "waiting_on_taxes_message": "Se le tue tasse non vengono calcolate entro i prossimi secondi, aggiorna la pagina."
       }
     }
   }
