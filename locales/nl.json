@@ -3690,9 +3690,69 @@
           }
         },
         "updating_contracts": {
-          "one": "Bezig met bijwerken van {{count}} abonnementsovereenkomst..."
-        }
+          "one": "Bezig met bijwerken van {{count}} abonnementsovereenkomst...",
+          "other": "Bezig met bijwerken van {{count}} abonnementsovereenkomsten..."
+        },
+        "contracts_updated": {
+          "one": "Succesvol {{count}} abonnementsovereenkomst bijgewerkt",
+          "other": "Succesvol {{count}} abonnementsovereenkomsten bijgewerkt"
+        },
+        "contracts_update_failed": "Kon sommige abonnementsovereenkomsten niet bijwerken",
+        "subscription_contracts_updated": "Bijgewerkt {{succeeded}} van de {{total}} abonnementen",
+        "invalid_wallet_type_error": "Ongeldig portemonneettype."
+      },
+      "three_d_secure": {
+        "title": "3D Beveiliging",
+        "verification_failed": "Uw betaling kon niet worden geverifieerd. Probeer het opnieuw of gebruik een andere betaalmethode."
       }
+    },
+    "payment_method_brands": {
+      "discover": "Ontdek",
+      "dinersclub": "Dinersclub",
+      "maestro": "Meester",
+      "forbrugsforeningen": "Verbruiksvereniging",
+      "dankort": "Dankkaart",
+      "unionpay": "UnionPay",
+      "shoppay": "Winkel Betalen",
+      "applepay": "Apple Betalen",
+      "googlepay": "Google Betalen",
+      "bogus": "Vals"
+    },
+    "ui_components": {
+      "clear": "Helder",
+      "clipboardFailedToCopy": "Kopiëren mislukt",
+      "expandNotification": "Bekijk meer",
+      "submit": "Verzenden",
+      "processing": "Bezig met verwerken…",
+      "increase": "Verhoog {{type}}",
+      "decrease": "Verlaag {{type}}",
+      "august": "Augustus",
+      "october": "Oktober",
+      "november": "November",
+      "december": "December",
+      "monday": "Maandag",
+      "tuesday": "Dinsdag",
+      "wednesday": "Woensdag",
+      "thursday": "Donderdag",
+      "friday": "Vrijdag",
+      "sunday": "Zondag",
+      "mondayAbbreviation": "Maandag",
+      "tuesdayAbbreviation": "Jij",
+      "wednesdayAbbreviation": "Wij",
+      "thursdayAbbreviation": "De",
+      "fridayAbbreviation": "Fr",
+      "saturdayAbbreviation": "Za",
+      "sundayAbbreviation": "Su",
+      "showNextMonth": "Toon volgende maand, {{month}} {{year}}",
+      "showPreviousMonth": "Toon vorige maand, {{month}} {{year}}",
+      "rangeStart": "Bereik begin",
+      "rangeEnd": "Einde van het assortiment",
+      "removeItem": "Verwijder {{label}}",
+      "mapClusterTitle": {
+        "one": "Cluster van {{number}} markeerder",
+        "other": "Cluster van {{number}} markeringen"
+      },
+      "dropzoneInvalidFileType": "Bestandstype niet ondersteund"
     }
   }
 }
