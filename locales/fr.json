@@ -909,7 +909,213 @@
         "change_address_or_remove": "Modifier l'adresse de livraison ou %{remove_action}.",
         "remove_items_action": {
           "one": "supprimer l'article indisponible"
+        },
+        "empty_cart_action": "vider le panier et retourner au magasin"
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "Aucune livraison disponible pour %{count} article",
+            "other": "Aucune livraison disponible pour %{count} articles"
+          },
+          "message": {
+            "one": "Cet article sera retiré de votre panier car aucune méthode de livraison n'est disponible pour votre adresse.",
+            "other": "Ces articles seront retirés de votre panier car aucun mode de livraison n'est disponible pour votre adresse."
+          },
+          "label": "Pas de livraison"
         }
+      },
+      "order_summary": {
+        "group_title_label": "Fait partie de \"%{group_title}\"",
+        "for_add_on": "Pour : %{group_title}",
+        "from_other_stores_heading": "D'autres magasins",
+        "from_multiple_stores_heading": "De plusieurs magasins",
+        "number_items": {
+          "one": "%{count} article",
+          "other": "%{count} articles"
+        },
+        "view_all_items": {
+          "one": "Voir %{count} article",
+          "other": "Voir les %{count} articles"
+        },
+        "more_items_modal": {
+          "search_item": "Recherche",
+          "empty_results": "Aucun résultat trouvé pour \"%{searchText}\". Vérifiez l'orthographe ou utilisez un mot ou une expression différente."
+        },
+        "order_name_label": "Commander %{name}",
+        "shopping_cart_label": "Panier d'achat",
+        "discount_title": "Remise",
+        "discount_title_stacking": {
+          "one": "Remise",
+          "other": "Rabais"
+        },
+        "discount_order_stacking": {
+          "one": "Remise sur commande",
+          "other": "Remises sur commande"
+        },
+        "discount_label": "Code de réduction",
+        "discount_not_found": "Impossible de trouver une remise valide correspondant au code saisi",
+        "discount_placeholder": "Code de réduction",
+        "discount_code_allocations_mismatch": "Votre code de réduction <strong style=\"text-transform:uppercase\">%{code}</strong> a changé. Vérifiez votre panier et réessayez.",
+        "order_discounts_apply_to_local_shop": "Les remises de commande s'appliquent uniquement aux articles de %{shop_name}",
+        "gift_card_applied": "Carte-cadeau appliquée",
+        "enter_shipping_address": "Saisir l'adresse de livraison",
+        "gift_card_title": "Carte cadeau",
+        "gift_card_label": "Carte cadeau",
+        "gift_card_placeholder": "Carte cadeau",
+        "gift_card_and_discount_title": "Code de réduction ou carte cadeau",
+        "gift_card_and_discount_label": "Code de réduction ou carte cadeau",
+        "gift_card_and_discount_placeholder": "Code de réduction ou carte cadeau",
+        "remove_gift_card_label": "Carte-cadeau claire",
+        "remove_discount_label": "Supprimer la remise",
+        "return_restocking_fee_label": "Frais de réapprovisionnement",
+        "return_shipping_fee_label": "Retour de l'envoi",
+        "free_shipping_discount_label": "Livraison gratuite",
+        "apply_discount_button_label": "Appliquer",
+        "applied_discount_message": "%{amount} de réduction sur le prix total de la commande",
+        "discount_has_been_applied": "La remise a été appliquée",
+        "discount_has_been_removed": "La remise a été supprimée",
+        "gift_card_subscriptions_notice": "Les cartes-cadeaux ne s'appliqueront qu'à votre premier paiement",
+        "discount_already_applied": "Une remise a été appliquée à cette commande. Vous ne pouvez pas ajouter une autre remise.",
+        "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> code de réduction n’est pas valide pour les articles dans votre panier",
+        "discount_requires_customer_notice": "Saisissez vos informations de livraison pour appliquer le code de réduction <strong style=\"text-transform:uppercase\">%{code}</strong>",
+        "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> code de réduction n’est pas disponible pour vous en ce moment",
+        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> code de réduction réservé aux clients éligibles",
+        "shipping_information_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> code de réduction n’est pas disponible pour votre adresse de livraison",
+        "customer_already_used_once_per_customer_discount_notice": "Le code de réduction <strong style=\"text-transform:uppercase\">%{code}</strong> a déjà été utilisé",
+        "subtotal_label_with_quantity": {
+          "one": "Sous-total · %{count} article",
+          "other": "Sous-total · %{count} articles"
+        },
+        "pickup_label": "Retrait en magasin",
+        "no_pickup_location": "Aucun point de retrait disponible.",
+        "pickup_unavailable_banner_title": {
+          "one": "Aucun magasin ne propose votre article",
+          "other": "Aucun magasin ne propose vos articles"
+        },
+        "pickup_unavailable_banner_title_with_country": {
+          "one": "Aucun magasin disponible en %{country} avec votre article",
+          "other": "Aucun magasin disponible en %{country} avec vos articles"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "Expédier à l'adresse"
+        },
+        "tip_label": "Conseil",
+        "calculating_shipping": "Calcul en cours…",
+        "calculating": "Calcul en cours…",
+        "shipping_default_value": "Calculé à l'étape suivante",
+        "shipping_discount_title": "Remise sur la livraison",
+        "shipping_policy_link": "Frais d'expédition",
+        "information_estimated_taxes_label": "Taxes (estimées)",
+        "estimated_taxes_finalization_tooltip_content": "La taxe finale et le total vous seront confirmés par courriel ou message texte après que vous aurez passé votre commande.",
+        "estimated_taxes_finalization_tooltip_content_short": "Taxe finalisée après paiement",
+        "price_before_discount_aria_text": "Prix d'origine",
+        "deposit_label": "Dépôt",
+        "total_due_today_label": "Total dû aujourd'hui",
+        "vat_label_html": "Incluant %{amount} de taxes",
+        "duties_included_label": "Le total comprend les taxes et droits. Aucun frais supplémentaire à la livraison.",
+        "discount_and_gift_card_savings_notice": "Après %{discount_amount} de réductions et %{gift_card_amount} en cartes-cadeaux",
+        "discount_savings_notice": "Après %{discount_amount} de réductions",
+        "price_per_item": {
+          "label": "%{price}/unité"
+        },
+        "product_change_label": "Changer",
+        "scroll_order_summary": "Faites défiler pour voir plus d’articles",
+        "collapse_order_summary_short": "Cacher",
+        "original_price": "Prix d'origine",
+        "sale_price": "Prix soldé",
+        "total_updated_label": "Prix total mis à jour :",
+        "unit_price": {
+          "per_item": {
+            "single": "%{price} chacun",
+            "one": "%{price} par %{count} article",
+            "other": "%{price} pour %{count} articles"
+          }
+        },
+        "gift_card_ending": "Carte cadeau se terminant par %{last_characters}",
+        "multiple_shipping_lines_label": "Total de l'expédition",
+        "recurring_total_tooltip": "N'inclut pas les frais d'expédition, les taxes, les droits de douane ni aucune remise applicable.",
+        "confirmation_number_label": "Confirmation n°%{confirmation_number}",
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> ne pouvait pas être utilisé avec vos remises existantes.",
+        "percent_off_shipping": "%{percent}% de réduction sur les frais de livraison",
+        "amount_off_shipping": "%{amount} de réduction sur les frais de livraison",
+        "deferred_payment_info": {
+          "description_html": "Pour toute question concernant votre commande, %{contact_us}.",
+          "paid_today": "Total payé aujourd'hui",
+          "paid_today_next": "Payé aujourd'hui",
+          "due_on_fulfillment_title": "Le paiement de %{amount_due} est dû à l'exécution",
+          "due_on_receipt_title": "Le paiement de %{amount_due} est dû à réception"
+        },
+        "deferred_balance_info": {
+          "due_on_fulfillment_title": "Le solde de {{amount_due}} est dû à la réalisation."
+        },
+        "payment_terms_totals": {
+          "due_today": "Total dû aujourd'hui",
+          "due_today_next": "À rendre aujourd'hui",
+          "due_on_fulfillment": "Total dû à l'exécution",
+          "due_on_fulfillment_next": "Dû à l'exécution",
+          "due_on_receipt": "Montant total dû à la réception"
+        },
+        "maximum_discount_code_limit_reached": "Vous avez atteint le nombre maximum de codes de réduction. Supprimez un code existant pour utiliser <strong style=\"text-transform:uppercase\">%{code}</strong>.",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> ne fonctionne pas pour le moment. Contactez-nous pour obtenir de l’aide.",
+        "due_on_fulfillment": "Dû à l'exécution",
+        "duties_label": "Fonctions",
+        "error_duties_tooltip": "Cette commande est expédiée depuis un autre pays, des droits et taxes peuvent donc être appliqués à la livraison.",
+        "may_be_charged_on_delivery": "Peut être payé à la livraison",
+        "total_updated_label_with_price": "Prix total mis à jour : %{totalPrice}",
+        "updated_shipping_method": "Méthode d'expédition mise à jour : %{shipping_method}",
+        "recurring_total_multiple_label": "Cette commande comporte une charge récurrente pour plusieurs articles.",
+        "deferred_total_due_date_label_next": "À rendre avant le %{date}",
+        "full_price": "Prix total : %{price}",
+        "custom_discount": "Remise personnalisée",
+        "expand_component_information": {
+          "one": "Afficher %{count} article",
+          "other": "Afficher %{count} articles"
+        },
+        "collapse_component_information": {
+          "one": "Masquer %{count} article",
+          "other": "Masquer %{count} articles"
+        },
+        "discount_discovery": {
+          "add_code": "Ajouter une remise",
+          "merchandise_quantity_label": {
+            "one": "%{count} article",
+            "other": "%{count} articles"
+          }
+        },
+        "alternative_payment_currency_total": "Facturé %{amount_due}",
+        "discount_applies_to_subscription_items_only": "Cette remise s'applique uniquement aux articles d'abonnement"
+      },
+      "shipping": {
+        "shipping_method_title": "Mode d'expédition",
+        "shipping_method_rollup_accessibility_label": "Options de mode d'expédition",
+        "shipping_method_first_shipment_group_title": {
+          "one": "Première expédition",
+          "other": "Premières expéditions"
+        },
+        "shipping_method_recurring_shipments_group_title": {
+          "one": "Expédition récurrente",
+          "other": "Expéditions récurrentes"
+        },
+        "subscription_shipping": "Expédition par abonnement",
+        "subscription_local_delivery": "Abonnement livraison locale",
+        "subscription_pickup": "Retrait par abonnement",
+        "waiting_on_rate_notice": "Obtention des tarifs d'expédition disponibles…",
+        "waiting_on_pickup_location_notice": "Recherche des points de retrait disponibles…",
+        "no_rates_for_cart_or_destination_notice": "Aucun mode de livraison n'est disponible pour votre panier ou votre adresse",
+        "no_pickup_location_notice": "Au moins un de vos produits n'est pas disponible pour le retrait",
+        "no_rates_for_country_notice": "Aucun tarif d'expédition trouvé pour cette adresse.",
+        "no_rates_contact_notice": "Contactez-nous pour plus d'informations",
+        "estimated_delivery_date": {
+          "one": "%{count} jour ouvrable"
+        },
+        "estimated_delivery_date_range": "de %{minimum} à %{maximum} jours ouvrables",
+        "estimated_delivery_time": "Livraison estimée %{time}",
+        "estimated_delivery_time_range": "Livraison estimée entre %{min_time} et %{max_time}",
+        "two_day_delivery": "Livraison en 2 jours %{time}",
+        "arrives_time": "Arrive dans %{time}",
+        "arrives_time_range": "Arrive entre %{min_time} et %{max_time}",
+        "estimated_time": "Estimé à %{time}"
       }
     },
     "sentence": {
