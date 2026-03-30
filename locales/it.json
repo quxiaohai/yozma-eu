@@ -1112,7 +1112,129 @@
           "tax_credential_it": "Codice fiscale (facoltativo)",
           "tax_email_it": "PEC (facoltativo)",
           "tax_credential_cl": "Codice fiscale",
-          "shipping_credential_cl": "Codice fiscale"
+          "shipping_credential_cl": "Codice fiscale",
+          "tax_credential_co": "Cedola/IVA",
+          "tax_credential_type_co": "Tipo Documento",
+          "shipping_credential_co": "Cedola/IVA",
+          "shipping_credential_type_co": "Tipo Documento",
+          "tax_credential_cr": "Numero di identificazione/RUT",
+          "shipping_credential_cr": "Numero di identificazione/RUT",
+          "tax_credential_gt": "NIF/IVA",
+          "shipping_credential_gt": "NIF/IVA",
+          "tax_credential_id": "Partita IVA",
+          "shipping_credential_id": "Partita IVA",
+          "tax_credential_my": "Codice fiscale/Numero di registrazione",
+          "shipping_credential_my": "Codice fiscale/Numero di registrazione",
+          "tax_credential_type_mx": "Regime Fiscale",
+          "tax_credential_use_mx": "Uso di CFDI",
+          "tax_credential_pt": "NIF/Partita IVA",
+          "shipping_credential_pt": "NIF/Partita IVA",
+          "shipping_credential_tw": "Numero di identificazione nazionale/Partita IVA",
+          "tax_credential_tr": "Numero di Identità della Repubblica di Turchia/IVA",
+          "shipping_credential_tr": "Numero di Identità della Repubblica di Turchia/IVA"
+        }
+      },
+      "payment": {
+        "network_card_payment_options": "Scegli una rete di carte",
+        "network_card_persistence_description": "La rete selezionata sarà salvata con il tuo metodo di pagamento per le transazioni future.",
+        "amazon_payments_label": "Pagamento Amazon",
+        "amazon_payments_failed_mfa_challenge": "Il metodo di pagamento selezionato non può essere utilizzato. Seleziona un metodo diverso o contatta la tua banca o l'emittente della carta.",
+        "amazon_payments_abandoned_mfa_challenge": "Il tuo pagamento non è stato completato. Prova un metodo di pagamento diverso o contatta la tua banca o l'emittente della carta.",
+        "amazon_payments_could_not_enqueue_authorize": "Si è verificato un problema durante l'elaborazione del pagamento. Riprova oppure usa un metodo di pagamento diverso.",
+        "amount_left_to_pay_label": "Pagamento dovuto:",
+        "discount_codes_removed_summary": {
+          "one": "Il codice sconto %{count} è stato rimosso",
+          "other": "Sono stati rimossi %{count} codici sconto"
+        },
+        "discount_codes_modified_summary": {
+          "one": "Il codice sconto %{count} è stato modificato",
+          "other": "Sono stati modificati %{count} codici sconto"
+        },
+        "discount_codes_removed_or_modified_summary": {
+          "one": "Il codice sconto %{count} è stato rimosso o modificato",
+          "other": "Sono stati rimossi o modificati %{count} codici sconto"
+        },
+        "gift_card_code_label": "Codice della carta regalo",
+        "gift_card_balance_label": "Equilibrio:",
+        "supported_card_brands_more_label": "e altro ancora…",
+        "detected_card_brand": "Marca della carta rilevata: {brand}",
+        "credit_card_vaulting_sign_in_banner_title": "Salva la tua carta di credito",
+        "credit_card_vaulting_sign_in_banner_info": "Accedi o crea un account per salvare la tua carta di credito per acquisti futuri.",
+        "ftd_vault_credit_card_label": "Salva questa carta di credito nel mio account per un pagamento più rapido",
+        "card_number_label": "Numero della carta",
+        "card_number_placeholder": "Numero della carta",
+        "card_pay_with": "Paga con:",
+        "card_security_notice": "Tutte le transazioni sono sicure e criptate.",
+        "card_security_vault_notice": "Abbiamo bisogno dei tuoi dati per i pagamenti futuri. Tutte le operazioni sono sicure e criptate.",
+        "card_information_notice": "Tutte le transazioni sono sicure e criptate. Le informazioni della carta di credito non vengono mai memorizzate.",
+        "card_nickname_label": "Soprannome (facoltativo)",
+        "card_expiry_label": "Data di scadenza (MM / AA)",
+        "card_expiry_placeholder": "Data di scadenza (MM / AA)",
+        "delete_customer_mandate_modal_body": "Se rimuovi questa carta, dovrai aggiungerla di nuovo prima di poterla usare per i pagamenti.",
+        "delete_customer_mandate_modal_confirm": "Rimuovi carta",
+        "card_verification_confirm": "Per scopi di verifica, inserisci il codice di sicurezza della tua carta.",
+        "card_verification_value_explanation": "Codice di sicurezza a 3 cifre solitamente presente sul retro della tua carta. Le carte American Express hanno un codice a 4 cifre situato sul davanti.",
+        "card_verification_value_explanation_amex": "Codice di sicurezza a 4 cifre sul fronte della tua carta",
+        "card_verification_value_explanation_other": "Codice di sicurezza a 3 cifre sul retro della tua carta",
+        "card_start_label": "Data di emissione (MM / AA)",
+        "card_start_placeholder": "Data di emissione (MM / AA)",
+        "card_issue_number_label": "Numero di uscita",
+        "card_issue_number_placeholder": "Numero di uscita",
+        "ends_with_label": "terminando con %{last_digits}",
+        "card_vaulted_company_location": "Carta salvata per questa posizione",
+        "expiry_long": "(Scade %{month}/%{year})",
+        "expiry_short": "(Scadenza %{month}/%{year})",
+        "crypto_payment_method": {
+          "description": "Connettiti in modo sicuro al tuo portafoglio sulla rete Base",
+          "tooltip": "Il saldo del tuo portafoglio e l'indirizzo non saranno condivisi e potrà essere detratto solo l'importo richiesto",
+          "cashback_descriptor": {
+            "one": "Riceverai il tuo cashback dopo %{count} giorni.",
+            "other": "Riceverai il tuo cashback dopo %{count} giorni."
+          }
+        },
+        "crypto_modal": {
+          "error": {
+            "sandbox_error": "Qualcosa è andato storto",
+            "web_component_error": "Si è verificato un problema durante il caricamento di questa pagina"
+          }
+        },
+        "saved_by_payment_method": "Salvato da %{payment_method}",
+        "different_credit_card_label": "Usa una carta di credito diversa",
+        "different_billing_address_label": "Usa un indirizzo di fatturazione diverso",
+        "billing_address_associated_with_mandate": "Usa l'indirizzo associato al metodo di pagamento",
+        "billing_address_associated_with_mandate_info": "Se desideri modificare il tuo indirizzo di fatturazione, rimuovi e reinserisci i dati della tua carta di credito",
+        "free_order_notice_html": "Il tuo ordine è <strong>gratuito</strong>. Non è richiesto alcun pagamento.",
+        "express_checkout_free_order": "Non ti verrà addebitato alcun costo per un ordine gratuito",
+        "order_covered_by_gift_cards_notice": {
+          "one": "Il tuo ordine è coperto dalla tua carta regalo.",
+          "other": "Il tuo ordine è coperto dalle tue carte regalo."
+        },
+        "offsite_gateway_redirect_hint": "Verrai reindirizzato a %{gateway_label} per completare il tuo acquisto.",
+        "offsite_gateway_review_page_redirect_hint": "Dopo aver verificato il tuo ordine, verrai reindirizzato a %{gateway_label} per completare l'acquisto.",
+        "offsite_gateway_redirect_hint_no_button_label": "Verrai reindirizzato a %{gateway_label} per completare il tuo acquisto.",
+        "receiver_payment_experience_hint": "Dopo aver effettuato l'ordine, riceverai i dettagli per il pagamento. Effettua il pagamento al Multibanco o online entro %{due_days} giorni.",
+        "billing_address_rollup_accessibility_label": "Opzioni indirizzo di fatturazione",
+        "billing_address_description": "Seleziona l'indirizzo che corrisponde alla tua carta o metodo di pagamento.",
+        "billing_address_description_no_shipping_address": "Inserisci l'indirizzo che corrisponde alla tua carta o metodo di pagamento.",
+        "no_js_credit_card_fields_redirect_hint": "Verrai reindirizzato per aggiungere le tue informazioni di pagamento.",
+        "card_fields_container_prefix": "Contenitore del campo per:",
+        "card_fields_unavailable_html": {
+          "one": "I pagamenti con carta di credito e debito non sono disponibili al momento.<br><a href=\"%{current_url}\">Aggiorna questa pagina</a> o riprova più tardi.",
+          "other": "I pagamenti con carta di credito e debito non sono disponibili al momento.<br><a href=\"%{current_url}\">Aggiorna questa pagina</a> o prova un metodo di pagamento diverso."
+        },
+        "card_fields_processing_error": "Si è verificato un problema durante l'elaborazione del pagamento. Prova a ricaricare questa pagina o controlla la tua connessione a internet.",
+        "technical_error": "I pagamenti non possono essere elaborati in questo momento a causa di un problema tecnico. Riprova tra qualche minuto.",
+        "no_method_error": "Questo negozio non può accettare pagamenti in questo momento.",
+        "not_configured_error": "Questo negozio non può accettare pagamenti in questo momento.",
+        "billing_address_not_supported_for_payment_method_error": "Questo metodo di pagamento non è disponibile per il tuo indirizzo di fatturazione e valuta. Prova un metodo di pagamento diverso.",
+        "generic_incorrect_card_info": "I dettagli del tuo pagamento non sono stati verificati. Controlla i dati della tua carta e riprova.",
+        "sofort_label": "Bonifico bancario immediato",
+        "paypal_wallet_label": "Portafoglio PayPal",
+        "shop_pay_installments_label": "Rate Shop Pay",
+        "default": "Predefinito",
+        "continue_to_guest_checkout": "Continua come ospite",
+        "paypal_modal": {
+          "order_contains_fixed_selling_plans": "Il totale potrebbe non includere tasse, spedizione, oneri differiti e alcuni sconti. Procedi al pagamento per l'importo dovuto oggi."
         }
       }
     }
