@@ -1294,8 +1294,8 @@
         "no_js_credit_card_fields_redirect_hint": "Sie werden weitergeleitet, um Ihre Zahlungsinformationen hinzuzufügen.",
         "card_fields_container_prefix": "Feldbehälter für:",
         "card_fields_unavailable_html": {
-          "one": "Kredit- und Debitkartenzahlungen sind derzeit nicht verfügbar.<br><a href=\"%{current_url}\">Diese Seite aktualisieren</a> oder später erneut versuchen.",
-          "other": "Kredit- und Debitkartenzahlungen sind derzeit nicht verfügbar.<br><a href=\"%{current_url}\">Diese Seite aktualisieren</a> oder eine andere Zahlungsmethode ausprobieren."
+          "one": "Zahlungen mit Kredit- und Debitkarten sind derzeit nicht verfügbar.<br><a href=\"%{current_url}\">Diese Seite aktualisieren</a> oder später erneut versuchen.",
+          "other": "Kredit- und Debitkartenzahlungen sind derzeit nicht verfügbar.<br><a href=\"%{current_url}\">Diese Seite neu laden</a> oder eine andere Zahlungsmethode versuchen."
         },
         "card_fields_processing_error": "Bei der Zahlungsabwicklung ist ein Problem aufgetreten. Versuchen Sie, diese Seite zu aktualisieren, oder überprüfen Sie Ihre Internetverbindung.",
         "technical_error": "Zahlungen können derzeit wegen eines technischen Problems nicht bearbeitet werden. Versuchen Sie es in ein paar Minuten erneut.",
@@ -1326,13 +1326,13 @@
         "kcp_creditcard_label": "KCP Kreditkarte",
         "usdc_cashback_title": "%{incentive_percentage}% Cashback",
         "usdc_cashback_additional_info": "Erhalte %{incentive_percentage}% in USDC auf Base innerhalb von 30 Tagen zurück, bis zu 100 USDC.",
-        "purchase_options_card_update_agreement_label_html": "Durch die Aktualisierung Ihrer Zahlungsmethode autorisieren Sie Zahlungen für jeden wiederkehrenden oder aufgeschobenen Kauf gemäß der <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">Stornierungsrichtlinie</a> dieses Shops.",
+        "purchase_options_card_update_agreement_label_html": "Indem Sie Ihre Zahlungsmethode aktualisieren, autorisieren Sie Zahlungen für alle wiederkehrenden oder aufgeschobenen Käufe gemäß der <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">Stornierungsrichtlinie</a> dieses Shops.",
         "subscription_card_update_agreement_label": "Die Änderung der Zahlungsmethode aktualisiert Ihr Abonnement und zukünftige wiederkehrende Zahlungen.",
         "subscription_agreement_label": "Ein oder mehrere Artikel in Ihrem Warenkorb sind ein aufgeschobener Kauf oder ein Abonnement. Wenn Sie mit der Zahlung fortfahren, stimmen Sie zu, dass Ihre Zahlungsmethode automatisch zum auf dieser Seite angegebenen Preis und in der angegebenen Häufigkeit belastet wird, bis das Abonnement endet oder Sie es kündigen. Alle Kündigungen unterliegen dem %{cancelled}.",
         "subscription_agreement_cancelled": "Stornierungsbedingungen",
-        "subscription_agreement_label_html": "Ich verstehe, dass ich einem Abonnement zustimme. Es wird zu dem angegebenen Preis und in der angegebenen Häufigkeit erneuert, bis es endet oder \n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">storniert</a> wird.",
+        "subscription_agreement_label_html": "Ich verstehe, dass ich einem Abonnement zustimme. Es wird zum angegebenen Preis und in der angegebenen Häufigkeit verlängert, bis es endet oder\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">gekündigt</a> wird.",
         "purchase_options_agreement_label": "Ein oder mehrere Artikel in Ihrem Warenkorb sind ein aufgeschobener Kauf, ein Abonnement oder ein wiederkehrender Kauf. Indem Sie mit Ihrer Zahlung fortfahren, stimmen Sie zu, dass Ihre Zahlungsmethode automatisch zum auf dieser Seite angegebenen Preis und in der angegebenen Häufigkeit belastet wird, bis das Abonnement endet oder Sie es kündigen. Alle Kündigungen unterliegen der %{cancellation_policy_label}.",
-        "purchase_options_agreement_label_html": "Ich verstehe, dass sich ein oder mehrere Artikel in meinem Warenkorb um einen aufgeschobenen, Abonnement- oder wiederkehrenden Kauf handeln. Indem ich fortfahre, stimme ich der\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">Stornierungsrichtlinie</a>\nzu und ermächtige Sie, meine Zahlungsmethode zu den Preisen, Frequenzen und Daten, die auf dieser Seite aufgeführt sind, zu belasten, bis meine\nBestellung erfüllt ist oder ich kündige, sofern dies erlaubt ist.",
+        "purchase_options_agreement_label_html": "Ich verstehe, dass ein oder mehrere Artikel in meinem Warenkorb ein aufgeschobener, Abonnement- oder wiederkehrender Kauf sind. Indem ich fortfahre, stimme ich der\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">Stornierungsrichtlinie</a>\nzu und ermächtige Sie, meine Zahlungsmethode zu den auf dieser Seite angegebenen Preisen, Häufigkeiten und Terminen zu belasten, bis meine Bestellung erfüllt ist oder ich kündige, sofern dies erlaubt ist.",
         "purchase_options_agreement_label_wallets": "Indem Sie mit Ihrer Zahlung fortfahren, stimmen Sie den auf dieser Seite aufgeführten zukünftigen Gebühren und der Stornierungsregelung zu.",
         "change_currency_section_description": "Wählen Sie eine Währungsoption aus",
         "no_real_orders_dev_store": "Dieser Laden kann keine echten Bestellungen oder Zahlungen annehmen.",
@@ -1349,7 +1349,7 @@
         "google": {
           "connect": "Klicken Sie, um sich mit Ihrem Google Pay-Konto zu verbinden"
         },
-        "mor_disclaimer_html": "Durch Klicken unten und Abschluss Ihrer Bestellung stimmen Sie zu, Ihre Artikel von Global-e als Händler für diese Transaktion zu kaufen, gemäß Global-e's <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Allgemeinen Geschäftsbedingungen</a> und <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Datenschutzrichtlinie</a>. Global-e ist ein internationaler Fulfillment-Dienstleister für %{shop_name}.",
+        "mor_disclaimer_html": "Indem Sie unten klicken und Ihre Bestellung abschließen, stimmen Sie zu, Ihre(n) Artikel bei Global-e als Händler für diese Transaktion zu kaufen, gemäß den <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Allgemeinen Geschäftsbedingungen</a> von Global-e und der <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Datenschutzerklärung</a>. Global-e ist ein internationaler Fulfillment-Dienstleister für %{shop_name}.",
         "pending_payment": {
           "due_notice": "Ihre Zahlung in Höhe von %{amount_due} ist fällig am %{due_date}.",
           "multibanco": {
@@ -1643,8 +1643,8 @@
         "payment_gateway_incompatible_with_multi_currency": "Um diesen Kauf in Ihrer Landeswährung abzuschließen, müssen Sie mit Kreditkarte bezahlen.",
         "payment_gateway_unsupported_for_deferred_purchase_options": "Diese Zahlungsmethode ist für Kauf auf Rechnung nicht verfügbar.",
         "payment_gateway_unsupported_for_country": "Diese Zahlungsmethode ist für Ihr Versandland nicht verfügbar.",
-        "payment_gateway_unsupported_for_development_store_html": "Um eine Testbestellung aufzugeben, müssen Sie ein Test-Zahlungsgateway verwenden. Erfahren Sie mehr über <a href=\"%{docs_link}\">Testbestellungen in Entwicklungsstores</a>.",
-        "payment_gateway_unsupported_for_order_above_maximum_orders_html": "Sie haben das Limit für Bestellungen im Entwicklungsspeicher mit diesem Zahlungsanbieter erreicht. Um eine weitere Bestellung aufzugeben, müssen Sie ein Test-Zahlungsgateway verwenden. Erfahren Sie mehr über <a href=\"%{docs_link}\">das Testen von Bestellungen in Entwicklungsspeichern</a>.",
+        "payment_gateway_unsupported_for_development_store_html": "Um eine Testbestellung aufzugeben, müssen Sie ein Test-Zahlungsgateway verwenden. Erfahren Sie mehr über <a href=\"%{docs_link}\">das Testen von Bestellungen in Entwicklungs-Shops</a>.",
+        "payment_gateway_unsupported_for_order_above_maximum_orders_html": "Sie haben das Limit für Bestellungen in Entwicklungsshops mit diesem Zahlungsanbieter erreicht. Um eine weitere Bestellung aufzugeben, müssen Sie ein Test-Zahlungsgateway verwenden. Erfahren Sie mehr über <a href=\"%{docs_link}\">das Testen von Bestellungen in Entwicklungsshops</a>.",
         "purchase_options_agreement_blank": "Um mit Ihrem Kauf fortzufahren, stimmen Sie den Bedingungen für aufgeschobene oder wiederkehrende Käufe zu.",
         "physical_gift_card_invalid_quantity": "Physische Geschenkkarten-Positionen müssen eine Menge haben, die der Anzahl der Geschenkkartencodes entspricht.",
         "physical_gift_card_duplicate_code": "Der physische Geschenkgutschein-Posten enthält einen doppelten Code.",
@@ -1681,7 +1681,12 @@
         }
       },
       "merchant_instruction_errors": {
-        "empty_stable_id": "Die Merchandise-Anleitung für %{position} %{name} enthält eine leere stabile ID."
+        "empty_stable_id": "Die Merchandise-Anleitung für %{position} %{name} enthält eine leere stabile ID.",
+        "invalid_stable_id_target": "Die Merchandise-Anleitung für %{position} %{name} verweist auf die stabile ID %{stable_id}, aber diese stabile ID ist nicht in den Merchandise-Linien enthalten.",
+        "duplicate_variant_id": "Die Merchandise-Anleitung für %{position} %{name} enthält eine doppelte Varianten-ID %{variant_id}.",
+        "invalid_variant_id_target": "Die Merchandise-Anleitung für %{name} verweist auf die Varianten-ID %{variant_id}, aber diese Variante ist nicht in den Merchandise-Positionen enthalten.",
+        "invalid_price_override_target": "Die Preisüberschreibungsanweisung für den Artikel %{stable_id} ist ungültig, da es sich um eine Komponente eines Bundles handelt.",
+        "discount_not_supported": "Die Anweisung zum Anwenden von Händlerrabatten unterstützt diese Art von Rabatt nicht."
       },
       "payment_errors": {
         "development_store_order_limit_reached": "Sie haben das Limit für Bestellungen in Entwicklungsshops mit diesem Zahlungsanbieter erreicht. Um eine weitere Bestellung aufzugeben, müssen Sie ein Test-Zahlungsgateway verwenden. Erfahren Sie mehr über %{development_store_order_testing_docs_link}.",
@@ -1696,7 +1701,44 @@
         "paypal_over_capture": "Ihr Bestellgesamtbetrag wurde aktualisiert. Zahlen Sie mit {{walletName}}, um Ihre Bestellung abzuschließen.",
         "captcha_required": "Geben Sie die Zahlungsinformationen ein und lösen Sie das Sicherheitsrätsel, um Ihren Kauf abzuschließen.",
         "captcha_required_without_payment_information": "Lösen Sie das Sicherheitsrätsel, um Ihren Kauf abzuschließen.",
-        "payment_credential_delegation_error": "Bei der Verarbeitung Ihrer Zahlung ist ein Problem aufgetreten. Wählen Sie eine neue Zahlungsmethode."
+        "payment_credential_delegation_error": "Bei der Verarbeitung Ihrer Zahlung ist ein Problem aufgetreten. Wählen Sie eine neue Zahlungsmethode.",
+        "amount_too_small": "Der Mindestzahlungsbetrag muss höher als 0,50 USD sein. Versuchen Sie es erneut mit einem höheren Betrag.",
+        "method_not_available": "Die gewünschte Zahlungsmethode ist nicht verfügbar. Wählen Sie eine andere Zahlungsmethode und versuchen Sie es erneut.",
+        "generic_error": "Bei der Verarbeitung Ihrer Zahlung ist ein Problem aufgetreten. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
+        "rejected_transaction": "Ihre Zahlung wurde abgelehnt. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
+        "credit_card_processing": "Ihre Zahlung kann aus technischen Gründen nicht verarbeitet werden. Versuchen Sie es in ein paar Minuten erneut oder verwenden Sie eine andere Zahlungsmethode.",
+        "checkout_amount_changed": "Ihre Zahlung konnte nicht verarbeitet werden, da sich der zu zahlende Betrag an der Kasse geändert hat. Überprüfen Sie Ihre Bestellung und versuchen Sie es erneut.",
+        "deferred_payment_not_allowed": "Ratenzahlungen sind nicht erlaubt. Überprüfen Sie Ihre Bestellung und versuchen Sie es erneut.",
+        "deferred_payment_required": "Für diese Bestellung ist eine spätere Zahlung erforderlich. Überprüfen Sie Ihre Bestellung und versuchen Sie es erneut.",
+        "deferred_amount_changed": "Ihre Zahlung konnte nicht verarbeitet werden, da sich der aufgeschobene Zahlungsbetrag geändert hat. Überprüfen Sie Ihre Bestellung und versuchen Sie es erneut.",
+        "deferred_date_changed": "Ihre Zahlung konnte nicht bearbeitet werden, da sich das aufgeschobene Zahlungsdatum geändert hat. Überprüfen Sie Ihre Bestellung und versuchen Sie es erneut.",
+        "order_total_changed": "Ihre Bestellsumme hat sich geändert. Bitte überprüfen Sie diese und versuchen Sie es erneut.",
+        "payment_processing": "Ihre Zahlung kann aus technischen Gründen nicht verarbeitet werden. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
+        "payment_processing_no_retry": "Ihre Zahlung kann aus technischen Gründen nicht verarbeitet werden. Versuchen Sie eine andere Zahlungsmethode.",
+        "paypal_zero_amount": "Sie können PayPal für Bestellungen über %{amount} nicht verwenden. Überprüfen Sie, ob Ihre Bestellung korrekt ist, und schließen Sie den Kauf ohne PayPal ab.",
+        "paypal_invalid_token": "PayPal war nicht verfügbar. Versuchen Sie es erneut oder wählen Sie eine andere Zahlungsmöglichkeit.",
+        "pay_later_failed": "Bei der Verarbeitung Ihrer Zahlung mit \"Später bezahlen\" ist ein Fehler aufgetreten. Wählen Sie eine andere Zahlungsmethode und versuchen Sie es erneut.",
+        "three_d_secure_failed": "Ihre Zahlung konnte nicht bestätigt werden. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
+        "three_d_secure_failed_duplicate": "Die 3D-Sicherheitsprüfung der Kreditkarte ist fehlgeschlagen, da bereits eine andere Prüfung läuft.",
+        "three_d_secure_failed_payment_method": "Ihre Karte konnte nicht überprüft werden. Versuchen Sie es erneut oder fügen Sie eine andere Karte hinzu.",
+        "three_d_secure_throttled": "Zu viele Versuche; bitte warten Sie, bevor Sie es erneut versuchen",
+        "subscription_agreement_blank": "Um ein Abonnement zu kaufen, müssen Ihre Zahlungsdaten gespeichert werden. Um fortzufahren, bestätigen Sie, dass Sie zustimmen, oder entfernen Sie Abonnementartikel aus Ihrer Bestellung.",
+        "insufficient_funds": "Ihre Zahlung wurde wegen unzureichender Mittel abgelehnt. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
+        "multiple_deferred_payment_not_allowed": "Pro Anfrage ist nur eine Ratenzahlung erlaubt. Überprüfen Sie Ihre Anfrage und versuchen Sie es erneut.",
+        "shipping_must_match_billing": "Rechnungsadresse muss mit Lieferadresse übereinstimmen. Verwenden Sie eine andere Zahlungsmethode.",
+        "shipping_company_required_error": "{{shopName}} benötigt einen Firmennamen für die Versandadresse.",
+        "decision_rule_block": "Bei der Verarbeitung Ihrer Zahlung ist ein Problem aufgetreten. Bitte wenden Sie sich an den Ladenbesitzer.",
+        "cancelled_payment": "Ihre Zahlung wurde abgebrochen. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
+        "pick_up_card": "Ihre Karte wurde abgelehnt. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
+        "cannot_verify": "Ihre Zahlungsdaten konnten nicht überprüft werden. Überprüfen Sie Ihre Kartendaten und versuchen Sie es erneut.",
+        "invalid_number": "Geben Sie eine gültige Kartennummer ein",
+        "invalid_expiry_date": "Geben Sie ein gültiges Ablaufdatum ein",
+        "invalid_cvc": "Geben Sie einen gültigen Sicherheitscode ein",
+        "expired_card": "Ihre Karte ist abgelaufen. Verwenden Sie eine andere Zahlungsmethode.",
+        "payment_method_not_applicable": "Diese Zahlungsmethode ist nicht anwendbar. Verwenden Sie eine andere Zahlungsmethode.",
+        "card_declined": "Ihre Karte wurde abgelehnt. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
+        "processing_error": "Bei der Verarbeitung Ihrer Zahlung ist ein Problem aufgetreten. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
+        "processing_error_checkout_as_guest": "Bei der Verarbeitung Ihrer Zahlung ist ein Problem aufgetreten. Versuchen Sie es erneut mit einer anderen Zahlungsmethode oder {{checkout_as_guest_link}}."
       },
       "shipping_errors": {
         "shipping_method": "Die Versandoptionen für Ihre Bestellung haben sich geändert. Überprüfen Sie Ihre Auswahl.",
