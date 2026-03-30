@@ -2452,9 +2452,163 @@
             "billing_province": "Selecteer een factuuradres provincie / gewest",
             "zip": "Voer een postcode in",
             "billing_zip": "Voer een factuuradres postcode in"
+          },
+          "formatting": {
+            "name_contains_emojis": "Verwijder emoji uit je naam",
+            "postal_code_contains_emoji": "Verwijder emoji uit uw postcode"
+          },
+          "select_different_shipping_address_to_resolve_errors": "Uw verzendadres is ongeldig. Kies een ander adres of gebruik een nieuw adres.",
+          "processing_error_checkout_as_guest": "Er was een probleem bij het verwerken van uw betaling. Probeer het opnieuw of {{checkout_as_guest_link}}."
+        },
+        "scrim": {
+          "continue_purchase_in_window": "Ga door met uw aankoop in het {{walletName}} venster",
+          "and_return_to_checkout": "en terug naar Afrekenen"
+        }
+      },
+      "note": {
+        "length_exceeds_maximum": "Verminder de grootte van de notitie tot 5000 of minder tekens."
+      },
+      "offsite_payment_failed": {
+        "title": "Betaling buiten de site mislukt",
+        "payment_not_processed_text": "Probeer de QR-code opnieuw te scannen. Als het nog steeds niet werkt, laat het dan aan ons personeel weten en probeer een andere betaalmethode.",
+        "payment_link_expired_text": "Probeer de QR-code opnieuw te scannen."
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "De waarde van de cadeaubon moet groter zijn dan 0.",
+            "subtotal_limit_reached": "De maximale waarde van de bestelde artikelen is bereikt.",
+            "signature_mismatch": "Handtekening van merchandise komt niet overeen voor regel %{stable_id}."
+          }
+        }
+      },
+      "remote": {
+        "errors": {
+          "only_remote_merchandise_lines": "De kassa bevat alleen goederen van externe verkopers. Om de aankoop te voltooien, wordt u doorgestuurd naar de externe winkel.",
+          "currency_mismatch": "Dit artikel kan niet aan uw winkelwagen worden toegevoegd omdat het afkomstig is van een winkel die een andere munteenheid gebruikt.",
+          "currency_mismatch_removal": "Een artikel is uit uw winkelwagen verwijderd omdat het afkomstig is van een winkel die een andere munteenheid gebruikt.",
+          "max_remote_shops_exceeded": "Dit product kan niet worden toegevoegd omdat uw winkelwagen al het maximum aantal van andere winkels bevat."
+        }
+      },
+      "units": {
+        "fluid_ounce": "vloeibare oz",
+        "gallon": "meisje"
+      },
+      "memberships": {
+        "delivery_promise_unfulfillable": "Het adres wordt niet ondersteund voor het huidige lidmaatschap.",
+        "items_split_across_locations_unsupported": "Prime-levering is niet beschikbaar voor uw bestelling. Uw verzendopties zijn bijgewerkt."
+      },
+      "editor": {
+        "navigation": {
+          "store_logo_accessibility_label": "Ga naar de Webwinkel"
+        }
+      },
+      "tooltip": {
+        "additional_payment_methods": "Aanvullende betaalmethoden"
+      },
+      "too_many_requests": {
+        "title": "Te veel pogingen om af te rekenen",
+        "body": "Wacht alstublieft een paar minuten en probeer het opnieuw vanuit uw winkelwagen.",
+        "body_no_cart": "Wacht alstublieft een paar minuten en probeer het opnieuw."
+      },
+      "required_extensions": {
+        "errors": {
+          "interaction_required": "Een extensie-interactie is vereist om de afhandeling te voltooien."
+        }
+      },
+      "taxes": {
+        "vat_number": {
+          "field": {
+            "label": "Btw-nummer (optioneel)",
+            "tooltip": "Valideert het btw-nummer en past automatisch de verleggingsregeling toe op bestellingen wanneer dit van toepassing is"
+          },
+          "add": "Voeg een btw-nummer toe",
+          "vaulted": "BTW-nummer: %{number}",
+          "badge": "BTW-nummer: %{number}",
+          "domestic_order": "Verleggingsregeling is alleen van toepassing op grensoverschrijdende bestellingen binnen de EU. Voor lokale bestellingen wordt de standaard btw in rekening gebracht.",
+          "status": {
+            "invalid_format": {
+              "at": "Oostenrijkse btw-nummers bevatten AT en 9 tekens",
+              "be": "Belgische btw-nummers bevatten BE en 10 tekens",
+              "bg": "Bulgaarse btw-nummers bevatten BG en 9-10 tekens",
+              "hr": "Kroatische btw-nummers bevatten HR en 11 tekens",
+              "cy": "Cyprus btw-nummers bevatten CY en 9 tekens",
+              "cz": "Tsjechische btw-nummers bevatten CZ en 8-10 tekens",
+              "dk": "Deens btw-nummer bevat DK en 8 tekens",
+              "ee": "Estlandse btw-nummers bevatten EE en 9 tekens",
+              "fi": "Finse btw-nummers bevatten FI en 8 tekens",
+              "fr": "Franse btw-nummers bevatten FR en 11 tekens",
+              "de": "Duitse btw-nummers bevatten DE en 9 tekens",
+              "gr": "Griekse btw-nummers bevatten EL en 9 tekens",
+              "hu": "Hongaarse btw-nummers bevatten HU en 8 tekens",
+              "ie": "Ierse btw-nummers bevatten IE en 8-9 tekens",
+              "it": "Italiaanse btw-nummers bevatten IT en 11 tekens",
+              "lv": "Letse btw-nummers bevatten LV en 11 tekens",
+              "lt": "Litouwse btw-nummers bevatten LT en 9-12 tekens",
+              "lu": "Luxemburgse btw-nummers bevatten LU en 8 tekens",
+              "mt": "Malta btw-nummers bevatten MT en 8 tekens",
+              "nl": "Nederlandse btw-nummers bevatten NL en 12 tekens",
+              "pl": "Poolse btw-nummers bevatten PL en 10 tekens",
+              "pt": "Portugese btw-nummers bevatten PT en 9 tekens",
+              "ro": "Roemeense btw-nummers bevatten RO en 10 tekens",
+              "sk": "Slowaakse btw-nummers bevatten SK en 10 tekens",
+              "si": "Sloveense btw-nummers bevatten SI en 8 tekens",
+              "es": "Spaanse btw-nummers bevatten ES en 9 tekens",
+              "se": "Zweedse btw-nummers bevatten SE en 12 tekens",
+              "gb": "Britse btw-nummers bevatten GB of XI en 5-12 tekens"
+            },
+            "invalid_number": {
+              "at": "Voer een geldig Oostenrijks btw-nummer in",
+              "be": "Voer een geldig Belgisch btw-nummer in",
+              "bg": "Voer een geldig Bulgaars btw-nummer in",
+              "hr": "Voer een geldig Kroatisch btw-nummer in",
+              "cy": "Voer een geldig Cypriotisch btw-nummer in",
+              "cz": "Voer een geldig Tsjechisch btw-nummer in",
+              "dk": "Voer een geldig Deens btw-nummer in",
+              "ee": "Voer een geldig Ests btw-nummer in",
+              "fi": "Voer een geldig Fins btw-nummer in",
+              "fr": "Voer een geldig Frans btw-nummer in",
+              "de": "Voer een geldig Duits btw-nummer in",
+              "gr": "Voer een geldig Grieks btw-nummer in",
+              "hu": "Voer een geldig Hongaars btw-nummer in",
+              "ie": "Voer een geldig Iers btw-nummer in",
+              "it": "Voer een geldig Italiaans btw-nummer in",
+              "lv": "Voer een geldig Lets btw-nummer in",
+              "lt": "Voer een geldig Litouws btw-nummer in",
+              "lu": "Voer een geldig Luxemburgs btw-nummer in",
+              "mt": "Voer een geldig Maltees btw-nummer in",
+              "nl": "Voer een geldig Nederlands btw-nummer in",
+              "pl": "Voer een geldig Pools btw-nummer in",
+              "pt": "Voer een geldig Portugees btw-nummer in",
+              "ro": "Voer een geldig Roemeens btw-nummer in",
+              "sk": "Voer een geldig Slowaaks btw-nummer in",
+              "si": "Voer een geldig Sloveens btw-nummer in",
+              "es": "Voer een geldig Spaans btw-nummer in",
+              "se": "Voer een geldig Zweeds btw-nummer in",
+              "gb": "Voer een geldig btw-nummer van het Verenigd Koninkrijk in"
+            },
+            "service_unavailable": "Validatiedienst niet beschikbaar",
+            "service_error": "Validatiedienst niet beschikbaar"
+          },
+          "accessibility": {
+            "status": {
+              "validating": "De validatie van het btw-nummer is bezig",
+              "valid": "BTW-nummer is geldig",
+              "applied": "BTW-vrijstelling is toegepast",
+              "domestic": "BTW-vrijstelling niet toegepast",
+              "invalid_number": "BTW-vrijstelling mislukt",
+              "service_unavailable": "Niet in staat om btw-vrijstelling te verifiëren",
+              "service_error": "Niet in staat om btw-vrijstelling te verifiëren"
+            }
           }
         }
       }
+    },
+    "links": {
+      "powered_by_shopify": "Aangedreven door Shopify"
+    },
+    "attributes": {
+      "password_confirmation": "De wachtwoordbevestiging"
     }
   }
 }
