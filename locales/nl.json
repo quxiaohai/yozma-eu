@@ -1196,8 +1196,68 @@
           "tax_credential_br": "BSN/KVK",
           "shipping_credential_br": "BSN/KVK",
           "shipping_credential_cn": "Inwonersidentificatienummer",
-          "tax_credential_it": "Fiscaal nummer (optioneel)"
+          "tax_credential_it": "Fiscaal nummer (optioneel)",
+          "tax_credential_co": "Identiteitskaart/BTW",
+          "tax_credential_type_co": "Type Identiteitskaart",
+          "shipping_credential_co": "Identiteitskaart/BTW",
+          "shipping_credential_type_co": "Type Identiteitskaart",
+          "tax_credential_cr": "Identificatienummer/RUT",
+          "shipping_credential_cr": "Identificatienummer/RUT",
+          "tax_credential_ec": "CI/RUC/BTW",
+          "shipping_credential_ec": "CI/RUC/BTW",
+          "tax_credential_gt": "NIT/BTW",
+          "shipping_credential_gt": "NIT/BTW",
+          "tax_credential_my": "TIN/Registratienummer",
+          "shipping_credential_my": "TIN/Registratienummer",
+          "tax_credential_type_mx": "Fiscale regeling",
+          "tax_credential_use_mx": "Gebruik van CFDI",
+          "tax_credential_py": "CI/RUC/BTW",
+          "shipping_credential_py": "CI/RUC/BTW",
+          "tax_credential_pt": "NIF/BTW",
+          "shipping_credential_pt": "NIF/BTW",
+          "shipping_credential_tw": "Nationaal identiteitsnummer/btw-nummer",
+          "tax_credential_tr": "Republiek Turkije Identificatienummer/BTW",
+          "shipping_credential_tr": "Republiek Turkije Identificatienummer/BTW"
         }
+      },
+      "payment": {
+        "network_card_payment_options": "Kies een kaartnetwerk",
+        "network_card_persistence_description": "Het gekozen netwerk wordt opgeslagen bij uw betaalmethode voor toekomstige aankopen.",
+        "amazon_payments_label": "Amazon Betalen",
+        "amazon_payments_login_hint": "Je wordt gevraagd om in te loggen met Amazon.",
+        "amazon_payments_logout": "Afmelden bij Amazon Pay",
+        "amazon_payments_failed_mfa_challenge": "De gekozen betaalmethode kon niet worden gebruikt. Kies een andere methode of neem contact op met uw bank of kaartuitgever.",
+        "amazon_payments_abandoned_mfa_challenge": "Uw betaling kon niet worden voltooid. Probeer een andere betaalmethode of neem contact op met uw bank of kaartuitgever.",
+        "amazon_payments_could_not_enqueue_authorize": "Er was een probleem bij het verwerken van uw betaling. Probeer het opnieuw of gebruik een andere betaalmethode.",
+        "amount_left_to_pay_label": "Betaling verschuldigd:",
+        "discount_button_action_label": "Kortingscode toepassen",
+        "discount_codes_removed_summary": {
+          "one": "%{count} kortingscode is verwijderd"
+        },
+        "discount_codes_modified_summary": {
+          "one": "%{count} kortingscode is aangepast",
+          "other": "%{count} kortingscodes zijn aangepast"
+        },
+        "discount_codes_removed_or_modified_summary": {
+          "one": "%{count} kortingscode is verwijderd of aangepast",
+          "other": "%{count} kortingscodes zijn verwijderd of aangepast"
+        },
+        "discount_show_more_warnings": {
+          "one": "Toon nog %{count} meer",
+          "other": "Toon nog %{count} meer"
+        },
+        "gift_card_code_label": "Cadeauboncode",
+        "gift_card_balance_label": "Balans:",
+        "detected_card_brand": "Gedetecteerd kaartmerk: {brand}",
+        "credit_card_vaulting_sign_in_banner_title": "Bewaar uw creditcardgegevens",
+        "credit_card_vaulting_sign_in_banner_info": "Log in of maak een account aan om uw creditcard op te slaan voor toekomstige aankopen.",
+        "ftd_vault_credit_card_label": "Sla deze creditcard op in mijn account voor een snellere afhandeling van de bestelling",
+        "card_pay_with": "Betalen met:",
+        "card_security_notice": "Alle transacties zijn veilig en versleuteld.",
+        "card_security_vault_notice": "We hebben uw gegevens nodig voor toekomstige betalingen. Alle transacties zijn veilig en versleuteld.",
+        "card_information_notice": "Alle transacties zijn veilig en versleuteld. Creditcardgegevens worden nooit opgeslagen.",
+        "card_expiry_label": "Vervaldatum (MM / JJ)",
+        "card_expiry_placeholder": "Vervaldatum (MM / JJ)"
       }
     }
   }
