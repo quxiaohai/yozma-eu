@@ -2943,6 +2943,82 @@
       },
       "card_ending_with": "terminando con {{lastDigits}}",
       "contact": "Contatto"
+    },
+    "addresses": {
+      "loading_accessibility_message": "Caricamento indirizzo",
+      "loading_addresses_accessibility_message": "Caricamento indirizzi",
+      "loading_billing_accessibility_message": "Caricamento dell'indirizzo di fatturazione",
+      "loading_finished_accessibility_message": "È stata caricata una nuova pagina di indirizzi",
+      "loading_shipping_accessibility_message": "Caricamento indirizzo di spedizione",
+      "pagination": {
+        "load_more_accessibility_label": "Carica altri indirizzi"
+      }
+    },
+    "address_form": {
+      "attention": "Attenzione",
+      "attention_company": "Azienda/attenzione",
+      "billing_address": "Usa come indirizzo di fatturazione",
+      "cancel_accessibility_label": "Annulla modifica indirizzo {{address}}",
+      "loading_add_form_accessibility_message": "Caricamento del modulo per il nuovo indirizzo",
+      "loading_edit_form_accessibility_message": "Caricamento modulo di modifica indirizzo",
+      "loading_form_accessibility_message": "Caricamento del modulo indirizzo",
+      "loading_finished_accessibility_message": "Il modulo dell'indirizzo è stato caricato"
+    },
+    "account_menu": {
+      "signed_out_state": {
+        "section_divider": "Più modi per accedere",
+        "alternate_divider": "OPPURE",
+        "use_email_button": "Usa invece la posta elettronica",
+        "email_field_label": "Posta elettronica"
+      },
+      "signed_in_state": {
+        "greeting_with_name": "Ciao, {{first_name}}"
+      },
+      "location_picker": {
+        "sheet_title": "Località",
+        "search_field_placeholder": "Cerca"
+      },
+      "aria_labels": {
+        "sign_in_with_email": "Accedi con email"
+      }
+    },
+    "B2B": {
+      "account_information": {
+        "company_card_name_label": "Nome dell'azienda"
+      },
+      "locations": {
+        "contact_email": "Posta elettronica",
+        "location_picker_label": "Nome della località",
+        "location_picker_accessibility_label": "Nome della località: {{locationName}}",
+        "net_payment_terms_description": "{{name}}: pagamenti dovuti entro {{numberOfDays}} giorni",
+        "deposit_percentage": "deposito del {{percentage}}",
+        "pagination": {
+          "load_more_accessibility_label": "Carica altri luoghi"
+        },
+        "payment_terms": "Condizioni di pagamento",
+        "permissions_label": "I tuoi permessi",
+        "section_title": "Posizione",
+        "shipping_address_required": "Aggiungi un indirizzo di spedizione a questa sede per iniziare a effettuare ordini.",
+        "staff_and_permissions_title": "Personale e permessi",
+        "tax_details_title": "Dettagli fiscali",
+        "multiple_tax_exemptions": "{{taxExemptionsCount}} in più",
+        "taxes_none": "Nessuno",
+        "tax_exemption_not_applicable": "N/D",
+        "tax_exemptions_modal_button_accessibility_label": "Visualizza tutte le esenzioni fiscali"
+      },
+      "location_selection": {
+        "continue_to_store": "Continua a memorizzare",
+        "description": "Se hai già articoli nel carrello, cambiare località potrebbe influire sui prezzi e sulle quantità del carrello.",
+        "description_switch_later": "Puoi sempre cambiare in seguito",
+        "list_accessibility_label": "Elenco delle località",
+        "list_item_without_address_accessibility_label": "{{name}}: Nessun indirizzo",
+        "list_loading_accessibility_message": "Caricamento dell'elenco delle località",
+        "list_loading_address_accessibility_message": "Caricamento indirizzo per {{locationName}}",
+        "list_loading_finished_accessibility_message": "L'elenco delle località è stato caricato",
+        "loading_store_accessibility_message": "Andare al negozio",
+        "no_location_title": "Ordini personali soltanto",
+        "no_location_description": "Non hai più il permesso di effettuare ordini per {{company}}. Puoi comunque effettuare ordini personali."
+      }
     }
   }
 }
