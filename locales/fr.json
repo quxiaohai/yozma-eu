@@ -3323,6 +3323,80 @@
       "add_address_banner": "Ajouter des adresses à utiliser lors du paiement",
       "default_address": {
         "title_accessibility_label": "Adresse par défaut : {{address}}"
+      },
+      "delete_confirmation_button": "Supprimer l'adresse",
+      "delete_confirmation_message": "Supprimer l'adresse ? Les commandes en cours ne seront pas affectées.",
+      "delete_confirmation_title": "Supprimer l'adresse ?",
+      "delete_confirmation_description": "Les commandes en cours ne sont pas affectées.",
+      "edit_modal_title": {
+        "default": "Modifier l'adresse",
+        "billing": "Modifier l'adresse de facturation",
+        "shipping": "Modifier l'adresse de livraison"
+      },
+      "loading_accessibility_message": "Chargement de l'adresse",
+      "loading_addresses_accessibility_message": "Chargement des adresses",
+      "loading_billing_accessibility_message": "Chargement de l'adresse de facturation",
+      "loading_finished_accessibility_message": "Une nouvelle page d'adresses a été chargée",
+      "loading_shipping_accessibility_message": "Chargement de l'adresse de livraison",
+      "pagination": {
+        "load_more_accessibility_label": "Charger plus d'adresses"
+      }
+    },
+    "address_form": {
+      "attention": "Attention",
+      "attention_company": "Entreprise/attention",
+      "attention_help_text": "Le nom d'une personne ou d'un service",
+      "loading_add_form_accessibility_message": "Chargement du nouveau formulaire d'adresse",
+      "loading_edit_form_accessibility_message": "Chargement du formulaire de modification d'adresse",
+      "loading_form_accessibility_message": "Chargement du formulaire d'adresse",
+      "loading_finished_accessibility_message": "Le formulaire d'adresse a été chargé"
+    },
+    "account_menu": {
+      "signed_out_state": {
+        "section_divider": "Plus de façons de se connecter",
+        "alternate_divider": "OU",
+        "use_email_button": "Utiliser plutôt le courriel",
+        "email_field_label": "Courriel"
+      },
+      "location_picker": {
+        "search_field_placeholder": "Recherche"
+      },
+      "aria_labels": {
+        "sign_in_with_email": "Se connecter avec courriel"
+      }
+    },
+    "B2B": {
+      "account_information": {
+        "company_card_name_label": "Nom de l'entreprise"
+      },
+      "locations": {
+        "contact_email": "Courriel",
+        "location_picker_label": "Nom du lieu",
+        "location_picker_accessibility_label": "Nom du lieu : {{locationName}}",
+        "net_payment_terms_description": "{{name}} : paiements dus dans {{numberOfDays}} jours",
+        "deposit_percentage": "acompte de {{percentage}}",
+        "pagination": {
+          "load_more_accessibility_label": "Charger plus d’emplacements"
+        },
+        "payment_terms": "Conditions de paiement",
+        "shipping_address_required": "Ajoutez une adresse de livraison à cet endroit pour commencer à passer des commandes.",
+        "tax_details_title": "Détails fiscaux",
+        "tax_id": "Numéro d'identification fiscale",
+        "multiple_tax_exemptions": "{{taxExemptionsCount}} de plus",
+        "taxes_none": "Aucun",
+        "tax_exemption_not_applicable": "N/D",
+        "tax_exemptions_modal_button_accessibility_label": "Voir toutes les exonérations fiscales"
+      },
+      "location_selection": {
+        "continue_to_store": "Continuer à enregistrer",
+        "description": "Si vous avez déjà des articles dans votre panier, changer de lieu pourrait affecter les prix et les quantités du panier.",
+        "description_switch_later": "Vous pouvez toujours changer plus tard",
+        "list_item_without_address_accessibility_label": "{{name}} : Pas d'adresse",
+        "list_loading_accessibility_message": "Chargement de la liste des emplacements",
+        "list_loading_address_accessibility_message": "Chargement de l'adresse pour {{locationName}}",
+        "list_loading_finished_accessibility_message": "La liste des emplacements a été chargée",
+        "loading_store_accessibility_message": "Aller au magasin",
+        "no_location_description": "Vous n'avez plus la permission de passer des commandes pour {{company}}. Vous pouvez toujours passer des commandes personnelles."
       }
     }
   }
