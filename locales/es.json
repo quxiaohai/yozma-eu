@@ -101,7 +101,7 @@
       "view_in_space": "Ver en tu espacio",
       "taxes_included": "Impuestos incluidos.",
       "taxes_excluded": "Impuestos excluidos.",
-      "shipping_policy_html": "Los <a href=\"{{ link }}\" class=\"link\">gastos de envío<\/a> se calculan al finalizar la compra",
+      "shipping_policy_html": "Los <a href=\"{{ link }}\" class=\"link\">gastos de envío</a> se calculan al finalizar la compra",
       "size_chart": "Guía de tallas",
       "available_colors_count": {
         "one": "{{ count }} color disponible",
@@ -330,9 +330,9 @@
       "weight": "Peso",
       "subtotal": "Subtotal",
       "total": "Total",
-      "taxes_and_shipping_policy_at_checkout_html": "Los impuestos y <a href=\"{{ link }}\" class=\"link\">gastos de envío<\/a> se calculan en la pantalla de pago",
+      "taxes_and_shipping_policy_at_checkout_html": "Los impuestos y <a href=\"{{ link }}\" class=\"link\">gastos de envío</a> se calculan en la pantalla de pago",
       "taxes_included_but_shipping_at_checkout": "Impuesto incluido y los gastos de envío se calculan en la pantalla de pago",
-      "taxes_included_and_shipping_policy_html": "Impuesto incluido. Los <a href=\"{{ link }}\" class=\"link\">gastos de envío<\/a> se calculan en la pantalla de pago.",
+      "taxes_included_and_shipping_policy_html": "Impuesto incluido. Los <a href=\"{{ link }}\" class=\"link\">gastos de envío</a> se calculan en la pantalla de pago.",
       "taxes_and_shipping_at_checkout": "Los impuestos y gastos de envío se calculan en la pantalla de pago",
       "add_order_note": "Añadir nota al pedido",
       "edit_order_note": "Editar nota del pedido",
@@ -483,6 +483,130 @@
       "signup_form_email_label": "Email",
       "signup_form_success": "We will send you an email right before we open!",
       "password_link": "Enter using password"
+    }
+  },
+  "shopify": {
+    "sentence": {
+      "two_words_connector": "y",
+      "last_word_connector": ", y"
+    },
+    "checkout": {
+      "general": {
+        "page_title": "Pagar",
+        "skip_to_content": "Saltar al contenido",
+        "breadcrumb": "Miga de pan",
+        "complete_purchase_button_label": "Completar pedido",
+        "continue_to_shipping_method": "Continuar con el envío",
+        "continue_to_review": "Revisar pedido",
+        "back_to_contact_information": "Volver a la información",
+        "back_to_shipping_method": "Volver al envío",
+        "back_to_payment_method": "Volver al pago",
+        "choose_shipping_method": "Elija un método de envío",
+        "choose_payment_method": "Elige un método de pago",
+        "choose_billing_address": "Elija una dirección de facturación",
+        "contact_us_html": "Contáctanos para más información",
+        "autocomplete_single_item": "1 artículo disponible",
+        "autocomplete_multi_item": "{{number}} artículos disponibles",
+        "autocomplete_close": "Cerrar sugerencias",
+        "forwarding_indicator": {
+          "new_window": "Se abre en una ventana nueva.",
+          "external": "Abre un sitio web externo.",
+          "external_and_new_window": "Abre un sitio web externo en una ventana nueva."
+        },
+        "checkout_context": {
+          "step_one": "%{shop_name} - Pago"
+        },
+        "errors": {
+          "session_identifier_not_unique_error": "Algo salió mal con su pedido, intente realizar la compra nuevamente.",
+          "line_item_limit_reached": "Se ha alcanzado el número máximo de artículos en la lista.",
+          "session_is_already_finished": "Esta sesión de pago ya ha sido finalizada.",
+          "merchandise": {
+            "only_value_constraint": "Solo se permiten valores exactos en la entrada de mercancía.",
+            "merchandise_not_applicable": "No se puede comprar esta variante del producto.",
+            "mixed_currencies": "El carrito contiene artículos con diferentes monedas.",
+            "bundle_products_not_supported_for_b2b": "Los artículos agrupados no se pueden añadir a pedidos B2B para esta ubicación.",
+            "gift_card_quantity_mismatch": "Al especificar códigos de tarjetas de regalo, la cantidad del artículo y el número de códigos de tarjetas de regalo deben coincidir.",
+            "gift_card_not_supported": "Las tarjetas de regalo no son aceptadas en esta compra.",
+            "gift_card_not_unique": "La tarjeta de regalo con el código {{code}} aparece más de una vez en esta compra. Los códigos se formatean antes de la comparación.",
+            "gift_card_used": "El código de la tarjeta de regalo {{code}} ya está asignado a una tarjeta de regalo. Los códigos se formatean antes de la comparación.",
+            "gift_card_invalid": "El código de la tarjeta de regalo {{code}} no es válido.",
+            "gift_card_code_changed": "El código de la tarjeta de regalo {{proposed_code}} fue cambiado a {{formatted_code}} para cumplir con las reglas de formato.",
+            "gift_card_with_attributes_not_supported": "Las tarjetas de regalo con atributos personalizados no son compatibles en esta caja.",
+            "gift_card_with_components_not_supported": "Las tarjetas de regalo con componentes no son compatibles en esta caja.",
+            "selling_plan_mismatch": "La suscripción ha sido actualizada.",
+            "selling_plan_not_supported": "Las suscripciones no están disponibles.",
+            "selling_plan_not_supported_b2b": "No se admiten suscripciones para el pago empresarial.",
+            "price_mismatch": "El precio propuesto anteriormente para esta mercancía era inválido y ha sido actualizado.",
+            "inventory_not_found": "No se encontró inventario para esta mercancía.",
+            "duplicated_stable_id": "Esta línea de productos tiene el mismo ID estable que otra línea.",
+            "minimum_quantity_not_met": "La cantidad de algunos artículos no cumple con el mínimo requerido.",
+            "quantity_increment_not_met": "La cantidad de algunos artículos no cumple con los límites del pedido.",
+            "quantity_rules_not_met": "La cantidad de algunos artículos no cumple con los límites del pedido.",
+            "bundle_requires_components": "Este conjunto de productos no tiene componentes.",
+            "combined_listing_parent_not_purchasable": "Los productos principales de listados combinados no se pueden comprar directamente.",
+            "title_too_long": "El título del producto es demasiado largo.",
+            "title_empty": "El título del producto está vacío."
+          },
+          "buyer_identity": {
+            "customer_account_required": "Debe iniciar sesión para continuar.",
+            "company_location_required": "El cliente debe elegir una ubicación de la empresa para continuar.",
+            "company_purchase_permission_required": "El cliente no tiene permiso para realizar pedidos de la empresa.",
+            "personal_order_not_allowed": "No se permiten pedidos personales en esta tienda.",
+            "lost_access_to_company": "El cliente perdió el acceso a cualquier empresa.",
+            "contact_info_does_not_match_customer_account": "La información de contacto debe coincidir con la cuenta en la que has iniciado sesión.",
+            "email_required": "Se requiere un correo electrónico cuando la mercancía se compra mediante una suscripción.",
+            "email_domain_is_invalid": "Este dominio especificado no se puede resolver.",
+            "checkout_completion_target_is_missing": "Falta el objetivo de finalización de la compra.",
+            "customer_profile_access_restricted": "El proceso de pago no tiene permiso para acceder al perfil del cliente.",
+            "checkout_completion_target_is_invalid_proc": "Objetivo de finalización de compra no válido.",
+            "buyer_identity_presentment_currency_does_not_match": "Hubo un problema al procesar su pedido. Intente de nuevo en unos minutos."
+          },
+          "delivery": {
+            "only_one_delivery_line_allowed": "El carrito debe tener solo una línea de entrega.",
+            "wrong_number_of_delivery_lines": "Se debe especificar una línea de entrega para cada grupo de mercancía.",
+            "external_delivery_promise_error": "Un error al obtener la promesa de entrega externa.",
+            "destination_address_required": "Se requiere una dirección de destino para continuar.",
+            "pickup_points_unavailable": "Los puntos de recogida no están disponibles actualmente.",
+            "local_pickup_delivery_line_detail_changed": "La estrategia actual de entrega para recogida local debe cambiarse para poder continuar.",
+            "selected_pickup_option_no_longer_available": "La opción de recogida seleccionada anteriormente ya no está disponible.",
+            "local_pickup_no_delivery_strategy_available": "No se encontró ninguna estrategia de entrega con recogida local disponible.",
+            "origin_location_id_required": "Se requiere un identificador de ubicación de origen cuando se solicita el método de entrega MINORISTA.",
+            "invalid_origin_location_id": "No se pudo encontrar una ubicación que coincida con el ID de ubicación de origen.",
+            "origin_location_id_not_allowed": "Los métodos de entrega solicitados no admiten un ID de ubicación de origen.",
+            "auto_fulfill_not_allowed": "Esta sesión no está autorizada para anular el comportamiento de cumplimiento.",
+            "auto_fulfill_required": "El cumplimiento automático es obligatorio cuando se solicita el método de entrega MINORISTA.",
+            "prefetch_shipping_rates_used": "Las tarifas de envío precargadas nunca deben devolver tarifas.",
+            "fulfillment_constraints_not_satisfied": "No se cumplió una o más restricciones de cumplimiento.",
+            "must_fulfill_from_constraint_not_satisfied": "Las restricciones de cumplimiento no se satisfacen porque los artículos no pueden ser despachados desde las ubicaciones requeridas.",
+            "must_fulfill_from_same_location_constraint_not_satisfied": "Las restricciones de cumplimiento no se satisfacen porque los artículos no pueden ser despachados desde la misma ubicación.",
+            "delivery_strategy_conditions_not_satisfied": "Hay estrategias de entrega disponibles para esta ubicación, pero no se cumplen sus condiciones.",
+            "invalid_signature": "Firma de descuento inválida."
+          },
+          "discount": {
+            "discounts_not_allowed_for_b2b": "No se permiten descuentos en las tiendas B2B.",
+            "custom_discount_not_honoured": "El descuento personalizado proporcionado no fue respetado.",
+            "unsupported_expectation": "La línea de descuento proporcionada contenía una expectativa que la política no pudo interpretar.",
+            "additional_requested_discount_code_discarded": "{{code}} es válido pero no aplicable. Verifique los términos del descuento.",
+            "additional_requested_discount_discarded": "Su descuento es válido pero no aplicable. Verifique los términos del descuento.",
+            "allocations_mismatch": "Tu código de descuento ha cambiado. Revisa tu carrito y vuelve a intentarlo."
+          },
+          "tax": {
+            "new_tax_must_be_accepted": "Los impuestos asociados a su pedido han cambiado. Revise y vuelva a intentarlo.",
+            "unresolvable_tax_terms": "Los términos propuestos no pueden resolverse dado el contexto actual de la negociación.",
+            "tax_inclusivity_mismatch": "Renegociar con el valor concreto de totalTaxAndDutyAmount o totalAmountIncludedInTarget.",
+            "tax_exemption_not_supported": "Las exenciones fiscales no están disponibles para la sesión de negociación actual.",
+            "delivery_tax_exemption_not_supported": "Actualmente no se admiten exenciones fiscales para las líneas de entrega.",
+            "proposed_allocations_required": "Falta el campo de 'asignaciones propuestas'.",
+            "merchandise_terms_must_be_defined": "Los términos de la mercancía deben definirse.",
+            "delivery_terms_must_be_defined": "Deben definirse los términos de entrega.",
+            "merchandise_discount_terms_must_be_defined": "Deben definirse los términos de descuento para la mercancía.",
+            "delivery_discount_terms_must_be_defined": "Deben definirse los términos del descuento de entrega.",
+            "allocated_required": "Falta el campo 'asignado'.",
+            "value_required": "Falta el campo 'valor'.",
+            "line_splits_not_supported": "El campo 'líneas de mercancía' debe dividirse de manera que cada una tenga un solo componente de línea en la propuesta del vendedor."
+          }
+        }
+      }
     }
   }
 }
