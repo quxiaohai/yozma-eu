@@ -2301,7 +2301,165 @@
         "recovery_notice": "C'è un problema con i dettagli del tuo ordine. Aggiorna le tue informazioni per completare il pagamento.",
         "errors": {
           "unavailable": {
-            "description": "{{walletName}} non era disponibile. Usa un metodo di pagamento diverso o riprova più tardi."
+            "description": "{{walletName}} non era disponibile. Usa un metodo di pagamento diverso o riprova più tardi.",
+            "instructions": "Si è verificato un problema con {{walletName}}. Torna al negozio per riprovare o scegli un metodo di pagamento diverso.",
+            "unavailable_for_country": "{{walletName}} non è disponibile in {{countryName}}. Seleziona un metodo di pagamento diverso per completare il tuo acquisto"
+          },
+          "unavailable_terminal": {
+            "instructions": "{{walletName}} non è attualmente disponibile per il tuo ordine. Per continuare l'acquisto, scegli un altro metodo di pagamento."
+          },
+          "discount_code": "Impossibile applicare questo codice sconto. Controlla il tuo codice e riprova.",
+          "terminal": "Si è verificato un problema con {{walletName}}. Usa un metodo di pagamento diverso.",
+          "detour": {
+            "price_change": "Alcuni prezzi degli articoli sono cambiati. Chiudi {{walletName}} per rivedere il tuo ordine e riprova.",
+            "queue": "Sei stato messo in coda per il pagamento. Chiudi {{walletName}} per continuare.",
+            "currency_change": "Non puoi usare un indirizzo diverso con {{walletName}}. Usa l'indirizzo originale o prova un metodo di pagamento diverso."
+          },
+          "unsupported": {
+            "address": "Il commerciante non può consegnare a questo indirizzo"
+          },
+          "outdated": {
+            "shipping_method": "Le opzioni di spedizione per il tuo ordine sono cambiate. Rivedi la tua scelta.",
+            "payment_terms": "I termini di pagamento sono cambiati. Rivedi il tuo ordine"
+          },
+          "invalid": {
+            "billing_zone": "Inserisci uno stato / provincia valido per l'indirizzo di fatturazione",
+            "postal_code": "Inserisci un CAP / codice postale valido",
+            "reduction_code": "Inserisci un codice sconto o una carta regalo valido",
+            "billing_zip": "Inserisci un CAP / codice postale valido per l'indirizzo di fatturazione"
+          },
+          "missing": {
+            "first_name": "Inserisci un nome",
+            "billing_first_name": "Inserisci un nome di battesimo per l'indirizzo di fatturazione",
+            "last_name": "Inserisci un cognome",
+            "address1": "Inserisci un indirizzo",
+            "address2": "Entra in un appartamento, suite, ecc.",
+            "billing_address2": "Inserisci un indirizzo di fatturazione appartamento, suite, ecc.",
+            "city": "Inserisci una città",
+            "billing_city": "Inserisci una città per l'indirizzo di fatturazione",
+            "province": "Seleziona uno stato / provincia",
+            "billing_province": "Seleziona uno stato / provincia per l'indirizzo di fatturazione",
+            "country": "Seleziona un paese/regione",
+            "zip": "Inserisci un CAP / codice postale",
+            "billing_zip": "Inserisci un CAP / codice postale per la fatturazione"
+          },
+          "formatting": {
+            "name_contains_emojis": "Elimina le emoji dal tuo nome",
+            "postal_code_contains_emoji": "Elimina emoji dal tuo codice postale"
+          },
+          "select_different_shipping_address_to_resolve_errors": "Il tuo indirizzo di spedizione non è valido. Seleziona un indirizzo diverso o usa uno nuovo."
+        },
+        "scrim": {
+          "continue_purchase_in_window": "Continua il tuo acquisto nella finestra di {{walletName}}",
+          "and_return_to_checkout": "e torna al pagamento"
+        }
+      },
+      "note": {
+        "length_exceeds_maximum": "Riduci la dimensione della nota a 5000 caratteri o meno."
+      },
+      "offsite_payment_failed": {
+        "payment_not_processed_text": "Prova a scansionare di nuovo il codice QR. Se continua a non funzionare, informa il nostro personale e prova un metodo di pagamento diverso.",
+        "payment_link_expired_title": "Il link per il pagamento è scaduto",
+        "payment_link_expired_text": "Prova a scansionare di nuovo il codice QR."
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "Il prezzo della carta regalo deve essere maggiore di 0.",
+            "gift_card_price_must_not_exceed_limit": "Il prezzo della carta regalo non deve superare %{gift_card_limit}.",
+            "subtotal_limit_reached": "È stato raggiunto il valore massimo degli articoli della linea.",
+            "signature_mismatch": "Incongruenza nella firma della merce per la linea %{stable_id}."
+          }
+        }
+      },
+      "remote": {
+        "errors": {
+          "only_remote_merchandise_lines": "Il checkout contiene solo merce remota. È necessario un reindirizzamento al negozio remoto per completare il checkout.",
+          "currency_mismatch_removal": "Un articolo è stato rimosso dal tuo carrello perché proviene da un negozio che utilizza una valuta diversa.",
+          "max_remote_shops_exceeded": "Questo prodotto non può essere aggiunto perché il tuo carrello ha già il massimo da altri negozi."
+        }
+      },
+      "units": {
+        "gallon": "gallo",
+        "foot": "piede",
+        "square_foot": "piedi²"
+      },
+      "memberships": {
+        "delivery_promise_unfulfillable": "L'indirizzo non è supportato per l'attuale abbonamento.",
+        "items_split_across_locations_unsupported": "La consegna Prime non è disponibile per il tuo ordine. Le opzioni di spedizione sono state aggiornate."
+      },
+      "editor": {
+        "navigation": {
+          "store_logo_accessibility_label": "Naviga al Negozio Online"
+        }
+      },
+      "tooltip": {
+        "accessibility_label_context": "Ulteriori informazioni su %{context}"
+      },
+      "too_many_requests": {
+        "title": "Troppi tentativi di pagamento",
+        "body": "Attendere qualche minuto e riprovare dal carrello.",
+        "body_no_cart": "Per favore, aspetta qualche minuto e riprova."
+      },
+      "required_extensions": {
+        "errors": {
+          "interaction_required": "È necessaria un'interazione di estensione per completare il pagamento."
+        }
+      },
+      "taxes": {
+        "tax_details": "Dettagli fiscali aggiuntivi",
+        "vat_number": {
+          "field": {
+            "label": "Partita IVA (facoltativo)",
+            "tooltip": "Valida il numero di partita IVA e applica automaticamente il reverse charge sugli ordini quando è idoneo"
+          },
+          "add": "Aggiungi un numero di partita IVA",
+          "domestic_order": "L'esenzione da inversione contabile si applica solo agli ordini transfrontalieri nell'UE. L'IVA standard viene addebitata per gli ordini locali.",
+          "status": {
+            "invalid_format": {
+              "at": "I numeri di partita IVA austriaci contengono AT e 9 caratteri",
+              "be": "I numeri di partita IVA belgi contengono BE e 10 caratteri",
+              "bg": "I numeri di partita IVA della Bulgaria contengono BG e 9-10 caratteri",
+              "hr": "I numeri di partita IVA della Croazia contengono HR e 11 caratteri",
+              "cy": "I numeri di partita IVA di Cipro contengono CY e 9 caratteri",
+              "cz": "I numeri di partita IVA della Repubblica Ceca contengono CZ e da 8 a 10 caratteri",
+              "dk": "I numeri di partita IVA danesi contengono DK e 8 caratteri",
+              "ee": "I numeri di partita IVA estoni contengono EE e 9 caratteri",
+              "fi": "I numeri di partita IVA finlandesi contengono FI e 8 caratteri",
+              "fr": "I numeri di partita IVA francesi contengono FR e 11 caratteri",
+              "de": "I numeri di partita IVA tedeschi contengono DE e 9 caratteri",
+              "gr": "I numeri di partita IVA della Grecia contengono EL e 9 caratteri",
+              "hu": "I numeri di partita IVA ungheresi contengono HU e 8 caratteri",
+              "ie": "I numeri di partita IVA irlandesi contengono IE e 8-9 caratteri",
+              "it": "I numeri di partita IVA italiani contengono IT e 11 caratteri",
+              "lv": "I numeri di partita IVA della Lettonia contengono LV e 11 caratteri",
+              "lt": "I numeri di partita IVA della Lituania contengono LT e da 9 a 12 caratteri",
+              "lu": "I numeri di partita IVA del Lussemburgo contengono LU e 8 caratteri",
+              "mt": "I numeri di partita IVA di Malta contengono MT e 8 caratteri",
+              "nl": "I numeri di partita IVA dei Paesi Bassi contengono NL e 12 caratteri",
+              "pl": "I numeri di partita IVA polacchi contengono PL e 10 caratteri",
+              "pt": "I numeri di partita IVA portoghesi contengono PT e 9 caratteri",
+              "ro": "I numeri di partita IVA della Romania contengono RO e 10 caratteri",
+              "sk": "I numeri di partita IVA slovacchi contengono SK e 10 caratteri",
+              "si": "I numeri di partita IVA della Slovenia contengono SI e 8 caratteri",
+              "es": "I numeri di partita IVA spagnoli contengono ES e 9 caratteri",
+              "se": "I numeri di partita IVA svedesi contengono SE e 12 caratteri",
+              "gb": "I numeri di partita IVA del Regno Unito contengono GB o XI e da 5 a 12 caratteri"
+            },
+            "invalid_number": {
+              "at": "Inserisci un numero di partita IVA valido per l'Austria",
+              "be": "Inserisci un numero di partita IVA belga valido",
+              "bg": "Inserisci un numero di partita IVA bulgaro valido",
+              "hr": "Inserisci un numero di partita IVA croato valido",
+              "cy": "Inserisci un numero di partita IVA cipriota valido",
+              "cz": "Inserisci un numero di partita IVA ceco valido",
+              "dk": "Inserisci un numero di partita IVA danese valido",
+              "ee": "Inserisci un numero di partita IVA estone valido",
+              "fi": "Inserisci un numero di partita IVA finlandese valido",
+              "fr": "Inserisci un numero di partita IVA francese valido",
+              "de": "Inserisci un numero di partita IVA tedesco valido",
+              "gr": "Inserisci un numero di partita IVA valido della Grecia"
+            }
           }
         }
       }
