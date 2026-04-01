@@ -349,6 +349,7 @@
           "type": "slide",
           "settings": {
             "title": "",
+            "media_size": "auto",
             "media_type": "video",
             "media_position": "left",
             "video_desktop": "shopify://files/videos/配送区域视频.mp4",

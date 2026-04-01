@@ -218,7 +218,7 @@ Supported variables
             {{- social_media -}}
 
             {%- if country_selector or locale_selector or shop.customer_accounts_enabled -%}
-              <div class="panel-footer__localization-wrapper h-stack gap-6 border-t md:hidden">
+              <div class="panel-footer__localization-wrapper h-stack flex-between gap-6 border-t md:hidden">
                 {%- if country_selector -%}
                   {%- render 'localization-selector', type: 'country', show_country_name: show_country_name, show_country_flag: show_country_flag -%}
                 {%- endif -%}
@@ -228,7 +228,7 @@ Supported variables
                 {%- endif -%}
 
                 {%- if shop.customer_accounts_enabled -%}
-                  <a href="{{ routes.account_url }}" class="panel-footer__account-link bold text-sm">{{- 'header.general.account' | t -}}</a>
+                  <a href="{{ routes.account_url }}" style="margin-left: 0" class="panel-footer__account-link bold text-sm">{{- 'header.general.account' | t -}}</a>
                 {%- endif -%}
               </div>
             {%- endif -%}

@@ -91,6 +91,12 @@ the underlying logic of the menu.
       transform: translateY(0);
       margin-right: 8px;
      }
+     .header__main-nav {
+      justify-content: flex-start;
+     }
+     .panel-footer__localization-wrapper .tl-options.open {
+        transform: translateY(-120%);
+     }
   }
 
   @media screen and (min-width: 700px) {
@@ -117,6 +123,16 @@ the underlying logic of the menu.
       }
     }
   {%- endif -%}
+  .header__icon-list {
+    gap: 1rem;
+  }
+  .header-switcher-wrap .tl-select {
+  padding: 8px 0;
+  }
+  .header-switcher-wrap .tl-select:after {
+  border-color: #FFFFFF;
+  border-width: 0 2px 2px 0;
+  }
 </style>
 
 <height-observer variable="header" id="main-header">
@@ -292,6 +308,7 @@ the underlying logic of the menu.
                 {%- render 'country-selector', list: country_list -%}
             </li>
           {%- endif -%}
+          <li class="header-switcher-wrap hidden md:block shrink-0"></li>
           {%- if section.settings.show_country_selector and localization.available_countries.size > 1 -%}
             <li class="hidden md:block shrink-0">
               {%- render 'localization-selector', type: 'country', show_country_name: section.settings.show_country_name, show_country_flag: section.settings.show_country_flag, popover_vertical_position: 'end' -%}
