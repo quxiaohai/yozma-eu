@@ -934,6 +934,7 @@
       "name": "MC Section Text",
       "settings": {
         "page_color": "#171717",
+        "page_top": 5,
         "layout": "column",
         "mb_layout": "column"
       }
