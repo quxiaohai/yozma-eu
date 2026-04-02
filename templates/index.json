@@ -15,8 +15,8 @@
         "media_Yi7pih": {
           "type": "media",
           "settings": {
-            "pc_image_url": "shopify://shop_images/EU_PC_3840_x_1599.jpg",
-            "mb_image_url": "shopify://shop_images/EU_1500_x_2180.jpg",
+            "pc_image_url": "shopify://shop_images/EU_PC_3840_x_1599_52ca4186-4908-435a-a36c-e73b0df39b0a.jpg",
+            "mb_image_url": "shopify://shop_images/EU_1500_x_2180_9eecdee2-e57b-4efb-bdab-bbd6df0ccd58.jpg",
             "image_link": "shopify://products/in-10",
             "slide_tab": "",
             "show_subtitle": true,
@@ -349,9 +349,9 @@
           "type": "slide",
           "settings": {
             "title": "",
-            "media_size": "auto",
             "media_type": "video",
             "media_position": "left",
+            "media_size": "auto",
             "video_desktop": "shopify://files/videos/配送区域视频.mp4",
             "video_mobile": "shopify://files/videos/配送区域视频.mp4",
             "media_ratio": "",
