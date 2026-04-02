@@ -869,6 +869,7 @@
         "product_XrAM3e",
         "product_N6Prf7"
       ],
+      "disabled": true,
       "name": "MC Product Compare",
       "settings": {
         "page_color": "#171717",
@@ -1428,7 +1429,7 @@
           "type": "item",
           "settings": {
             "title": "5. What type of bike does it use?",
-            "content": "<p>The IN 10 features a 1200W rated / 2600W peak direct drive brushless motor, offering strong acceleration and climbing power.</p>"
+            "content": "<p>Powered by a high-torque direct-drive brushless motor, the IN 10 offers instant throttle response, dynamic acceleration, and excellent hill-climbing ability.<br/></p>"
           }
         },
         "item_nzectQ": {
