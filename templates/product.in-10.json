@@ -48,8 +48,8 @@
         "text_HmxbbW": {
           "type": "content",
           "settings": {
-            "padding": "8px 0px 0px 0px",
-            "mb_padding": "8px 0px 0px 0px",
+            "padding": "10px 0px 0px 0px",
+            "mb_padding": "10px 0px 0px 0px",
             "text": "<ul><li><strong>Torque:</strong>146 N.M</li><li><strong>Max Load</strong>: 120 kg</li><li><strong>Battery</strong>: 48V 23.4Ah </li><li><strong>Max Range</strong>: 85km</li><li><strong>Suitable Height</strong>: 120 cm-180 cm</li></ul>"
           }
         },
