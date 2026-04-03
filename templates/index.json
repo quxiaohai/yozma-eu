@@ -145,11 +145,12 @@
       "name": "MC Flip Countdown",
       "settings": {
         "page_color": "",
+        "page_top": 10,
         "show_title": true,
-        "title": "IN 10 will  sale in",
+        "title": "IN 10 Official Release: 14 April",
         "title_pc_size": 48,
         "title_mb_size": 24,
-        "title_margin_bottom": 16,
+        "title_margin_bottom": 25,
         "title_color": "#1a1a1a",
         "title_gradient_color": "",
         "show_description": false,
@@ -265,6 +266,7 @@
       "name": "MC Main Subscribe",
       "settings": {
         "page_color": "#1a1a1a",
+        "page_top": 15,
         "show_title": true,
         "title": "<p>Be the first to know about new arrival and exclusive offers!</p>",
         "title_style": "normal",
