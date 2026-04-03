@@ -119,6 +119,80 @@
         "slide_tab_active_color": "#ffffff"
       }
     },
+    "countdown_N7MpDQ": {
+      "type": "countdown",
+      "blocks": {
+        "countdown_RwzkCG": {
+          "type": "countdown",
+          "disabled": true,
+          "settings": {
+            "countdown_lbl": "New Release will starts in!",
+            "countdown_lbl_content": "",
+            "countdown_date": "2026-4-13 00:00:00",
+            "countdown_days": "DAYS",
+            "countdown_hours": "HRS",
+            "countdown_minutes": "MIN",
+            "countdown_seconds": "SEC",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "countdown_RwzkCG"
+      ],
+      "name": "Countdown",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "bg_img": "shopify://shop_images/compare-button-bg.avif",
+        "background_gradient": ""
+      }
+    },
+    "mc_main_subscribe_qarW83": {
+      "type": "mc_main-subscribe",
+      "name": "MC Main Subscribe",
+      "settings": {
+        "page_color": "#1a1a1a",
+        "show_title": true,
+        "title": "<p>Be the first to know about new arrival and exclusive offers!</p>",
+        "title_style": "normal",
+        "title_pc_size": 48,
+        "title_mb_size": 24,
+        "title_margin_bottom": 16,
+        "title_color": "#ffffff",
+        "title_bold_color": "#ffffff",
+        "title_gradient_color": "",
+        "show_description": false,
+        "description": "",
+        "description_color": "#000000",
+        "description_pc_size": 18,
+        "description_mb_size": 14,
+        "description_pc_margin_bottom": 0,
+        "description_mb_margin_bottom": 0,
+        "alert_duration": 3,
+        "button": "Subscribe",
+        "pc_button_size": 18,
+        "mb_button_size": 10,
+        "button_bg_color": "#D30000",
+        "button_text_color": "#ffffff",
+        "button_text_hover_color": "#000000",
+        "tag": "Sub",
+        "content": "Sub",
+        "placeholder": "Your email",
+        "input_bg_color": "#ffffff",
+        "input_border_color": "#D30000",
+        "input_text_color": "#000000",
+        "show_privacy": true,
+        "privacy_text": "<p>By submitting this form, I accept the <a href=\"/pages/terms-of-service-1\">Terms of Sale</a>  and <a href=\"/pages/privacy-policy\">Privacy Policy</a></p>",
+        "privacy_checked": true,
+        "privacy_color": "#d5d5d5",
+        "privacy_link_color": "#ffffff",
+        "privacy_link_hover_color": "#D30000",
+        "privacy_active_color": "#D30000"
+      }
+    },
     "mc_product_list": {
       "type": "mc_product-list",
       "blocks": {
@@ -188,6 +262,8 @@
       "name": "MC Product List",
       "settings": {
         "page_color": "#ffffff",
+        "page_top": 0,
+        "page_bottom": 5,
         "show_title": true,
         "title": "",
         "title_style": "normal",
@@ -258,7 +334,7 @@
       "name": "MC Media Slide",
       "settings": {
         "page_color": "#ffffff",
-        "page_top": 0,
+        "page_top": 15,
         "page_bottom": 240,
         "mb_page_bottom": 40,
         "show_title": true,
@@ -572,6 +648,8 @@
   },
   "order": [
     "mc_banner_slide",
+    "countdown_N7MpDQ",
+    "mc_main_subscribe_qarW83",
     "mc_product_list",
     "mc_media_slide",
     "mc_text_slide",
