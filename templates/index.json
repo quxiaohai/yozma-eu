@@ -15,8 +15,8 @@
         "media_Yi7pih": {
           "type": "media",
           "settings": {
-            "pc_image_url": "shopify://shop_images/EU_PC_3840_x_1599_52ca4186-4908-435a-a36c-e73b0df39b0a.jpg",
-            "mb_image_url": "shopify://shop_images/EU_1500_x_2180_9eecdee2-e57b-4efb-bdab-bbd6df0ccd58.jpg",
+            "pc_image_url": "shopify://shop_images/EU_PC_3840_x_1599_0131a953-5b74-44e4-a06a-671cab41f55b.jpg",
+            "mb_image_url": "shopify://shop_images/EU_1500_x_2180_3f19b74a-bb0e-4894-97a5-9213c14ae7f0.jpg",
             "image_link": "shopify://products/in-10",
             "slide_tab": "",
             "show_subtitle": true,
@@ -135,7 +135,7 @@
             "countdown_num_color": "#ffffff",
             "countdown_separator_color": "#650101",
             "countdown_dot_color": "#000000",
-            "countdown_text_color": "#1a1a1a"
+            "countdown_text_color": "#ffffff"
           }
         }
       },
@@ -144,14 +144,14 @@
       ],
       "name": "MC Flip Countdown",
       "settings": {
-        "page_color": "",
+        "page_color": "#1a1a1a",
         "page_top": 10,
         "show_title": true,
-        "title": "IN 10 Official Release: 14 April",
+        "title": "IN 10 Official Release: 14th April",
         "title_pc_size": 48,
         "title_mb_size": 24,
         "title_margin_bottom": 25,
-        "title_color": "#1a1a1a",
+        "title_color": "#ffffff",
         "title_gradient_color": "",
         "show_description": false,
         "description": "IN 10 Sales in",
