@@ -1007,52 +1007,16 @@
             "enable_video_looping": false
           }
         },
-        "youtube_hGdkAh": {
+        "youtube_VQgGtR": {
           "type": "youtube",
           "settings": {
-            "video_url": "https://www.youtube.com/watch?v=aE6JMTf3sE4&t=78s",
-            "cover_image": "shopify://shop_images/aE6JMTf3sE4-HD.jpg",
+            "video_url": "https://youtu.be/UIFm5cPpgBs",
+            "cover_image": "shopify://shop_images/UIFm5cPpgBs-HD.jpg",
             "video_url_mobile": "",
-            "date": "2025/10/13",
-            "content": "I Bought The Cheapest Electric Dirtbike (Yozma IN10)",
-            "avatar": "shopify://shop_images/channels4_profile_332012fe-b91c-415b-9ab3-960dc0a68ce8.jpg",
-            "author": "Rawstuntz"
-          }
-        },
-        "youtube_FBMggK": {
-          "type": "youtube",
-          "settings": {
-            "video_url": "https://www.youtube.com/watch?v=1BWf9zQho1g",
-            "cover_image": "shopify://shop_images/1BWf9zQho1g-HD.jpg",
-            "video_url_mobile": "",
-            "date": "2025/09/20",
-            "content": "Best Electric Dirt Bike Under $1500!! Yozma Sport IN 10",
-            "avatar": "shopify://shop_images/channels4_profile_2_648cfac0-24f1-49d2-8823-14099005e312.jpg",
-            "author": "Oneway Lilman"
-          }
-        },
-        "youtube_kmY6wG": {
-          "type": "youtube",
-          "settings": {
-            "video_url": "https://www.youtube.com/watch?v=6WoQyfm8BJk&t=88s",
-            "cover_image": "shopify://shop_images/6WoQyfm8BJk-HD.jpg",
-            "video_url_mobile": "",
-            "date": "2025/10/18",
-            "content": "I Bought The BEST Budget Electric Mini Bike!",
-            "avatar": "shopify://shop_images/channels4_profile_3_c24bc340-59a0-45ba-a6dd-c6e1b696271f.jpg",
-            "author": "Phethanfix"
-          }
-        },
-        "youtube_a6a6DE": {
-          "type": "youtube",
-          "settings": {
-            "video_url": "https://www.youtube.com/watch?v=KTEI1CDjiQ0",
-            "cover_image": "shopify://shop_images/KTEI1CDjiQ0-HD.jpg",
-            "video_url_mobile": "",
-            "date": "2025/10/29",
-            "content": "Cheapest ‘Legit’ Electric Dirt Bike… Actually Rips (Yozma IN-10)",
-            "avatar": "shopify://shop_images/channels4_profile_4_ac32e132-d920-4f67-92d0-904d4f59998b.jpg",
-            "author": "G Bear"
+            "date": "2025/09/10",
+            "content": "This electric dirt bike cost less than a IPhone! Yozma IN10",
+            "avatar": "shopify://shop_images/channels4_profile_6.jpg",
+            "author": "ENDOPRYSM"
           }
         },
         "youtube_TLCWVG": {
@@ -1067,16 +1031,16 @@
             "author": "Pat Outdoors"
           }
         },
-        "youtube_VQgGtR": {
+        "youtube_kmY6wG": {
           "type": "youtube",
           "settings": {
-            "video_url": "https://youtu.be/UIFm5cPpgBs",
-            "cover_image": "shopify://shop_images/UIFm5cPpgBs-HD.jpg",
+            "video_url": "https://www.youtube.com/watch?v=6WoQyfm8BJk&t=88s",
+            "cover_image": "shopify://shop_images/6WoQyfm8BJk-HD.jpg",
             "video_url_mobile": "",
-            "date": "2025/09/10",
-            "content": "This electric dirt bike cost less than a IPhone! Yozma IN10",
-            "avatar": "shopify://shop_images/channels4_profile_6.jpg",
-            "author": "ENDOPRYSM"
+            "date": "2025/10/18",
+            "content": "I Bought The BEST Budget Electric Mini Bike!",
+            "avatar": "shopify://shop_images/channels4_profile_3_c24bc340-59a0-45ba-a6dd-c6e1b696271f.jpg",
+            "author": "Phethanfix"
           }
         },
         "youtube_3Vqy4B": {
@@ -1090,6 +1054,42 @@
             "avatar": "shopify://shop_images/channels4_profile_7.jpg",
             "author": "Talaria Boys"
           }
+        },
+        "youtube_hGdkAh": {
+          "type": "youtube",
+          "settings": {
+            "video_url": "https://www.youtube.com/watch?v=aE6JMTf3sE4&t=78s",
+            "cover_image": "shopify://shop_images/aE6JMTf3sE4-HD.jpg",
+            "video_url_mobile": "",
+            "date": "2025/10/13",
+            "content": "I Bought The Cheapest Electric Dirtbike (Yozma IN10)",
+            "avatar": "shopify://shop_images/channels4_profile_332012fe-b91c-415b-9ab3-960dc0a68ce8.jpg",
+            "author": "Rawstuntz"
+          }
+        },
+        "youtube_a6a6DE": {
+          "type": "youtube",
+          "settings": {
+            "video_url": "https://www.youtube.com/watch?v=KTEI1CDjiQ0",
+            "cover_image": "shopify://shop_images/KTEI1CDjiQ0-HD.jpg",
+            "video_url_mobile": "",
+            "date": "2025/10/29",
+            "content": "Cheapest ‘Legit’ Electric Dirt Bike… Actually Rips (Yozma IN-10)",
+            "avatar": "shopify://shop_images/channels4_profile_4_ac32e132-d920-4f67-92d0-904d4f59998b.jpg",
+            "author": "G Bear"
+          }
+        },
+        "youtube_FBMggK": {
+          "type": "youtube",
+          "settings": {
+            "video_url": "https://www.youtube.com/watch?v=1BWf9zQho1g",
+            "cover_image": "shopify://shop_images/1BWf9zQho1g-HD.jpg",
+            "video_url_mobile": "",
+            "date": "2025/09/20",
+            "content": "Best Electric Dirt Bike Under $1500!! Yozma Sport IN 10",
+            "avatar": "shopify://shop_images/channels4_profile_2_648cfac0-24f1-49d2-8823-14099005e312.jpg",
+            "author": "Oneway Lilman"
+          }
         }
       },
       "block_order": [
@@ -1100,13 +1100,13 @@
         "video_WWBVWF",
         "video_pAyz4R",
         "video_aHP8PY",
-        "youtube_hGdkAh",
-        "youtube_FBMggK",
-        "youtube_kmY6wG",
-        "youtube_a6a6DE",
-        "youtube_TLCWVG",
         "youtube_VQgGtR",
-        "youtube_3Vqy4B"
+        "youtube_TLCWVG",
+        "youtube_kmY6wG",
+        "youtube_3Vqy4B",
+        "youtube_hGdkAh",
+        "youtube_a6a6DE",
+        "youtube_FBMggK"
       ],
       "name": "MC Community Media Slide",
       "settings": {
