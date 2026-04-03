@@ -232,7 +232,7 @@
       "settings": {
         "page_color": "#ffffff",
         "page_top": 0,
-        "page_bottom": 10,
+        "page_bottom": 30,
         "show_title": true,
         "title": "",
         "title_style": "normal",
@@ -267,6 +267,7 @@
       "settings": {
         "page_color": "#1a1a1a",
         "page_top": 15,
+        "page_bottom": 0,
         "show_title": true,
         "title": "<p>Be the first to know about new arrival and exclusive offers!</p>",
         "title_style": "normal",
