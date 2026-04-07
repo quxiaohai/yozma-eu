@@ -464,8 +464,8 @@
             return list.join('');
         }
 
-        $heybike.proxy(node, ['nav', 'problem'], ({elem, type, event}) => {
-            event.preventDefault();
+        const {trigger} = $heybike.proxy(node, ['nav', 'problem'], ({elem, type, event}) => {
+            event.preventDefault && event.preventDefault();
             if (type === "nav") {
                 if (!elem.classList.contains('active')) {
                     navList.forEach((elem) => {
@@ -492,6 +492,10 @@
                 }
             }
         });
+
+        if (location.href.includes('contact_posted')) {
+            trigger(navList[navList.length - 1]);
+        }
     })()
 </script>
 
