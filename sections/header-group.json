@@ -59,6 +59,7 @@
         },
         "message_RU4Pwf": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "<p>All prices shown include VAT — no additional tax will be added at checkout.</p>",
             "url": ""
