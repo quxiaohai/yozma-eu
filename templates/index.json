@@ -264,6 +264,7 @@
     },
     "mc_main_subscribe_qarW83": {
       "type": "mc_main-subscribe",
+      "disabled": true,
       "name": "MC Main Subscribe",
       "settings": {
         "page_color": "#1a1a1a",
