@@ -15,8 +15,8 @@
         "media_Yi7pih": {
           "type": "media",
           "settings": {
-            "pc_image_url": "shopify://shop_images/EU_PC_3840_x_1599_e311fbb7-79d4-4913-9af3-42b5afd3effc.jpg",
-            "mb_image_url": "shopify://shop_images/EU_1500_x_2180_ec41486d-34b8-4ae8-b11c-1aed0535cb00.jpg",
+            "pc_image_url": "shopify://shop_images/EU_PC_3840_x_1599_cd84938a-6675-4b82-9591-926082c9ce91.jpg",
+            "mb_image_url": "shopify://shop_images/EU_1500_x_2180_d5755c36-c84b-4b32-99b1-7fca66ef2168.jpg",
             "image_link": "shopify://products/in-10",
             "slide_tab": "",
             "show_subtitle": true,
@@ -142,6 +142,7 @@
       "block_order": [
         "countdown_QALWbd"
       ],
+      "disabled": true,
       "name": "MC Flip Countdown",
       "settings": {
         "page_color": "#1a1a1a",
