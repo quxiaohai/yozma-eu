@@ -107,7 +107,9 @@
             "image": "shopify://shop_images/750_164_4577bae7-59c5-499d-abd8-7cbf537aabf0.jpg",
             "alignment": "start",
             "image_fill": true,
-            "max_width": 500
+            "max_width": 500,
+            "image_position": false,
+            "position": 3
           }
         },
         "countdown_timer_gHWnpr": {
@@ -136,6 +138,7 @@
         },
         "countdown_gHWnpr": {
           "type": "countdown",
+          "disabled": true,
           "settings": {
             "padding": "12px 0px 12px 0px",
             "mb_padding": "4px 0px 4px 0px",
@@ -162,7 +165,6 @@
         },
         "variant_picker": {
           "type": "variant_picker",
-          "disabled": true,
           "settings": {
             "padding": "12px 0px 12px 0px",
             "mb_padding": "4px 0px 4px 0px",
