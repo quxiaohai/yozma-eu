@@ -22,6 +22,7 @@
         },
         "review_score_T8CMBR": {
           "type": "review_score",
+          "disabled": true,
           "settings": {
             "padding": "12px 0px 12px 0px",
             "mb_padding": "4px 0px 4px 0px",
