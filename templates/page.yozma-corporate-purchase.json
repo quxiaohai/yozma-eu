@@ -130,12 +130,66 @@
         "page_color": "#000000",
         "image_preload": true
       }
+    },
+    "easter_product_card_nhFk7x": {
+      "type": "easter-product-card",
+      "blocks": {
+        "product_item_GW9ezJ": {
+          "type": "product_item",
+          "settings": {
+            "product": "in-10",
+            "show_banner_image": true,
+            "pc_banner_image": "shopify://shop_images/photo-34_0a6e1e00-839b-40e9-bad2-98c432b19dea.jpg",
+            "mb_banner_image": "shopify://shop_images/photo-34_0a6e1e00-839b-40e9-bad2-98c432b19dea.jpg",
+            "show_sale": true,
+            "sale_price": "",
+            "sale_price_suffix": "",
+            "sale_text_color": "#ffffff",
+            "pc_product_image": "shopify://shop_images/a063bb63b961cc56054416cb24249faf_d9e3439a-42e7-42d0-8ad5-41e0653d3238.png",
+            "pc_product_hover_image": "shopify://shop_images/photo-34_0a6e1e00-839b-40e9-bad2-98c432b19dea.jpg",
+            "mb_product_image": "shopify://shop_images/a063bb63b961cc56054416cb24249faf_d9e3439a-42e7-42d0-8ad5-41e0653d3238.png",
+            "mb_product_hover_image": "shopify://shop_images/photo-34_0a6e1e00-839b-40e9-bad2-98c432b19dea.jpg",
+            "product_title": "",
+            "product_desc": "",
+            "product_intro": "<ul><li><strong>Lightweight:</strong> 38.5 lbs</li><li><strong>Long range:</strong> 62 miles, extendable</li></ul>",
+            "product_price": "",
+            "product_price_color": "#FF0000",
+            "product_original_price": "",
+            "button1": "Add to card",
+            "button1_text_color": "#ffffff",
+            "button1_bg_color": "#FF0000",
+            "button2": "Buy Now",
+            "button2_text_color": "#ffffff",
+            "button2_bg_color": "#5433eb"
+          }
+        }
+      },
+      "block_order": [
+        "product_item_GW9ezJ"
+      ],
+      "name": "easter-product-card",
+      "settings": {
+        "page_color": "#000000",
+        "page_bottom": 20,
+        "show_title": true,
+        "title": "Rock Your Ride",
+        "title_pc_size": 48,
+        "title_mb_size": 24,
+        "title_color": "#ffffff",
+        "title_gradient_color": "linear-gradient(180deg, rgba(255, 228, 49, 1), rgba(249, 32, 32, 1) 100%)",
+        "show_description": true,
+        "description": "Yozma isn’t just a bike—it’s motion, power, and attitude.",
+        "description_color": "#ffffff",
+        "description_pc_size": 20,
+        "description_mb_size": 14
+      }
     }
   },
   "order": [
     "main",
     "main_banner_ggzxAp",
     "main_navigation_T4B4me",
-    "easter_sale_service_VHJBca"
+    "easter_sale_service_VHJBca",
+    "easter_product_card_nhFk7x"
   ]
 }
