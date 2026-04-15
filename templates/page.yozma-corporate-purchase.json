@@ -183,6 +183,24 @@
         "description_pc_size": 20,
         "description_mb_size": 14
       }
+    },
+    "easter_service_policy_Keq8kJ": {
+      "type": "easter-service-policy",
+      "name": "easter-service-policy",
+      "settings": {
+        "page_color": "#000000",
+        "show_title": true,
+        "title": "Why Choose Official Store",
+        "title_pc_size": 48,
+        "title_mb_size": 24,
+        "title_color": "#ffffff",
+        "title_gradient_color": "linear-gradient(180deg, rgba(255, 228, 49, 1), rgba(249, 32, 32, 1) 100%)",
+        "show_description": true,
+        "description": "",
+        "description_color": "#ffffff",
+        "description_pc_size": 18,
+        "description_mb_size": 14
+      }
     }
   },
   "order": [
@@ -190,6 +208,7 @@
     "main_banner_ggzxAp",
     "main_navigation_T4B4me",
     "easter_sale_service_VHJBca",
-    "easter_product_card_nhFk7x"
+    "easter_product_card_nhFk7x",
+    "easter_service_policy_Keq8kJ"
   ]
 }
