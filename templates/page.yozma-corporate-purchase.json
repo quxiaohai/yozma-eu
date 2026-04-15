@@ -270,11 +270,11 @@
     "faq_yAhtym": {
       "type": "faq",
       "blocks": {
-        "item_WFHEdt": {
+        "item_kir4xY": {
           "type": "item",
           "settings": {
-            "title": "6. How can I place a corporate purchase order?",
-            "content": "<p>To place a bulk order or request a quote, please contact our business team.</p><p>📧 <strong>Email:</strong> zach@yozmasport.com</p><p>Our team will typically respond within <strong>24 hours</strong>.</p>"
+            "title": "8. Do bulk orders qualify for special shipping arrangements?",
+            "content": "<p>Yes. Depending on the order size and destination, we can provide <strong>optimized shipping solutions</strong> from our US warehouses.</p><p>For details, please contact our business team.</p>"
           }
         },
         "item_b8yDhF": {
@@ -311,15 +311,23 @@
             "title": "5. Who is eligible for corporate purchase?",
             "content": "<p>Our corporate purchase program is suitable for:</p><ul><li>Companies</li><li>Delivery fleets</li><li>Rental businesses</li><li>Schools & campuses</li><li>Event organizers</li><li>Corporate employee programs</li><li>Sports teams or clubs</li></ul>"
           }
+        },
+        "item_WFHEdt": {
+          "type": "item",
+          "settings": {
+            "title": "6. How can I place a corporate purchase order?",
+            "content": "<p>To place a bulk order or request a quote, please contact our business team.</p><p>📧 <strong>Email:</strong> zach@yozmasport.com</p><p>Our team will typically respond within <strong>24 hours</strong>.</p>"
+          }
         }
       },
       "block_order": [
-        "item_WFHEdt",
+        "item_kir4xY",
         "item_b8yDhF",
         "item_ztzHn8",
         "item_GNdTR9",
         "item_EkNJPz",
-        "item_BANcBg"
+        "item_BANcBg",
+        "item_WFHEdt"
       ],
       "name": "FAQ",
       "settings": {
