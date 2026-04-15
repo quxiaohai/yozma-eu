@@ -273,8 +273,15 @@
         "item_b8yDhF": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "1. What is the minimum quantity for a corporate purchase?",
+            "content": "<p>Corporate purchase discounts start from <strong>5 units</strong>.<br/><br/>Orders of <strong>5 or more bikes</strong> qualify for our bulk purchase program.</p>"
+          }
+        },
+        "item_GNdTR9": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
           }
         },
         "item_EkNJPz": {
@@ -294,6 +301,7 @@
       },
       "block_order": [
         "item_b8yDhF",
+        "item_GNdTR9",
         "item_EkNJPz",
         "item_ztzHn8"
       ],
