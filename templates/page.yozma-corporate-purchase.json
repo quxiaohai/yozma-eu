@@ -270,11 +270,25 @@
     "faq_yAhtym": {
       "type": "faq",
       "blocks": {
+        "item_BANcBg": {
+          "type": "item",
+          "settings": {
+            "title": "5. Who is eligible for corporate purchase?",
+            "content": "<p>Our corporate purchase program is suitable for:</p><ul><li>Companies</li><li>Delivery fleets</li><li>Rental businesses</li><li>Schools & campuses</li><li>Event organizers</li><li>Corporate employee programs</li><li>Sports teams or clubs</li></ul>"
+          }
+        },
         "item_b8yDhF": {
           "type": "item",
           "settings": {
             "title": "1. What is the minimum quantity for a corporate purchase?",
             "content": "<p>Corporate purchase discounts start from <strong>5 units</strong>.<br/><br/>Orders of <strong>5 or more bikes</strong> qualify for our bulk purchase program.</p>"
+          }
+        },
+        "item_ztzHn8": {
+          "type": "item",
+          "settings": {
+            "title": "2. What discounts are available for bulk orders?",
+            "content": "<p>We offer tiered discounts based on the total quantity in your order:</p><ul><li><strong>5–9 bikes:</strong> 10% OFF</li><li><strong>10–19 bikes:</strong> 15% OFF</li><li><strong>20+ bikes:</strong> 20% OFF<br/></li></ul><p>The discount is calculated based on the <strong>total number of bikes purchased</strong>.</p>"
           }
         },
         "item_GNdTR9": {
@@ -290,20 +304,14 @@
             "title": "4. Can different models be combined in one bulk order?",
             "content": "<p>Yes. You can <strong>mix different models</strong> in the same order.<br/><br/>The <strong>total quantity</strong> will count toward the bulk discount tier.</p>"
           }
-        },
-        "item_ztzHn8": {
-          "type": "item",
-          "settings": {
-            "title": "2. What discounts are available for bulk orders?",
-            "content": "<p>We offer tiered discounts based on the total quantity in your order:</p><ul><li><strong>5–9 bikes:</strong> 10% OFF</li><li><strong>10–19 bikes:</strong> 15% OFF</li><li><strong>20+ bikes:</strong> 20% OFF<br/></li></ul><p>The discount is calculated based on the <strong>total number of bikes purchased</strong>.</p>"
-          }
         }
       },
       "block_order": [
+        "item_BANcBg",
         "item_b8yDhF",
+        "item_ztzHn8",
         "item_GNdTR9",
-        "item_EkNJPz",
-        "item_ztzHn8"
+        "item_EkNJPz"
       ],
       "name": "FAQ",
       "settings": {
