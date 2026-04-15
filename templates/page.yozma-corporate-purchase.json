@@ -149,18 +149,18 @@
             "pc_product_hover_image": "shopify://shop_images/photo-34_0a6e1e00-839b-40e9-bad2-98c432b19dea.jpg",
             "mb_product_image": "shopify://shop_images/a063bb63b961cc56054416cb24249faf_d9e3439a-42e7-42d0-8ad5-41e0653d3238.png",
             "mb_product_hover_image": "shopify://shop_images/photo-34_0a6e1e00-839b-40e9-bad2-98c432b19dea.jpg",
-            "product_title": "",
-            "product_desc": "",
-            "product_intro": "<ul><li><strong>Lightweight:</strong> 38.5 lbs</li><li><strong>Long range:</strong> 62 miles, extendable</li></ul>",
-            "product_price": "",
+            "product_title": "Yozma IN 10",
+            "product_desc": "Electric Mini Dirt Bike For Teens & Adults",
+            "product_intro": "<ul><li><strong>Torque:</strong>146 N.M</li><li><strong>Max Load</strong>: 120 kg</li><li><strong>Battery</strong>: 48V 23.4Ah</li><li><strong>Max Range</strong>: 85km</li><li><strong>Suitable Height</strong>: 120 cm-180 cm</li></ul>",
+            "product_price": "€1.399,00",
             "product_price_color": "#FF0000",
-            "product_original_price": "",
-            "button1": "Add to card",
+            "product_original_price": "€1.599,00",
+            "button1": "Add to cart",
             "button1_text_color": "#ffffff",
-            "button1_bg_color": "#FF0000",
+            "button1_bg_color": "#000000",
             "button2": "Buy Now",
             "button2_text_color": "#ffffff",
-            "button2_bg_color": "#5433eb"
+            "button2_bg_color": "#ff0000"
           }
         }
       },
