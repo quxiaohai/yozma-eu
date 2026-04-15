@@ -77,13 +77,13 @@
         "show_tab_border": false,
         "tab_border_color": "#000000",
         "tab_border_active_color": "#000000",
-        "tab_border_width": 1,
-        "tab_weight": 500,
+        "tab_border_width": 3,
+        "tab_weight": 700,
         "desktop_tab_height": 36,
         "mobile_tab_height": 28,
-        "desktop_tab_size": 14,
-        "mobile_tab_size": 12,
-        "desktop_tab_padding": 25,
+        "desktop_tab_size": 18,
+        "mobile_tab_size": 15,
+        "desktop_tab_padding": 28,
         "mobile_tab_padding": 20
       }
     },
