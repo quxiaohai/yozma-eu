@@ -280,8 +280,8 @@
         "item_GNdTR9": {
           "type": "item",
           "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+            "title": "2. What discounts are available for bulk orders?",
+            "content": "<p>We offer tiered discounts based on the total quantity in your order:</p><ul><li><strong>5–9 bikes:</strong> 10% OFF</li><li><strong>10–19 bikes:</strong> 15% OFF</li><li><strong>20+ bikes:</strong> 20% OFF<br/></li></ul><p>The discount is calculated based on the <strong>total number of bikes purchased</strong>.</p>"
           }
         },
         "item_EkNJPz": {
