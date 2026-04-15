@@ -38,34 +38,42 @@
     "main_navigation_T4B4me": {
       "type": "main-navigation",
       "blocks": {
-        "nav_tab_Xedzqq": {
-          "type": "nav_tab",
-          "settings": {
-            "title": "Heybike",
-            "position": 3
-          }
-        },
         "nav_tab_CXdwYg": {
           "type": "nav_tab",
           "settings": {
             "title": "IN 10",
             "position": 3
           }
+        },
+        "nav_tab_Xedzqq": {
+          "type": "nav_tab",
+          "settings": {
+            "title": "Support",
+            "position": 3
+          }
+        },
+        "nav_tab_CGmRXr": {
+          "type": "nav_tab",
+          "settings": {
+            "title": "FAQ",
+            "position": 3
+          }
         }
       },
       "block_order": [
+        "nav_tab_CXdwYg",
         "nav_tab_Xedzqq",
-        "nav_tab_CXdwYg"
+        "nav_tab_CGmRXr"
       ],
       "name": "main-navigation",
       "settings": {
-        "page_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "page_color": "linear-gradient(180deg, rgba(127, 18, 0, 1), rgba(255, 255, 255, 1) 100%)",
         "tab_align": "center",
-        "tab_color": "#000000",
-        "tab_bg_color": "#FFDB00",
+        "tab_color": "#1a1a1a",
+        "tab_bg_color": "#eed230",
         "tab_active_color": "#ffffff",
-        "tab_bg_active_color": "#000000",
-        "tab_radius": 100,
+        "tab_bg_active_color": "#1a1a1a",
+        "tab_radius": 6,
         "show_tab_border": false,
         "tab_border_color": "#000000",
         "tab_border_active_color": "#000000",
