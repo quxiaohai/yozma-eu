@@ -187,6 +187,15 @@
     "easter_service_policy_Keq8kJ": {
       "type": "easter-service-policy",
       "blocks": {
+        "item_XcidRa": {
+          "type": "item",
+          "settings": {
+            "card_color": "#ffffff",
+            "title": "<p><strong>Free Shipping</strong><br/>3-12 business days.</p>",
+            "title_color": "#000000",
+            "image_icon": "shopify://shop_images/truck_6e12f020-a5ce-4055-b000-84d79c50e337.png"
+          }
+        },
         "item_VKdGUK": {
           "type": "item",
           "settings": {
@@ -198,6 +207,7 @@
         }
       },
       "block_order": [
+        "item_XcidRa",
         "item_VKdGUK"
       ],
       "name": "easter-service-policy",
