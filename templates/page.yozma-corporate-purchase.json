@@ -86,11 +86,32 @@
         "desktop_tab_padding": 25,
         "mobile_tab_padding": 20
       }
+    },
+    "easter_sale_service_VHJBca": {
+      "type": "easter-sale-service",
+      "blocks": {
+        "item_4WWmw4": {
+          "type": "item",
+          "settings": {
+            "title": "A+ Customer Service",
+            "image_icon": "shopify://shop_images/comment-chart-line_92d8d757-046c-4cb9-b022-d653e0b2e9ff.png"
+          }
+        }
+      },
+      "block_order": [
+        "item_4WWmw4"
+      ],
+      "name": "easter-sale-service",
+      "settings": {
+        "page_color": "#000000",
+        "image_preload": true
+      }
     }
   },
   "order": [
     "main",
     "main_banner_ggzxAp",
-    "main_navigation_T4B4me"
+    "main_navigation_T4B4me",
+    "easter_sale_service_VHJBca"
   ]
 }
