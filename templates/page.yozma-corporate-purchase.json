@@ -197,31 +197,13 @@
             "image_icon": "shopify://shop_images/ticket-discount_1_aeee6800-681f-465c-a844-02d9043cfbc6.png"
           }
         },
-        "item_DVbgqt": {
+        "item_VKdGUK": {
           "type": "item",
           "settings": {
             "card_color": "#ffffff",
-            "title": "<p><strong>Shopping Protection</strong><br/>Shop with Confidence</p>",
+            "title": "<p><strong>Customer Service</strong><br/>Lifetime customer support.</p>",
             "title_color": "#000000",
-            "image_icon": "shopify://shop_images/shopping-cart_064ddfd0-8f9a-4f8b-8629-289955d4b187.png"
-          }
-        },
-        "item_GcURhQ": {
-          "type": "item",
-          "settings": {
-            "card_color": "#ffffff",
-            "title": "<p><strong>Secure Payment</strong><br/>Buy with confidence</p>",
-            "title_color": "#000000",
-            "image_icon": "shopify://shop_images/credit-card_1.png"
-          }
-        },
-        "item_qw9i3K": {
-          "type": "item",
-          "settings": {
-            "card_color": "#ffffff",
-            "title": "<p><strong>Hassle-free Warranty</strong><br/>12-Month Warranty Period.</p>",
-            "title_color": "#000000",
-            "image_icon": "shopify://shop_images/wrench_a6172e28-c453-4bb9-94a5-2777064cf9c1.png"
+            "image_icon": "shopify://shop_images/comment-chart-line_aa0e33fb-5f5e-41d4-9cd8-67e9891a3a9f.png"
           }
         },
         "item_XcidRa": {
@@ -233,23 +215,41 @@
             "image_icon": "shopify://shop_images/truck_6e12f020-a5ce-4055-b000-84d79c50e337.png"
           }
         },
-        "item_VKdGUK": {
+        "item_qw9i3K": {
           "type": "item",
           "settings": {
             "card_color": "#ffffff",
-            "title": "<p><strong>Customer Service</strong><br/>Lifetime customer support.</p>",
+            "title": "<p><strong>Hassle-free Warranty</strong><br/>12-Month Warranty Period.</p>",
             "title_color": "#000000",
-            "image_icon": "shopify://shop_images/comment-chart-line_aa0e33fb-5f5e-41d4-9cd8-67e9891a3a9f.png"
+            "image_icon": "shopify://shop_images/wrench_a6172e28-c453-4bb9-94a5-2777064cf9c1.png"
+          }
+        },
+        "item_GcURhQ": {
+          "type": "item",
+          "settings": {
+            "card_color": "#ffffff",
+            "title": "<p><strong>Secure Payment</strong><br/>Buy with confidence</p>",
+            "title_color": "#000000",
+            "image_icon": "shopify://shop_images/credit-card_1.png"
+          }
+        },
+        "item_DVbgqt": {
+          "type": "item",
+          "settings": {
+            "card_color": "#ffffff",
+            "title": "<p><strong>Shopping Protection</strong><br/>Shop with Confidence</p>",
+            "title_color": "#000000",
+            "image_icon": "shopify://shop_images/shopping-cart_064ddfd0-8f9a-4f8b-8629-289955d4b187.png"
           }
         }
       },
       "block_order": [
         "item_MMPrVg",
-        "item_DVbgqt",
-        "item_GcURhQ",
-        "item_qw9i3K",
+        "item_VKdGUK",
         "item_XcidRa",
-        "item_VKdGUK"
+        "item_qw9i3K",
+        "item_GcURhQ",
+        "item_DVbgqt"
       ],
       "name": "easter-service-policy",
       "settings": {
