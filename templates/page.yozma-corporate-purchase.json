@@ -187,6 +187,15 @@
     "easter_service_policy_Keq8kJ": {
       "type": "easter-service-policy",
       "blocks": {
+        "item_qw9i3K": {
+          "type": "item",
+          "settings": {
+            "card_color": "#ffffff",
+            "title": "<p><strong>Hassle-free Warranty</strong><br/>12-Month Warranty Period.</p>",
+            "title_color": "#000000",
+            "image_icon": "shopify://shop_images/wrench_a6172e28-c453-4bb9-94a5-2777064cf9c1.png"
+          }
+        },
         "item_XcidRa": {
           "type": "item",
           "settings": {
@@ -207,6 +216,7 @@
         }
       },
       "block_order": [
+        "item_qw9i3K",
         "item_XcidRa",
         "item_VKdGUK"
       ],
