@@ -11,12 +11,78 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "content_width": "80ch"
+      }
+    },
+    "main_banner_ggzxAp": {
+      "type": "main-banner",
+      "name": "main-banner",
+      "settings": {
+        "page_color": "",
+        "pc_width": 1920,
+        "mb_width": 750,
+        "media_type": "image",
+        "pc_image_url": "shopify://shop_images/277986A9-A1C0-4145-B311-372635E89B82.jpg",
+        "content_pos": "center",
+        "mb_content_pos": "mb_top",
+        "video_play_show": false,
+        "backdrop_link": "",
+        "pc_content_width": 1440,
+        "overlay_show": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    },
+    "main_navigation_T4B4me": {
+      "type": "main-navigation",
+      "blocks": {
+        "nav_tab_Xedzqq": {
+          "type": "nav_tab",
+          "settings": {
+            "title": "Heybike",
+            "position": 3
+          }
+        },
+        "nav_tab_CXdwYg": {
+          "type": "nav_tab",
+          "settings": {
+            "title": "IN 10",
+            "position": 3
+          }
+        }
+      },
+      "block_order": [
+        "nav_tab_Xedzqq",
+        "nav_tab_CXdwYg"
+      ],
+      "name": "main-navigation",
+      "settings": {
+        "page_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "tab_align": "center",
+        "tab_color": "#000000",
+        "tab_bg_color": "#FFDB00",
+        "tab_active_color": "#ffffff",
+        "tab_bg_active_color": "#000000",
+        "tab_radius": 100,
+        "show_tab_border": false,
+        "tab_border_color": "#000000",
+        "tab_border_active_color": "#000000",
+        "tab_border_width": 1,
+        "tab_weight": 500,
+        "desktop_tab_height": 36,
+        "mobile_tab_height": 28,
+        "desktop_tab_size": 14,
+        "mobile_tab_size": 12,
+        "desktop_tab_padding": 25,
+        "mobile_tab_padding": 20
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "main_banner_ggzxAp",
+    "main_navigation_T4B4me"
   ]
 }
