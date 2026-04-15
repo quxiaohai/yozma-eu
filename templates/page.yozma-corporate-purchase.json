@@ -186,6 +186,20 @@
     },
     "easter_service_policy_Keq8kJ": {
       "type": "easter-service-policy",
+      "blocks": {
+        "item_VKdGUK": {
+          "type": "item",
+          "settings": {
+            "card_color": "#ffffff",
+            "title": "<p><strong>Customer Service</strong><br/>Lifetime customer support.</p>",
+            "title_color": "#000000",
+            "image_icon": "shopify://shop_images/comment-chart-line_aa0e33fb-5f5e-41d4-9cd8-67e9891a3a9f.png"
+          }
+        }
+      },
+      "block_order": [
+        "item_VKdGUK"
+      ],
       "name": "easter-service-policy",
       "settings": {
         "page_color": "#000000",
