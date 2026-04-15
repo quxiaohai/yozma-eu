@@ -270,11 +270,11 @@
     "faq_yAhtym": {
       "type": "faq",
       "blocks": {
-        "item_BANcBg": {
+        "item_WFHEdt": {
           "type": "item",
           "settings": {
-            "title": "5. Who is eligible for corporate purchase?",
-            "content": "<p>Our corporate purchase program is suitable for:</p><ul><li>Companies</li><li>Delivery fleets</li><li>Rental businesses</li><li>Schools & campuses</li><li>Event organizers</li><li>Corporate employee programs</li><li>Sports teams or clubs</li></ul>"
+            "title": "6. How can I place a corporate purchase order?",
+            "content": "<p>To place a bulk order or request a quote, please contact our business team.</p><p>📧 <strong>Email:</strong> zach@yozmasport.com</p><p>Our team will typically respond within <strong>24 hours</strong>.</p>"
           }
         },
         "item_b8yDhF": {
@@ -304,14 +304,22 @@
             "title": "4. Can different models be combined in one bulk order?",
             "content": "<p>Yes. You can <strong>mix different models</strong> in the same order.<br/><br/>The <strong>total quantity</strong> will count toward the bulk discount tier.</p>"
           }
+        },
+        "item_BANcBg": {
+          "type": "item",
+          "settings": {
+            "title": "5. Who is eligible for corporate purchase?",
+            "content": "<p>Our corporate purchase program is suitable for:</p><ul><li>Companies</li><li>Delivery fleets</li><li>Rental businesses</li><li>Schools & campuses</li><li>Event organizers</li><li>Corporate employee programs</li><li>Sports teams or clubs</li></ul>"
+          }
         }
       },
       "block_order": [
-        "item_BANcBg",
+        "item_WFHEdt",
         "item_b8yDhF",
         "item_ztzHn8",
         "item_GNdTR9",
-        "item_EkNJPz"
+        "item_EkNJPz",
+        "item_BANcBg"
       ],
       "name": "FAQ",
       "settings": {
