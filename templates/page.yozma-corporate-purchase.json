@@ -287,8 +287,8 @@
         "item_EkNJPz": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "4. Can different models be combined in one bulk order?",
+            "content": "<p>Yes. You can <strong>mix different models</strong> in the same order.<br/><br/>The <strong>total quantity</strong> will count toward the bulk discount tier.</p>"
           }
         },
         "item_ztzHn8": {
