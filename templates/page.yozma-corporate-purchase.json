@@ -187,6 +187,33 @@
     "easter_service_policy_Keq8kJ": {
       "type": "easter-service-policy",
       "blocks": {
+        "item_MMPrVg": {
+          "type": "item",
+          "settings": {
+            "card_color": "#ffffff",
+            "title": "<p><strong>Exclusive Offer</strong><br/>Irregular promotional offers</p>",
+            "title_color": "#000000",
+            "image_icon": "shopify://shop_images/ticket-discount_1_aeee6800-681f-465c-a844-02d9043cfbc6.png"
+          }
+        },
+        "item_DVbgqt": {
+          "type": "item",
+          "settings": {
+            "card_color": "#ffffff",
+            "title": "<p><strong>Shopping Protection</strong><br/>Shop with Confidence</p>",
+            "title_color": "#000000",
+            "image_icon": "shopify://shop_images/shopping-cart_064ddfd0-8f9a-4f8b-8629-289955d4b187.png"
+          }
+        },
+        "item_GcURhQ": {
+          "type": "item",
+          "settings": {
+            "card_color": "#ffffff",
+            "title": "<p><strong>Secure Payment</strong><br/>Buy with confidence</p>",
+            "title_color": "#000000",
+            "image_icon": "shopify://shop_images/credit-card_1.png"
+          }
+        },
         "item_qw9i3K": {
           "type": "item",
           "settings": {
@@ -207,6 +234,7 @@
         },
         "item_VKdGUK": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "card_color": "#ffffff",
             "title": "<p><strong>Customer Service</strong><br/>Lifetime customer support.</p>",
@@ -216,6 +244,9 @@
         }
       },
       "block_order": [
+        "item_MMPrVg",
+        "item_DVbgqt",
+        "item_GcURhQ",
         "item_qw9i3K",
         "item_XcidRa",
         "item_VKdGUK"
