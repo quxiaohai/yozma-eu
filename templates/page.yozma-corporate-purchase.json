@@ -90,6 +90,27 @@
     "easter_sale_service_VHJBca": {
       "type": "easter-sale-service",
       "blocks": {
+        "item_ikJY63": {
+          "type": "item",
+          "settings": {
+            "title": "Secure Payment",
+            "image_icon": "shopify://shop_images/credit-card_c5af0df9-774f-4c95-ac96-7d36d30dfdf0.png"
+          }
+        },
+        "item_QN3HAx": {
+          "type": "item",
+          "settings": {
+            "title": "1 Year Warranty",
+            "image_icon": "shopify://shop_images/wrench_2ca5d9e5-be7c-498a-a3f8-115ed1da27df.png"
+          }
+        },
+        "item_E3jtng": {
+          "type": "item",
+          "settings": {
+            "title": "Free Shipping",
+            "image_icon": "shopify://shop_images/truck_99c00b3b-d1e8-44ad-8b4a-6dc4f6214a0d.png"
+          }
+        },
         "item_4WWmw4": {
           "type": "item",
           "settings": {
@@ -99,6 +120,9 @@
         }
       },
       "block_order": [
+        "item_ikJY63",
+        "item_QN3HAx",
+        "item_E3jtng",
         "item_4WWmw4"
       ],
       "name": "easter-sale-service",
