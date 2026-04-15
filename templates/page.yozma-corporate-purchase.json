@@ -270,6 +270,13 @@
     "faq_yAhtym": {
       "type": "faq",
       "blocks": {
+        "item_hmNWqG": {
+          "type": "item",
+          "settings": {
+            "title": "7. Can I get a custom quote for large orders?",
+            "content": "<p>Yes. For <strong>large volume purchases or long-term partnerships</strong>, we can offer customized pricing and solutions.</p><p>Please contact:<br/><br/>📧 <strong>zach@yozmasport.com</strong></p>"
+          }
+        },
         "item_kir4xY": {
           "type": "item",
           "settings": {
@@ -321,6 +328,7 @@
         }
       },
       "block_order": [
+        "item_hmNWqG",
         "item_kir4xY",
         "item_b8yDhF",
         "item_ztzHn8",
