@@ -280,8 +280,8 @@
         "item_GNdTR9": {
           "type": "item",
           "settings": {
-            "title": "2. What discounts are available for bulk orders?",
-            "content": "<p>We offer tiered discounts based on the total quantity in your order:</p><ul><li><strong>5–9 bikes:</strong> 10% OFF</li><li><strong>10–19 bikes:</strong> 15% OFF</li><li><strong>20+ bikes:</strong> 20% OFF<br/></li></ul><p>The discount is calculated based on the <strong>total number of bikes purchased</strong>.</p>"
+            "title": "3. Does the quantity include the threshold number?",
+            "content": "<p>Yes. The threshold number <strong>is included</strong>.</p><p>For example:</p><ul><li><strong>5 bikes → 10% OFF</strong></li><li><strong>10 bikes → 15% OFF</strong></li><li><strong>20 bikes → 20% OFF</strong></li></ul>"
           }
         },
         "item_EkNJPz": {
