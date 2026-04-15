@@ -266,6 +266,59 @@
         "description_pc_size": 18,
         "description_mb_size": 14
       }
+    },
+    "faq_yAhtym": {
+      "type": "faq",
+      "blocks": {
+        "item_b8yDhF": {
+          "type": "item",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        "item_EkNJPz": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "item_ztzHn8": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_b8yDhF",
+        "item_EkNJPz",
+        "item_ztzHn8"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "#0d0d0c",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "heading_color": "#ffffff",
+        "heading_gradient": "linear-gradient(180deg, rgba(255, 228, 49, 1), rgba(249, 32, 32, 1) 100%)",
+        "button_background": "#f0f0f0",
+        "button_text_color": "#ffffff",
+        "accordion_background": "#0d0d0c",
+        "accordion_text_color": ""
+      }
     }
   },
   "order": [
@@ -274,6 +327,7 @@
     "main_navigation_T4B4me",
     "easter_sale_service_VHJBca",
     "easter_product_card_nhFk7x",
-    "easter_service_policy_Keq8kJ"
+    "easter_service_policy_Keq8kJ",
+    "faq_yAhtym"
   ]
 }
