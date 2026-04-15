@@ -189,6 +189,7 @@
       "blocks": {
         "item_MMPrVg": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "card_color": "#ffffff",
             "title": "<p><strong>Exclusive Offer</strong><br/>Irregular promotional offers</p>",
@@ -234,7 +235,6 @@
         },
         "item_VKdGUK": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "card_color": "#ffffff",
             "title": "<p><strong>Customer Service</strong><br/>Lifetime customer support.</p>",
