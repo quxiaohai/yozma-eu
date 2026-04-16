@@ -50,14 +50,14 @@
           "type": "nav_tab",
           "settings": {
             "title": "Support",
-            "position": 3
+            "position": 5
           }
         },
         "nav_tab_CGmRXr": {
           "type": "nav_tab",
           "settings": {
             "title": "FAQ",
-            "position": 3
+            "position": 6
           }
         }
       },
