@@ -330,6 +330,7 @@
               {%- for type in shop.enabled_payment_types -%}
                 <li class="contents">{{ type | payment_type_svg_tag }}</li>
               {%- endfor -%}
+              <li class="contents">{{ 'klarna' | payment_type_svg_tag }}</li>
             </ul>
           {%- endif -%}
 
