@@ -166,6 +166,26 @@
     "mc_product_list": {
       "type": "mc_product-list",
       "blocks": {
+        "product_KxJEVh": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "product": "in-10",
+            "product_title": "IN 10",
+            "product_description": "Electric Mini Dirt Bike For Teens & Adults",
+            "product_image": "shopify://shop_images/IN-10-_-_118_76cf6b60-2890-4edb-9718-318c9369a87d.png",
+            "video": "shopify://files/videos/黑色款2.25.mp4",
+            "icon1": "shopify://shop_images/199dbfa1fc6cf277a8ae542d1c5fa9a2.png",
+            "title1": "146N.M",
+            "content1": "Torque",
+            "icon2": "shopify://shop_images/1815a82372d12b55cdd8d7567d9caa9c.png",
+            "title2": "85KM",
+            "content2": "Max Range",
+            "icon3": "shopify://shop_images/32029198db61f160ba465e85628fa5ed.png",
+            "title3": "23.4Ah",
+            "content3": "Battery"
+          }
+        },
         "card3": {
           "type": "product",
           "settings": {
@@ -225,6 +245,7 @@
         }
       },
       "block_order": [
+        "product_KxJEVh",
         "card3",
         "card1",
         "card2"
@@ -311,6 +332,17 @@
     "mc_media_slide": {
       "type": "mc_media-slide",
       "blocks": {
+        "media_yQnbAW": {
+          "type": "media",
+          "disabled": true,
+          "settings": {
+            "desktop_image": "shopify://shop_images/MVI_7211_1.png",
+            "muted": true,
+            "video_desktop": "shopify://files/videos/黑2片尾.mp4",
+            "title": "Same beast. Different attitude",
+            "text": "<p>Blacked out and dialed in. From sharp turns to sudden drops, every response feels tighter, faster, more controlled—built for riders who push harder off-road.</p>"
+          }
+        },
         "media1": {
           "type": "media",
           "settings": {
@@ -343,6 +375,7 @@
         }
       },
       "block_order": [
+        "media_yQnbAW",
         "media1",
         "media2",
         "media3"
