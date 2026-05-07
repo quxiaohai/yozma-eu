@@ -846,7 +846,7 @@ customElements.define('blog-product-card', class extends HTMLElement {
     }
 
     get handle() {
-        return this.getAttribute('handle');
+        return this.getAttribute('handle')?.replace(/<[^>]+>/g, "");
     }
 
     get cart() {
