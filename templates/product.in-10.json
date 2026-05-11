@@ -979,6 +979,36 @@
     "mc_community_media_slide_h8A3wc": {
       "type": "mc_community-media-slide",
       "blocks": {
+        "video_p4BYJG": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "video": "shopify://files/videos/封面修改1.mp4",
+            "description": "",
+            "enable_video_autoplay": false,
+            "enable_video_looping": false
+          }
+        },
+        "video_a7F6NT": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "video": "shopify://files/videos/封面修改2.mp4",
+            "description": "",
+            "enable_video_autoplay": false,
+            "enable_video_looping": false
+          }
+        },
+        "video_pnM6er": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "video": "shopify://files/videos/黑色款2.25.mp4",
+            "description": "",
+            "enable_video_autoplay": false,
+            "enable_video_looping": false
+          }
+        },
         "video_iRKdBQ": {
           "type": "video",
           "settings": {
@@ -1040,6 +1070,30 @@
             "description": "",
             "enable_video_autoplay": false,
             "enable_video_looping": false
+          }
+        },
+        "youtube_KnBpjU": {
+          "type": "youtube",
+          "disabled": true,
+          "settings": {
+            "video_url": "youtube.com/watch?v=ChJ7qCZs_GY&feature=youtu.be",
+            "video_url_mobile": "",
+            "date": "2026/05/12",
+            "content": "Yozma IN 10 Black Version In Your Area",
+            "avatar": "shopify://shop_images/channels4_profile_8_37f22cda-0c2e-4ba4-a695-fbdea8a8a54f.jpg",
+            "author": "YozmaSport"
+          }
+        },
+        "youtube_neaVWW": {
+          "type": "youtube",
+          "disabled": true,
+          "settings": {
+            "video_url": "youtube.com/watch?v=wlpsYxE6Jvs&feature=youtu.be",
+            "video_url_mobile": "",
+            "date": "2026/05/12",
+            "content": "Yozma IN10 Black — Built for Chaos. Designed to Dominate.",
+            "avatar": "shopify://shop_images/channels4_profile_8_37f22cda-0c2e-4ba4-a695-fbdea8a8a54f.jpg",
+            "author": "YozmaSport"
           }
         },
         "youtube_VQgGtR": {
@@ -1128,6 +1182,9 @@
         }
       },
       "block_order": [
+        "video_p4BYJG",
+        "video_a7F6NT",
+        "video_pnM6er",
         "video_iRKdBQ",
         "video_8zxPjM",
         "video_HefpKx",
@@ -1135,6 +1192,8 @@
         "video_WWBVWF",
         "video_pAyz4R",
         "video_aHP8PY",
+        "youtube_KnBpjU",
+        "youtube_neaVWW",
         "youtube_VQgGtR",
         "youtube_TLCWVG",
         "youtube_kmY6wG",
