@@ -822,8 +822,8 @@
         "description_mb_size": 14,
         "description_pc_margin_bottom": 40,
         "description_mb_margin_bottom": 30,
-        "pc_image": "shopify://shop_images/product-yozma-bike.jpg",
-        "mb_image": "shopify://shop_images/product-mb-yozma-bike.jpg",
+        "pc_image": "shopify://shop_images/MVI_7239-2_1.png",
+        "mb_image": "shopify://shop_images/MVI_7239-2_2.png",
         "image_radius": 0,
         "mb_image_radius": 0,
         "image_width": 100,
@@ -981,7 +981,6 @@
       "blocks": {
         "video_p4BYJG": {
           "type": "video",
-          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/封面修改1.mp4",
             "description": "",
@@ -991,7 +990,6 @@
         },
         "video_a7F6NT": {
           "type": "video",
-          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/封面修改2.mp4",
             "description": "",
@@ -1001,7 +999,6 @@
         },
         "video_pnM6er": {
           "type": "video",
-          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/黑色款2.25.mp4",
             "description": "",
@@ -1074,7 +1071,6 @@
         },
         "youtube_KnBpjU": {
           "type": "youtube",
-          "disabled": true,
           "settings": {
             "video_url": "youtube.com/watch?v=ChJ7qCZs_GY&feature=youtu.be",
             "video_url_mobile": "",
@@ -1086,7 +1082,6 @@
         },
         "youtube_neaVWW": {
           "type": "youtube",
-          "disabled": true,
           "settings": {
             "video_url": "youtube.com/watch?v=wlpsYxE6Jvs&feature=youtu.be",
             "video_url_mobile": "",
