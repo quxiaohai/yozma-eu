@@ -12,8 +12,30 @@
     "mc_banner_slide": {
       "type": "mc_banner-slide",
       "blocks": {
+        "media1": {
+          "type": "media",
+          "settings": {
+            "pc_image_url": "shopify://shop_images/IN_10_-_PC_3840_x_1599_9.jpg",
+            "mb_image_url": "shopify://shop_images/IN_10_-_1500_x_2180.jpg",
+            "image_link": "shopify://products/in-10",
+            "slide_tab": "Yozma IN 10",
+            "show_subtitle": true,
+            "subtitle": "<p>IN 10</p>",
+            "subtitle_color": "#ffffff",
+            "show_title": true,
+            "title": "<p>New Color</p>",
+            "title_color": "#ffffff",
+            "show_button": true,
+            "button_bg_image": "shopify://shop_images/banner-btn-bg.png",
+            "button_text": "",
+            "button_color": "#000000",
+            "button_hover_color": "#ffffff",
+            "button_url": "shopify://products/in-10"
+          }
+        },
         "media_Yi7pih": {
           "type": "media",
+          "disabled": true,
           "settings": {
             "pc_image_url": "shopify://shop_images/EU_PC_3840_x_1599_cd84938a-6675-4b82-9591-926082c9ce91.jpg",
             "mb_image_url": "shopify://shop_images/EU_1500_x_2180_d5755c36-c84b-4b32-99b1-7fca66ef2168.jpg",
@@ -76,35 +98,13 @@
             "button_hover_color": "#ffffff",
             "button_url": ""
           }
-        },
-        "media1": {
-          "type": "media",
-          "disabled": true,
-          "settings": {
-            "pc_image_url": "shopify://shop_images/IN_10_-_PC_3840_x_1599_9.jpg",
-            "mb_image_url": "shopify://shop_images/IN_10_-_1500_x_2180.jpg",
-            "image_link": "shopify://products/in-10",
-            "slide_tab": "Yozma IN 10",
-            "show_subtitle": true,
-            "subtitle": "<p>IN 10</p>",
-            "subtitle_color": "#ffffff",
-            "show_title": true,
-            "title": "<p>New Color</p>",
-            "title_color": "#ffffff",
-            "show_button": true,
-            "button_bg_image": "shopify://shop_images/banner-btn-bg.png",
-            "button_text": "",
-            "button_color": "#000000",
-            "button_hover_color": "#ffffff",
-            "button_url": "shopify://products/in-10"
-          }
         }
       },
       "block_order": [
+        "media1",
         "media_Yi7pih",
         "media2",
-        "media3",
-        "media1"
+        "media3"
       ],
       "name": "MC Banner Slide",
       "settings": {
@@ -168,7 +168,6 @@
       "blocks": {
         "product_KxJEVh": {
           "type": "product",
-          "disabled": true,
           "settings": {
             "product": "in-10",
             "product_title": "IN 10",
@@ -207,6 +206,7 @@
         },
         "card1": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "in-10",
             "product_title": "IN 10",
@@ -334,13 +334,22 @@
       "blocks": {
         "media_yQnbAW": {
           "type": "media",
-          "disabled": true,
           "settings": {
             "desktop_image": "shopify://shop_images/MVI_7211_1.png",
             "muted": true,
             "video_desktop": "shopify://files/videos/黑2片尾.mp4",
             "title": "Same beast. Different attitude",
             "text": "<p>Blacked out and dialed in. From sharp turns to sudden drops, every response feels tighter, faster, more controlled—built for riders who push harder off-road.</p>"
+          }
+        },
+        "media3": {
+          "type": "media",
+          "settings": {
+            "desktop_image": "shopify://shop_images/MVI_7239-2_1.png",
+            "muted": true,
+            "video_desktop": "shopify://files/videos/YOZMA-IN10-b(1)-0828-15秒.mp4",
+            "title": "Embrace Adventure, Ride Without Limits",
+            "text": "<p>Seek the joy of adventure and ride boldly. Explore every path, push your limits, and embrace every twist, turn, and hill, making each journey thrilling and unforgettable.</p>"
           }
         },
         "media1": {
@@ -362,23 +371,13 @@
             "title": "Ride Together, Share Every Moment",
             "text": "<p>Air time is yours. From ramps to unexpected drops, your ride reacts with precision, letting you experience the thrill of off-road action without limits.</p>"
           }
-        },
-        "media3": {
-          "type": "media",
-          "settings": {
-            "desktop_image": "shopify://shop_images/5_3bd8af2d-546a-448a-b613-ca57fe8420df.jpg",
-            "muted": true,
-            "video_desktop": "shopify://files/videos/YOZMA-IN10-b(1)-0828-15秒.mp4",
-            "title": "Embrace Adventure, Ride Without Limits",
-            "text": "<p>Seek the joy of adventure and ride boldly. Explore every path, push your limits, and embrace every twist, turn, and hill, making each journey thrilling and unforgettable.</p>"
-          }
         }
       },
       "block_order": [
         "media_yQnbAW",
+        "media3",
         "media1",
-        "media2",
-        "media3"
+        "media2"
       ],
       "name": "MC Media Slide",
       "settings": {
