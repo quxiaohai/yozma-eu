@@ -61,6 +61,7 @@
         },
         "countdown_timer_agxNMF": {
           "type": "countdown_timer",
+          "disabled": true,
           "settings": {
             "padding": "12px 0px 12px 0px",
             "mb_padding": "4px 0px 4px 0px",
@@ -179,7 +180,7 @@
             "custom_icon": "shopify://shop_images/question-icon-3.png",
             "icon_width": 24,
             "title": "F&Q",
-            "content": "<p>1. How long does shipping take? When will my order been dispatched?<br/><br/>Yozma IN 10 Pro ebikes are shipped from our California warehouse, and delivery typically takes 5 business days depending on your location. You’ll receive a tracking number once your order is on the way.<br/></p><p>2. What if the package is broken/missing?<br/><br/>Due to FedEx's failure to deliver the bike as required during transportation, parts of the wear and scratch may cause by the parts crashing together, although we have packed all the parts to prevent these situations as much as we can. Please send us the related pictures via support@yozmasport.com, we will solve it for you.<br/><br/>3. Can I return my order for personal reasons ?<br/><br/>To be eligible for a return, your item must be in the same condition that you received it, unworn, unused, or the ebike must have less than ten (10) miles on the odometer and must include all items that were inside the box (charger, keys, hardware, etc.), and in its original packaging.For specific fees, please click HERE.</p>",
+            "content": "<p>1. How long does shipping take? When will my order been dispatched?<br/><br/>Yozma IN 10 Pro ebikes are shipped from our <strong>Germany or Italy</strong> warehouse, and delivery typically takes 3-15 business days depending on your location. You’ll receive a tracking number once your order is on the way.<br/></p><p>2. What if the package is broken/missing?<br/><br/>Due to FedEx's or Fedex’s failure to deliver the bike as required during transportation, parts of the wear and scratch may cause by the parts crashing together, although we have packed all the parts to prevent these situations as much as we can. Please send us the related pictures via <a href=\"https://eu.yozmasport.com/pages/contact\" target=\"_blank\" title=\"Contact Us\">support.eu@yozmasport.com</a>, we will solve it for you.<br/><br/>3. Can I return my order for personal reasons ?<br/><br/>To be eligible for a return, your item must be in the same condition that you received it, unworn, unused, or the ebike must have less than ten (10) miles on the odometer and must include all items that were inside the box (charger, keys, hardware, etc.), and in its original packaging.For specific fees, please click <a href=\"https://eu.yozmasport.com/pages/return-refund-policy\" target=\"_blank\" title=\"Return & Refund Policy\">HERE.</a></p>",
             "page": ""
           }
         },
@@ -192,7 +193,20 @@
             "custom_icon": "shopify://shop_images/question-icon-2.png",
             "icon_width": 24,
             "title": "Important Notice:",
-            "content": "<p>Before placing your order, please confirm that you are <strong>14</strong> years of age or older. When riding, always follow local laws and regulations, wear a helmet, and prioritize safety at all times.</p>",
+            "content": "<p>Before placing your order, please confirm that you are <strong>16</strong> years of age or older. When riding, always follow local laws and regulations, wear a helmet, and prioritize safety at all times.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_text_8WCtgR": {
+          "type": "collapsible_text",
+          "settings": {
+            "padding": "0px 0px 0px 0px",
+            "mb_padding": "0px 0px 0px 0px",
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/400w-TW5KDcHjgao.jpg",
+            "icon_width": 24,
+            "title": "Saftely reminder For Yozma Riders",
+            "content": "<p>To ensure a safe and responsible riding experience, please review these key guidelines before use:</p><ul><li><strong>Wear proper protective gear</strong>, including a helmet, elbow pads, and knee pads.</li><li><strong>Check essential components</strong> before each ride: brakes, tires, handlebar stability, and battery security/charge level.</li><li><strong>Select an appropriate speed mode</strong> based on the rider’s experience. Young riders and beginners should start with low-speed mode and follow all local regulations.</li><li><strong>Use the original charger only</strong>; avoid third-party charging devices. Unplug after charging or when not in use.</li><li><strong>No unauthorized modifications</strong>, as alterations may lead to safety risks or improper operation.</li></ul>",
             "page": ""
           }
         },
@@ -221,6 +235,7 @@
         "collapsible_text_icon_zcfhmy",
         "collapsible_text_TDxfg9",
         "collapsible_text_rLkHXf",
+        "collapsible_text_8WCtgR",
         "share_buttons_yzh6EB"
       ],
       "custom_css": [
