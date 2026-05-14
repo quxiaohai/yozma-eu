@@ -39,7 +39,7 @@
           "settings": {
             "padding": "12px 0px 12px 0px",
             "mb_padding": "4px 0px 4px 0px",
-            "text": "<ul><li><strong>Motor:</strong> 5500W</li><li><strong>Top Speed:</strong> 20 Km/h</li><li><strong>Battery:</strong> 60V27Ah </li><li><strong>Max Range:</strong> 88Km</li><li><strong>Suitable Height:</strong> 4.7ft–6.3ft</li></ul>"
+            "text": "<ul><li><strong>Torque:</strong>220 N.M</li><li><strong>Max Load</strong>: 150 kg</li><li><strong>Battery</strong>: 60V 27Ah</li><li><strong>Max Range</strong>: 88 km</li><li><strong>Suitable Height</strong>: 140 cm-190 cm</li></ul>"
           }
         },
         "separator_VBDgqA": {
@@ -351,6 +351,7 @@
             "title": "",
             "media_type": "video",
             "media_position": "left",
+            "media_size": "fill",
             "video_desktop": "shopify://files/videos/3.mp4",
             "media_ratio": "",
             "mb_media_ratio": "",
@@ -371,6 +372,7 @@
             "title": "",
             "media_type": "video",
             "media_position": "right",
+            "media_size": "fill",
             "video_desktop": "shopify://files/videos/2.mp4",
             "media_ratio": "",
             "mb_media_ratio": "",
@@ -391,6 +393,7 @@
             "title": "",
             "media_type": "video",
             "media_position": "left",
+            "media_size": "fill",
             "video_desktop": "shopify://files/videos/1.mp4",
             "media_ratio": "",
             "mb_media_ratio": "",
