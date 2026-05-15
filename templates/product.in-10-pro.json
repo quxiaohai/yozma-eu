@@ -553,7 +553,8 @@
       "name": "MC Media Image",
       "settings": {
         "page_color": "",
-        "page_top": 56,
+        "page_top": 10,
+        "page_bottom": 5,
         "show_title": false,
         "title": "",
         "title_style": "normal",
@@ -614,6 +615,7 @@
       "name": "MC Section Text",
       "settings": {
         "page_color": "#000000",
+        "page_top": 10,
         "layout": "column",
         "mb_layout": "column"
       }
