@@ -582,6 +582,42 @@
         "mb_image_fill": false
       }
     },
+    "mc_section_text_Xe9iNE": {
+      "type": "mc_section-text",
+      "blocks": {
+        "text_ApFDLV": {
+          "type": "text",
+          "settings": {
+            "padding": "0px 0px 0px 0px",
+            "mb_padding": "0px 0px 0px 0px",
+            "text": "<p><em>*Range and speed may vary based on rider weight, terrain, andweather conditions</em></p>",
+            "image_height": 40,
+            "mb_image_height": 32,
+            "alignment": "center",
+            "mb_alignment": "center",
+            "style": "normal",
+            "weight": 400,
+            "line_height": 120,
+            "pc_size": 18,
+            "mb_size": 14,
+            "width": 100,
+            "mb_width": 100,
+            "color": "#ffffff",
+            "bold_color": "#ffffff",
+            "gradient_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_ApFDLV"
+      ],
+      "name": "MC Section Text",
+      "settings": {
+        "page_color": "#000000",
+        "layout": "column",
+        "mb_layout": "column"
+      }
+    },
     "mc_community_media_slide_LBp7PW": {
       "type": "mc_community-media-slide",
       "blocks": {
@@ -1401,6 +1437,7 @@
     "mc_param_text_slide_iDa9AN",
     "mc_section_text_JX3UnG",
     "mc_media_image_RxUF4q",
+    "mc_section_text_Xe9iNE",
     "mc_community_media_slide_LBp7PW",
     "slideshow_gMx3Da",
     "multiple_images_with_text_epUVmW",
