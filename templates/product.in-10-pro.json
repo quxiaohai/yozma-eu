@@ -264,6 +264,39 @@
         "input_text_color": ""
       }
     },
+    "mc_media_image_HT7XHC": {
+      "type": "mc_media-image",
+      "name": "MC Media Image",
+      "settings": {
+        "page_color": "",
+        "show_title": false,
+        "title": "",
+        "title_style": "normal",
+        "title_pc_size": 48,
+        "title_mb_size": 24,
+        "title_margin_bottom": 16,
+        "title_color": "#ffffff",
+        "title_bold_color": "#ffffff",
+        "title_gradient_color": "",
+        "show_description": false,
+        "description": "",
+        "description_color": "#ffffff",
+        "description_bold_color": "#ffffff",
+        "description_pc_size": 18,
+        "description_mb_size": 14,
+        "description_pc_margin_bottom": 40,
+        "description_mb_margin_bottom": 30,
+        "pc_image": "shopify://shop_images/PC_3-30_IN_10_PRO_W.png",
+        "mb_image": "shopify://shop_images/3-30_IN_10_PRO_W.png",
+        "image_radius": 0,
+        "mb_image_radius": 0,
+        "image_width": 100,
+        "image_ratio": "",
+        "image_fill": false,
+        "mb_image_ratio": "",
+        "mb_image_fill": false
+      }
+    },
     "video_7KTgK9": {
       "type": "video",
       "blocks": {
@@ -275,7 +308,6 @@
       "block_order": [
         "play_AWJyhT"
       ],
-      "disabled": true,
       "name": "Video",
       "settings": {
         "full_width": true,
@@ -324,12 +356,12 @@
             "media_ratio": "",
             "mb_media_ratio": "",
             "show_subhead": true,
-            "subhead": "Powerful Motor Unleash 20 km/h",
+            "subhead": "Powerful Motor, Superior Performance",
             "subhead_color": "#ff0000",
             "head": "Enhanced Speed and Maneuverability",
             "head_color": "#ffffff",
             "head_gradient_color": "",
-            "text": "<p>Powered by a <strong>5500W </strong>peak brushless motor, the IN 10 Pro delivers faster acceleration and a higher top speed. Three riding modes and a <strong>reverse gear </strong>ensure effortless control in tight situations.</p>",
+            "text": "<p>The IN 10 Pro delivers<strong> impressive acceleration and unmatched agility</strong>. Its advanced motor technology ensures you glide through streets and trails with ease, while<strong> versatile riding modes and a reverse function</strong> keep you in full command.<br/></p>",
             "text_color": "#b2b2b2",
             "text_bold_color": "#ff0000"
           }
@@ -350,10 +382,9 @@
             "head": "Ride More, Recharge Less",
             "head_color": "#ffffff",
             "head_gradient_color": "",
-            "text": "<p>The <strong>60V27Ah</strong> lithium-ion battery now delivers up to <strong>88 km </strong>per charge, surpassing the original IN10. Quick 6–7 hour charging keeps you on the move, supporting riders up to <strong>330 lbs</strong> on both trails and city roads.</p>",
+            "text": "<p>The <strong>60V27Ah</strong> lithium-ion battery now delivers up to <strong>88 km </strong>per charge, surpassing the original IN10. Quick 6–7 hour charging keeps you on the move, supporting riders up to<strong> 120 kg </strong>(330 lbs) on both trails and city roads.</p>",
             "text_color": "#b2b2b2",
-            "text_bold_color": "#ff0000",
-            "param_image": "shopify://shop_images/Group_161268885_1_d2cad88e-09bd-4961-941c-8d0f658a1028.png"
+            "text_bold_color": "#ff0000"
           }
         }
       },
@@ -1377,6 +1408,7 @@
   },
   "order": [
     "main",
+    "mc_media_image_HT7XHC",
     "video_7KTgK9",
     "mc_media_text_69MnUW",
     "mc_param_text_slide_iDa9AN",
