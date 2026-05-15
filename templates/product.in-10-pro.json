@@ -1132,7 +1132,7 @@
             "button_color": "#000000",
             "button_hover_color": "#ffffff",
             "button_url": "",
-            "product_params": "$1,199.99\n2600 W\n48V23.4 Ah\n146 Nm\n85 Km\n20 Km/h\n265lbs（120kg)\n14''/12''\n3.94ft - 5.9ft\n5-6 Hours"
+            "product_params": "€1,399\n48V23.4 Ah\n146 Nm\n85 Km\n265lbs（120kg)\n14''/12''\n3.94ft - 5.9ft(120cm-180cm)\n5-6 Hours"
           }
         },
         "product_McNXfG": {
@@ -1147,7 +1147,7 @@
             "button_color": "#000000",
             "button_hover_color": "#ffffff",
             "button_url": "",
-            "product_params": "$????\n5000-5500 W\n60V27 Ah\n220 Nm\n88 Km\n20 Km/h\n330 lbs（150kg）\n17''/14''\n4.7ft - 6.3ft\n6-7 Hours"
+            "product_params": "€2,199\n60V27 Ah\n220 Nm\n88 Km\n330 lbs（150kg）\n17''/14''\n4.7ft - 6.3ft(140cm-190cm)\n6-7 Hours"
           }
         },
         "product_tVHKM3": {
@@ -1205,7 +1205,7 @@
         "description_mb_size": 16,
         "description_pc_margin_bottom": 40,
         "description_mb_margin_bottom": 30,
-        "compare_title": "Price\nPeak Power\nBattery Capacity\nTorque\nMax Range\nTop Speed\nPayload\nTire\nSuitable Height\nCharging Time",
+        "compare_title": "Price\nBattery Capacity\nTorque\nMax Range\nPayload\nTire\nSuitable Height\nCharging Time",
         "features_text": "Features",
         "product_title_size": 24,
         "mb_product_title_size": 16,
