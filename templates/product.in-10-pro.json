@@ -1259,6 +1259,7 @@
       "blocks": {
         "item_7kpVea": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "What is the top speed of the Yozma IN 10 Pro?",
             "content": "<p>The top speed reaches 20km/h delivering powerful acceleration for both urban commuting and short leisure rides.</p>"
