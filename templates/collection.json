@@ -39,15 +39,69 @@
         "products_per_row_desktop": 3,
         "filter_layout": "sidebar",
         "show_sort_by": false,
-        "show_filters": false,
+        "show_filters": true,
         "show_filter_group_name": true,
         "show_filter_values_count": true,
         "open_first_filter_group": false
+      }
+    },
+    "faq_nwUqHd": {
+      "type": "faq",
+      "blocks": {
+        "item_LTCPy3": {
+          "type": "item",
+          "settings": {
+            "title": "1. What age are Yozma electric dirt bikes suitable for?",
+            "content": "<p>please confirm that you are<strong>16</strong>years of age or older. When riding, always follow local laws and regulations, wear a helmet, and prioritize safety at all times<br/></p>"
+          }
+        },
+        "item_gjtcaq": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "item_GqtyFk": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_LTCPy3",
+        "item_gjtcaq",
+        "item_GqtyFk"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
       }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "faq_nwUqHd"
   ]
 }
