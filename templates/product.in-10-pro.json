@@ -52,7 +52,6 @@
         },
         "price": {
           "type": "price",
-          "disabled": true,
           "settings": {
             "padding": "12px 0px 12px 0px",
             "mb_padding": "4px 0px 4px 0px",
@@ -119,7 +118,6 @@
         },
         "buy_buttons": {
           "type": "buy_buttons",
-          "disabled": true,
           "settings": {
             "padding": "12px 0px 12px 0px",
             "mb_padding": "4px 0px 4px 0px",
@@ -382,7 +380,7 @@
             "head": "Ride More, Recharge Less",
             "head_color": "#ffffff",
             "head_gradient_color": "",
-            "text": "<p>The <strong>60V27Ah</strong> lithium-ion battery now delivers up to <strong>88 km </strong>per charge, surpassing the original IN10. Quick 6–7 hour charging keeps you on the move, supporting riders up to<strong> 120 kg </strong>(330 lbs) on both trails and city roads.</p>",
+            "text": "<p>The <strong>60V27Ah</strong> lithium-ion battery now delivers up to <strong>88 km </strong>per charge, surpassing the original IN10. Quick 6–7 hour charging keeps you on the move, supporting riders up to<strong> 150 kg </strong>(330 lbs) on both trails and city roads.</p>",
             "text_color": "#b2b2b2",
             "text_bold_color": "#ff0000"
           }
