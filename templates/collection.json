@@ -39,7 +39,7 @@
         "products_per_row_desktop": 3,
         "filter_layout": "sidebar",
         "show_sort_by": false,
-        "show_filters": true,
+        "show_filters": false,
         "show_filter_group_name": true,
         "show_filter_values_count": true,
         "open_first_filter_group": false
@@ -52,28 +52,44 @@
           "type": "item",
           "settings": {
             "title": "1. What age are Yozma electric dirt bikes suitable for?",
-            "content": "<p>please confirm that you are<strong>16</strong>years of age or older. When riding, always follow local laws and regulations, wear a helmet, and prioritize safety at all times<br/></p>"
+            "content": "<p>Please confirm that you are <strong>16 </strong>years of age or older. When riding, always follow local laws and regulations, wear a helmet, and prioritize safety at all times</p>"
           }
         },
         "item_gjtcaq": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "2. How fast does a Yozma electric dirt bike go?",
+            "content": "<p>The Yozma IN 10 series can reach impressive off-road speeds with powerful acceleration and stable handling.</p>"
           }
         },
         "item_GqtyFk": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "3. Are electric dirt bikes good for off-road riding?",
+            "content": "<p>Yes. Yozma off-road electric bikes are built for dirt trails, outdoor tracks, and recreational riding with durable suspension and high-torque motors.</p>"
+          }
+        },
+        "item_jDGdMp": {
+          "type": "item",
+          "settings": {
+            "title": "4. What type of bike does it ues?",
+            "content": "<p>Powered by a high-torque direct-drive brushless motor, the IN 10 offers instant throttle response, dynamic acceleration, and excellent hill-climbing ability.</p>"
+          }
+        },
+        "item_iVcPJD": {
+          "type": "item",
+          "settings": {
+            "title": "5. Saftely Reminder for Yozma Riders",
+            "content": "<p>1. Wear Proper Protective Gear</p><p>Always wear an approved helmet when riding. Protective gear such as goggles, gloves, elbow and knee pads, and long pants is strongly recommended. Wear lace-up shoes with rubber soles. Do not ride barefoot, in open-toed shoes, or in high heels.</p><p>2. Ride Only in Safe and Legal Areas</p><p>Do not ride on highways, indoors, on slopes exceeding 30°, or on uneven, slippery, or unfamiliar terrain. Beginners should practice in an open area before riding in public spaces.</p><p>3. Operate Responsibly to Minimize Risk</p><p>Always hold the handlebars with both hands and avoid high-risk maneuvers. Do not ride under the influence of alcohol, medication, or when unwell. Obey local traffic laws and yield to pedestrians and other road users.</p><p>4. Battery Safety and Handling</p><p>Do not store batteries in environments above 70°F (21°C) or below 32°F (0°C). Batteries must be disposed of in accordance with local regulations. Do not throw batteries into fire or dispose of them with household waste.</p><p>5. Observe Weight and Weather Limits</p><p>Maximum load is 120 kg. The recommended rider weight is approximately 80 kg. Do not ride in rain, storms, fog, or other extreme weather conditions. Avoid water exposure to the motorcycle and battery.</p>"
           }
         }
       },
       "block_order": [
         "item_LTCPy3",
         "item_gjtcaq",
-        "item_GqtyFk"
+        "item_GqtyFk",
+        "item_jDGdMp",
+        "item_iVcPJD"
       ],
       "name": "FAQ",
       "settings": {
