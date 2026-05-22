@@ -223,25 +223,6 @@
             "content3": "Battery"
           }
         },
-        "card2": {
-          "type": "product",
-          "settings": {
-            "product": "yozma-in-10-combo",
-            "product_title": "IN 10 Red Combo",
-            "product_description": "Combo Pack – Best Value Dual Set",
-            "product_image": "shopify://shop_images/combo.png",
-            "video": "shopify://files/videos/connor_stitt_reel_2025_11_27_06_02_173774657813202242219.mp4",
-            "icon1": "shopify://shop_images/199dbfa1fc6cf277a8ae542d1c5fa9a2.png",
-            "title1": "146N.M",
-            "content1": "Torque",
-            "icon2": "shopify://shop_images/1815a82372d12b55cdd8d7567d9caa9c.png",
-            "title2": "85KM",
-            "content2": "Max Range",
-            "icon3": "shopify://shop_images/32029198db61f160ba465e85628fa5ed.png",
-            "title3": "23.4Ah",
-            "content3": "Battery"
-          }
-        },
         "product_XJTf6i": {
           "type": "product",
           "settings": {
@@ -260,14 +241,33 @@
             "title3": "23.4Ah",
             "content3": "Battery"
           }
+        },
+        "card2": {
+          "type": "product",
+          "settings": {
+            "product": "yozma-in-10-combo",
+            "product_title": "IN 10 Red Combo",
+            "product_description": "Combo Pack – Best Value Dual Set",
+            "product_image": "shopify://shop_images/combo.png",
+            "video": "shopify://files/videos/connor_stitt_reel_2025_11_27_06_02_173774657813202242219.mp4",
+            "icon1": "shopify://shop_images/199dbfa1fc6cf277a8ae542d1c5fa9a2.png",
+            "title1": "146N.M",
+            "content1": "Torque",
+            "icon2": "shopify://shop_images/1815a82372d12b55cdd8d7567d9caa9c.png",
+            "title2": "85KM",
+            "content2": "Max Range",
+            "icon3": "shopify://shop_images/32029198db61f160ba465e85628fa5ed.png",
+            "title3": "23.4Ah",
+            "content3": "Battery"
+          }
         }
       },
       "block_order": [
         "product_KxJEVh",
         "card3",
         "card1",
-        "card2",
-        "product_XJTf6i"
+        "product_XJTf6i",
+        "card2"
       ],
       "name": "MC Product List",
       "settings": {
