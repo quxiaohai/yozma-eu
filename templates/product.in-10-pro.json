@@ -52,7 +52,6 @@
         },
         "price": {
           "type": "price",
-          "disabled": true,
           "settings": {
             "padding": "12px 0px 12px 0px",
             "mb_padding": "4px 0px 4px 0px",
@@ -119,7 +118,6 @@
         },
         "buy_buttons": {
           "type": "buy_buttons",
-          "disabled": true,
           "settings": {
             "padding": "12px 0px 12px 0px",
             "mb_padding": "4px 0px 4px 0px",
@@ -264,6 +262,39 @@
         "input_text_color": ""
       }
     },
+    "mc_media_image_HT7XHC": {
+      "type": "mc_media-image",
+      "name": "MC Media Image",
+      "settings": {
+        "page_color": "",
+        "show_title": false,
+        "title": "",
+        "title_style": "normal",
+        "title_pc_size": 48,
+        "title_mb_size": 24,
+        "title_margin_bottom": 16,
+        "title_color": "#ffffff",
+        "title_bold_color": "#ffffff",
+        "title_gradient_color": "",
+        "show_description": false,
+        "description": "",
+        "description_color": "#ffffff",
+        "description_bold_color": "#ffffff",
+        "description_pc_size": 18,
+        "description_mb_size": 14,
+        "description_pc_margin_bottom": 40,
+        "description_mb_margin_bottom": 30,
+        "pc_image": "shopify://shop_images/PC_3-30_IN_10_PRO_W.png",
+        "mb_image": "shopify://shop_images/3-30_IN_10_PRO_W.png",
+        "image_radius": 0,
+        "mb_image_radius": 0,
+        "image_width": 100,
+        "image_ratio": "",
+        "image_fill": false,
+        "mb_image_ratio": "",
+        "mb_image_fill": false
+      }
+    },
     "video_7KTgK9": {
       "type": "video",
       "blocks": {
@@ -275,7 +306,6 @@
       "block_order": [
         "play_AWJyhT"
       ],
-      "disabled": true,
       "name": "Video",
       "settings": {
         "full_width": true,
@@ -324,12 +354,12 @@
             "media_ratio": "",
             "mb_media_ratio": "",
             "show_subhead": true,
-            "subhead": "Powerful Motor Unleash 20 km/h",
+            "subhead": "Powerful Motor, Superior Performance",
             "subhead_color": "#ff0000",
             "head": "Enhanced Speed and Maneuverability",
             "head_color": "#ffffff",
             "head_gradient_color": "",
-            "text": "<p>Powered by a <strong>5500W </strong>peak brushless motor, the IN 10 Pro delivers faster acceleration and a higher top speed. Three riding modes and a <strong>reverse gear </strong>ensure effortless control in tight situations.</p>",
+            "text": "<p>The IN 10 Pro delivers<strong> impressive acceleration and unmatched agility</strong>. Its advanced motor technology ensures you glide through streets and trails with ease, while<strong> versatile riding modes and a reverse function</strong> keep you in full command.<br/></p>",
             "text_color": "#b2b2b2",
             "text_bold_color": "#ff0000"
           }
@@ -350,10 +380,9 @@
             "head": "Ride More, Recharge Less",
             "head_color": "#ffffff",
             "head_gradient_color": "",
-            "text": "<p>The <strong>60V27Ah</strong> lithium-ion battery now delivers up to <strong>88 km </strong>per charge, surpassing the original IN10. Quick 6–7 hour charging keeps you on the move, supporting riders up to <strong>330 lbs</strong> on both trails and city roads.</p>",
+            "text": "<p>The <strong>60V27Ah</strong> lithium-ion battery now delivers up to <strong>88 km </strong>per charge, surpassing the original IN10. Quick 6–7 hour charging keeps you on the move, supporting riders up to<strong> 150 kg </strong>(330 lbs) on both trails and city roads.</p>",
             "text_color": "#b2b2b2",
-            "text_bold_color": "#ff0000",
-            "param_image": "shopify://shop_images/Group_161268885_1_d2cad88e-09bd-4961-941c-8d0f658a1028.png"
+            "text_bold_color": "#ff0000"
           }
         }
       },
@@ -404,7 +433,7 @@
           "type": "slide",
           "settings": {
             "title": "Specification",
-            "param_text": "<ul><li><strong>Top speed </strong>50 Km/h</li><li><strong>Range </strong>88 km</li><li><strong>Motor </strong>5500W Peak, Brushless Motor</li><li><strong>Charger</strong> 60V5A Charger</li><li><strong>Charger Voltage </strong>100-220V, 50-60Hz</li><li><strong>Charging Time </strong>0%-100% 6.0-7.0 Hours</li><li><strong>Display</strong> LCD Display</li><li><strong>Ride Mode </strong>Three-speed with Reverse gear</li><li><strong>Drivetrain </strong>420H chain, 124 links</li><li><strong>Battery</strong> 60V27Ah Lithium-ion Battery</li><li><strong>Suspension Type </strong>Inverted hydraulic fork</li><li><strong>Brakes</strong> Heavy-duty Hydraulic Brakes</li><li><strong>Frame</strong> High Carbon Steel</li><li><strong>Chain</strong> 116links（420 chain）Heavy Duty Chain</li><li><strong>Max Climbing</strong> 30 degrees</li><li><strong>Front Suspension</strong> Hydraulic Suspension</li><li><strong>Rear Suspension</strong> Nitrogen Shock Absorber</li><li><strong>Waterproof</strong> IPX6</li><li><strong>Bike Weight </strong>121lbs（55kg)</li><li><strong>Maximum Load </strong>330lbs</li></ul>"
+            "param_text": "<ul><li><strong>Top speed </strong>50 Km/h</li><li><strong>Range </strong>88 km</li><li><strong>Motor </strong>5500W Peak, Brushless Motor</li><li><strong>Charger</strong> 60V5A Charger</li><li><strong>Charger Voltage </strong>100-220V, 50-60Hz</li><li><strong>Charging Time </strong>0%-100% 6.0-7.0 Hours</li><li><strong>Display</strong> LCD Display</li><li><strong>Ride Mode </strong>Three-speed with Reverse gear</li><li><strong>Drivetrain </strong>420H chain, 124 links</li><li><strong>Battery</strong> 60V27Ah Lithium-ion Battery</li><li><strong>Suspension Type </strong>Inverted hydraulic fork</li><li><strong>Brakes</strong> Heavy-duty Hydraulic Brakes</li><li><strong>Frame</strong> High Carbon Steel</li><li><strong>Chain</strong> 116links（420 chain）Heavy Duty Chain</li><li><strong>Max Climbing</strong> 30 degrees</li><li><strong>Front Suspension</strong> Hydraulic Suspension</li><li><strong>Rear Suspension</strong> Nitrogen Shock Absorber</li><li><strong>Waterproof</strong> IPX6</li><li><strong>Bike Weight </strong>121lbs（55kg)</li><li><strong>Maximum Load </strong>330lbs (150kg)</li></ul>"
           }
         },
         "slide_fnAFgV": {
@@ -414,27 +443,14 @@
             "param_text": "<ul><li>&lcub;A&rcub;Yozma IN 10 Pro Dirt Bike*1</li><li>&lcub;B&rcub;60V 27Ah Lithium-Ion*1</li><li>&lcub;C&rcub;Battery Charger*1</li><li>&lcub;D&rcub;Assembly Tools*1</li><li>&lcub;E&rcub;Right Pedals*1</li><li>&lcub;F&rcub;Handle Bars Shipped Installed On Bike*1</li><li>&lcub;G&rcub;User Manual*1</li><li>&lcub;H&rcub;Plate Stickers*1</li><li>&lcub;I&rcub;Taillights*1</li><li>&lcub;J&rcub;Keys*2</li></ul>"
           }
         },
-        "slide_icon_7f63hV": {
-          "type": "slide_icon",
-          "disabled": true,
+        "slide_file_ch9gby": {
+          "type": "slide_file",
           "settings": {
-            "title": "What's In The Box",
-            "icon1": "shopify://shop_images/Group_161268869.png",
-            "name1": "",
-            "name2": "",
-            "name3": "",
-            "name4": "",
-            "name5": "",
-            "name6": "",
-            "name7": "",
-            "name8": "",
-            "name9": "",
-            "name10": "",
-            "name11": "",
-            "name12": "",
-            "name13": "",
-            "name14": "",
-            "name15": ""
+            "title": "User Manual",
+            "icon_svg": "<svg class=\"icon\" viewbox=\"0 0 1024 1024\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\"><path d=\"M905.185809 178.844158C898.576738 172.685485 891.19337 165.824412 883.21687 158.436127 860.422682 137.322863 837.434925 116.207791 815.697647 96.487895 813.243072 94.261877 813.243072 94.261877 810.786411 92.037081 781.783552 65.781062 757.590948 44.376502 739.713617 29.293612 729.254178 20.469111 721.020606 13.860686 714.970549 9.501727 710.955023 6.608611 707.690543 4.524745 704.47155 2.998714 700.417679 1.07689 696.638044-0.094029 691.307277 0.005928 677.045677 0.273349 665.6 11.769337 665.6 26.182727L665.6 77.352844 665.6 128.522961 665.6 230.863194 665.6 256.448252 691.2 256.448252 896 256.448252 870.4 230.863194 870.4 998.414942 896 972.829884 230.381436 972.829884C187.90385 972.829884 153.6 938.623723 153.6 896.20663L153.6 26.182727 128 51.767786 588.8 51.767786C602.93849 51.767786 614.4 40.312965 614.4 26.182727 614.4 12.05249 602.93849 0.597669 588.8 0.597669L128 0.597669 102.4 0.597669 102.4 26.182727 102.4 896.20663C102.4 966.91021 159.652833 1024 230.381436 1024L896 1024 921.6 1024 921.6 998.414942 921.6 230.863194 921.6 205.278135 896 205.278135 691.2 205.278135 716.8 230.863194 716.8 128.522961 716.8 77.352844 716.8 26.182727C716.8 39.813762 705.748075 50.91427 692.267725 51.167041 687.705707 51.252584 685.069822 50.435995 682.52845 49.231204 682.259458 49.103682 683.344977 49.796618 685.029451 51.010252 689.779394 54.432502 697.145822 60.34494 706.686383 68.394196 724.009052 83.009121 747.816448 104.072869 776.413589 129.961594 778.850014 132.168064 778.850014 132.168064 781.285216 134.376514 802.876774 153.964212 825.739479 174.96442 848.413564 195.966437 856.350957 203.3185 863.697005 210.144893 870.269888 216.269843 874.209847 219.941299 877.019309 222.565641 878.499674 223.951409 888.81866 233.610931 905.019017 233.081212 914.684179 222.768247 924.349344 212.455283 923.819315 196.264383 913.500326 186.604861 911.981323 185.182945 909.155025 182.542876 905.185809 178.844158ZM102.4 461.128719 0 461.128719 0 896.074709 512 896.074709 1024 896.074709 1024 461.128719 153.6 461.128719 153.6 460.531049 102.4 460.531049 102.4 461.128719ZM208.2 711 208.2 819.2 157.6 819.2 157.6 528 269 528C301.533495 528 327.366571 536.466581 346.5 553.4 365.633429 570.333419 375.2 592.733195 375.2 620.6 375.2 649.133476 365.833427 671.333254 347.1 687.2 328.366573 703.066746 302.133502 711 268.4 711L208.2 711ZM208.2 670.4 269 670.4C287.00009 670.4 300.733286 666.166709 310.2 657.7 319.666714 649.233291 324.4 637.000079 324.4 621 324.4 605.266588 319.600047 592.700047 310 583.3 300.399951 573.899953 287.200083 569.066669 270.4 568.8L208.2 568.8 208.2 670.4ZM419.4 819.2 419.4 528 505.4 528C531.133461 528 553.966566 533.733276 573.9 545.2 593.833434 556.666724 609.266611 572.933229 620.2 594 631.133389 615.066771 636.6 639.199863 636.6 666.4L636.6 681C636.6 708.600139 631.100055 732.866562 620.1 753.8 609.099945 774.733438 593.433436 790.866609 573.1 802.2 552.766564 813.533391 529.466799 819.2 503.2 819.2L419.4 819.2ZM470 568.8 470 778.8 503 778.8C529.533466 778.8 549.89993 770.500083 564.1 753.9 578.30007 737.299917 585.533331 713.466822 585.8 682.4L585.8 666.2C585.8 634.599842 578.933402 610.46675 565.2 593.8 551.466598 577.13325 531.533463 568.8 505.4 568.8L470 568.8ZM854.8 695.8 737.6 695.8 737.6 819.2 687 819.2 687 528 872 528 872 568.8 737.6 568.8 737.6 655.4 854.8 655.4 854.8 695.8Z\" fill=\"#ffffff\"></path></svg>",
+            "file_title": "Yozma IN 10 Pro User Manual",
+            "file_name": "User Manual.pdf",
+            "file_url": "https://cdn.shopify.com/s/files/1/0973/1683/1550/files/YOZMA_IN10_Pro_User_Manual-v1_EU_2_pdfgear.com_1.pdf?v=1778834039"
           }
         }
       },
@@ -442,7 +458,7 @@
         "slide_hp9APG",
         "slide_KAVeAe",
         "slide_fnAFgV",
-        "slide_icon_7f63hV"
+        "slide_file_ch9gby"
       ],
       "name": "MC Param Text Slide",
       "settings": {
@@ -535,7 +551,8 @@
       "name": "MC Media Image",
       "settings": {
         "page_color": "",
-        "page_top": 56,
+        "page_top": 10,
+        "page_bottom": 5,
         "show_title": false,
         "title": "",
         "title_style": "normal",
@@ -562,6 +579,43 @@
         "image_fill": false,
         "mb_image_ratio": "",
         "mb_image_fill": false
+      }
+    },
+    "mc_section_text_Xe9iNE": {
+      "type": "mc_section-text",
+      "blocks": {
+        "text_ApFDLV": {
+          "type": "text",
+          "settings": {
+            "padding": "0px 0px 0px 0px",
+            "mb_padding": "0px 0px 0px 0px",
+            "text": "<p><em>*Range and speed may vary based on rider weight, terrain, andweather conditions</em></p>",
+            "image_height": 40,
+            "mb_image_height": 32,
+            "alignment": "center",
+            "mb_alignment": "center",
+            "style": "normal",
+            "weight": 400,
+            "line_height": 120,
+            "pc_size": 18,
+            "mb_size": 14,
+            "width": 100,
+            "mb_width": 100,
+            "color": "#ffffff",
+            "bold_color": "#ffffff",
+            "gradient_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_ApFDLV"
+      ],
+      "name": "MC Section Text",
+      "settings": {
+        "page_color": "#000000",
+        "page_top": 10,
+        "layout": "column",
+        "mb_layout": "column"
       }
     },
     "mc_community_media_slide_LBp7PW": {
@@ -1076,7 +1130,7 @@
             "button_color": "#000000",
             "button_hover_color": "#ffffff",
             "button_url": "",
-            "product_params": "$1,199.99\n2600 W\n48V23.4 Ah\n146 Nm\n85 Km\n20 Km/h\n265lbs（120kg)\n14''/12''\n3.94ft - 5.9ft\n5-6 Hours"
+            "product_params": "€1,399\n48V23.4 Ah\n146 Nm\n85 Km\n265lbs（120kg)\n14''/12''\n3.94ft - 5.9ft(120cm-180cm)\n5-6 Hours"
           }
         },
         "product_McNXfG": {
@@ -1091,7 +1145,7 @@
             "button_color": "#000000",
             "button_hover_color": "#ffffff",
             "button_url": "",
-            "product_params": "$????\n5000-5500 W\n60V27 Ah\n220 Nm\n88 Km\n20 Km/h\n330 lbs（150kg）\n17''/14''\n4.7ft - 6.3ft\n6-7 Hours"
+            "product_params": "€2,199\n60V27 Ah\n220 Nm\n88 Km\n330 lbs（150kg）\n17''/14''\n4.7ft - 6.3ft(140cm-190cm)\n6-7 Hours"
           }
         },
         "product_tVHKM3": {
@@ -1149,7 +1203,7 @@
         "description_mb_size": 16,
         "description_pc_margin_bottom": 40,
         "description_mb_margin_bottom": 30,
-        "compare_title": "Price\nPeak Power\nBattery Capacity\nTorque\nMax Range\nTop Speed\nPayload\nTire\nSuitable Height\nCharging Time",
+        "compare_title": "Price\nBattery Capacity\nTorque\nMax Range\nPayload\nTire\nSuitable Height\nCharging Time",
         "features_text": "Features",
         "product_title_size": 24,
         "mb_product_title_size": 16,
@@ -1203,6 +1257,7 @@
       "blocks": {
         "item_7kpVea": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "What is the top speed of the Yozma IN 10 Pro?",
             "content": "<p>The top speed reaches 20km/h delivering powerful acceleration for both urban commuting and short leisure rides.</p>"
@@ -1377,11 +1432,13 @@
   },
   "order": [
     "main",
+    "mc_media_image_HT7XHC",
     "video_7KTgK9",
     "mc_media_text_69MnUW",
     "mc_param_text_slide_iDa9AN",
     "mc_section_text_JX3UnG",
     "mc_media_image_RxUF4q",
+    "mc_section_text_Xe9iNE",
     "mc_community_media_slide_LBp7PW",
     "slideshow_gMx3Da",
     "multiple_images_with_text_epUVmW",

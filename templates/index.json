@@ -187,6 +187,7 @@
         },
         "card3": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "in-10-pro",
             "product_title": "IN 10 Pro",
@@ -224,8 +225,28 @@
             "content3": "Battery"
           }
         },
+        "product_XJTf6i": {
+          "type": "product",
+          "settings": {
+            "product": "yozma-in-10-combo",
+            "product_title": "IN 10 Combo",
+            "product_description": "Combo Pack – Best Value Dual Set",
+            "product_image": "shopify://shop_images/IN-10-_combo.png",
+            "video": "shopify://files/videos/封面修改2.mp4",
+            "icon1": "shopify://shop_images/199dbfa1fc6cf277a8ae542d1c5fa9a2.png",
+            "title1": "146N.M",
+            "content1": "Torque",
+            "icon2": "shopify://shop_images/1815a82372d12b55cdd8d7567d9caa9c.png",
+            "title2": "85KM",
+            "content2": "Max Range",
+            "icon3": "shopify://shop_images/32029198db61f160ba465e85628fa5ed.png",
+            "title3": "23.4Ah",
+            "content3": "Battery"
+          }
+        },
         "card2": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "yozma-in-10-combo",
             "product_title": "IN 10 Combo",
@@ -248,6 +269,7 @@
         "product_KxJEVh",
         "card3",
         "card1",
+        "product_XJTf6i",
         "card2"
       ],
       "name": "MC Product List",
@@ -650,7 +672,7 @@
           "settings": {
             "image_icon": "shopify://shop_images/dispatching-icon.png",
             "title": "Fast Shipping",
-            "text": "7-14 bussiness days"
+            "text": "3-12 bussiness days"
           }
         },
         "card2": {
