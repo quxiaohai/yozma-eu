@@ -207,6 +207,7 @@
         },
         "card1": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "in-10",
             "product_title": "IN 10",
@@ -245,6 +246,7 @@
         },
         "card2": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "yozma-in-10-combo",
             "product_title": "IN 10 Combo",
