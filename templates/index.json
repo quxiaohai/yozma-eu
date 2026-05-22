@@ -187,6 +187,7 @@
         },
         "card3": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "in-10-pro",
             "product_title": "IN 10 Pro",
