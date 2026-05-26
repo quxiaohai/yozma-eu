@@ -247,6 +247,21 @@
             "content3": "Battery"
           }
         },
+        "product_n97RXx": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "variant": 1,
+            "product_title": "",
+            "product_description": "",
+            "title1": "2600W",
+            "content1": "Motor",
+            "title2": "146N.M",
+            "content2": "Torque",
+            "title3": "28-40Mph",
+            "content3": "Top Speed"
+          }
+        },
         "card2": {
           "type": "product",
           "settings": {
@@ -273,6 +288,7 @@
         "card3",
         "card1",
         "product_XJTf6i",
+        "product_n97RXx",
         "card2"
       ],
       "name": "MC Product List",
