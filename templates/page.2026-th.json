@@ -1092,21 +1092,21 @@
         "item_mUqj43": {
           "type": "item",
           "settings": {
-            "title": "7. How will winners be notified?",
+            "title": "4. How will winners be notified?",
             "content": "<p>All winners will be notified via email after each campaign period ends.</p>"
           }
         },
         "item_YTYbjJ": {
           "type": "item",
           "settings": {
-            "title": "8. Can rewards be transferred or exchanged for cash?",
+            "title": "5. Can rewards be transferred or exchanged for cash?",
             "content": "<p>No. All rewards are non-transferable and cannot be exchanged for cash. They are valid only for the original order.</p>"
           }
         },
         "item_8Rp9qE": {
           "type": "item",
           "settings": {
-            "title": "9. What happens if I return my order?",
+            "title": "6. What happens if I return my order?",
             "content": "<p>If an order is returned or refunded, all related rewards and gifts will be invalid and may need to be returned if already received.</p>"
           }
         }
