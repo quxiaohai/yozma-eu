@@ -262,18 +262,18 @@
     "main_navigation_fY4Bfn": {
       "type": "main-navigation",
       "blocks": {
+        "nav_tab_VFMXXH": {
+          "type": "nav_tab",
+          "settings": {
+            "title": "Get a prize",
+            "position": 4
+          }
+        },
         "nav_tab_gdw6UY": {
           "type": "nav_tab",
           "settings": {
             "title": "Spin to win",
             "position": 5
-          }
-        },
-        "nav_tab_VFMXXH": {
-          "type": "nav_tab",
-          "settings": {
-            "title": "Get a prize",
-            "position": 6
           }
         },
         "nav_tab_8dCgM4": {
@@ -285,23 +285,17 @@
         },
         "nav_tab_im9xnM": {
           "type": "nav_tab",
+          "disabled": true,
           "settings": {
-            "title": "IN 10 Pro",
+            "title": "IN 10 Combo",
             "position": 9
           }
         },
         "nav_tab_GQpTRp": {
           "type": "nav_tab",
           "settings": {
-            "title": "Review",
+            "title": "News",
             "position": 10
-          }
-        },
-        "nav_tab_gWdziX": {
-          "type": "nav_tab",
-          "settings": {
-            "title": "Support",
-            "position": 11
           }
         },
         "nav_tab_x6p6NC": {
@@ -310,16 +304,23 @@
             "title": "FAQ",
             "position": 12
           }
+        },
+        "nav_tab_gWdziX": {
+          "type": "nav_tab",
+          "settings": {
+            "title": "Support",
+            "position": 11
+          }
         }
       },
       "block_order": [
-        "nav_tab_gdw6UY",
         "nav_tab_VFMXXH",
+        "nav_tab_gdw6UY",
         "nav_tab_8dCgM4",
         "nav_tab_im9xnM",
         "nav_tab_GQpTRp",
-        "nav_tab_gWdziX",
-        "nav_tab_x6p6NC"
+        "nav_tab_x6p6NC",
+        "nav_tab_gWdziX"
       ],
       "custom_css": [],
       "name": "main-navigation",
@@ -1020,6 +1021,7 @@
     },
     "mc_review_slide": {
       "type": "mc_review-slide",
+      "disabled": true,
       "name": "MC Review Slide",
       "settings": {
         "page_color": "#000000",
