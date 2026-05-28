@@ -307,7 +307,7 @@
           "type": "nav_tab",
           "settings": {
             "title": "Support",
-            "position": 10
+            "position": 12
           }
         }
       },
@@ -681,9 +681,6 @@
             "subhead_color": "#ffffff",
             "head": "<p>Limited Signed Jersey</p>",
             "head_color": "#ffffff",
-            "icon1": "shopify://shop_images/th-discount-100.png",
-            "icon2": "shopify://shop_images/th-discount-200.png",
-            "icon3": "shopify://shop_images/th-discount-300.png",
             "show_button": true,
             "button_text": "Learn more >",
             "button_url": "",
