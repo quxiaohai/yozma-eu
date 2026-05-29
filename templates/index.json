@@ -57,10 +57,9 @@
         },
         "media2": {
           "type": "media",
-          "disabled": true,
           "settings": {
-            "pc_image_url": "shopify://shop_images/3840_1599333.jpg",
-            "mb_image_url": "shopify://shop_images/1500_x_2180111.jpg",
+            "pc_image_url": "shopify://shop_images/PC_b71e61cb-186c-4bb3-a522-1c32c3ba3b67.jpg",
+            "mb_image_url": "shopify://shop_images/5e3ab86769cab080a7d8ec44668d79cd_15d87c42-86a2-435c-8b68-fe741d5a1f7f.jpg",
             "image_link": "shopify://products/in-10",
             "slide_tab": "",
             "show_subtitle": false,
