@@ -37,8 +37,8 @@
           "type": "media",
           "disabled": true,
           "settings": {
-            "pc_image_url": "shopify://shop_images/EU_PC_3840_x_1599_cd84938a-6675-4b82-9591-926082c9ce91.jpg",
-            "mb_image_url": "shopify://shop_images/EU_1500_x_2180_d5755c36-c84b-4b32-99b1-7fca66ef2168.jpg",
+            "pc_image_url": "shopify://shop_images/1_293f750d-8a7f-48d7-9440-3eb4001728fd.jpg",
+            "mb_image_url": "shopify://shop_images/eaea6e721ec743400762f7b529a78c31_e7a3a407-9c52-40ab-a611-f1d96fb8e5d8.jpg",
             "image_link": "shopify://products/in-10",
             "slide_tab": "",
             "show_subtitle": true,
@@ -429,7 +429,8 @@
         "top_image": "shopify://shop_images/video-decorate-back.png",
         "bottom_image": "shopify://shop_images/video-decorate.png",
         "auto_play": true,
-        "play_button_icon": "shopify://shop_images/video-play-button.png"
+        "play_button_icon": "shopify://shop_images/video-play-button.png",
+        "theme_size": "large"
       }
     },
     "mc_text_slide": {
@@ -640,7 +641,8 @@
         "button_text": "Read All",
         "button_color": "#ffffff",
         "button_hover_color": "#d30000",
-        "button_url": "shopify://blogs/ebike"
+        "button_url": "shopify://blogs/ebike",
+        "theme_size": "large"
       }
     },
     "mc_review_slide": {
@@ -664,7 +666,8 @@
         "button_url": "shopify://products/yozma-in-10-electric-mini-dirt-bike-for-teens-adults-copy",
         "auto_slide": true,
         "duration": 3,
-        "slide_item": "3.4"
+        "slide_item": "3.4",
+        "theme_size": "large"
       }
     },
     "mc_shop_service": {
