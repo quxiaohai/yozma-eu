@@ -34,27 +34,6 @@
             "button_url": "shopify://products/in-10"
           }
         },
-        "media_Yi7pih": {
-          "type": "media",
-          "settings": {
-            "pc_image_url": "shopify://shop_images/1_293f750d-8a7f-48d7-9440-3eb4001728fd.jpg",
-            "mb_image_url": "shopify://shop_images/eaea6e721ec743400762f7b529a78c31_e7a3a407-9c52-40ab-a611-f1d96fb8e5d8.jpg",
-            "image_link": "shopify://products/in-10",
-            "slide_tab": "",
-            "show_subtitle": true,
-            "subtitle": "",
-            "subtitle_color": "#ffffff",
-            "show_title": true,
-            "title": "",
-            "title_color": "#ffffff",
-            "show_button": false,
-            "button_bg_image": "shopify://shop_images/banner-btn-bg.png",
-            "button_text": "",
-            "button_color": "#000000",
-            "button_hover_color": "#ffffff",
-            "button_url": ""
-          }
-        },
         "media2": {
           "type": "media",
           "settings": {
@@ -71,6 +50,27 @@
             "show_button": false,
             "button_bg_image": "shopify://shop_images/banner-btn-bg.png",
             "button_text": "Learn More",
+            "button_color": "#000000",
+            "button_hover_color": "#ffffff",
+            "button_url": ""
+          }
+        },
+        "media_Yi7pih": {
+          "type": "media",
+          "settings": {
+            "pc_image_url": "shopify://shop_images/1_293f750d-8a7f-48d7-9440-3eb4001728fd.jpg",
+            "mb_image_url": "shopify://shop_images/eaea6e721ec743400762f7b529a78c31_e7a3a407-9c52-40ab-a611-f1d96fb8e5d8.jpg",
+            "image_link": "shopify://products/in-10",
+            "slide_tab": "",
+            "show_subtitle": true,
+            "subtitle": "",
+            "subtitle_color": "#ffffff",
+            "show_title": true,
+            "title": "",
+            "title_color": "#ffffff",
+            "show_button": false,
+            "button_bg_image": "shopify://shop_images/banner-btn-bg.png",
+            "button_text": "",
             "button_color": "#000000",
             "button_hover_color": "#ffffff",
             "button_url": ""
@@ -101,8 +101,8 @@
       },
       "block_order": [
         "media1",
-        "media_Yi7pih",
         "media2",
+        "media_Yi7pih",
         "media3"
       ],
       "name": "MC Banner Slide",
