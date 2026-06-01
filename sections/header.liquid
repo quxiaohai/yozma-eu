@@ -117,6 +117,26 @@ the underlying logic of the menu.
       }
     }
   {%- endif -%}
+  .header__icon-list {
+    gap: 1rem;
+  }
+  .header-switcher-wrap .tl-select {
+  padding: 8px 0;
+  }
+  .header-switcher-wrap .tl-select:after {
+  border-color: #FFFFFF;
+  border-width: 0 2px 2px 0;
+  }
+  .tl-options.open {
+    border-radius: 0.5rem 0 0 0.5rem;
+  }
+  .tl-options.open::-webkit-scrollbar-thumb {
+  background-color: #DB2335;
+  }
+   .tl-options.open::-webkit-scrollbar {
+   width: 0.25rem;
+   background: #f5f5f5;
+   }
 </style>
 
 <height-observer variable="header" id="main-header">
@@ -302,6 +322,7 @@ the underlying logic of the menu.
               {%- render 'country-selector', list: country_list -%}
           </li>
         {%- endif -%}
+        <li class="header-switcher-wrap hidden md:block shrink-0"></li>
           <li class="hidden sm:block">
             <a href="{{ routes.search_url }}" class="tap-area" aria-controls="search-drawer">
               <span class="sr-only">{{ 'header.general.search' | t }}</span>
