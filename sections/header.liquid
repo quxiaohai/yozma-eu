@@ -91,6 +91,12 @@ the underlying logic of the menu.
       transform: translateY(0);
       margin-right: 4px;
      }
+     .header__main-nav {
+      justify-content: flex-start;
+     }
+     .panel-footer__localization-wrapper .tl-options.open {
+        transform: translateY(-120%);
+     }
   }
 
   @media screen and (min-width: 700px) {
@@ -112,8 +118,8 @@ the underlying logic of the menu.
         {%- assign max_percent = '70%' -%}
       {%- endif -%}
 
-      #shopify-section-{{ section.id }} {
-        --header-grid-template: "logo main-nav secondary-nav" / {% if section.settings.layout == 'logo_left_navigation_inline' %}auto minmax(0, 1fr) minmax(0, max-content){% else %}minmax(0, 1fr) fit-content({{ max_percent }}) minmax(0, 1fr){% endif %};
+       #shopify-section-{{ section.id }} {
+        --header-grid-template: "logo main-nav secondary-nav" / {% if section.settings.layout == 'logo_left_navigation_inline' %}auto minmax(0, 1fr) minmax(0, max-content){% else %}minmax(0, max-content) minmax(0, 1fr) auto{% endif %};
       }
     }
   {%- endif -%}
@@ -148,7 +154,7 @@ the underlying logic of the menu.
       --------------------------------------------------------------------------------------------------------------------
       {%- endcomment -%}
 
-      <div class="header__main-nav">
+      <div class="header__main-nav flex-center">
         <div class="header__icon-list">
           <button type="button" class="tap-area {% if section.settings.layout != 'drawer' %}lg:hidden{% endif %}" aria-controls="header-sidebar-menu">
             <span class="sr-only">{{ 'header.general.menu' | t }}</span>
