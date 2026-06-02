@@ -37,8 +37,8 @@
         "media2": {
           "type": "media",
           "settings": {
-            "pc_image_url": "shopify://shop_images/PC_b71e61cb-186c-4bb3-a522-1c32c3ba3b67.jpg",
-            "mb_image_url": "shopify://shop_images/5e3ab86769cab080a7d8ec44668d79cd_15d87c42-86a2-435c-8b68-fe741d5a1f7f.jpg",
+            "pc_image_url": "shopify://shop_images/6.2.jpg",
+            "mb_image_url": "shopify://shop_images/6.2_25bfb018-b9a6-4602-b405-c796ce6d1438.jpg",
             "image_link": "shopify://products/in-10",
             "slide_tab": "",
             "show_subtitle": false,
@@ -58,8 +58,8 @@
         "media_Yi7pih": {
           "type": "media",
           "settings": {
-            "pc_image_url": "shopify://shop_images/1_293f750d-8a7f-48d7-9440-3eb4001728fd.jpg",
-            "mb_image_url": "shopify://shop_images/eaea6e721ec743400762f7b529a78c31_e7a3a407-9c52-40ab-a611-f1d96fb8e5d8.jpg",
+            "pc_image_url": "shopify://shop_images/1_6.2.jpg",
+            "mb_image_url": "shopify://shop_images/6.2_03321187-e930-4ff3-ac57-7169ce5751ee.jpg",
             "image_link": "shopify://products/in-10",
             "slide_tab": "",
             "show_subtitle": true,
