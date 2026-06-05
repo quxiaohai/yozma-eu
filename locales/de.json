@@ -1092,22 +1092,22 @@
         "subscription_pickup": "Abholung des Abonnements",
         "waiting_on_rate_notice": "Verfügbare Versandkosten werden ermittelt…",
         "waiting_on_pickup_location_notice": "Verfügbare Abholorte werden geladen…",
-        "no_rates_for_cart_or_destination_notice": "Für Ihren Warenkorb oder Ihre Adresse sind keine Versandarten verfügbar.",
+        "no_rates_for_cart_or_destination_notice": "Für Ihren Warenkorb oder Ihre Adresse sind keine Versandmethoden verfügbar",
         "no_pickup_location_notice": "Mindestens eines Ihrer Produkte ist nicht zur Abholung verfügbar",
         "no_rates_for_country_notice": "Für diese Adresse wurden keine Versandkosten gefunden.",
         "no_rates_contact_notice": "Kontaktieren Sie uns für weitere Informationen",
-        "estimated_delivery_time": "Geschätzte Lieferzeit %{time}",
-        "estimated_delivery_time_range": "Geschätzte Lieferzeit %{min_time}–%{max_time}",
+        "estimated_delivery_time": "Voraussichtliche Lieferung %{time}",
+        "estimated_delivery_time_range": "Geschätzte Lieferung %{min_time}–%{max_time}",
         "delivery_today": "Lieferung am selben Tag %{time}",
         "delivery_tomorrow": "Lieferung am nächsten Tag %{time}",
         "two_day_delivery": "2-Tage-Lieferung %{time}",
         "delivery": "Lieferung %{time}",
         "delivery_to": "Lieferung an",
         "arrives_time": "Kommt in %{time} an",
-        "arrives_time_range": "Kommt in %{min_time}–%{max_time} an",
+        "arrives_time_range": "Kommt an in %{min_time}–%{max_time}",
         "estimated_time": "Geschätzte %{time}",
         "estimated_time_range": "Geschätzte %{min_time}–%{max_time}",
-        "default_description": "Versand innerhalb eines Werktages",
+        "default_description": "Versand innerhalb von 1 Werktag",
         "unbranded_description_with_fulfillment_days": {
           "other": "Versand erfolgt in %{count} Werktagen"
         },
@@ -1192,7 +1192,7 @@
             "other": "Erste %{count} Bestellungen kostenlos"
           }
         },
-        "duties_and_taxes_title": "Abgaben und Steuern",
+        "duties_and_taxes_title": "Zölle und Steuern",
         "shipping_information_redirect_link": "Geben Sie hier Ihre Informationen ein",
         "loading_progressive_rates": "Suche nach weiteren Tarifen…",
         "duties_and_taxes_options": {
@@ -1215,20 +1215,20 @@
         "address_form": {
           "cancel": "Abbrechen",
           "generic_error": "Beim Speichern Ihrer Adresse ist ein Problem aufgetreten. Bitte versuchen Sie es erneut.",
-          "one_time_address_subtitle": "Verwenden Sie für diese Bestellung eine einmalige Adresse"
+          "one_time_address_subtitle": "Verwenden Sie für diese Bestellung eine Einmaladresse"
         },
-        "different_shipping_method_summary": "Geben Sie eine andere Lieferadresse ein, um verfügbare Versandarten anzuzeigen",
-        "invalid_shipping_method_summary": "Geben Sie eine gültige Lieferadresse ein, um verfügbare Versandarten anzuzeigen",
-        "invalid_shipping_method_summary_selected": "Wählen Sie eine andere Lieferadresse, um verfügbare Versandarten anzuzeigen",
+        "different_shipping_method_summary": "Geben Sie eine andere Lieferadresse ein, um verfügbare Versandmethoden anzuzeigen",
+        "invalid_shipping_method_summary": "Geben Sie eine gültige Lieferadresse ein, um verfügbare Versandmethoden anzuzeigen",
+        "invalid_shipping_method_summary_selected": "Wählen Sie eine andere Lieferadresse, um verfügbare Versandmethoden anzuzeigen",
         "method_summary": {
-          "incomplete_address_entered": "Geben Sie eine vollständige Lieferadresse ein, um verfügbare Versandarten anzuzeigen",
-          "incomplete_address_selected": "Wählen Sie eine vollständige Lieferadresse aus, um verfügbare Versandarten anzuzeigen"
+          "incomplete_address_entered": "Geben Sie eine vollständige Lieferadresse ein, um verfügbare Versandmethoden anzuzeigen",
+          "incomplete_address_selected": "Wählen Sie eine vollständige Lieferadresse aus, um verfügbare Versandmethoden anzuzeigen"
         },
         "local_pickup": {
           "search_address": "Adresse suchen",
           "rollup_accessibility_label": "Abholort-Optionen"
         },
-        "missing_shipping_address": "Die Lieferadresse fehlt",
+        "missing_shipping_address": "Lieferadresse fehlt",
         "split_shipping_merchandise_quantity_label_additional": "+%{quantity} mehr",
         "split_shipping_merchandise_shipment_number": "Sendung %{number} von %{total}",
         "pre_order_ships_now": "Versand erfolgt jetzt",
@@ -1247,7 +1247,7 @@
         "split_shipping_option_free": "Kostenloser Versand",
         "split_shipping_option_fastest": "Schnellste(r/s)",
         "add_new_delivery_address": "Neue Lieferadresse hinzufügen",
-        "choose_new_address": "Wähle eine neue Adresse"
+        "choose_new_address": "Neue Adresse wählen"
       },
       "localized_fields": {
         "additional_information": {
@@ -2197,19 +2197,19 @@
       },
       "review": {
         "title": "Bewertung",
-        "review_title": "Vervollständigen Sie Ihre Bestellung",
+        "review_title": "Bestellen Sie jetzt",
         "account_more_actions": "Weitere Aktionen für dieses Konto",
         "checkout_a_different_way": "Probieren Sie eine andere Methode aus",
         "blocks": {
           "billing_address_title": "Abrechnung",
-          "shipping_address_title": "Lieferadresse",
+          "shipping_address_title": "Liefern an",
           "change_contact_method_link_label": "Kontaktinformationen ändern",
           "change_company_location_link_label": "Firmenstandort ändern",
           "pick_up_in_store_shipping_method_html": "Abholung im Geschäft · %{location_name}",
           "change_delivery_method_link_label": "Liefermethode ändern",
           "due_after_order_reviewed_html": "Fällig nach Überprüfung der Bestellung",
           "review_title_free_order": "Überprüfen und vervollständigen Sie Ihre Bestellung",
-          "payment_method_saved_company_location": "Karte für diesen Ort speichern",
+          "payment_method_saved_company_location": "Karte für diesen Standort speichern",
           "company_location": "Firmenstandort",
           "pickup_items_at": {
             "one": "Artikel %{count} abholen bei"
@@ -2369,8 +2369,8 @@
         "inventory_reservation_failure": "Einige Artikel sind nicht mehr verfügbar."
       },
       "session_errors": {
-        "session_not_unique": "Bei der Bearbeitung Ihrer Bestellung ist ein Problem aufgetreten. Laden Sie diese Seite neu, um zum Geschäft zurückzukehren.",
-        "session_already_finished": "Diese Bestellung wurde bereits abgeschickt. Sie können zum Laden zurückkehren, um eine neue Bestellung zu beginnen."
+        "session_not_unique": "Bei der Verarbeitung Ihrer Bestellung ist ein Problem aufgetreten. Aktualisieren Sie diese Seite, um zum Shop zurückzukehren.",
+        "session_already_finished": "Diese Bestellung wurde bereits abgeschickt. Sie können zum Geschäft zurückkehren, um eine neue Bestellung zu starten."
       },
       "artifact_errors": {
         "artifact_dissatisfaction_without_violation": "Bei der Bearbeitung Ihrer Bestellung ist ein Problem aufgetreten. Versuchen Sie es in ein paar Minuten erneut."
@@ -2471,9 +2471,9 @@
         }
       },
       "review_address_modal": {
-        "title": "Bewertungsadresse",
+        "title": "Adresse überprüfen",
         "subtitle": {
-          "other": "Diese Bestellung wird an eine von {{merchant}} angegebene Adresse versandt. Wählen Sie eine Versandadresse aus."
+          "other": "Diese Bestellung wird an eine von {{merchant}} angegebene Adresse versandt. Wählen Sie eine Lieferadresse aus."
         },
         "subtitle_no_match": "Diese Adresse stimmt mit keiner Ihrer gespeicherten Adressen überein.",
         "subtitle_must_use": "Ihre Bestellung wird an diese Adresse versandt.",
