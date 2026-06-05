@@ -2428,7 +2428,7 @@
             "instructions": "{{walletName}} non è attualmente disponibile per il tuo ordine. Per continuare l'acquisto, scegli un altro metodo di pagamento."
           },
           "discount_code": "Impossibile applicare questo codice sconto. Controlla il codice e riprova.",
-          "terminal": "Si è verificato un problema con {{walletName}}. Usa un metodo di pagamento diverso.",
+          "terminal": "C'è stato un problema con {{walletName}}. Usa un metodo di pagamento diverso.",
           "detour": {
             "price_change": "Alcuni prezzi degli articoli sono cambiati. Chiudi {{walletName}} per rivedere il tuo ordine e riprova.",
             "queue": "Sei stato messo in coda per il pagamento. Chiudi {{walletName}} per continuare.",
@@ -2438,22 +2438,23 @@
             "address": "Il commerciante non può consegnare a questo indirizzo"
           },
           "outdated": {
-            "shipping_method": "Le opzioni di spedizione per il tuo ordine sono cambiate. Rivedi la tua scelta.",
-            "payment_terms": "I termini di pagamento sono cambiati. Rivedi il tuo ordine"
+            "shipping_method": "Le opzioni di spedizione per il tuo ordine sono cambiate. Rivedi la tua selezione.",
+            "payment_terms": "Le condizioni di pagamento sono cambiate. Rivedi il tuo ordine"
           },
           "invalid": {
             "billing_zone": "Inserisci uno stato / provincia valido per l'indirizzo di fatturazione",
             "postal_code": "Inserisci un CAP / codice postale valido",
-            "reduction_code": "Inserisci un codice sconto o una carta regalo valido",
-            "billing_zip": "Inserisci un CAP / codice postale valido per l'indirizzo di fatturazione"
+            "reduction_code": "Inserisci un codice sconto o una carta regalo valido/a",
+            "billing_zip": "Inserisci un CAP / codice postale valido per l'indirizzo di fatturazione",
+            "email": "Inserisci un'email valida"
           },
           "missing": {
-            "first_name": "Inserisci un nome",
-            "billing_first_name": "Inserisci un nome di battesimo per l'indirizzo di fatturazione",
+            "first_name": "Inserisci un nome di battesimo",
+            "billing_first_name": "Inserisci un nome per l'indirizzo di fatturazione",
             "last_name": "Inserisci un cognome",
             "address1": "Inserisci un indirizzo",
-            "address2": "Entra in un appartamento, suite, ecc.",
-            "billing_address2": "Inserisci un indirizzo di fatturazione appartamento, suite, ecc.",
+            "address2": "Inserisci un appartamento, suite, ecc.",
+            "billing_address2": "Inserisci un indirizzo di fatturazione, appartamento, suite, ecc.",
             "city": "Inserisci una città",
             "billing_city": "Inserisci una città per l'indirizzo di fatturazione",
             "province": "Seleziona uno stato / provincia",
@@ -2466,7 +2467,8 @@
             "name_contains_emojis": "Elimina l'emoji dal tuo nome",
             "postal_code_contains_emoji": "Elimina le emoji dal tuo codice postale"
           },
-          "select_different_shipping_address_to_resolve_errors": "Il tuo indirizzo di spedizione non è valido. Seleziona un indirizzo diverso o usa uno nuovo."
+          "select_different_shipping_address_to_resolve_errors": "Il tuo indirizzo di spedizione non è valido. Seleziona un indirizzo diverso o utilizzane uno nuovo.",
+          "subscription_review_required": "Il tuo ordine include un abbonamento. Devi leggere i termini qui sotto prima di completare il tuo ordine."
         },
         "scrim": {
           "continue_purchase_in_window": "Continua il tuo acquisto nella finestra di {{walletName}}",
