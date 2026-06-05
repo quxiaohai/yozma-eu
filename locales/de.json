@@ -495,13 +495,19 @@
         "items_for_shipping": "Artikel zum Versand",
         "pickup_all_items": "Alle Gegenstände aufheben",
         "items_for_pickup": "Abholgegenstände",
-        "delivery_method": "Geteilte Liefermethode",
+        "delivery_method": "Liefermethode aufteilen",
         "delivery_method_menu": "Menü für Lieferart aufteilen",
         "inventory_issue_banner": {
           "pick_them_up_in_store": {
             "one": "im Geschäft abholen",
             "other": "im Geschäft abholen"
           }
+        },
+        "cross_border": {
+          "modal": {
+            "content": "Ihre Abhol- und Versandorte müssen sich im selben Land befinden. Ein Länderwechsel setzt alle Artikel auf Versand zurück."
+          },
+          "banner": "Ihre Liefermethode wurde aktualisiert"
         }
       },
       "general": {
@@ -1109,7 +1115,7 @@
         "estimated_time_range": "Geschätzte %{min_time}–%{max_time}",
         "default_description": "Versand innerhalb von 1 Werktag",
         "unbranded_description_with_fulfillment_days": {
-          "other": "Versand erfolgt in %{count} Werktagen"
+          "other": "Versand in %{count} Werktagen"
         },
         "unbranded_description_with_fulfillment_weeks": {
           "one": "Versand in %{count} Woche(n)",
@@ -1802,19 +1808,19 @@
         "shipping_method": "Die Versandoptionen für Ihre Bestellung haben sich geändert. Überprüfen Sie Ihre Auswahl.",
         "shipping_method_not_available": "Ihr Warenkorb wurde aktualisiert und die von Ihnen hinzugefügten Artikel können nicht an Ihre Adresse geliefert werden. Entfernen Sie die Artikel, um Ihre Bestellung abzuschließen.",
         "shipping_method_not_available_generic": {
-          "one": "Ihre Bestellung kann nicht an die ausgewählte Adresse versandt werden. Überprüfen Sie Ihre Adresse, um sicherzustellen, dass sie korrekt ist, und versuchen Sie es erneut, oder wählen Sie eine andere Adresse aus.",
-          "other": "Einige Artikel in Ihrem Warenkorb können nicht an die von Ihnen eingegebene Adresse geliefert werden. Überprüfen Sie Ihre Adresse, um sicherzugehen, dass sie korrekt ist, und versuchen Sie es erneut, oder wählen Sie eine andere Adresse aus."
+          "one": "Ihre Bestellung kann nicht an die ausgewählte Adresse versendet werden. Überprüfen Sie Ihre Adresse, um sicherzustellen, dass sie korrekt ist, und versuchen Sie es erneut, oder wählen Sie eine andere Adresse aus.",
+          "other": "Einige Artikel in Ihrem Warenkorb können nicht an die von Ihnen eingegebene Adresse versendet werden. Überprüfen Sie Ihre Adresse, um sicherzustellen, dass sie korrekt ist, und versuchen Sie es erneut, oder wählen Sie eine andere Adresse aus."
         },
-        "shipping_method_not_available_due_to_unsatisfied_conditions": "Die Artikel im Warenkorb erfüllen nicht die Preis- oder Gewichtsvorgaben für den Versand. Aktualisieren Sie Ihren Warenkorb und versuchen Sie es erneut.",
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "Die Artikel im Warenkorb erfüllen nicht die Preis- oder Gewichtsvoraussetzungen für den Versand. Aktualisieren Sie Ihren Warenkorb und versuchen Sie es erneut.",
         "shipping_method_not_available_updated": {
-          "one": "Der Artikel, den Sie hinzugefügt haben, wird nicht an Ihren Standort geliefert. Entfernen Sie ihn, um zur Kasse zu gehen, oder wenden Sie sich an das Geschäft.",
-          "other": "Ein oder mehrere Artikel, die Sie hinzugefügt haben, werden nicht an Ihren Standort geliefert. Entfernen Sie diese, um zur Kasse zu gehen, oder wenden Sie sich an das Geschäft."
+          "one": "Der Artikel, den Sie hinzugefügt haben, wird nicht an Ihren Standort geliefert. Entfernen Sie ihn, um zur Kasse zu gehen, oder kontaktieren Sie das Geschäft.",
+          "other": "Ein oder mehrere Artikel, die Sie hinzugefügt haben, werden nicht an Ihren Standort geliefert. Entfernen Sie diese, um zur Kasse zu gehen, oder kontaktieren Sie das Geschäft."
         },
-        "payment_method_not_supported": "Sie können diese Zahlungsmethode für %{country} nicht verwenden. Nutzen Sie eine andere Zahlungsmethode, um in dieses Land zu versenden.",
-        "empty_state": "Geben Sie Ihre Lieferadresse ein, um verfügbare Versandarten anzuzeigen.",
+        "payment_method_not_supported": "Sie können diese Zahlungsmethode für %{country} nicht verwenden. Verwenden Sie eine andere Zahlungsmethode, um in dieses Land zu versenden.",
+        "empty_state": "Geben Sie Ihre Lieferadresse ein, um verfügbare Versandmethoden anzuzeigen.",
         "invalid_selected_address_with_update_link": "Die ausgewählte Lieferadresse ist ungültig. %{update_address_link} oder wählen Sie eine andere Adresse aus",
         "unavailable_addresses_only_countries": "Ihre Bestellung kann nur an {{countriesList}} versandt werden. Fügen Sie eine neue Adresse hinzu, um fortzufahren.",
-        "unavailable_address_country": "Der Versand ist in dem von Ihnen gewählten Land nicht möglich. Verwenden Sie eine andere Adresse, um fortzufahren.",
+        "unavailable_address_country": "Der Versand ist in dem von Ihnen gewählten Land nicht verfügbar. Verwenden Sie eine andere Adresse, um fortzufahren.",
         "unavailable_selected_address": "Versand für die ausgewählte Adresse nicht verfügbar",
         "unavailable_selected_address_for_region": "Der Versand ist für {{region}} nicht verfügbar. Wählen Sie eine andere Adresse, um fortzufahren."
       },
@@ -2247,12 +2253,13 @@
         "accept_shop_pay_marketing_checkbox_label": "Melden Sie mich für Neuigkeiten und Angebote dieses Geschäfts an"
       },
       "shop_policies": {
-        "select_policy_label": "Wählen Sie eine Richtlinie aus",
+        "select_policy_label": "Wählen Sie eine Police aus",
         "refund_policy": "Rückerstattungsrichtlinie",
         "terms_of_service": "Nutzungsbedingungen",
-        "legal_notice": "Rechtlicher Hinweis",
-        "cookie_preferences": "Kekse",
-        "terms_and_policies": "Bedingungen und Richtlinien"
+        "legal_notice": "Impressum",
+        "cookie_preferences": "Cookies",
+        "terms_and_policies": "Bedingungen und Richtlinien",
+        "purchase_options_policy": "Richtlinie zu Kaufoptionen"
       },
       "remote_policies": {
         "unavailable_policy": "Es wurde keine %{policy_name} für diesen Shop bereitgestellt. Für weitere Informationen kontaktieren Sie bitte %{shop_name} direkt."
@@ -2616,8 +2623,8 @@
       "shop_pay_external": {
         "title": "Shop Pay Kasse",
         "errors": {
-          "try_again_later": "Überprüfen Sie Ihre Verbindung oder schließen Sie dieses Fenster und versuchen Sie es in wenigen Augenblicken erneut.",
-          "checkout_has_expired": "Ihr Checkout ist abgelaufen. Schließen Sie dieses Fenster und versuchen Sie erneut, bei {{shopName}} zu bestellen."
+          "try_again_later": "Überprüfen Sie Ihre Verbindung oder schließen Sie dieses Fenster und versuchen Sie es in wenigen Momenten erneut.",
+          "checkout_has_expired": "Ihr Bestellvorgang ist abgelaufen. Schließen Sie dieses Fenster und versuchen Sie erneut, bei {{shopName}} zu bestellen."
         },
         "return_to_store_simple": "Zurück zum Geschäft"
       },
