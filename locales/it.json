@@ -831,7 +831,11 @@
           "title": "Aggiornamento prezzo e quantità",
           "description": "I prezzi e le quantità disponibili per questi articoli sono cambiati e sono stati aggiornati nel tuo carrello."
         },
-        "out_of_stock_in_context_label": "Questo prodotto non è disponibile nel tuo paese/regione."
+        "out_of_stock_in_context_label": "Questo prodotto non è disponibile nel tuo paese/regione.",
+        "out_of_stock": {
+          "description": "Questi articoli non sono più disponibili e saranno rimossi dal tuo carrello.",
+          "items_unavailable": "Alcuni articoli non sono più disponibili e verranno rimossi dal tuo carrello."
+        }
       },
       "contextual_availability": {
         "products_not_available": {
@@ -2361,13 +2365,16 @@
         "inventory_issue_banner": {
           "heading": {
             "cannot_be_picked_up": {
-              "one": "Non è possibile ritirare %{count} articolo",
-              "other": "Non è possibile ritirare %{count} articoli"
+              "one": "Impossibile ritirare %{count} articolo",
+              "other": "%{count} articoli non possono essere ritirati"
             },
             "cannot_be_shipped": {
               "one": "Non è possibile spedire %{count} articolo",
-              "other": "Non è possibile spedire %{count} articoli"
+              "other": "%{count} articoli non possono essere spediti"
             }
+          },
+          "pick_them_up_in_store": {
+            "one": "Ritira in negozio"
           }
         },
         "cross_border": {
@@ -2375,7 +2382,8 @@
             "content": "I tuoi punti di ritiro e spedizione devono trovarsi nello stesso paese. Cambiare paese reimposterà tutti gli articoli su spedizione."
           },
           "banner": "Il tuo metodo di consegna è stato aggiornato"
-        }
+        },
+        "items_for_shipping": "Articoli da spedire"
       },
       "clipboard": {
         "failed_to_copy": "Copia non riuscita"
