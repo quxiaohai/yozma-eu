@@ -1929,7 +1929,7 @@
         "cashback_notice": "Sie erhalten Ihr Cashback nach 30 Tagen",
         "company_location_title": "Ort",
         "shipping_address_map_title": "Google-Karte mit Markierung des Versandorts: %{address}",
-        "payment_method_not_charged": "Nicht geladen",
+        "payment_method_not_charged": "Nicht belastet",
         "tracking_number": "Sendungsnummer:",
         "company_tracking_number": "%{company} Sendungsnummer:",
         "estimated_arrival": "Voraussichtliches Lieferdatum:",
@@ -1950,28 +1950,28 @@
         "thank_you_title_payments_app_pending_buyer_action_required": "Ihre Bestellung wurde erhalten",
         "thank_you_title_payments_app_failed_pending_payment": "Ihre Zahlung konnte nicht verarbeitet werden",
         "thank_you_confirmed_with_email_description": {
-          "single_store": "Sie erhalten in Kürze eine Bestätigungs-E-Mail",
-          "multi_store": "Sie erhalten bald separate Bestätigungs-E-Mails von jedem Geschäft."
+          "single_store": "Sie erhalten in Kürze eine Bestätigungs-E-Mail.",
+          "multi_store": "Sie erhalten in Kürze separate Bestätigungs-E-Mails von jedem Geschäft."
         },
         "thank_you_confirmed_with_phone_description": {
-          "single_store": "Sie erhalten in Kürze eine Bestätigungsnachricht",
+          "single_store": "Sie erhalten in Kürze eine Bestätigungsnachricht.",
           "multi_store": "Sie erhalten bald separate Bestätigungstexte von jedem Geschäft."
         },
         "thank_you_confirmed_with_email_and_phone_description": {
-          "single_store": "Sie erhalten in Kürze eine Bestätigungs-E-Mail",
-          "multi_store": "Sie erhalten bald separate Bestätigungs-E-Mails von jedem Geschäft."
+          "single_store": "Sie erhalten in Kürze eine Bestätigungs-E-Mail.",
+          "multi_store": "Sie erhalten in Kürze separate Bestätigungs-E-Mails von jedem Geschäft."
         },
         "thank_you_confirmed_order_with_email": "Sie erhalten in Kürze eine Bestätigungs-E-Mail mit Ihrer Bestellnummer.",
-        "thank_you_confirmed_order_with_phone": "Sie erhalten in Kürze eine Bestätigungsnachricht mit Ihrer Bestellnummer.",
+        "thank_you_confirmed_order_with_phone": "Sie erhalten in Kürze eine Bestätigungs-SMS mit Ihrer Bestellnummer.",
         "thank_you_confirmed_order_with_email_and_phone": "Sie erhalten in Kürze eine Bestätigungs-E-Mail mit Ihrer Bestellnummer.",
         "thank_you_confirmed_orders_with_email": "Sie erhalten in Kürze separate Bestätigungs-E-Mails mit Ihren Bestellnummern.",
-        "thank_you_confirmed_orders_with_phone": "Sie erhalten bald separate Bestätigungstexte mit Ihren Bestellnummern.",
+        "thank_you_confirmed_orders_with_phone": "Sie erhalten in Kürze separate Bestätigungstexte mit Ihren Bestellnummern.",
         "thank_you_confirmed_orders_with_email_and_phone": "Sie erhalten in Kürze separate Bestätigungs-E-Mails mit Ihren Bestellnummern.",
-        "thank_you_confirmed_order_with_email_payment": "Sie haben am %{date} eine Zahlung für Ihre Bestellung geleistet.",
-        "thank_you_confirmed_order_with_phone_payment": "Sie haben am %{date} eine Zahlung für Ihre Bestellung geleistet.",
-        "thank_you_confirmed_order_with_email_and_phone_payment": "Sie haben am %{date} eine Zahlung für Ihre Bestellung geleistet.",
+        "thank_you_confirmed_order_with_email_payment": "Sie haben am %{date} eine Zahlung für Ihre Bestellung vorgenommen.",
+        "thank_you_confirmed_order_with_phone_payment": "Sie haben am %{date} eine Zahlung für Ihre Bestellung vorgenommen.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Sie haben am %{date} eine Zahlung für Ihre Bestellung vorgenommen.",
         "thank_you_confirmed_order_with_email_pick_up": "Sie erhalten eine E-Mail, wenn Ihre Bestellung zur Abholung bereitsteht.",
-        "thank_you_confirmed_order_with_phone_pick_up": "Sie erhalten eine Nachricht, wenn Ihre Bestellung zur Abholung bereitsteht.",
+        "thank_you_confirmed_order_with_phone_pick_up": "Sie erhalten eine SMS, wenn Ihre Bestellung zur Abholung bereitsteht.",
         "thank_you_confirmed_order_with_email_and_phone_pick_up": "Sie erhalten eine E-Mail, wenn Ihre Bestellung zur Abholung bereitsteht.",
         "thank_you_confirmed_order_with_missing": "Kontaktieren Sie uns per E-Mail oder Telefon, um eine Auftragsbestätigung zu erhalten.",
         "thank_you_confirmed_order_with_missing_payment": "Kontaktieren Sie uns per E-Mail oder Telefon, um eine Auftragsbestätigung zu erhalten.",
@@ -1987,9 +1987,9 @@
           "other": "Ihnen wurden hierfür keine Kosten berechnet"
         },
         "thank_you_from_other_store": "Aus einem anderen Geschäft",
-        "thank_you_payments_app_failed_pending_payment": "Ihnen wurde Ihre Bestellung nicht berechnet. Kehren Sie zu Ihrem Warenkorb zurück, um Ihre Bestellung zu überprüfen und erneut zu bezahlen.",
-        "thank_you_payments_app_failed_pending_payment_payment": "Ihnen wurde Ihre Bestellung nicht berechnet. Kehren Sie zu Ihrem Warenkorb zurück, um Ihre Bestellung zu überprüfen und erneut zu bezahlen.",
-        "thank_you_payments_app_failed_pending_payment_pick_up": "Ihnen wurde Ihre Bestellung nicht berechnet. Kehren Sie zu Ihrem Warenkorb zurück, um Ihre Bestellung zu überprüfen und erneut zu bezahlen.",
+        "thank_you_payments_app_failed_pending_payment": "Ihnen wurde Ihre Bestellung nicht berechnet. Gehen Sie zurück zu Ihrem Warenkorb, um Ihre Bestellung zu überprüfen und erneut zu bezahlen.",
+        "thank_you_payments_app_failed_pending_payment_payment": "Ihnen wurde Ihre Bestellung nicht berechnet. Gehen Sie zurück zu Ihrem Warenkorb, um Ihre Bestellung zu überprüfen und erneut zu bezahlen.",
+        "thank_you_payments_app_failed_pending_payment_pick_up": "Ihnen wurde Ihre Bestellung nicht berechnet. Gehen Sie zurück zu Ihrem Warenkorb, um Ihre Bestellung zu überprüfen und erneut zu bezahlen.",
         "thank_you_payments_app_pending_payment_description_default_with_missing": "Kontaktieren Sie uns per E-Mail oder Telefon, um eine Auftragsbestätigung zu erhalten.",
         "thank_you_payments_app_pending_payment_description_default_with_missing_payment": "Kontaktieren Sie uns per E-Mail oder Telefon, um eine Auftragsbestätigung zu erhalten.",
         "thank_you_payments_app_pending_payment_description_default_with_missing_pick_up": "Kontaktieren Sie uns per E-Mail oder Telefon, um eine Auftragsbestätigung zu erhalten.",
@@ -2084,17 +2084,17 @@
           "unfulfilled_table_title": "Artikel werden für den Versand vorbereitet",
           "quantity_label": "Menge"
         },
-        "order_updates_description_missing": "Sie erhalten keine Versandbenachrichtigungen.",
-        "order_updates_subscribe_to_email_notifications": "Erhalten Sie Versandbenachrichtigungen per E-Mail",
-        "order_updates_subscribe_to_email_or_phone_notifications": "Erhalten Sie Versandbenachrichtigungen per E-Mail oder SMS",
-        "order_updates_subscribe_to_phone_notifications": "Erhalten Sie Versandbenachrichtigungen per SMS",
+        "order_updates_description_missing": "Sie erhalten keine Versandupdates.",
+        "order_updates_subscribe_to_email_notifications": "Erhalten Sie Versandupdates per E-Mail",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Erhalten Sie Versandupdates per E-Mail oder SMS",
+        "order_updates_subscribe_to_phone_notifications": "Erhalte Versandupdates per SMS",
         "order_updates_submit_subscription": "Absenden",
         "other_options": "Andere Optionen",
         "delivery_information_label": "Lieferinformationen:",
         "gift_card_sent_confirmation": "Geschenkkarten versendet",
         "qr_code": {
           "send_link_to_phone": "Oder senden Sie einen Link an Ihr Telefon",
-          "title": "Verfolge auf deinem Telefon"
+          "title": "Verfolge es auf deinem Handy"
         },
         "shop_qr_with_sms_upsell": {
           "qr_code": {
@@ -2115,11 +2115,11 @@
         "in_store_purchase": "Im Geschäft kaufen",
         "company_location_section_title": "Unternehmen und Standort",
         "thank_you_ready_for_picked_up": "Ihre Bestellung wurde bei %{address} abgeholt.",
-        "ready_for_delivery": "Versandbereit",
-        "order_updates_subscribe_to_email_notifications_failed": "Wir können diese E-Mail nicht für Aktualisierungen speichern. Versuchen Sie es erneut oder verwenden Sie eine andere E-Mail.",
-        "order_updates_subscribe_to_email_notifications_email_already_exists": "Die von Ihnen eingegebene E-Mail-Adresse ist bereits vorhanden.",
+        "ready_for_delivery": "Lieferbereit",
+        "order_updates_subscribe_to_email_notifications_failed": "Wir können diese E-Mail nicht für Updates speichern. Versuchen Sie es erneut oder verwenden Sie eine andere E-Mail.",
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "Die eingegebene E-Mail-Adresse ist bereits vorhanden.",
         "subscriptions_management": {
-          "description": "Fahren Sie mit Ihrem Konto fort, um Ihre Abonnements einzusehen und zu verwalten.",
+          "description": "Melden Sie sich bei Ihrem Konto an, um Ihre Abonnements einzusehen und zu verwalten.",
           "button_label": "Verwalten Sie Ihr Abonnement"
         },
         "manage_order_label": "Verwalten Sie Ihre Bestellung",
@@ -2186,7 +2186,7 @@
         "ready_for_delivery_title": "Ihre Bestellung ist versandbereit",
         "ready_for_delivery_description": "Wir haben Ihre Bestellung vorbereitet.",
         "order_updates_title": "Bestellaktualisierungen",
-        "shop_phone_description": "Sie erhalten eine Nachricht mit einem Link zur Shop-App, der Ihnen hilft, Ihre Bestellung zu verfolgen.",
+        "shop_phone_description": "Sie erhalten eine SMS mit einem Link zur Shop-App, die Ihnen hilft, Ihre Bestellung zu verfolgen.",
         "order_updates_description_html": "Updates werden an %{customer_contact} gesendet",
         "order_updates_current_step_prefix": "Aktueller Schritt:",
         "order_updates_past_step_prefix": "Vorheriger Schritt:",
@@ -2201,12 +2201,13 @@
         "out_for_delivery_title": "Ihre Bestellung ist zur Zustellung unterwegs",
         "out_for_delivery_description_html": "Ihre Bestellung ist unterwegs und sollte heute ankommen. Falls sie in den nächsten 2 Tagen nicht geliefert wird, %{contact_us}.",
         "out_for_delivery_local_title": "Ihre Bestellung ist zur Zustellung unterwegs",
-        "out_for_delivery_local_description_html": "Ihre Bestellung wird bald eintreffen.",
+        "out_for_delivery_local_description_html": "Ihre Bestellung wird bald ankommen.",
         "attempted_delivery": "Zustellversuch",
         "attempted_delivery_title": "Es wurde versucht, Ihre Bestellung zuzustellen",
         "attempted_delivery_description_html": "Es wurde versucht, Ihre Bestellung zuzustellen, aber es war nicht erfolgreich. %{contact_us}, um einen weiteren Zustellversuch zu vereinbaren.",
         "attempted_delivery_local_description_html": "Wir konnten Ihre Bestellung nicht zustellen. Um eine weitere Lieferung zu vereinbaren, %{contact_us}.",
-        "delivered": "Geliefert"
+        "delivered": "Geliefert",
+        "resend_gift_cards_by_text": "SMS erneut senden"
       },
       "review": {
         "title": "Bewertung",
