@@ -2924,7 +2924,7 @@
       },
       "blank": "ne peut pas être vide",
       "blocked_address": "Cet emplacement n'est pas pris en charge",
-      "credit_card_session_expired": "L'autorisation de la carte de crédit a expiré, veuillez saisir de nouveau vos informations de paiement. Votre carte n'a pas été débitée.",
+      "credit_card_session_expired": "L'autorisation de la carte de crédit a expiré, veuillez saisir à nouveau vos informations de paiement. Votre carte n'a pas été débitée.",
       "empty": "ne peut pas être vide",
       "invalid_email": "doit être une adresse courriel valide",
       "discount_disabled": "Cette remise a été désactivée",
@@ -3054,36 +3054,36 @@
       },
       "unsubscribed": {
         "confirmation": "Vous vous êtes désabonné de notre liste de diffusion.",
-        "disclaimer": "Vous ne recevrez plus aucune mise à jour commerciale de notre part. Vous pouvez vous réabonner à tout moment.",
-        "preview": "Vous prévisualisez ce que les clients verront lorsqu'ils se désabonneront."
+        "disclaimer": "Vous ne recevrez plus de mises à jour marketing de notre part. Vous pouvez vous réabonner à tout moment.",
+        "preview": "Vous visualisez ce que les clients verront lorsqu'ils se désabonneront."
       },
       "sms_unsubscribe_confirm": {
         "message": "Êtes-vous sûr de vouloir vous désabonner du marketing par SMS ?"
       },
       "open_tracking": {
         "opt_in": {
-          "opted_in_html": "<b>Vous avez choisi de suivre l'ouverture des courriels.</b>",
-          "visibility": "Les taux d'ouverture des courriels seront rapportés de manière anonyme. Nous verrons seulement si vous avez ouvert un courriel dans le cadre d'un taux d'ouverture global.",
+          "opted_in_html": "<b>Vous avez choisi de suivre l'ouverture des e-mails.</b>",
+          "visibility": "Les taux d'ouverture des e-mails seront rapportés de manière anonyme. Nous verrons uniquement si vous avez ouvert un e-mail dans le cadre d'un taux d'ouverture global agrégé.",
           "opt_out_html": "Vous pouvez <a style='text-decoration:underline;' href='%{link}'>vous désinscrire</a> du suivi d'ouverture des e-mails si vous ne souhaitez pas partager cette information.",
-          "preview_bar": "Vous prévisualisez ce que les clients verront lorsqu'ils accepteront le suivi d'ouverture des courriels."
+          "preview_bar": "Vous prévisualisez ce que les clients verront lorsqu'ils accepteront le suivi d'ouverture des e-mails."
         },
         "opt_out": {
-          "opted_out_html": "<b>Vous avez choisi de ne pas activer le suivi d'ouverture des courriels.</b>",
-          "visibility": "Nous ne saurons pas si vous avez ouvert nos courriels.",
-          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Acceptez</a> le suivi d'ouverture des e-mails.",
-          "preview_bar": "Vous prévisualisez ce que les clients verront lorsqu'ils refuseront le suivi d'ouverture des courriels."
+          "opted_out_html": "<b>Vous avez choisi de ne pas activer le suivi d'ouverture des e-mails.</b>",
+          "visibility": "Nous ne saurons pas si vous avez ouvert nos e-mails.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Accepter</a> le suivi d'ouverture des e-mails.",
+          "preview_bar": "Vous prévisualisez ce que les clients verront lorsqu'ils choisiront de ne pas activer le suivi d'ouverture des e-mails."
         },
         "no_longer_track": {
-          "status_html": "<b>Nous ne suivons plus aucune ouverture d’e-mail.</b>",
-          "privacy_policy": "Après l'envoi de ce courriel, nous avons mis à jour notre politique de confidentialité et nous ne suivons plus les ouvertures."
+          "status_html": "<b>Nous ne suivons plus aucune ouverture d'email.</b>",
+          "privacy_policy": "Après l'envoi de cet e-mail, nous avons mis à jour notre politique de confidentialité et nous ne suivons plus les ouvertures."
         },
         "track": {
-          "status_html": "<b>Le suivi d'ouverture des courriels est signalé.</b>",
-          "visibility": "Nous verrons uniquement si vous avez ouvert le courriel, dans le cadre du taux total d'ouverture des courriels."
+          "status_html": "<b>Le suivi d'ouverture des e-mails est signalé.</b>",
+          "visibility": "Nous verrons uniquement si vous avez ouvert l'email, dans le cadre du taux total d'ouverture des emails."
         },
         "updated_policy": {
-          "status_html": "<b>Le suivi d'ouverture des courriels est signalé.</b>",
-          "visibility": "Nous avons mis à jour notre politique et suivons désormais l'ouverture des courriels. Les taux d'ouverture des courriels seront communiqués de manière anonyme. Nous verrons seulement si vous avez ouvert un courriel dans le cadre du taux total d'ouverture des courriels.",
+          "status_html": "<b>Le suivi d'ouverture des e-mails est signalé.</b>",
+          "visibility": "Nous avons mis à jour notre politique et suivons désormais l'ouverture des e-mails. Les taux d'ouverture des e-mails seront rapportés de manière anonyme. Nous verrons uniquement si vous avez ouvert un e-mail dans le cadre du taux total d'ouverture des e-mails.",
           "opt_out_html": "Si vous ne souhaitez pas partager ces informations, vous pouvez <a style='text-decoration:underline;' href='%{link}'>vous désabonner.</a>"
         }
       }
@@ -3121,7 +3121,8 @@
       "error": "Votre réponse n'était pas correcte, veuillez réessayer."
     },
     "checkpoint": {
-      "message": "Résolvez le Captcha pour continuer"
+      "message": "Résolvez le Captcha pour continuer",
+      "error": "Échec de la validation Captcha"
     },
     "store_availability": {
       "pick_up_time": {
@@ -3160,7 +3161,7 @@
       "sorting": {
         "az": "Par ordre alphabétique, de A à Z",
         "za": "Par ordre alphabétique, de Z à A",
-        "price_ascending": "Prix, du plus bas au plus élevé",
+        "price_ascending": "Prix, du moins cher au plus cher",
         "price_descending": "Prix, du plus élevé au plus bas",
         "date_ascending": "Date, du plus ancien au plus récent",
         "date_descending": "Date, du plus récent au plus ancien"
