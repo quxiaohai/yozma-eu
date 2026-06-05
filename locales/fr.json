@@ -40,7 +40,7 @@
       "follow_on": "Suivre sur {{ social_media }}",
       "share": "Partager",
       "share_on": "Partager sur {{ social_media }}",
-      "share_email": "Partager par courriel"
+      "share_email": "Partager par e-mail"
     },
     "rating": {
       "info": "{{ rating_value }} sur {{ rating_max }} étoiles"
@@ -59,7 +59,7 @@
     },
     "privacy_bar": {
       "accept": "Accepter",
-      "decline": "Refuser"
+      "decline": "Décliner"
     },
     "form": {
       "max_characters": "{{ max_chars }} caractères max"
@@ -70,7 +70,7 @@
       "blog_post_excerpt": "Rédigez un texte à propos de votre article de blog.",
       "product_vendor": "Vendeur",
       "product_title": "Produit",
-      "product_description": "Rédigez un texte à propos de votre produit.",
+      "product_description": "Rédigez un texte sur votre produit.",
       "collection_title": "Collection"
     }
   },
@@ -89,18 +89,18 @@
       "view_product": "Voir le produit",
       "quick_add": "+ Ajout rapide",
       "add_to_cart_short": "+ Ajouter",
-      "add_to_cart_button": "ACHETER MAINTENANT",
-      "pre_order_button": "Précommande",
+      "add_to_cart_button": "ACHETEZ MAINTENANT",
+      "pre_order_button": "Précommander",
       "sold_out_button": "Épuisé",
       "unavailable_button": "Indisponible",
       "added_to_cart": "Ajouté à votre panier !",
       "sold_out_badge": "Épuisé",
-      "on_sale_badge": "En solde",
+      "on_sale_badge": "En promotion",
       "discount_badge_html": "Économisez {{ savings }}",
       "sku": "UGS :",
       "variant": "Variante",
       "view_in_space": "Voir dans votre espace",
-      "taxes_included": "Taxes comprises.",
+      "taxes_included": "Taxes incluses.",
       "taxes_excluded": "Hors taxes.",
       "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Frais de livraison calculés</a> lors du paiement",
       "size_chart": "Tableau des tailles",
@@ -111,7 +111,7 @@
     },
     "gallery": {
       "close": "Fermer la galerie",
-      "zoom": "Zoomer",
+      "zoom": "Zoom",
       "error": "L'image ne peut pas être chargée"
     },
     "price": {
@@ -142,7 +142,7 @@
       "oversell_stock": "Réapprovisionnement prochainement",
       "incoming_stock": "Réapprovisionnement le {{ next_incoming_date }}",
       "low_stock_with_quantity_count": {
-        "one": "Il ne reste qu'une seule unité {{count}}",
+        "one": "Il ne reste que {{count}} unité(s)",
         "other": "Il ne reste que {{count}} unités"
       }
     },
@@ -398,39 +398,39 @@
       "title": "Voici votre carte cadeau",
       "copy": "Copier",
       "print": "Imprimer",
-      "scan": "ou scanner ce QR code",
+      "scan": "ou scannez ce code QR",
       "back_to_store": "Retour à la boutique"
     },
     "issued": {
       "remaining_amount": "Montant restant",
       "out_of_html": "sur {{ initial_value }}",
-      "redeem_instructions": "Rentrez ce code à l'étape de paiement pour utiliser votre carte cadeau :",
-      "code": "Code de la carte cadeau",
-      "expires_on": "Expires on: {{ expires_on }}",
-      "expired": "Votre carte cadeau a expiré ou a été désactivé.",
+      "redeem_instructions": "Utilisez ce code pour utiliser votre carte cadeau lors du paiement :",
+      "code": "Code de carte cadeau",
+      "expires_on": "Expire le : {{ expires_on }}",
+      "expired": "Votre carte cadeau a expiré ou a été désactivée.",
       "add_to_apple_wallet": "Ajouter à Apple Wallet"
     },
     "recipient": {
-      "checkbox": "Je veux envoyer ce produit comme cadeau",
-      "email_label": "E‑mail du destinataire",
-      "name_label": "Nom du destinataire (facultatif)",
-      "send_on_label": "Envoyer le (facultatif)",
-      "message_label": "Message (facultatif)"
+      "checkbox": "Je veux envoyer ceci en cadeau",
+      "email_label": "Adresse e-mail du destinataire",
+      "name_label": "Nom du destinataire (optionnel)",
+      "send_on_label": "Envoyer le (optionnel)",
+      "message_label": "Message (optionnel)"
     }
   },
   "password": {
     "general": {
-      "follow_us": "Nous suivre",
+      "follow_us": "Suivez-nous",
       "powered_by": "Cette boutique est propulsée par",
-      "store_owner": "Gérant de la boutique ?",
-      "login": "Se connecter"
+      "store_owner": "Propriétaire de magasin ?",
+      "login": "Connexion"
     },
     "storefront_access": {
-      "enter_password": "Accéder avec le mot de passe",
-      "store_access": "Accès à la boutique",
-      "instructions": "Entrez le mot de passe pour accéder à la boutique",
+      "enter_password": "Entrez avec le mot de passe",
+      "store_access": "Accès au magasin",
+      "instructions": "Entrez le mot de passe ci-dessous pour accéder à la boutique",
       "password": "Mot de passe",
-      "enter_store": "Valider"
+      "enter_store": "Entrer dans le magasin"
     }
   },
   "apps": {
@@ -447,32 +447,32 @@
   "pagefly": {
     "products": {
       "product": {
-        "regular_price": "Regular price",
-        "sold_out": "Sold out",
-        "unavailable": "Unavailable",
-        "on_sale": "Sale",
-        "quantity": "Quantity",
-        "add_to_cart": "Add to cart",
-        "back_to_collection": "Back to {{ title }}",
-        "view_details": "View details"
+        "regular_price": "Prix régulier",
+        "sold_out": "Épuisé",
+        "unavailable": "Indisponible",
+        "on_sale": "Soldes",
+        "quantity": "Quantité",
+        "add_to_cart": "Ajouter au panier",
+        "back_to_collection": "Retour à {{ title }}",
+        "view_details": "Voir les détails"
       }
     },
     "article": {
-      "tags": "Tags:",
-      "all_topics": "All topics",
-      "by_author": "by {{ author }}",
-      "posted_in": "Posted in",
-      "read_more": "Read more",
-      "back_to_blog": "Back to {{ title }}"
+      "tags": "Étiquettes :",
+      "all_topics": "Tous les sujets",
+      "by_author": "par {{ author }}",
+      "posted_in": "Publié dans",
+      "read_more": "En savoir plus",
+      "back_to_blog": "Retour à {{ title }}"
     },
     "comments": {
-      "title": "Leave a comment",
-      "name": "Name",
-      "email": "Courriel",
+      "title": "Laisser un commentaire",
+      "name": "Nom",
+      "email": "E-mail",
       "message": "Message",
       "post": "Publier un commentaire",
       "moderated": "Veuillez noter que les commentaires doivent être approuvés avant leur publication",
-      "success_moderated": "Votre commentaire a été publié avec succès. Nous le mettrons en ligne sous peu, car notre blogue est modéré.",
+      "success_moderated": "Votre commentaire a été publié avec succès. Nous le publierons dans un instant, car notre blog est modéré.",
       "success": "Votre commentaire a été publié avec succès ! Merci !",
       "comments_with_count": {
         "one": "{{ count }} commentaire",
@@ -480,13 +480,13 @@
       }
     },
     "password_page": {
-      "login_form_message": "Entrez dans la boutique en utilisant le mot de passe :",
+      "login_form_message": "Entrer dans le magasin avec un mot de passe :",
       "login_form_password_label": "Mot de passe",
       "login_form_password_placeholder": "Votre mot de passe",
       "login_form_submit": "Entrer",
-      "signup_form_email_label": "Courriel",
-      "signup_form_success": "Nous vous enverrons un courriel juste avant l'ouverture !",
-      "password_link": "Entrez en utilisant le mot de passe"
+      "signup_form_email_label": "E-mail",
+      "signup_form_success": "Nous vous enverrons un e-mail juste avant l'ouverture !",
+      "password_link": "Entrez avec le mot de passe"
     }
   },
   "shopify": {

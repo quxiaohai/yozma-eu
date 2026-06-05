@@ -28,7 +28,8 @@
       "next": "Siguiente",
       "previous": "Anterior",
       "play_video": "Reproducir video",
-      "read_more": "Leer más"
+      "read_more": "Leer más",
+      "load_video": "Cargar video: {{ description }}"
     },
     "label": {
       "color": "Color,Color",
@@ -48,7 +49,7 @@
       "email": "Correo electrónico",
       "subscribe": "Suscribirse",
       "notify_me": "Notificarme",
-      "subscribed_successfully": "Te has suscrito a nuestro boletín informativo."
+      "subscribed_successfully": "Te has suscrito a nuestro boletín."
     },
     "localization": {
       "country": "País",
@@ -66,7 +67,7 @@
     "on_boarding": {
       "blog_post_category": "Categoría",
       "blog_post_title": "Artículo",
-      "blog_post_excerpt": "Escribe texto sobre tu entrada del blog.",
+      "blog_post_excerpt": "Escribe texto sobre tu publicación de blog.",
       "product_vendor": "Vendedor",
       "product_title": "Producto",
       "product_description": "Escribe texto sobre tu producto.",
@@ -88,19 +89,19 @@
       "view_product": "Ver producto",
       "quick_add": "+ Añadir rápido",
       "add_to_cart_short": "+ Añadir",
-      "add_to_cart_button": "COMPRAR AHORA",
-      "pre_order_button": "Pedido anticipado",
+      "add_to_cart_button": "COMPRA AHORA",
+      "pre_order_button": "Preordenar",
       "sold_out_button": "Agotado",
       "unavailable_button": "No disponible",
       "added_to_cart": "¡Añadido a tu carrito!",
       "sold_out_badge": "Agotado",
       "on_sale_badge": "En oferta",
-      "discount_badge_html": "Ahorrar {{ savings }}",
+      "discount_badge_html": "Guardar {{ savings }}",
       "sku": "SKU:",
       "variant": "Variante",
       "view_in_space": "Ver en tu espacio",
       "taxes_included": "Impuestos incluidos.",
-      "taxes_excluded": "Impuestos no incluidos.",
+      "taxes_excluded": "Impuestos excluidos.",
       "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Envío calculado</a> al finalizar la compra",
       "size_chart": "Tabla de tallas",
       "available_colors_count": {
@@ -253,7 +254,7 @@
       "last_name": "Apellido",
       "email": "Correo electrónico",
       "password": "Contraseña",
-      "accepts_marketing": "Regístrate en nuestro boletín informativo",
+      "accepts_marketing": "Regístrate en nuestro boletín",
       "submit": "Crear cuenta",
       "login": "Iniciar sesión"
     },
@@ -272,7 +273,7 @@
       "submit": "Restablecer"
     },
     "order": {
-      "order": "Pedido",
+      "order": "Ordenar",
       "order_name": "Ordenar {{name}}",
       "view_details": "Ver detalles del pedido",
       "back": "Atrás",
@@ -283,7 +284,7 @@
       "product": "Producto",
       "quantity": "Cantidad",
       "fulfillment_with_number": "Su pedido fue enviado el {{date}}. Rastree el envío con el número {{tracking_number}}.",
-      "fulfillment": "Tu pedido ha sido enviado el {{date}}.",
+      "fulfillment": "Su pedido ha sido enviado el {{date}}.",
       "track_shipment": "Rastrear envío",
       "subtotal": "Subtotal",
       "discount": "Descuento",
@@ -394,40 +395,40 @@
   },
   "gift_card": {
     "general": {
-      "title": "Aquí tienes tu tarjeta de regalo",
+      "title": "Aquí está tu tarjeta de regalo",
       "copy": "Copiar",
       "print": "Imprimir",
       "scan": "o escanea este código QR",
       "back_to_store": "Volver a la tienda"
     },
     "issued": {
-      "remaining_amount": "Importe disponible",
+      "remaining_amount": "Cantidad restante",
       "out_of_html": "de {{ initial_value }}",
-      "redeem_instructions": "Usa este código para canjear la tarjeta de regalo al finalizar la compra:",
+      "redeem_instructions": "Usa este código para canjear tu tarjeta de regalo al finalizar la compra:",
       "code": "Código de tarjeta de regalo",
-      "expires_on": "Caduca el: {{ expires_on }}",
-      "expired": "Tu tarjeta de regalo ha caducado o se ha desactivado.",
-      "add_to_apple_wallet": "Añadir a Apple Wallet"
+      "expires_on": "Expira el: {{ expires_on }}",
+      "expired": "Su tarjeta de regalo ha expirado o ha sido desactivada.",
+      "add_to_apple_wallet": "Agregar a Apple Wallet"
     },
     "recipient": {
-      "checkbox": "Quiero enviar esto como un regalo.",
-      "email_label": "Correo electrónico de la persona destinataria",
-      "name_label": "Nombre de la persona destinataria (opcional)",
-      "send_on_label": "Enviar el (opcional)",
+      "checkbox": "Quiero enviar esto como regalo",
+      "email_label": "Correo electrónico del destinatario",
+      "name_label": "Nombre del destinatario (opcional)",
+      "send_on_label": "Enviar en (opcional)",
       "message_label": "Mensaje (opcional)"
     }
   },
   "password": {
     "general": {
       "follow_us": "Síguenos",
-      "powered_by": "Esta tienda se ha creado con",
-      "store_owner": "¿Eres el dueño?",
+      "powered_by": "Esta tienda funciona con",
+      "store_owner": "¿Dueño de tienda?",
       "login": "Iniciar sesión"
     },
     "storefront_access": {
-      "enter_password": "Accede con tu contraseña",
+      "enter_password": "Entrar usando contraseña",
       "store_access": "Acceso a la tienda",
-      "instructions": "Escribe la contraseña a continuación para acceder a la tienda",
+      "instructions": "Introduce la contraseña abajo para acceder a la tienda",
       "password": "Contraseña",
       "enter_store": "Entrar a la tienda"
     }
@@ -446,46 +447,46 @@
   "pagefly": {
     "products": {
       "product": {
-        "regular_price": "Regular price",
-        "sold_out": "Sold out",
-        "unavailable": "Unavailable",
-        "on_sale": "Sale",
-        "quantity": "Quantity",
-        "add_to_cart": "Add to cart",
-        "back_to_collection": "Back to {{ title }}",
-        "view_details": "View details"
+        "regular_price": "Precio regular",
+        "sold_out": "Agotado",
+        "unavailable": "No disponible",
+        "on_sale": "Oferta",
+        "quantity": "Cantidad",
+        "add_to_cart": "Añadir al carrito",
+        "back_to_collection": "Volver a {{ title }}",
+        "view_details": "Ver detalles"
       }
     },
     "article": {
-      "tags": "Tags:",
-      "all_topics": "All topics",
-      "by_author": "by {{ author }}",
-      "posted_in": "Posted in",
-      "read_more": "Read more",
-      "back_to_blog": "Back to {{ title }}"
+      "tags": "Etiquetas:",
+      "all_topics": "Todos los temas",
+      "by_author": "por {{ author }}",
+      "posted_in": "Publicado en",
+      "read_more": "Leer más",
+      "back_to_blog": "Volver a {{ title }}"
     },
     "comments": {
-      "title": "Leave a comment",
-      "name": "Name",
-      "email": "Email",
-      "message": "Message",
-      "post": "Post comment",
-      "moderated": "Please note, comments must be approved before they are published",
-      "success_moderated": "Your comment was posted successfully. We will publish it in a little while, as our blog is moderated.",
-      "success": "Your comment was posted successfully! Thank you!",
+      "title": "Deja un comentario",
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "message": "Mensaje",
+      "post": "Publicar comentario",
+      "moderated": "Tenga en cuenta que los comentarios deben ser aprobados antes de ser publicados",
+      "success_moderated": "Tu comentario se publicó con éxito. Lo publicaremos en un momento, ya que nuestro blog está moderado.",
+      "success": "¡Tu comentario se publicó con éxito! ¡Gracias!",
       "comments_with_count": {
         "one": "{{ count }} comentario",
         "other": "{{ count }} comentarios"
       }
     },
     "password_page": {
-      "login_form_message": "Ingrese a la tienda usando la contraseña:",
+      "login_form_message": "Entrar a la tienda usando contraseña:",
       "login_form_password_label": "Contraseña",
       "login_form_password_placeholder": "Tu contraseña",
       "login_form_submit": "Entrar",
       "signup_form_email_label": "Correo electrónico",
       "signup_form_success": "¡Te enviaremos un correo electrónico justo antes de que abramos!",
-      "password_link": "Ingresar usando contraseña"
+      "password_link": "Entrar usando contraseña"
     }
   },
   "shopify": {

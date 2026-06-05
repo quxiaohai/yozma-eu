@@ -59,7 +59,7 @@
     },
     "privacy_bar": {
       "accept": "Accetta",
-      "decline": "Declino"
+      "decline": "Rifiuta"
     },
     "form": {
       "max_characters": "{{ max_chars }} caratteri massimo"
@@ -99,9 +99,9 @@
       "discount_badge_html": "Risparmia {{ savings }}",
       "sku": "SKU:",
       "variant": "Variante",
-      "view_in_space": "Guarda nel tuo spazio",
-      "taxes_included": "Imposta inclusa.",
-      "taxes_excluded": "Imposta esclusa.",
+      "view_in_space": "Visualizza nel tuo spazio",
+      "taxes_included": "Tasse incluse.",
+      "taxes_excluded": "Tasse escluse.",
       "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Spedizione calcolata</a> al momento del pagamento",
       "size_chart": "Tabella delle taglie",
       "available_colors_count": {
@@ -128,7 +128,7 @@
       "increment_of": "Incremento di {{ step }}"
     },
     "volume_pricing": {
-      "title": "Prezzi per volume",
+      "title": "Prezzi a volume",
       "minimum": "Più di {{ quantity }}",
       "price_at_each": "{{ price }}/cad."
     },
@@ -138,9 +138,9 @@
       "other": "{{ count }} recensioni"
     },
     "inventory": {
-      "in_stock": "Disponibile",
-      "oversell_stock": "Rifornimento in arrivo",
-      "incoming_stock": "Rifornimento il {{ next_incoming_date }}",
+      "in_stock": "Disponibile in magazzino",
+      "oversell_stock": "Disponibile di nuovo a breve",
+      "incoming_stock": "Rifornimento previsto per {{ next_incoming_date }}",
       "low_stock_with_quantity_count": {
         "one": "Solo {{count}} unità rimasta",
         "other": "Solo {{count}} unità rimaste"
@@ -148,7 +148,7 @@
     },
     "store_availability": {
       "view_store_info": "Visualizza informazioni sul negozio",
-      "check_other_stores": "Controlla la disponibilità in altri negozi",
+      "check_other_stores": "Verifica la disponibilità in altri negozi",
       "pick_up_available": "Ritiro disponibile",
       "pick_up_currently_unavailable": "Ritiro attualmente non disponibile",
       "pick_up_available_at": "Ritiro disponibile presso {{ location_name }}",
@@ -403,7 +403,7 @@
     },
     "issued": {
       "remaining_amount": "Importo residuo",
-      "out_of_html": "esaurito {{ initial_value }}",
+      "out_of_html": "su {{ initial_value }}",
       "redeem_instructions": "Usa questo codice per riscattare la tua carta regalo al momento del pagamento:",
       "code": "Codice della carta regalo",
       "expires_on": "Scade il: {{ expires_on }}",
@@ -413,15 +413,15 @@
     "recipient": {
       "checkbox": "Voglio inviare questo come regalo",
       "email_label": "Email del destinatario",
-      "name_label": "Nome del destinatario (facoltativo)",
-      "send_on_label": "Invia (opzionale)",
-      "message_label": "Messaggio (facoltativo)"
+      "name_label": "Nome del destinatario (opzionale)",
+      "send_on_label": "Invia a (opzionale)",
+      "message_label": "Messaggio (opzionale)"
     }
   },
   "password": {
     "general": {
       "follow_us": "Seguici",
-      "powered_by": "Questo negozio è alimentato da",
+      "powered_by": "Questo negozio è gestito da",
       "store_owner": "Proprietario del negozio?",
       "login": "Accesso"
     },
@@ -458,7 +458,7 @@
       }
     },
     "article": {
-      "tags": "Etichette:",
+      "tags": "Tag:",
       "all_topics": "Tutti gli argomenti",
       "by_author": "di {{ author }}",
       "posted_in": "Pubblicato in",
@@ -468,7 +468,7 @@
     "comments": {
       "title": "Lascia un commento",
       "name": "Nome",
-      "email": "Posta elettronica",
+      "email": "Email",
       "message": "Messaggio",
       "post": "Pubblica commento",
       "moderated": "Si prega di notare che i commenti devono essere approvati prima di essere pubblicati",
@@ -484,8 +484,8 @@
       "login_form_password_label": "Password",
       "login_form_password_placeholder": "La tua password",
       "login_form_submit": "Entra",
-      "signup_form_email_label": "Posta elettronica",
-      "signup_form_success": "Ti invieremo un'email poco prima dell'apertura!",
+      "signup_form_email_label": "Email",
+      "signup_form_success": "Ti invieremo un'email proprio prima di aprire!",
       "password_link": "Accedi usando la password"
     }
   },
