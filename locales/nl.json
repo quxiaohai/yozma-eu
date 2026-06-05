@@ -549,17 +549,17 @@
           "buyer_identity": {
             "business_customer_does_not_match_company": "Bedrijfcontactpersoon heeft geen toegang tot het bedrijf.",
             "customer_account_required": "U moet zich aanmelden om door te gaan.",
-            "company_location_required": "De klant moet een bedrijfsvestiging kiezen om door te gaan.",
+            "company_location_required": "De klant moet een bedrijfslocatie kiezen om door te gaan.",
             "company_purchase_permission_required": "De klant heeft geen toestemming om bedrijfsbestellingen te plaatsen.",
             "personal_order_not_allowed": "Persoonlijke bestellingen zijn niet toegestaan in deze winkel.",
             "lost_access_to_company": "Klant heeft de toegang tot elk bedrijf verloren.",
-            "contact_info_does_not_match_customer_account": "Contactgegevens moeten overeenkomen met het account waarmee u bent ingelogd.",
+            "contact_info_does_not_match_customer_account": "Contactgegevens moeten overeenkomen met het account waarmee je bent ingelogd.",
             "phone_number_does_not_match_expected_pattern": "Het opgegeven telefoonnummer komt niet overeen met het verwachte patroon.",
             "email_required": "Een e-mailadres is vereist wanneer de goederen worden gekocht met een abonnement.",
-            "checkout_completion_target_is_missing": "Doel voor het voltooien van de kassa ontbreekt.",
+            "checkout_completion_target_is_missing": "Doel voor het voltooien van de afrekenprocedure ontbreekt.",
             "invalid_customer_profile": "Er werd een ongeldig klantprofiel opgegeven.",
             "customer_profile_access_restricted": "De kassa heeft geen toestemming om toegang te krijgen tot het klantenprofiel.",
-            "checkout_completion_target_is_invalid_proc": "Ongeldig voltooiingsdoel voor afrekenen.",
+            "checkout_completion_target_is_invalid_proc": "Ongeldig doel voor het voltooien van de betaling.",
             "buyer_identity_presentment_currency_does_not_match": "Er was een probleem bij het verwerken van uw bestelling. Probeer het over een paar minuten opnieuw."
           },
           "delivery": {
@@ -654,7 +654,7 @@
           },
           "attribution": {
             "retail_attribution_not_allowed": "Retailtoewijzing is niet toegestaan voor deze afhandeling.",
-            "retail_attribution_required": "Winkeltoewijzing is vereist voor deze afhandeling."
+            "retail_attribution_required": "Retailtoewijzing is vereist voor deze afhandeling."
           },
           "captcha": {
             "metadata_missing": "Het invullen van een captcha is vereist voor deze afhandeling.",
@@ -682,7 +682,7 @@
         "submit_order_button_label": "Bestelling verzenden",
         "submit_for_review_button_label": "Indienen ter beoordeling",
         "submit_for_review_notice_label": "Betaling is pas verschuldigd nadat uw bestelling is beoordeeld",
-        "continue_to_payment_plans_button_label": "Doorgaan naar betaalplannen",
+        "continue_to_payment_plans_button_label": "Doorgaan naar betalingsplannen",
         "back_button_label": "Teruggeven",
         "autocomplete_powered_by_google": "Aangedreven door {{brandName}}",
         "submit": "Verzenden",
@@ -695,33 +695,35 @@
         "remove_item": "Verwijder %{label}",
         "dates": {
           "weekdays": {
-            "monday": "Maandag",
-            "tuesday": "Dinsdag",
+            "monday": "maandag",
+            "tuesday": "dinsdag",
             "wednesday": "Woensdag",
             "thursday": "Donderdag",
             "friday": "Vrijdag",
-            "sunday": "Zondag"
+            "sunday": "zondag"
           },
           "weekdays_abbreviation": {
-            "monday": "Maandag",
-            "tuesday": "Jij",
+            "monday": "Mo",
+            "tuesday": "Tu",
             "wednesday": "Wij",
-            "thursday": "De",
+            "thursday": "Th",
             "friday": "Fr",
-            "saturday": "Za",
+            "saturday": "Sa",
             "sunday": "Su"
           },
           "months": {
-            "august": "Augustus",
+            "august": "augustus",
             "october": "Oktober",
             "november": "November",
-            "december": "December"
+            "december": "December",
+            "april": "April",
+            "september": "September"
           }
         },
         "datepicker": {
           "show_previous_month": "Toon vorige maand, {{month}} {{year}}",
           "show_next_month": "Toon volgende maand, {{month}} {{year}}",
-          "range_start": "Bereik begin",
+          "range_start": "Bereik start",
           "range_end": "Einde van het assortiment"
         },
         "list_formatter": {
@@ -739,7 +741,8 @@
           }
         },
         "dropzone": {
-          "invalid_file_type": "Bestandstype niet ondersteund"
+          "invalid_file_type": "Bestandstype niet ondersteund",
+          "dragged_over": "Bestand hierheen slepen om te uploaden"
         }
       },
       "embed": {
