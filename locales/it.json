@@ -1186,15 +1186,15 @@
         },
         "discount_codes_removed_or_modified_summary": {
           "one": "Il codice sconto %{count} è stato rimosso o modificato",
-          "other": "Sono stati rimossi o modificati %{count} codici sconto"
+          "other": "%{count} codici sconto sono stati rimossi o modificati"
         },
         "gift_card_code_label": "Codice della carta regalo",
-        "gift_card_balance_label": "Equilibrio:",
+        "gift_card_balance_label": "Bilancio:",
         "supported_card_brands_more_label": "e altro ancora…",
         "detected_card_brand": "Marca della carta rilevata: {brand}",
         "credit_card_vaulting_sign_in_banner_title": "Salva la tua carta di credito",
         "credit_card_vaulting_sign_in_banner_info": "Accedi o crea un account per salvare la tua carta di credito per acquisti futuri.",
-        "ftd_vault_credit_card_label": "Salva questa carta di credito nel mio account per un pagamento più rapido",
+        "ftd_vault_credit_card_label": "Salva questa carta di credito nel mio account per un pagamento più veloce",
         "card_number_label": "Numero della carta",
         "card_number_placeholder": "Numero della carta",
         "card_pay_with": "Paga con:",
@@ -1238,7 +1238,7 @@
         "billing_address_associated_with_mandate": "Usa l'indirizzo associato al metodo di pagamento",
         "billing_address_associated_with_mandate_info": "Se desideri modificare il tuo indirizzo di fatturazione, rimuovi e reinserisci i dati della tua carta di credito",
         "free_order_notice_html": "Il tuo ordine è <strong>gratuito</strong>. Non è richiesto alcun pagamento.",
-        "express_checkout_free_order": "Non ti verrà addebitato alcun costo per un ordine gratuito",
+        "express_checkout_free_order": "Non ti verrà addebitato nulla per un ordine gratuito",
         "order_covered_by_gift_cards_notice": {
           "one": "Il tuo ordine è coperto dalla tua carta regalo.",
           "other": "Il tuo ordine è coperto dalle tue carte regalo."
@@ -1261,7 +1261,7 @@
         "no_method_error": "Questo negozio non può accettare pagamenti in questo momento.",
         "not_configured_error": "Questo negozio non può accettare pagamenti in questo momento.",
         "billing_address_not_supported_for_payment_method_error": "Questo metodo di pagamento non è disponibile per il tuo indirizzo di fatturazione e la valuta. Prova un metodo di pagamento diverso.",
-        "generic_incorrect_card_info": "I dettagli del tuo pagamento non sono stati verificati. Controlla i dati della tua carta e riprova.",
+        "generic_incorrect_card_info": "I dettagli del tuo pagamento non possono essere verificati. Controlla i dati della tua carta e riprova.",
         "sofort_label": "Bonifico bancario immediato",
         "paypal_wallet_label": "Portafoglio PayPal",
         "shop_pay_installments_label": "Rate Shop Pay",
@@ -1279,7 +1279,7 @@
         "blik_label": "BLIK",
         "twint_label": "DOPPIO GEMELLO",
         "swish_label": "Fruscio",
-        "grabpay_label": "PagaRapido",
+        "grabpay_label": "GrabPay",
         "kcp_creditcard_label": "Carta di Credito KCP",
         "usdc_cashback_additional_info": "Ricevi indietro %{incentive_percentage}% in USDC su Base entro 30 giorni, fino a 100 USDC.",
         "usdc_cashback_terms": "Si applicano i termini",
@@ -1305,7 +1305,7 @@
           "not_available": "Apple Pay non è disponibile in questo browser. Per collegare il tuo account Apple Pay dovrai utilizzare Safari su un dispositivo Apple."
         },
         "google": {
-          "connect": "Fai clic per collegarti al tuo account Google Pay",
+          "connect": "Clicca per collegarti al tuo account Google Pay",
           "error_authorizing": "Errore nell'autorizzazione del pagamento"
         },
         "mor_disclaimer_html": "Cliccando qui sotto e completando il tuo ordine, accetti di acquistare il/i tuo/i articolo/i da Global-e come commerciante ufficiale per questa transazione, secondo i <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Termini e Condizioni</a> e la <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Informativa sulla Privacy</a> di Global-e. Global-e è un fornitore internazionale di servizi di evasione ordini per %{shop_name}",
@@ -1386,7 +1386,7 @@
         "order_edit_banner_multiple_items_return_line_item_removed": "Rimosso {{amount}} dal reso",
         "gift_card_wrapper": {
           "heading": "Carta regalo",
-          "apply_gift_card_label": "Usa una carta regalo",
+          "apply_gift_card_label": "Applica una carta regalo",
           "apply_another_gift_card_label": "Applica un'altra carta regalo",
           "gift_card_label": "Carta regalo %{identifier}",
           "payment_tag": "Carta regalo",
@@ -1394,7 +1394,7 @@
           "manage_label": "Gestisci le carte regalo"
         },
         "gift_card_store_credit": {
-          "add_label": "Aggiungi una carta regalo o un credito negozio",
+          "add_label": "Aggiungi una carta regalo o un credito in negozio",
           "manage_label": "Gestisci le carte regalo o il credito del negozio"
         },
         "gift_card_checkbox_label": "Applica la carta regalo",
@@ -1430,7 +1430,11 @@
         "bank_account_disclaimer": "I pagamenti ACH possono richiedere fino a 4 giorni lavorativi per essere elaborati.",
         "bank_account_choose": "Scegli un account per completare l'acquisto in modo sicuro",
         "separate_payments_label": "I tuoi articoli provengono da più negozi. Ti verrà addebitato in %{separate_payments_link}.",
-        "billing_must_match_shipping_notice": "L'indirizzo di fatturazione del tuo metodo di pagamento deve corrispondere all'indirizzo di spedizione."
+        "billing_must_match_shipping_notice": "L'indirizzo di fatturazione del tuo metodo di pagamento deve corrispondere all'indirizzo di spedizione.",
+        "discount_show_more_warnings": {
+          "one": "Mostra %{count} in più",
+          "other": "Mostra %{count} in più"
+        }
       },
       "billing": {
         "billing_address_title": "Fatturare a",
