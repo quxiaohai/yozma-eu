@@ -564,7 +564,7 @@
           "buyer_identity": {
             "business_customer_does_not_match_company": "Le contact de l'entreprise n'a pas accès à l'entreprise.",
             "company_location_required": "Le client doit choisir un emplacement d'entreprise pour continuer.",
-            "company_purchase_permission_required": "Le client n'a pas l'autorisation de passer des commandes au nom de l'entreprise.",
+            "company_purchase_permission_required": "Le client n'a pas la permission de passer des commandes au nom de l'entreprise.",
             "personal_order_not_allowed": "Les commandes personnelles ne sont pas autorisées dans cette boutique.",
             "lost_access_to_company": "Le client a perdu l'accès à toute entreprise.",
             "contact_info_does_not_match_customer_account": "Les informations de contact doivent correspondre au compte auquel vous êtes connecté.",
@@ -675,8 +675,8 @@
             "optional_duties_not_permitted": "Le refus des droits n'est pas autorisé pour ce passage en caisse."
           },
           "attribution": {
-            "retail_attribution_not_allowed": "L'attribution commerciale au détail n'est pas autorisée pour ce passage en caisse.",
-            "retail_attribution_required": "L'attribution au commerce de détail est requise pour ce passage en caisse."
+            "retail_attribution_not_allowed": "L'attribution au détail n'est pas autorisée pour ce paiement.",
+            "retail_attribution_required": "L'attribution au détail est requise pour ce passage en caisse."
           },
           "captcha": {
             "metadata_missing": "Il est nécessaire de remplir un captcha pour ce paiement.",
@@ -710,16 +710,16 @@
         "remove_tag": "Supprimer l’étiquette",
         "dates": {
           "weekdays": {
-            "monday": "lundi",
+            "monday": "Lundi",
             "saturday": "samedi",
             "sunday": "dimanche"
           },
           "weekdays_abbreviation": {
             "monday": "Mo",
-            "tuesday": "Toi",
+            "tuesday": "Tu",
             "wednesday": "Nous",
             "thursday": "Th",
-            "friday": "Français",
+            "friday": "Fr",
             "saturday": "Sa",
             "sunday": "Su"
           },
@@ -732,7 +732,9 @@
             "august": "août",
             "september": "septembre",
             "october": "octobre",
-            "december": "décembre"
+            "december": "décembre",
+            "april": "avril",
+            "november": "novembre"
           }
         },
         "datepicker": {
@@ -758,7 +760,7 @@
           "expand": "Développer"
         },
         "dropzone": {
-          "dragged_over": "Déposez le fichier pour le téléverser"
+          "dragged_over": "Déposez le fichier pour le télécharger"
         }
       },
       "embed": {
