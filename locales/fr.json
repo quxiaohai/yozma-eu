@@ -966,7 +966,7 @@
       "order_summary": {
         "group_title_label": "Fait partie de \"%{group_title}\"",
         "for_add_on": "Pour : %{group_title}",
-        "from_other_stores_heading": "D'autres magasins",
+        "from_other_stores_heading": "Dans d'autres magasins",
         "from_multiple_stores_heading": "De plusieurs magasins",
         "number_items": {
           "one": "%{count} article",
@@ -985,7 +985,7 @@
         "discount_title": "Remise",
         "discount_title_stacking": {
           "one": "Remise",
-          "other": "Rabais"
+          "other": "Réductions"
         },
         "discount_order_stacking": {
           "one": "Remise sur commande",
@@ -996,7 +996,7 @@
         "discount_placeholder": "Code de réduction",
         "discount_code_allocations_mismatch": "Votre code de réduction <strong style=\"text-transform:uppercase\">%{code}</strong> a changé. Vérifiez votre panier et réessayez.",
         "order_discounts_apply_to_local_shop": "Les remises de commande s'appliquent uniquement aux articles de %{shop_name}",
-        "gift_card_applied": "Carte-cadeau appliquée",
+        "gift_card_applied": "Carte cadeau appliquée",
         "enter_shipping_address": "Saisir l'adresse de livraison",
         "gift_card_title": "Carte cadeau",
         "gift_card_label": "Carte cadeau",
@@ -1026,7 +1026,7 @@
           "other": "Sous-total · %{count} articles"
         },
         "pickup_label": "Retrait en magasin",
-        "no_pickup_location": "Aucun point de retrait disponible.",
+        "no_pickup_location": "Il n’y a aucun point de retrait disponible.",
         "pickup_unavailable_banner_title": {
           "one": "Aucun magasin ne propose votre article",
           "other": "Aucun magasin ne propose vos articles"
@@ -1045,13 +1045,13 @@
         "shipping_discount_title": "Remise sur la livraison",
         "shipping_policy_link": "Frais d'expédition",
         "information_estimated_taxes_label": "Taxes (estimées)",
-        "estimated_taxes_finalization_tooltip_content": "La taxe finale et le total vous seront confirmés par courriel ou message texte après que vous aurez passé votre commande.",
+        "estimated_taxes_finalization_tooltip_content": "La taxe finale et le total vous seront confirmés par e-mail ou SMS après que vous aurez passé votre commande.",
         "estimated_taxes_finalization_tooltip_content_short": "Taxe finalisée après paiement",
         "price_before_discount_aria_text": "Prix d'origine",
         "deposit_label": "Dépôt",
         "total_due_today_label": "Total dû aujourd'hui",
         "vat_label_html": "Incluant %{amount} de taxes",
-        "duties_included_label": "Le total comprend les taxes et droits. Aucun frais supplémentaire à la livraison.",
+        "duties_included_label": "Le total inclut les taxes et droits. Aucun frais supplémentaire à la livraison.",
         "discount_and_gift_card_savings_notice": "Après %{discount_amount} de réductions et %{gift_card_amount} en cartes cadeaux",
         "discount_savings_notice": "Après %{discount_amount} de réductions",
         "price_per_item": {
@@ -1096,10 +1096,10 @@
         },
         "maximum_discount_code_limit_reached": "Vous avez atteint le nombre maximum de codes de réduction. Supprimez un code existant pour utiliser <strong style=\"text-transform:uppercase\">%{code}</strong>.",
         "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> ne fonctionne pas pour le moment. Contactez-nous pour obtenir de l'aide.",
-        "due_on_fulfillment": "Dû à l'exécution",
-        "duties_label": "Fonctions",
-        "error_duties_tooltip": "Cette commande est expédiée depuis un autre pays, des droits et taxes peuvent donc être appliqués à la livraison.",
-        "may_be_charged_on_delivery": "Peut être payé à la livraison",
+        "due_on_fulfillment": "Payable à la livraison",
+        "duties_label": "Droits de douane",
+        "error_duties_tooltip": "Cette commande est expédiée depuis un autre pays, des droits et taxes peuvent donc être facturés à la livraison.",
+        "may_be_charged_on_delivery": "Peut être facturé à la livraison",
         "total_updated_label_with_price": "Prix total mis à jour : %{totalPrice}",
         "updated_shipping_method": "Méthode d'expédition mise à jour : %{shipping_method}",
         "recurring_total_multiple_label": "Cette commande comporte une charge récurrente pour plusieurs articles.",
@@ -1126,7 +1126,10 @@
         "add_discount_or_gift_card": "Ajouter un code de réduction ou une carte cadeau",
         "automatic_discount_tooltip": "Les remises appliquées automatiquement ne peuvent pas être supprimées",
         "discount_code_replaced": "Code de réduction %{old_code} supprimé et %{code} a été appliqué",
-        "compare_at_sale": "Soldes (%{sale_amount})"
+        "compare_at_sale": "Soldes (%{sale_amount})",
+        "gift_cards_apply_to_local_shop": "Les cartes-cadeaux ne s'appliquent qu'aux articles de %{shop_name}",
+        "gift_card_has_been_applied": "La carte cadeau a été appliquée",
+        "gift_card_has_been_removed": "La carte cadeau a été supprimée"
       },
       "shipping": {
         "shipping_method_title": "Mode d'expédition",
