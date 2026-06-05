@@ -1201,7 +1201,7 @@
         "card_security_notice": "Tutte le transazioni sono sicure e criptate.",
         "card_security_vault_notice": "Abbiamo bisogno dei tuoi dati per i pagamenti futuri. Tutte le operazioni sono sicure e criptate.",
         "card_information_notice": "Tutte le transazioni sono sicure e criptate. Le informazioni della carta di credito non vengono mai memorizzate.",
-        "card_nickname_label": "Soprannome (facoltativo)",
+        "card_nickname_label": "Soprannome (opzionale)",
         "card_expiry_label": "Data di scadenza (MM / AA)",
         "card_expiry_placeholder": "Data di scadenza (MM / AA)",
         "delete_customer_mandate_modal_body": "Se rimuovi questa carta, dovrai aggiungerla di nuovo prima di poterla usare per i pagamenti.",
@@ -1212,8 +1212,8 @@
         "card_verification_value_explanation_other": "Codice di sicurezza a 3 cifre sul retro della tua carta",
         "card_start_label": "Data di emissione (MM / AA)",
         "card_start_placeholder": "Data di emissione (MM / AA)",
-        "card_issue_number_label": "Numero di uscita",
-        "card_issue_number_placeholder": "Numero di uscita",
+        "card_issue_number_label": "Numero di emissione",
+        "card_issue_number_placeholder": "Numero di emissione",
         "ends_with_label": "terminando con %{last_digits}",
         "card_vaulted_company_location": "Carta salvata per questa posizione",
         "expiry_long": "(Scade %{month}/%{year})",
@@ -1260,7 +1260,7 @@
         "technical_error": "I pagamenti non possono essere elaborati in questo momento a causa di un problema tecnico. Riprova tra qualche minuto.",
         "no_method_error": "Questo negozio non può accettare pagamenti in questo momento.",
         "not_configured_error": "Questo negozio non può accettare pagamenti in questo momento.",
-        "billing_address_not_supported_for_payment_method_error": "Questo metodo di pagamento non è disponibile per il tuo indirizzo di fatturazione e valuta. Prova un metodo di pagamento diverso.",
+        "billing_address_not_supported_for_payment_method_error": "Questo metodo di pagamento non è disponibile per il tuo indirizzo di fatturazione e la valuta. Prova un metodo di pagamento diverso.",
         "generic_incorrect_card_info": "I dettagli del tuo pagamento non sono stati verificati. Controlla i dati della tua carta e riprova.",
         "sofort_label": "Bonifico bancario immediato",
         "paypal_wallet_label": "Portafoglio PayPal",
@@ -1276,7 +1276,7 @@
         "klarna_slice_it_label": "Finanzia con Klarna",
         "afterpay_label": "Dopo pagamento",
         "cashapppay_label": "Pagamento con Cash App",
-        "blik_label": "Sguardo",
+        "blik_label": "BLIK",
         "twint_label": "DOPPIO GEMELLO",
         "swish_label": "Fruscio",
         "grabpay_label": "PagaRapido",
@@ -1294,15 +1294,15 @@
         "purchase_options_agreement_label_wallets": "Continuando con il pagamento, accetti gli addebiti futuri elencati in questa pagina e la politica di cancellazione.",
         "no_real_orders_dev_store": "Questo negozio non può accettare ordini o pagamenti reali.",
         "waiting_on_payment_methods": "Recupero dei metodi di pagamento disponibili...",
-        "apple_pay_payment_error": "Il tuo pagamento non è stato completato. Riprova oppure usa un metodo di pagamento diverso.",
+        "apple_pay_payment_error": "Il tuo pagamento non è stato completato. Riprova o usa un metodo di pagamento diverso.",
         "taxes_not_included": "Tasse non incluse",
         "no_taxes_banner_content": "Le tasse non saranno addebitate su questo ordine. Una volta incassato il pagamento, non sarà più possibile aggiungere le tasse.",
         "paypal": {
           "connect": "Fai clic per collegare il tuo conto PayPal"
         },
         "apple": {
-          "connect": "Fai clic per collegare il tuo conto Apple Pay",
-          "not_available": "Apple Pay non è disponibile in questo browser. Per collegare il tuo conto Apple Pay dovrai usare Safari su un dispositivo Apple."
+          "connect": "Clicca per collegare il tuo account Apple Pay",
+          "not_available": "Apple Pay non è disponibile in questo browser. Per collegare il tuo account Apple Pay dovrai utilizzare Safari su un dispositivo Apple."
         },
         "google": {
           "connect": "Fai clic per collegarti al tuo account Google Pay",
@@ -1428,8 +1428,9 @@
         },
         "new_bank_account_disclaimer": "Completando il tuo ordine, autorizzi %{shop_name} a addebitare il conto sottostante tramite ACH per l'importo e al momento indicati.",
         "bank_account_disclaimer": "I pagamenti ACH possono richiedere fino a 4 giorni lavorativi per essere elaborati.",
-        "bank_account_choose": "Scegli un conto per completare l'acquisto in modo sicuro",
-        "separate_payments_label": "I tuoi articoli provengono da più negozi. Ti verrà addebitato in %{separate_payments_link}."
+        "bank_account_choose": "Scegli un account per completare l'acquisto in modo sicuro",
+        "separate_payments_label": "I tuoi articoli provengono da più negozi. Ti verrà addebitato in %{separate_payments_link}.",
+        "billing_must_match_shipping_notice": "L'indirizzo di fatturazione del tuo metodo di pagamento deve corrispondere all'indirizzo di spedizione."
       },
       "billing": {
         "billing_address_title": "Fatturare a",
