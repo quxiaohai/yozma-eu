@@ -911,7 +911,7 @@
           "one": "nicht verfügbaren Artikel entfernen",
           "other": "nicht verfügbare Artikel entfernen"
         },
-        "empty_cart_action": "Warenkorb leeren und zum Geschäft zurückkehren"
+        "empty_cart_action": "Warenkorb leeren und zum Shop zurückkehren"
       },
       "deliverability": {
         "not_deliverable": {
@@ -1701,9 +1701,9 @@
         }
       },
       "merchant_instruction_errors": {
-        "empty_stable_id": "Die Merchandise-Anleitung für %{position} %{name} enthält eine leere stabile ID.",
+        "empty_stable_id": "Die Merchandise-Anleitung für %{position} %{name} enthält eine leere Stable-ID.",
         "invalid_stable_id_target": "Die Merchandise-Anleitung für %{position} %{name} verweist auf die stabile ID %{stable_id}, aber diese stabile ID ist nicht in den Merchandise-Linien enthalten.",
-        "duplicate_variant_id": "Die Merchandise-Anleitung für %{position} %{name} enthält eine doppelte Varianten-ID %{variant_id}.",
+        "duplicate_variant_id": "Die Merchandise-Anweisung für %{position} %{name} enthält eine doppelte Varianten-ID %{variant_id}.",
         "invalid_variant_id_target": "Die Merchandise-Anleitung für %{name} verweist auf die Varianten-ID %{variant_id}, aber diese Variante ist nicht in den Merchandise-Positionen enthalten.",
         "invalid_price_override_target": "Die Preisüberschreibungsanweisung für den Artikel %{stable_id} ist ungültig, da es sich um eine Komponente eines Bundles handelt.",
         "discount_not_supported": "Die Anweisung zum Anwenden von Händlerrabatten unterstützt diese Art von Rabatt nicht."
@@ -2226,8 +2226,8 @@
         "unavailable_policy": "Für diesen Shop wurde keine %{policy_name} bereitgestellt. Für weitere Informationen wenden Sie sich bitte direkt an %{shop_name}."
       },
       "mor_policies": {
-        "terms_and_conditions": "Geschäftsbedingungen des Vertragshändlers",
-        "privacy_policy": "Datenschutzerklärung des Vertragshändlers"
+        "terms_and_conditions": "Geschäftsbedingungen des Händlers",
+        "privacy_policy": "Datenschutzerklärung des Händlers"
       },
       "markets": {
         "invalid_market_manager_error": "Überprüfen Sie Ihre Kontaktinformationen, bevor Sie die Zahlung abschließen"
@@ -2328,8 +2328,8 @@
       },
       "no_address_location": {
         "title": "Ort ohne Adresse",
-        "header": "Für diesen Ort ist keine Lieferadresse hinterlegt",
-        "message": "Kontaktieren Sie uns, um eine Adresse für diesen Standort hinzuzufügen, damit der Kauf abgeschlossen werden kann.",
+        "header": "Sie haben keine Versandadresse für diesen Standort angegeben",
+        "message": "Kontaktieren Sie uns, um eine Adresse für diesen Standort hinzuzufügen und den Kauf abzuschließen.",
         "email_us_button_label": "Senden Sie uns eine E-Mail"
       },
       "order_errors": {
@@ -2409,21 +2409,21 @@
         "subscription_changed": "Eines Ihrer Abonnements wurde geändert.",
         "company_location_changed": "Ihr Warenkorb wurde aktualisiert. Überprüfen Sie Ihre Bestellung, bevor Sie sie absenden.",
         "company_location_changed_product_removed": "Ihr Warenkorb wurde aktualisiert, da einige Produkte an diesem Standort nicht verfügbar sind. Überprüfen Sie Ihre Bestellung, bevor Sie sie absenden.",
-        "all_violations_content": "Rufen Sie uns an oder {{emailLink}}, um diese Informationen zu aktualisieren und Ihre Bestellung abzuschließen:",
+        "all_violations_content": "Rufen Sie uns an oder kontaktieren Sie uns per {{emailLink}}, um diese Informationen zu aktualisieren und Ihre Bestellung abzuschließen:",
         "all_violations_email_link": "E-Mail",
         "editable_shipping_address_violations_message_title": "Fügen Sie diese Informationen hinzu, um Ihre Bestellung abzuschließen:",
         "editable_shipping_address_violations_email_link": "kontaktieren Sie uns",
         "shipping_address_incomplete_title": "Die Lieferadresse ist unvollständig",
         "calculating_shipping": "Der Versand wird noch berechnet. Versuchen Sie es in ein paar Sekunden erneut. Ihnen wurde noch nichts berechnet.",
-        "calculating_taxes": "Die Steuern werden noch berechnet. Versuchen Sie es in ein paar Sekunden erneut. Ihnen wurden keine Kosten berechnet.",
+        "calculating_taxes": "Die Steuern werden noch berechnet. Versuchen Sie es in ein paar Sekunden erneut. Ihnen wurden keine Gebühren berechnet.",
         "generic_processing_error": {
           "title": "Bei der Bearbeitung Ihrer Bestellung ist ein Problem aufgetreten",
           "body": "Ihnen wurde nichts berechnet. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode."
         },
-        "payment_method_not_available_with_payment_terms": "Die von Ihnen gewählte Zahlungsmethode ist nicht mehr verfügbar, da die Zahlung für diese Bestellung jetzt auf {{paymentTerms}} Basis erfolgt.",
-        "payment_method_not_available_with_fulfillment_terms": "Die von Ihnen gewählte Zahlungsmethode ist nicht mehr verfügbar, da die Zahlung für diese Bestellung nun bei Lieferung fällig ist.",
-        "payment_method_not_available_with_fixed_terms": "Die von Ihnen gewählte Zahlungsmethode ist nicht mehr verfügbar, da die Zahlung für diese Bestellung später fällig ist",
-        "payment_method_not_available_with_review_requirement": "Die von Ihnen gewählte Zahlungsmethode steht nicht mehr zur Verfügung, da die Zahlung fällig wird, sobald Ihre Bestellung bestätigt ist.",
+        "payment_method_not_available_with_payment_terms": "Die von Ihnen gewählte Zahlungsmethode ist nicht mehr verfügbar, da die Zahlung für diese Bestellung jetzt auf {{paymentTerms}} Bedingungen erfolgt.",
+        "payment_method_not_available_with_fulfillment_terms": "Die von Ihnen gewählte Zahlungsmethode ist nicht mehr verfügbar, da die Zahlung für diese Bestellung jetzt bei Erfüllung fällig ist.",
+        "payment_method_not_available_with_fixed_terms": "Die von Ihnen gewählte Zahlungsmethode ist nicht mehr verfügbar, da die Zahlung für diese Bestellung später fällig ist.",
+        "payment_method_not_available_with_review_requirement": "Die von Ihnen gewählte Zahlungsmethode ist nicht mehr verfügbar, da die Zahlung fällig wird, sobald Ihre Bestellung bestätigt ist.",
         "contact_information": {
           "header": "Um Ihre Informationen zu aktualisieren, {{emailLink}}.",
           "email_link": "kontaktieren Sie uns"
