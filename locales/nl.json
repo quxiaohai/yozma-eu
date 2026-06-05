@@ -744,10 +744,10 @@
       },
       "embed": {
         "header": {
-          "review_order": "Beoordeel uw bestelling"
+          "review_order": "Beoordeel je bestelling"
         },
         "payment": {
-          "payment_options": "Bekijk alle betaalmogelijkheden"
+          "payment_options": "Bekijk alle betaalopties"
         }
       },
       "payment_collection": {
@@ -784,27 +784,27 @@
         "ship_to_address": "Verzend naar adres",
         "shipping_address": "Verzendadres",
         "pickup_point_map_title": "Afhaalpuntkaart",
-        "pick_up_in_one_hour": "Gewoonlijk klaar binnen 1 uur",
-        "pick_up_in_two_hours": "Gewoonlijk klaar binnen 2 uur",
-        "pick_up_in_four_hours": "Gewoonlijk klaar binnen 4 uur",
-        "pick_up_in_twenty_four_hours": "Gewoonlijk binnen 24 uur klaar",
-        "pick_up_in_two_to_four_days": "Gewoonlijk klaar binnen 2-4 dagen",
-        "pick_up_in_five_or_more_days": "Gewoonlijk binnen 5+ dagen klaar",
+        "pick_up_in_one_hour": "Meestal klaar binnen 1 uur",
+        "pick_up_in_two_hours": "Meestal klaar binnen 2 uur",
+        "pick_up_in_four_hours": "Meestal klaar binnen 4 uur",
+        "pick_up_in_twenty_four_hours": "Meestal binnen 24 uur klaar",
+        "pick_up_in_two_to_four_days": "Meestal klaar binnen 2-4 dagen",
+        "pick_up_in_five_or_more_days": "Meestal klaar binnen 5+ dagen",
         "pick_up_in_zero_to_two_hours": "Klaar om op te halen over 2 uur",
         "pick_up_in_two_to_four_hours": "Klaar om op te halen over 4 uur",
         "pick_up_next_day": "Klaar voor afhaling de volgende dag",
         "retail_method_definition": "Detailhandel verzending",
         "company_location_no_address_banner": "Bestellingen die naar locaties zonder adres worden verzonden, worden ter beoordeling ingediend.",
         "none_method_definition": "Geen verzending",
-        "subscription_pickup_information": "Deze bezorgmethode geldt voor alle artikelen in deze bestelling en voor alle toekomstige bestellingen van dit abonnement."
+        "subscription_pickup_information": "Dit wordt de afhaallocatie voor alle toekomstige bestellingen van je abonnement."
       },
       "customer_account": {
         "not_user_label": "Niet %{first_name}?",
-        "sign_out_link_label": "Afmelden",
+        "sign_out_link_label": "Uitloggen",
         "save_my_information_label": "Bewaar deze informatie voor de volgende keer",
-        "invalid_address": "Gekozen adres is ongeldig. %{update_address_link} of selecteer een ander adres.",
+        "invalid_address": "Geselecteerd adres is ongeldig. %{update_address_link} of kies een ander adres.",
         "incomplete_address": "Geselecteerd adres is onvolledig. %{update_address_link} of kies een ander adres.",
-        "rollup_label": "Rekening",
+        "rollup_label": "Account",
         "invalid_shipping_method_summary": "Selecteer een geldig afleveradres om de beschikbare verzendmethoden te bekijken"
       },
       "remote_merchandise_only": {
@@ -874,8 +874,8 @@
           "other": "Niet beschikbare producten"
         },
         "products_not_available": {
-          "one": "Dit product wordt uit uw winkelwagen verwijderd omdat het niet beschikbaar is in uw land/regio.",
-          "other": "Deze producten worden uit uw winkelwagen verwijderd omdat ze niet beschikbaar zijn in uw land/regio."
+          "one": "Dit product wordt uit je winkelwagen verwijderd omdat het niet beschikbaar is in jouw land/regio.",
+          "other": "Deze producten worden uit je winkelwagen verwijderd omdat ze niet beschikbaar zijn in jouw land/regio."
         },
         "all_products_in_cart_unavailable": {
           "one": "Dit product is niet beschikbaar in uw land/regio.",
@@ -905,8 +905,8 @@
             "other": "Geen levering beschikbaar voor %{count} artikelen"
           },
           "message": {
-            "one": "Dit artikel wordt uit uw winkelwagen verwijderd omdat er geen bezorgmethoden beschikbaar zijn voor uw adres.",
-            "other": "Deze artikelen worden uit uw winkelwagen verwijderd omdat er geen bezorgmethoden beschikbaar zijn voor uw adres."
+            "one": "Dit artikel wordt uit je winkelwagen verwijderd omdat er geen bezorgmethoden beschikbaar zijn voor jouw adres.",
+            "other": "Deze artikelen worden uit je winkelwagen verwijderd omdat er geen bezorgmethoden beschikbaar zijn voor jouw adres."
           },
           "label": "Geen levering"
         }
@@ -2231,11 +2231,11 @@
         },
         "embed_errors": {
           "customer_account_required": "Een klantaccount is vereist om de aankoop af te ronden",
-          "cart_completed": "Deze afhandeling is al voltooid",
-          "not_authorized": "Authenticatie bij afrekenen mislukt. Controleer uw toepassingsgegevens.",
+          "cart_completed": "Deze betaling is al voltooid",
+          "not_authorized": "Authenticatie bij afrekenen mislukt. Controleer uw applicatiegegevens.",
           "killswitch_enabled": "Afrekenen is tijdelijk niet beschikbaar",
-          "policy_violation": "Kan de betaling niet voltooien vanwege beperkingen in het beleid.",
-          "unrecoverable_failure": "Kan de kassa niet laden. Probeer het opnieuw."
+          "policy_violation": "Kan de betaling niet voltooien vanwege beperkingen in het beleidsconfiguratie",
+          "unrecoverable_failure": "Kan de kassa niet laden. Probeer het opnieuw"
         }
       },
       "notice_banner": {
@@ -2391,7 +2391,7 @@
         "failed_to_copy": "Kopiëren mislukt"
       },
       "discount_errors": {
-        "generic_error": "Uw bestelling kon niet worden verwerkt omdat uw kortingscode niet langer beschikbaar is. Controleer het totaalbedrag van uw bestelling en probeer het opnieuw."
+        "generic_error": "Je bestelling kon niet worden verwerkt omdat je kortingscode niet langer beschikbaar is. Controleer het totaalbedrag van je bestelling en probeer het opnieuw."
       },
       "b2b_errors": {
         "lost_b2b_purchasing_permissions": "Je hebt geen toestemming meer om B2B-bestellingen te plaatsen. %{logout_url} om in plaats daarvan een persoonlijke bestelling te plaatsen.",
@@ -2505,7 +2505,7 @@
       },
       "editor": {
         "navigation": {
-          "store_logo_accessibility_label": "Ga naar de Webwinkel"
+          "store_logo_accessibility_label": "Ga naar de online winkel"
         }
       },
       "tooltip": {
