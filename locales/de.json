@@ -508,11 +508,11 @@
         "page_title": "Zur Kasse",
         "skip_to_content": "Zum Inhalt springen",
         "breadcrumb": "Brotkrumen",
-        "continue_button_label": "Fortfahren",
+        "continue_button_label": "Weiter",
         "complete_purchase_button_label": "Bestellung abschließen",
         "pay_now_button_label": "Jetzt bezahlen",
         "authenticate_purchase_button_label": "Zahlung authentifizieren",
-        "continue_to_shipping_method": "Weiter zur Versandart",
+        "continue_to_shipping_method": "Zur Versandart wechseln",
         "back_to_contact_information": "Zurück zur Information",
         "choose_shipping_method": "Wählen Sie eine Versandart",
         "choose_payment_method": "Wählen Sie eine Zahlungsmethode",
@@ -576,8 +576,8 @@
             "checkout_completion_target_is_missing": "Das Ziel für den Abschluss des Bestellvorgangs fehlt.",
             "invalid_customer_profile": "Ein ungültiges Kundenprofil wurde angegeben.",
             "customer_profile_access_restricted": "Der Kassiervorgang hat keine Berechtigung, auf das Kundenprofil zuzugreifen.",
-            "checkout_completion_target_is_invalid_proc": "Ungültiges Ziel für den Abschluss des Bezahlvorgangs.",
-            "buyer_identity_presentment_currency_does_not_match": "Bei der Bearbeitung Ihrer Bestellung ist ein Problem aufgetreten. Versuchen Sie es in ein paar Minuten erneut."
+            "checkout_completion_target_is_invalid_proc": "Ungültiges Ziel für den Abschluss des Bestellvorgangs.",
+            "buyer_identity_presentment_currency_does_not_match": "Bei der Bearbeitung Ihrer Bestellung ist ein Problem aufgetreten. Bitte versuchen Sie es in ein paar Minuten erneut."
           },
           "delivery": {
             "only_one_delivery_line_allowed": "Der Warenkorb darf nur eine Lieferzeile enthalten.",
@@ -678,8 +678,8 @@
             "optional_duties_not_permitted": "Die Ablehnung von Gebühren ist bei diesem Bezahlvorgang nicht erlaubt."
           },
           "attribution": {
-            "retail_attribution_not_allowed": "Die Einzelhandelszuordnung ist für diesen Kaufvorgang nicht erlaubt.",
-            "retail_attribution_required": "Für diesen Kaufabschluss ist eine Einzelhandelszuordnung erforderlich."
+            "retail_attribution_not_allowed": "Die Einzelhandelszuordnung ist für diesen Checkout nicht erlaubt.",
+            "retail_attribution_required": "Die Einzelhandelszuordnung ist für diesen Checkout erforderlich."
           },
           "captcha": {
             "metadata_missing": "Das Ausfüllen eines Captchas ist für diesen Kaufvorgang erforderlich.",
@@ -720,15 +720,16 @@
         "remove_item": "Entfernen %{label}",
         "dates": {
           "weekdays_abbreviation": {
-            "tuesday": "Du",
+            "tuesday": "Tu",
             "wednesday": "Wir",
-            "thursday": "Der",
+            "thursday": "Th",
             "sunday": "Su"
           }
         },
         "datepicker": {
           "show_previous_month": "Vorherigen Monat anzeigen, {{month}} {{year}}",
-          "in_range": "In Reichweite"
+          "in_range": "In Reichweite",
+          "range_end": "Reichweitenende"
         },
         "list_formatter": {
           "and": {
@@ -740,7 +741,8 @@
             "one": "Gruppe von {{number}} Markern",
             "other": "Gruppe von {{number}} Markierungen"
           }
-        }
+        },
+        "continue_to_payment_method": "Zur Zahlung fortfahren"
       },
       "embed": {
         "header": {
