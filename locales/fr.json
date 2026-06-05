@@ -1151,8 +1151,8 @@
           "other": "Expéditions récurrentes"
         },
         "subscription_shipping": "Expédition par abonnement",
-        "subscription_local_delivery": "Abonnement livraison locale",
-        "subscription_pickup": "Retrait par abonnement",
+        "subscription_local_delivery": "Livraison locale par abonnement",
+        "subscription_pickup": "Retrait d'abonnement",
         "waiting_on_rate_notice": "Obtention des tarifs d'expédition disponibles…",
         "waiting_on_pickup_location_notice": "Recherche des points de retrait disponibles…",
         "no_rates_for_cart_or_destination_notice": "Aucun mode de livraison n'est disponible pour votre panier ou votre adresse",
@@ -1212,21 +1212,21 @@
             "other": "Livraison gratuite pour %{count} livraisons, puis %{recurring_order_shipping_price}"
           },
           "max_cycles_base_shipping": {
-            "one": "%{count} livraison(s) supplémentaire(s) pour %{shipping_price}"
+            "one": "%{count} livraison supplémentaire pour %{shipping_price}"
           },
           "prepaid_free_shipping_with_cycles": {
             "one": "Livraison gratuite pour le premier %{cycle}, puis %{recurring_order_shipping_price}",
             "other": "Livraison gratuite pour le premier %{cycle}, puis %{recurring_order_shipping_price}"
           },
           "prepaid_order_one_cycle": {
-            "one": "%{shipping_price} pour %{count} livraisons supplémentaires",
+            "one": "%{shipping_price} pour %{count} livraison(s) supplémentaire(s)",
             "other": "%{shipping_price} pour %{count} livraisons supplémentaires (%{per_delivery_cost})"
           },
           "prepaid_order_one_cycle_delivery_not_included": {
             "one": "%{shipping_price} pour %{count} livraison"
           },
           "prepaid_order_no_cycle": {
-            "one": "%{shipping_price} pour %{count} livraisons supplémentaires, suivi de %{recurring_order_shipping_price}",
+            "one": "%{shipping_price} pour %{count} livraison(s) supplémentaire(s), suivi de %{recurring_order_shipping_price}",
             "other": "%{shipping_price} pour %{count} livraisons supplémentaires (%{per_delivery_cost}), suivi de %{recurring_order_shipping_price}"
           },
           "prepaid_order_no_cycle_delivery_not_included": {
@@ -1234,7 +1234,7 @@
           },
           "subscription_free_with_frequency_label": "Livraison gratuite %{delivery_frequency}",
           "prepaid_delivery_frequency": {
-            "one": "pour %{count} livraison",
+            "one": "pour une livraison de %{count}",
             "other": "pour %{count} livraisons"
           },
           "subscription_delivery_frequency": {
@@ -1255,7 +1255,7 @@
           "prepaid_initial_order_discounted": "Premier coût d'expédition %{discounted_shipping_price} %{prepaid_delivery_frequency}",
           "prepaid_initial_order_discounted_with_per_delivery_price": "Premier coût d'expédition %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
           "prepaid_initial_order_discounted_with_renewal": "Premier coût d'expédition %{discounted_shipping_price} %{prepaid_delivery_frequency}, puis %{shipping_price} %{billing_cycle}",
-          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Premier coût de livraison %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), puis %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Premier coût d'expédition %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), puis %{shipping_price} %{billing_cycle}",
           "recurring_order_shipping_price": "suivi de %{recurring_order_shipping_price}",
           "first_n_order_free": {
             "other": "Premières %{count} commandes gratuites"
@@ -1321,7 +1321,8 @@
         "split_shipping_option_custom": "Personnalisé",
         "choose_new_address": "Choisissez une nouvelle adresse",
         "shipping_address_title": "Livrer à",
-        "split_shipping_multiple_shipment_notice": "Votre commande arrivera en plusieurs livraisons"
+        "split_shipping_multiple_shipment_notice": "Votre commande arrivera en plusieurs livraisons",
+        "third_party_payment_timeout": "Impossible de charger les méthodes de paiement. Réessayez ou utilisez une autre méthode de paiement."
       },
       "localized_fields": {
         "additional_information": {

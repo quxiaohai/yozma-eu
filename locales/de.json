@@ -2641,10 +2641,10 @@
         "return_to_checkout": "Zurück zur Kasse",
         "redirect_hint": "Sie werden aufgefordert, sich mit {{walletName}} anzumelden.",
         "logged_in": "Verbunden mit {{email}}",
-        "payment_in_progress_title": "Zahlung wird durchgeführt",
-        "payment_in_progress_body": "Ihre Zahlung wird bearbeitet. Ihre Bestellung wird bald abgeschlossen.",
-        "redirection_notice": "Sie werden zu {{walletName}} weitergeleitet, um Ihren Kauf abzuschließen",
-        "recovery_notice": "Es gibt ein Problem mit Ihren Bestelldaten. Aktualisieren Sie Ihre Angaben, um die Zahlung abzuschließen.",
+        "payment_in_progress_title": "Zahlung wird bearbeitet",
+        "payment_in_progress_body": "Ihre Zahlung wird bearbeitet. Ihre Bestellung wird bald abgeschlossen sein.",
+        "redirection_notice": "Sie werden zu {{walletName}} weitergeleitet, um Ihren Kauf abzuschließen.",
+        "recovery_notice": "Es gibt ein Problem mit Ihren Bestelldaten. Aktualisieren Sie Ihre Informationen, um die Zahlung abzuschließen.",
         "errors": {
           "unavailable": {
             "description": "{{walletName}} war nicht verfügbar. Verwenden Sie eine andere Zahlungsmethode oder versuchen Sie es später erneut.",
@@ -2652,7 +2652,7 @@
             "unavailable_for_country": "{{walletName}} ist in {{countryName}} nicht verfügbar. Wählen Sie eine andere Zahlungsmethode, um Ihren Kauf abzuschließen."
           },
           "unavailable_terminal": {
-            "instructions": "{{walletName}} ist für Ihre Bestellung derzeit nicht verfügbar. Um Ihren Kauf fortzusetzen, wählen Sie bitte eine andere Zahlungsmethode."
+            "instructions": "{{walletName}} ist derzeit für Ihre Bestellung nicht verfügbar. Um Ihren Kauf fortzusetzen, wählen Sie eine andere Zahlungsmethode."
           },
           "generic": "Es gab ein Problem mit {{walletName}}. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
           "discount_code": "Dieser Rabattcode kann nicht angewendet werden. Überprüfen Sie Ihren Code und versuchen Sie es erneut.",
@@ -2674,33 +2674,34 @@
           "invalid": {
             "shipping_address": "Geben Sie eine gültige Lieferadresse ein",
             "billing_address": "Geben Sie eine gültige Rechnungsadresse ein",
-            "shipping_option": "Wählen Sie eine gültige Versandart aus",
+            "shipping_option": "Wählen Sie eine gültige Versandoption",
             "email": "Geben Sie eine gültige E-Mail-Adresse ein",
-            "zone": "Geben Sie ein gültiges Bundesland / eine gültige Provinz ein",
-            "billing_zone": "Geben Sie einen gültigen Bundesland- / Provinz der Rechnungsadresse ein",
+            "zone": "Geben Sie einen gültigen Bundesstaat / eine gültige Provinz ein",
+            "billing_zone": "Geben Sie einen gültigen Bundesstaat / eine gültige Provinz der Rechnungsadresse ein",
             "emirate": "Geben Sie ein gültiges Emirat ein",
             "postal_code": "Geben Sie eine gültige Postleitzahl ein",
             "phone": "Geben Sie eine gültige Telefonnummer ein",
             "billing_phone": "Geben Sie eine gültige Telefonnummer für die Rechnungsadresse ein",
-            "reduction_code": "Geben Sie einen gültigen Rabattcode oder Geschenkgutschein ein",
+            "reduction_code": "Geben Sie einen gültigen Rabattcode oder eine Geschenkkarte ein",
             "billing_zip": "Geben Sie eine gültige Rechnungsadresse PLZ / Postleitzahl ein"
           },
           "missing": {
             "first_name": "Geben Sie einen Vornamen ein",
-            "billing_first_name": "Geben Sie einen Vornamen für die Rechnungsadresse ein",
-            "last_name": "Geben Sie einen Nachnamen ein",
-            "address1": "Geben Sie eine Adresse ein",
-            "billing_address1": "Geben Sie eine Rechnungsadresse ein",
+            "billing_first_name": "Geben Sie zuerst eine Rechnungsadresse Vorname ein",
+            "last_name": "Nachnamen eingeben",
+            "address1": "Adresse eingeben",
+            "billing_address1": "Rechnungsadresse eingeben",
             "address2": "Geben Sie eine Wohnung, Suite usw. ein.",
-            "billing_address2": "Geben Sie eine Rechnungsadresse, Wohnung, Suite usw. ein.",
-            "city": "Geben Sie eine Stadt ein",
+            "billing_address2": "Geben Sie eine Rechnungsadresse ein, Wohnung, Suite usw.",
+            "city": "Stadt eingeben",
             "billing_city": "Geben Sie eine Rechnungsadresse Stadt ein",
-            "province": "Wählen Sie einen Bundesstaat / ein Bundesland aus",
-            "billing_province": "Wählen Sie einen Bundesstaat / ein Bundesland für die Rechnungsadresse aus",
-            "country": "Wählen Sie ein Land/Region aus",
-            "zip": "Geben Sie eine Postleitzahl ein",
+            "province": "Wählen Sie einen Bundesstaat / eine Provinz aus",
+            "billing_province": "Wählen Sie einen Bundesstaat / eine Provinz für die Rechnungsadresse aus",
+            "country": "Land/Region auswählen",
+            "zip": "Postleitzahl eingeben",
             "billing_zip": "Geben Sie eine Rechnungsadresse PLZ / Postleitzahl ein",
-            "phone": "Geben Sie eine Telefonnummer ein"
+            "phone": "Telefonnummer eingeben",
+            "contact_info": "Geben Sie Ihre Kontaktdaten ein"
           },
           "formatting": {
             "name_contains_emojis": "Entferne Emojis aus deinem Namen",
@@ -2709,8 +2710,9 @@
             "last_name_too_long": "Der Nachname enthält zu viele Buchstaben",
             "address_too_long": "Die Adresszeile ist zu lang"
           },
-          "select_different_shipping_address_to_resolve_errors": "Ihre Lieferadresse ist ungültig. Wählen Sie eine andere Adresse oder verwenden Sie eine neue.",
-          "processing_error_checkout_as_guest": "Bei der Verarbeitung Ihrer Zahlung ist ein Problem aufgetreten. Versuchen Sie es erneut oder {{checkout_as_guest_link}}."
+          "select_different_shipping_address_to_resolve_errors": "Ihre Versandadresse ist ungültig. Wählen Sie eine andere Adresse oder verwenden Sie eine neue.",
+          "processing_error_checkout_as_guest": "Es gab ein Problem bei der Verarbeitung Ihrer Zahlung. Versuchen Sie es erneut oder {{checkout_as_guest_link}}.",
+          "subscription_review_required": "Ihre Bestellung umfasst ein Abonnement. Sie müssen die untenstehenden Bedingungen überprüfen, bevor Sie Ihre Bestellung abschließen."
         },
         "scrim": {
           "continue_purchase_in_window": "Fahren Sie mit Ihrem Kauf im {{walletName}} Fenster fort",
