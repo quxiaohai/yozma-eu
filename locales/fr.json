@@ -943,7 +943,7 @@
           "all_products_one": "Le produit dans votre panier n'est pas disponible pour la livraison à %{location_name}.",
           "all_products_other": "Les produits dans votre panier ne sont pas disponibles pour la livraison à %{location_name}."
         },
-        "change_address_only": "Changez l'adresse de livraison pour continuer.",
+        "change_address_only": "Modifier l'adresse de livraison pour continuer.",
         "change_address_or_remove": "Modifier l'adresse de livraison ou %{remove_action}.",
         "remove_items_action": {
           "one": "supprimer l'article indisponible"
@@ -1742,11 +1742,11 @@
       },
       "merchant_instruction_errors": {
         "empty_stable_id": "L'instruction de marchandise %{position} %{name} contient un ID stable vide.",
-        "invalid_stable_id_target": "L'instruction de marchandise %{position} %{name} fait référence à l'ID stable %{stable_id}, mais cet ID stable ne figure pas dans les lignes de marchandise.",
+        "invalid_stable_id_target": "L'instruction de marchandises %{position} %{name} fait référence à l'ID stable %{stable_id}, mais cet ID stable ne figure pas dans les lignes de marchandises.",
         "duplicate_variant_id": "L'instruction de marchandise %{position} %{name} contient un ID de variante en double %{variant_id}.",
-        "invalid_variant_id_target": "La notice de marchandises %{name} fait référence à l’ID de variante %{variant_id}, mais cette variante ne figure pas dans les lignes de marchandises.",
+        "invalid_variant_id_target": "L'instruction de marchandise %{name} fait référence à l'ID de variante %{variant_id}, mais cette variante ne figure pas dans les lignes de marchandise.",
         "invalid_price_override_target": "L'instruction de remplacement de prix pour l'article %{stable_id} est invalide car il s'agit d'un composant d'un ensemble.",
-        "discount_not_supported": "L'instruction du commerçant pour appliquer la remise sur les marchandises ne prend pas en charge ce type de remise."
+        "discount_not_supported": "L'instruction du commerçant pour appliquer une remise sur les marchandises ne prend pas en charge ce type de remise."
       },
       "payment_errors": {
         "amount_too_small": "Le montant minimum du paiement doit être supérieur à 0,50 $ US. Veuillez réessayer avec un montant plus élevé.",
@@ -2336,7 +2336,7 @@
         "header": "Vous n'avez pas d'adresse de livraison pour cet emplacement",
         "alt_header": "Adresse de livraison manquante",
         "message": "Contactez-nous pour ajouter une adresse à cet emplacement afin de finaliser la commande.",
-        "email_us_button_label": "Envoyez-nous un courriel"
+        "email_us_button_label": "Envoyez-nous un e-mail"
       },
       "order_errors": {
         "creation_failure": "Un problème est survenu lors de la création de votre commande. Veuillez réessayer ou nous contacter pour plus de détails.",
@@ -2412,7 +2412,7 @@
       "notice_banner": {
         "subscription_changed": "Une de vos abonnements a changé.",
         "company_location_changed": "Votre panier a été mis à jour. Vérifiez votre commande avant de la valider.",
-        "company_location_changed_product_removed": "Votre panier a été mis à jour car certains produits ne sont pas disponibles à cet endroit. Veuillez vérifier votre commande avant de la valider.",
+        "company_location_changed_product_removed": "Votre panier a été mis à jour car certains produits ne sont pas disponibles à cet endroit. Vérifiez votre commande avant de la valider.",
         "violations_title": "{{violation}} est manquant ou invalide",
         "individual_violations_title": {
           "DeliveryViolations": "Adresse de livraison",
@@ -2420,21 +2420,21 @@
           "UnhandledViolations": "Informations de commande"
         },
         "all_violations_content": "Appelez-nous ou {{emailLink}} pour mettre à jour ces informations et finaliser votre commande :",
-        "all_violations_email_link": "courriel",
-        "editable_shipping_address_violations_message_title": "Ajoutez ces informations pour finaliser votre commande :",
-        "editable_shipping_address_violations_message_footer": "Pour mettre à jour définitivement l'adresse de ce lieu, {{emailLink}}.",
+        "all_violations_email_link": "email",
+        "editable_shipping_address_violations_message_title": "Ajoutez ces informations pour compléter votre commande :",
+        "editable_shipping_address_violations_message_footer": "Pour mettre à jour définitivement l'adresse de cet emplacement, {{emailLink}}.",
         "shipping_address_incomplete_title": "L'adresse de livraison est incomplète",
-        "calculating_shipping": "La livraison est encore en cours de calcul. Réessayez dans quelques secondes. Vous n'avez pas été facturé.",
+        "calculating_shipping": "La livraison est toujours en cours de calcul. Réessayez dans quelques secondes. Vous n'avez pas été facturé.",
         "calculating_taxes": "Les taxes sont encore en cours de calcul. Réessayez dans quelques secondes. Vous n'avez pas été facturé.",
         "generic_processing_error": {
-          "body": "Vous n'avez pas été facturé. Réessayez ou utilisez un autre mode de paiement."
+          "body": "Vous n'avez pas été facturé. Essayez de nouveau ou utilisez un autre mode de paiement."
         },
-        "payment_method_not_available_with_payment_terms": "Le mode de paiement que vous avez sélectionné n'est plus disponible car le paiement de cette commande est désormais soumis aux conditions {{paymentTerms}}.",
-        "payment_method_not_available_with_fulfillment_terms": "La méthode de paiement que vous avez choisie n'est plus disponible car le paiement de cette commande est désormais exigible à la livraison",
-        "payment_method_not_available_with_fixed_terms": "La méthode de paiement que vous avez choisie n'est plus disponible car le paiement de cette commande est prévu ultérieurement",
-        "payment_method_not_available_with_review_requirement": "La méthode de paiement que vous avez choisie n'est plus disponible car le paiement sera exigible une fois votre commande confirmée.",
+        "payment_method_not_available_with_payment_terms": "La méthode de paiement que vous avez sélectionnée n'est plus disponible car le paiement de cette commande est désormais sous les conditions {{paymentTerms}}.",
+        "payment_method_not_available_with_fulfillment_terms": "La méthode de paiement que vous avez sélectionnée n'est plus disponible car le paiement de cette commande est désormais dû à la livraison.",
+        "payment_method_not_available_with_fixed_terms": "La méthode de paiement que vous avez sélectionnée n'est plus disponible car le paiement de cette commande est dû ultérieurement",
+        "payment_method_not_available_with_review_requirement": "La méthode de paiement que vous avez sélectionnée n'est plus disponible car le paiement sera dû une fois votre commande confirmée.",
         "contact_information": {
-          "title": "Les coordonnées sont invalides"
+          "title": "Les informations de contact sont invalides"
         },
         "validation_errors_banner": {
           "heading": {
