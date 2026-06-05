@@ -831,7 +831,7 @@
       },
       "remote_merchandise_only": {
         "title": "Schließen Sie Ihren Kauf ab",
-        "remote_only_notice": "Diese Artikel werden von anderen Geschäften verkauft und versandt. Bitte schließen Sie den Kauf bei jedem Geschäft einzeln ab.",
+        "remote_only_notice": "Diese Artikel werden von anderen Geschäften verkauft und versandt. Schließen Sie den Kauf bei jedem Geschäft separat ab.",
         "return_to_store_label": "Zurück zum Geschäft",
         "single_shop_transition": "Wir leiten Sie zu %{advertiser} weiter, um Ihren Kauf abzuschließen."
       },
@@ -1717,12 +1717,12 @@
       "redeemable_errors": {
         "gift_card": {
           "duplicate": "Die Geschenkkarte wurde bereits auf Ihre Bestellung angewendet",
-          "insufficient_funds": "Diese Geschenkkarte ist nicht mehr aufgeladen",
+          "insufficient_funds": "Diese Geschenkkarte ist nicht mehr aufgeladen.",
           "expired": "Diese Geschenkkarte ist abgelaufen",
           "not_available": "Diese Geschenkkarte ist nicht mehr verfügbar",
           "invalid": "Geben Sie eine gültige Geschenkkarte ein",
           "currency_mismatch": "Es werden nur Geschenkkarten in %{shop_currency} akzeptiert",
-          "generic": "Die Geschenkkarte konnte nicht zum Bezahlvorgang hinzugefügt werden",
+          "generic": "Die Geschenkkarte konnte nicht zum Checkout hinzugefügt werden",
           "throttle_limit_exceeded": "Sie haben die maximale Anzahl an Versuchen überschritten. Versuchen Sie es später erneut.",
           "no_longer_available": "Diese Geschenkkarte kann bei diesem Bezahlvorgang nicht mehr verwendet werden."
         }
@@ -1839,19 +1839,19 @@
         "complete_your_purchase_title_error": "Korrigieren Sie Ihre Zahlungsinformationen",
         "continue_to_payment_gateway_notice_error": "Ihre Zahlungsinformationen konnten nicht verifiziert werden.",
         "your_order_has_been_received_title": "Danke für Ihre Bestellung",
-        "you_will_receive_confirmation": "Wir erhalten gerade viele Bestellungen. Sie sollten bald eine Bestätigung per E-Mail oder SMS erhalten. Falls Sie diese nicht innerhalb der nächsten Stunde bekommen, lassen Sie es uns bitte wissen.",
-        "you_will_not_be_charged": "Ihnen wird noch nichts berechnet",
+        "you_will_receive_confirmation": "Wir erhalten gerade viele Bestellungen. Sie sollten bald eine Bestätigung per E-Mail oder SMS erhalten. Falls Sie diese innerhalb der nächsten Stunde nicht bekommen, lassen Sie es uns bitte wissen.",
+        "you_will_not_be_charged": "Sie werden noch nicht belastet",
         "wait": {
           "short": "Ihre Bestellung wird bearbeitet.",
           "medium": {
             "one": "Ihre Bestellung wird bearbeitet. Die geschätzte Wartezeit beträgt %{count} Minute.",
             "other": "Ihre Bestellung wird bearbeitet. Die geschätzte Wartezeit beträgt %{count} Minuten."
           },
-          "long": "Sie erhalten eine E-Mail, sobald Ihre Bestellung bearbeitet wurde. Zurzeit gibt es ein hohes Bestellaufkommen.",
+          "long": "Sie erhalten eine E-Mail, sobald Ihre Bestellung bearbeitet wurde. Derzeit gibt es ein hohes Bestellaufkommen.",
           "no_auto_refresh_html": "Wenn Sie nicht automatisch weitergeleitet werden, %{link}.",
-          "refresh_this_page": "Diese Seite neu laden"
+          "refresh_this_page": "Diese Seite aktualisieren"
         },
-        "remote_shops_payments_processing": "Zahlungen bearbeiten",
+        "remote_shops_payments_processing": "Zahlungen verarbeiten",
         "action_required": "Aktion erforderlich",
         "continue_to_payment_gateway_button_label": "Zur Zahlung fortfahren"
       },
@@ -2217,7 +2217,8 @@
           "ship_items_to": {
             "one": "Versende %{count} Artikel an",
             "other": "Versende %{count} Artikel an"
-          }
+          },
+          "change_purchase_order_number_label": "PO-Nummer ändern"
         },
         "block_title": "Überprüfen Sie Ihre Angaben"
       },
@@ -2253,7 +2254,7 @@
         "terms_and_policies": "Bedingungen und Richtlinien"
       },
       "remote_policies": {
-        "unavailable_policy": "Für diesen Shop wurde keine %{policy_name} bereitgestellt. Für weitere Informationen wenden Sie sich bitte direkt an %{shop_name}."
+        "unavailable_policy": "Es wurde keine %{policy_name} für diesen Shop bereitgestellt. Für weitere Informationen kontaktieren Sie bitte %{shop_name} direkt."
       },
       "mor_policies": {
         "terms_and_conditions": "Geschäftsbedingungen des Händlers",
@@ -2719,10 +2720,10 @@
       },
       "remote": {
         "errors": {
-          "only_remote_merchandise_lines": "Der Warenkorb enthält nur entfernte Waren. Um den Kauf abzuschließen, ist eine Weiterleitung zum entfernten Laden erforderlich.",
+          "only_remote_merchandise_lines": "Der Warenkorb enthält nur entfernte Waren. Um den Kauf abzuschließen, ist eine Weiterleitung zum entfernten Shop erforderlich.",
           "currency_mismatch": "Dieser Artikel kann nicht zu Ihrem Warenkorb hinzugefügt werden, da er aus einem Geschäft stammt, das eine andere Währung verwendet.",
           "currency_mismatch_removal": "Ein Artikel wurde aus Ihrem Warenkorb entfernt, da er aus einem Geschäft stammt, das eine andere Währung verwendet.",
-          "max_remote_shops_exceeded": "Dieses Produkt kann nicht hinzugefügt werden, da Ihr Warenkorb bereits die Höchstmenge von anderen Geschäften enthält."
+          "max_remote_shops_exceeded": "Dieses Produkt kann nicht hinzugefügt werden, da Ihr Warenkorb bereits die maximale Anzahl von anderen Geschäften enthält."
         }
       },
       "units": {
@@ -2750,7 +2751,7 @@
       },
       "required_extensions": {
         "errors": {
-          "interaction_required": "Für den Abschluss des Kaufs ist eine Erweiterungsinteraktion erforderlich."
+          "interaction_required": "Für den Abschluss des Bestellvorgangs ist eine Erweiterungsinteraktion erforderlich."
         }
       },
       "taxes": {
