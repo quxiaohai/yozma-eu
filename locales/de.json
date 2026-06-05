@@ -933,9 +933,9 @@
           "one": "%{count} Artikel anzeigen"
         },
         "more_items_modal": {
-          "search_item": "Suchen",
+          "search_item": "Suche",
           "clear_search": "Suche löschen",
-          "empty_results": "Keine Ergebnisse für \"%{searchText}\" gefunden. Überprüfen Sie die Rechtschreibung oder verwenden Sie ein anderes Wort oder eine andere Phrase."
+          "empty_results": "Keine Ergebnisse gefunden für \"%{searchText}\". Überprüfen Sie die Rechtschreibung oder verwenden Sie ein anderes Wort oder eine andere Phrase."
         },
         "order_name_label": "Bestelle %{name}",
         "shopping_cart_label": "Einkaufswagen",
@@ -994,7 +994,7 @@
         "shipping_default_value": "Berechnet im nächsten Schritt",
         "shipping_pending_message": "Noch nicht verfügbar",
         "shipping_policy_link": "Versandkosten",
-        "estimated_taxes_finalization_tooltip_content": "Die endgültige Steuer und der Gesamtbetrag werden Ihnen per E-Mail oder SMS bestätigt, nachdem Sie Ihre Bestellung aufgegeben haben.",
+        "estimated_taxes_finalization_tooltip_content": "Die endgültige Steuer und die Gesamtsumme werden Ihnen per E-Mail oder SMS bestätigt, nachdem Sie Ihre Bestellung aufgegeben haben.",
         "price_after_discount_aria_text": "Reduzierter Preis",
         "total_savings": "Gesamteinsparungen",
         "total_due_label": "Gesamtbetrag fällig",
@@ -1003,7 +1003,7 @@
         "total_due_later_label": "Gesamtbetrag später fällig",
         "payment_due_label": "Zahlung fällig",
         "vat_label_html": "Inklusive %{amount} Steuern",
-        "duties_included_label": "Der Gesamtbetrag beinhaltet Steuern und Abgaben. Keine zusätzlichen Kosten bei der Lieferung.",
+        "duties_included_label": "Gesamtbetrag beinhaltet Steuern und Abgaben. Keine zusätzlichen Gebühren bei Lieferung.",
         "discount_and_gift_card_savings_notice": "Nach %{discount_amount} Rabatt und %{gift_card_amount} an Geschenkkarten",
         "gift_card_savings_notice": "Nach %{gift_card_amount} an Geschenkkarten",
         "cost_table_title": "Kostenübersicht",
@@ -1054,10 +1054,10 @@
         "maximum_discount_code_limit_reached": "Sie haben die maximale Anzahl an Rabattcodes erreicht. Entfernen Sie einen vorhandenen Code, um <strong style=\"text-transform:uppercase\">%{code}</strong> zu verwenden.",
         "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> funktioniert gerade nicht. Kontaktieren Sie uns für Hilfe.",
         "due_on_fulfillment": "Fällig bei Erfüllung",
-        "duties_label": "Aufgaben",
-        "duties_and_taxes_label": "Abgaben und Steuern",
+        "duties_label": "Pflichten",
+        "duties_and_taxes_label": "Zölle und Steuern",
         "error_duties_tooltip": "Diese Bestellung wird aus einem anderen Land versandt, daher können bei der Lieferung Zölle und Steuern anfallen.",
-        "may_be_charged_on_delivery": "Kann bei Lieferung bezahlt werden",
+        "may_be_charged_on_delivery": "Kann bei Lieferung berechnet werden",
         "total_updated_label_with_price": "Aktualisierter Gesamtpreis: %{totalPrice}",
         "updated_shipping_method": "Aktualisierte Versandmethode: %{shipping_method}",
         "recurring_total_multiple_label": "Diese Bestellung enthält eine wiederkehrende Gebühr für mehrere Artikel.",
@@ -1075,7 +1075,8 @@
         "deposit_label": "Einzahlung",
         "discount_discovery": {
           "back_to_finalize_order": "Zurück, um die Bestellung abzuschließen"
-        }
+        },
+        "estimated_taxes_finalization_tooltip_content_short": "Steuer nach der Zahlung endgültig festgelegt"
       },
       "shipping": {
         "shipping_method_title": "Versandart",
