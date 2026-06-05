@@ -2942,18 +2942,18 @@
       }
     },
     "search": {
-      "error": "Er was een probleem bij het laden van uw zoekresultaten. Vernieuw de pagina of probeer het later opnieuw.",
+      "error": "Er was een probleem bij het laden van je zoekresultaten. Vernieuw de pagina of probeer het later opnieuw.",
       "sorting": {
-        "price_ascending": "Prijs, van laag naar hoog",
+        "price_ascending": "Prijs, laag naar hoog",
         "price_descending": "Prijs, van hoog naar laag"
       }
     },
     "page_titles": {
-      "shopping_cart": "Uw Winkelwagen",
+      "shopping_cart": "Je winkelwagen",
       "account": "Account",
       "reset_account": "Account opnieuw instellen",
       "search_results": {
-        "one": "Zoekresultaat: %{count} resultaat gevonden voor \"%{terms}\"",
+        "one": "Zoeken: %{count} resultaat gevonden voor \"%{terms}\"",
         "other": "Zoeken: %{count} resultaten gevonden voor \"%{terms}\""
       },
       "not_found": "404 Niet Gevonden"
@@ -2971,14 +2971,14 @@
     },
     "store_availability": {
       "pick_up_time": {
-        "one_hour": "Gewoonlijk klaar binnen 1 uur",
-        "two_hours": "Gewoonlijk klaar binnen 2 uur",
-        "four_hours": "Gewoonlijk klaar binnen 4 uur",
-        "twenty_four_hours": "Gewoonlijk binnen 24 uur klaar",
-        "two_to_four_days": "Gewoonlijk klaar binnen 2-4 dagen",
-        "five_or_more_days": "Gewoonlijk binnen 5+ dagen klaar",
-        "zero_to_two_hours": "Gewoonlijk klaar binnen 2 uur",
-        "two_to_four_hours": "Gewoonlijk klaar binnen 4 uur",
+        "one_hour": "Meestal klaar binnen 1 uur",
+        "two_hours": "Meestal klaar binnen 2 uur",
+        "four_hours": "Meestal klaar binnen 4 uur",
+        "twenty_four_hours": "Meestal binnen 24 uur klaar",
+        "two_to_four_days": "Meestal klaar binnen 2-4 dagen",
+        "five_or_more_days": "Meestal klaar binnen 5+ dagen",
+        "zero_to_two_hours": "Meestal klaar binnen 2 uur",
+        "two_to_four_hours": "Meestal klaar binnen 4 uur",
         "next_day": "Klaar voor afhaling de volgende dag"
       }
     },
