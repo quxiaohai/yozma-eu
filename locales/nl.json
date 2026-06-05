@@ -1810,7 +1810,7 @@
         "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} is verschuldigd zodra uw bestelling is bevestigd. Het resterende bedrag wordt voldaan zodra uw bestelling is voltooid."
       },
       "thank_you": {
-        "title": "Dank u voor uw aankoop!",
+        "title": "Bedankt voor uw aankoop!",
         "confirmation_email_sent_text": "Er is een bevestigingsmail gestuurd naar %{email}",
         "return_to_store_link_label": "Doorgaan met winkelen",
         "print_link_label": "Bon afdrukken",
@@ -1836,7 +1836,7 @@
         },
         "gift_card_confirmation_by_text": "Als je het niet hebt ontvangen, stuur de sms dan opnieuw of neem contact met ons op.",
         "gift_card_confirmation_by_email": "Als je het niet hebt ontvangen, stuur dan de e-mail opnieuw of neem contact met ons op.",
-        "thank_you_title": "Uw bestelling is bevestigd",
+        "thank_you_title": "Je bestelling is bevestigd",
         "thank_you_title_payment": "Uw betaling is bevestigd",
         "thank_you_title_review": "Uw bestelling is ingediend voor beoordeling",
         "thank_you_title_payments_app_pending_default": "Uw betaling wordt verwerkt",
@@ -1871,28 +1871,28 @@
         "thank_you_confirmed_order_with_draft_payment": "We laten het je weten als we meer informatie nodig hebben of wanneer je bestelling is bevestigd.",
         "thank_you_confirmed_order_with_draft_pick_up": "We laten het je weten als we meer informatie nodig hebben of wanneer je bestelling is bevestigd.",
         "thank_you_unconfirmed_items_heading": {
-          "other": "Sommige artikelen zijn niet bevestigd"
+          "other": "Sommige items zijn niet bevestigd"
         },
         "thank_you_unconfirmed_items_description": {
-          "one": "Je bent hier niet voor in rekening gebracht",
-          "other": "Je bent hier niet voor in rekening gebracht"
+          "one": "Je bent hier niet voor gefactureerd",
+          "other": "Je bent hier niet voor gefactureerd"
         },
         "thank_you_from_other_store": "Van een andere winkel",
         "thank_you_payments_app_failed_pending_payment": "Je bent niet belast voor je bestelling. Ga terug naar je winkelwagen om je bestelling te bekijken en opnieuw te betalen.",
         "thank_you_payments_app_failed_pending_payment_payment": "Je bent niet belast voor je bestelling. Ga terug naar je winkelwagen om je bestelling te bekijken en opnieuw te betalen.",
         "thank_you_payments_app_failed_pending_payment_pick_up": "Je bent niet belast voor je bestelling. Ga terug naar je winkelwagen om je bestelling te bekijken en opnieuw te betalen.",
-        "thank_you_payments_app_pending_payment_description_default_with_missing": "Neem contact met ons op via e-mail of telefoon om een bestelbevestiging te ontvangen.",
-        "thank_you_payments_app_pending_payment_description_default_with_missing_payment": "Neem contact met ons op via e-mail of telefoon om een bestelbevestiging te ontvangen.",
-        "thank_you_payments_app_pending_payment_description_default_with_missing_pick_up": "Neem contact met ons op via e-mail of telefoon om een bestelbevestiging te ontvangen.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing": "Neem contact met ons op via e-mail of telefoon om een orderbevestiging te ontvangen.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing_payment": "Neem contact met ons op via e-mail of telefoon om een orderbevestiging te ontvangen.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing_pick_up": "Neem contact met ons op via e-mail of telefoon om een orderbevestiging te ontvangen.",
         "thank_you_payments_app_pending_payment_description_default_with_email_and_phone": "Je ontvangt binnenkort een bevestigingsmail met je bestelnummer.",
         "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_payment": "Je ontvangt binnenkort een bevestigingsmail met je bestelnummer.",
         "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "Je ontvangt binnenkort een bevestigingsmail met je bestelnummer.",
         "thank_you_payments_app_pending_payment_description_default_with_email": "Je ontvangt binnenkort een bevestigingsmail met je bestelnummer.",
         "thank_you_payments_app_pending_payment_description_default_with_email_payment": "Je ontvangt binnenkort een bevestigingsmail met je bestelnummer.",
         "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "Je ontvangt binnenkort een bevestigingsmail met je bestelnummer.",
-        "thank_you_payments_app_pending_payment_description_default_with_phone": "U ontvangt binnenkort een bevestigingstekst met uw bestelnummer.",
-        "thank_you_payments_app_pending_payment_description_default_with_phone_payment": "U ontvangt binnenkort een bevestigingstekst met uw bestelnummer.",
-        "thank_you_payments_app_pending_payment_description_default_with_phone_pick_up": "U ontvangt binnenkort een bevestigingstekst met uw bestelnummer.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone": "Je ontvangt binnenkort een bevestigingsbericht met je bestelnummer.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_payment": "Je ontvangt binnenkort een bevestigingsbericht met je bestelnummer.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_pick_up": "Je ontvangt binnenkort een bevestigingsbericht met je bestelnummer.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing": "Neem contact met ons op via e-mail of telefoon om een orderbevestiging te ontvangen.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Neem contact met ons op via e-mail of telefoon om een orderbevestiging te ontvangen.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "Neem contact met ons op via e-mail of telefoon om een orderbevestiging te ontvangen.",
@@ -1906,7 +1906,7 @@
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Na het voltooien van je betaling ontvang je een bevestigingstekst met je ordernummer.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Na het voltooien van je betaling ontvang je een bevestigingstekst met je ordernummer.",
         "thank_you_payments_app_pending_payment_description_provider_action_required_default": "Uw betaling wordt verwerkt. U ontvangt een e-mail zodra uw betaling is bevestigd.",
-        "track_your_order_link_text": "Volg uw bestelling",
+        "track_your_order_link_text": "Volg je bestelling",
         "checkout_again": "Opnieuw afrekenen",
         "order_status_confirmed_order_with_email": "Je ontvangt een e-mail zodra je bestelling klaar is.",
         "order_status_confirmed_order_with_phone": "Je kunt een sms ontvangen wanneer je bestelling klaar is.",
@@ -2056,9 +2056,9 @@
           "title": "btw-facturen"
         },
         "verify_shop_account_title": "Verifieer uw Shop-account",
-        "verify_shop_account_message": "Uw gegevens zijn opgeslagen bij Shop, verifieer uw account om deze automatisch te gebruiken in miljoenen winkels.",
+        "verify_shop_account_message": "Uw gegevens zijn opgeslagen bij Shop, verifieer uw account om ze automatisch te gebruiken in miljoenen winkels.",
         "verify_shop_account_cta": "Verifieer uw account",
-        "verify_shop_account_confirmation": "Betaalgegevens opgeslagen",
+        "verify_shop_account_confirmation": "Afrekengegevens opgeslagen",
         "announcement": {
           "expand": "Uitvouwen",
           "collapse": "Samenvouwen"
@@ -2070,7 +2070,8 @@
         "order_updates_subscribe_to_email_notifications_failed": "We kunnen deze e-mail niet opslaan voor updates. Probeer het opnieuw of gebruik een ander e-mailadres.",
         "thank_you_item_label": {
           "other": "%{count} items"
-        }
+        },
+        "view_business_customer_account": "Bekijk account"
       },
       "review": {
         "title": "Beoordeling",
@@ -2208,10 +2209,10 @@
       },
       "throttle": {
         "inventory": {
-          "partial_inventory_banner": "Een deel van uw winkelwagen is uitverkocht en zal niet beschikbaar zijn om af te rekenen.",
+          "partial_inventory_banner": "Een deel van je winkelwagen is uitverkocht en zal niet beschikbaar zijn om af te rekenen.",
           "sold_out": {
             "storefront_body": "Ga terug naar de winkel om verder te winkelen",
-            "no_storefront_body": "Helaas is het artikel dat u wilt kopen niet langer beschikbaar."
+            "no_storefront_body": "Helaas is het artikel dat u wilt kopen niet meer beschikbaar."
           }
         },
         "time_to_checkout_title": "Tijd om af te rekenen - {{shopName}}",
@@ -2220,7 +2221,7 @@
         },
         "footer": {
           "heading": "Ververs deze pagina niet, deze wordt automatisch bijgewerkt.",
-          "body": "Artikelen in uw winkelwagen zijn niet gereserveerd totdat u de aankoop afrondt."
+          "body": "Artikelen in je winkelwagen zijn niet gereserveerd totdat je de aankoop afrondt."
         }
       },
       "cart_checkout_validation": {
