@@ -526,12 +526,13 @@
         "autocomplete_multi_item": "{{number}} articles disponibles",
         "forwarding_indicator": {
           "external": "Ouvre un site web externe.",
-          "external_and_new_window": "Ouvre un site web externe dans une nouvelle fenêtre."
+          "external_and_new_window": "Ouvre un site externe dans une nouvelle fenêtre.",
+          "new_window": "S'ouvre dans une nouvelle fenêtre."
         },
         "tooltip_accessibility_label": "Plus d'informations",
         "errors": {
           "only_empty_terms_accepted": "Cette politique n'accepte que des conditions vides.",
-          "session_identifier_not_unique_error": "Un problème est survenu avec votre commande, veuillez réessayer de finaliser l'achat.",
+          "session_identifier_not_unique_error": "Un problème est survenu avec votre commande, veuillez réessayer de passer à la caisse.",
           "line_item_limit_reached": "Le nombre maximum d'articles a été atteint.",
           "session_is_already_finished": "Cette session de paiement a déjà été finalisée.",
           "merchandise": {
@@ -614,17 +615,17 @@
           "tax": {
             "new_tax_must_be_accepted": "Les taxes associées à votre commande ont changé. Veuillez vérifier et réessayer.",
             "unresolvable_tax_terms": "Les conditions proposées sont impossibles à résoudre compte tenu du contexte actuel des négociations.",
-            "tax_inclusivity_mismatch": "Renégociez avec la valeur concrète totalTaxAndDutyAmount ou totalAmountIncludedInTarget.",
+            "tax_inclusivity_mismatch": "Renégociez avec la valeur concrète de totalTaxAndDutyAmount ou totalAmountIncludedInTarget.",
             "tax_exemption_not_supported": "Les exonérations fiscales ne sont pas prises en charge pour la session de négociation en cours.",
-            "delivery_tax_exemption_not_supported": "Les exonérations fiscales pour les lignes de livraison ne sont pas prises en charge actuellement.",
-            "proposed_allocations_required": "Champ « attributions proposées » manquant.",
-            "merchandise_terms_must_be_defined": "Les conditions des marchandises doivent être définies.",
+            "delivery_tax_exemption_not_supported": "Les exonérations fiscales pour les lignes de livraison ne sont pas actuellement prises en charge.",
+            "proposed_allocations_required": "Champ « allocations proposées » manquant.",
+            "merchandise_terms_must_be_defined": "Les conditions de marchandise doivent être définies.",
             "delivery_terms_must_be_defined": "Les conditions de livraison doivent être définies.",
             "merchandise_discount_terms_must_be_defined": "Les conditions de remise sur les marchandises doivent être définies.",
             "delivery_discount_terms_must_be_defined": "Les conditions de remise sur la livraison doivent être définies.",
-            "allocated_required": "Champ « alloué » manquant.",
-            "value_required": "Champ « valeur » manquant.",
-            "line_splits_not_supported": "Le champ « lignes de marchandises » doit être divisé de manière à ce que chacune contienne un seul élément de ligne dans la proposition du vendeur."
+            "allocated_required": "Champ 'allocated' manquant.",
+            "value_required": "Champ 'value' manquant.",
+            "line_splits_not_supported": "Le champ « merchandise lines » doit être divisé de manière à ce que chaque élément contienne une seule ligne dans la proposition du vendeur."
           },
           "payment": {
             "manual_payments_not_allowed_for_b2b": "Les paiements manuels ne sont pas autorisés dans les boutiques B2B.",
@@ -635,10 +636,10 @@
             "credit_card_last_name_required": "'last name' ne peut pas être nul.",
             "invalid_address_type": "Le type d'adresse fourni n'est pas valide pour ce mode de paiement.",
             "missing_retail_attributions": "Les attributions de vente au détail sont requises pour les paiements par carte de crédit saisis manuellement.",
-            "unexpected_retail_attributions": "Attributions commerciales fournies de manière inattendue pour le paiement par carte de crédit.",
+            "unexpected_retail_attributions": "Attributions de vente au détail fournies de manière inattendue pour le paiement par carte de crédit.",
             "invalid_card_source": "Cette session n'a pas l'autorisation d'utiliser cette source de carte.",
             "payment_instrument_not_found": "Méthode de paiement introuvable",
-            "unauthorized_capture_method": "La configuration de la méthode de saisie du paiement n'est pas autorisée.",
+            "unauthorized_capture_method": "La configuration de la méthode de capture de paiement n'est pas autorisée.",
             "saved_payment_methods_not_allowed": "Les méthodes de paiement enregistrées ne sont pas autorisées.",
             "saved_payment_methods_not_enabled": "Les méthodes de paiement enregistrées ne sont pas activées pour cette boutique.",
             "saved_payment_methods_cvv_verification_disabled": "La méthode de paiement sélectionnée nécessite une vérification CVV qui n'est pas activée pour cette boutique. Veuillez choisir une autre méthode de paiement.",
@@ -646,7 +647,7 @@
             "store_credit_account_mismatch": "Le compte de crédit en magasin ne correspond pas à l'identité de l'acheteur.",
             "store_credit_mismatched_currency": "La devise du compte de crédit en magasin ne correspond pas à la devise de paiement.",
             "store_credit_insufficient_funds": "Le solde du compte de crédit en magasin est insuffisant.",
-            "store_credit_buying_gift_card": "Vous ne pouvez pas utiliser le crédit en magasin pour acheter une carte-cadeau.",
+            "store_credit_buying_gift_card": "Vous ne pouvez pas utiliser le crédit en magasin pour acheter une carte cadeau.",
             "gift_cards_not_allowed_for_b2b": "Les cartes-cadeaux ne sont pas autorisées dans les magasins B2B.",
             "method_required": "Une méthode de paiement doit être proposée.",
             "paypal_express_address_invalid": "PayPal a renvoyé une adresse invalide."
@@ -660,10 +661,10 @@
           },
           "sale_attribution": {
             "draft_order_not_exist": "Cette commande provisoire n'existe pas dans la boutique actuelle.",
-            "staff_member_not_exist": "Ce bâton n'existe pas dans la boutique actuelle.",
+            "staff_member_not_exist": "Ce personnel n'existe pas dans la boutique actuelle.",
             "location_not_exist": "Cet emplacement n'existe pas dans la boutique actuelle.",
-            "point_of_sale_device_not_exist": "Ce dispositif de point de vente n'existe pas dans la boutique actuelle.",
-            "unresolvable_target_merchandise_lines": "Les attributions de vente proposées sont impossibles à résoudre compte tenu du contexte actuel de la négociation."
+            "point_of_sale_device_not_exist": "Ce terminal de point de vente n'existe pas dans la boutique actuelle.",
+            "unresolvable_target_merchandise_lines": "Les attributions de vente proposées sont impossibles à résoudre compte tenu du contexte actuel de négociation."
           },
           "non_negotiable": {
             "missing_non_negotiable_terms": "Votre proposition d'achat doit contenir des conditions non négociables.",
@@ -699,18 +700,18 @@
         },
         "full_price": "Prix plein :",
         "loading": "Chargement…",
-        "google_map_title": "Carte Google",
-        "submit_for_review_notice_label": "Le paiement ne sera pas exigible avant que votre commande ait été examinée",
+        "google_map_title": "Google Maps",
+        "submit_for_review_notice_label": "Le paiement ne sera pas dû avant que votre commande ne soit examinée",
         "choose_delivery_strategy": "Choisissez un mode de livraison",
         "autocomplete_powered_by_google": "Propulsé par {{brandName}}",
         "submit": "Soumettre",
-        "processing": "Traitement…",
+        "processing": "Traitement en cours…",
         "stepper": {
           "increase": "Augmenter {{type}}",
           "decrease": "Diminuer {{type}}"
         },
         "remove_chip": "Supprimer l'article",
-        "remove_tag": "Supprimer l’étiquette",
+        "remove_tag": "Supprimer l'étiquette",
         "dates": {
           "weekdays": {
             "monday": "Lundi",
@@ -764,7 +765,8 @@
         },
         "dropzone": {
           "dragged_over": "Déposez le fichier pour le télécharger"
-        }
+        },
+        "submit_for_review_button_label": "Soumettre pour révision"
       },
       "embed": {
         "header": {
@@ -1307,12 +1309,12 @@
       "localized_fields": {
         "additional_information": {
           "shipping_credential_kr": "Code des douanes personnelles",
-          "shipping_credential_cn": "Numéro d'identification du résident",
+          "shipping_credential_cn": "Numéro d'identification résidentielle",
           "tax_credential_it": "Code fiscal (facultatif)",
           "tax_email_it": "PEC (optionnel)",
           "tax_credential_co": "Carte d'identité/TVA",
           "tax_credential_type_co": "Type de Cédula",
-          "shipping_credential_co": "Carte d'identité/TVA",
+          "shipping_credential_co": "Cédula/TVA",
           "shipping_credential_type_co": "Type de Cédula",
           "tax_credential_cr": "Numéro d'identification/RUT",
           "shipping_credential_cr": "Numéro d'identification/RUT",
@@ -1331,7 +1333,7 @@
           "tax_credential_pt": "NIF/TVA",
           "shipping_credential_pt": "NIF/TVA",
           "tax_credential_es": "N° d'identification fiscale (DNI/NIF)",
-          "shipping_credential_es": "N° d'identification fiscale (DNI/NIF)",
+          "shipping_credential_es": "DNI/NIF",
           "shipping_credential_tw": "Numéro d'identification national/TVA",
           "tax_credential_tr": "Numéro d'identité de la République de Turquie/TVA",
           "shipping_credential_tr": "Numéro d'identité de la République de Turquie/TVA"
@@ -2463,14 +2465,14 @@
         "title": "Des questions ? Discutez avec nous"
       },
       "local_pickup": {
-        "location_closest": "Lieu le plus proche avec votre article",
+        "location_closest": "Emplacement le plus proche avec votre article",
         "location_information": {
           "one": "Il y a %{count} point de vente avec du stock près de chez vous",
           "other": "Il y a %{count} points de vente avec du stock près de chez vous"
         },
         "location_information_far_away": {
           "one": "Il y a %{count} emplacement avec votre article",
-          "other": "Il y a %{count} endroits où se trouve votre article"
+          "other": "Il y a %{count} emplacements avec votre article"
         },
         "location_nearby": {
           "one": "Il y a %{count} emplacement à proximité avec votre article",
@@ -2480,33 +2482,33 @@
           "one": "%{count} emplacement à proximité avec votre article",
           "other": "%{count} emplacements à proximité avec votre article"
         },
-        "toggle_location": "Changer d’emplacement",
+        "toggle_location": "Changer de lieu",
         "toggle_more_locations": {
           "one": "%{count} emplacement supplémentaire",
           "other": "%{count} autres emplacements"
         },
-        "toggle_multiple_locations": "%{count}+ emplacements supplémentaires",
+        "toggle_multiple_locations": "%{count}+ autres emplacements",
         "search_button": "Trouver des magasins",
         "no_stores_found": "Aucun magasin trouvé",
         "all_stores_far_away": {
           "title": "Les emplacements les plus proches sont à plus de %{distance}",
           "title_with_item": {
-            "one": "Le point de vente le plus proche avec votre article se trouve à plus de %{distance} de %{location}",
-            "other": "Le point de vente le plus proche avec vos articles se trouve à plus de %{distance} de %{location}"
+            "one": "L'emplacement le plus proche avec votre article se trouve à plus de %{distance} de %{location}",
+            "other": "L'emplacement le plus proche avec vos articles se trouve à plus de %{distance} de %{location}"
           },
-          "title_with_specific_location": "Le point de vente le plus proche avec votre article se trouve à plus de %{distance} de %{location}",
+          "title_with_specific_location": "L'emplacement le plus proche avec votre article se trouve à plus de %{distance} de %{location}",
           "description": "Sélectionnez un emplacement ou %{ship_to_address_link}",
           "ship_to_address_link": "livrer à l'adresse",
           "change_location_link": "Changez votre emplacement"
         },
         "selected_pickup_option_no_longer_available": {
           "title": "Votre emplacement précédemment sélectionné n'est plus disponible",
-          "description": "Sélectionnez un nouvel emplacement ou %{ship_to_address_link}",
+          "description": "Nous avons sélectionné l'emplacement le plus proche où vos articles sont en stock",
           "ship_to_address_link": "livrer à l'adresse"
         },
-        "could_not_resolve_address": "Votre adresse n'a pas pu être trouvée. Essayez de nouveau ou utilisez une autre adresse",
+        "could_not_resolve_address": "Votre adresse n'a pas pu être localisée. Essayez de nouveau ou utilisez une autre adresse",
         "paginator": {
-          "accessibility_label": "Pagination pour retrait sur place",
+          "accessibility_label": "Pagination pour retrait local",
           "label": {
             "one": "%{first} - %{last} sur %{count} magasin",
             "other": "%{first} - %{last} sur %{count} magasins"
@@ -2518,11 +2520,45 @@
         },
         "pickup_unavailable_banner_title_with_country": {
           "one": "Aucun emplacement dans %{country} avec votre article",
-          "other": "Aucun emplacement en %{country} avec vos articles"
+          "other": "Aucun emplacement dans %{country} avec vos articles"
         },
         "pickup_unavailable_banner_body": {
           "ship_items": "Expédiez vos articles",
-          "search_elsewhere": "cherchez ailleurs"
+          "search_elsewhere": "chercher ailleurs"
+        },
+        "location_closest_one_item": "Emplacement le plus proche avec votre article",
+        "location_closest_other_items": "Emplacement le plus proche avec vos articles",
+        "location_far_away_one_item": {
+          "one": "%{count} emplacement avec votre article",
+          "other": "%{count} emplacements avec votre article"
+        },
+        "location_far_away_other_items": {
+          "one": "%{count} emplacement avec vos articles",
+          "other": "%{count} emplacements avec vos articles"
+        },
+        "location_information_far_away_one_item": {
+          "one": "Il y a %{count} emplacement avec votre article",
+          "other": "Il y a %{count} emplacements avec votre article"
+        },
+        "location_information_far_away_other_items": {
+          "one": "Il y a %{count} emplacement avec vos articles",
+          "other": "Il y a %{count} emplacements avec vos articles"
+        },
+        "location_nearby_one_item": {
+          "one": "Il y a %{count} emplacement à proximité avec votre article",
+          "other": "Il y a %{count} emplacements à proximité avec votre article"
+        },
+        "location_nearby_other_items": {
+          "one": "Il y a %{count} emplacement à proximité avec vos articles",
+          "other": "Il y a %{count} emplacements à proximité avec vos articles"
+        },
+        "location_nearby_short_one_item": {
+          "one": "%{count} emplacement à proximité avec votre article",
+          "other": "%{count} emplacements à proximité avec votre article"
+        },
+        "location_nearby_short_other_items": {
+          "one": "%{count} emplacement à proximité avec vos articles",
+          "other": "%{count} emplacements à proximité avec vos articles"
         }
       },
       "captcha": {
