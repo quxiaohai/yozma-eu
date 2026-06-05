@@ -499,7 +499,7 @@
         "page_title": "Cassa",
         "skip_to_content": "Vai al contenuto",
         "complete_purchase_button_label": "Completa l'ordine",
-        "expand_notice_label": "Vedi di più",
+        "expand_notice_label": "Mostra di più",
         "continue_to_shipping_method": "Continua alla spedizione",
         "continue_to_payment_method": "Continua al pagamento",
         "continue_to_review": "Rivedi ordine",
@@ -509,7 +509,8 @@
         "contact_us_html": "Contattaci per maggiori informazioni",
         "autocomplete_close": "Chiudi suggerimenti",
         "forwarding_indicator": {
-          "new_window": "Si apre in una nuova finestra."
+          "new_window": "Si apre in una nuova finestra.",
+          "external": "Apre un sito web esterno."
         },
         "checkout_context": {
           "step_one": "%{shop_name} - Pagamento"
@@ -519,33 +520,35 @@
         "errors": {
           "only_empty_terms_accepted": "Questa politica accetta solo termini vuoti.",
           "session_identifier_not_unique_error": "Qualcosa è andato storto con il tuo ordine, prova a completare nuovamente l'acquisto.",
-          "line_item_limit_reached": "È stato raggiunto il numero massimo di voci.",
+          "line_item_limit_reached": "È stato raggiunto il numero massimo di voci in elenco.",
           "session_is_already_finished": "Questa sessione di pagamento è già stata completata.",
           "merchandise": {
             "only_value_constraint": "Sono consentiti solo valori esatti nell'inserimento della merce.",
             "merchandise_variant_not_found": "Variante del prodotto non trovata.",
             "merchandise_not_applicable": "La variante del prodotto non può essere acquistata.",
-            "mixed_currencies": "Il carrello contiene articoli con valute diverse.",
-            "bundle_products_not_supported_for_b2b": "Gli articoli in confezione non possono essere aggiunti agli ordini B2B per questa sede.",
-            "gift_card_quantity_mismatch": "Quando si specificano i codici delle carte regalo, la quantità della voce in elenco e il numero di codici delle carte regalo devono corrispondere.",
-            "gift_card_not_supported": "Le carte regalo non sono supportate in questo pagamento.",
+            "mixed_currencies": "Il checkout contiene articoli con valute diverse.",
+            "bundle_products_not_supported_for_b2b": "Gli articoli in bundle non possono essere aggiunti agli ordini B2B per questa sede.",
+            "gift_card_quantity_mismatch": "Quando si specificano i codici delle carte regalo, la quantità dell'articolo e il numero di codici delle carte regalo devono corrispondere.",
+            "gift_card_not_supported": "Le carte regalo non sono supportate in questo checkout.",
             "gift_card_not_unique": "La carta regalo con codice {{code}} compare più di una volta in questo checkout. I codici vengono formattati prima del confronto.",
             "gift_card_used": "Il codice della carta regalo {{code}} è già assegnato a una carta regalo. I codici vengono formattati prima del confronto.",
             "gift_card_invalid": "Il codice della carta regalo {{code}} non è valido.",
             "gift_card_code_changed": "Il codice della carta regalo {{proposed_code}} è stato modificato in {{formatted_code}} per conformarsi alle regole di formattazione.",
-            "gift_card_with_attributes_not_supported": "Le carte regalo con attributi personalizzati non sono supportate in questo pagamento.",
-            "gift_card_with_components_not_supported": "Le carte regalo con componenti non sono supportate in questo pagamento.",
-            "selling_plan_not_supported_b2b": "Gli abbonamenti non sono supportati per il pagamento B2B.",
+            "gift_card_with_attributes_not_supported": "Le carte regalo con attributi personalizzati non sono supportate in questo checkout.",
+            "gift_card_with_components_not_supported": "Le carte regalo con componenti non sono supportate in questo checkout.",
+            "selling_plan_not_supported_b2b": "Gli abbonamenti non sono supportati per il checkout B2B.",
             "price_mismatch": "Il prezzo precedentemente proposto per questa merce non era valido ed è stato aggiornato.",
-            "inventory_not_found": "Nessuna disponibilità trovata per questa merce.",
+            "inventory_not_found": "Nessun inventario trovato per questa merce.",
             "product_not_published": "Il prodotto non è pubblicato.",
-            "product_not_published_in_buyer_location": "Il prodotto non è pubblicato nella località dell'acquirente.",
+            "product_not_published_in_buyer_location": "Il prodotto non è disponibile nella posizione attuale dell'acquirente.",
             "duplicated_stable_id": "Questa linea di prodotti ha lo stesso ID stabile di un'altra linea.",
             "minimum_quantity_not_met": "La quantità di alcuni articoli non soddisfa il minimo richiesto.",
             "quantity_increment_not_met": "La quantità di alcuni articoli non rispetta i limiti dell'ordine.",
             "quantity_rules_not_met": "La quantità di alcuni articoli non rispetta i limiti dell'ordine.",
-            "bundle_requires_components": "Questo pacchetto di merci non contiene componenti.",
-            "title_too_long": "Il titolo del prodotto è troppo lungo."
+            "bundle_requires_components": "Questo pacchetto di prodotti non contiene componenti.",
+            "title_too_long": "Il titolo del prodotto è troppo lungo.",
+            "combined_listing_parent_not_purchasable": "I prodotti genitori delle inserzioni combinate non possono essere acquistati direttamente.",
+            "title_empty": "Il titolo del prodotto è vuoto."
           },
           "buyer_identity": {
             "customer_account_required": "Devi accedere per continuare.",
@@ -592,35 +595,35 @@
           },
           "tax": {
             "new_tax_must_be_accepted": "Le tasse associate al tuo ordine sono cambiate. Controlla e riprova.",
-            "unresolvable_tax_terms": "I termini proposti non possono essere risolti dato il contesto attuale della trattativa.",
+            "unresolvable_tax_terms": "I termini proposti non sono risolvibili dato l'attuale contesto di negoziazione.",
             "delivery_price_is_abstract": "Il prezzo di consegna correlato è astratto.",
             "tax_inclusivity_mismatch": "Rinegoziare con un valore concreto di totalTaxAndDutyAmount o totalAmountIncludedInTarget.",
-            "tax_exemption_not_supported": "Le esenzioni fiscali non sono supportate per la sessione di trattativa corrente.",
+            "tax_exemption_not_supported": "Le esenzioni fiscali non sono supportate per la sessione di negoziazione corrente.",
             "delivery_tax_exemption_not_supported": "Le esenzioni fiscali per le linee di consegna non sono attualmente supportate.",
-            "proposed_allocations_required": "Campo 'assegnazioni proposte' mancante.",
-            "merchandise_discount_terms_must_be_defined": "I termini per lo sconto sulla merce devono essere definiti.",
-            "delivery_discount_terms_must_be_defined": "I termini per lo sconto sulla consegna devono essere definiti.",
-            "allocated_required": "Campo 'allocato' mancante.",
-            "value_required": "Campo 'valore' mancante.",
-            "line_splits_not_supported": "Il campo 'linee di merce' deve essere suddiviso in modo che ciascuno contenga un singolo componente di linea nella proposta del venditore."
+            "proposed_allocations_required": "Campo 'allocazioni proposte' mancante.",
+            "merchandise_discount_terms_must_be_defined": "I termini dello sconto sulla merce devono essere definiti.",
+            "delivery_discount_terms_must_be_defined": "I termini dello sconto sulla consegna devono essere definiti.",
+            "allocated_required": "Campo 'allocated' mancante.",
+            "value_required": "Campo 'value' mancante.",
+            "line_splits_not_supported": "Il campo 'merchandise lines' deve essere suddiviso in modo che ciascuno contenga un singolo componente di linea nella proposta del venditore."
           },
           "payment": {
             "positive_amount_expected": "L'importo da pagare deve essere maggiore di 0.",
             "total_amount_mismatch": "Il totale da pagare non corrisponde alla somma degli importi dei pagamenti.",
             "missing_session_id": "Informazioni sulla sessione della carta di credito mancanti.",
-            "gateway_not_supported": "Il sistema di pagamento non supporta la memorizzazione del metodo di pagamento.",
+            "gateway_not_supported": "Il gateway di pagamento non supporta la memorizzazione del metodo di pagamento.",
             "credit_card_last_name_required": "'cognome' non può essere nullo.",
-            "missing_retail_attributions": "Le attribuzioni di vendita al dettaglio sono necessarie per i pagamenti con carta di credito inseriti manualmente.",
+            "missing_retail_attributions": "Le attribuzioni retail sono obbligatorie per i pagamenti con carta di credito inseriti manualmente.",
             "unexpected_retail_attributions": "Attribuzioni di vendita al dettaglio fornite inaspettatamente per il pagamento con carta di credito.",
             "invalid_card_source": "Questa sessione non ha il permesso di utilizzare questa fonte della carta.",
             "wallet_content_missing": "Il contenuto del portafoglio è mancante.",
             "payment_instrument_not_found": "Metodo di pagamento non trovato",
             "unauthorized_capture_method": "La configurazione del metodo di acquisizione del pagamento non è consentita.",
             "saved_payment_methods_cvv_verification_disabled": "Il metodo di pagamento selezionato richiede la verifica CVV, che non è abilitata per questo negozio. Seleziona un metodo di pagamento diverso.",
-            "store_credit_not_enabled": "Il credito negozio non è abilitato per questo negozio.",
-            "store_credit_account_not_found": "Account di credito negozio non trovato.",
-            "store_credit_account_mismatch": "Il conto credito del negozio non corrisponde all'identità dell'acquirente.",
-            "store_credit_mismatched_currency": "La valuta del conto credito del negozio non corrisponde alla valuta del pagamento.",
+            "store_credit_not_enabled": "Il credito in negozio non è abilitato per questo negozio.",
+            "store_credit_account_not_found": "Account di credito del negozio non trovato.",
+            "store_credit_account_mismatch": "L'account di credito del negozio non corrisponde all'identità dell'acquirente.",
+            "store_credit_mismatched_currency": "La valuta del conto di credito del negozio non corrisponde alla valuta del checkout.",
             "store_credit_insufficient_funds": "Non ci sono fondi sufficienti nel conto del credito del negozio.",
             "store_credit_buying_gift_card": "Non puoi usare il credito del negozio per acquistare una carta regalo.",
             "gift_cards_not_allowed_for_b2b": "Le carte regalo non sono consentite nei negozi B2B.",
@@ -628,27 +631,27 @@
           },
           "tip": {
             "not_accepted_by_shop": "Il negozio non accetta mance.",
-            "only_one_tip_line_allowed": "Non sono supportate più linee di suggerimenti.",
+            "only_one_tip_line_allowed": "Le linee di suggerimenti multiple non sono supportate.",
             "currency_change_reset": "La mancia è stata azzerata a causa del cambio di valuta.",
             "tips_not_allowed_for_deferred_purchase_options": "Le mance non sono ancora supportate per le opzioni di acquisto differito."
           },
           "sale_attribution": {
             "draft_order_not_exist": "Questo ordine provvisorio non esiste nel negozio attuale.",
-            "staff_member_not_exist": "Questo bastone non esiste nel negozio attuale.",
-            "location_not_exist": "Questa località non esiste nel negozio attuale.",
+            "staff_member_not_exist": "Questo articolo non esiste nell'attuale negozio.",
+            "location_not_exist": "Questa posizione non esiste nel negozio attuale.",
             "point_of_sale_device_not_exist": "Questo dispositivo per il punto vendita non esiste nel negozio attuale.",
-            "unresolvable_target_merchandise_lines": "Le attribuzioni di vendita proposte non possono essere risolte dato l'attuale contesto di trattativa."
+            "unresolvable_target_merchandise_lines": "Le attribuzioni di vendita proposte non sono risolvibili dato l'attuale contesto di negoziazione."
           },
           "non_negotiable": {
-            "missing_non_negotiable_terms": "La tua proposta d'acquisto dovrebbe contenere termini non negoziabili."
+            "missing_non_negotiable_terms": "La tua proposta di acquisto dovrebbe contenere termini non negoziabili."
           },
           "inventory": {
             "missing_quantity_value": "Il campo quantità manca nelle righe dell'inventario dell'acquirente.",
             "changing_behavior_not_allowed": "Questo cliente non ha il permesso di modificare il comportamento dell'inventario.",
-            "only_one_inventory_behavior_allowed": "Attualmente è consentito un solo comportamento di inventario per ogni pagamento."
+            "only_one_inventory_behavior_allowed": "Attualmente è consentito un solo comportamento di inventario per ogni acquisto."
           },
           "optional_duties": {
-            "optional_duties_not_permitted": "Rifiutare i dazi non è consentito per questo pagamento."
+            "optional_duties_not_permitted": "Il rifiuto dei dazi non è consentito per questo pagamento."
           },
           "attribution": {
             "retail_attribution_not_allowed": "L'attribuzione al dettaglio non è consentita per questo checkout.",
@@ -667,7 +670,7 @@
             "revoked": "Questo checkout non è più disponibile."
           }
         },
-        "full_price": "Prezzo intero:",
+        "full_price": "Prezzo pieno:",
         "title": "Pagamento - {{shopName}}",
         "full_title": "{{pageTitle}} - {{shopName}} - Pagamento",
         "loading": "Caricamento…",
@@ -721,7 +724,9 @@
             "other": "Gruppo di {{number}} indicatori"
           }
         },
-        "breadcrumb": "Breadcrumb"
+        "breadcrumb": "Breadcrumb",
+        "finalize_order_accessibility_label": "Completa l'ordine",
+        "google_map_title": "Google Maps"
       },
       "embed": {
         "header": {

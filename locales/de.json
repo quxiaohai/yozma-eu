@@ -1243,26 +1243,26 @@
           "shipping_credential_cn": "Bewohner-ID-Nummer",
           "tax_credential_it": "Steueridentifikationsnummer (optional)",
           "tax_credential_co": "Ausweis/Mehrwertsteuer",
-          "tax_credential_type_co": "Art der Ausweisnummer",
+          "tax_credential_type_co": "Ausweisart",
           "shipping_credential_co": "Ausweis/Mehrwertsteuer",
-          "shipping_credential_type_co": "Art der Ausweisnummer",
-          "tax_credential_ec": "CI/RUC/UST",
-          "shipping_credential_ec": "CI/RUC/UST",
-          "tax_credential_gt": "USt-IdNr./MwSt-Nummer",
-          "shipping_credential_gt": "USt-IdNr./MwSt-Nummer",
-          "tax_credential_id": "Steueridentifikationsnummer",
-          "shipping_credential_id": "Steueridentifikationsnummer",
-          "tax_credential_my": "Steuer-Identifikationsnummer/Registrierungsnummer",
-          "shipping_credential_my": "Steuer-Identifikationsnummer/Registrierungsnummer",
+          "shipping_credential_type_co": "Ausweisart",
+          "tax_credential_ec": "CI/RUC/IVA",
+          "shipping_credential_ec": "CI/RUC/IVA",
+          "tax_credential_gt": "NIT/UST-ID",
+          "shipping_credential_gt": "NIT/UST-ID",
+          "tax_credential_id": "NPWP",
+          "shipping_credential_id": "NPWP",
+          "tax_credential_my": "TIN/Registrierungsnummer",
+          "shipping_credential_my": "TIN/Registrierungsnummer",
           "tax_credential_type_mx": "Steuersystem",
           "tax_credential_use_mx": "Verwendung von CFDI",
-          "tax_credential_py": "CI/RUC/UST",
-          "shipping_credential_py": "CI/RUC/UST",
-          "tax_credential_pt": "NIF/UST-ID",
-          "shipping_credential_pt": "NIF/UST-ID",
-          "shipping_credential_tw": "Nationale Ausweisnummer/Umsatzsteuer-Identifikationsnummer",
-          "tax_credential_tr": "Türkei Republik Identitätsnummer/Mehrwertsteuer",
-          "shipping_credential_tr": "Türkei Republik Identitätsnummer/Mehrwertsteuer"
+          "tax_credential_py": "CI/RUC/IVA",
+          "shipping_credential_py": "CI/RUC/IVA",
+          "tax_credential_pt": "NIF/IVA",
+          "shipping_credential_pt": "NIF/IVA",
+          "shipping_credential_tw": "Nationale ID-Nummer/USt-IdNr.",
+          "tax_credential_tr": "Türkische Republik Identifikationsnummer/USt-IdNr.",
+          "shipping_credential_tr": "Türkische Republik Identifikationsnummer/USt-IdNr."
         }
       },
       "payment": {
@@ -2192,18 +2192,18 @@
         "block_title": "Überprüfen Sie Ihre Angaben"
       },
       "marketing": {
-        "accept_marketing_checkbox_label": "Sende mir Neuigkeiten und Angebote per E-Mail zu",
-        "post_accept_marketing_checkbox_label": "Sie sind angemeldet, um E-Mail-Nachrichten und Angebote zu erhalten",
-        "pending_accept_marketing_checkbox_label": "Überprüfen Sie Ihre E-Mail, um Ihr Abonnement für Neuigkeiten und Angebote zu bestätigen",
-        "accept_sms_checkbox_label": "Schreib mir mit Neuigkeiten und Angeboten",
+        "accept_marketing_checkbox_label": "Senden Sie mir E-Mails mit Neuigkeiten und Angeboten",
+        "post_accept_marketing_checkbox_label": "Sie sind für den Erhalt von E-Mail-News und Angeboten angemeldet",
+        "pending_accept_marketing_checkbox_label": "Überprüfen Sie Ihre E-Mails, um Ihr Abonnement für Neuigkeiten und Angebote zu bestätigen",
+        "accept_sms_checkbox_label": "Schick mir Nachrichten und Angebote per SMS",
         "disclaimer": {
           "terms_of_service": "Nutzungsbedingungen"
         },
         "sms": {
           "disclaimer": {
             "terms_of_service": "Nutzungsbedingungen",
-            "description_html": "Indem Sie sich per SMS anmelden, stimmen Sie dem Erhalt wiederkehrender automatisierter Marketingnachrichten, einschließlich Warenkorberinnerungen, an die angegebene Telefonnummer zu. Die Zustimmung ist keine Voraussetzung für den Kauf. Antworten Sie mit STOP, um sich abzumelden. Antworten Sie mit HELP für Hilfe. Die Nachrichtenhäufigkeit variiert. Es können Nachrichten- und Datentarife anfallen. Sehen Sie unsere %{privacy_policy_link} und %{terms_of_service_link} ein.",
-            "description_transactional_html": "Sie können Textnachrichten zur Bestellbestätigung und Versandaktualisierungen erhalten. Antworten Sie mit STOP, um sich abzumelden. Antworten Sie mit HILFE für Unterstützung. Die Nachrichtenhäufigkeit variiert. Es können Nachrichten- und Datentarife anfallen. Sehen Sie unsere %{privacy_policy_modal_link} und %{terms_of_service_modal_link} ein."
+            "description_html": "Indem Sie sich per SMS anmelden, stimmen Sie dem Erhalt wiederkehrender automatisierter Marketingnachrichten, einschließlich Warenkorberinnerungen, an die angegebene Telefonnummer zu. Die Zustimmung ist keine Voraussetzung für den Kauf. Antworten Sie mit STOP, um sich abzumelden. Antworten Sie mit HELP für Hilfe. Die Nachrichtenfrequenz variiert. Es können Nachrichten- und Datentarife anfallen. Sehen Sie sich unsere %{privacy_policy_link} und %{terms_of_service_link} an.",
+            "description_transactional_html": "Sie können SMS-Nachrichten zu Bestellbestätigungen und Versandupdates erhalten. Antworten Sie mit STOP, um sich abzumelden. Antworten Sie mit HELP für Hilfe. Die Nachrichtenhäufigkeit variiert. Es können Nachrichten- und Datentarife anfallen. Sehen Sie unsere %{privacy_policy_modal_link} und %{terms_of_service_modal_link} ein."
           },
           "mobile_phone_number": "Handynummer",
           "get_offers_by_text": "Angebote per SMS erhalten"
@@ -2451,7 +2451,7 @@
       "marketplaces": {
         "legal_notice": {
           "legal_text": "Bewertung",
-          "link_label": "{{partnerDisplayName}} Allgemeine Geschäftsbedingungen"
+          "link_label": "{{partnerDisplayName}} Geschäftsbedingungen"
         }
       },
       "online_store_chat": {
@@ -2482,7 +2482,7 @@
         },
         "toggle_location": "Standort ändern",
         "toggle_more_locations": {
-          "one": "%{count} weitere Standorte"
+          "one": "%{count} weiterer Standort"
         },
         "toggle_multiple_locations": "%{count}+ weitere Standorte",
         "cancel": "Abbrechen",
@@ -2502,12 +2502,12 @@
         },
         "selected_pickup_option_no_longer_available": {
           "title": "Ihr zuvor ausgewählter Standort ist nicht mehr verfügbar",
-          "description": "Wählen Sie einen neuen Standort oder %{ship_to_address_link}",
-          "ship_to_address_link": "Lieferadresse"
+          "description": "Wir haben den nächstgelegenen Standort mit Ihren vorrätigen Artikeln ausgewählt.",
+          "ship_to_address_link": "an Lieferadresse senden"
         },
         "could_not_resolve_address": "Ihre Adresse konnte nicht gefunden werden. Versuchen Sie es erneut oder verwenden Sie eine andere Adresse",
         "paginator": {
-          "accessibility_label": "Abholung vor Ort Seitenumbruch",
+          "accessibility_label": "Lokale Abholung Paginierung",
           "label": {
             "one": "%{first} - %{last} von %{count} Geschäften",
             "other": "%{first} - %{last} von %{count} Geschäften"
@@ -2515,11 +2515,11 @@
         },
         "reveal_more_label": {
           "one": "Zeige %{count} weitere Standorte",
-          "other": "Weitere %{count} Standorte anzeigen"
+          "other": "Zeige %{count} weitere Standorte"
         },
         "pickup_unavailable_banner_title": {
           "one": "Keine Standorte mit Ihrem Artikel",
-          "other": "Keine Orte mit Ihren Artikeln"
+          "other": "Keine Standorte mit Ihren Artikeln"
         },
         "pickup_unavailable_banner_title_with_country": {
           "one": "Keine Standorte in %{country} mit Ihrem Artikel",
@@ -2527,7 +2527,8 @@
         },
         "pickup_unavailable_banner_body": {
           "ship_items": "Versenden Sie Ihre Artikel",
-          "search_elsewhere": "anderswo suchen"
+          "search_elsewhere": "anderswo suchen",
+          "search_elsewhere_standalone": "Anderswo suchen"
         },
         "location_closest_one_item": "Nächstgelegener Standort mit Ihrem Artikel",
         "location_closest_other_items": "Nächster Standort mit Ihren Artikeln",
@@ -2538,6 +2539,30 @@
         "location_far_away_other_items": {
           "one": "%{count} Standort mit Ihren Artikeln",
           "other": "%{count} Standorte mit Ihren Artikeln"
+        },
+        "location_information_far_away_one_item": {
+          "one": "Es gibt %{count} Standort mit Ihrem Artikel",
+          "other": "Es gibt %{count} Standorte mit Ihrem Artikel"
+        },
+        "location_information_far_away_other_items": {
+          "one": "Es gibt %{count} Standort mit Ihren Artikeln",
+          "other": "Es gibt %{count} Standorte mit Ihren Artikeln"
+        },
+        "location_nearby_one_item": {
+          "one": "Es gibt %{count} nahegelegene Standorte mit Ihrem Artikel",
+          "other": "Es gibt %{count} nahegelegene Standorte mit Ihrem Artikel"
+        },
+        "location_nearby_other_items": {
+          "one": "Es gibt %{count} nahegelegene Standorte mit Ihren Artikeln",
+          "other": "Es gibt %{count} nahegelegene Standorte mit Ihren Artikeln"
+        },
+        "location_nearby_short_one_item": {
+          "one": "%{count} nahegelegene Standorte mit Ihrem Artikel",
+          "other": "%{count} nahegelegene Standorte mit Ihrem Artikel"
+        },
+        "location_nearby_short_other_items": {
+          "one": "%{count} nahegelegene Standorte mit Ihren Artikeln",
+          "other": "%{count} nahegelegene Standorte mit Ihren Artikeln"
         }
       },
       "captcha": {
