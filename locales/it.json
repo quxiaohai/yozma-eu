@@ -2709,11 +2709,11 @@
     },
     "notices": {
       "customer": {
-        "password_reset_error": "Errore nel ripristino della password",
+        "password_reset_error": "Errore nel reset della password",
         "subscribe_error": "Errore di iscrizione",
-        "unsubscribe_error": "Errore durante la cancellazione dall'iscrizione",
-        "no_account_found": "Nessun account trovato con quell'indirizzo email.",
-        "denylisted_reset_password": "Il tuo account non è stato accessibile perché la password attuale non è sicura. Riceverai una email per aggiornare la tua password.",
+        "unsubscribe_error": "Errore di cancellazione dell'iscrizione",
+        "no_account_found": "Nessun account trovato con questa email.",
+        "denylisted_reset_password": "Il tuo account non è stato accessibile perché la password attuale non è sicura. Riceverai un'email per aggiornare la tua password.",
         "signup_disabled": "La creazione dell'account cliente è stata disabilitata."
       },
       "address": {
@@ -2728,22 +2728,24 @@
       "order": {
         "financial_status": {
           "unpaid": "Non pagato",
-          "partially_refunded": "Rimborso parziale"
+          "partially_refunded": "Parzialmente rimborsato",
+          "pending": "In sospeso"
         },
         "fulfillment_status": {
           "complete": "Completo",
           "partial": "Parziale",
-          "unfulfilled": "Non soddisfatto"
+          "unfulfilled": "Non evaso"
         },
         "transaction_status": {
           "success": "Successo",
-          "failure": "Errore"
+          "failure": "Errore",
+          "pending": "In sospeso"
         },
         "cancel_reason": {
           "customer": "Cliente ha modificato/annullato l'ordine",
           "staff": "Errore del personale"
         },
-        "cash_on_delivery": "Pagamento alla consegna (PAC)"
+        "cash_on_delivery": "Pagamento alla consegna (COD)"
       },
       "cart": {
         "only_one_added_to_cart": "È stato aggiunto al carrello solo 1 articolo a causa della disponibilità.",
@@ -2775,7 +2777,7 @@
         "merchandise_not_applicable": "L'articolo non può essere acquistato con la configurazione selezionata."
       },
       "storefront": {
-        "invalid_password": "Password errata, riprova per favore."
+        "invalid_password": "Password errata, per favore riprova."
       },
       "tags": {
         "add_articles": "Restringi la ricerca agli articoli che hanno anche il tag %{tag}",

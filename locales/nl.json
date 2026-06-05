@@ -1540,8 +1540,9 @@
         "address_confirm": "Weet je zeker dat je dit adres uit je account wilt verwijderen?"
       },
       "payment_summary": {
-        "express_payment_gateway_label": "Druk uit",
-        "manual_payment_gateway_label": "Handleiding"
+        "express_payment_gateway_label": "Express",
+        "manual_payment_gateway_label": "Handleiding",
+        "gift_card_current_balance_notice": "Huidige saldo %{amount}"
       },
       "field_errors": {
         "email_or_phone_blank": "Voer een e-mailadres of telefoonnummer in",
@@ -1652,8 +1653,8 @@
         "three_d_secure_failed": "Uw betaling kon niet worden geverifieerd. Probeer het opnieuw of gebruik een andere betaalmethode.",
         "three_d_secure_failed_duplicate": "De 3D Secure-authenticatie van de creditcard is mislukt omdat er al een andere bezig is.",
         "three_d_secure_failed_payment_method": "Uw kaart kon niet worden geverifieerd. Probeer het opnieuw of voeg een andere kaart toe.",
-        "three_d_secure_throttled": "Te veel pogingen; wacht voordat u het opnieuw probeert",
-        "subscription_agreement_blank": "Om een abonnement te kopen, moeten uw betaalgegevens worden opgeslagen. Om door te gaan, bevestigt u dat u akkoord gaat of verwijdert u abonnementsartikelen uit uw bestelling.",
+        "three_d_secure_throttled": "Te veel pogingen; wacht voordat je het opnieuw probeert",
+        "subscription_agreement_blank": "Om een abonnement te kopen, moeten je betaalgegevens worden opgeslagen. Om door te gaan, bevestig dat je akkoord gaat of verwijder abonnementitems uit je bestelling.",
         "insufficient_funds": "Uw betaling is geweigerd vanwege onvoldoende saldo. Probeer het opnieuw of gebruik een andere betaalmethode.",
         "multiple_deferred_payment_not_allowed": "Er is slechts één uitgestelde betaling per aanvraag toegestaan. Controleer uw aanvraag en probeer het opnieuw.",
         "shipping_must_match_billing": "Factuuradres moet overeenkomen met het afleveradres. Gebruik een andere betaalmethode.",
@@ -1665,11 +1666,11 @@
         "card_declined": "Uw kaart is geweigerd. Probeer het opnieuw of gebruik een andere betaalmethode.",
         "processing_error": "Er was een probleem bij het verwerken van uw betaling. Probeer het opnieuw of gebruik een andere betaalmethode.",
         "processing_error_checkout_as_guest": "Er was een probleem bij het verwerken van uw betaling. Probeer het opnieuw met een andere betaalmethode of {{checkout_as_guest_link}}.",
-        "selected_payment_method": "Er was een probleem met uw gekozen betaalmethode en u bent niet belast. Probeer het opnieuw of gebruik een andere betaalmethode.",
+        "selected_payment_method": "Er was een probleem met uw geselecteerde betaalmethode en er is geen bedrag afgeschreven. Probeer het opnieuw of gebruik een andere betaalmethode.",
         "payment_method_billing_address": "Er was een probleem met het factuuradres van uw geselecteerde betaalmethode. Controleer het adres en probeer het opnieuw of gebruik een andere betaalmethode.",
         "call_issuer": "Uw kaart is geweigerd. Gebruik een andere betaalmethode of neem contact op met uw bank voor meer informatie.",
         "test_mode_live_card": "Deze winkel kan geen echte bestellingen of echte betalingen accepteren.",
-        "test_mode_enabled_only_test_cards": "Testmodus is ingeschakeld, alleen testkredietkaarten kunnen worden toegevoegd.",
+        "test_mode_enabled_only_test_cards": "Testmodus is ingeschakeld, alleen testcreditcards kunnen worden toegevoegd.",
         "transient_error": "Er was een probleem bij het verwerken van uw betaling. Probeer deze pagina te vernieuwen of controleer uw internetverbinding.",
         "missing_shipping_address": "Uw betaling kon niet worden verwerkt omdat uw verzendadres ontbreekt. Voeg een verzendadres toe en probeer het opnieuw.",
         "invalid_shipping_address": "Uw betaling kon niet worden verwerkt omdat we uw verzendadres niet konden vinden. Controleer uw verzendadres en probeer het opnieuw.",
@@ -1681,7 +1682,7 @@
         "risky": "Er was een probleem bij het verwerken van uw betaling. Probeer het opnieuw of gebruik een andere betaalmethode.",
         "expired_buyer_action": "De betaalmethode is verlopen. Probeer het opnieuw.",
         "name_mismatch": "Controleer uw kaartgegevens. De naam op uw kaart en het factuuradres komen niet overeen.",
-        "shop_pay_wallet_not_available": "Shop Pay is niet beschikbaar voor deze kassa.",
+        "shop_pay_wallet_not_available": "Shop Pay is niet beschikbaar voor deze afrekenprocedure.",
         "market_manager_blocks_wallet_payments": "Betaalmethode wordt niet ondersteund in uw land.",
         "paypal_over_capture": "Uw totaalbedrag is bijgewerkt. Betaal met {{walletName}} om uw bestelling te voltooien.",
         "captcha_required": "Voer betalingsgegevens in en los de captcha op om uw aankoop te voltooien.",
@@ -1777,13 +1778,13 @@
         "payment_not_processed_text": "Je bent nog niet belast. Ga terug naar je winkelwagen om je aankoop te voltooien."
       },
       "payment_gateway": {
-        "credit_card_label": "Kredietkaart",
-        "cash_on_delivery_label": "Contant bij aflevering (CBA)",
+        "credit_card_label": "Creditcard",
+        "cash_on_delivery_label": "Contant bij levering (COD)",
         "debit_card_label": "Debetkaart",
         "credit_or_debit_card_label": "Creditcard/Debetkaart",
-        "deferred_payment_label": "Kies later de betaalmethode",
+        "deferred_payment_label": "Kies later een betaalmethode",
         "fixed_payment_label": "Uw betaling is verschuldigd op {{dueDate}}.",
-        "generic_payment_terms": "Je hebt betalingsvoorwaarden bij {{translatedName}}. Je betaling is verschuldigd op {{dueDate}}.",
+        "generic_payment_terms": "Je bent akkoord met de voorwaarden van {{translatedName}}. Je betaling is verschuldigd op {{dueDate}}.",
         "login_prompt": {
           "no_access": {
             "message": "{{logIn}} op een account met toegang tot deze locatie om opgeslagen betaalmethoden toe te voegen of te gebruiken.",
@@ -1795,16 +1796,16 @@
         "order_due_on_fulfillment_choose_later": "Uw betaling is verschuldigd zodra uw bestelling is voltooid.",
         "order_due_on_fulfillment_payment": "Uw kaart wordt belast zodra uw bestelling is voltooid.",
         "order_due_on_receipt_choose_later": "Uw betaling is verschuldigd bij ontvangst.",
-        "order_deposit_due_now": "{{depositAmount}} is vandaag verschuldigd. Het resterende bedrag valt onder de voorwaarden van {{translatedName}} en is verschuldigd op {{dueDate}}.",
+        "order_deposit_due_now": "{{depositAmount}} is vandaag verschuldigd. Het resterende bedrag is volgens de voorwaarden van {{translatedName}} en moet betaald worden op {{dueDate}}.",
         "order_deposit_due_on_fulfillment": "{{depositAmount}} is vandaag verschuldigd. Het resterende bedrag wordt betaald zodra uw bestelling is voltooid.",
         "order_deposit_due_on_receipt": "{{depositAmount}} is vandaag verschuldigd. Het resterende bedrag wordt later betaald.",
         "order_deposit_due_on_fixed_date": "{{depositAmount}} is vandaag verschuldigd. Het resterende bedrag is verschuldigd op {{dueDate}}.",
         "draft_order_payment_due_later_no_terms": "Uw betaling is verschuldigd zodra uw bestelling is bevestigd.",
         "draft_order_payment_due_later_no_terms_payment_selected": "Uw kaart wordt belast zodra uw bestelling is bevestigd.",
-        "draft_order_payment_due_later_terms": "Je zult op {{translatedName}} voorwaarden zijn zodra je bestelling is bevestigd.",
+        "draft_order_payment_due_later_terms": "Je bent op {{translatedName}}-voorwaarden zodra je bestelling is bevestigd.",
         "draft_order_payment_due_on_fulfillment": "Uw betaling is verschuldigd zodra uw bestelling is bevestigd en uitgevoerd.",
         "draft_order_deposit_due_later": "{{depositAmount}} is verschuldigd zodra uw bestelling is bevestigd. Het resterende bedrag wordt volgens de voorwaarden van {{translatedName}} voldaan.",
-        "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} is verschuldigd zodra uw bestelling is bevestigd. Het resterende bedrag wordt betaald zodra uw bestelling is voltooid."
+        "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} is verschuldigd zodra uw bestelling is bevestigd. Het resterende bedrag wordt voldaan zodra uw bestelling is voltooid."
       },
       "thank_you": {
         "title": "Dank u voor uw aankoop!",
