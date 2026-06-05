@@ -1071,6 +1071,19 @@
             "enable_video_looping": false
           }
         },
+        "youtube_39FbLF": {
+          "type": "youtube",
+          "settings": {
+            "video_url": "https://youtu.be/bpFzeDK5IbE",
+            "cover_image": "shopify://shop_images/1_6.2_240a4adc-5c48-4143-a672-4e2e11d18559.jpg",
+            "video_url_mobile": "https://www.youtube.com/watch?v=bpFzeDK5IbE",
+            "cover_image_mobile": "shopify://shop_images/6.2_1e4deb94-d4d1-4012-9bcb-8c84cd551cc6.jpg",
+            "date": "2026/0605",
+            "content": "🎉 YOZMA 1st Anniversary Celebration is HERE! 🎉",
+            "avatar": "shopify://shop_images/channels4_profile_8_37f22cda-0c2e-4ba4-a695-fbdea8a8a54f.jpg",
+            "author": "YozmaSport"
+          }
+        },
         "youtube_KnBpjU": {
           "type": "youtube",
           "settings": {
@@ -1078,18 +1091,6 @@
             "video_url_mobile": "",
             "date": "2026/05/12",
             "content": "Yozma IN 10 Black Version In Your Area",
-            "avatar": "shopify://shop_images/channels4_profile_8_37f22cda-0c2e-4ba4-a695-fbdea8a8a54f.jpg",
-            "author": "YozmaSport"
-          }
-        },
-        "youtube_39FbLF": {
-          "type": "youtube",
-          "settings": {
-            "video_url": "https://youtu.be/bpFzeDK5IbE",
-            "cover_image": "shopify://shop_images/1_6.2_240a4adc-5c48-4143-a672-4e2e11d18559.jpg",
-            "video_url_mobile": "",
-            "date": "2026/0605",
-            "content": "🎉 YOZMA 1st Anniversary Celebration is HERE! 🎉",
             "avatar": "shopify://shop_images/channels4_profile_8_37f22cda-0c2e-4ba4-a695-fbdea8a8a54f.jpg",
             "author": "YozmaSport"
           }
@@ -1201,8 +1202,8 @@
         "video_WWBVWF",
         "video_pAyz4R",
         "video_aHP8PY",
-        "youtube_KnBpjU",
         "youtube_39FbLF",
+        "youtube_KnBpjU",
         "youtube_neaVWW",
         "youtube_VQgGtR",
         "youtube_TLCWVG",
