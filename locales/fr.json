@@ -856,7 +856,7 @@
         }
       },
       "remote_merchandise_only": {
-        "remote_only_notice": "Ces articles sont vendus et expédiés par d'autres magasins. Effectuez le paiement auprès de chaque magasin pour finaliser votre achat.",
+        "remote_only_notice": "Ces articles sont vendus et expédiés par d'autres magasins. Veuillez finaliser votre achat auprès de chaque magasin.",
         "return_to_store_label": "Retour au magasin",
         "detail_item_label": {
           "one": "{{count}} article",
@@ -1657,7 +1657,7 @@
         "location_rollup_accessibility_label": "Options de localisation de l'entreprise"
       },
       "payment_summary": {
-        "express_payment_gateway_label": "Exprimer"
+        "express_payment_gateway_label": "Express"
       },
       "field_errors": {
         "handle_email_invalid": "Entrez une adresse e-mail valide",
@@ -1762,12 +1762,14 @@
       },
       "redeemable_errors": {
         "gift_card": {
-          "insufficient_funds": "Cette carte-cadeau n'a plus de fonds disponibles",
-          "expired": "Cette carte-cadeau a expiré",
-          "not_available": "Cette carte-cadeau n'est plus disponible",
+          "insufficient_funds": "Cette carte cadeau n'a plus de fonds disponibles",
+          "expired": "Cette carte cadeau a expiré",
+          "not_available": "Cette carte cadeau n'est plus disponible",
           "invalid": "Entrez une carte-cadeau valide",
-          "generic": "La carte-cadeau n'a pas pu être ajoutée au paiement",
-          "throttle_limit_exceeded": "Vous avez dépassé le nombre maximal de tentatives. Réessayez plus tard."
+          "generic": "La carte cadeau n'a pas pu être ajoutée au paiement",
+          "throttle_limit_exceeded": "Vous avez dépassé le nombre maximum de tentatives. Réessayez plus tard.",
+          "duplicate": "La carte cadeau a déjà été appliquée à votre commande",
+          "no_longer_available": "Cette carte cadeau ne peut plus être utilisée avec ce paiement"
         }
       },
       "merchant_instruction_errors": {
@@ -1796,15 +1798,15 @@
         "three_d_secure_failed": "Votre paiement n’a pas pu être vérifié. Veuillez réessayer ou utiliser un autre mode de paiement.",
         "three_d_secure_failed_duplicate": "L'authentification 3D Secure de la carte de crédit a échoué car une autre est déjà en cours.",
         "three_d_secure_failed_payment_method": "Votre carte n’a pas pu être vérifiée. Essayez de nouveau ou ajoutez une autre carte.",
-        "three_d_secure_throttled": "Trop de tentatives ; veuillez patienter avant de réessayer",
-        "subscription_agreement_blank": "Pour acheter un abonnement, vos informations de paiement doivent être enregistrées. Pour continuer, confirmez que vous acceptez ou retirez les articles d'abonnement de votre commande.",
+        "three_d_secure_throttled": "Trop de tentatives ; veuillez attendre avant de réessayer",
+        "subscription_agreement_blank": "Pour acheter un abonnement, vos informations de paiement doivent être enregistrées. Pour continuer, confirmez que vous acceptez ou supprimez les articles d'abonnement de votre commande.",
         "insufficient_funds": "Votre paiement a été refusé en raison de fonds insuffisants. Veuillez réessayer ou utiliser un autre mode de paiement.",
         "multiple_deferred_payment_not_allowed": "Un seul paiement différé est autorisé par demande. Vérifiez votre demande et réessayez.",
-        "shipping_must_match_billing": "L'adresse de facturation doit correspondre à l'adresse de livraison. Utilisez un autre mode de paiement.",
+        "shipping_must_match_billing": "L'adresse de facturation doit correspondre à l'adresse de livraison. Utilisez un mode de paiement différent.",
         "shipping_company_required_error": "{{shopName}} nécessite un nom d'entreprise pour l'adresse de livraison.",
         "decision_rule_block": "Un problème est survenu lors du traitement de votre paiement. Contactez le propriétaire du magasin.",
         "cancelled_payment": "Votre paiement a été annulé. Essayez à nouveau ou utilisez un autre mode de paiement.",
-        "pick_up_card": "Votre carte a été refusée. Veuillez réessayer ou utiliser un autre mode de paiement.",
+        "pick_up_card": "Votre carte a été refusée. Essayez de nouveau ou utilisez un autre mode de paiement.",
         "cannot_verify": "Les détails de votre paiement n'ont pas pu être vérifiés. Vérifiez les informations de votre carte et réessayez.",
         "invalid_number": "Entrez un numéro de carte valide",
         "invalid_expiry_date": "Entrez une date d'expiration valide",
@@ -1813,15 +1815,15 @@
         "payment_method_not_applicable": "Cette méthode de paiement n'est pas applicable. Utilisez une autre méthode de paiement.",
         "card_declined": "Votre carte a été refusée. Essayez de nouveau ou utilisez un autre mode de paiement.",
         "processing_error": "Un problème est survenu lors du traitement de votre paiement. Veuillez réessayer ou utiliser un autre mode de paiement.",
-        "processing_error_checkout_as_guest": "Un problème est survenu lors du traitement de votre paiement. Essayez à nouveau avec un autre moyen de paiement ou {{checkout_as_guest_link}}.",
-        "selected_payment_method": "Un problème est survenu avec votre mode de paiement sélectionné et vous n'avez pas été facturé. Veuillez réessayer ou utiliser un autre mode de paiement.",
+        "processing_error_checkout_as_guest": "Un problème est survenu lors du traitement de votre paiement. Essayez à nouveau avec un autre mode de paiement ou {{checkout_as_guest_link}}.",
+        "selected_payment_method": "Il y a eu un problème avec votre méthode de paiement sélectionnée et vous n'avez pas été facturé. Essayez de nouveau ou utilisez une autre méthode de paiement.",
         "payment_method_billing_address": "Il y a eu un problème avec l'adresse de facturation de votre méthode de paiement sélectionnée. Vérifiez l'adresse et réessayez ou utilisez une autre méthode de paiement.",
         "call_issuer": "Votre carte a été refusée. Utilisez un autre mode de paiement ou contactez votre banque pour plus d'informations.",
         "test_mode_live_card": "Cette boutique ne peut pas accepter de commandes réelles ni de paiements réels.",
         "transient_error": "Un problème est survenu lors du traitement de votre paiement. Essayez de rafraîchir cette page ou vérifiez votre connexion internet.",
         "missing_shipping_address": "Votre paiement n’a pas pu être traité car votre adresse de livraison est manquante. Ajoutez une adresse de livraison et réessayez.",
         "invalid_shipping_address": "Votre paiement n’a pas pu être traité car nous n’avons pas pu trouver votre adresse de livraison. Vérifiez votre adresse de livraison et réessayez.",
-        "successful_offsite_with_gift_card_error": "Un problème est survenu lors du traitement de votre paiement par carte-cadeau. Veuillez réessayer ou utiliser un autre mode de paiement.",
+        "successful_offsite_with_gift_card_error": "Un problème est survenu lors du traitement de votre paiement par carte cadeau. Veuillez réessayer ou utiliser un autre mode de paiement.",
         "development_store_order_limit_reached": "Vous avez atteint la limite des commandes pour boutique de développement avec ce processeur de paiement. Pour passer une autre commande, vous devrez utiliser une passerelle de paiement de test. En savoir plus sur %{development_store_order_testing_docs_link}.",
         "development_store_with_order_limit": "Pour passer une commande test, vous devrez utiliser une passerelle de paiement de test. En savoir plus sur %{development_store_order_testing_docs_link}.",
         "development_store_order_testing_docs_link": "test des commandes dans les boutiques en développement",
@@ -1874,8 +1876,9 @@
         "escape_action": "Voir la confirmation de commande ›",
         "components": {
           "expand": "Voir plus",
-          "processing": "Traitement…"
-        }
+          "processing": "Traitement en cours…"
+        },
+        "escape_confirmation": "Vous avez payé votre commande."
       },
       "processing": {
         "redirecting_page_title": "Redirection…",
@@ -1884,14 +1887,14 @@
         "redirecting_to_bank": "Redirection vers {{bank}}",
         "complete_your_purchase_title_error": "Corrigez vos informations de paiement",
         "continue_to_payment_gateway_notice_error": "Nous n'avons pas pu vérifier vos informations de paiement.",
-        "you_will_receive_confirmation": "Nous recevons actuellement de nombreuses commandes. Vous devriez bientôt recevoir une confirmation par courriel ou par message texte. Si vous ne la recevez pas dans l'heure qui vient, faites-le nous savoir.",
+        "you_will_receive_confirmation": "Nous recevons beaucoup de commandes en ce moment. Vous devriez recevoir une confirmation par e-mail ou SMS bientôt. Si vous ne la recevez pas dans l'heure qui vient, faites-le nous savoir.",
         "you_will_not_be_charged": "Vous ne serez pas encore facturé",
         "wait": {
           "medium": {
             "one": "Votre commande est en cours de traitement. Le temps d'attente estimé est de %{count} minute.",
             "other": "Votre commande est en cours de traitement. Le temps d'attente estimé est de %{count} minutes."
           },
-          "long": "Vous recevrez un courriel dès que votre commande sera traitée. Il y a actuellement un grand nombre de commandes.",
+          "long": "Vous recevrez un e-mail dès que votre commande sera traitée. Il y a actuellement un volume élevé de commandes.",
           "no_auto_refresh_html": "Si vous n’êtes pas redirigé automatiquement, %{link}.",
           "refresh_this_page": "rafraîchir cette page"
         },
@@ -1913,7 +1916,7 @@
       },
       "payment_gateway": {
         "bank_deposit_label": "Dépôt bancaire",
-        "cash_on_delivery_label": "Paiement à la livraison (PAL)",
+        "cash_on_delivery_label": "Paiement à la livraison (COD)",
         "money_order_label": "Mandat postal",
         "credit_or_debit_card_label": "Crédit/Débit",
         "deferred_payment_label": "Choisir le mode de paiement plus tard",
@@ -1925,18 +1928,18 @@
             "link": "Se connecter"
           }
         },
-        "direct_payment_terms": "Vous êtes en termes avec {{translatedName}}. Votre carte sera débitée le {{dueDate}}.",
+        "direct_payment_terms": "Vous êtes en accord avec {{translatedName}}. Votre carte sera débitée le {{dueDate}}.",
         "fixed_direct_payment_terms": "Votre carte sera débitée le {{dueDate}}.",
-        "order_due_on_fulfillment_choose_later": "Votre paiement sera exigible une fois votre commande exécutée.",
-        "order_due_on_fulfillment_payment": "Votre carte sera débitée une fois votre commande exécutée.",
-        "order_due_on_receipt_choose_later": "Votre paiement sera exigible à réception.",
+        "order_due_on_fulfillment_choose_later": "Votre paiement sera dû une fois que votre commande aura été traitée.",
+        "order_due_on_fulfillment_payment": "Votre carte sera débitée une fois votre commande traitée.",
+        "order_due_on_receipt_choose_later": "Votre paiement sera dû à réception.",
         "order_deposit_due_now": "{{depositAmount}} est dû aujourd'hui. Le solde est selon les conditions de {{translatedName}} et est dû le {{dueDate}}.",
-        "order_deposit_due_on_fulfillment": "{{depositAmount}} est dû aujourd’hui. Le solde sera dû une fois votre commande traitée.",
+        "order_deposit_due_on_fulfillment": "{{depositAmount}} est dû aujourd'hui. Le solde sera dû une fois votre commande exécutée.",
         "order_deposit_due_on_receipt": "{{depositAmount}} est dû aujourd'hui. Le solde sera dû plus tard.",
         "order_deposit_due_on_fixed_date": "{{depositAmount}} est dû aujourd'hui. Le solde sera dû le {{dueDate}}.",
-        "draft_order_payment_due_later_no_terms": "Votre paiement sera exigible une fois votre commande confirmée.",
-        "draft_order_payment_due_later_terms": "Vous serez en bons termes avec {{translatedName}} une fois votre commande confirmée.",
-        "draft_order_payment_due_on_fulfillment": "Votre paiement sera exigible une fois que votre commande aura été confirmée et exécutée.",
+        "draft_order_payment_due_later_no_terms": "Votre paiement sera dû une fois votre commande confirmée.",
+        "draft_order_payment_due_later_terms": "Vous serez en termes avec {{translatedName}} une fois votre commande confirmée.",
+        "draft_order_payment_due_on_fulfillment": "Votre paiement sera dû une fois que votre commande aura été confirmée et exécutée.",
         "draft_order_deposit_due_later": "{{depositAmount}} sera dû lors de la confirmation de votre commande. Le solde sera selon les conditions de {{translatedName}}.",
         "draft_order_deposit_due_on_fulfillment": "{{depositAmount}} sera dû lorsque votre commande sera confirmée. Le solde sera à régler une fois votre commande exécutée."
       },
@@ -2195,24 +2198,24 @@
       },
       "review": {
         "title": "Avis",
-        "review_title": "Complétez votre commande",
+        "review_title": "Finalisez votre commande",
         "review_and_confirm_title": "Vérifiez et confirmez",
-        "checkout_as_guest": "Payer en tant qu'invité",
+        "checkout_as_guest": "Passer la commande en tant qu'invité",
         "account_more_actions": "Plus d'actions pour ce compte",
-        "checkout_a_different_way": "Découvrez une autre manière",
+        "checkout_a_different_way": "Découvrez une autre façon",
         "blocks": {
           "contact_method_title": "Contactez-nous",
-          "shipping_method_title": "Mode d'expédition",
+          "shipping_method_title": "Méthode d'expédition",
           "payment_method_title": "Méthode de paiement",
           "change_link_label": "Changer",
           "change_contact_method_link_label": "Modifier les informations de contact",
           "change_billing_address_link_label": "Modifier l'adresse de facturation",
           "change_company_location_link_label": "Changer l'emplacement de l'entreprise",
           "change_shipping_address_link_label": "Modifier l'adresse de livraison",
-          "change_shipping_method_link_label": "Modifier le mode d'expédition",
-          "change_payment_method_link_label": "Changer de mode de paiement",
+          "change_shipping_method_link_label": "Changer le mode de livraison",
+          "change_payment_method_link_label": "Changer de méthode de paiement",
           "pick_up_in_store_shipping_method_html": "Retrait en magasin · %{location_name}",
-          "purchase_order_number_title": "Numéro de commande",
+          "purchase_order_number_title": "Numéro de bon de commande",
           "change_purchase_order_number_label": "Modifier le numéro de bon de commande",
           "change_delivery_method_link_label": "Changer le mode de livraison",
           "no_address": "(Pas d'adresse)",
@@ -2225,8 +2228,9 @@
             "other": "Retirer %{count} articles à"
           },
           "ship_items_to": {
-            "one": "Expédier %{count} article(s) à"
-          }
+            "one": "Expédier %{count} article à"
+          },
+          "shipping_address_title": "Livrer à"
         },
         "block_title": "Vérifiez vos informations"
       },
@@ -2380,7 +2384,7 @@
         "network_failure": "Votre commande n'a pas pu être envoyée en raison d'une erreur réseau. Vérifiez votre connexion et réessayez."
       },
       "session_errors": {
-        "session_already_finished": "Cette commande a déjà été envoyée. Vous pouvez retourner à la boutique pour commencer une nouvelle commande."
+        "session_already_finished": "Cette commande a déjà été soumise. Vous pouvez retourner au magasin pour commencer une nouvelle commande."
       },
       "artifact_errors": {
         "artifact_dissatisfaction_without_violation": "Un problème est survenu lors du traitement de votre commande. Veuillez réessayer dans quelques minutes."
@@ -2392,7 +2396,7 @@
         "title": "Point de retrait",
         "search_button": "Recherche",
         "selector_tabs": "Sélecteur de point de retrait",
-        "could_not_resolve_address": "Votre adresse n'a pas pu être trouvée. Essayez de nouveau ou utilisez une autre adresse",
+        "could_not_resolve_address": "Votre adresse n'a pas pu être localisée. Essayez de nouveau ou utilisez une autre adresse",
         "no_pickup_points_near_you": "Aucun point de retrait trouvé près de l'adresse sélectionnée",
         "no_pickup_points_near_location": "Aucun point de retrait trouvé près de votre emplacement",
         "pickup_unavailable_banner_title": {
@@ -2402,7 +2406,7 @@
         "no_pickup_points_found": "Aucun point de retrait trouvé",
         "paginator": {
           "header": {
-            "one": "Affichage de %{first} à %{last} sur %{count} point",
+            "one": "Affichage de %{first} à %{last} sur %{count} points",
             "other": "Affichage de %{first} à %{last} sur %{count} points"
           },
           "selected_pickup_point_label": {
@@ -2426,7 +2430,8 @@
             "permission_not_allowed": "Autoriser le partage de votre position.",
             "permission_denied": "Impossible de déterminer votre position. Veuillez réessayer."
           }
-        }
+        },
+        "change": "Changer de lieu"
       },
       "error_page": {
         "terminal": {
@@ -2484,7 +2489,7 @@
         }
       },
       "review_address_modal": {
-        "title": "Adresse de révision",
+        "title": "Vérifier l'adresse",
         "subtitle": {
           "one": "Cette commande sera expédiée à l'adresse fournie par {{merchant}}.",
           "other": "Cette commande sera expédiée à une adresse fournie par {{merchant}}. Sélectionnez une adresse de livraison."
@@ -2721,9 +2726,9 @@
       },
       "remote": {
         "errors": {
-          "only_remote_merchandise_lines": "Le panier ne contient que des articles à distance. Une redirection vers la boutique à distance est nécessaire pour finaliser l'achat.",
-          "currency_mismatch": "Cet article ne peut pas être ajouté à votre panier car il provient d'une boutique qui utilise une monnaie différente.",
-          "currency_mismatch_removal": "Un article a été retiré de votre panier car il provient d'une boutique qui utilise une monnaie différente.",
+          "only_remote_merchandise_lines": "Le panier ne contient que des articles à distance. Une redirection vers la boutique à distance est nécessaire pour finaliser la commande.",
+          "currency_mismatch": "Cet article ne peut pas être ajouté à votre panier car il provient d'un magasin qui utilise une devise différente.",
+          "currency_mismatch_removal": "Un article a été retiré de votre panier car il provient d'un magasin qui utilise une devise différente.",
           "max_remote_shops_exceeded": "Ce produit ne peut pas être ajouté car votre panier contient déjà le maximum provenant d'autres magasins."
         }
       },
@@ -2757,7 +2762,7 @@
       },
       "required_extensions": {
         "errors": {
-          "interaction_required": "Une interaction avec l’extension est nécessaire pour finaliser le paiement."
+          "interaction_required": "Une interaction avec l'extension est requise pour finaliser le paiement."
         }
       },
       "taxes": {
@@ -2837,6 +2842,9 @@
       },
       "markets": {
         "invalid_market_manager_error": "Vérifiez vos informations de contact avant de finaliser le paiement"
+      },
+      "remote_policies": {
+        "unavailable_policy": "Aucune %{policy_name} n'a été fournie pour ce magasin. Pour plus d'informations, contactez directement %{shop_name}."
       }
     },
     "sentence": {
