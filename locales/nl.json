@@ -1817,13 +1817,13 @@
         "payment_information_title": "Betalingsinformatie",
         "shipping_information_title": "Verzendinformatie",
         "page_title": "Dank je wel, %{display_name}!",
-        "page_title_no_name": "Dank u wel!",
+        "page_title_no_name": "Dank je wel!",
         "purchase_order_number_title": "PO-nummer #%{purchase_order_number}",
         "failed_pending_payment_page_title": "Er is een probleem met uw betaling",
         "contact_information_title": "Contactgegevens",
         "cashback_notice": "Je ontvangt je cashback na 30 dagen",
         "shipping_address_title": "Verzendadres",
-        "shipping_address_map_title": "Google-kaart met een markering van het verzendadres: %{address}",
+        "shipping_address_map_title": "Google-kaart met markering van het verzendadres: %{address}",
         "payment_method_not_charged": "Niet in rekening gebracht",
         "tracking_number": "Volgnummer:",
         "estimated_arrival": "Geschatte leverdatum:",
@@ -1843,33 +1843,33 @@
         "thank_you_title_payments_app_pending_buyer_action_required": "Uw bestelling is ontvangen",
         "thank_you_title_payments_app_failed_pending_payment": "Uw betaling kon niet worden verwerkt",
         "thank_you_confirmed_with_email_description": {
-          "multi_store": "Je ontvangt binnenkort afzonderlijke bevestigingsmails van elke winkel."
+          "multi_store": "Je ontvangt binnenkort aparte bevestigingsmails van elke winkel."
         },
         "thank_you_confirmed_with_phone_description": {
           "single_store": "Je ontvangt binnenkort een bevestigingsbericht",
           "multi_store": "Je ontvangt binnenkort afzonderlijke bevestigingsberichten van elke winkel."
         },
         "thank_you_confirmed_with_email_and_phone_description": {
-          "multi_store": "Je ontvangt binnenkort afzonderlijke bevestigingsmails van elke winkel."
+          "multi_store": "Je ontvangt binnenkort aparte bevestigingsmails van elke winkel."
         },
-        "thank_you_confirmed_order_with_email": "U ontvangt binnenkort een bevestigingsmail met uw bestelnummer.",
-        "thank_you_confirmed_order_with_phone": "U ontvangt binnenkort een bevestigingstekst met uw bestelnummer.",
-        "thank_you_confirmed_order_with_email_and_phone": "U ontvangt binnenkort een bevestigingsmail met uw bestelnummer.",
-        "thank_you_confirmed_orders_with_email": "Je ontvangt binnenkort aparte bevestigingsmails met je bestelnummer(s)",
+        "thank_you_confirmed_order_with_email": "Je ontvangt binnenkort een bevestigingsmail met je bestelnummer.",
+        "thank_you_confirmed_order_with_phone": "Je ontvangt binnenkort een bevestigingsbericht met je bestelnummer.",
+        "thank_you_confirmed_order_with_email_and_phone": "Je ontvangt binnenkort een bevestigingsmail met je bestelnummer.",
+        "thank_you_confirmed_orders_with_email": "Je ontvangt binnenkort aparte bevestigingsmails met je ordernummers.",
         "thank_you_confirmed_orders_with_phone": "Je ontvangt binnenkort aparte bevestigingsteksten met je bestelnummer(s)",
-        "thank_you_confirmed_orders_with_email_and_phone": "Je ontvangt binnenkort aparte bevestigingsmails met je bestelnummer(s)",
+        "thank_you_confirmed_orders_with_email_and_phone": "Je ontvangt binnenkort aparte bevestigingsmails met je ordernummers.",
         "thank_you_confirmed_order_with_email_payment": "U heeft een betaling gedaan voor uw bestelling op %{date}.",
         "thank_you_confirmed_order_with_phone_payment": "U heeft een betaling gedaan voor uw bestelling op %{date}.",
         "thank_you_confirmed_order_with_email_and_phone_payment": "U heeft een betaling gedaan voor uw bestelling op %{date}.",
-        "thank_you_confirmed_order_with_email_pick_up": "Je ontvangt een e-mail zodra je bestelling klaar is om op te halen.",
-        "thank_you_confirmed_order_with_phone_pick_up": "Je ontvangt een sms-bericht zodra je bestelling klaar is om op te halen.",
-        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Je ontvangt een e-mail zodra je bestelling klaar is om op te halen.",
-        "thank_you_confirmed_order_with_missing": "Neem contact met ons op via e-mail of telefoon om een bestelbevestiging te ontvangen.",
-        "thank_you_confirmed_order_with_missing_payment": "Neem contact met ons op via e-mail of telefoon om een bestelbevestiging te ontvangen.",
-        "thank_you_confirmed_order_with_missing_pick_up": "Neem contact met ons op via e-mail of telefoon om een bestelbevestiging te ontvangen.",
-        "thank_you_confirmed_order_with_draft": "We laten het u weten als we meer informatie nodig hebben of wanneer uw bestelling is bevestigd.",
-        "thank_you_confirmed_order_with_draft_payment": "We laten het u weten als we meer informatie nodig hebben of wanneer uw bestelling is bevestigd.",
-        "thank_you_confirmed_order_with_draft_pick_up": "We laten het u weten als we meer informatie nodig hebben of wanneer uw bestelling is bevestigd.",
+        "thank_you_confirmed_order_with_email_pick_up": "Je ontvangt een e-mail zodra je bestelling klaar is om opgehaald te worden.",
+        "thank_you_confirmed_order_with_phone_pick_up": "Je ontvangt een sms-bericht wanneer je bestelling klaar is om opgehaald te worden.",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": "Je ontvangt een e-mail zodra je bestelling klaar is om opgehaald te worden.",
+        "thank_you_confirmed_order_with_missing": "Neem contact met ons op via e-mail of telefoon om een orderbevestiging te ontvangen.",
+        "thank_you_confirmed_order_with_missing_payment": "Neem contact met ons op via e-mail of telefoon om een orderbevestiging te ontvangen.",
+        "thank_you_confirmed_order_with_missing_pick_up": "Neem contact met ons op via e-mail of telefoon om een orderbevestiging te ontvangen.",
+        "thank_you_confirmed_order_with_draft": "We laten het je weten als we meer informatie nodig hebben of wanneer je bestelling is bevestigd.",
+        "thank_you_confirmed_order_with_draft_payment": "We laten het je weten als we meer informatie nodig hebben of wanneer je bestelling is bevestigd.",
+        "thank_you_confirmed_order_with_draft_pick_up": "We laten het je weten als we meer informatie nodig hebben of wanneer je bestelling is bevestigd.",
         "thank_you_unconfirmed_items_heading": {
           "other": "Sommige artikelen zijn niet bevestigd"
         },
@@ -1884,27 +1884,27 @@
         "thank_you_payments_app_pending_payment_description_default_with_missing": "Neem contact met ons op via e-mail of telefoon om een bestelbevestiging te ontvangen.",
         "thank_you_payments_app_pending_payment_description_default_with_missing_payment": "Neem contact met ons op via e-mail of telefoon om een bestelbevestiging te ontvangen.",
         "thank_you_payments_app_pending_payment_description_default_with_missing_pick_up": "Neem contact met ons op via e-mail of telefoon om een bestelbevestiging te ontvangen.",
-        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone": "U ontvangt binnenkort een bevestigingsmail met uw bestelnummer.",
-        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_payment": "U ontvangt binnenkort een bevestigingsmail met uw bestelnummer.",
-        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "U ontvangt binnenkort een bevestigingsmail met uw bestelnummer.",
-        "thank_you_payments_app_pending_payment_description_default_with_email": "U ontvangt binnenkort een bevestigingsmail met uw bestelnummer.",
-        "thank_you_payments_app_pending_payment_description_default_with_email_payment": "U ontvangt binnenkort een bevestigingsmail met uw bestelnummer.",
-        "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "U ontvangt binnenkort een bevestigingsmail met uw bestelnummer.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone": "Je ontvangt binnenkort een bevestigingsmail met je bestelnummer.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_payment": "Je ontvangt binnenkort een bevestigingsmail met je bestelnummer.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "Je ontvangt binnenkort een bevestigingsmail met je bestelnummer.",
+        "thank_you_payments_app_pending_payment_description_default_with_email": "Je ontvangt binnenkort een bevestigingsmail met je bestelnummer.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_payment": "Je ontvangt binnenkort een bevestigingsmail met je bestelnummer.",
+        "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "Je ontvangt binnenkort een bevestigingsmail met je bestelnummer.",
         "thank_you_payments_app_pending_payment_description_default_with_phone": "U ontvangt binnenkort een bevestigingstekst met uw bestelnummer.",
         "thank_you_payments_app_pending_payment_description_default_with_phone_payment": "U ontvangt binnenkort een bevestigingstekst met uw bestelnummer.",
         "thank_you_payments_app_pending_payment_description_default_with_phone_pick_up": "U ontvangt binnenkort een bevestigingstekst met uw bestelnummer.",
-        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing": "Neem contact met ons op via e-mail of telefoon om een bestelbevestiging te ontvangen.",
-        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Neem contact met ons op via e-mail of telefoon om een bestelbevestiging te ontvangen.",
-        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "Neem contact met ons op via e-mail of telefoon om een bestelbevestiging te ontvangen.",
-        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Na het voltooien van uw betaling ontvangt u een bevestigingsmail met uw bestelnummer.",
-        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "Na het voltooien van uw betaling ontvangt u een bevestigingsmail met uw bestelnummer.",
-        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "Na het voltooien van uw betaling ontvangt u een bevestigingsmail met uw bestelnummer.",
-        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email": "Na het voltooien van uw betaling ontvangt u een bevestigingsmail met uw bestelnummer.",
-        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "Na het voltooien van uw betaling ontvangt u een bevestigingsmail met uw bestelnummer.",
-        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Na het voltooien van uw betaling ontvangt u een bevestigingsmail met uw bestelnummer.",
-        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone": "Na het voltooien van uw betaling ontvangt u een bevestigingstekst met uw bestelnummer.",
-        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Na het voltooien van uw betaling ontvangt u een bevestigingstekst met uw bestelnummer.",
-        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Na het voltooien van uw betaling ontvangt u een bevestigingstekst met uw bestelnummer.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing": "Neem contact met ons op via e-mail of telefoon om een orderbevestiging te ontvangen.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Neem contact met ons op via e-mail of telefoon om een orderbevestiging te ontvangen.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "Neem contact met ons op via e-mail of telefoon om een orderbevestiging te ontvangen.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone": "Na het voltooien van je betaling ontvang je een bevestigingsmail met je ordernummer.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_payment": "Na het voltooien van je betaling ontvang je een bevestigingsmail met je ordernummer.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_and_phone_pick_up": "Na het voltooien van je betaling ontvang je een bevestigingsmail met je ordernummer.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email": "Na het voltooien van je betaling ontvang je een bevestigingsmail met je ordernummer.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_payment": "Na het voltooien van je betaling ontvang je een bevestigingsmail met je ordernummer.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "Na het voltooien van je betaling ontvang je een bevestigingsmail met je ordernummer.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone": "Na het voltooien van je betaling ontvang je een bevestigingstekst met je ordernummer.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Na het voltooien van je betaling ontvang je een bevestigingstekst met je ordernummer.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Na het voltooien van je betaling ontvang je een bevestigingstekst met je ordernummer.",
         "thank_you_payments_app_pending_payment_description_provider_action_required_default": "Uw betaling wordt verwerkt. U ontvangt een e-mail zodra uw betaling is bevestigd.",
         "track_your_order_link_text": "Volg uw bestelling",
         "checkout_again": "Opnieuw afrekenen",
@@ -1956,12 +1956,12 @@
         "confirmed_title": "Je bestelling is bevestigd",
         "confirmed_description": "We hebben je bestelling geaccepteerd en zijn deze aan het klaarmaken. Kom terug naar deze pagina voor updates over de status van je verzending.",
         "confirmed_orders_title": "Je bestellingen zijn bevestigd",
-        "ready_for_pickup_title": "Uw bestelling is klaar om op te halen",
-        "ready_for_pickup_description": "Uw bestelling is klaar om op te halen. Neem uw bestelbevestiging mee wanneer u uw bestelling komt ophalen.",
+        "ready_for_pickup_title": "Je bestelling is klaar om op te halen",
+        "ready_for_pickup_description": "Je bestelling is klaar om opgehaald te worden. Neem je bestelbevestiging mee wanneer je je bestelling komt ophalen.",
         "ready_for_delivery_title": "Uw bestelling is klaar voor levering",
-        "ready_for_delivery_description": "We hebben uw bestelling klaargemaakt.",
+        "ready_for_delivery_description": "We hebben je bestelling klaargemaakt.",
         "order_updates_title": "Bestelupdates",
-        "shop_phone_description": "Je ontvangt een sms met een link naar de Winkel-app om je bestelling te volgen.",
+        "shop_phone_description": "Je ontvangt een sms met een link naar de Shop-app om je bestelling te volgen.",
         "order_updates_description_html": "Updates worden verzonden naar %{customer_contact}",
         "order_updates_current_step_prefix": "Huidige stap:",
         "order_updates_past_step_prefix": "Vorige stap:",
@@ -1972,11 +1972,11 @@
         "in_transit_description_today": "Je zou je bestelling vandaag moeten ontvangen.",
         "in_transit_description_tomorrow": "Je zou je bestelling binnen de volgende dag moeten ontvangen.",
         "no_tracking_number": "Er is geen trackingnummer voor deze bestelling.",
-        "out_for_delivery": "Onderweg voor bezorging",
-        "out_for_delivery_title": "Uw bestelling is onderweg voor bezorging",
-        "out_for_delivery_description_html": "Je bestelling is onderweg en zou vandaag moeten aankomen. Als deze niet binnen de komende 2 dagen wordt geleverd, %{contact_us}.",
-        "out_for_delivery_local_title": "Uw bestelling is onderweg voor bezorging",
-        "out_for_delivery_local_description_html": "Uw bestelling komt binnenkort aan.",
+        "out_for_delivery": "Onderweg voor levering",
+        "out_for_delivery_title": "Uw bestelling is onderweg voor levering",
+        "out_for_delivery_description_html": "Uw bestelling is onderweg en zou vandaag moeten aankomen. Als deze niet binnen de komende 2 dagen wordt geleverd, %{contact_us}.",
+        "out_for_delivery_local_title": "Uw bestelling is onderweg voor levering",
+        "out_for_delivery_local_description_html": "Je bestelling komt binnenkort aan.",
         "attempted_delivery_title": "Er is een poging gedaan om uw bestelling te bezorgen",
         "attempted_delivery_description_html": "Er is een poging gedaan om uw bestelling te bezorgen, maar dit is niet gelukt. %{contact_us} om een nieuwe bezorgpoging te regelen.",
         "attempted_delivery_local_title": "Gemiste levering",
@@ -2014,7 +2014,7 @@
           "fulfilled_table_title": "Items in deze zending",
           "unfulfilled_table_title": "Artikelen worden klaargemaakt voor verzending"
         },
-        "order_updates_description_missing": "U ontvangt geen verzendupdates.",
+        "order_updates_description_missing": "Je ontvangt geen verzendupdates.",
         "order_updates_subscribe_to_email_notifications": "Ontvang verzendupdates per e-mail",
         "order_updates_subscribe_to_email_or_phone_notifications": "Ontvang verzendupdates per e-mail of sms",
         "order_updates_subscribe_to_phone_notifications": "Ontvang verzendupdates per sms",
@@ -2022,7 +2022,7 @@
         "track_shipment": "Volg zending",
         "shop_qr_with_sms_upsell": {
           "qr_code": {
-            "title": "Scan met uw telefoon"
+            "title": "Scan met je telefoon"
           }
         },
         "breadcrumbs_in_review": "In beoordeling",
@@ -2033,10 +2033,10 @@
         },
         "thank_you_ready_for_picked_up": "Uw bestelling is opgehaald bij %{address}.",
         "ready_for_delivery": "Klaar voor levering",
-        "order_updates_subscribe_to_email_notifications_email_already_exists": "Het e-mailadres dat u hebt ingevoerd bestaat al.",
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "Het e-mailadres dat je hebt ingevoerd bestaat al.",
         "subscriptions_management": {
           "description": "Ga door naar uw account om uw abonnementen te bekijken en te beheren.",
-          "button_label": "Beheer uw abonnement"
+          "button_label": "Beheer je abonnement"
         },
         "manage_order_label": "Beheer uw bestelling",
         "gift_card_confirmation_by_text_typ": {
@@ -2047,7 +2047,7 @@
           "one": "Je ontvangt binnen enkele minuten een e-mail met je cadeaubon.",
           "other": "Je ontvangt binnen enkele minuten een e-mail met je cadeaubonnen."
         },
-        "resend_gift_cards_by_text": "Sms-bericht opnieuw verzenden",
+        "resend_gift_cards_by_text": "Sms opnieuw verzenden",
         "gift_card_resend_failure": {
           "one": "Er was een probleem met het opnieuw verzenden van uw cadeaubon. Probeer het opnieuw of neem contact met ons op.",
           "other": "Er was een probleem met het opnieuw verzenden van je cadeaubonnen. Probeer het opnieuw of neem contact met ons op."
@@ -2066,6 +2066,10 @@
         "checkout_on_another_store": "Afrekenen in een andere winkel",
         "gift_card_text_title": {
           "one": "Cadeaukaart is per sms verzonden"
+        },
+        "order_updates_subscribe_to_email_notifications_failed": "We kunnen deze e-mail niet opslaan voor updates. Probeer het opnieuw of gebruik een ander e-mailadres.",
+        "thank_you_item_label": {
+          "other": "%{count} items"
         }
       },
       "review": {
