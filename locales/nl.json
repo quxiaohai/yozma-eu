@@ -2572,7 +2572,7 @@
           "subscription_review_required": "Uw bestelling bevat een abonnement. U moet de onderstaande voorwaarden bekijken voordat u uw bestelling voltooit."
         },
         "scrim": {
-          "continue_purchase_in_window": "Ga door met uw aankoop in het {{walletName}} venster",
+          "continue_purchase_in_window": "Ga verder met uw aankoop in het {{walletName}}-venster",
           "and_return_to_checkout": "en terug naar Afrekenen"
         }
       },
@@ -2735,10 +2735,10 @@
     },
     "collections": {
       "sorting": {
-        "best_selling": "Bestverkocht",
+        "best_selling": "Bestseller",
         "az": "Alfabetisch, A-Z",
         "za": "Alfabetisch, Z-A",
-        "price_ascending": "Prijs, van laag naar hoog",
+        "price_ascending": "Prijs, laag naar hoog",
         "price_descending": "Prijs, van hoog naar laag",
         "date_ascending": "Datum, oud naar nieuw",
         "date_descending": "Datum, nieuw naar oud"
@@ -2746,7 +2746,7 @@
     },
     "errors": {
       "blank": "mag niet leeg zijn",
-      "credit_card_session_expired": "De machtiging voor de creditcard is verlopen, voer alstublieft opnieuw uw betaalgegevens in. Uw kaart is niet belast.",
+      "credit_card_session_expired": "De autorisatie van de creditcard is verlopen, voer alstublieft opnieuw uw betalingsgegevens in. Uw kaart is niet belast.",
       "empty": "mag niet leeg zijn",
       "discount_disabled": "Deze korting is uitgeschakeld",
       "discount_limit_reached": "Deze korting heeft zijn gebruikslimiet bereikt",
@@ -2898,42 +2898,42 @@
     "email_marketing": {
       "subscribed": {
         "confirmation": "Bedankt voor uw inschrijving op onze mailinglijst.",
-        "disclaimer": "U kunt zich op elk moment afmelden.",
+        "disclaimer": "Je kunt je op elk moment afmelden.",
         "unsubscribe": "Uitschrijven"
       },
       "unsubscribed": {
         "confirmation": "Je hebt je afgemeld voor onze mailinglijst.",
-        "disclaimer": "Je ontvangt geen marketingupdates meer van ons. Je kunt je op elk moment opnieuw abonneren.",
+        "disclaimer": "Je ontvangt geen marketingupdates meer van ons. Je kunt je op elk moment weer abonneren.",
         "preview": "Je bekijkt een voorbeeld van wat klanten zullen zien wanneer ze zich afmelden."
       },
       "sms_unsubscribe_confirm": {
-        "message": "Weet u zeker dat u zich wilt afmelden voor SMS-marketing?",
+        "message": "Weet je zeker dat je je wilt afmelden voor SMS-marketing?",
         "button": "Uitschrijven"
       },
       "open_tracking": {
         "opt_in": {
-          "opted_in_html": "<b>U heeft zich aangemeld voor het volgen van het openen van e-mails.</b>",
-          "visibility": "E-mail openpercentages worden anoniem gerapporteerd. We zullen alleen zien of u een e-mail hebt geopend als onderdeel van een samengevoegd e-mail openpercentage.",
+          "opted_in_html": "<b>Je hebt je aangemeld voor het volgen van het openen van e-mails.</b>",
+          "visibility": "E-mail open rates worden anoniem gerapporteerd. We zullen alleen zien of je een e-mail hebt geopend als onderdeel van een geaggregeerde e-mail open rate.",
           "opt_out_html": "Je kunt je <a style='text-decoration:underline;' href='%{link}'>afmelden</a> voor het volgen van het openen van e-mails als je deze informatie niet wilt delen.",
-          "preview_bar": "Je bekijkt een voorbeeld van wat klanten zullen zien wanneer ze ervoor kiezen om het openen van e-mails te laten volgen."
+          "preview_bar": "Je bekijkt een voorbeeld van wat klanten zullen zien wanneer ze zich aanmelden voor het volgen van het openen van e-mails."
         },
         "opt_out": {
-          "opted_out_html": "<b>U heeft zich afgemeld voor het volgen van het openen van e-mails.</b>",
+          "opted_out_html": "<b>Je hebt je afgemeld voor het volgen van het openen van e-mails.</b>",
           "visibility": "We zullen niet zien of je onze e-mails hebt geopend.",
-          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Meld je aan</a> voor het volgen van geopende e-mails.",
-          "preview_bar": "Je bekijkt een voorbeeld van wat klanten zullen zien wanneer ze zich afmelden voor het bijhouden van het openen van e-mails."
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Meld je aan</a> voor het volgen van het openen van e-mails.",
+          "preview_bar": "Je bekijkt een voorbeeld van wat klanten te zien krijgen wanneer ze zich afmelden voor het volgen van het openen van e-mails."
         },
         "no_longer_track": {
           "status_html": "<b>We volgen geen enkele e-mailopening meer.</b>",
-          "privacy_policy": "Nadat deze e-mail was verzonden, hebben we ons privacybeleid bijgewerkt en volgen we niet langer het openen van berichten."
+          "privacy_policy": "Na het verzenden van deze e-mail hebben we ons privacybeleid bijgewerkt en volgen we niet langer het openen van e-mails."
         },
         "track": {
-          "status_html": "<b>Het openen van e-mail wordt gevolgd.</b>",
+          "status_html": "<b>Email open tracking is gerapporteerd.</b>",
           "visibility": "We zullen alleen zien of je de e-mail hebt geopend, als onderdeel van het totale percentage geopende e-mails."
         },
         "updated_policy": {
-          "status_html": "<b>Het openen van e-mail wordt gevolgd.</b>",
-          "visibility": "We hebben ons beleid bijgewerkt en volgen nu het openen van e-mails. Het openen van e-mails wordt anoniem gerapporteerd. We zien alleen of u een e-mail hebt geopend als onderdeel van het totale percentage geopende e-mails.",
+          "status_html": "<b>Email open tracking is gerapporteerd.</b>",
+          "visibility": "We hebben ons beleid bijgewerkt en volgen nu het openen van e-mails. Het openen van e-mails wordt anoniem gerapporteerd. We zien alleen of je een e-mail hebt geopend als onderdeel van het totale percentage geopende e-mails.",
           "opt_out_html": "Als u deze informatie niet wilt delen, kunt u zich <a style='text-decoration:underline;' href='%{link}'>uitschrijven.</a>"
         }
       }
@@ -2963,7 +2963,7 @@
       "error": "Je antwoord was niet correct, probeer het alstublieft opnieuw."
     },
     "checkpoint": {
-      "message": "Los de captcha op om door te gaan",
+      "message": "Los de Captcha op om door te gaan",
       "error": "Captcha-validatie mislukt"
     },
     "store_availability": {
