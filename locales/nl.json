@@ -834,12 +834,12 @@
         },
         "unpurchasable_product": {
           "title": "Niet te koop staand product",
-          "header": "Sommige artikelen zijn uit uw winkelwagen verwijderd",
-          "message": "Deze artikelen zijn niet beschikbaar voor zakelijke bestellingen."
+          "header": "Sommige artikelen zijn uit je winkelwagen verwijderd",
+          "message": "Deze artikelen zijn niet beschikbaar voor B2B-bestellingen."
         },
         "unpurchasable_product_generic": {
           "title": "Niet te koop staand product",
-          "header": "Sommige artikelen zijn uit uw winkelwagen verwijderd"
+          "header": "Sommige artikelen zijn uit je winkelwagen verwijderd"
         },
         "unfulfillable_product": {
           "message": {
@@ -858,8 +858,8 @@
             "other": "Geen levering beschikbaar voor %{count} artikelen"
           },
           "message": {
-            "one": "Dit artikel wordt uit uw winkelwagen verwijderd omdat er geen bezorgmethoden beschikbaar zijn voor uw adres.",
-            "other": "Deze artikelen worden uit uw winkelwagen verwijderd omdat er geen bezorgmethoden beschikbaar zijn voor uw adres."
+            "one": "Dit artikel wordt uit je winkelwagen verwijderd omdat er geen bezorgmethoden beschikbaar zijn voor jouw adres.",
+            "other": "Deze artikelen worden uit je winkelwagen verwijderd omdat er geen bezorgmethoden beschikbaar zijn voor jouw adres."
           },
           "status_column_header": "Geen levering"
         },
@@ -1616,7 +1616,7 @@
         "delivery_zone_not_found": "De opgegeven zone werd niet gevonden in het opgegeven land."
       },
       "store_credit_errors": {
-        "generic_error": "Er was een probleem met uw winkeltegoed. Probeer het opnieuw of laad de pagina opnieuw."
+        "generic_error": "Er was een probleem met je winkeltegoed. Probeer het opnieuw of laad de pagina opnieuw."
       },
       "redeemable_errors": {
         "gift_card": {
@@ -2180,7 +2180,7 @@
         "recurring_totals_with_initial_order_shipping_discount": "Eerste betaling %{total_price_with_discount}, daarna %{recurring_total}",
         "recurring_totals_with_policies": {
           "first_cycles": {
-            "other": "Eerste %{count} betalingen van elk %{total_price}"
+            "other": "Eerste %{count} betalingen van %{total_price} elk"
           },
           "following_cycles": ", dan %{total_price} elke %{interval}"
         },
@@ -2617,13 +2617,13 @@
       "taxes": {
         "vat_number": {
           "field": {
-            "label": "Btw-nummer (optioneel)",
+            "label": "BTW-nummer (optioneel)",
             "tooltip": "Valideert het btw-nummer en past automatisch de verleggingsregeling toe op bestellingen wanneer dit van toepassing is"
           },
           "add": "Voeg een btw-nummer toe",
           "vaulted": "BTW-nummer: %{number}",
           "badge": "BTW-nummer: %{number}",
-          "domestic_order": "Verleggingsregeling is alleen van toepassing op grensoverschrijdende bestellingen binnen de EU. Voor lokale bestellingen wordt de standaard btw in rekening gebracht.",
+          "domestic_order": "De verleggingsregeling is alleen van toepassing op grensoverschrijdende bestellingen binnen de EU. Voor lokale bestellingen wordt de standaard btw in rekening gebracht.",
           "status": {
             "invalid_format": {
               "at": "Oostenrijkse btw-nummers bevatten AT en 9 tekens",
@@ -2690,13 +2690,13 @@
           },
           "accessibility": {
             "status": {
-              "validating": "De validatie van het btw-nummer is bezig",
+              "validating": "BTW-nummercontrole is bezig",
               "valid": "BTW-nummer is geldig",
-              "applied": "BTW-vrijstelling is toegepast",
-              "domestic": "BTW-vrijstelling niet toegepast",
+              "applied": "Btw-vrijstelling is toegepast",
+              "domestic": "Btw-vrijstelling niet toegepast",
               "invalid_number": "BTW-vrijstelling mislukt",
-              "service_unavailable": "Niet in staat om btw-vrijstelling te verifiëren",
-              "service_error": "Niet in staat om btw-vrijstelling te verifiëren"
+              "service_unavailable": "Kan de btw-vrijstelling niet verifiëren",
+              "service_error": "Kan de btw-vrijstelling niet verifiëren"
             }
           }
         }
