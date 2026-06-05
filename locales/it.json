@@ -1133,29 +1133,30 @@
       "localized_fields": {
         "additional_information": {
           "shipping_credential_cn": "Numero di identificazione del residente",
-          "tax_credential_it": "Codice fiscale (facoltativo)",
-          "tax_email_it": "PEC (facoltativo)",
-          "tax_credential_cl": "Codice fiscale",
+          "tax_credential_it": "Codice Fiscale (opzionale)",
+          "tax_email_it": "PEC (opzionale)",
+          "tax_credential_cl": "RUT",
           "shipping_credential_cl": "RUT",
-          "tax_credential_co": "Cedola/IVA",
-          "tax_credential_type_co": "Tipo Documento",
+          "tax_credential_co": "Cédula/IVA",
+          "tax_credential_type_co": "Tipo Cédula",
           "shipping_credential_co": "Cédula/IVA",
-          "shipping_credential_type_co": "Tipo Documento",
+          "shipping_credential_type_co": "Tipo Cédula",
           "tax_credential_cr": "Numero di identificazione/RUT",
           "shipping_credential_cr": "Numero di identificazione/RUT",
-          "tax_credential_gt": "NIF/IVA",
-          "shipping_credential_gt": "NIF/IVA",
-          "tax_credential_id": "Partita IVA",
-          "shipping_credential_id": "Partita IVA",
-          "tax_credential_my": "Codice fiscale/Numero di registrazione",
-          "shipping_credential_my": "Codice fiscale/Numero di registrazione",
-          "tax_credential_type_mx": "Regime Fiscale",
+          "tax_credential_gt": "NIT/IVA",
+          "shipping_credential_gt": "NIT/IVA",
+          "tax_credential_id": "NPWP",
+          "shipping_credential_id": "NPWP",
+          "tax_credential_my": "TIN/Numero di registrazione",
+          "shipping_credential_my": "TIN/Numero di registrazione",
+          "tax_credential_type_mx": "Regime fiscale",
           "tax_credential_use_mx": "Uso di CFDI",
-          "tax_credential_pt": "NIF/Partita IVA",
-          "shipping_credential_pt": "NIF/Partita IVA",
+          "tax_credential_pt": "NIF/IVA",
+          "shipping_credential_pt": "NIF/IVA",
           "shipping_credential_tw": "Numero di identificazione nazionale/Partita IVA",
           "tax_credential_tr": "Numero di Identità della Repubblica di Turchia/IVA",
-          "shipping_credential_tr": "Numero di Identità della Repubblica di Turchia/IVA"
+          "shipping_credential_tr": "Numero di Identità della Repubblica di Turchia/IVA",
+          "shipping_credential_kr": "Codice Doganale Personale"
         }
       },
       "payment": {
@@ -1981,10 +1982,10 @@
         }
       },
       "marketing": {
-        "accept_marketing_checkbox_label": "Inviami via email notizie e offerte",
+        "accept_marketing_checkbox_label": "Inviami email con notizie e offerte",
         "post_accept_marketing_checkbox_label": "Sei iscritto per ricevere notizie e offerte via email",
-        "pending_accept_marketing_checkbox_label": "Controlla la tua posta elettronica per confermare l'iscrizione a notizie e offerte",
-        "accept_sms_checkbox_label": "Mandami un messaggio con notizie e offerte",
+        "pending_accept_marketing_checkbox_label": "Controlla la tua email per confermare l'iscrizione a notizie e offerte",
+        "accept_sms_checkbox_label": "Mandami un messaggio con novità e offerte",
         "disclaimer": {
           "terms_of_service": "Termini di servizio"
         },
@@ -1995,10 +1996,10 @@
             "description_transactional_html": "Potresti ricevere messaggi di testo relativi alla conferma dell'ordine e agli aggiornamenti sulla spedizione. Rispondi STOP per annullare l'iscrizione. Rispondi HELP per assistenza. La frequenza dei messaggi può variare. Potrebbero essere applicate tariffe per messaggi e dati. Consulta la nostra %{privacy_policy_modal_link} e %{terms_of_service_modal_link}."
           },
           "mobile_phone_number": "Numero di telefono cellulare",
-          "get_offers_by_text": "Ricevi offerte via messaggio di testo"
+          "get_offers_by_text": "Ricevi offerte via SMS"
         },
         "unsubscribe": {
-          "title": "Ti sei cancellato dalla newsletter",
+          "title": "Ti sei disiscritto",
           "description": "Non riceverai più promemoria del carrello da parte nostra."
         }
       },
@@ -2215,7 +2216,7 @@
       "marketplaces": {
         "legal_notice": {
           "legal_text": "Recensione",
-          "link_label": "Termini e Condizioni di {{partnerDisplayName}}"
+          "link_label": "Termini e condizioni di {{partnerDisplayName}}"
         }
       },
       "online_store_chat": {
@@ -2452,7 +2453,7 @@
         "square_foot": "piedi²"
       },
       "memberships": {
-        "delivery_promise_unfulfillable": "L'indirizzo non è supportato per l'attuale abbonamento.",
+        "delivery_promise_unfulfillable": "L'indirizzo non è supportato per l'abbonamento attuale.",
         "items_split_across_locations_unsupported": "La consegna Prime non è disponibile per il tuo ordine. Le opzioni di spedizione sono state aggiornate."
       },
       "editor": {
