@@ -1277,8 +1277,8 @@
         "gift_card_code_label": "Cadeauboncode",
         "gift_card_balance_label": "Balans:",
         "detected_card_brand": "Gedetecteerd kaartmerk: {brand}",
-        "credit_card_vaulting_sign_in_banner_title": "Bewaar uw creditcardgegevens",
-        "credit_card_vaulting_sign_in_banner_info": "Log in of maak een account aan om uw creditcard op te slaan voor toekomstige aankopen.",
+        "credit_card_vaulting_sign_in_banner_title": "Sla je creditcard op",
+        "credit_card_vaulting_sign_in_banner_info": "Log in of maak een account aan om je creditcard op te slaan voor toekomstige aankopen.",
         "ftd_vault_credit_card_label": "Sla deze creditcard op in mijn account voor een snellere afhandeling van de bestelling",
         "card_pay_with": "Betalen met:",
         "card_security_notice": "Alle transacties zijn veilig en versleuteld.",
@@ -1288,7 +1288,7 @@
         "card_expiry_placeholder": "Vervaldatum (MM / JJ)",
         "credit_card_start_month": "Startmaand",
         "credit_card_start_year": "Startjaar",
-        "delete_customer_mandate_modal_body": "Als u deze kaart verwijdert, moet u deze opnieuw toevoegen voordat u ermee kunt betalen.",
+        "delete_customer_mandate_modal_body": "Als je deze kaart verwijdert, moet je deze opnieuw toevoegen voordat je ermee kunt betalen.",
         "card_verification_confirm": "Voer voor verificatiedoeleinden de beveiligingscode van uw kaart in.",
         "card_expiry_date_explanation": "Kaartvervaldatum in formaat: maand, maand, jaar, jaar",
         "card_expiration_year_label": "Vervaldatum jaar",
@@ -1301,7 +1301,7 @@
         "paypal_disconnect": "Verbreek verbinding",
         "ends_with_label": "eindigend op %{last_digits}",
         "crypto_payment_method": {
-          "description": "Maak veilig verbinding met uw portemonnee op het Base-netwerk",
+          "description": "Verbind je wallet veilig. Je saldo en adres worden niet gedeeld.",
           "tooltip": "Uw portemonnee saldo en adres worden niet gedeeld en alleen het gevraagde bedrag kan worden afgeschreven"
         },
         "crypto_modal": {
@@ -1312,7 +1312,7 @@
         },
         "saved_by_payment_method": "Opgeslagen door %{payment_method}",
         "pay_with_payment_method": "Betalen met %{payment_method}",
-        "different_credit_card_label": "Gebruik een andere kredietkaart",
+        "different_credit_card_label": "Gebruik een andere creditcard",
         "same_billing_address_label": "Zelfde als het afleveradres",
         "different_billing_address_label": "Gebruik een ander factuuradres",
         "billing_address_associated_with_mandate": "Gebruik het adres dat aan de betaalmethode is gekoppeld",
@@ -1369,7 +1369,7 @@
         "purchase_options_agreement_label": "Een of meer artikelen in uw winkelwagen zijn een uitgestelde, abonnement- of terugkerende aankoop. Door door te gaan met uw betaling, gaat u ermee akkoord dat uw betaalmethode automatisch wordt belast tegen de prijs en frequentie die op deze pagina staan vermeld totdat het eindigt of u annuleert. Alle annuleringen zijn onderhevig aan de %{cancellation_policy_label}.",
         "purchase_options_agreement_label_html": "Ik begrijp dat een of meer artikelen in mijn winkelwagen een uitgestelde, abonnement- of terugkerende aankoop zijn. Door door te gaan, ga ik akkoord met het\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">annuleringsbeleid</a>\nen machtig ik u om mijn betaalmethode te belasten tegen de prijzen, frequentie en data die op deze pagina staan vermeld totdat mijn\nbestelling is voltooid of ik annuleer, indien toegestaan.",
         "purchase_options_agreement_label_wallets": "Door door te gaan met uw betaling, gaat u akkoord met de toekomstige kosten die op deze pagina staan vermeld en het annuleringsbeleid.",
-        "change_currency_section_description": "Selecteer een valutaoptie",
+        "change_currency_section_description": "Selecteer een valuta-optie",
         "no_real_orders_dev_store": "Deze winkel kan geen echte bestellingen of echte betalingen accepteren.",
         "apple_pay_payment_error": "Uw betaling kon niet worden voltooid. Probeer het opnieuw of gebruik een andere betaalmethode.",
         "taxes_not_included": "Belastingen niet inbegrepen",
@@ -1405,7 +1405,7 @@
           "buying_gift_card": "Je kunt geen winkeltegoed gebruiken om een cadeaubon te kopen",
           "no_fixed_selling_plans": "Je kunt geen winkeltegoed gebruiken bij uitgestelde aankoopopties"
         },
-        "clear": "Helder",
+        "clear": "Wissen",
         "billing_must_match_shipping_notice": "Het factuuradres van uw betaalmethode moet overeenkomen met het afleveradres.",
         "same_billing_address_checkbox_label": "Gebruik het afleveradres als factuuradres",
         "location_billing_address_label": "Factuuradres locatie",
@@ -1484,7 +1484,7 @@
           "manage_label": "Beheer cadeaubonnen of winkeltegoed"
         },
         "custom_onsite_payment_method_modal": {
-          "title": "Aangepaste Betalingsbevestiging Ter Plaatse"
+          "title": "Aangepaste bevestiging van betaling ter plaatse"
         },
         "markets_pro_disclaimer_label": "Door uw bestelling te plaatsen, gaat u akkoord met de aankoop bij Global-e als de geregistreerde verkoper, onderhevig aan de %{markets_pro_terms} en %{privacy_policy} van Global-e, en deelt u uw gegevens met %{shop_name}.",
         "markets_pro_disclaimer_terms_and_conditions": "Algemene Voorwaarden",
