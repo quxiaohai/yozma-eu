@@ -1009,7 +1009,7 @@
         "shipping_method_one_time_purchase_group_title": "Acquisto una tantum",
         "subscription_local_delivery": "Consegna locale in abbonamento",
         "subscription_pickup": "Ritiro in abbonamento",
-        "waiting_on_rate_notice": "Recupero delle tariffe di spedizione disponibili…",
+        "waiting_on_rate_notice": "Calcolo delle tariffe di spedizione disponibili…",
         "waiting_on_pickup_location_notice": "Recupero delle sedi di ritiro disponibili…",
         "no_rates_for_cart_or_destination_notice": "Non sono disponibili metodi di spedizione per il tuo carrello o indirizzo",
         "cheapest_rate_label": "Più economico",
@@ -1026,12 +1026,12 @@
         "default_description": "Spedito in 1 giorno lavorativo",
         "unbranded_description_same_day": "Spedito lo stesso giorno lavorativo",
         "unbranded_description_with_fulfillment_days": {
-          "one": "Spedito il giorno lavorativo successivo",
+          "one": "Spedito il prossimo giorno lavorativo",
           "other": "Spedito in %{count} giorni lavorativi"
         },
         "unbranded_description_with_fulfillment_weeks": {
-          "one": "Spedizione in %{count} settimana",
-          "other": "Spedizione in %{count} settimane"
+          "one": "Spedito in %{count} settimana",
+          "other": "Spedito in %{count} settimane"
         },
         "shipping_line_phone_label": "Numero di cellulare (obbligatorio)",
         "shipping_line_phone": "Il tuo corriere potrebbe utilizzare questo numero per contattarti.",
@@ -1634,24 +1634,24 @@
         "pick_up_card": "La tua carta è stata rifiutata. Riprova o usa un metodo di pagamento diverso."
       },
       "shipping_errors": {
-        "shipping_method": "Le opzioni di spedizione per il tuo ordine sono cambiate. Rivedi la tua scelta.",
+        "shipping_method": "Le opzioni di spedizione per il tuo ordine sono cambiate. Rivedi la tua selezione.",
         "shipping_method_not_available": "Il tuo carrello è stato aggiornato e gli articoli che hai aggiunto non possono essere spediti al tuo indirizzo. Rimuovi gli articoli per completare il tuo ordine.",
         "shipping_method_not_available_generic": {
-          "one": "Il tuo ordine non può essere spedito all'indirizzo selezionato. Controlla il tuo indirizzo per assicurarti che sia corretto e riprova, oppure scegli un indirizzo diverso.",
-          "other": "Alcuni articoli nel tuo carrello non possono essere spediti all'indirizzo che hai inserito. Controlla il tuo indirizzo per assicurarti che sia corretto e riprova, oppure seleziona un indirizzo diverso."
+          "one": "Il tuo ordine non può essere spedito all'indirizzo selezionato. Controlla il tuo indirizzo per assicurarti che sia corretto e riprova, oppure seleziona un indirizzo diverso.",
+          "other": "Alcuni articoli nel tuo carrello non possono essere spediti all'indirizzo inserito. Controlla il tuo indirizzo per assicurarti che sia corretto e riprova, oppure seleziona un indirizzo diverso."
         },
-        "shipping_method_not_available_due_to_unsatisfied_conditions": "Gli articoli nel carrello non soddisfano i requisiti di prezzo o peso per qualificarsi per la spedizione. Aggiorna il tuo carrello e riprova.",
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "Gli articoli nel carrello non soddisfano i requisiti di prezzo o peso per qualificarsi alla spedizione. Aggiorna il carrello e riprova.",
         "shipping_method_not_available_updated": {
-          "one": "L'articolo che hai aggiunto non può essere spedito nella tua posizione. Rimuovilo per procedere al pagamento, oppure contatta il negozio.",
-          "other": "Uno o più articoli che hai aggiunto non possono essere spediti nella tua posizione. Rimuovili per procedere al pagamento, oppure contatta il negozio."
+          "one": "L'articolo che hai aggiunto non viene spedito nella tua zona. Rimuovilo per procedere al pagamento o contatta il negozio.",
+          "other": "Uno o più articoli che hai aggiunto non vengono spediti nella tua zona. Rimuovili per procedere al pagamento, oppure contatta il negozio."
         },
-        "payment_method_not_supported": "Non puoi usare questo metodo di pagamento per %{country}. Usa un metodo di pagamento diverso per spedire in questo paese.",
-        "empty_state": "Inserisci il tuo indirizzo di spedizione per vedere i metodi di spedizione disponibili.",
+        "payment_method_not_supported": "Non puoi utilizzare questo metodo di pagamento per %{country}. Usa un metodo di pagamento diverso per spedire in questo paese.",
+        "empty_state": "Inserisci il tuo indirizzo di spedizione per visualizzare i metodi di spedizione disponibili.",
         "invalid_selected_address": "L'indirizzo di spedizione selezionato non è valido",
         "invalid_selected_address_with_update_link": "L'indirizzo di spedizione selezionato non è valido. %{update_address_link} o seleziona un indirizzo diverso",
-        "unavailable_addresses_only_countries": "Il tuo ordine può essere spedito solo in {{countriesList}}. Aggiungi un nuovo indirizzo per continuare.",
+        "unavailable_addresses_only_countries": "Il tuo ordine può essere spedito solo a {{countriesList}}. Aggiungi un nuovo indirizzo per continuare.",
         "unavailable_address_country": "La spedizione non è disponibile nel paese che hai selezionato. Usa un indirizzo diverso per continuare",
-        "unavailable_selected_address_for_region": "La spedizione non è disponibile per {{region}}. Seleziona un indirizzo diverso per continuare"
+        "unavailable_selected_address_for_region": "La spedizione non è disponibile per {{region}}. Seleziona un indirizzo diverso per continuare."
       },
       "alternative_payment_method_banner": {
         "express_checkout": "Pagamento rapido",
@@ -2038,18 +2038,18 @@
       "shop_policies": {
         "policy_label": "Politica",
         "policies_label": "Politiche",
-        "select_policy_label": "Seleziona una politica",
+        "select_policy_label": "Seleziona una polizza",
         "refund_policy": "Politica di rimborso",
-        "terms_of_service": "Condizioni di servizio",
+        "terms_of_service": "Termini di servizio",
         "legal_notice": "Avviso legale",
         "shipping_policy": "Spedizione",
         "terms_of_sale": "Condizioni di vendita",
         "subscription_policy": "Cancellazioni",
-        "purchase_options_policy": "Politica sulle opzioni di acquisto",
+        "purchase_options_policy": "Politica delle opzioni di acquisto",
         "contact_information": "Contatto",
         "purchase_options_cancellation_policy": "Cancellazioni",
-        "cookie_preferences": "Biscotti",
-        "terms_and_policies": "Termini e condizioni"
+        "cookie_preferences": "Cookie",
+        "terms_and_policies": "Termini e politiche"
       },
       "mor_policies": {
         "terms_and_conditions": "Termini e Condizioni del Commerciante Registrato",
@@ -2369,6 +2369,12 @@
               "other": "Non è possibile spedire %{count} articoli"
             }
           }
+        },
+        "cross_border": {
+          "modal": {
+            "content": "I tuoi punti di ritiro e spedizione devono trovarsi nello stesso paese. Cambiare paese reimposterà tutti gli articoli su spedizione."
+          },
+          "banner": "Il tuo metodo di consegna è stato aggiornato"
         }
       },
       "clipboard": {
@@ -2386,8 +2392,8 @@
       "shop_pay_external": {
         "title": "Pagamento con Shop Pay",
         "errors": {
-          "problem_loading": "C'è un problema nel caricare Shop Pay",
-          "try_again_later": "Controlla la tua connessione oppure chiudi questa finestra e riprova tra qualche istante.",
+          "problem_loading": "C'è un problema nel caricamento di Shop Pay",
+          "try_again_later": "Controlla la tua connessione o chiudi questa finestra e riprova tra qualche istante.",
           "checkout_has_expired": "Il tuo checkout è scaduto. Chiudi questa finestra e prova a completare l'acquisto di nuovo da {{shopName}}."
         },
         "return_to_store": "Torna a {{shopName}}",

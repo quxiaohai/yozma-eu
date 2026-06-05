@@ -1969,8 +1969,8 @@
         "cashback_notice": "Vous recevrez votre cashback après 30 jours",
         "shipping_address_map_title": "Carte Google affichant l'emplacement de l'adresse de livraison : %{address}",
         "payment_method_title": "Méthode de paiement",
-        "payment_method_not_charged": "Non chargé",
-        "shipping_method_title": "Mode d'expédition",
+        "payment_method_not_charged": "Non facturé",
+        "shipping_method_title": "Méthode d'expédition",
         "company_tracking_number": "Numéro de suivi %{company} :",
         "estimated_arrival": "Date de livraison estimée :",
         "estimated_delivery": "Estimation actuelle de la livraison :",
@@ -2101,7 +2101,7 @@
         "confirmed_title": "Votre commande est confirmée",
         "confirmed_description": "Nous avons accepté votre commande et nous la préparons. Revenez sur cette page pour des mises à jour sur le statut de votre expédition.",
         "ready_for_pickup_description": "Votre commande est prête à être retirée. Apportez votre confirmation de commande lorsque vous venez chercher votre commande.",
-        "shop_phone_description": "Vous recevrez un message texte contenant un lien vers l'application Boutique pour vous aider à suivre votre commande.",
+        "shop_phone_description": "Vous recevrez un SMS avec un lien vers l'application Shop pour vous aider à suivre votre commande.",
         "order_updates_description_html": "Les mises à jour seront envoyées à %{customer_contact}",
         "order_updates_current_step_prefix": "Étape actuelle :",
         "order_updates_past_step_prefix": "Étape précédente :",
@@ -2112,7 +2112,7 @@
         "in_transit_description_today": "Vous devriez recevoir votre commande aujourd'hui.",
         "in_transit_description_tomorrow": "Vous devriez recevoir votre commande dans la journée.",
         "no_tracking_number": "Il n’y a pas de numéro de suivi pour cette commande.",
-        "out_for_delivery_description_html": "Votre commande est en route et devrait arriver aujourd’hui. Si elle n’est pas livrée dans les 2 prochains jours, %{contact_us}.",
+        "out_for_delivery_description_html": "Votre commande est en route et devrait arriver aujourd'hui. Si elle n'est pas livrée dans les 2 prochains jours, %{contact_us}.",
         "out_for_delivery_local_description_html": "Votre commande arrivera bientôt.",
         "attempted_delivery_title": "Une tentative de livraison de votre commande a été effectuée",
         "attempted_delivery_description_html": "Une tentative de livraison de votre commande a été effectuée, mais elle a échoué. %{contact_us} pour organiser une nouvelle tentative de livraison.",
@@ -2143,26 +2143,26 @@
           "current": "Emplacement actuel de l'envoi"
         },
         "pick_up_in_store_marker": {
-          "current": "Emplacement actuel de l'envoi",
-          "shipping": "Lieu de prise en charge"
+          "current": "Emplacement actuel de l'expédition",
+          "shipping": "Lieu de retrait"
         },
         "fulfillment": {
           "unfulfilled_table_title": "Articles en cours de préparation pour l'expédition"
         },
-        "order_updates_description_missing": "Vous ne recevez pas de mises à jour sur l'expédition.",
-        "order_updates_subscribe_to_email_notifications": "Recevez les mises à jour de livraison par courriel",
-        "order_updates_subscribe_to_email_or_phone_notifications": "Recevez des mises à jour sur la livraison par courriel ou message texte",
-        "order_updates_subscribe_to_phone_notifications": "Recevez des mises à jour d'expédition par texto",
+        "order_updates_description_missing": "Vous ne recevez pas de mises à jour sur la livraison.",
+        "order_updates_subscribe_to_email_notifications": "Recevez les mises à jour de livraison par email",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Recevez des mises à jour sur la livraison par e-mail ou SMS",
+        "order_updates_subscribe_to_phone_notifications": "Recevez des mises à jour de livraison par SMS",
         "order_updates_submit_subscription": "Soumettre",
         "track_shipment": "Suivre l'envoi",
         "delivery_information_label": "Informations de livraison :",
         "qr_code": {
-          "send_link_to_phone": "Ou envoyez un lien vers votre téléphone",
+          "send_link_to_phone": "Ou envoyez un lien sur votre téléphone",
           "title": "Suivez sur votre téléphone"
         },
         "shop_qr_with_sms_upsell": {
           "sms": {
-            "title": "Ou envoyez un lien vers votre téléphone"
+            "title": "Ou envoyez un lien sur votre téléphone"
           }
         },
         "breadcrumbs_in_review": "En cours d'examen",
@@ -2172,9 +2172,9 @@
         },
         "first_payment_complete": "Premier paiement effectué",
         "thank_you_ready_for_picked_up": "Votre commande a été récupérée à %{address}.",
-        "ready_for_delivery": "Prêt à être livré",
+        "ready_for_delivery": "Prêt pour la livraison",
         "order_updates_subscribe_to_email_notifications_failed": "Nous ne pouvons pas enregistrer cet e-mail pour les mises à jour. Veuillez réessayer ou utiliser un autre e-mail.",
-        "order_updates_subscribe_to_email_notifications_email_already_exists": "L'adresse courriel que vous avez saisie existe déjà.",
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "L'adresse e-mail que vous avez saisie existe déjà.",
         "subscriptions_management": {
           "description": "Continuez vers votre compte pour consulter et gérer vos abonnements.",
           "button_label": "Gérez votre abonnement"
@@ -2196,7 +2196,7 @@
           "one": "La carte-cadeau a été envoyée par message texte",
           "other": "Les cartes-cadeaux ont été envoyées par message texte"
         },
-        "resend_gift_cards_by_email": "Renvoyer le courriel",
+        "resend_gift_cards_by_email": "Renvoyer l'email",
         "resend_gift_cards_by_text": "Renvoyer le message texte",
         "gift_card_resend_failure": {
           "one": "Un problème est survenu lors de la réexpédition de votre carte-cadeau. Veuillez réessayer ou nous contacter.",
