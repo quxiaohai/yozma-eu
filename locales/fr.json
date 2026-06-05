@@ -2027,18 +2027,18 @@
         "thank_you_payments_app_failed_pending_payment": "Vous n'avez pas été facturé pour votre commande. Retournez à votre panier pour vérifier votre commande et payer à nouveau.",
         "thank_you_payments_app_failed_pending_payment_payment": "Vous n'avez pas été facturé pour votre commande. Retournez à votre panier pour vérifier votre commande et payer à nouveau.",
         "thank_you_payments_app_failed_pending_payment_pick_up": "Vous n'avez pas été facturé pour votre commande. Retournez à votre panier pour vérifier votre commande et payer à nouveau.",
-        "thank_you_payments_app_pending_payment_description_default_with_missing": "Contactez-nous par courriel ou par téléphone pour recevoir une confirmation de commande.",
-        "thank_you_payments_app_pending_payment_description_default_with_missing_payment": "Contactez-nous par courriel ou par téléphone pour recevoir une confirmation de commande.",
-        "thank_you_payments_app_pending_payment_description_default_with_missing_pick_up": "Contactez-nous par courriel ou par téléphone pour recevoir une confirmation de commande.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing": "Contactez-nous par email ou par téléphone pour recevoir une confirmation de commande.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing_payment": "Contactez-nous par email ou par téléphone pour recevoir une confirmation de commande.",
+        "thank_you_payments_app_pending_payment_description_default_with_missing_pick_up": "Contactez-nous par email ou par téléphone pour recevoir une confirmation de commande.",
         "thank_you_payments_app_pending_payment_description_default_with_email_and_phone": "Vous recevrez bientôt un e-mail de confirmation avec votre numéro de commande.",
         "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_payment": "Vous recevrez bientôt un e-mail de confirmation avec votre numéro de commande.",
         "thank_you_payments_app_pending_payment_description_default_with_email_and_phone_pick_up": "Vous recevrez bientôt un e-mail de confirmation avec votre numéro de commande.",
         "thank_you_payments_app_pending_payment_description_default_with_email": "Vous recevrez bientôt un e-mail de confirmation avec votre numéro de commande.",
         "thank_you_payments_app_pending_payment_description_default_with_email_payment": "Vous recevrez bientôt un e-mail de confirmation avec votre numéro de commande.",
         "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "Vous recevrez bientôt un e-mail de confirmation avec votre numéro de commande.",
-        "thank_you_payments_app_pending_payment_description_default_with_phone": "Vous recevrez bientôt un message de confirmation avec votre numéro de commande.",
-        "thank_you_payments_app_pending_payment_description_default_with_phone_payment": "Vous recevrez bientôt un message de confirmation avec votre numéro de commande.",
-        "thank_you_payments_app_pending_payment_description_default_with_phone_pick_up": "Vous recevrez bientôt un message de confirmation avec votre numéro de commande.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone": "Vous recevrez bientôt un SMS de confirmation avec votre numéro de commande.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_payment": "Vous recevrez bientôt un SMS de confirmation avec votre numéro de commande.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_pick_up": "Vous recevrez bientôt un SMS de confirmation avec votre numéro de commande.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing": "Contactez-nous par email ou par téléphone pour recevoir une confirmation de commande.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Contactez-nous par email ou par téléphone pour recevoir une confirmation de commande.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "Contactez-nous par email ou par téléphone pour recevoir une confirmation de commande.",
@@ -2051,7 +2051,7 @@
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone": "Après avoir effectué votre paiement, vous recevrez un message de confirmation avec votre numéro de commande.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Après avoir effectué votre paiement, vous recevrez un message de confirmation avec votre numéro de commande.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Après avoir effectué votre paiement, vous recevrez un message de confirmation avec votre numéro de commande.",
-        "thank_you_payments_app_pending_payment_description_provider_action_required_default": "Votre paiement est en cours de traitement. Vous recevrez un courriel lorsque votre paiement sera confirmé.",
+        "thank_you_payments_app_pending_payment_description_provider_action_required_default": "Votre paiement est en cours de traitement. Vous recevrez un e-mail lorsque votre paiement sera confirmé.",
         "track_your_order_link_text": "Suivez votre commande",
         "checkout_again": "Passer à la caisse à nouveau",
         "checkout_on_remote_shop_link_text": "Passer à la caisse sur %{remoteShopName}",
@@ -2137,7 +2137,7 @@
         "customer_information_hidden_fields_message": "Connectez-vous pour voir toutes les informations client.",
         "customer_validation_error": "Entrez un e-mail ou un numéro de commande valide.",
         "customer_validation_error_phone": "Entrez un numéro de téléphone ou de commande valide.",
-        "unfulfilled_items_title": "Préparation à l'expédition",
+        "unfulfilled_items_title": "Préparation pour l'expédition",
         "unfulfilled_items_description": "Nous préparons actuellement ces articles pour l'expédition.",
         "marker": {
           "current": "Emplacement actuel de l'envoi"
@@ -2202,10 +2202,14 @@
           "one": "Un problème est survenu lors de la réexpédition de votre carte-cadeau. Veuillez réessayer ou nous contacter.",
           "other": "Un problème est survenu lors de la réexpédition de vos cartes-cadeaux. Veuillez réessayer ou nous contacter."
         },
-        "verify_shop_account_title": "Vérifiez votre compte Boutique",
+        "verify_shop_account_title": "Vérifiez votre compte Shop",
         "verify_shop_account_message": "Vos informations ont été enregistrées avec Shop, vérifiez votre compte pour les utiliser automatiquement dans des millions de boutiques.",
         "verify_shop_account_cta": "Vérifiez votre compte",
-        "company_location_section_title": "Entreprise et localisation"
+        "company_location_section_title": "Entreprise et localisation",
+        "thank_you_title_payments_app_failed_pending_payment": "Votre paiement n'a pas pu être traité",
+        "vat_invoices": {
+          "title": "Factures TVA"
+        }
       },
       "vaulted": {
         "change_button": "Changer"
@@ -2361,13 +2365,14 @@
         "too_many_attempts": {
           "message": "Trop de tentatives"
         },
-        "line_to_check_out": "Vous êtes en attente pour passer à la caisse",
+        "line_to_check_out": "Vous êtes en file d'attente pour passer à la caisse",
         "inventory": {
           "partial_inventory_banner": "Une partie de votre panier est en rupture de stock et ne sera pas disponible à l'achat lors du passage à la caisse.",
           "sold_out": {
             "storefront_body": "Retournez au magasin pour continuer vos achats",
             "no_storefront_body": "Malheureusement, l'article que vous souhaitez acheter n'est plus disponible.",
-            "link": "Retour au magasin"
+            "link": "Retour au magasin",
+            "heading": "Votre panier est en rupture de stock"
           }
         },
         "title": "File d'attente",
