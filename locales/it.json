@@ -1006,7 +1006,7 @@
       },
       "shipping": {
         "shipping_method_rollup_accessibility_label": "Opzioni di metodo di spedizione",
-        "shipping_method_one_time_purchase_group_title": "Acquisto unico",
+        "shipping_method_one_time_purchase_group_title": "Acquisto una tantum",
         "subscription_local_delivery": "Consegna locale in abbonamento",
         "subscription_pickup": "Ritiro in abbonamento",
         "waiting_on_rate_notice": "Recupero delle tariffe di spedizione disponibili…",
@@ -1100,13 +1100,13 @@
           "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} per consegna), seguito da %{recurring_order_shipping_price}"
         },
         "one_time_purchase_shipping": "Spedizione unica",
-        "shipping_information_required_notice": "Le informazioni di spedizione sono obbligatorie. {{link}}.",
+        "shipping_information_required_notice": "È necessaria l'informativa sulla spedizione. {{link}}.",
         "loading_progressive_rates": "Ricerca di più tariffe…",
         "no_other_methods_available": "Nessun altro metodo disponibile",
         "duties_and_taxes_options": {
           "ddu_caption": "Potrebbero essere applicate tariffe aggiuntive"
         },
-        "shipping_used_as_billing_notice": "Questo sarà anche utilizzato come il tuo indirizzo di fatturazione per questo ordine.",
+        "shipping_used_as_billing_notice": "Questo sarà anche utilizzato come tuo indirizzo di fatturazione per questo ordine.",
         "shipping_address_title": "Spedisci a",
         "shipping_address_rollup_accessibility_label": "Opzioni di indirizzo di spedizione",
         "third_party_address_timeout": "Impossibile caricare gli indirizzi. Riprova o usa un indirizzo diverso.",

@@ -1513,20 +1513,20 @@
         "email_or_phone_blank": "Voer een e-mailadres of telefoonnummer in",
         "email_or_phone_invalid": "Voer een geldig e-mailadres of een mobiel telefoonnummer in",
         "address_first_name_too_long": "Voornaam is te lang (maximaal 255 tekens)",
-        "address_first_name_contains_mathematical_symbols": "Voornaam mag geen wiskundige tekens bevatten",
+        "address_first_name_contains_mathematical_symbols": "Voornaam mag geen wiskundige symbolen bevatten",
         "address_last_name_too_long": "Achternaam is te lang (maximaal 255 tekens)",
         "address_address1_too_long": "De eerste adresregel is te lang (maximaal 255 tekens)",
-        "address_address1_contains_emojis": "Adresregel 1 mag geen emoji's bevatten",
-        "address_address1_contains_html_tags": "Adresregel 1 mag geen HTML-tags bevatten.",
-        "address_address1_contains_mathematical_symbols": "De eerste adresregel mag geen wiskundige tekens bevatten",
+        "address_address1_contains_emojis": "Adres1 mag geen emoji's bevatten",
+        "address_address1_contains_html_tags": "Adres1 mag geen HTML-tags bevatten.",
+        "address_address1_contains_mathematical_symbols": "De eerste adresregel mag geen wiskundige symbolen bevatten",
         "address_address2_blank": "Voer een appartement, suite, enz. in.",
         "address_address2_too_long": "De tweede adresregel is te lang (maximaal 255 tekens)",
         "address_address2_contains_emojis": "Adres2 mag geen emoji's bevatten",
-        "address_address2_contains_mathematical_symbols": "De tweede adresregel mag geen wiskundige tekens bevatten",
-        "address_city_too_long": "De plaatsnaam is te lang (maximaal 255 tekens)",
-        "address_city_contains_emojis": "De stad mag geen emoji's bevatten",
-        "address_city_contains_html_tags": "Plaatsnaam mag geen HTML-tags bevatten.",
-        "address_city_contains_mathematical_symbols": "Plaatsnaam mag geen wiskundige symbolen bevatten",
+        "address_address2_contains_mathematical_symbols": "De tweede adresregel mag geen wiskundige symbolen bevatten",
+        "address_city_too_long": "De stad is te lang (maximaal 255 tekens)",
+        "address_city_contains_emojis": "Stad mag geen emoji's bevatten",
+        "address_city_contains_html_tags": "Stad mag geen HTML-tags bevatten.",
+        "address_city_contains_mathematical_symbols": "Stad mag geen wiskundige symbolen bevatten",
         "address_country_not_supported": "We verzenden niet naar dit land of deze regio. Voer een nieuw verzendadres in en probeer het opnieuw.",
         "address_province_blank": "Selecteer een staat / provincie",
         "address_province_invalid": "Selecteer een geldige staat / provincie",
@@ -1562,7 +1562,7 @@
         "physical_gift_card_duplicate_code": "Fysieke cadeaubonregel bevat dubbele code.",
         "physical_gift_card_invalid_code": "De code van de fysieke cadeaubon is ongeldig.",
         "phone_blank": "Voer een telefoonnummer in",
-        "address_country_invalid": "Selecteer een land/gebied uit de lijst",
+        "address_country_invalid": "Selecteer een land/regio uit de lijst",
         "address_zip_invalid": "Voer een geldige postcode in",
         "gift_card_invalid": "Cadeaubon \"••••%{last_four_characters}\" is niet langer geldig",
         "vaulting_agreement_blank": "Uw betaalmethode moet worden opgeslagen omdat de betaling van het resterende bedrag van deze bestelling later verschuldigd is.",
@@ -1573,7 +1573,8 @@
         "must_use_available_shipping_rate": "Verzendtarief moet worden gekozen uit de beschikbare verzendtarieven.",
         "split_by_delivery_method_not_allowed": "Verdeling per bezorgmethode is niet toegestaan voor deze sessie of winkel.",
         "split_by_delivery_method_requires_merchandise_from_single_location": "Splitsen op leveringsmethode vereist dat individuele merchandise regels vanuit één locatie worden vervuld.",
-        "split_by_delivery_method_unsupported_method_type": "Gesplitst op bezorgmethode geprobeerd met een niet-ondersteund type bezorgmethode."
+        "split_by_delivery_method_unsupported_method_type": "Gesplitst op bezorgmethode geprobeerd met een niet-ondersteund type bezorgmethode.",
+        "address_company_contains_emojis": "Bedrijfsnaam mag geen emoji's bevatten"
       },
       "store_credit_errors": {
         "generic_error": "Er was een probleem met uw winkeltegoed. Probeer het opnieuw of laad de pagina opnieuw."
@@ -1732,7 +1733,7 @@
         "page_title": "Betaling kon niet worden verwerkt",
         "title": "Betaling kon niet worden verwerkt",
         "payment_not_processed_title": "Uw betaling kon niet worden verwerkt",
-        "payment_not_processed_text": "Je bent nog niet belast. Keer terug naar je winkelwagen om je aankoop te voltooien."
+        "payment_not_processed_text": "Je bent nog niet belast. Ga terug naar je winkelwagen om je aankoop te voltooien."
       },
       "payment_gateway": {
         "credit_card_label": "Kredietkaart",
