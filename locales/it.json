@@ -1199,12 +1199,12 @@
         "card_number_placeholder": "Numero della carta",
         "card_pay_with": "Paga con:",
         "card_security_notice": "Tutte le transazioni sono sicure e criptate.",
-        "card_security_vault_notice": "Abbiamo bisogno dei tuoi dati per i pagamenti futuri. Tutte le operazioni sono sicure e criptate.",
+        "card_security_vault_notice": "Abbiamo bisogno dei tuoi dati per i pagamenti futuri. Tutte le transazioni sono sicure e criptate.",
         "card_information_notice": "Tutte le transazioni sono sicure e criptate. Le informazioni della carta di credito non vengono mai memorizzate.",
         "card_nickname_label": "Soprannome (opzionale)",
         "card_expiry_label": "Data di scadenza (MM / AA)",
         "card_expiry_placeholder": "Data di scadenza (MM / AA)",
-        "delete_customer_mandate_modal_body": "Se rimuovi questa carta, dovrai aggiungerla di nuovo prima di poterla usare per i pagamenti.",
+        "delete_customer_mandate_modal_body": "Se rimuovi questa carta, dovrai aggiungerla di nuovo prima di poterla utilizzare per i pagamenti.",
         "delete_customer_mandate_modal_confirm": "Rimuovi carta",
         "card_verification_confirm": "Per scopi di verifica, inserisci il codice di sicurezza della tua carta.",
         "card_verification_value_explanation": "Codice di sicurezza a 3 cifre solitamente presente sul retro della tua carta. Le carte American Express hanno un codice a 4 cifre situato sul davanti.",
@@ -1219,11 +1219,11 @@
         "expiry_long": "(Scade %{month}/%{year})",
         "expiry_short": "(Scadenza %{month}/%{year})",
         "crypto_payment_method": {
-          "description": "Connettiti in modo sicuro al tuo portafoglio sulla rete Base",
+          "description": "Collega il tuo portafoglio in modo sicuro. Il tuo saldo e il tuo indirizzo non saranno condivisi.",
           "tooltip": "Il saldo del tuo portafoglio e l'indirizzo non saranno condivisi e potrà essere detratto solo l'importo richiesto",
           "cashback_descriptor": {
-            "one": "Riceverai il tuo cashback dopo %{count} giorni.",
-            "other": "Riceverai il tuo cashback dopo %{count} giorni."
+            "one": "Riceverai il tuo cashback dopo %{count} giorno",
+            "other": "Riceverai il tuo cashback dopo %{count} giorni"
           }
         },
         "crypto_modal": {
@@ -1266,7 +1266,7 @@
         "paypal_wallet_label": "Portafoglio PayPal",
         "shop_pay_installments_label": "Rate Shop Pay",
         "default": "Predefinito",
-        "continue_to_guest_checkout": "Continua come ospite",
+        "continue_to_guest_checkout": "Continua come ospite al pagamento",
         "paypal_modal": {
           "order_contains_fixed_selling_plans": "Il totale potrebbe non includere tasse, spedizione, oneri differiti e alcuni sconti. Procedi al pagamento per l'importo dovuto oggi."
         },
@@ -1275,7 +1275,7 @@
         "eps_label": "bonifico eps",
         "klarna_slice_it_label": "Finanzia con Klarna",
         "afterpay_label": "Dopo pagamento",
-        "cashapppay_label": "Pagamento con Cash App",
+        "cashapppay_label": "Cash App Paga",
         "blik_label": "BLIK",
         "twint_label": "DOPPIO GEMELLO",
         "swish_label": "Fruscio",
@@ -1399,7 +1399,7 @@
         },
         "gift_card_checkbox_label": "Applica la carta regalo",
         "custom_onsite_payment_method_modal": {
-          "title": "Conferma personalizzata del pagamento in loco"
+          "title": "Conferma di Pagamento Personalizzata in Sede"
         },
         "markets_pro_disclaimer_label": "Effettuando l'ordine accetti di acquistare da Global-e come commerciante ufficiale, soggetto ai %{markets_pro_terms} e %{privacy_policy} di Global-e, e di condividere le tue informazioni con %{shop_name}.",
         "markets_pro_disclaimer_terms_and_conditions": "Termini e Condizioni",
