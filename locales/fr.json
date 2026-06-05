@@ -162,7 +162,7 @@
       "continue_shopping": "Continuer vos achats"
     },
     "products_count": {
-      "zero": "0 produit",
+      "zero": "0 produit(s)",
       "one": "1 produit",
       "other": "{{ count }} produits"
     },
@@ -197,12 +197,12 @@
     },
     "comments": {
       "leave_comment": "Laisser un commentaire",
-      "moderated": "Tous les commentaires sont modérés avant d’être publiés.",
+      "moderated": "Tous les commentaires sont modérés avant publication.",
       "name": "Nom",
-      "email": "Courriel",
+      "email": "E-mail",
       "message": "Message",
       "submit": "Soumettre",
-      "comment_sent": "Votre commentaire a été envoyé. Nous le publierons sous peu, car notre blogue est modéré.",
+      "comment_sent": "Votre commentaire a été envoyé. Nous le publierons dans un instant, car notre blog est modéré.",
       "comment_published": "Votre commentaire a été publié.",
       "count": {
         "zero": "{{ count }} commentaires",
@@ -214,10 +214,12 @@
   "contact": {
     "form": {
       "name": "Nom",
-      "email": "Courriel",
+      "email": "E-mail",
       "message": "Message",
       "submit": "Envoyer le message",
-      "success_message": "Votre message a été envoyé."
+      "success_message": "Votre message a été envoyé.",
+      "question": "Questions",
+      "product_name": "Nom du produit"
     }
   },
   "customer": {
@@ -332,7 +334,7 @@
       "subtotal": "Sous-total",
       "total": "Total",
       "taxes_and_shipping_policy_at_checkout_html": "Taxes et <a href=\"{{ link }}\" class=\"link\">frais de livraison</a> calculés lors du paiement",
-      "taxes_included_but_shipping_at_checkout": "Taxes comprises et frais de port calculés lors du paiement",
+      "taxes_included_but_shipping_at_checkout": "Taxes incluses et frais de livraison calculés lors du paiement",
       "taxes_included_and_shipping_policy_html": "Taxes incluses. <a href=\"{{ link }}\" class=\"link\">Frais de livraison</a> calculés lors du paiement.",
       "taxes_and_shipping_at_checkout": "Taxes et frais de livraison calculés lors du paiement",
       "add_order_note": "Ajouter une note de commande",
@@ -355,18 +357,18 @@
     },
     "free_shipping_bar": {
       "limit_unreached_html": "Dépensez encore {{ remaining_amount }} et bénéficiez de la livraison gratuite !",
-      "limit_reached_html": "Vous bénéficiez de la livraison gratuite."
+      "limit_reached_html": "Vous êtes éligible à la livraison gratuite."
     },
     "shipping_estimator": {
-      "estimate_shipping": "Estimer la livraison",
+      "estimate_shipping": "Estimer les frais de livraison",
       "country": "Pays",
       "province": "Province",
       "zip": "Code postal",
-      "estimate": "Estimation",
-      "no_results": "Nous ne livrons pas à votre adresse.",
-      "one_result": "Il y a un résultat pour votre adresse :",
-      "multiple_results": "Il y a plusieurs résultats pour votre adresse :",
-      "error": "Impossible d'estimer les frais de livraison :"
+      "estimate": "Estimer",
+      "no_results": "Désolé, nous ne livrons pas à votre adresse.",
+      "one_result": "Il y a un seul tarif d'expédition pour votre adresse :",
+      "multiple_results": "Il existe plusieurs tarifs d'expédition pour votre adresse :",
+      "error": "Une ou plusieurs erreurs sont survenues lors de la récupération des tarifs d'expédition :"
     }
   },
   "search": {
@@ -432,10 +434,10 @@
   },
   "apps": {
     "shopify_reviews": {
-      "review_info": "Ce produit est noté {{ rating_value }} sur {{ rating_max }} étoiles.",
+      "review_info": "Ce produit est évalué à {{ rating_value }} sur {{ rating_max }} étoiles.",
       "leave_review": "Laisser un avis",
       "review_count": {
-        "zero": "Ce produit n'a reçu aucun avis.",
+        "zero": "Ce produit n'a pas encore d'avis.",
         "one": "Il a reçu {{ count }} avis.",
         "other": "Il a reçu {{ count }} avis."
       }
