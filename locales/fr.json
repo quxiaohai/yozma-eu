@@ -1355,7 +1355,7 @@
         }
       },
       "payment": {
-        "network_card_payment_options": "Choisissez un réseau de cartes",
+        "network_card_payment_options": "Choisissez un réseau de carte",
         "network_card_persistence_description": "Le réseau sélectionné sera enregistré avec votre mode de paiement pour les transactions futures.",
         "amazon_payments_label": "Amazon Pay",
         "amazon_payments_login_hint": "Vous serez invité à vous connecter avec Amazon.",
@@ -1426,9 +1426,10 @@
         "billing_address_associated_with_mandate_info": "Si vous souhaitez modifier votre adresse de facturation, supprimez et saisissez à nouveau les informations de votre carte de crédit",
         "free_order_notice_html": "Votre commande est <strong>gratuite</strong>. Aucun paiement n'est requis.",
         "order_covered_by_gift_cards_notice": {
-          "other": "Votre commande est couverte par vos cartes-cadeaux."
+          "other": "Votre commande est couverte par vos cartes-cadeaux.",
+          "one": "Votre commande est couverte par votre carte cadeau."
         },
-        "offsite_gateway_redirect_hint_multi_currency_html": "Total %{total_shop_price} %{gateway_label}",
+        "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label} total %{total_shop_price}",
         "receiver_payment_experience_hint": "Après avoir passé votre commande, vous recevrez les détails de paiement. Effectuez le paiement au Multibanco ou en ligne dans un délai de %{due_days} jours.",
         "billing_address_rollup_accessibility_label": "Options d'adresse de facturation",
         "billing_address_description": "Sélectionnez l'adresse qui correspond à votre carte ou méthode de paiement.",
@@ -1442,7 +1443,7 @@
         "technical_error": "Les paiements ne peuvent pas être traités pour le moment en raison d'un problème technique. Veuillez réessayer dans quelques minutes.",
         "no_method_error": "Cette boutique ne peut pas accepter les paiements pour le moment.",
         "not_configured_error": "Cette boutique ne peut pas accepter les paiements pour le moment.",
-        "missing_credit_card_error": "Saisissez les informations de votre carte pour finaliser le paiement",
+        "missing_credit_card_error": "Saisissez les détails de votre carte pour finaliser le paiement",
         "shop_pay_ideal_unavailable_error": "iDEAL | Wero n'est pas disponible pour cette commande. Choisissez un autre mode de paiement.",
         "payment_method_not_available_for_shipping_address_error": "Méthode de paiement non disponible pour l'adresse de livraison sélectionnée. Choisissez une autre méthode de paiement.",
         "billing_address_not_supported_for_payment_method_error": "Cette méthode de paiement n'est pas disponible pour votre adresse de facturation et votre devise. Essayez une autre méthode de paiement.",
@@ -1455,7 +1456,7 @@
           "order_contains_fixed_selling_plans": "Le total peut ne pas inclure les taxes, les frais d'expédition, les frais différés et certaines remises. Continuez vers le paiement pour connaître le montant dû aujourd'hui."
         },
         "klarna_pay_now_label": "Payez maintenant avec Klarna",
-        "multibanco_label": "Multibanque",
+        "multibanco_label": "Multibanco",
         "eps_label": "virement eps",
         "klarna_slice_it_label": "Financez avec Klarna",
         "afterpay_label": "Afterpay",
@@ -1481,7 +1482,7 @@
         "waiting_on_payment_methods": "Chargement des méthodes de paiement disponibles...",
         "apple_pay_payment_error": "Votre paiement n'a pas pu être effectué. Veuillez réessayer ou utiliser un autre mode de paiement.",
         "taxes_not_included": "Taxes non comprises",
-        "no_taxes_banner_content": "Les taxes ne seront pas appliquées sur cette commande. Une fois que vous aurez reçu le paiement, il ne sera plus possible d’ajouter des taxes.",
+        "no_taxes_banner_content": "Les taxes ne seront pas facturées sur cette commande. Une fois que vous avez reçu le paiement, les taxes ne peuvent plus être ajoutées.",
         "apple": {
           "not_available": "Apple Pay n'est pas disponible dans ce navigateur. Pour connecter votre compte Apple Pay, vous devez utiliser Safari sur un appareil Apple."
         },
@@ -1489,7 +1490,7 @@
           "connect": "Cliquez pour vous connecter à votre compte Google Pay",
           "error_authorizing": "Erreur d'autorisation du paiement"
         },
-        "mor_disclaimer_html": "En cliquant ci-dessous et en finalisant votre commande, vous acceptez d’acheter votre(s) article(s) auprès de Global-e en tant que commerçant officiel pour cette transaction, selon les <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Conditions Générales</a> et la <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Politique de Confidentialité</a> de Global-e. Global-e est un prestataire international de services de traitement des commandes pour %{shop_name}",
+        "mor_disclaimer_html": "En cliquant ci-dessous et en finalisant votre commande, vous acceptez d’acheter votre ou vos article(s) auprès de Global-e en tant que commerçant officiel pour cette transaction, selon les <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Conditions Générales</a> et la <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Politique de Confidentialité</a> de Global-e. Global-e est un prestataire international de services de traitement des commandes pour %{shop_name}",
         "pending_payment": {
           "due_notice": "Votre paiement de %{amount_due} est dû le %{due_date}.",
           "multibanco": {
@@ -1507,8 +1508,8 @@
         "clear": "Effacer",
         "billing_must_match_shipping_notice": "L'adresse de facturation de votre mode de paiement doit correspondre à l'adresse de livraison.",
         "same_billing_address_checkbox_label": "Utiliser l'adresse de livraison comme adresse de facturation",
-        "location_billing_address_label": "Adresse de facturation de location",
-        "location_shipping_address_label": "Adresse de livraison de location",
+        "location_billing_address_label": "Adresse de facturation du lieu",
+        "location_shipping_address_label": "Adresse de livraison du lieu",
         "use_order_billing_address_label": "Utiliser l'adresse de facturation de la commande",
         "use_location_billing_address_label": "Utiliser l'adresse de facturation du lieu",
         "use_location_shipping_address_label": "Utiliser l'adresse de livraison du lieu",
@@ -1565,8 +1566,8 @@
           "other": "Ajouté %{count}"
         },
         "order_edit_banner_items_removed": {
-          "in_full": "Supprimé",
-          "with_quantities": "Supprimé {{delta}} de {{quantity}}"
+          "in_full": "Retiré",
+          "with_quantities": "Retiré {{delta}} de {{quantity}}"
         },
         "order_edit_banner_items_returned": {
           "in_full": "Retourné {{quantity}}",
@@ -1598,7 +1599,7 @@
           "title": "Confirmation de paiement personnalisée sur site"
         },
         "markets_pro_disclaimer_label": "En passant votre commande, vous acceptez d’acheter auprès de Global-e en tant que commerçant enregistré, sous réserve des %{markets_pro_terms} et %{privacy_policy} de Global-e, et de partager vos informations avec %{shop_name}.",
-        "markets_pro_disclaimer_terms_and_conditions": "Conditions générales",
+        "markets_pro_disclaimer_terms_and_conditions": "Termes et conditions",
         "markets_pro_disclaimer_terms_and_conditions_title": "Conditions générales du commerçant officiel",
         "markets_pro_disclaimer_privacy_policy_title": "Politique de confidentialité du commerçant officiel",
         "purchase_order_number": {
@@ -1631,7 +1632,9 @@
         "add_new_payment_method": "Ajouter un nouveau mode de paiement",
         "choose_new_payment_method": "Choisissez un nouveau mode de paiement",
         "card_nickname_label": "Surnom (optionnel)",
-        "bank_account_connect_another": "Connecter un autre compte bancaire"
+        "bank_account_connect_another": "Connecter un autre compte bancaire",
+        "order_edit_banner_single_item_removed": "Retiré",
+        "multiple_primary_payment_not_allowed": "Méthodes de paiement invalides"
       },
       "billing": {
         "billing_address_rollup_accessibility_label": "Facturer à options",
