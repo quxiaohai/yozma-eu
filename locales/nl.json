@@ -1253,7 +1253,7 @@
         "network_card_persistence_description": "Het gekozen netwerk wordt opgeslagen bij uw betaalmethode voor toekomstige aankopen.",
         "amazon_payments_label": "Amazon Pay",
         "amazon_payments_login_hint": "Je wordt gevraagd om in te loggen met Amazon.",
-        "amazon_payments_logout": "Afmelden bij Amazon Pay",
+        "amazon_payments_logout": "Uitloggen bij Amazon Pay",
         "amazon_payments_failed_mfa_challenge": "De geselecteerde betaalmethode kon niet worden gebruikt. Kies een andere methode of neem contact op met uw bank of kaartuitgever.",
         "amazon_payments_abandoned_mfa_challenge": "Uw betaling kon niet worden voltooid. Probeer een andere betaalmethode of neem contact op met uw bank of kaartuitgever.",
         "amazon_payments_could_not_enqueue_authorize": "Er was een probleem bij het verwerken van uw betaling. Probeer het opnieuw of gebruik een andere betaalmethode.",
@@ -1295,8 +1295,8 @@
         "card_verification_value_explanation": "3-cijferige beveiligingscode die meestal op de achterkant van uw kaart te vinden is. American Express-kaarten hebben een 4-cijferige code aan de voorkant.",
         "card_verification_value_explanation_amex": "4-cijferige beveiligingscode aan de voorkant van uw kaart",
         "card_verification_value_explanation_other": "3-cijferige beveiligingscode op de achterkant van uw kaart",
-        "card_issue_number_label": "Uitgave nummer",
-        "card_issue_number_placeholder": "Uitgave nummer",
+        "card_issue_number_label": "Nummer van het nummer",
+        "card_issue_number_placeholder": "Nummer van het nummer",
         "card_update_label": "Kaart bijwerken",
         "paypal_disconnect": "Verbreek verbinding",
         "ends_with_label": "eindigend op %{last_digits}",
@@ -1316,7 +1316,7 @@
         "same_billing_address_label": "Zelfde als het afleveradres",
         "different_billing_address_label": "Gebruik een ander factuuradres",
         "billing_address_associated_with_mandate": "Gebruik het adres dat aan de betaalmethode is gekoppeld",
-        "billing_address_associated_with_mandate_info": "Als u uw factuuradres wilt wijzigen, verwijder dan uw creditcardgegevens en voer ze opnieuw in",
+        "billing_address_associated_with_mandate_info": "Als u uw factuuradres wilt wijzigen, verwijder dan uw creditcardgegevens en voer ze opnieuw in.",
         "free_order_notice_html": "Uw bestelling is <strong>gratis</strong>. Betaling is niet vereist.",
         "express_checkout_free_order": "Je wordt niet belast voor een gratis bestelling",
         "order_covered_by_gift_cards_notice": {
@@ -1333,10 +1333,10 @@
         "no_js_credit_card_fields_redirect_hint": "U wordt doorgestuurd om uw betaalgegevens toe te voegen.",
         "card_fields_container_prefix": "Veldcontainer voor:",
         "card_fields_unavailable_html": {
-          "one": "Betalingen met creditcard en pinpas zijn momenteel niet beschikbaar.<br><a href=\"%{current_url}\">Ververs deze pagina</a> of probeer het later opnieuw.",
+          "one": "Betalingen met creditcard en betaalpas zijn momenteel niet beschikbaar.<br><a href=\"%{current_url}\">Ververs deze pagina</a> of probeer het later opnieuw.",
           "other": "Betalingen met creditcard en betaalpas zijn momenteel niet beschikbaar.<br><a href=\"%{current_url}\">Ververs deze pagina</a> of probeer een andere betaalmethode."
         },
-        "card_fields_processing_error": "Er was een probleem bij het verwerken van de betaling. Probeer deze pagina te vernieuwen of controleer uw internetverbinding.",
+        "card_fields_processing_error": "Er was een probleem bij het verwerken van de betaling. Probeer deze pagina te vernieuwen of controleer je internetverbinding.",
         "technical_error": "Betalingen kunnen op dit moment niet worden verwerkt vanwege een technisch probleem. Probeer het over een paar minuten opnieuw.",
         "missing_credit_card_error": "Voer uw kaartgegevens in om de betaling te voltooien",
         "payment_method_not_available_for_shipping_address_error": "Betaalmethode niet beschikbaar voor het gekozen afleveradres. Kies een andere betaalmethode.",
@@ -1379,7 +1379,7 @@
         },
         "apple": {
           "connect": "Klik om uw Apple Pay-account te koppelen",
-          "not_available": "Apple Pay is niet beschikbaar in deze browser. Om uw Apple Pay-account te koppelen, moet u Safari gebruiken op een Apple-apparaat."
+          "not_available": "Apple Pay is niet beschikbaar in deze browser. Om je Apple Pay-account te koppelen, moet je Safari gebruiken op een Apple-apparaat."
         },
         "google": {
           "connect": "Klik om verbinding te maken met uw Google Pay-account",
@@ -1416,7 +1416,7 @@
         "no_working_method_error": "Deze winkel kan op dit moment geen betalingen accepteren. Vernieuw deze pagina of kom later terug.",
         "brand_not_available": "Deze winkel accepteert {{brand}} niet. Gebruik een andere kaart om te betalen.",
         "shipping_rate_updated": "Beschikbare verzendmethoden zijn bijgewerkt. Bevestig uw keuze voordat u afrekent.",
-        "billing_address_invalid_phone": "Werk het telefoonnummer in uw factuuradres voor {{label}} {{last_digits}} bij om door te gaan.",
+        "billing_address_invalid_phone": "Werk het telefoonnummer in uw factuuradres bij voor {{label}} {{last_digits}} om door te gaan.",
         "billing_address_invalid_phone_no_card": "Werk het telefoonnummer in uw factuuradres bij om door te gaan.",
         "preview_not_available": {
           "content": "Maak je geen zorgen, deze snelle kassa werkt voor jouw klanten.",
@@ -1435,8 +1435,8 @@
         "simulated_checkout": "Voorvertoning binnenkort beschikbaar",
         "simulated_express_checkout": "Portefeuilles zijn niet beschikbaar in de bewerkingsvoorbeeldweergave vanwege uw regio of browser",
         "vaulting_agreement_label": "Sla mijn betaalgegevens op bij %{company} voor een snellere afhandeling.",
-        "business_customer_vaulting_payment_label": "Sla deze betaalmethode op bij het afrekenen en geef %{company} toestemming om deze te gebruiken voor toekomstige aankopen op deze locatie. Alle contactpersonen die aan deze locatie zijn toegewezen, kunnen de betaalmethode gebruiken.",
-        "business_customer_with_bank_account_vaulting_payment_label": "Sla deze betaalmethode op bij het afrekenen en geef %{company} toestemming om uw rekening te debiteren voor toekomstige aankopen die u voor deze locatie goedkeurt, totdat u deze intrekt. Alle contactpersonen die aan deze locatie zijn toegewezen, kunnen de betaalmethode gebruiken.",
+        "business_customer_vaulting_payment_label": "Sla deze betaalmethode op bij het afrekenen en geef %{company} toestemming om deze te gebruiken voor toekomstige aankopen op deze locatie. Alle contactpersonen die aan deze locatie zijn gekoppeld, kunnen de betaalmethode gebruiken.",
+        "business_customer_with_bank_account_vaulting_payment_label": "Sla deze betaalmethode op bij het afrekenen en geef %{company} toestemming om uw rekening te debiteren voor toekomstige aankopen die u voor deze locatie goedkeurt, totdat u deze annuleert. Alle contactpersonen die aan deze locatie zijn toegewezen, kunnen de betaalmethode gebruiken.",
         "purchase_options_and_vaulting_agreement_label": "Een of meer artikelen in uw winkelwagen zijn een uitgestelde of abonnementsaankoop. Door door te gaan met uw betaling, gaat u ermee akkoord dat uw betaalmethode automatisch wordt belast tegen de prijs en frequentie die op deze pagina staan vermeld totdat het eindigt of u annuleert. Alle annuleringen zijn onderhevig aan de %{cancellation_policy_label}.",
         "use_different_credit_card_label": "Gebruik een andere kaart",
         "saved_credit_card": "Uw opgeslagen creditcard",
@@ -1513,7 +1513,7 @@
           "savings": "Besparingen"
         },
         "new_bank_account_disclaimer": "Door uw bestelling te voltooien, geeft u %{shop_name} toestemming om het onderstaande rekeningnummer via ACH te debiteren voor het getoonde bedrag en op het aangegeven tijdstip.",
-        "bank_account_disclaimer": "ACH-betalingen kunnen tot 4 werkdagen in beslag nemen om te verwerken.",
+        "bank_account_disclaimer": "ACH-betalingen kunnen tot 4 werkdagen duren om te verwerken.",
         "bank_account_choose": "Kies een account om uw aankoop veilig te voltooien",
         "bank_account_connect_another": "Verbind een andere bankrekening",
         "bank_account_missing": "Bankrekening moet worden gekoppeld",
