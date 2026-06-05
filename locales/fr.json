@@ -1016,7 +1016,7 @@
         "gift_card_subscriptions_notice": "Les cartes-cadeaux ne s'appliqueront qu'à votre premier paiement",
         "discount_already_applied": "Une remise a été appliquée à cette commande. Vous ne pouvez pas ajouter une autre remise.",
         "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> code de réduction n’est pas valide pour les articles dans votre panier",
-        "discount_requires_customer_notice": "Saisissez vos informations de livraison pour appliquer le code de réduction <strong style=\"text-transform:uppercase\">%{code}</strong>",
+        "discount_requires_customer_notice": "Entrez vos informations de livraison pour appliquer le code de réduction <strong style=\"text-transform:uppercase\">%{code}</strong>",
         "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> code de réduction n’est pas disponible pour vous en ce moment",
         "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> code de réduction réservé aux clients éligibles",
         "shipping_information_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> code de réduction n’est pas disponible pour votre adresse de livraison",
@@ -1052,7 +1052,7 @@
         "total_due_today_label": "Total dû aujourd'hui",
         "vat_label_html": "Incluant %{amount} de taxes",
         "duties_included_label": "Le total comprend les taxes et droits. Aucun frais supplémentaire à la livraison.",
-        "discount_and_gift_card_savings_notice": "Après %{discount_amount} de réductions et %{gift_card_amount} en cartes-cadeaux",
+        "discount_and_gift_card_savings_notice": "Après %{discount_amount} de réductions et %{gift_card_amount} en cartes cadeaux",
         "discount_savings_notice": "Après %{discount_amount} de réductions",
         "price_per_item": {
           "label": "%{price}/unité"
@@ -1081,7 +1081,7 @@
           "description_html": "Pour toute question concernant votre commande, %{contact_us}.",
           "paid_today": "Total payé aujourd'hui",
           "paid_today_next": "Payé aujourd'hui",
-          "due_on_fulfillment_title": "Le paiement de %{amount_due} est dû à l'exécution",
+          "due_on_fulfillment_title": "Le paiement de %{amount_due} est dû à la réalisation",
           "due_on_receipt_title": "Le paiement de %{amount_due} est dû à réception"
         },
         "deferred_balance_info": {
@@ -1095,7 +1095,7 @@
           "due_on_receipt": "Montant total dû à la réception"
         },
         "maximum_discount_code_limit_reached": "Vous avez atteint le nombre maximum de codes de réduction. Supprimez un code existant pour utiliser <strong style=\"text-transform:uppercase\">%{code}</strong>.",
-        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> ne fonctionne pas pour le moment. Contactez-nous pour obtenir de l’aide.",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> ne fonctionne pas pour le moment. Contactez-nous pour obtenir de l'aide.",
         "due_on_fulfillment": "Dû à l'exécution",
         "duties_label": "Fonctions",
         "error_duties_tooltip": "Cette commande est expédiée depuis un autre pays, des droits et taxes peuvent donc être appliqués à la livraison.",
@@ -1103,7 +1103,7 @@
         "total_updated_label_with_price": "Prix total mis à jour : %{totalPrice}",
         "updated_shipping_method": "Méthode d'expédition mise à jour : %{shipping_method}",
         "recurring_total_multiple_label": "Cette commande comporte une charge récurrente pour plusieurs articles.",
-        "deferred_total_due_date_label_next": "À rendre avant le %{date}",
+        "deferred_total_due_date_label_next": "À rendre le %{date}",
         "full_price": "Prix total : %{price}",
         "custom_discount": "Remise personnalisée",
         "expand_component_information": {
@@ -1122,9 +1122,11 @@
           }
         },
         "alternative_payment_currency_total": "Facturé %{amount_due}",
-        "discount_applies_to_subscription_items_only": "Cette remise s'applique uniquement aux articles d'abonnement",
+        "discount_applies_to_subscription_items_only": "Cette remise s'applique uniquement aux articles en abonnement",
         "add_discount_or_gift_card": "Ajouter un code de réduction ou une carte cadeau",
-        "automatic_discount_tooltip": "Les remises appliquées automatiquement ne peuvent pas être supprimées"
+        "automatic_discount_tooltip": "Les remises appliquées automatiquement ne peuvent pas être supprimées",
+        "discount_code_replaced": "Code de réduction %{old_code} supprimé et %{code} a été appliqué",
+        "compare_at_sale": "Soldes (%{sale_amount})"
       },
       "shipping": {
         "shipping_method_title": "Mode d'expédition",
