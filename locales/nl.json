@@ -1118,8 +1118,8 @@
         },
         "subscription_delivery_description": {
           "free_shipping_cycles": {
-            "one": "Gratis verzending bij nog %{count} levering(en)",
-            "other": "Gratis verzending voor nog %{count} leveringen"
+            "one": "Gratis verzending voor nog %{count} leveringen",
+            "other": "Gratis verzending voor %{count} extra leveringen"
           },
           "free_shipping_cycles_delivery_not_included": {
             "one": "Gratis verzending voor %{count} levering",
@@ -1134,7 +1134,7 @@
             "other": "Gratis verzending voor %{count} leveringen, daarna %{recurring_order_shipping_price}"
           },
           "max_cycles_base_shipping": {
-            "one": "%{count} extra levering voor %{shipping_price}",
+            "one": "%{count} meer levering voor %{shipping_price}",
             "other": "%{count} extra leveringen voor %{shipping_price} per stuk"
           },
           "max_cycles_base_shipping_delivery_not_included": {
@@ -1186,8 +1186,8 @@
         },
         "shipping_used_as_billing_notice": "Dit wordt ook gebruikt als uw factuuradres voor deze bestelling.",
         "shipping_address_rollup_accessibility_label": "Verzend naar adres opties",
-        "third_party_address_timeout": "Kan adressen niet laden. Probeer opnieuw of gebruik een ander adres.",
-        "third_party_address_error": "Er is een fout opgetreden bij het laden van de adreskeuze. Voer hieronder handmatig uw adres in.",
+        "third_party_address_timeout": "Kan adressen niet laden. Probeer het opnieuw of gebruik een ander adres.",
+        "third_party_address_error": "Er is een fout opgetreden bij het laden van de adresselectie. Voer hieronder handmatig uw adres in.",
         "third_party_payment_error": "Er is een fout opgetreden bij het laden van de betalingskeuze. Gebruik een andere betaalmethode.",
         "add_delivery_instructions": "Voeg bezorginstructies toe",
         "address_confirm": "Weet je zeker dat je dit adres uit je account wilt verwijderen?",
