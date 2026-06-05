@@ -193,11 +193,11 @@
       "written_by": "Por {{ author }}",
       "share": "Compartir",
       "tags": "Etiquetas",
-      "continue_reading": "Leer siguiente"
+      "continue_reading": "Leyendo siguiente"
     },
     "comments": {
       "leave_comment": "Deja un comentario",
-      "moderated": "Todos los comentarios son revisados antes de ser publicados.",
+      "moderated": "Todos los comentarios son moderados antes de ser publicados.",
       "name": "Nombre",
       "email": "Correo electrónico",
       "message": "Mensaje",
@@ -432,8 +432,8 @@
   },
   "apps": {
     "shopify_reviews": {
-      "review_info": "Este producto ha recibido {{ rating_value }} de {{ rating_max }} estrellas.",
-      "leave_review": "Dejar una reseña",
+      "review_info": "Este producto tiene una calificación de {{ rating_value }} de {{ rating_max }} estrellas.",
+      "leave_review": "Deja una reseña",
       "review_count": {
         "zero": "Este producto aún no tiene reseñas.",
         "one": "Ha recibido {{ count }} reseña.",
