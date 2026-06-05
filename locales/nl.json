@@ -948,13 +948,13 @@
         "return_restocking_fee_label": "Aanvulvergoeding",
         "return_shipping_fee_label": "Retourverzending",
         "applied_discount_message": "%{amount} korting op de totale bestelwaarde",
-        "gift_card_has_been_applied": "Cadeaubon is toegepast",
+        "gift_card_has_been_applied": "Cadeaukaart is toegepast",
         "gift_card_has_been_removed": "Cadeaubon is verwijderd",
-        "gift_card_subscriptions_notice": "Cadeaubonnen zijn alleen van toepassing op uw eerste betaling",
-        "discount_already_applied": "Er is een korting toegepast op deze bestelling. U kunt geen extra korting toevoegen.",
+        "gift_card_subscriptions_notice": "Cadeaubonnen worden alleen toegepast op uw eerste betaling",
+        "discount_already_applied": "Er is een korting toegepast op deze bestelling. Je kunt geen extra korting toevoegen.",
         "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> kortingscode is niet geldig voor de artikelen in je winkelwagen",
         "discount_requires_customer_notice": "Voer uw verzendgegevens in om de kortingscode <strong style=\"text-transform:uppercase\">%{code}</strong> toe te passen",
-        "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> kortingscode is momenteel niet voor u beschikbaar",
+        "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> kortingscode is momenteel niet voor jou beschikbaar",
         "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> kortingscode vereist een in aanmerking komende klant",
         "shipping_information_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> kortingscode is niet beschikbaar voor uw verzendadres",
         "subtotal_label": "Tussentotaal",
@@ -976,7 +976,7 @@
         "taxes_label": "Belastingen",
         "estimated_taxes_label": "Geschatte belastingen",
         "estimated_taxes_finalization_tooltip_content": "De definitieve belasting en het totaalbedrag worden per e-mail of sms bevestigd nadat u uw bestelling heeft geplaatst.",
-        "estimated_taxes_finalization_tooltip_content_short": "Belasting vastgesteld na betaling",
+        "estimated_taxes_finalization_tooltip_content_short": "Belasting definitief na betaling",
         "order_total_label": "Besteltotaal",
         "price_before_discount_aria_text": "Oorspronkelijke prijs",
         "price_after_discount_aria_text": "Afgeprijsde prijs",
@@ -987,7 +987,7 @@
         "total_due_later_label": "Totaal later te betalen",
         "payment_due_label": "Betaling verschuldigd",
         "vat_label_html": "Inclusief %{amount} aan belastingen",
-        "duties_included_label": "Totaal is inclusief belastingen en heffingen. Geen extra kosten bij levering.",
+        "duties_included_label": "Totaal inclusief belastingen en heffingen. Geen extra kosten bij levering.",
         "discount_and_gift_card_savings_notice": "Na %{discount_amount} aan kortingen en %{gift_card_amount} aan cadeaubonnen",
         "discount_savings_notice": "Na %{discount_amount} aan kortingen",
         "gift_card_savings_notice": "Na %{gift_card_amount} aan cadeaubonnen",
@@ -1003,12 +1003,12 @@
             "one": "%{price} per %{count} stuk"
           }
         },
-        "gift_card_ending": "Cadeaubon eindigend op %{last_characters}",
+        "gift_card_ending": "Cadeaukaart eindigend op %{last_characters}",
         "multiple_shipping_lines_label": "Verzendtotaal",
         "recurring_subtotal_label": "Terugkerende subtotaal",
         "recurring_total_tooltip": "Inclusief geen verzendkosten, belastingen, invoerrechten of eventuele kortingen.",
         "confirmation_number_label": "Bevestiging #%{confirmation_number}",
-        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> kon niet worden gebruikt in combinatie met uw bestaande kortingen.",
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> kon niet worden gebruikt in combinatie met je bestaande kortingen.",
         "deferred_payment_info": {
           "description_html": "Voor vragen over uw bestelling, %{contact_us}.",
           "paid_today": "Totaal vandaag betaald",
@@ -1017,7 +1017,7 @@
         },
         "deferred_balance_info": {
           "title": "Saldo van {{amount_due}} is verschuldigd op {{due_at}}",
-          "due_on_fulfillment_title": "Saldo van {{amount_due}} is verschuldigd bij levering"
+          "due_on_fulfillment_title": "Saldo van {{amount_due}} is verschuldigd bij uitvoering"
         },
         "payment_terms_totals": {
           "due_today": "Totaal vandaag te betalen",
@@ -1029,10 +1029,10 @@
         },
         "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> werkt op dit moment niet. Neem contact met ons op voor hulp.",
         "due_on_fulfillment": "Vervaldatum bij uitvoering",
-        "duties_label": "Belastingen",
+        "duties_label": "Heffingen",
         "duties_and_taxes_label": "Heffingen en belastingen",
-        "error_duties_tooltip": "Deze bestelling wordt vanuit een ander land verzonden, dus er kunnen invoerrechten en belastingen bij aflevering in rekening worden gebracht.",
-        "may_be_charged_on_delivery": "Kan bij aflevering worden betaald",
+        "error_duties_tooltip": "Deze bestelling wordt vanuit een ander land verzonden, dus er kunnen invoerrechten en belastingen in rekening worden gebracht bij levering.",
+        "may_be_charged_on_delivery": "Kan bij levering worden betaald",
         "recurring_payments": "Terugkerende Betalingen",
         "recurring_total_multiple_label": "Deze bestelling bevat een terugkerende kosten voor meerdere artikelen.",
         "deferred_total_due_date_label": "Totaal te betalen {{date}}",
@@ -1048,7 +1048,18 @@
         },
         "alternative_payment_currency_total": "In rekening gebracht als %{amount_due}",
         "pay_merchant_label": "Betaal %{merchant_name}",
-        "discount_applies_to_subscription_items_only": "Deze korting geldt alleen voor abonnementsartikelen"
+        "discount_applies_to_subscription_items_only": "Deze korting is alleen van toepassing op abonnementsartikelen",
+        "discount_discovery": {
+          "add_code": "Kortingscode toevoegen",
+          "back_to_finalize_order": "Terug om bestelling af te ronden",
+          "merchandise_quantity_label": {
+            "other": "%{count} items"
+          }
+        },
+        "number_items": {
+          "other": "%{count} items"
+        },
+        "gift_card_applied": "Cadeaukaart toegepast"
       },
       "shipping": {
         "shipping_method_title": "Verzendmethode",
