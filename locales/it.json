@@ -1596,11 +1596,12 @@
         "unavailable_selected_address_for_region": "La spedizione non è disponibile per {{region}}. Seleziona un indirizzo diverso per continuare"
       },
       "alternative_payment_method_banner": {
-        "express_checkout": "Checkout veloce",
-        "or_pay_another_way": "Oppure paga in un altro modo",
-        "or_check_out_another_way": "Oppure dai un'occhiata a un altro modo",
+        "express_checkout": "Pagamento rapido",
+        "or_pay_another_way": "O paga in un altro modo",
+        "or_check_out_another_way": "Oppure prova un altro modo",
         "or_pay_with_credit_card": "Oppure paga con carta di credito",
-        "hide_more_options": "Nascondi altre opzioni"
+        "hide_more_options": "Nascondi altre opzioni",
+        "or": "O oppure"
       },
       "post_purchase": {
         "page_title": "Post-acquisto",
@@ -2488,6 +2489,9 @@
             }
           }
         }
+      },
+      "address_management": {
+        "saved_with_store": "Salvato con questo negozio"
       }
     },
     "pagination": {
@@ -2498,12 +2502,12 @@
       "learn_more": "Scopri di più"
     },
     "attributes": {
-      "email": "posta elettronica",
-      "password": "parola d'ordine",
+      "email": "email",
+      "password": "password",
       "body": "corpo"
     },
     "addresses": {
-      "zip_code": "Codice postale",
+      "zip_code": "CAP",
       "postal_code": "Codice postale",
       "pincode": "Codice PIN",
       "region": "Regione"

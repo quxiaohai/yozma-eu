@@ -19,7 +19,7 @@
     "home": "Startseite",
     "accessibility": {
       "skip_to_content": "Zum Inhalt springen",
-      "pagination": "Seitenzahl-Navigation",
+      "pagination": "Seitennavigation",
       "go_to_page": "Gehe zu Seite {{ index }}",
       "go_to_item": "Zum Artikel {{ index }} gehen",
       "item_nth_of_count": "Artikel {{ index }} von {{ count }}",
@@ -28,17 +28,18 @@
       "next": "Weiter",
       "previous": "Zurück",
       "play_video": "Video abspielen",
-      "read_more": "Mehr lesen"
+      "read_more": "Mehr lesen",
+      "load_video": "Video laden: {{ description }}"
     },
     "label": {
-      "color": "Farbe",
+      "color": "Farbe, Farbe",
       "white": "Weiß",
       "size": "Größe"
     },
     "social": {
       "follow_on": "Folgen auf {{ social_media }}",
       "share": "Teilen",
-      "share_on": "Auf {{ social_media }} teilen",
+      "share_on": "Teilen auf {{ social_media }}",
       "share_email": "Per E-Mail teilen"
     },
     "rating": {
@@ -61,16 +62,16 @@
       "decline": "Ablehnen"
     },
     "form": {
-      "max_characters": "maximal {{ max_chars }} Zeichen"
+      "max_characters": "{{ max_chars }} Zeichen maximal"
     },
     "on_boarding": {
       "blog_post_category": "Kategorie",
       "blog_post_title": "Artikel",
-      "blog_post_excerpt": "Schreiben Sie einen Text über Ihren Blogbeitrag.",
-      "product_vendor": "Verkäufer",
+      "blog_post_excerpt": "Schreibe einen Text über deinen Blogbeitrag.",
+      "product_vendor": "Anbieter",
       "product_title": "Produkt",
       "product_description": "Schreiben Sie einen Text über Ihr Produkt.",
-      "collection_title": "Sammlung"
+      "collection_title": "Kollektion"
     }
   },
   "header": {
@@ -78,7 +79,7 @@
       "account": "Konto",
       "login": "Anmelden",
       "menu": "Menü",
-      "search": "Suchen",
+      "search": "Suche",
       "cart": "Warenkorb"
     }
   },
@@ -245,15 +246,15 @@
       "email": "E-Mail",
       "submit": "Wiederherstellen",
       "back_to_login": "Zurück zur Anmeldung",
-      "success_message": "Eine E-Mail wurde an Ihre Adresse gesendet mit Anweisungen zum Zurücksetzen Ihres Passworts."
+      "success_message": "Eine E-Mail mit Anweisungen zum Zurücksetzen Ihres Passworts wurde an Ihre Adresse gesendet."
     },
     "register": {
-      "title": "Anmelden",
+      "title": "Registrieren",
       "first_name": "Vorname",
       "last_name": "Nachname",
       "email": "E-Mail",
       "password": "Passwort",
-      "accepts_marketing": "Melden Sie sich für unseren Rundbrief an",
+      "accepts_marketing": "Für unseren Newsletter anmelden",
       "submit": "Konto erstellen",
       "login": "Anmelden"
     },
@@ -290,7 +291,7 @@
       "shipping": "Versand",
       "taxes_included": "Steuern inklusive",
       "taxes_excluded": "Steuern ausgeschlossen",
-      "total_duties": "Aufgaben",
+      "total_duties": "Pflichten",
       "refunded_amount": "Erstatteter Betrag",
       "total": "Gesamt",
       "shipping_address": "Lieferadresse",
@@ -397,23 +398,23 @@
       "title": "Hier ist Ihre Geschenkkarte",
       "copy": "Kopieren",
       "print": "Drucken",
-      "scan": "oder scannen Sie diesen QR-Code",
-      "back_to_store": "Zurück zum Geschäft"
+      "scan": "oder diesen QR-Code scannen",
+      "back_to_store": "Zurück zum Laden"
     },
     "issued": {
       "remaining_amount": "Verbleibender Betrag",
-      "out_of_html": "von {{ initial_value }} übrig",
-      "redeem_instructions": "Verwenden Sie diesen Code, um Ihre Geschenkkarte an der Kasse einzulösen:",
+      "out_of_html": "von {{ initial_value }}",
+      "redeem_instructions": "Verwenden Sie diesen Code, um Ihre Geschenkkarte beim Bezahlen einzulösen:",
       "code": "Geschenkkartencode",
       "expires_on": "Läuft ab am: {{ expires_on }}",
       "expired": "Ihre Geschenkkarte ist abgelaufen oder wurde deaktiviert.",
       "add_to_apple_wallet": "Zur Apple Wallet hinzufügen"
     },
     "recipient": {
-      "checkbox": "Ich möchte dies als Geschenk senden",
+      "checkbox": "Ich möchte dies als Geschenk verschicken.",
       "email_label": "Empfänger-E-Mail",
-      "name_label": "Name des Empfängers (optional)",
-      "send_on_label": "Senden am (optional)",
+      "name_label": "Empfängername (optional)",
+      "send_on_label": "Senden an (optional)",
       "message_label": "Nachricht (optional)"
     }
   },
@@ -457,7 +458,7 @@
       }
     },
     "article": {
-      "tags": "Schlagwörter:",
+      "tags": "Tags:",
       "all_topics": "Alle Themen",
       "by_author": "von {{ author }}",
       "posted_in": "Veröffentlicht in",

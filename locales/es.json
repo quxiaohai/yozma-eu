@@ -115,7 +115,7 @@
       "error": "No se puede cargar la imagen"
     },
     "price": {
-      "regular_price": "Precio habitual",
+      "regular_price": "Precio regular",
       "sale_price": "Precio de oferta",
       "from_price_html": "Desde {{ price_min }}"
     },
@@ -130,7 +130,7 @@
     "volume_pricing": {
       "title": "Precios por volumen",
       "minimum": "Más de {{ quantity }}",
-      "price_at_each": "{{ price }}/cada uno"
+      "price_at_each": "{{ price }}/unidad"
     },
     "rating_count": {
       "zero": "Sin reseñas",
@@ -139,7 +139,7 @@
     },
     "inventory": {
       "in_stock": "En stock",
-      "oversell_stock": "Reposición próximamente",
+      "oversell_stock": "Reabastecimiento pronto",
       "incoming_stock": "Reposición el {{ next_incoming_date }}",
       "low_stock_with_quantity_count": {
         "one": "Solo queda {{count}} unidad",
@@ -148,9 +148,9 @@
     },
     "store_availability": {
       "view_store_info": "Ver información de la tienda",
-      "check_other_stores": "Comprobar disponibilidad en otras tiendas",
+      "check_other_stores": "Verificar disponibilidad en otras tiendas",
       "pick_up_available": "Recogida disponible",
-      "pick_up_currently_unavailable": "Recogida no disponible actualmente",
+      "pick_up_currently_unavailable": "Recogida actualmente no disponible",
       "pick_up_available_at": "Recogida disponible en {{ location_name }}",
       "pick_up_unavailable_at": "Recogida actualmente no disponible en {{ location_name }}"
     }
@@ -375,22 +375,22 @@
   "search": {
     "general": {
       "title": "Buscar",
-      "terms": "Resultados de «{{ terms }}»",
-      "search_placeholder": "Buscar…",
+      "terms": "Resultados para \"{{ terms }}\"",
+      "search_placeholder": "Buscar...",
       "products": "Productos",
       "suggestions": "Sugerencias",
       "collections": "Colecciones",
-      "posts": "Entradas de blog",
+      "posts": "Publicaciones de blog",
       "pages": "Páginas",
       "clear": "Borrar",
       "view_all": "Ver todo",
       "view_all_results": "Ver todos los resultados",
-      "no_results": "No se encontraron resultados."
+      "no_results": "No se pudieron encontrar resultados."
     },
     "results_count": {
-      "zero": "0 resultados para «{{ terms }}»",
-      "one": "1 resultado para «{{ terms }}»",
-      "other": "{{ count }} resultados para «{{ terms }}»"
+      "zero": "0 resultados para \"{{ terms }}\"",
+      "one": "1 resultado para \"{{ terms }}\"",
+      "other": "{{ count }} resultados para \"{{ terms }}\""
     }
   },
   "gift_card": {
@@ -3705,6 +3705,13 @@
           "invalid_code": "Introduzca el código correcto de 6 dígitos"
         }
       }
+    }
+  },
+  "products": {
+    "product": {
+      "photos": "Fotos",
+      "video": "Vídeo",
+      "3d": "3D"
     }
   }
 }

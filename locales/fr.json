@@ -125,10 +125,10 @@
       "decrease_quantity": "Diminuer la quantité",
       "minimum_of": "Minimum de {{ min }}",
       "maximum_of": "Maximum de {{ max }}",
-      "increment_of": "Augmentation de {{ step }}"
+      "increment_of": "Incrément de {{ step }}"
     },
     "volume_pricing": {
-      "title": "Tarification en volume",
+      "title": "Tarification par volume",
       "minimum": "{{ quantity }} ou plus",
       "price_at_each": "{{ price }}/pièce"
     },
@@ -139,7 +139,7 @@
     },
     "inventory": {
       "in_stock": "En stock",
-      "oversell_stock": "Réapprovisionnement prochainement",
+      "oversell_stock": "Réapprovisionnement bientôt",
       "incoming_stock": "Réapprovisionnement le {{ next_incoming_date }}",
       "low_stock_with_quantity_count": {
         "one": "Il ne reste que {{count}} unité(s)",
@@ -150,7 +150,7 @@
       "view_store_info": "Voir les informations du magasin",
       "check_other_stores": "Vérifier la disponibilité dans d'autres magasins",
       "pick_up_available": "Retrait disponible",
-      "pick_up_currently_unavailable": "Ramassage actuellement indisponible",
+      "pick_up_currently_unavailable": "Retrait actuellement indisponible",
       "pick_up_available_at": "Retrait disponible à {{ location_name }}",
       "pick_up_unavailable_at": "Retrait actuellement indisponible à {{ location_name }}"
     }
@@ -375,20 +375,20 @@
   "search": {
     "general": {
       "title": "Recherche",
-      "terms": "Résultats pour \"{{terms}}\"",
-      "search_placeholder": "Recherche...",
+      "terms": "Résultats pour \"{{ terms }}\"",
+      "search_placeholder": "Rechercher...",
       "products": "Produits",
       "suggestions": "Suggestions",
       "collections": "Collections",
-      "posts": "Blog posts",
+      "posts": "Articles de blog",
       "pages": "Pages",
       "clear": "Effacer",
       "view_all": "Voir tout",
-      "view_all_results": "Voir les résultats",
-      "no_results": "Aucun résultat ne correspond à votre recherche."
+      "view_all_results": "Voir tous les résultats",
+      "no_results": "Aucun résultat n'a pu être trouvé."
     },
     "results_count": {
-      "zero": "0 résultat pour \"{{ terms }}\"",
+      "zero": "0 résultats pour \"{{ terms }}\"",
       "one": "1 résultat pour \"{{ terms }}\"",
       "other": "{{ count }} résultats pour \"{{ terms }}\""
     }
@@ -3022,7 +3022,9 @@
   },
   "products": {
     "product": {
-      "video": "Vidéo"
+      "video": "Vidéo",
+      "photos": "Photos",
+      "3d": "3D"
     }
   },
   "customer_accounts": {
