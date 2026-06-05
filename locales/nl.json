@@ -1190,7 +1190,7 @@
         "third_party_address_error": "Er is een fout opgetreden bij het laden van de adreskeuze. Voer hieronder handmatig uw adres in.",
         "third_party_payment_error": "Er is een fout opgetreden bij het laden van de betalingskeuze. Gebruik een andere betaalmethode.",
         "add_delivery_instructions": "Voeg bezorginstructies toe",
-        "address_confirm": "Weet u zeker dat u dit adres uit uw account wilt verwijderen?",
+        "address_confirm": "Weet je zeker dat je dit adres uit je account wilt verwijderen?",
         "address_default": "Instellen als standaard",
         "address_form": {
           "generic_error": "Er was een probleem met het opslaan van uw adres. Probeer het opnieuw.",
@@ -2064,10 +2064,10 @@
       },
       "review": {
         "title": "Beoordeling",
-        "review_title": "Voltooi uw bestelling",
+        "review_title": "Voltooi je bestelling",
         "review_and_confirm_title": "Beoordelen en bevestigen",
         "account_more_actions": "Meer acties voor dit account",
-        "checkout_a_different_way": "Probeer een andere manier",
+        "checkout_a_different_way": "Bekijk een andere manier",
         "blocks": {
           "contact_method_title": "Contact opnemen",
           "change_contact_method_link_label": "Contactgegevens wijzigen",
@@ -2077,12 +2077,12 @@
           "purchase_order_number_title": "PO-nummer",
           "change_purchase_order_number_label": "Wijzig PO-nummer",
           "change_delivery_method_link_label": "Wijzig bezorgmethode",
-          "no_purchase_order_number": "(Geen inkoopordernummer)",
+          "no_purchase_order_number": "(Geen PO-nummer)",
           "due_after_order_reviewed_html": "Verschuldigd nadat de bestelling is beoordeeld",
           "review_title_free_order": "Beoordeel en voltooi uw bestelling",
           "pickup_items_at": {
-            "one": "Ophalen %{count} item bij",
-            "other": "Haal %{count} artikelen op bij"
+            "one": "Ophalen %{count} artikel bij",
+            "other": "Ophalen van %{count} artikelen bij"
           },
           "ship_items_to": {
             "one": "Verzend %{count} artikel naar",
@@ -2227,8 +2227,8 @@
         "inventory_reservation_failure": "Sommige artikelen zijn niet langer beschikbaar."
       },
       "session_errors": {
-        "session_not_unique": "Er is een probleem opgetreden bij het verwerken van uw bestelling. Vernieuw deze pagina om terug te keren naar de winkel.",
-        "session_already_finished": "Deze bestelling is al ingediend. U kunt terugkeren naar de winkel om een nieuwe bestelling te starten."
+        "session_not_unique": "Er was een probleem bij het verwerken van uw bestelling. Vernieuw deze pagina om terug te keren naar de winkel.",
+        "session_already_finished": "Deze bestelling is al ingediend. Je kunt terugkeren naar de winkel om een nieuwe bestelling te starten."
       },
       "artifact_errors": {
         "artifact_dissatisfaction_without_violation": "Er was een probleem bij het verwerken van uw bestelling. Probeer het over een paar minuten opnieuw."
@@ -2321,7 +2321,7 @@
           "one": "Deze bestelling wordt verzonden naar het door {{merchant}} opgegeven adres.",
           "other": "Deze bestelling wordt verzonden naar een adres dat door {{merchant}} is opgegeven. Kies een verzendadres."
         },
-        "subtitle_no_match": "Dit adres komt niet overeen met een van uw opgeslagen adressen.",
+        "subtitle_no_match": "Dit adres komt niet overeen met een van je opgeslagen adressen.",
         "subtitle_must_use": "Uw bestelling wordt naar dit adres verzonden.",
         "use_saved_address": "Gebruik een ander adres"
       },
