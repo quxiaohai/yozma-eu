@@ -93,16 +93,16 @@
       "pre_order_button": "Vorbestellen",
       "sold_out_button": "Ausverkauft",
       "unavailable_button": "Nicht verfügbar",
-      "added_to_cart": "In Ihren Warenkorb gelegt!",
+      "added_to_cart": "Zu Ihrem Warenkorb hinzugefügt!",
       "sold_out_badge": "Ausverkauft",
       "on_sale_badge": "Im Angebot",
       "discount_badge_html": "Sparen {{ savings }}",
       "sku": "Artikelnummer:",
       "variant": "Variante",
-      "view_in_space": "Im eigenen Raum ansehen",
-      "taxes_included": "Steuer inbegriffen.",
-      "taxes_excluded": "Steuer ausgeschlossen.",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Versandkosten berechnet</a> beim Bezahlen",
+      "view_in_space": "In Ihrem Raum anzeigen",
+      "taxes_included": "Inklusive Steuern.",
+      "taxes_excluded": "Ohne Steuern.",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Versandkosten werden an der Kasse berechnet</a>",
       "size_chart": "Größentabelle",
       "available_colors_count": {
         "one": "{{ count }} Farbe verfügbar",
@@ -128,7 +128,7 @@
       "increment_of": "Erhöhung um {{ step }}"
     },
     "volume_pricing": {
-      "title": "Mengenrabatt",
+      "title": "Mengenpreise",
       "minimum": "{{ quantity }}+",
       "price_at_each": "{{ price }}/Stück"
     },
@@ -143,13 +143,13 @@
       "incoming_stock": "Wieder auf Lager am {{ next_incoming_date }}",
       "low_stock_with_quantity_count": {
         "one": "Nur noch {{count}} Stück verfügbar",
-        "other": "Nur noch {{count}} Stück verfügbar"
+        "other": "Nur noch {{count}} Einheiten verfügbar"
       }
     },
     "store_availability": {
       "view_store_info": "Geschäftsinformationen anzeigen",
       "check_other_stores": "Verfügbarkeit in anderen Geschäften prüfen",
-      "pick_up_available": "Abholung möglich",
+      "pick_up_available": "Abholung verfügbar",
       "pick_up_currently_unavailable": "Abholung derzeit nicht verfügbar",
       "pick_up_available_at": "Abholung verfügbar bei {{ location_name }}",
       "pick_up_unavailable_at": "Abholung derzeit bei {{ location_name }} nicht verfügbar"
@@ -374,18 +374,18 @@
   },
   "search": {
     "general": {
-      "title": "Suchen",
+      "title": "Suche",
       "terms": "Ergebnisse für \"{{ terms }}\"",
-      "search_placeholder": "Suche nach...",
+      "search_placeholder": "Suchen nach...",
       "products": "Produkte",
       "suggestions": "Vorschläge",
-      "collections": "Sammlungen",
+      "collections": "Kollektionen",
       "posts": "Blogbeiträge",
       "pages": "Seiten",
-      "clear": "Klar",
+      "clear": "Löschen",
       "view_all": "Alle anzeigen",
       "view_all_results": "Alle Ergebnisse anzeigen",
-      "no_results": "Es konnten keine Ergebnisse gefunden werden."
+      "no_results": "Keine Ergebnisse gefunden."
     },
     "results_count": {
       "zero": "0 Ergebnisse für \"{{ terms }}\"",
@@ -427,10 +427,10 @@
     },
     "storefront_access": {
       "enter_password": "Mit Passwort eingeben",
-      "store_access": "Zugriff auf den Laden",
-      "instructions": "Geben Sie das Passwort unten ein, um auf den Laden zuzugreifen",
+      "store_access": "Geschäftszugang",
+      "instructions": "Geben Sie unten das Passwort ein, um auf den Shop zuzugreifen",
       "password": "Passwort",
-      "enter_store": "Betreten Sie den Laden"
+      "enter_store": "Zum Geschäft gehen"
     }
   },
   "apps": {
@@ -483,7 +483,7 @@
       "login_form_message": "Geschäft mit Passwort betreten:",
       "login_form_password_label": "Passwort",
       "login_form_password_placeholder": "Ihr Passwort",
-      "login_form_submit": "Eingeben",
+      "login_form_submit": "Eintreten",
       "signup_form_email_label": "E-Mail",
       "signup_form_success": "Wir senden Ihnen eine E-Mail kurz bevor wir öffnen!",
       "password_link": "Mit Passwort eingeben"

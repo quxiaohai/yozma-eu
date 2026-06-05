@@ -727,27 +727,27 @@
         "paid": "Questo pagamento è già stato inviato. Visita la pagina dell'ordine per i dettagli."
       },
       "contact": {
-        "shipping_used_as_billing_notice": "Questo sarà anche utilizzato come il tuo indirizzo di fatturazione per questo ordine.",
+        "shipping_used_as_billing_notice": "Questo sarà anche utilizzato come tuo indirizzo di fatturazione per questo ordine.",
         "contact_method_title": "Contatto",
-        "email_label": "Posta elettronica",
-        "email_placeholder": "Posta elettronica",
+        "email_label": "Email",
+        "email_placeholder": "Email",
         "stored_addresses_label": "Indirizzi salvati",
         "storefront_link": "sito web del commerciante",
         "company_attention_label": "Azienda/Attenzione",
-        "optional_company_attention_label": "Azienda/Attenzione (facoltativo)",
+        "optional_company_attention_label": "Azienda/Attenzione (opzionale)",
         "address2_label": "Appartamento, suite, ecc.",
-        "optional_address2_label": "Appartamento, suite, ecc. (facoltativo)",
+        "optional_address2_label": "Appartamento, suite, ecc. (opzionale)",
         "suburb_label": "Periferia",
         "country_label": "Paese/Regione",
-        "country_code": "Codice paese/regione",
+        "country_code": "Codice Paese/Regione",
         "region_label": "Regione",
         "region_placeholder": "Regione",
         "region_none": "Nessuno selezionato",
-        "phone_tooltip": "Nel caso in cui dobbiamo contattarti riguardo al tuo ordine",
-        "zip_code_label": "Codice postale",
-        "zip_code_placeholder": "Codice postale",
+        "phone_tooltip": "Nel caso avessimo bisogno di contattarti riguardo al tuo ordine",
+        "zip_code_label": "CAP",
+        "zip_code_placeholder": "CAP",
         "postal_code_label": "Codice postale",
-        "optional_postal_code_label": "Codice postale (facoltativo)",
+        "optional_postal_code_label": "Codice postale (opzionale)",
         "postal_code_placeholder": "Codice postale",
         "postcode_label": "Codice postale",
         "postcode_placeholder": "Codice postale",
@@ -756,7 +756,16 @@
         "civic_number_warning": "Aggiungi un numero civico se ne hai uno",
         "different_shipping_address_text": "Usa un indirizzo usa e getta per questo ordine",
         "change_company_location_link_label": "Cambia sede aziendale",
-        "change_location_link_label": "Cambia posizione"
+        "change_location_link_label": "Cambia posizione",
+        "optional_first_name_label": "Nome (opzionale)",
+        "optional_company_label": "Azienda (opzionale)",
+        "optional_subdistrict_label": "Sottodistretto (opzionale)",
+        "phone_country_code_label": "Prefisso internazionale del numero di telefono",
+        "optional_phone_label": "Telefono (opzionale)",
+        "optional_zip_code_label": "CAP (opzionale)",
+        "optional_postcode_label": "CAP (opzionale)",
+        "optional_pincode_label": "Codice PIN (opzionale)",
+        "optional_last_name_label": "Cognome (opzionale)"
       },
       "delivery_options": {
         "pick_up": "Ritira",
@@ -1409,7 +1418,7 @@
       },
       "company_location": {
         "location_title": "Sede dell'azienda",
-        "location_rollup_accessibility_label": "Opzioni per la sede dell'azienda"
+        "location_rollup_accessibility_label": "Opzioni di localizzazione dell'azienda"
       },
       "payment_summary": {
         "credit_card_expires_on_notice": "Scade il %{month}/%{year}",
@@ -2018,7 +2027,7 @@
         "credit_card_will_be_charged_html": "La tua carta di credito sarà addebitata di %{amount}",
         "change_currency_link": "Cambia in %{currency_name}",
         "card_provider_fx_charges_warning": "Il tuo fornitore di carte potrebbe addebitare commissioni sulle transazioni in %{currency_code}.",
-        "currency_not_supported_by_shop": "La valuta selezionata non è più disponibile. Tutti i prezzi sono ora in %{currency_code}."
+        "currency_not_supported_by_shop": "La valuta che hai selezionato non è più disponibile. Tutti i prezzi sono ora in %{currency_code}."
       },
       "change_country": {
         "cart_updated_based_on_country": "Il tuo carrello è stato aggiornato in base al paese di spedizione.",
@@ -2056,7 +2065,7 @@
       },
       "customer_payment_methods": {
         "delete_customer_mandate": {
-          "generic_error": "C'è stato un problema nell'elaborare la tua richiesta.",
+          "generic_error": "Si è verificato un problema durante l'elaborazione della tua richiesta.",
           "success_message": "Il tuo metodo di pagamento è stato eliminato con successo"
         }
       },

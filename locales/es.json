@@ -1418,7 +1418,7 @@
       "billing": {
         "billing_address_rollup_accessibility_label": "Facturar a opciones",
         "add_address": "Usar una dirección diferente",
-        "address_confirm": "¿Está seguro de que desea eliminar esta dirección de su cuenta?"
+        "address_confirm": "¿Estás seguro de que quieres eliminar esta dirección de tu cuenta?"
       },
       "company_location": {
         "location_rollup_accessibility_label": "Opciones de ubicación de la empresa"
@@ -1595,10 +1595,10 @@
         "unavailable_selected_address_for_region": "El envío no está disponible para {{region}}. Seleccione una dirección diferente para continuar"
       },
       "alternative_payment_method_banner": {
-        "express_checkout": "Pago rápido",
-        "or": "O\n\no",
+        "express_checkout": "Pago exprés",
+        "or": "O o",
         "or_check_out_another_way": "O prueba otra forma",
-        "or_pay_with_credit_card": "O pagar con tarjeta de crédito"
+        "or_pay_with_credit_card": "O paga con tarjeta de crédito"
       },
       "post_purchase": {
         "components": {
@@ -2004,7 +2004,7 @@
         "cart_and_currency_updated_based_on_country": "Tu carrito y la moneda se han actualizado según tu país de envío."
       },
       "change_cart_localization": {
-        "verify_shipping_address": "Su país/región ha sido actualizado. Ingrese su dirección de envío para continuar con la compra."
+        "verify_shipping_address": "Tu país/región ha sido actualizado. Ingresa tu dirección de envío para continuar con la compra."
       },
       "tips": {
         "description": "Muestra tu apoyo al equipo en %{shop_name}",
@@ -2077,7 +2077,7 @@
         "session_already_finished": "Este pedido ya ha sido enviado. Puede regresar a la tienda para iniciar un nuevo pedido."
       },
       "artifact_errors": {
-        "artifact_dissatisfaction_without_violation": "Hubo un problema al procesar su pedido. Intente de nuevo en unos minutos."
+        "artifact_dissatisfaction_without_violation": "Hubo un problema al procesar su pedido. Inténtelo de nuevo en unos minutos."
       },
       "pickup_point": {
         "business_hours": "Horario de atención",
@@ -2269,9 +2269,9 @@
         }
       },
       "captcha": {
-        "title": "Complete el CAPTCHA para continuar",
+        "title": "Completa el CAPTCHA para continuar",
         "errors": {
-          "not_solved": "Complete el CAPTCHA para continuar"
+          "not_solved": "Completa el CAPTCHA para continuar"
         }
       },
       "discount_errors": {
@@ -2502,6 +2502,9 @@
         "invalid_variant_id_target": "La instrucción de mercancía %{name} hace referencia al ID de variante %{variant_id}, pero esa variante no está en las líneas de mercancía.",
         "invalid_price_override_target": "La instrucción de anulación de precio para el artículo de línea %{stable_id} no es válida ya que es un componente de un paquete.",
         "discount_not_supported": "La instrucción del comerciante para aplicar descuento en mercancía no admite este tipo de descuento."
+      },
+      "address_management": {
+        "saved_with_store": "Guardado con esta tienda"
       }
     },
     "links": {

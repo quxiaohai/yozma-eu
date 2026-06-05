@@ -776,15 +776,15 @@
       "contact": {
         "shipping_used_as_billing_notice": "Cela servira également d'adresse de facturation pour cette commande.",
         "contact_method_title": "Contactez-nous",
-        "email_label": "Courriel",
-        "email_rollup_accessibility_label": "Options de courriel",
-        "email_placeholder": "Courriel",
-        "email_or_phone_label": "Adresse courriel ou numéro de téléphone mobile",
-        "email_or_phone_placeholder": "Adresse courriel ou numéro de téléphone mobile",
+        "email_label": "E-mail",
+        "email_rollup_accessibility_label": "Options de messagerie électronique",
+        "email_placeholder": "E-mail",
+        "email_or_phone_label": "Adresse e-mail ou numéro de téléphone mobile",
+        "email_or_phone_placeholder": "Adresse e-mail ou numéro de téléphone mobile",
         "optional_first_name_label": "Prénom (facultatif)",
         "last_name_label": "Nom de famille",
         "company_attention_label": "Entreprise/Attention",
-        "optional_company_attention_label": "Entreprise/Attention (facultatif)",
+        "optional_company_attention_label": "Entreprise/Attention (optionnel)",
         "optional_company_label": "Entreprise (facultatif)",
         "optional_address2_label": "Appartement, suite, etc. (facultatif)",
         "country_label": "Pays/Région",
@@ -799,10 +799,17 @@
         "pincode_placeholder": "Code PIN",
         "civic_number_warning": "Ajoutez un numéro de maison si vous en avez un",
         "optional_last_name_label": "Nom de famille (facultatif)",
-        "different_shipping_address_label": "Expédier à une autre adresse",
+        "different_shipping_address_label": "Livrer à une autre adresse",
         "different_shipping_address_text": "Utilisez une adresse unique pour cette commande",
         "change_company_location_link_label": "Changer l'emplacement de l'entreprise",
-        "ship_to_company": "Livrer à {{companyName}}"
+        "ship_to_company": "Livrer à {{companyName}}",
+        "delivery_option_title": "Méthode de livraison",
+        "optional_subdistrict_label": "Sous-district (optionnel)",
+        "optional_zip_code_label": "Code postal (optionnel)",
+        "optional_postal_code_label": "Code postal (optionnel)",
+        "optional_postcode_label": "Code postal (optionnel)",
+        "optional_pincode_label": "Code PIN (optionnel)",
+        "change_location_link_label": "Changer de lieu"
       },
       "delivery_options": {
         "ship_to_address": "Expédier à l'adresse",
@@ -1598,7 +1605,7 @@
         "choose_new_payment_method": "Choisissez un nouveau mode de paiement"
       },
       "billing": {
-        "billing_address_rollup_accessibility_label": "Facturer à des options",
+        "billing_address_rollup_accessibility_label": "Facturer à options",
         "same_as_shipping": "Identique à l'adresse de livraison",
         "address_more": "Plus d'actions pour cette adresse",
         "address_edit": "Modifier l'adresse",
@@ -1803,7 +1810,7 @@
         "unavailable_selected_address_for_region": "La livraison n’est pas disponible pour {{region}}. Sélectionnez une autre adresse pour continuer"
       },
       "alternative_payment_method_banner": {
-        "or_pay_another_way": "Ou payez d'une autre manière",
+        "or_pay_another_way": "Ou payez autrement",
         "or_check_out_another_way": "Ou essayez une autre méthode",
         "or_pay_with_credit_card": "Ou payez par carte de crédit",
         "show_more_options": "Afficher plus d'options",
@@ -2305,7 +2312,7 @@
         }
       },
       "cart_checkout_validation": {
-        "runtime_error": "Un problème est survenu lors du traitement de votre demande. Veuillez contacter le propriétaire du magasin."
+        "runtime_error": "Un problème est survenu lors du traitement de votre demande. Contactez le propriétaire du magasin."
       },
       "no_address_location": {
         "header": "Vous n'avez pas d'adresse de livraison pour cet emplacement",
@@ -2515,7 +2522,7 @@
       },
       "b2b_errors": {
         "lost_b2b_purchasing_permissions": "Vous n'avez plus l'autorisation de passer des commandes B2B. %{logout_url} pour passer une commande personnelle à la place.",
-        "lost_permissions_subtitle": "Vous n'avez plus l'autorisation de passer des commandes interentreprises. Déconnectez-vous pour passer une commande personnelle.",
+        "lost_permissions_subtitle": "Vous n'avez plus l'autorisation de passer des commandes B2B. Déconnectez-vous pour passer une commande personnelle.",
         "lost_permissions_title": "Aucune autorisation de localisation"
       },
       "shop_pay_external": {
@@ -2733,6 +2740,9 @@
             }
           }
         }
+      },
+      "address_management": {
+        "saved_with_store": "Enregistré avec ce magasin"
       }
     },
     "sentence": {
@@ -2999,7 +3009,7 @@
       "powered_by_shopify": "Propulsé par Shopify"
     },
     "attributes": {
-      "email": "courriel",
+      "email": "email",
       "first_name": "prénom",
       "last_name": "nom de famille",
       "body": "corps"
