@@ -551,41 +551,44 @@
             "customer_account_required": "Devi accedere per continuare.",
             "company_location_required": "Il cliente deve scegliere una sede aziendale per continuare.",
             "company_purchase_permission_required": "Il cliente non ha il permesso di effettuare ordini aziendali.",
-            "personal_order_not_allowed": "Gli ordini personali non sono consentiti in questo negozio.",
+            "personal_order_not_allowed": "Gli ordini personali non sono consentiti per questo negozio.",
             "contact_info_does_not_match_customer_account": "Le informazioni di contatto devono corrispondere all'account con cui hai effettuato l'accesso.",
-            "email_required": "È necessario un indirizzo email quando la merce viene acquistata tramite un abbonamento.",
+            "email_required": "È necessario un indirizzo email quando la merce viene acquistata tramite abbonamento.",
             "email_domain_is_invalid": "Questo dominio specificato non può essere risolto.",
             "missing_contact_method": "Manca un metodo di contatto valido.",
-            "checkout_completion_target_is_missing": "Obiettivo di completamento del pagamento mancante.",
+            "checkout_completion_target_is_missing": "Obiettivo di completamento del checkout mancante.",
             "invalid_customer_profile": "È stato fornito un profilo cliente non valido.",
-            "customer_profile_access_restricted": "Il checkout non ha il permesso di accedere al profilo del cliente.",
-            "checkout_completion_target_is_invalid_proc": "Obiettivo di completamento del pagamento non valido.",
-            "buyer_identity_presentment_currency_does_not_match": "Si è verificato un problema durante l'elaborazione del tuo ordine. Riprova tra qualche minuto."
+            "customer_profile_access_restricted": "Il checkout non ha il permesso di accedere al profilo cliente.",
+            "checkout_completion_target_is_invalid_proc": "Destinazione di completamento del checkout non valida.",
+            "buyer_identity_presentment_currency_does_not_match": "Si è verificato un problema durante l'elaborazione del tuo ordine. Riprova tra qualche minuto.",
+            "business_customer_does_not_match_company": "Il contatto aziendale non ha accesso all'azienda."
           },
           "delivery": {
             "only_one_delivery_line_allowed": "Il carrello deve contenere una sola linea di consegna.",
             "wrong_number_of_delivery_lines": "Per ogni gruppo di merci deve essere specificata una linea di consegna.",
             "external_delivery_promise_error": "Errore nel recupero della promessa di consegna esterna.",
-            "destination_address_required": "È necessario un indirizzo di destinazione per poter procedere.",
-            "local_pickup_delivery_line_detail_changed": "La strategia attuale di consegna con ritiro locale deve essere modificata per poter proseguire.",
+            "destination_address_required": "È necessario un indirizzo di destinazione per continuare.",
+            "local_pickup_delivery_line_detail_changed": "La strategia attuale di ritiro locale deve essere modificata per poter continuare.",
             "selected_pickup_option_no_longer_available": "L'opzione di ritiro precedentemente selezionata non è più disponibile.",
-            "origin_location_id_required": "È necessario un ID di località di origine quando viene richiesto il metodo di consegna NEGOZIO.",
+            "origin_location_id_required": "È necessario un ID di località di origine quando viene richiesto il metodo di consegna RETAIL.",
             "invalid_origin_location_id": "Impossibile trovare una località corrispondente all'ID della località di origine.",
-            "origin_location_id_not_allowed": "I metodi di consegna richiesti non supportano un ID di luogo di origine.",
-            "auto_fulfill_not_allowed": "Questa sessione non è autorizzata a modificare il comportamento di evasione.",
-            "auto_fulfill_required": "L'evasione automatica è necessaria quando viene richiesto il metodo di consegna al dettaglio.",
-            "prefetch_shipping_rates_used": "Le tariffe di spedizione precaricate non devono mai restituire tariffe.",
-            "fulfillment_constraints_not_satisfied": "Una o più condizioni di esecuzione non sono state soddisfatte.",
-            "must_fulfill_from_constraint_not_satisfied": "I vincoli di evasione non sono soddisfatti perché gli articoli non possono essere evasi dalle sedi richieste.",
+            "origin_location_id_not_allowed": "I metodi di consegna richiesti non supportano un ID di località di origine.",
+            "auto_fulfill_not_allowed": "Questa sessione non è autorizzata a sovrascrivere il comportamento di evasione.",
+            "auto_fulfill_required": "L'auto evasione è necessaria quando viene richiesto il metodo di consegna RETAIL.",
+            "prefetch_shipping_rates_used": "Le tariffe di spedizione pre-caricate non dovrebbero mai restituire tariffe.",
+            "fulfillment_constraints_not_satisfied": "Una o più condizioni di evasione non sono state soddisfatte.",
+            "must_fulfill_from_constraint_not_satisfied": "I vincoli di evasione non sono soddisfatti perché gli articoli non possono essere evasi dalle località richieste.",
             "must_fulfill_from_same_location_constraint_not_satisfied": "I vincoli di evasione non sono soddisfatti perché gli articoli non possono essere evasi dalla stessa sede.",
-            "delivery_strategy_conditions_not_satisfied": "Sono disponibili strategie di consegna per questa località, ma le loro condizioni non sono soddisfatte.",
-            "out_of_stock_at_origin_location": "Nessuna scorta nella sede di origine.",
-            "invalid_signature": "Firma dello sconto non valida."
+            "delivery_strategy_conditions_not_satisfied": "Le strategie di consegna sono disponibili per questa località, ma le loro condizioni non sono soddisfatte.",
+            "out_of_stock_at_origin_location": "Nessuna disponibilità nella sede di origine.",
+            "invalid_signature": "Firma dello sconto non valida.",
+            "mixed_destination_countries": "La consegna non è disponibile perché le linee di consegna attraversano più paesi."
           },
           "discount": {
             "custom_discount_not_honoured": "Lo sconto personalizzato fornito non è stato applicato.",
             "unsupported_expectation": "La riga di sconto fornita conteneva un'aspettativa che la politica non poteva interpretare.",
-            "additional_requested_discount_discarded": "Il tuo sconto è valido ma non applicabile. Controlla le condizioni dello sconto."
+            "additional_requested_discount_discarded": "Il tuo sconto è valido ma non applicabile. Controlla i termini dello sconto.",
+            "mixed_destination_countries": "Gli sconti non sono disponibili perché le linee di consegna coprono più paesi."
           },
           "tax": {
             "new_tax_must_be_accepted": "Le tasse associate al tuo ordine sono cambiate. Controlla e riprova.",
@@ -648,20 +651,20 @@
             "optional_duties_not_permitted": "Rifiutare i dazi non è consentito per questo pagamento."
           },
           "attribution": {
-            "retail_attribution_not_allowed": "L'attribuzione al dettaglio non è consentita per questo pagamento.",
-            "retail_attribution_required": "L'attribuzione al dettaglio è necessaria per questo pagamento."
+            "retail_attribution_not_allowed": "L'attribuzione al dettaglio non è consentita per questo checkout.",
+            "retail_attribution_required": "L'attribuzione al dettaglio è richiesta per questo checkout."
           },
           "captcha": {
-            "metadata_missing": "Per completare questo acquisto è necessario risolvere un captcha.",
-            "metadata_mismatch": "Il fornitore e il tipo di captcha forniti non corrispondono ai valori attesi.",
-            "token_missing": "Deve essere fornito un token captcha per completare questo pagamento.",
-            "job_enqueue_failed": "Il compito di convalida captcha non è stato messo in coda.",
+            "metadata_missing": "Per completare questo checkout è necessario risolvere un captcha.",
+            "metadata_mismatch": "Il provider e il tipo di captcha forniti non corrispondono ai valori previsti.",
+            "token_missing": "Per completare questo pagamento è necessario fornire un token captcha.",
+            "job_enqueue_failed": "Il lavoro di convalida captcha non è stato messo in coda.",
             "token_expired": "Il token captcha fornito è scaduto. Completa un nuovo captcha per continuare il pagamento.",
-            "token_invalid": "Il token captcha fornito non è valido. Completa un nuovo captcha per continuare con il pagamento.",
-            "token_not_valid_for_session": "Il captcha fornito non può essere utilizzato con questo pagamento."
+            "token_invalid": "Il token captcha fornito non è valido. Completa un nuovo captcha per continuare il pagamento.",
+            "token_not_valid_for_session": "Il captcha fornito non può essere utilizzato con questo checkout."
           },
           "checkout_source": {
-            "revoked": "Questo pagamento non è più disponibile."
+            "revoked": "Questo checkout non è più disponibile."
           }
         },
         "full_price": "Prezzo intero:",
@@ -681,7 +684,7 @@
             "monday": "Lunedì",
             "tuesday": "Martedì",
             "wednesday": "Mercoledì",
-            "thursday": "Giovedì",
+            "thursday": "giovedì",
             "friday": "Venerdì",
             "saturday": "Sabato",
             "sunday": "Domenica"
@@ -692,14 +695,16 @@
             "wednesday": "Noi",
             "thursday": "Th",
             "saturday": "Sa",
-            "sunday": "Su"
+            "sunday": "Su",
+            "friday": "Fr"
           },
           "months": {
-            "may": "Maggio"
+            "may": "Maggio",
+            "july": "luglio"
           }
         },
         "datepicker": {
-          "in_range": "Nel raggio",
+          "in_range": "In gamma",
           "range_end": "Fine gamma"
         },
         "list_formatter": {
