@@ -925,8 +925,8 @@
         },
         "tip_label": "Suggerimento",
         "unconfirmed_label": "Non confermato",
-        "calculating_shipping": "Calcolando…",
-        "calculating": "Calcolando…",
+        "calculating_shipping": "Calcolo in corso…",
+        "calculating": "Calcolo in corso…",
         "shipping_default_value": "Calcolato al passaggio successivo",
         "taxes_label": "Tasse",
         "estimated_taxes_label": "Tasse stimate",
@@ -2427,7 +2427,7 @@
       },
       "offsite_payment_failed": {
         "payment_not_processed_text": "Prova a scansionare di nuovo il codice QR. Se continua a non funzionare, informa il nostro personale e prova un metodo di pagamento diverso.",
-        "payment_link_expired_title": "Il link per il pagamento è scaduto",
+        "payment_link_expired_title": "Link di pagamento scaduto",
         "payment_link_expired_text": "Prova a scansionare di nuovo il codice QR."
       },
       "one": {
@@ -2435,8 +2435,8 @@
           "merchandise": {
             "gift_card_price_must_be_greater_than_zero": "Il prezzo della carta regalo deve essere maggiore di 0.",
             "gift_card_price_must_not_exceed_limit": "Il prezzo della carta regalo non deve superare %{gift_card_limit}.",
-            "subtotal_limit_reached": "È stato raggiunto il valore massimo degli articoli della linea.",
-            "signature_mismatch": "Incongruenza nella firma della merce per la linea %{stable_id}."
+            "subtotal_limit_reached": "È stato raggiunto il valore massimo degli articoli in elenco.",
+            "signature_mismatch": "Discrepanza nella firma della merce per la linea %{stable_id}."
           }
         }
       },
