@@ -752,14 +752,14 @@
         "paid": "Diese Zahlung wurde bereits eingereicht. Besuchen Sie die Bestellseite für Einzelheiten."
       },
       "contact": {
-        "title": "Informationen",
+        "title": "Information",
         "shipping_used_as_billing_notice": "Dies wird auch als Ihre Rechnungsadresse für diese Bestellung verwendet.",
         "delivery_option_title": "Liefermethode",
-        "email_or_phone_label": "E-Mail oder Handynummer",
-        "email_or_phone_placeholder": "E-Mail oder Handynummer",
+        "email_or_phone_label": "E-Mail- oder Handynummer",
+        "email_or_phone_placeholder": "E-Mail- oder Handynummer",
         "company_label": "Unternehmen",
-        "storefront_link": "Webseite des Händlers",
-        "company_attention_label": "Firma/Achtung",
+        "storefront_link": "Website des Händlers",
+        "company_attention_label": "Firma/Aufmerksamkeit",
         "optional_company_attention_label": "Firma/Aufmerksamkeit (optional)",
         "address2_label": "Wohnung, Suite usw.",
         "optional_address2_label": "Wohnung, Suite usw. (optional)",
@@ -776,14 +776,14 @@
         "governorate_placeholder": "Gouvernement",
         "emirate_label": "Emirat",
         "emirate_placeholder": "Emirat",
-        "state_and_territory_label": "Bundesland/Gebiet",
-        "state_and_territory_placeholder": "Bundesland/Gebiet",
+        "state_and_territory_label": "Bundesland/Territorium",
+        "state_and_territory_placeholder": "Bundesland/Territorium",
         "phone_rollup_accessibility_label": "Telefonoptionen",
         "phone_country_code_label": "Telefonnummer Ländervorwahl",
         "phone_tooltip": "Falls wir Sie bezüglich Ihrer Bestellung kontaktieren müssen",
         "civic_number_warning": "Fügen Sie eine Hausnummer hinzu, falls Sie eine haben",
         "different_shipping_address_label": "An eine andere Adresse liefern lassen",
-        "different_shipping_address_text": "Verwenden Sie für diese Bestellung eine einmalige Adresse",
+        "different_shipping_address_text": "Verwenden Sie für diese Bestellung eine Einmaladresse",
         "change_company_location_link_label": "Firmenstandort ändern",
         "change_location_link_label": "Standort ändern",
         "ship_to_company": "Liefern an {{companyName}}"
@@ -809,12 +809,12 @@
         "subscription_pickup_information": "Diese Lieferart gilt für alle Artikel in dieser Bestellung und für alle zukünftigen Bestellungen dieses Abonnements."
       },
       "customer_account": {
-        "have_an_account_label": "Ein Konto haben?",
+        "have_an_account_label": "Haben Sie ein Konto?",
         "save_my_information_label": "Speichern Sie diese Informationen für das nächste Mal",
         "invalid_address": "Die ausgewählte Adresse ist ungültig. %{update_address_link} oder wählen Sie eine andere Adresse aus.",
         "incomplete_address": "Die ausgewählte Adresse ist unvollständig. %{update_address_link} oder wählen Sie eine andere Adresse aus.",
         "rollup_accessibility_label": "Kontoeinstellungen",
-        "invalid_shipping_method_summary": "Wählen Sie eine gültige Lieferadresse aus, um verfügbare Versandarten anzuzeigen",
+        "invalid_shipping_method_summary": "Wählen Sie eine gültige Lieferadresse aus, um verfügbare Versandmethoden anzuzeigen",
         "saved_address_option_description": {
           "one": "Sie haben {{count}} gespeicherte Adresse.",
           "other": "Sie haben {{count}} gespeicherte Adressen."
@@ -887,7 +887,7 @@
         },
         "all_products_in_cart_unavailable": {
           "one": "Dieses Produkt ist in Ihrem Land/Ihrer Region nicht verfügbar.",
-          "other": "Diese Produkte sind in Ihrem Land/Ihrer Region nicht erhältlich."
+          "other": "Diese Produkte sind in Ihrem Land/Ihrer Region nicht verfügbar."
         }
       },
       "merchandise_unavailable_in_buyer_location": {
