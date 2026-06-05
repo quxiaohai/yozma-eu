@@ -40,7 +40,7 @@
       "follow_on": "Volg op {{ social_media }}",
       "share": "Delen",
       "share_on": "Delen op {{ social_media }}",
-      "share_email": "Deel via e-mail"
+      "share_email": "Delen via e-mail"
     },
     "rating": {
       "info": "{{ rating_value }} van de {{ rating_max }} sterren"
@@ -76,7 +76,7 @@
   },
   "header": {
     "general": {
-      "account": "Rekening",
+      "account": "Account",
       "login": "Inloggen",
       "menu": "Menu",
       "search": "Zoeken",
@@ -403,18 +403,18 @@
     },
     "issued": {
       "remaining_amount": "Resterend bedrag",
-      "out_of_html": "van {{ initial_value }}",
-      "redeem_instructions": "Gebruik deze code om je cadeaubon in te wisselen bij het afrekenen:",
-      "code": "Cadeauboncode",
-      "expires_on": "Verloopt op: {{ expires_on }}",
+      "out_of_html": "van de {{ initial_value }}",
+      "redeem_instructions": "Gebruik deze code om uw cadeaubon bij het afrekenen te verzilveren:",
+      "code": "Cadeaukaartcode",
+      "expires_on": "Vervalt op: {{ expires_on }}",
       "expired": "Je cadeaubon is verlopen of is uitgeschakeld.",
       "add_to_apple_wallet": "Toevoegen aan Apple Wallet"
     },
     "recipient": {
-      "checkbox": "Ik wil dit als cadeau sturen",
-      "email_label": "E-mailadres ontvanger",
+      "checkbox": "Ik wil dit als cadeau versturen",
+      "email_label": "Ontvanger e-mail",
       "name_label": "Naam ontvanger (optioneel)",
-      "send_on_label": "Verzenden op (optioneel)",
+      "send_on_label": "Verzenden naar (optioneel)",
       "message_label": "Bericht (optioneel)"
     }
   },
@@ -459,20 +459,20 @@
     },
     "article": {
       "tags": "Tags:",
-      "all_topics": "All topics",
-      "by_author": "by {{ author }}",
-      "posted_in": "Posted in",
-      "read_more": "Read more",
-      "back_to_blog": "Back to {{ title }}"
+      "all_topics": "Alle onderwerpen",
+      "by_author": "door {{ author }}",
+      "posted_in": "Geplaatst in",
+      "read_more": "Lees meer",
+      "back_to_blog": "Terug naar {{ title }}"
     },
     "comments": {
-      "title": "Leave a comment",
-      "name": "Name",
-      "email": "Email",
-      "message": "Message",
-      "post": "Post comment",
-      "moderated": "Please note, comments must be approved before they are published",
-      "success_moderated": "Your comment was posted successfully. We will publish it in a little while, as our blog is moderated.",
+      "title": "Laat een reactie achter",
+      "name": "Naam",
+      "email": "E-mail",
+      "message": "Bericht",
+      "post": "Reactie plaatsen",
+      "moderated": "Houd er rekening mee dat opmerkingen goedgekeurd moeten worden voordat ze worden gepubliceerd",
+      "success_moderated": "Je reactie is succesvol geplaatst. We zullen deze binnenkort publiceren, aangezien onze blog wordt gemodereerd.",
       "success": "Je reactie is succesvol geplaatst! Dank je wel!",
       "comments_with_count": {
         "one": "{{ count }} opmerking",
