@@ -943,12 +943,12 @@
           "one": "Bestellrabatt",
           "other": "Bestellrabatte"
         },
-        "discount_not_found": "Es konnte kein gültiger Rabatt gefunden werden, der dem eingegebenen Code entspricht",
-        "discount_code_applied_with_code": "Der Rabattcode %{code} wurde angewendet",
+        "discount_not_found": "Keinen gültigen Rabatt gefunden, der dem eingegebenen Code entspricht",
+        "discount_code_applied_with_code": "Rabattcode %{code} wurde angewendet",
         "discount_code_removed": "Der Rabattcode %{code} wurde entfernt",
-        "discount_code_replaced": "Rabattcode %{old_code} wurde entfernt und %{code} wurde angewendet",
+        "discount_code_replaced": "Rabattcode %{old_code} entfernt und %{code} wurde angewendet",
         "discount_code_replaced_multiple": "Mehrere Rabattcodes wurden entfernt und %{code} wurde angewendet",
-        "discount_code_allocations_mismatch": "Ihr <strong style=\"text-transform:uppercase\">%{code}</strong>-Rabattcode wurde geändert. Überprüfen Sie Ihren Warenkorb und versuchen Sie es erneut.",
+        "discount_code_allocations_mismatch": "Ihr <strong style=\"text-transform:uppercase\">%{code}</strong> Rabattcode wurde geändert. Überprüfen Sie Ihren Warenkorb und versuchen Sie es erneut.",
         "order_discounts_apply_to_local_shop": "Rabatte gelten nur für Artikel von %{shop_name}",
         "gift_card_applied": "Geschenkkarte angewendet",
         "gift_card_and_discount_title": "Rabattcode oder Geschenkkarte",
@@ -966,7 +966,7 @@
         "gift_card_has_been_removed": "Geschenkkarte wurde entfernt",
         "gift_card_subscriptions_notice": "Geschenkkarten werden nur auf Ihre erste Zahlung angerechnet",
         "discount_already_applied": "Ein Rabatt wurde auf diese Bestellung angewendet. Sie können keinen weiteren Rabatt hinzufügen.",
-        "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong>-Rabattcode ist für die Artikel in Ihrem Warenkorb nicht gültig",
+        "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> Rabattcode ist für die Artikel in Ihrem Warenkorb nicht gültig",
         "discount_requires_customer_notice": "Geben Sie Ihre Versandinformationen ein, um den Rabattcode <strong style=\"text-transform:uppercase\">%{code}</strong> anzuwenden",
         "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong>-Rabattcode ist derzeit für Sie nicht verfügbar",
         "shipping_information_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong>-Rabattcode ist für Ihre Versandadresse nicht verfügbar",
@@ -1004,7 +1004,7 @@
         "payment_due_label": "Zahlung fällig",
         "vat_label_html": "Inklusive %{amount} Steuern",
         "duties_included_label": "Der Gesamtbetrag beinhaltet Steuern und Abgaben. Keine zusätzlichen Kosten bei der Lieferung.",
-        "discount_and_gift_card_savings_notice": "Nach %{discount_amount} an Rabatten und %{gift_card_amount} an Geschenkkarten",
+        "discount_and_gift_card_savings_notice": "Nach %{discount_amount} Rabatt und %{gift_card_amount} an Geschenkkarten",
         "gift_card_savings_notice": "Nach %{gift_card_amount} an Geschenkkarten",
         "cost_table_title": "Kostenübersicht",
         "price_per_item": {
@@ -1068,10 +1068,14 @@
           "other": "Zeige %{count} Artikel"
         },
         "collapse_component_information": {
-          "one": "Verstecke %{count} Artikel"
+          "one": "Verberge %{count} Artikel"
         },
         "pay_merchant_label": "Bezahlen bei %{merchant_name}",
-        "discount_applies_to_subscription_items_only": "Dieser Rabatt gilt nur für Abonnementartikel"
+        "discount_applies_to_subscription_items_only": "Dieser Rabatt gilt nur für Abonnementartikel",
+        "deposit_label": "Einzahlung",
+        "discount_discovery": {
+          "back_to_finalize_order": "Zurück, um die Bestellung abzuschließen"
+        }
       },
       "shipping": {
         "shipping_method_title": "Versandart",
