@@ -2058,12 +2058,12 @@
         "failed_contact_merchant": "Kontaktieren Sie %{company}, um die Lieferung zu vereinbaren.",
         "failed_contact_merchant_no_company": "Kontaktieren Sie uns, um die Lieferung zu vereinbaren.",
         "non_shippable_title": "Ihre Bestellung ist abgeschlossen",
-        "login_title": "Melden Sie sich an, um alle Bestelldetails einzusehen",
+        "login_title": "Melden Sie sich an, um alle Bestelldetails anzuzeigen",
         "login_description": "Sie finden Ihre Bestellnummer auf dem Beleg, den Sie per E-Mail erhalten haben.",
-        "login_description_phone": "Sie finden Ihre Bestellnummer auf dem Beleg, den Sie per Kurznachricht erhalten haben.",
+        "login_description_phone": "Sie finden Ihre Bestellnummer auf dem Beleg, den Sie per SMS erhalten haben.",
         "login_not_customer_html": "Nicht %{name}? Sie können %{link}",
         "login_reorder_link_text": {
-          "one": "kaufen Sie auch dieses Produkt",
+          "one": "Dieses Produkt ebenfalls kaufen",
           "other": "kaufe auch diese Produkte"
         },
         "customer_information_hidden_fields_message": "Melden Sie sich an, um alle Kundeninformationen anzuzeigen.",
@@ -2091,7 +2091,7 @@
         "order_updates_submit_subscription": "Absenden",
         "other_options": "Andere Optionen",
         "delivery_information_label": "Lieferinformationen:",
-        "gift_card_sent_confirmation": "Geschenkkarten versandt",
+        "gift_card_sent_confirmation": "Geschenkkarten versendet",
         "qr_code": {
           "send_link_to_phone": "Oder senden Sie einen Link an Ihr Telefon",
           "title": "Verfolge auf deinem Telefon"
@@ -2111,7 +2111,7 @@
           "text_html": "%{contact_us}, um Ihre Adresse hinzuzufügen",
           "contact_us": "Kontaktieren Sie uns"
         },
-        "in_store_purchase": "Kauf im Geschäft",
+        "in_store_purchase": "Im Geschäft kaufen",
         "company_location_section_title": "Unternehmen und Standort",
         "thank_you_ready_for_picked_up": "Ihre Bestellung wurde bei %{address} abgeholt.",
         "ready_for_delivery": "Versandbereit",
@@ -2123,24 +2123,24 @@
         },
         "manage_order_label": "Verwalten Sie Ihre Bestellung",
         "gift_card_confirmation_by_text_typ": {
-          "one": "Sie erhalten in wenigen Minuten eine Nachricht mit Ihrer Geschenkkarte.",
-          "other": "Sie erhalten in wenigen Minuten eine Nachricht mit Ihren Geschenkkarten."
+          "one": "Sie erhalten in wenigen Minuten eine SMS mit Ihrer Geschenkkarte.",
+          "other": "Sie erhalten in wenigen Minuten eine SMS mit Ihren Geschenkkarten."
         },
         "gift_card_confirmation_by_email_typ": {
           "one": "Sie erhalten in wenigen Minuten eine E-Mail mit Ihrer Geschenkkarte.",
           "other": "Sie erhalten in wenigen Minuten eine E-Mail mit Ihren Geschenkkarten."
         },
         "gift_card_email_title": {
-          "one": "Geschenkkarte wurde per E-Mail gesendet",
-          "other": "Geschenkkarten wurden per E-Mail versandt"
+          "one": "Geschenkkarte wurde per E-Mail versendet",
+          "other": "Geschenkkarten wurden per E-Mail versendet"
         },
         "gift_card_text_title": {
           "one": "Geschenkkarte wurde per SMS versendet",
-          "other": "Geschenkkarten wurden per Kurznachricht versendet"
+          "other": "Geschenkkarten wurden per SMS versendet"
         },
         "gift_card_resent_confirmation": {
           "one": "Geschenkkarte wurde erneut gesendet.",
-          "other": "Geschenkkarten wurden erneut versendet."
+          "other": "Geschenkkarten wurden erneut gesendet."
         },
         "gift_card_resend_failure": {
           "one": "Beim erneuten Senden Ihrer Geschenkkarte ist ein Problem aufgetreten. Versuchen Sie es erneut oder kontaktieren Sie uns.",
@@ -2191,7 +2191,7 @@
         "order_updates_past_step_prefix": "Vorheriger Schritt:",
         "order_updates_upcoming_step_prefix": "Nächster Schritt:",
         "in_transit_title": "Ihre Bestellung ist unterwegs",
-        "in_transit_description": "Sie erhalten Aktualisierungen zum Fortschritt.",
+        "in_transit_description": "Sie erhalten Updates zum Fortschritt.",
         "in_transit_description_days": "Sie sollten Ihre Bestellung in den nächsten %{number} Tagen erhalten.",
         "in_transit_description_today": "Sie sollten Ihre Bestellung heute erhalten.",
         "in_transit_description_tomorrow": "Sie sollten Ihre Bestellung am nächsten Tag erhalten.",
