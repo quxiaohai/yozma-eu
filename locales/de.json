@@ -238,7 +238,7 @@
       "password": "Passwort",
       "submit": "Anmelden",
       "forgot_password": "Passwort vergessen?",
-      "sign_up": "Anmelden"
+      "sign_up": "Registrieren"
     },
     "recover_password": {
       "title": "Passwort wiederherstellen",
@@ -272,7 +272,7 @@
       "submit": "Zurücksetzen"
     },
     "order": {
-      "order": "Bestellung",
+      "order": "Bestellen",
       "order_name": "Bestelle {{name}}",
       "view_details": "Bestelldetails anzeigen",
       "back": "Zurück",
@@ -288,7 +288,7 @@
       "subtotal": "Zwischensumme",
       "discount": "Rabatt",
       "shipping": "Versand",
-      "taxes_included": "Steuern inbegriffen",
+      "taxes_included": "Steuern inklusive",
       "taxes_excluded": "Steuern ausgeschlossen",
       "total_duties": "Aufgaben",
       "refunded_amount": "Erstatteter Betrag",
@@ -306,7 +306,7 @@
       "default_address": "Standardadresse",
       "address_title": "Adresse {{ position }}",
       "delete_confirm": "Diese Adresse entfernen? Nach Bestätigung kann diese Aktion nicht rückgängig gemacht werden.",
-      "fill_form": "Bitte füllen Sie die folgenden Informationen aus:",
+      "fill_form": "Bitte füllen Sie die untenstehenden Informationen aus:",
       "first_name": "Vorname",
       "last_name": "Nachname",
       "company": "Unternehmen",

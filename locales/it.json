@@ -234,10 +234,10 @@
     },
     "login": {
       "title": "Accesso",
-      "email": "Posta elettronica",
+      "email": "E-mail",
       "password": "Password",
       "submit": "Accesso",
-      "forgot_password": "Hai dimenticato la tua password?",
+      "forgot_password": "Hai dimenticato la password?",
       "sign_up": "Iscriviti"
     },
     "recover_password": {
@@ -261,7 +261,7 @@
       "title": "Attiva account",
       "instructions": "Inserisci una password per creare il tuo account:",
       "password": "Password",
-      "password_confirmation": "Conferma della password",
+      "password_confirmation": "Conferma password",
       "submit": "Attiva",
       "cancel": "Annulla"
     },
@@ -297,7 +297,7 @@
       "billing_address": "Indirizzo di fatturazione"
     },
     "addresses": {
-      "no_addresses": "Non hai ancora salvato alcun indirizzo.",
+      "no_addresses": "Non hai ancora salvato nessun indirizzo.",
       "add_address": "Aggiungi indirizzo",
       "edit_address": "Modifica indirizzo",
       "save_address": "Salva indirizzo",
@@ -305,8 +305,8 @@
       "delete": "Elimina",
       "default_address": "Indirizzo predefinito",
       "address_title": "Indirizzo {{ position }}",
-      "delete_confirm": "Rimuovere questo indirizzo? Una volta confermato, questa azione non può essere annullata.",
-      "fill_form": "Si prega di compilare le informazioni qui sotto:",
+      "delete_confirm": "Rimuovere questo indirizzo? Una volta confermato, questa azione non potrà essere annullata.",
+      "fill_form": "Per favore, compila le informazioni qui sotto:",
       "first_name": "Nome",
       "last_name": "Cognome",
       "company": "Azienda",
