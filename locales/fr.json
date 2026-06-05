@@ -1122,7 +1122,9 @@
           }
         },
         "alternative_payment_currency_total": "Facturé %{amount_due}",
-        "discount_applies_to_subscription_items_only": "Cette remise s'applique uniquement aux articles d'abonnement"
+        "discount_applies_to_subscription_items_only": "Cette remise s'applique uniquement aux articles d'abonnement",
+        "add_discount_or_gift_card": "Ajouter un code de réduction ou une carte cadeau",
+        "automatic_discount_tooltip": "Les remises appliquées automatiquement ne peuvent pas être supprimées"
       },
       "shipping": {
         "shipping_method_title": "Mode d'expédition",
@@ -2236,10 +2238,11 @@
           },
           "subtracted": "Supprimé %{count}",
           "returned": "Retourné %{count}",
-          "return_line_item_removed": "Retiré %{count} du retour"
+          "return_line_item_removed": "Retiré %{count} du retour",
+          "removed": "Retiré"
         },
         "additional_payment_requested": "Le paiement de %{total_outstanding} est nécessaire",
-        "order_review_and_pay": "Votre commande a été mise à jour. Vérifiez-la et payez pour confirmer votre commande."
+        "order_review_and_pay": "Votre commande a été mise à jour. Vérifiez et payez pour confirmer votre commande."
       },
       "change_currency": {
         "payment_total_label": "Total du paiement",
@@ -2669,15 +2672,16 @@
       "offsite_payment_failed": {
         "title": "Le paiement hors site a échoué",
         "payment_not_processed_title": "Paiement échoué",
-        "payment_not_processed_text": "Essayez de scanner de nouveau le code QR. Si cela ne fonctionne toujours pas, informez notre personnel et essayez un autre mode de paiement.",
-        "payment_link_expired_text": "Essayez de scanner de nouveau le code QR."
+        "payment_not_processed_text": "Essayez de scanner à nouveau le code QR. Si cela ne fonctionne toujours pas, informez notre personnel et essayez un autre mode de paiement.",
+        "payment_link_expired_text": "Essayez de scanner à nouveau le code QR."
       },
       "one": {
         "errors": {
           "merchandise": {
             "gift_card_price_must_not_exceed_limit": "Le prix de la carte cadeau ne doit pas dépasser %{gift_card_limit}.",
             "subtotal_limit_reached": "La valeur maximale des articles en ligne a été atteinte.",
-            "signature_mismatch": "Incohérence de signature de marchandise pour la ligne %{stable_id}."
+            "signature_mismatch": "Incohérence de signature de marchandise pour la ligne %{stable_id}.",
+            "gift_card_price_must_be_greater_than_zero": "Le montant de la carte cadeau doit être supérieur à 0."
           }
         }
       },
