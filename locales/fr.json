@@ -28,10 +28,11 @@
       "next": "Suivant",
       "previous": "Précédent",
       "play_video": "Lire la vidéo",
-      "read_more": "En savoir plus"
+      "read_more": "En savoir plus",
+      "load_video": "Charger la vidéo : {{ description }}"
     },
     "label": {
-      "color": "Couleur",
+      "color": "Couleur, Couleur",
       "white": "Blanc",
       "size": "Taille"
     },
@@ -45,10 +46,10 @@
       "info": "{{ rating_value }} sur {{ rating_max }} étoiles"
     },
     "newsletter": {
-      "email": "Courriel",
+      "email": "E-mail",
       "subscribe": "S'abonner",
-      "notify_me": "M'avertir",
-      "subscribed_successfully": "Vous avez été abonné à notre bulletin d'information."
+      "notify_me": "Prévenez-moi",
+      "subscribed_successfully": "Vous avez été abonné à notre newsletter."
     },
     "localization": {
       "country": "Pays",
@@ -61,12 +62,12 @@
       "decline": "Refuser"
     },
     "form": {
-      "max_characters": "{{ max_chars }} caractères maximum"
+      "max_characters": "{{ max_chars }} caractères max"
     },
     "on_boarding": {
       "blog_post_category": "Catégorie",
       "blog_post_title": "Article",
-      "blog_post_excerpt": "Rédigez un texte à propos de votre article de blogue.",
+      "blog_post_excerpt": "Rédigez un texte à propos de votre article de blog.",
       "product_vendor": "Vendeur",
       "product_title": "Produit",
       "product_description": "Rédigez un texte à propos de votre produit.",
@@ -242,18 +243,18 @@
     },
     "recover_password": {
       "title": "Récupérer le mot de passe",
-      "email": "Courriel",
+      "email": "E-mail",
       "submit": "Récupérer",
       "back_to_login": "Retour à la connexion",
-      "success_message": "Un courriel a été envoyé à votre adresse avec des instructions pour réinitialiser votre mot de passe."
+      "success_message": "Un e-mail a été envoyé à votre adresse avec les instructions pour réinitialiser votre mot de passe."
     },
     "register": {
       "title": "Inscrivez-vous",
       "first_name": "Prénom",
       "last_name": "Nom de famille",
-      "email": "Courriel",
+      "email": "E-mail",
       "password": "Mot de passe",
-      "accepts_marketing": "Inscrivez-vous à notre bulletin d'information",
+      "accepts_marketing": "Inscrivez-vous à notre newsletter",
       "submit": "Créer un compte",
       "login": "Connexion"
     },
@@ -290,7 +291,7 @@
       "shipping": "Expédition",
       "taxes_included": "Taxes incluses",
       "taxes_excluded": "Taxes exclues",
-      "total_duties": "Fonctions",
+      "total_duties": "Droits de douane",
       "refunded_amount": "Montant remboursé",
       "total": "Total",
       "shipping_address": "Adresse de livraison",

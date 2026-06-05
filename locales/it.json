@@ -16,24 +16,25 @@
   },
   "general": {
     "page": "Pagina {{ page }}",
-    "home": "Casa",
+    "home": "Home",
     "accessibility": {
       "skip_to_content": "Vai al contenuto",
       "pagination": "Navigazione della paginazione",
       "go_to_page": "Vai alla pagina {{ index }}",
-      "go_to_item": "Vai all'articolo {{ index }}",
+      "go_to_item": "Vai all'elemento {{ index }}",
       "item_nth_of_count": "Articolo {{ index }} di {{ count }}",
       "drag": "Trascina",
       "close": "Chiudi",
       "next": "Avanti",
       "previous": "Precedente",
       "play_video": "Guarda il video",
-      "read_more": "Leggi di più"
+      "read_more": "Leggi di più",
+      "load_video": "Carica video: {{ description }}"
     },
     "label": {
-      "color": "Colore, Colore",
+      "color": "Colore",
       "white": "Bianco",
-      "size": "Taglia"
+      "size": "Dimensione"
     },
     "social": {
       "follow_on": "Segui su {{ social_media }}",
@@ -45,7 +46,7 @@
       "info": "{{ rating_value }} su {{ rating_max }} stelle"
     },
     "newsletter": {
-      "email": "Posta elettronica",
+      "email": "E-mail",
       "subscribe": "Iscriviti",
       "notify_me": "Avvisami",
       "subscribed_successfully": "Sei stato iscritto alla nostra newsletter."
@@ -61,12 +62,12 @@
       "decline": "Declino"
     },
     "form": {
-      "max_characters": "Massimo {{ max_chars }} caratteri"
+      "max_characters": "{{ max_chars }} caratteri massimo"
     },
     "on_boarding": {
       "blog_post_category": "Categoria",
       "blog_post_title": "Articolo",
-      "blog_post_excerpt": "Scrivi un testo riguardo il tuo articolo del blog.",
+      "blog_post_excerpt": "Scrivi un testo sul tuo post del blog.",
       "product_vendor": "Fornitore",
       "product_title": "Prodotto",
       "product_description": "Scrivi un testo sul tuo prodotto.",
@@ -242,16 +243,16 @@
     },
     "recover_password": {
       "title": "Recupera password",
-      "email": "Posta elettronica",
+      "email": "E-mail",
       "submit": "Recupera",
       "back_to_login": "Torna al login",
-      "success_message": "È stata inviata un'e-mail al tuo indirizzo con le istruzioni per reimpostare la tua password."
+      "success_message": "Un'e-mail è stata inviata al tuo indirizzo con le istruzioni per reimpostare la password."
     },
     "register": {
       "title": "Iscriviti",
       "first_name": "Nome",
       "last_name": "Cognome",
-      "email": "Posta elettronica",
+      "email": "E-mail",
       "password": "Password",
       "accepts_marketing": "Iscriviti alla nostra newsletter",
       "submit": "Crea account",
@@ -266,15 +267,15 @@
       "cancel": "Annulla"
     },
     "reset_password": {
-      "title": "Reimposta la password",
+      "title": "Reimposta password",
       "password": "Password",
-      "password_confirmation": "Conferma della password",
+      "password_confirmation": "Conferma password",
       "submit": "Reimposta"
     },
     "order": {
       "order": "Ordina",
       "order_name": "Ordina {{name}}",
-      "view_details": "Visualizza i dettagli dell'ordine",
+      "view_details": "Visualizza dettagli ordine",
       "back": "Indietro",
       "date": "Data",
       "payment_status": "Stato del pagamento",
@@ -290,7 +291,7 @@
       "shipping": "Spedizione",
       "taxes_included": "Tasse incluse",
       "taxes_excluded": "Tasse escluse",
-      "total_duties": "Compiti",
+      "total_duties": "Doveri",
       "refunded_amount": "Importo rimborsato",
       "total": "Totale",
       "shipping_address": "Indirizzo di spedizione",
