@@ -1116,16 +1116,16 @@
           "other": "Versand in %{count} Wochen"
         },
         "shipping_line_phone_label": "Handynummer (erforderlich)",
-        "shipping_line_phone": "Ihr Zusteller könnte diese Nummer verwenden, um Sie zu kontaktieren.",
+        "shipping_line_phone": "Ihr Kurier kann diese Nummer verwenden, um Sie zu kontaktieren.",
         "shipping_line_delivery_phone_label": "Handynummer",
-        "shipping_line_delivery_phone": "Sie könnten bezüglich Aktualisierungen zu Ihrer Lieferung kontaktiert werden.",
+        "shipping_line_delivery_phone": "Sie könnten bezüglich Updates zu Ihrer Lieferung kontaktiert werden.",
         "optional_shipping_line_delivery_instructions_label": "Lieferanweisungen (optional)",
         "shipping_line_delivery_instructions": "Geben Sie notwendige Informationen wie Türcodes oder Abgabeanweisungen ein.",
         "other_method": {
           "one": "%{count} andere Methode verfügbar bei",
           "other": "%{count} weitere Methoden verfügbar ab"
         },
-        "shipping_rate_discounted_amount": "Vorher: %{original_amount}. Jetzt: %{amount}",
+        "shipping_rate_discounted_amount": "War: %{original_amount}. Jetzt: %{amount}",
         "local_delivery": "Lokale Lieferung",
         "prime_not_available": {
           "default": "Prime-Lieferung ist für Ihre Bestellung nicht verfügbar. Ihre Versandoptionen wurden aktualisiert."
@@ -1140,7 +1140,7 @@
             "other": "Kostenloser Versand für %{count} Lieferungen"
           },
           "first_n_order_free_with_cycle": {
-            "one": "Kostenloser Versand für %{count} weitere Lieferungen, dann %{recurring_order_shipping_price}",
+            "one": "Kostenloser Versand für %{count} weitere Lieferung, dann %{recurring_order_shipping_price}",
             "other": "Kostenloser Versand für %{count} weitere Lieferungen, danach %{recurring_order_shipping_price}"
           },
           "first_n_order_free_with_cycle_delivery_not_included": {
@@ -1185,11 +1185,11 @@
           "prepaid_initial_order_discounted_with_renewal": "Erste Versandkosten %{discounted_shipping_price} %{prepaid_delivery_frequency}, danach %{shipping_price} %{billing_cycle}",
           "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Erste Versandkosten %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), danach %{shipping_price} %{billing_cycle}",
           "shipping_price_included": "Inbegriffen",
-          "first_order_shipping_price_included": "Erste Bestellung inklusive, danach %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "Erste Bestellung inklusive, gefolgt von %{recurring_order_shipping_price}",
           "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} pro Lieferung), gefolgt von %{recurring_order_shipping_price}",
           "first_n_order_free": {
             "one": "Erste Bestellung kostenlos",
-            "other": "Erste %{count} Bestellungen kostenlos"
+            "other": "Die ersten %{count} Bestellungen kostenlos"
           }
         },
         "duties_and_taxes_title": "Zölle und Steuern",
@@ -1202,8 +1202,8 @@
           "ddp_caption": "Keine zusätzlichen Gebühren bei der Lieferung"
         },
         "shipping_used_as_billing_notice": "Dies wird auch als Ihre Rechnungsadresse für diese Bestellung verwendet.",
-        "shipping_address_title": "Lieferadresse",
-        "shipping_address_rollup_accessibility_label": "Versand an Adressoptionen",
+        "shipping_address_title": "Liefern an",
+        "shipping_address_rollup_accessibility_label": "Versandoptionen für Lieferadresse",
         "third_party_address_timeout": "Adressen können nicht geladen werden. Erneut versuchen oder eine andere Adresse verwenden.",
         "third_party_address_error": "Beim Laden der Adressauswahl ist ein Fehler aufgetreten. Geben Sie Ihre Adresse unten manuell ein.",
         "third_party_payment_timeout": "Zahlungsmethoden können nicht geladen werden. Erneut versuchen oder eine andere Zahlungsmethode verwenden.",
@@ -1240,12 +1240,12 @@
         "split_shipping_shipment_notice": "Ihre Bestellung wird in %{quantity_shipments} eintreffen",
         "split_shipping_first_shipment_notice": "Ihre erste Bestellung wird in %{quantity_shipments} eintreffen",
         "split_shipping_multiple_shipment_quantity_label": "%{quantity} Sendungen",
-        "split_shipping_multiple_shipment_notice": "Ihre Bestellung wird in mehreren Lieferungen ankommen",
-        "split_shipping_multiple_shipment_notice_one_time_purchase": "Ihre Bestellung wird in %{quantity} Lieferungen eintreffen",
+        "split_shipping_multiple_shipment_notice": "Ihre Bestellung wird in mehreren Sendungen geliefert",
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "Ihre Bestellung wird in %{quantity} Lieferungen ankommen",
         "split_shipping_more_shipping_options": "Mehr Versandoptionen",
         "split_shipping_shipment_number": "Sendung %{number}",
         "split_shipping_option_free": "Kostenloser Versand",
-        "split_shipping_option_fastest": "Schnellste(r/s)",
+        "split_shipping_option_fastest": "Am schnellsten",
         "add_new_delivery_address": "Neue Lieferadresse hinzufügen",
         "choose_new_address": "Neue Adresse wählen"
       },

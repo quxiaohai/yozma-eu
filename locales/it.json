@@ -853,7 +853,7 @@
         },
         "indeterminate_location_fallback": "la tua posizione",
         "change_address_only": "Cambia indirizzo di consegna per continuare.",
-        "change_address_or_remove": "Modifica l'indirizzo di consegna o %{remove_action}.",
+        "change_address_or_remove": "Cambia indirizzo di consegna o %{remove_action}.",
         "remove_items_action": {
           "one": "rimuovi articolo non disponibile",
           "other": "rimuovi gli articoli non disponibili"
@@ -1546,7 +1546,7 @@
         }
       },
       "merchant_instruction_errors": {
-        "empty_stable_id": "L'istruzione per il merchandising %{position} %{name} contiene un ID stabile vuoto.",
+        "empty_stable_id": "L'istruzione della merce %{position} %{name} contiene un ID stabile vuoto.",
         "invalid_stable_id_target": "L'istruzione per la merce %{position} %{name} fa riferimento all'ID stabile %{stable_id}, ma tale ID stabile non è presente nelle linee di merce.",
         "duplicate_variant_id": "L'istruzione per la merce %{position} %{name} contiene un ID variante duplicato %{variant_id}.",
         "invalid_variant_id_target": "L'istruzione della merce %{name} fa riferimento all'ID variante %{variant_id}, ma quella variante non è presente nelle linee di merce.",
@@ -2021,7 +2021,7 @@
       },
       "mor_policies": {
         "terms_and_conditions": "Termini e Condizioni del Commerciante Registrato",
-        "privacy_policy": "Informativa sulla privacy del commerciante ufficiale"
+        "privacy_policy": "Informativa sulla privacy del Merchant of Record"
       },
       "markets": {
         "invalid_market_manager_error": "Controlla le tue informazioni di contatto prima di completare il pagamento"
@@ -2112,10 +2112,10 @@
         "runtime_error": "Si è verificato un problema durante l'elaborazione della tua richiesta. Contatta il proprietario del negozio."
       },
       "no_address_location": {
-        "title": "Luogo senza indirizzo",
+        "title": "Posizione senza indirizzo",
         "header": "Non hai un indirizzo di spedizione per questa località",
-        "message": "Contattaci per aggiungere un indirizzo per questa sede e completare l'acquisto.",
-        "email_us_button_label": "Inviaci una email"
+        "message": "Contattaci per aggiungere un indirizzo per questa sede e completare il pagamento.",
+        "email_us_button_label": "Inviaci un'email"
       },
       "order_errors": {
         "creation_failure": "Si è verificato un problema durante la creazione del tuo ordine. Riprova oppure contattaci per maggiori dettagli.",
@@ -2175,26 +2175,26 @@
       "notice_banner": {
         "subscription_changed": "Una delle tue sottoscrizioni è cambiata.",
         "company_location_changed": "Il tuo carrello è stato aggiornato. Controlla il tuo ordine prima di inviarlo.",
-        "company_location_changed_product_removed": "Il tuo carrello è stato aggiornato perché alcuni prodotti non sono disponibili in questa posizione. Controlla il tuo ordine prima di inviarlo.",
+        "company_location_changed_product_removed": "Il tuo carrello è stato aggiornato perché alcuni prodotti non sono disponibili in questa sede. Controlla il tuo ordine prima di inviarlo.",
         "violations_title": "{{violation}} è mancante o non valido",
         "individual_violations_title": {
           "OtherViolations": "Informazioni sull'ordine",
           "UnhandledViolations": "Informazioni sull'ordine"
         },
-        "all_violations_content": "Chiamaci o contattaci tramite {{emailLink}} per aggiornare queste informazioni e completare il tuo ordine:",
-        "all_violations_email_link": "posta elettronica",
+        "all_violations_content": "Chiamaci o scrivici a {{emailLink}} per aggiornare queste informazioni e completare il tuo ordine:",
+        "all_violations_email_link": "email",
         "editable_shipping_address_violations_message_title": "Aggiungi queste informazioni per completare il tuo ordine:",
         "editable_shipping_address_violations_message_footer": "Per aggiornare permanentemente l'indirizzo di questa sede, {{emailLink}}.",
         "calculating_shipping": "La spedizione è ancora in fase di calcolo. Riprova tra qualche secondo. Non ti è stato addebitato alcun costo.",
-        "calculating_taxes": "Le tasse sono ancora in fase di calcolo. Riprova tra qualche secondo. Non sei stato addebitato.",
+        "calculating_taxes": "Le tasse sono ancora in fase di calcolo. Riprova tra qualche secondo. Non ti è stato addebitato alcun importo.",
         "generic_processing_error": {
           "title": "Si è verificato un problema durante l'elaborazione del tuo ordine",
-          "body": "Non ti è stato addebitato alcun importo. Riprova oppure usa un metodo di pagamento diverso."
+          "body": "Non ti è stato addebitato alcun importo. Riprova o usa un metodo di pagamento diverso."
         },
-        "payment_method_not_available_with_payment_terms": "Il metodo di pagamento selezionato non è più disponibile perché il pagamento per questo ordine ora avviene con termini {{paymentTerms}}.",
-        "payment_method_not_available_with_fulfillment_terms": "Il metodo di pagamento che hai selezionato non è più disponibile perché il pagamento per questo ordine è ora dovuto al momento della consegna.",
-        "payment_method_not_available_with_fixed_terms": "Il metodo di pagamento che hai selezionato non è più disponibile perché il pagamento per questo ordine è dovuto più tardi.",
-        "payment_method_not_available_with_review_requirement": "Il metodo di pagamento che hai selezionato non è più disponibile perché il pagamento sarà dovuto una volta confermato il tuo ordine.",
+        "payment_method_not_available_with_payment_terms": "Il metodo di pagamento selezionato non è più disponibile perché il pagamento per questo ordine è ora a termini {{paymentTerms}}",
+        "payment_method_not_available_with_fulfillment_terms": "Il metodo di pagamento selezionato non è più disponibile perché il pagamento per questo ordine è ora dovuto al momento dell'evasione.",
+        "payment_method_not_available_with_fixed_terms": "Il metodo di pagamento selezionato non è più disponibile perché il pagamento per questo ordine è previsto in un secondo momento",
+        "payment_method_not_available_with_review_requirement": "Il metodo di pagamento selezionato non è più disponibile perché il pagamento sarà dovuto una volta confermato l'ordine.",
         "contact_information": {
           "title": "Le informazioni di contatto non sono valide",
           "header": "Per aggiornare le tue informazioni, {{emailLink}}."
