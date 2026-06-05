@@ -497,7 +497,7 @@
     "checkout": {
       "general": {
         "page_title": "Afrekenen",
-        "skip_to_content": "Sla naar inhoud over",
+        "skip_to_content": "Ga naar inhoud",
         "breadcrumb": "Broodkruimelspoor",
         "pay_now_button_label": "Betaal nu",
         "authenticate_purchase_button_label": "Betaling verifiëren",
@@ -696,7 +696,7 @@
           "increase": "Verhoog {{type}}",
           "decrease": "Verlaag {{type}}"
         },
-        "remove_chip": "Verwijder artikel",
+        "remove_chip": "Item verwijderen",
         "remove_item": "Verwijder %{label}",
         "dates": {
           "weekdays": {
@@ -2321,7 +2321,7 @@
           "other": "%{count} nabijgelegen locaties met uw artikel"
         },
         "location_far_away": {
-          "one": "%{count} locatie met uw item",
+          "one": "%{count} locatie met uw artikel",
           "other": "%{count} locaties met uw artikel"
         },
         "toggle_more_locations": {
@@ -2338,7 +2338,7 @@
             "other": "De dichtstbijzijnde locatie met uw artikelen is meer dan %{distance} van %{location} verwijderd"
           },
           "title_with_specific_location": "De dichtstbijzijnde locatie met uw artikel is meer dan %{distance} verwijderd van %{location}",
-          "ship_to_address_link": "verzendadres",
+          "ship_to_address_link": "verzend naar adres",
           "change_location_link": "Wijzig uw locatie"
         },
         "selected_pickup_option_no_longer_available": {
@@ -2364,6 +2364,16 @@
         "pickup_unavailable_banner_body": {
           "ship_items": "Verzend uw artikelen",
           "search_elsewhere": "zoek elders"
+        },
+        "location_closest_one_item": "Dichtstbijzijnde locatie met uw artikel",
+        "location_closest_other_items": "Dichtstbijzijnde locatie met uw artikelen",
+        "location_far_away_one_item": {
+          "one": "%{count} locatie met uw artikel",
+          "other": "%{count} locaties met uw artikel"
+        },
+        "location_far_away_other_items": {
+          "one": "%{count} locatie met uw items",
+          "other": "%{count} locaties met uw artikelen"
         }
       },
       "split_delivery": {
