@@ -1082,6 +1082,17 @@
             "author": "YozmaSport"
           }
         },
+        "youtube_39FbLF": {
+          "type": "youtube",
+          "settings": {
+            "video_url": "https://youtu.be/bpFzeDK5IbE",
+            "video_url_mobile": "",
+            "date": "2026/05/12",
+            "content": "Yozma IN 10 Black Version In Your Area",
+            "avatar": "shopify://shop_images/channels4_profile_8_37f22cda-0c2e-4ba4-a695-fbdea8a8a54f.jpg",
+            "author": "YozmaSport"
+          }
+        },
         "youtube_neaVWW": {
           "type": "youtube",
           "settings": {
@@ -1190,6 +1201,7 @@
         "video_pAyz4R",
         "video_aHP8PY",
         "youtube_KnBpjU",
+        "youtube_39FbLF",
         "youtube_neaVWW",
         "youtube_VQgGtR",
         "youtube_TLCWVG",
