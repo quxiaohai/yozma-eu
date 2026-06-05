@@ -1754,7 +1754,7 @@
         "contact_information_title": "Informazioni di contatto",
         "company_location_title": "Posizione",
         "shipping_address_map_title": "Mappa di Google che mostra il punto esatto dell'indirizzo di spedizione: %{address}",
-        "payment_method_not_charged": "Non caricato",
+        "payment_method_not_charged": "Non addebitato",
         "company_tracking_number": "Numero di tracciamento %{company}:",
         "estimated_arrival": "Data di consegna stimata:",
         "estimated_delivery": "Stima attuale di consegna:",
@@ -1764,7 +1764,7 @@
         "gift_card_confirmation_by_text": "Se non l'hai ricevuto, invia di nuovo il messaggio o contattaci.",
         "gift_card_confirmation_by_email": "Se non l'hai ricevuta, rinvia l'email o contattaci.",
         "gift_card_title": "Carte regalo",
-        "resend_gift_cards": "Reinvia carte regalo",
+        "resend_gift_cards": "Rinvia le carte regalo",
         "thank_you_title_payment": "Il tuo pagamento è confermato",
         "thank_you_title_review": "Il tuo ordine è stato inviato per la revisione",
         "thank_you_title_payments_app_failed_pending_payment": "Il tuo pagamento non è stato elaborato",
@@ -1879,9 +1879,9 @@
         "order_status_confirmed_with_installments_payment_return": "Riporta la tua attenzione al commesso.",
         "order_status_confirmed_with_installments_payment_confirm": "Riceverai a breve un'email di conferma con il numero dell'ordine e i dettagli del tuo piano di rateizzazione.",
         "confirmed_orders_title": "I tuoi ordini sono confermati",
-        "ready_for_pickup_description": "Il tuo ordine è pronto per il ritiro. Porta con te la conferma dell'ordine quando vieni a ritirarlo.",
+        "ready_for_pickup_description": "Il tuo ordine è pronto per il ritiro. Porta la conferma dell'ordine quando ritiri il tuo ordine.",
         "order_updates_title": "Aggiornamenti sull'ordine",
-        "shop_phone_description": "Riceverai un messaggio con un collegamento all'app Negozio per aiutarti a seguire il tuo ordine.",
+        "shop_phone_description": "Riceverai un messaggio con un link all'app Shop per aiutarti a tracciare il tuo ordine.",
         "order_updates_description_html": "Gli aggiornamenti saranno inviati a %{customer_contact}",
         "order_updates_current_step_prefix": "Passo attuale:",
         "order_updates_past_step_prefix": "Passo precedente:",
@@ -1930,11 +1930,11 @@
         },
         "order_updates_description_missing": "Non stai ricevendo aggiornamenti sulla spedizione.",
         "order_updates_subscribe_to_email_notifications": "Ricevi aggiornamenti sulla spedizione via email",
-        "order_updates_subscribe_to_email_or_phone_notifications": "Ricevi aggiornamenti sulla spedizione via email o messaggio di testo",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Ricevi aggiornamenti sulla spedizione via email o SMS",
         "order_updates_subscribe_to_phone_notifications": "Ricevi aggiornamenti sulla spedizione via SMS",
         "gift_card_sent_confirmation": "Carte regalo inviate",
         "qr_code": {
-          "send_link_to_phone": "Oppure invia un collegamento al tuo telefono",
+          "send_link_to_phone": "O invia un link al tuo telefono",
           "title": "Traccia sul tuo telefono"
         },
         "shop_qr_with_sms_upsell": {
@@ -1942,7 +1942,7 @@
             "title": "Scansiona con il tuo telefono"
           },
           "sms": {
-            "title": "Oppure invia un collegamento al tuo telefono"
+            "title": "O invia un link al tuo telefono"
           }
         },
         "breadcrumbs_in_review": "In revisione",
@@ -1950,8 +1950,8 @@
           "title": "L'ordine non ha un indirizzo di spedizione"
         },
         "thank_you_ready_for_picked_up": "Il tuo ordine è stato ritirato a %{address}.",
-        "order_updates_subscribe_to_email_notifications_failed": "Non possiamo memorizzare questa email per gli aggiornamenti. Riprova o utilizza un'altra email.",
-        "order_updates_subscribe_to_email_notifications_email_already_exists": "L'indirizzo email che hai inserito esiste già.",
+        "order_updates_subscribe_to_email_notifications_failed": "Non possiamo memorizzare questa email per gli aggiornamenti. Riprova o usa un'altra email.",
+        "order_updates_subscribe_to_email_notifications_email_already_exists": "L'email che hai inserito esiste già.",
         "subscriptions_management": {
           "description": "Continua al tuo account per visualizzare e gestire i tuoi abbonamenti.",
           "button_label": "Gestisci il tuo abbonamento"

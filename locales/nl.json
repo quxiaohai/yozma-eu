@@ -1206,12 +1206,12 @@
       "localized_fields": {
         "additional_information": {
           "tax_credential_br": "BSN/KVK",
-          "shipping_credential_br": "BSN/KVK",
-          "shipping_credential_cn": "Inwonersidentificatienummer",
+          "shipping_credential_br": "CPF/CNPJ",
+          "shipping_credential_cn": "Inwoners-ID-nummer",
           "tax_credential_it": "Fiscaal nummer (optioneel)",
           "tax_credential_co": "Identiteitskaart/BTW",
           "tax_credential_type_co": "Type Identiteitskaart",
-          "shipping_credential_co": "Identiteitskaart/BTW",
+          "shipping_credential_co": "Identificatienummer/BTW",
           "shipping_credential_type_co": "Type Identiteitskaart",
           "tax_credential_cr": "Identificatienummer/RUT",
           "shipping_credential_cr": "Identificatienummer/RUT",
@@ -2329,8 +2329,8 @@
           "other": "%{count} meer locaties"
         },
         "toggle_multiple_locations": "%{count}+ meer locaties",
-        "your_location": "je locatie",
-        "search_button": "Winkels vinden",
+        "your_location": "jouw locatie",
+        "search_button": "Winkels zoeken",
         "all_stores_far_away": {
           "title": "De dichtstbijzijnde locaties zijn meer dan %{distance} verwijderd",
           "title_with_item": {
@@ -2342,15 +2342,16 @@
           "change_location_link": "Wijzig uw locatie"
         },
         "selected_pickup_option_no_longer_available": {
-          "title": "Uw eerder gekozen locatie is niet langer beschikbaar",
-          "ship_to_address_link": "verzendadres"
+          "title": "Uw eerder geselecteerde locatie is niet langer beschikbaar",
+          "ship_to_address_link": "verzend naar adres",
+          "description": "We hebben de dichtstbijzijnde locatie geselecteerd met uw artikelen op voorraad"
         },
         "could_not_resolve_address": "Uw adres kon niet worden gevonden. Probeer het opnieuw of gebruik een ander adres",
         "paginator": {
-          "accessibility_label": "Paginering voor afhalen op locatie"
+          "accessibility_label": "Lokale afhaal paginering"
         },
         "reveal_more_label": {
-          "one": "Toon %{count} meer locaties",
+          "one": "Toon nog %{count} locatie(s)",
           "other": "Toon %{count} meer locaties"
         },
         "pickup_unavailable_banner_title": {
@@ -2362,8 +2363,9 @@
           "other": "Geen locaties in %{country} met uw artikelen"
         },
         "pickup_unavailable_banner_body": {
-          "ship_items": "Verzend uw artikelen",
-          "search_elsewhere": "zoek elders"
+          "ship_items": "Verzend je artikelen",
+          "search_elsewhere": "zoek elders",
+          "search_elsewhere_standalone": "Zoek elders"
         },
         "location_closest_one_item": "Dichtstbijzijnde locatie met uw artikel",
         "location_closest_other_items": "Dichtstbijzijnde locatie met uw artikelen",
@@ -2374,6 +2376,30 @@
         "location_far_away_other_items": {
           "one": "%{count} locatie met uw items",
           "other": "%{count} locaties met uw artikelen"
+        },
+        "location_information_far_away_one_item": {
+          "one": "Er is %{count} locatie met uw artikel",
+          "other": "Er zijn %{count} locaties met uw artikel"
+        },
+        "location_information_far_away_other_items": {
+          "one": "Er is %{count} locatie met uw items",
+          "other": "Er zijn %{count} locaties met uw artikelen"
+        },
+        "location_nearby_one_item": {
+          "one": "Er is %{count} nabijgelegen locatie met uw artikel",
+          "other": "Er zijn %{count} locaties in de buurt met uw artikel"
+        },
+        "location_nearby_other_items": {
+          "one": "Er is %{count} nabijgelegen locatie met uw artikelen",
+          "other": "Er zijn %{count} locaties in de buurt met uw artikelen"
+        },
+        "location_nearby_short_one_item": {
+          "one": "%{count} nabijgelegen locatie met uw artikel",
+          "other": "%{count} nabijgelegen locaties met uw artikel"
+        },
+        "location_nearby_short_other_items": {
+          "one": "%{count} nabijgelegen locatie met uw items",
+          "other": "%{count} nabijgelegen locaties met uw artikelen"
         }
       },
       "split_delivery": {
