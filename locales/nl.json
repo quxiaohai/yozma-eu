@@ -2174,8 +2174,11 @@
         "description": "Toon je steun voor het team bij %{shop_name}",
         "presets_description": "Selecteer een fooipercentage",
         "custom_label": "Aangepaste tip",
-        "update_tip": "Bijwerktip",
-        "message": "Dank u, wij stellen het op prijs."
+        "update_tip": "Update tip",
+        "message": "Dank u, we waarderen het.",
+        "title": "Voeg fooi toe",
+        "add_tip": "Voeg fooi toe",
+        "not_available_with_spi": "Niet beschikbaar met Shop Pay-termijnen"
       },
       "open_graph_meta_tag": {
         "title_with_products": {
@@ -2525,7 +2528,7 @@
             "instructions": "{{walletName}} is momenteel niet beschikbaar voor uw bestelling. Om uw aankoop voort te zetten, kiest u een andere betaalmethode."
           },
           "generic": "Er was een probleem met {{walletName}}. Probeer het opnieuw of gebruik een andere betaalmethode.",
-          "discount_code": "Kan deze kortingscode niet toepassen. Controleer uw code en probeer het opnieuw.",
+          "discount_code": "Kan deze kortingscode niet toepassen. Controleer je code en probeer het opnieuw.",
           "terminal": "Er was een probleem met {{walletName}}. Gebruik een andere betaalmethode.",
           "detour": {
             "price_change": "Sommige artikelprijzen zijn gewijzigd. Sluit {{walletName}} om je bestelling te bekijken en het opnieuw te proberen.",
@@ -2561,7 +2564,7 @@
           },
           "formatting": {
             "name_contains_emojis": "Verwijder emoji uit je naam",
-            "postal_code_contains_emoji": "Verwijder emoji uit uw postcode"
+            "postal_code_contains_emoji": "Verwijder emoji uit je postcode"
           },
           "select_different_shipping_address_to_resolve_errors": "Uw verzendadres is ongeldig. Kies een ander adres of gebruik een nieuw adres.",
           "processing_error_checkout_as_guest": "Er was een probleem bij het verwerken van uw betaling. Probeer het opnieuw of {{checkout_as_guest_link}}."
@@ -2599,7 +2602,8 @@
       },
       "units": {
         "fluid_ounce": "vloeibare oz",
-        "gallon": "meisje"
+        "gallon": "gal",
+        "liter": "L"
       },
       "memberships": {
         "delivery_promise_unfulfillable": "Het adres wordt niet ondersteund voor het huidige lidmaatschap.",
