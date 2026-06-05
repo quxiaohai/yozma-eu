@@ -2517,7 +2517,7 @@
         "payment_in_progress_title": "Betaling bezig",
         "payment_in_progress_body": "Uw betaling wordt verwerkt. Uw bestelling wordt binnenkort afgerond.",
         "redirection_notice": "Je wordt doorgestuurd naar {{walletName}} om je aankoop te voltooien",
-        "recovery_notice": "Er is een probleem met uw bestelgegevens. Werk uw informatie bij om de betaling te voltooien.",
+        "recovery_notice": "Er is een probleem met je bestelgegevens. Werk je informatie bij om de betaling af te ronden.",
         "errors": {
           "unavailable": {
             "title": "{{walletName}} niet beschikbaar",
@@ -2536,21 +2536,21 @@
             "currency_change": "Je kunt geen ander adres gebruiken met {{walletName}}. Gebruik het oorspronkelijke adres, of probeer een andere betaalmethode."
           },
           "unsupported": {
-            "address": "De handelaar kan niet op dit adres leveren",
+            "address": "De verkoper kan niet op dit adres leveren",
             "wallet_is_unavailable": "{{walletName}} kan niet worden gebruikt met dit adres. Kies een ander adres of sluit {{walletName}} af om uw aankoop te voltooien"
           },
           "outdated": {
             "shipping_method": "De verzendopties voor uw bestelling zijn gewijzigd. Controleer uw keuze.",
-            "payment_terms": "De betalingsvoorwaarden zijn gewijzigd. Controleer uw bestelling"
+            "payment_terms": "De betalingsvoorwaarden zijn gewijzigd. Bekijk uw bestelling"
           },
           "invalid": {
             "shipping_address": "Voer een geldig afleveradres in",
             "zone": "Voer een geldige staat / provincie in",
-            "billing_zone": "Voer een geldige staat / provincie van het factuuradres in",
+            "billing_zone": "Voer een geldige staat/provincie van het factuuradres in",
             "emirate": "Voer een geldige emiraten in",
             "postal_code": "Voer een geldige postcode in",
             "billing_must_match_shipping": "Moet overeenkomen met het afleveradres",
-            "billing_zip": "Voer een geldige postcode voor het factuuradres in"
+            "billing_zip": "Voer een geldige factuuradres postcode in"
           },
           "missing": {
             "address2": "Voer een appartement, suite, enz. in.",
@@ -2558,16 +2558,18 @@
             "city": "Voer een stad in",
             "billing_city": "Voer een factuuradresstad in",
             "province": "Selecteer een staat / provincie",
-            "billing_province": "Selecteer een factuuradres provincie / gewest",
+            "billing_province": "Selecteer een factuuradres staat / provincie",
             "zip": "Voer een postcode in",
-            "billing_zip": "Voer een factuuradres postcode in"
+            "billing_zip": "Voer een factuuradres postcode in",
+            "billing_first_name": "Voer een voornaam van het factuuradres in"
           },
           "formatting": {
             "name_contains_emojis": "Verwijder emoji uit je naam",
             "postal_code_contains_emoji": "Verwijder emoji uit je postcode"
           },
           "select_different_shipping_address_to_resolve_errors": "Uw verzendadres is ongeldig. Kies een ander adres of gebruik een nieuw adres.",
-          "processing_error_checkout_as_guest": "Er was een probleem bij het verwerken van uw betaling. Probeer het opnieuw of {{checkout_as_guest_link}}."
+          "processing_error_checkout_as_guest": "Er was een probleem bij het verwerken van uw betaling. Probeer het opnieuw of {{checkout_as_guest_link}}.",
+          "subscription_review_required": "Uw bestelling bevat een abonnement. U moet de onderstaande voorwaarden bekijken voordat u uw bestelling voltooit."
         },
         "scrim": {
           "continue_purchase_in_window": "Ga door met uw aankoop in het {{walletName}} venster",
