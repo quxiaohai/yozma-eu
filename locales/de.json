@@ -1825,7 +1825,7 @@
       },
       "post_purchase": {
         "escape_confirmation": "Sie haben Ihre Bestellung bezahlt.",
-        "escape_action": "Bestellbestätigung ansehen ›",
+        "escape_action": "Bestellbestätigung anzeigen ›",
         "components": {
           "processing": "Verarbeitung…",
           "submit": "Absenden"
@@ -1837,7 +1837,7 @@
         "complete_your_purchase_title": "Schließen Sie Ihren Kauf ab",
         "continue_to_payment_gateway_notice": "Fahren Sie mit der Zahlung fort, um Ihre Zahlungsinformationen hinzuzufügen.",
         "complete_your_purchase_title_error": "Korrigieren Sie Ihre Zahlungsinformationen",
-        "continue_to_payment_gateway_notice_error": "Ihre Zahlungsinformationen konnten nicht überprüft werden.",
+        "continue_to_payment_gateway_notice_error": "Ihre Zahlungsinformationen konnten nicht verifiziert werden.",
         "your_order_has_been_received_title": "Danke für Ihre Bestellung",
         "you_will_receive_confirmation": "Wir erhalten gerade viele Bestellungen. Sie sollten bald eine Bestätigung per E-Mail oder SMS erhalten. Falls Sie diese nicht innerhalb der nächsten Stunde bekommen, lassen Sie es uns bitte wissen.",
         "you_will_not_be_charged": "Ihnen wird noch nichts berechnet",
@@ -1852,7 +1852,8 @@
           "refresh_this_page": "Diese Seite neu laden"
         },
         "remote_shops_payments_processing": "Zahlungen bearbeiten",
-        "action_required": "Handlung erforderlich"
+        "action_required": "Aktion erforderlich",
+        "continue_to_payment_gateway_button_label": "Zur Zahlung fortfahren"
       },
       "payment_challenge_modal": {
         "instructions": "Schließen Sie Ihren Kauf mit Ihrem {{paymentMethod}}-Code ab",
@@ -2375,14 +2376,14 @@
       },
       "pickup_point": {
         "title": "Abholstelle",
-        "search_button": "Suchen",
-        "selector_tabs": "Abholstellen-Auswahl",
+        "search_button": "Suche",
+        "selector_tabs": "Abholort-Auswahl",
         "could_not_resolve_address": "Ihre Adresse konnte nicht gefunden werden. Versuchen Sie es erneut oder verwenden Sie eine andere Adresse",
         "no_pickup_points_near_you": "Keine Abholstellen in der Nähe der ausgewählten Adresse gefunden",
         "no_pickup_points_near_location": "Keine Abholstellen in Ihrer Nähe gefunden",
         "pickup_unavailable_banner_title": {
-          "one": "Für Ihren Artikel sind keine Abholstellen verfügbar",
-          "other": "Für Ihre Artikel sind keine Abholstellen verfügbar"
+          "one": "Keine Abholstellen für Ihren Artikel verfügbar",
+          "other": "Keine Abholstellen für Ihre Artikel verfügbar"
         },
         "no_pickup_points_found": "Keine Abholstellen gefunden",
         "paginator": {
@@ -2407,7 +2408,7 @@
         "waiting_on_pickup_point_location_notice": "Suche nach Abholstellen...",
         "geolocation": {
           "errors": {
-            "unsuported_by_browser": "Die Standortbestimmung wird von Ihrem Browser nicht unterstützt. Versuchen Sie es erneut oder verwenden Sie einen anderen Browser.",
+            "unsuported_by_browser": "Die Geolokalisierung wird von Ihrem Browser nicht unterstützt. Versuchen Sie es erneut oder verwenden Sie einen anderen Browser.",
             "permission_not_allowed": "Standortfreigabe erlauben.",
             "permission_denied": "Standort konnte nicht ermittelt werden. Bitte versuchen Sie es erneut."
           }
