@@ -2769,7 +2769,7 @@
       "reset_password_html": "Dit e-mailadres is al gekoppeld aan een account. Als dit account van jou is, kun je <a href=\"/account/login#recover\">je wachtwoord opnieuw instellen</a>",
       "verify_email": "We hebben een e-mail gestuurd naar %{customer_email}, klik alstublieft op de bijgevoegde link om uw e-mailadres te verifiëren.",
       "shop_404": {
-        "title": "Maak een webwinkel en verkoop online! Webwinkelsoftware van Shopify",
+        "title": "Maak een e-commercewebsite en verkoop online! E-commerce software van Shopify",
         "heros": {
           "store_unavailable": "Sorry, deze winkel is momenteel niet beschikbaar."
         },
@@ -2811,9 +2811,9 @@
     "notices": {
       "customer": {
         "password_reset_error": "Fout bij het opnieuw instellen van het wachtwoord",
-        "subscribe_error": "Fout bij inschrijving",
-        "unsubscribe_error": "Fout bij uitschrijven",
-        "no_account_found": "Er is geen account gevonden met dat e-mailadres.",
+        "subscribe_error": "Abonneerfout",
+        "unsubscribe_error": "Afmeldfout",
+        "no_account_found": "Geen account gevonden met dat e-mailadres.",
         "invalid_credentials": "Onjuist e-mailadres of wachtwoord.",
         "denylisted_reset_password": "Uw account kon niet worden geopend omdat het huidige wachtwoord niet veilig is. U ontvangt een e-mail om uw wachtwoord bij te werken.",
         "signup_disabled": "Het aanmaken van een klantaccount is uitgeschakeld."
@@ -2837,43 +2837,45 @@
       "order": {
         "financial_status": {
           "authorized": "Geautoriseerd",
-          "voided": "Geannuleerd"
+          "voided": "Geannuleerd",
+          "pending": "In afwachting"
         },
         "fulfillment_status": {
-          "fulfilled": "Uitgevoerd",
+          "fulfilled": "Verzonden",
           "complete": "Voltooid",
           "unfulfilled": "Niet vervuld",
-          "restocked": "Opnieuw op voorraad"
+          "restocked": "Aangevuld op voorraad"
         },
         "transaction_status": {
           "success": "Succes",
-          "failure": "Mislukking"
+          "failure": "Fout",
+          "pending": "In afwachting"
         },
         "cancel_reason": {
           "customer": "Klant heeft bestelling gewijzigd/geannuleerd",
           "staff": "Personeelsfout",
-          "other": "Overig"
+          "other": "Overige"
         },
-        "cash_on_delivery": "Contant bij aflevering (CBA)"
+        "cash_on_delivery": "Contant bij levering (COD)"
       },
       "cart": {
         "only_n_items_available": "Je kunt slechts %{count} %{name} aan de winkelwagen toevoegen.",
         "too_many_items_in_cart": "Je kunt niet meer %{name} aan de winkelwagen toevoegen.",
-        "only_one_added_to_cart": "Er is slechts 1 artikel aan uw winkelwagen toegevoegd vanwege de beschikbaarheid.",
+        "only_one_added_to_cart": "Er is slechts 1 artikel aan je winkelwagen toegevoegd vanwege beschikbaarheid.",
         "only_n_added_to_cart": "Er zijn slechts %{quantity} artikelen aan uw winkelwagen toegevoegd vanwege beschikbaarheid.",
-        "maximum_available_quantity_reached": "De maximale hoeveelheid van dit artikel zit al in uw winkelwagen.",
+        "maximum_available_quantity_reached": "De maximale hoeveelheid van dit artikel zit al in je winkelwagen.",
         "not_respect_step": "Je kunt dit item alleen toevoegen in stappen van %{step}.",
         "all_items_in_cart": "Alle %{count} %{name} zitten in je winkelwagen.",
-        "missing_parameters": "geen geldige id- of regelparameter",
+        "missing_parameters": "geen geldig id- of regelparameter",
         "generic_error": "Fout in winkelwagen",
         "invalid_input": "%{parameter} parameter is ongeldig.",
         "too_many_line_items_error": "Je winkelwagen mag niet meer dan %{max} artikelen bevatten.",
-        "link_no_longer_exists": "De link bestaat niet meer.",
+        "link_no_longer_exists": "Link bestaat niet meer.",
         "stock_problems_html": "Een of meer artikelen zijn niet langer beschikbaar. We hebben een <a href='%{link}'>bijgewerkte winkelwagen</a> voor je gemaakt.",
-        "items_changed": "Een of meer artikelen zijn gewijzigd.",
+        "items_changed": "Een of meer items zijn gewijzigd.",
         "variant_requires_selling_plan": "Variant kan alleen worden gekocht met een verkoopplan.",
-        "selling_plan_not_available_for_company_locations": "Alleen eenmalige aankoop is beschikbaar voor B2B-bestellingen",
-        "digital_product_not_available_for_company_locations": "Dit artikel kan niet aan een B2B-bestelling worden toegevoegd",
+        "selling_plan_not_available_for_company_locations": "Alleen een eenmalige aankoop is beschikbaar voor B2B-bestellingen",
+        "digital_product_not_available_for_company_locations": "Dit artikel kan niet worden toegevoegd aan een B2B-bestelling",
         "buyer_cannot_purchase_for_company_locations": "Je kunt niet kopen voor deze locatie",
         "selling_plan_not_applicable": "Kan verkoopplan niet toepassen op variant",
         "shipping_address_not_required": "Deze winkelwagen vereist geen verzending",
@@ -2882,14 +2884,15 @@
         "gift_card_with_components_not_supported": "Het bundelproduct '%{name}' kan niet aan de winkelwagen worden toegevoegd.",
         "gift_card_price_must_be_greater_than_zero": "Het bundelproduct '%{name}' kan niet aan de winkelwagen worden toegevoegd.",
         "view_lines_limit_reached": "Regels moeten minder dan of gelijk aan %{limit} zijn",
-        "cart_attributes_error": "Winkelwagenkenmerken bevatten ongeldige gegevens.",
+        "cart_attributes_error": "Winkelwagenattributen bevatten ongeldige gegevens.",
         "merchandise_line_transformers": {
-          "run_error": "Er is een fout opgetreden in uw winkelwagen."
+          "run_error": "Er is een fout opgetreden in je winkelwagen."
         },
-        "merchandise_not_applicable": "Artikel kan niet worden gekocht zoals geconfigureerd."
+        "merchandise_not_applicable": "Artikel kan niet worden gekocht in de huidige configuratie.",
+        "gift_card_recipient_validation_error": "De opgegeven cadeaubonontvanger is ongeldig"
       },
       "tags": {
-        "add_articles": "Zoekresultaten beperken tot artikelen met ook tag %{tag}",
+        "add_articles": "Zoekopdracht beperken tot artikelen die ook de tag %{tag} bevatten",
         "add_products": "Selectie beperken tot producten die overeenkomen met tag %{tag}",
         "remove_articles": "Zoek ook in artikelen die niet zijn getagd met %{tag}",
         "remove_products": "Verwijder label %{tag}"
@@ -2947,7 +2950,7 @@
     },
     "page_titles": {
       "shopping_cart": "Uw Winkelwagen",
-      "account": "Rekening",
+      "account": "Account",
       "reset_account": "Account opnieuw instellen",
       "search_results": {
         "one": "Zoekresultaat: %{count} resultaat gevonden voor \"%{terms}\"",
