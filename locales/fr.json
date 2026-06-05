@@ -774,7 +774,7 @@
         "paid": "Ce paiement a déjà été effectué. Consultez la page de la commande pour plus de détails."
       },
       "contact": {
-        "shipping_used_as_billing_notice": "Cela servira également d'adresse de facturation pour cette commande.",
+        "shipping_used_as_billing_notice": "Cela sera également utilisé comme votre adresse de facturation pour cette commande.",
         "contact_method_title": "Contactez-nous",
         "email_label": "E-mail",
         "email_rollup_accessibility_label": "Options de messagerie électronique",
@@ -809,7 +809,10 @@
         "optional_postal_code_label": "Code postal (optionnel)",
         "optional_postcode_label": "Code postal (optionnel)",
         "optional_pincode_label": "Code PIN (optionnel)",
-        "change_location_link_label": "Changer de lieu"
+        "change_location_link_label": "Changer de lieu",
+        "title": "Information",
+        "storefront_link": "site web du commerçant",
+        "phone_rollup_accessibility_label": "Options de téléphone"
       },
       "delivery_options": {
         "ship_to_address": "Expédier à l'adresse",
@@ -835,11 +838,11 @@
       "customer_account": {
         "not_user_label": "Pas %{first_name} ?",
         "have_an_account_label": "Vous avez un compte ?",
-        "save_my_information_label": "Enregistrez cette information pour la prochaine fois",
+        "save_my_information_label": "Enregistrez ces informations pour la prochaine fois",
         "invalid_address": "L'adresse sélectionnée est invalide. %{update_address_link} ou choisissez une autre adresse.",
         "incomplete_address": "L'adresse sélectionnée est incomplète. %{update_address_link} ou choisissez une autre adresse.",
         "rollup_accessibility_label": "Options de compte",
-        "invalid_shipping_method_summary": "Sélectionnez une adresse de livraison valide pour voir les modes de livraison disponibles",
+        "invalid_shipping_method_summary": "Sélectionnez une adresse de livraison valide pour voir les méthodes d'expédition disponibles",
         "saved_address_option_description": {
           "one": "Vous avez {{count}} adresse enregistrée.",
           "other": "Vous avez {{count}} adresses enregistrées."
