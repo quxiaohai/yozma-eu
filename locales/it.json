@@ -1658,12 +1658,12 @@
         "or": "O oppure"
       },
       "post_purchase": {
-        "page_title": "Post-acquisto",
-        "title": "Post-acquisto",
-        "escape_confirmation": "Hai pagato per il tuo ordine.",
-        "escape_action": "Visualizza conferma dell'ordine ›",
+        "page_title": "Dopo l'acquisto",
+        "title": "Dopo l'acquisto",
+        "escape_confirmation": "Hai pagato il tuo ordine.",
+        "escape_action": "Visualizza conferma ordine ›",
         "components": {
-          "expand": "Vedi di più",
+          "expand": "Mostra di più",
           "processing": "Elaborazione…"
         }
       },
@@ -1673,7 +1673,7 @@
         "redirecting_notice": "Attendere mentre ti reindirizziamo.",
         "continue_to_payment_gateway_notice": "Continua al pagamento per aggiungere le tue informazioni di pagamento.",
         "continue_to_payment_gateway_button_label": "Continua al pagamento",
-        "continue_to_payment_gateway_notice_error": "Non è stato possibile verificare le informazioni di pagamento.",
+        "continue_to_payment_gateway_notice_error": "Le informazioni di pagamento non possono essere verificate.",
         "continue_to_payment_gateway_button_label_error": "Aggiorna le informazioni di pagamento",
         "page_title": "Elaborazione dell'ordine",
         "title": "Elaborazione dell'ordine",
@@ -2161,30 +2161,31 @@
         "open_twenty_four_hours": "Aperto 24 ore su 24, 7 giorni su 7",
         "search_button": "Cerca",
         "selector_tabs": "Selettore del punto di ritiro",
-        "could_not_resolve_address": "Non è stato possibile trovare il tuo indirizzo. Riprova oppure usa un indirizzo diverso",
+        "could_not_resolve_address": "Non è stato possibile trovare il tuo indirizzo. Riprova o usa un indirizzo diverso",
         "no_pickup_points_near_location": "Nessun punto di ritiro trovato vicino alla tua posizione",
         "paginator": {
           "header": {
-            "one": "Mostrando %{first} - %{last} di %{count} punto",
+            "one": "Mostrando %{first} - %{last} di %{count} punti",
             "other": "Mostrando %{first} - %{last} di %{count} punti"
           },
           "selected_pickup_point_label": {
-            "one": "%{pickup_point_index} di %{count} punti"
+            "one": "%{pickup_point_index} di %{count} punto"
           }
         },
         "number_of_pickup_points_near_location": {
-          "one": "%{count} punto di ritiro vicino alla tua posizione",
+          "one": "%{count} punti di ritiro vicino alla tua posizione",
           "other": "%{count} punti di ritiro vicino alla tua posizione"
         },
         "change": "Cambia posizione",
         "waiting_on_pickup_point_location_notice": "Ricerca dei punti di ritiro in corso...",
         "geolocation": {
           "errors": {
-            "unsuported_by_browser": "Il rilevamento della posizione geografica non è supportato dal tuo browser. Riprova o usa un browser diverso.",
+            "unsuported_by_browser": "Il rilevamento della geolocalizzazione non è supportato dal tuo browser. Riprova o utilizza un browser diverso.",
             "permission_not_allowed": "Consenti la condivisione della tua posizione.",
             "permission_denied": "Impossibile rilevare la tua posizione. Riprova."
           }
-        }
+        },
+        "or": "o"
       },
       "error_page": {
         "terminal": {

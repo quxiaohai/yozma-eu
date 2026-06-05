@@ -2918,10 +2918,10 @@
       "expired": "ist abgelaufen",
       "invalid_start_date_or_issue_number_for_debit": "Ein gültiges Startdatum oder eine Ausgabenummer ist erforderlich",
       "reset_password_html": "Diese E-Mail-Adresse ist bereits mit einem Konto verknüpft. Wenn dieses Konto Ihnen gehört, können Sie <a href=\"/account/login#recover\">Ihr Passwort zurücksetzen</a>",
-      "verify_email": "Wir haben eine E-Mail an %{customer_email} gesendet. Bitte klicken Sie auf den enthaltenen Link, um Ihre E-Mail-Adresse zu bestätigen.",
+      "verify_email": "Wir haben eine E-Mail an %{customer_email} gesendet, bitte klicken Sie auf den enthaltenen Link, um Ihre E-Mail-Adresse zu verifizieren.",
       "product_not_available": "Produkt ist für diesen Kunden nicht veröffentlicht.",
       "shop_404": {
-        "title": "Erstellen Sie eine Handelswebseite und verkaufen Sie online! Handelssoftware von Shopify",
+        "title": "Erstellen Sie eine E-Commerce-Website und verkaufen Sie online! E-Commerce-Software von Shopify",
         "heros": {
           "store_unavailable": "Entschuldigung, dieser Laden ist derzeit nicht verfügbar.",
           "store_not_exist": "Dieser Laden existiert nicht.",
@@ -3007,24 +3007,24 @@
       "cart": {
         "only_n_items_available": "Sie können nur %{count} %{name} zum Warenkorb hinzufügen.",
         "too_many_items_in_cart": "Sie können nicht mehr %{name} zum Warenkorb hinzufügen.",
-        "only_one_added_to_cart": "Aufgrund der Verfügbarkeit wurde nur 1 Artikel zu Ihrem Warenkorb hinzugefügt.",
-        "only_n_added_to_cart": "Aufgrund der Verfügbarkeit wurden nur %{quantity} Artikel zu Ihrem Warenkorb hinzugefügt.",
-        "maximum_available_quantity_reached": "Die Höchstmenge dieses Artikels befindet sich bereits in Ihrem Warenkorb.",
+        "only_one_added_to_cart": "Nur 1 Artikel wurde aufgrund der Verfügbarkeit zu Ihrem Warenkorb hinzugefügt.",
+        "only_n_added_to_cart": "Es wurden nur %{quantity} Artikel aufgrund der Verfügbarkeit zu Ihrem Warenkorb hinzugefügt.",
+        "maximum_available_quantity_reached": "Die maximale Menge dieses Artikels befindet sich bereits in Ihrem Warenkorb.",
         "not_respect_step": "Sie können diesen Artikel nur in Schritten von %{step} hinzufügen.",
         "all_items_in_cart": "Alle %{count} %{name} sind in deinem Warenkorb.",
-        "empty_update": "Leeren Warenkorb kann nicht aktualisiert werden",
-        "missing_parameters": "keine gültige ID oder Zeilenparameter",
-        "generic_error": "Warenkorbfehler",
-        "invalid_input": "Der Parameter %{parameter} ist ungültig.",
+        "empty_update": "kann leeren Warenkorb nicht aktualisieren",
+        "missing_parameters": "keine gültige ID oder Linienparameter",
+        "generic_error": "Warenkorb-Fehler",
+        "invalid_input": "%{parameter} Parameter ist ungültig.",
         "too_many_line_items_error": "Ihr Warenkorb darf nicht mehr als %{max} Artikel enthalten.",
         "stock_problems_html": "Ein oder mehrere Artikel sind nicht mehr verfügbar. Wir haben einen <a href='%{link}'>aktualisierten Warenkorb</a> bereitgestellt.",
-        "items_changed": "Ein oder mehrere Artikel wurden geändert.",
+        "items_changed": "Ein oder mehrere Artikel haben sich geändert.",
         "variant_not_found": "Variante nicht gefunden",
         "selling_plan_not_available_for_company_locations": "Für B2B-Bestellungen ist nur ein einmaliger Kauf möglich",
         "digital_product_not_available_for_company_locations": "Dieser Artikel kann nicht zu einer B2B-Bestellung hinzugefügt werden",
-        "buyer_cannot_purchase_for_company_locations": "Für diesen Standort können Sie nicht einkaufen",
-        "selling_plan_not_applicable": "Verkaufsplan kann nicht auf Variante angewendet werden",
-        "shipping_address_invalid": "Bei der Berechnung Ihrer Versandkosten ist ein Problem aufgetreten. Fahren Sie mit dem Bezahlen fort, um eine Versandart auszuwählen, bevor Sie Ihre Bestellung abschließen.",
+        "buyer_cannot_purchase_for_company_locations": "Für diesen Standort können Sie nicht kaufen.",
+        "selling_plan_not_applicable": "Kann den Verkaufsplan nicht auf die Variante anwenden",
+        "shipping_address_invalid": "Es gab ein Problem bei der Berechnung Ihrer Versandkosten. Fahren Sie mit der Kasse fort, um eine Versandrate auszuwählen, bevor Sie Ihre Bestellung abschließen.",
         "bundle_requires_components": "Das Bundle-Produkt '%{name}' kann nicht zum Warenkorb hinzugefügt werden.",
         "gift_card_with_components_not_supported": "Das Bundle-Produkt '%{name}' kann nicht zum Warenkorb hinzugefügt werden.",
         "gift_card_price_must_be_greater_than_zero": "Das Bundle-Produkt '%{name}' kann nicht zum Warenkorb hinzugefügt werden.",
@@ -3033,9 +3033,10 @@
         "cart_too_large": "Der Warenkorb ist zu groß.",
         "cart_attributes_error": "Warenkorbattribute enthalten ungültige Daten.",
         "merchandise_line_transformers": {
-          "run_error": "In Ihrem Warenkorb ist ein Fehler aufgetreten."
+          "run_error": "Ein Fehler ist in Ihrem Warenkorb aufgetreten."
         },
-        "merchandise_not_applicable": "Artikel kann in der gewählten Konfiguration nicht gekauft werden."
+        "merchandise_not_applicable": "Artikel kann nicht wie konfiguriert gekauft werden.",
+        "link_no_longer_exists": "Der Link existiert nicht mehr."
       },
       "storefront": {
         "invalid_password": "Passwort falsch, bitte versuchen Sie es erneut."
@@ -3136,6 +3137,13 @@
       "buyer_consent_product": "Dieser Artikel ist ein wiederkehrender oder aufgeschobener Kauf. Indem ich fortfahre, stimme ich der %{cancellationPolicyLink} zu und ermächtige Sie, meine Zahlungsmethode zu den auf dieser Seite angegebenen Preisen, Häufigkeiten und Terminen zu belasten, bis meine Bestellung erfüllt ist oder ich, falls erlaubt, storniere.",
       "buyer_consent_cart": "Einer oder mehrere Artikel in Ihrem Warenkorb sind wiederkehrende oder aufgeschobene Käufe. Indem ich fortfahre, stimme ich der %{cancellationPolicyLink} zu und ermächtige Sie, meine Zahlungsmethode zu den auf dieser Seite angegebenen Preisen, Häufigkeiten und Terminen zu belasten, bis meine Bestellung erfüllt ist oder ich, falls erlaubt, storniere.",
       "cancellation_policy": "Stornierungsbedingungen"
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "out_of_stock": "Nicht auf Lager"
+        }
+      }
     }
   },
   "products": {
