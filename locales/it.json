@@ -871,7 +871,7 @@
         }
       },
       "order_summary": {
-        "title": "Riepilogo dell'ordine",
+        "title": "Riepilogo ordine",
         "view_all_items": {
           "other": "Visualizza tutti i %{count} articoli"
         },
@@ -936,7 +936,7 @@
         "order_total_label": "Totale ordine",
         "total_savings": "Risparmio totale",
         "deposit_label": "Deposito",
-        "total_due_later_label": "Totale dovuto in seguito",
+        "total_due_later_label": "Totale da pagare più tardi",
         "vat_label_html": "Inclusi %{amount} di tasse",
         "duties_included_label": "Il totale include tasse e dazi. Nessun costo aggiuntivo alla consegna.",
         "discount_and_gift_card_savings_notice": "Dopo %{discount_amount} di sconti e %{gift_card_amount} in buoni regalo",
@@ -999,7 +999,10 @@
         "compare_at_sale": "Saldi (%{sale_amount})",
         "estimated_taxes_finalization_tooltip_content_short": "Tassa finalizzata dopo il pagamento",
         "duties_and_taxes_label": "Dazi e tasse",
-        "full_price": "Prezzo intero: %{price}"
+        "full_price": "Prezzo intero: %{price}",
+        "tax_line": {
+          "gst": "IVA"
+        }
       },
       "shipping": {
         "shipping_method_rollup_accessibility_label": "Opzioni di metodo di spedizione",
@@ -1168,10 +1171,10 @@
       "payment": {
         "network_card_payment_options": "Scegli una rete di carte",
         "network_card_persistence_description": "La rete selezionata sarà salvata con il tuo metodo di pagamento per le transazioni future.",
-        "amazon_payments_label": "Pagamento Amazon",
+        "amazon_payments_label": "Amazon Pay",
         "amazon_payments_failed_mfa_challenge": "Il metodo di pagamento selezionato non può essere utilizzato. Seleziona un metodo diverso o contatta la tua banca o l'emittente della carta.",
         "amazon_payments_abandoned_mfa_challenge": "Il tuo pagamento non è stato completato. Prova un metodo di pagamento diverso o contatta la tua banca o l'emittente della carta.",
-        "amazon_payments_could_not_enqueue_authorize": "Si è verificato un problema durante l'elaborazione del pagamento. Riprova oppure usa un metodo di pagamento diverso.",
+        "amazon_payments_could_not_enqueue_authorize": "Si è verificato un problema durante l'elaborazione del pagamento. Riprova o utilizza un metodo di pagamento diverso.",
         "amount_left_to_pay_label": "Pagamento dovuto:",
         "discount_codes_removed_summary": {
           "one": "Il codice sconto %{count} è stato rimosso",
@@ -1271,7 +1274,7 @@
         "multibanco_label": "Multibanca",
         "eps_label": "bonifico eps",
         "klarna_slice_it_label": "Finanzia con Klarna",
-        "afterpay_label": "Paga dopo",
+        "afterpay_label": "Dopo pagamento",
         "cashapppay_label": "Pagamento con Cash App",
         "blik_label": "Sguardo",
         "twint_label": "DOPPIO GEMELLO",
@@ -1406,7 +1409,7 @@
           "title": "Numero d'ordine",
           "label": "Numero d'ordine (facoltativo)"
         },
-        "alternative_payment_currency_total_notice": "Nota: ti verrà addebitato %{amount_due}.",
+        "alternative_payment_currency_total_notice": "Nota: ti verranno addebitati %{amount_due}.",
         "alternative_payment_currency_total_manual_payment_notice": "Nota: il totale convertito è %{amount_due}.",
         "waiting_on_taxes_message": "Se le tue tasse non vengono calcolate entro i prossimi secondi, aggiorna la pagina.",
         "waiting_on_taxes_notice": "Calcolo delle tasse",
