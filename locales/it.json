@@ -496,7 +496,7 @@
     },
     "checkout": {
       "general": {
-        "page_title": "Cassa",
+        "page_title": "Pagamento",
         "skip_to_content": "Vai al contenuto",
         "complete_purchase_button_label": "Completa l'ordine",
         "expand_notice_label": "Mostra di più",
@@ -675,7 +675,7 @@
         "full_title": "{{pageTitle}} - {{shopName}} - Pagamento",
         "loading": "Caricamento…",
         "loading_title": "Pagamento - {{shopName}}",
-        "submit_for_review_button_label": "Invia per revisione",
+        "submit_for_review_button_label": "Invia per la revisione",
         "submit_for_review_notice_label": "Il pagamento non sarà dovuto fino a quando il tuo ordine non sarà esaminato",
         "continue_to_payment_plans_button_label": "Continua ai piani di pagamento",
         "back_button_label": "Ritorna",
@@ -2223,7 +2223,7 @@
       },
       "local_pickup": {
         "title": "Posizione",
-        "location_closest": "Luogo più vicino con il tuo articolo",
+        "location_closest": "Posizione più vicina con il tuo articolo",
         "location_information": {
           "one": "C'è %{count} punto vendita con disponibilità vicino a te",
           "other": "Ci sono %{count} punti vendita con disponibilità vicino a te"
@@ -2250,7 +2250,7 @@
         "your_location": "la tua posizione",
         "search_button": "Trova negozi",
         "all_stores_far_away": {
-          "title": "Le località più vicine sono a più di %{distance} di distanza",
+          "title": "Le località più vicine si trovano a più di %{distance} di distanza",
           "title_with_item": {
             "one": "La sede più vicina con il tuo articolo si trova a più di %{distance} da %{location}",
             "other": "La sede più vicina con i tuoi articoli si trova a più di %{distance} da %{location}"
@@ -2263,7 +2263,7 @@
           "title": "La tua posizione precedentemente selezionata non è più disponibile",
           "ship_to_address_link": "spedire all'indirizzo"
         },
-        "could_not_resolve_address": "Non è stato possibile trovare il tuo indirizzo. Riprova oppure usa un indirizzo diverso",
+        "could_not_resolve_address": "Non è stato possibile trovare il tuo indirizzo. Riprova o usa un indirizzo diverso",
         "paginator": {
           "accessibility_label": "Paginazione per ritiro locale"
         },
@@ -2281,6 +2281,16 @@
         },
         "pickup_unavailable_banner_body": {
           "ship_items": "Spedisci i tuoi articoli"
+        },
+        "location_closest_one_item": "Posizione più vicina con il tuo articolo",
+        "location_closest_other_items": "Posizione più vicina con i tuoi articoli",
+        "location_far_away_one_item": {
+          "one": "%{count} località con il tuo articolo",
+          "other": "%{count} sedi con il tuo articolo"
+        },
+        "location_far_away_other_items": {
+          "one": "%{count} località con i tuoi articoli",
+          "other": "%{count} sedi con i tuoi articoli"
         }
       },
       "split_delivery": {
