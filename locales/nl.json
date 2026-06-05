@@ -1271,15 +1271,15 @@
           "other": "%{count} kortingscodes zijn verwijderd of aangepast"
         },
         "discount_show_more_warnings": {
-          "one": "Toon nog %{count} meer",
-          "other": "Toon nog %{count} meer"
+          "one": "Toon %{count} meer",
+          "other": "Toon %{count} meer"
         },
-        "gift_card_code_label": "Cadeauboncode",
+        "gift_card_code_label": "Cadeaukaartcode",
         "gift_card_balance_label": "Balans:",
         "detected_card_brand": "Gedetecteerd kaartmerk: {brand}",
         "credit_card_vaulting_sign_in_banner_title": "Sla je creditcard op",
         "credit_card_vaulting_sign_in_banner_info": "Log in of maak een account aan om je creditcard op te slaan voor toekomstige aankopen.",
-        "ftd_vault_credit_card_label": "Sla deze creditcard op in mijn account voor een snellere afhandeling van de bestelling",
+        "ftd_vault_credit_card_label": "Sla deze creditcard op in mijn account voor een snellere afhandeling",
         "card_pay_with": "Betalen met:",
         "card_security_notice": "Alle transacties zijn veilig en versleuteld.",
         "card_security_vault_notice": "We hebben uw gegevens nodig voor toekomstige betalingen. Alle transacties zijn veilig en versleuteld.",
@@ -1317,7 +1317,7 @@
         "different_billing_address_label": "Gebruik een ander factuuradres",
         "billing_address_associated_with_mandate": "Gebruik het adres dat aan de betaalmethode is gekoppeld",
         "billing_address_associated_with_mandate_info": "Als u uw factuuradres wilt wijzigen, verwijder dan uw creditcardgegevens en voer ze opnieuw in.",
-        "free_order_notice_html": "Uw bestelling is <strong>gratis</strong>. Betaling is niet vereist.",
+        "free_order_notice_html": "Je bestelling is <strong>gratis</strong>. Er is geen betaling vereist.",
         "express_checkout_free_order": "Je wordt niet belast voor een gratis bestelling",
         "order_covered_by_gift_cards_notice": {
           "one": "Uw bestelling wordt gedekt door uw cadeaubon.",
@@ -1341,7 +1341,7 @@
         "missing_credit_card_error": "Voer uw kaartgegevens in om de betaling te voltooien",
         "payment_method_not_available_for_shipping_address_error": "Betaalmethode niet beschikbaar voor het gekozen afleveradres. Kies een andere betaalmethode.",
         "billing_address_not_supported_for_payment_method_error": "Deze betaalmethode is niet beschikbaar voor uw factuuradres en valuta. Probeer een andere betaalmethode.",
-        "generic_incorrect_card_info": "Uw betaalgegevens konden niet worden geverifieerd. Controleer uw kaartgegevens en probeer het opnieuw.",
+        "generic_incorrect_card_info": "Uw betalingsgegevens konden niet worden geverifieerd. Controleer uw kaartgegevens en probeer het opnieuw.",
         "sofort_label": "Directe bankoverschrijving",
         "paypal_wallet_label": "PayPal-portemonnee",
         "shop_pay_installments_label": "Shop Pay-termijnen",
@@ -1352,12 +1352,12 @@
         "klarna_pay_later_label": "Betaal later met Klarna",
         "multibanco_label": "Multibank",
         "eps_label": "eps-overschrijving",
-        "klarna_slice_it_label": "Financiering met Klarna",
+        "klarna_slice_it_label": "Financier met Klarna",
         "afterpay_label": "Afterpay",
         "cashapppay_label": "Cash App Betalen",
         "swish_label": "Zwijgzaam",
-        "grabpay_label": "PakBetalen",
-        "kcp_creditcard_label": "KCP Kredietkaart",
+        "grabpay_label": "GrabPay",
+        "kcp_creditcard_label": "KCP Creditcard",
         "usdc_cashback_additional_info": "Ontvang %{incentive_percentage}% terug in USDC op Base binnen 30 dagen, tot 100 USDC.",
         "usdc_cashback_terms": "Voorwaarden van toepassing",
         "purchase_options_card_update_agreement_label_html": "Door uw betaalmethode bij te werken, geeft u toestemming voor betalingen voor elke terugkerende of uitgestelde aankoop volgens het <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">%{cancellation_policy}</a> van deze winkel.",
@@ -1382,8 +1382,8 @@
           "not_available": "Apple Pay is niet beschikbaar in deze browser. Om je Apple Pay-account te koppelen, moet je Safari gebruiken op een Apple-apparaat."
         },
         "google": {
-          "connect": "Klik om verbinding te maken met uw Google Pay-account",
-          "error_authorizing": "Fout bij het autoriseren van betaling"
+          "connect": "Klik om verbinding te maken met je Google Pay-account",
+          "error_authorizing": "Fout bij het autoriseren van de betaling"
         },
         "account_connected": "Account verbonden.",
         "mor_disclaimer_html": "Door hieronder te klikken en uw bestelling te voltooien, gaat u akkoord met de aankoop van uw artikel(en) via Global-e als handelaar van registratie voor deze transactie, volgens de <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Algemene Voorwaarden</a> van Global-e en het <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Privacybeleid</a>. Global-e is een internationale fulfilmentdienstverlener voor %{shop_name}",
@@ -1450,7 +1450,7 @@
         },
         "edit_credit_card_modal": {
           "done": "Klaar",
-          "description": "U kunt alleen het factuuradres van uw kaart wijzigen.",
+          "description": "Je kunt alleen het factuuradres van je kaart wijzigen.",
           "fields": {
             "default": "Instellen als standaard"
           }
@@ -1476,7 +1476,7 @@
         "order_edit_banner_multiple_items_returned": "Geretourneerd {{amount}}",
         "gift_card_wrapper": {
           "apply_gift_card_label": "Een cadeaubon gebruiken",
-          "apply_another_gift_card_label": "Een andere cadeaubon gebruiken",
+          "apply_another_gift_card_label": "Een andere cadeaubon toepassen",
           "add_label": "Voeg een cadeaubon toe"
         },
         "gift_card_store_credit": {
@@ -1498,12 +1498,12 @@
         "alternative_payment_currency_total_manual_payment_notice": "Opmerking: het omgerekende totaalbedrag is %{amount_due}.",
         "waiting_on_taxes_message": "Als uw belastingen niet binnen enkele seconden worden berekend, vernieuw dan de pagina.",
         "payment_method_rollup_accessibility_label": "Betaalmethoden opties",
-        "expired_payment_method": "De gekozen betaalmethode is verlopen",
+        "expired_payment_method": "Geselecteerde betaalmethode is verlopen",
         "payment_method_update_failed": "Bijwerken van betaalmethode mislukt.",
         "payment_method_incompatible_with_payment_terms": "Betaalmethode is niet compatibel met de betalingsvoorwaarden.",
         "proposed_gateway_unavailable": "De voorgestelde betaalmethode is niet beschikbaar",
         "pay_in_installments_split_pay_short": "4 betalingen van %{amount}",
-        "gift_cards_unavailable": "Uw cadeaubon kan niet langer op deze bestelling worden toegepast en is verwijderd",
+        "gift_cards_unavailable": "Je cadeaubon kan niet langer op deze bestelling worden toegepast en is verwijderd",
         "payment_flexibility_terms_id_mismatch": "Betalingsflexibiliteit voorwaarden ID komt niet overeen",
         "payment_option": {
           "accessibility_label": "Kies een betaalmethode"
