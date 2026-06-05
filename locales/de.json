@@ -186,18 +186,18 @@
     "general": {
       "empty_blog": "Dieser Blog ist leer",
       "back_to_home": "Zurück zur Startseite",
-      "view": "Ansicht",
+      "view": "Ansehen",
       "all_posts": "Alle Beiträge"
     },
     "post": {
       "written_by": "Von {{ author }}",
       "share": "Teilen",
-      "tags": "Schlagwörter",
-      "continue_reading": "Nächste lesen"
+      "tags": "Tags",
+      "continue_reading": "Als Nächstes lesen"
     },
     "comments": {
       "leave_comment": "Einen Kommentar hinterlassen",
-      "moderated": "Alle Kommentare werden moderiert, bevor sie veröffentlicht werden.",
+      "moderated": "Alle Kommentare werden vor der Veröffentlichung moderiert.",
       "name": "Name",
       "email": "E-Mail",
       "message": "Nachricht",
@@ -331,12 +331,12 @@
       "weight": "Gewicht",
       "subtotal": "Zwischensumme",
       "total": "Gesamt",
-      "taxes_and_shipping_policy_at_checkout_html": "Steuern und <a href=\"{{ link }}\" class=\"link\">Versandkosten</a> werden beim Bezahlen berechnet",
-      "taxes_included_but_shipping_at_checkout": "Steuer enthalten und Versandkosten werden beim Bezahlen berechnet",
-      "taxes_included_and_shipping_policy_html": "Inklusive Steuern. <a href=\"{{ link }}\" class=\"link\">Versand</a> wird beim Bezahlen berechnet.",
+      "taxes_and_shipping_policy_at_checkout_html": "Steuern und <a href=\"{{ link }}\" class=\"link\">Versand</a> werden beim Bezahlen berechnet",
+      "taxes_included_but_shipping_at_checkout": "Steuer inklusive, Versandkosten werden beim Bezahlen berechnet",
+      "taxes_included_and_shipping_policy_html": "Steuer inbegriffen. <a href=\"{{ link }}\" class=\"link\">Versand</a> wird beim Bezahlen berechnet.",
       "taxes_and_shipping_at_checkout": "Steuern und Versandkosten werden beim Bezahlen berechnet",
       "add_order_note": "Bestellnotiz hinzufügen",
-      "edit_order_note": "Bestellungshinweis bearbeiten",
+      "edit_order_note": "Bestellnotiz bearbeiten",
       "order_note": "Bestellhinweis",
       "save_note": "Speichern",
       "view_cart": "Warenkorb ansehen",
@@ -433,7 +433,7 @@
   "apps": {
     "shopify_reviews": {
       "review_info": "Dieses Produkt hat eine Bewertung von {{ rating_value }} von {{ rating_max }} Sternen.",
-      "leave_review": "Hinterlassen Sie eine Bewertung",
+      "leave_review": "Eine Bewertung hinterlassen",
       "review_count": {
         "zero": "Dieses Produkt hat noch keine Bewertungen.",
         "one": "Es hat {{ count }} Bewertung erhalten.",

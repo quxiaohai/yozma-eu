@@ -192,14 +192,14 @@
     "post": {
       "written_by": "Di {{ author }}",
       "share": "Condividi",
-      "tags": "Etichette",
-      "continue_reading": "Lettura successiva"
+      "tags": "Tag",
+      "continue_reading": "Leggendo il prossimo"
     },
     "comments": {
       "leave_comment": "Lascia un commento",
-      "moderated": "Tutti i commenti sono moderati prima di essere pubblicati.",
+      "moderated": "Tutti i commenti vengono moderati prima della pubblicazione.",
       "name": "Nome",
-      "email": "Posta elettronica",
+      "email": "E-mail",
       "message": "Messaggio",
       "submit": "Invia",
       "comment_sent": "Il tuo commento è stato inviato. Lo pubblicheremo tra poco, poiché il nostro blog è moderato.",
@@ -335,26 +335,26 @@
       "taxes_included_but_shipping_at_checkout": "Tasse incluse e spedizione calcolata al momento del pagamento",
       "taxes_included_and_shipping_policy_html": "Tasse incluse. <a href=\"{{ link }}\" class=\"link\">Spedizione</a> calcolata al momento del pagamento.",
       "taxes_and_shipping_at_checkout": "Tasse e spedizione calcolate al momento del pagamento",
-      "add_order_note": "Aggiungi nota dell'ordine",
+      "add_order_note": "Aggiungi nota all'ordine",
       "edit_order_note": "Modifica nota dell'ordine",
       "order_note": "Nota d'ordine",
       "save_note": "Salva",
       "view_cart": "Visualizza carrello",
-      "checkout": "Cassa",
+      "checkout": "Pagamento",
       "we_accept": "Accettiamo"
     },
     "order": {
       "product": "Prodotto",
       "total": "Totale",
       "quantity": "Quantità",
-      "change_quantity": "Cambia quantità",
+      "change_quantity": "Modifica quantità",
       "increase_quantity": "Aumenta quantità",
       "decrease_quantity": "Diminuisci quantità",
       "remove": "Rimuovi",
       "remove_with_title": "Rimuovi {{ title }}"
     },
     "free_shipping_bar": {
-      "limit_unreached_html": "Spendi altri {{ remaining_amount }} e ricevi la spedizione gratuita!",
+      "limit_unreached_html": "Spendi altri {{ remaining_amount }} e ottieni la spedizione gratuita!",
       "limit_reached_html": "Hai diritto alla spedizione gratuita."
     },
     "shipping_estimator": {
