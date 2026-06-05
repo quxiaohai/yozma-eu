@@ -766,7 +766,7 @@
           "review_order": "Vérifiez votre commande"
         },
         "shipping": {
-          "shipping_options": "Voir toutes les options d'expédition"
+          "shipping_options": "Voir toutes les options de livraison"
         }
       },
       "payment_collection": {
@@ -819,9 +819,9 @@
         "shipping_address": "Adresse de livraison",
         "pick_up": "Ramasser",
         "pick_up_from_store": "Retrait en magasin",
-        "pick_up_locations": "Lieux de retrait",
+        "pick_up_locations": "Points de retrait",
         "pick_up_in_one_hour": "Généralement prêt en 1 heure",
-        "pick_up_in_two_hours": "Habituellement prêt en 2 heures",
+        "pick_up_in_two_hours": "Généralement prêt en 2 heures",
         "pick_up_in_four_hours": "Généralement prêt en 4 heures",
         "pick_up_in_twenty_four_hours": "Généralement prêt en 24 heures",
         "pick_up_in_two_to_four_days": "Généralement prêt en 2 à 4 jours",
@@ -831,9 +831,9 @@
         "pick_up_immediately": "Prêt à être retiré maintenant",
         "pick_up_next_day": "Prêt à être retiré le lendemain",
         "pickup_point_method_definition": "Livrer au point de retrait",
-        "company_location_no_address_banner": "Les commandes expédiées vers des lieux sans adresse seront soumises à un examen.",
+        "company_location_no_address_banner": "Les commandes expédiées vers des lieux sans adresse seront soumises à une vérification.",
         "none_method_definition": "Pas de livraison",
-        "subscription_pickup_information": "Cette méthode de livraison s'appliquera à tous les articles de cette commande ainsi qu'à toutes les commandes futures pour cet abonnement."
+        "subscription_pickup_information": "Ce sera le lieu de retrait pour toutes les commandes futures de votre abonnement."
       },
       "customer_account": {
         "not_user_label": "Pas %{first_name} ?",
@@ -950,7 +950,7 @@
             "other": "Aucune livraison disponible pour %{count} articles"
           },
           "message": {
-            "one": "Cet article sera retiré de votre panier car aucune méthode de livraison n'est disponible pour votre adresse.",
+            "one": "Cet article sera retiré de votre panier car aucun mode de livraison n'est disponible pour votre adresse.",
             "other": "Ces articles seront retirés de votre panier car aucun mode de livraison n'est disponible pour votre adresse."
           },
           "label": "Pas de livraison"
@@ -2284,7 +2284,7 @@
         "page_title": "Méthodes de paiement",
         "title": "Méthodes de paiement",
         "delete_customer_mandate": {
-          "success_message": "Votre mode de paiement a été supprimé avec succès"
+          "success_message": "Votre méthode de paiement a été supprimée avec succès"
         }
       },
       "throttle": {
@@ -2378,18 +2378,19 @@
       },
       "error_page": {
         "terminal": {
-          "title": "Un problème est survenu lors de notre passage en caisse",
-          "message": "Rafraîchissez cette page ou réessayez dans quelques minutes",
+          "title": "Il y a eu un problème lors de notre passage en caisse",
+          "message": "Actualisez cette page ou réessayez dans quelques minutes",
           "action": {
-            "cta": "Rafraîchir la page"
-          }
+            "cta": "Actualiser la page"
+          },
+          "request_id": "ID de demande : {{requestId}}"
         },
         "embed_errors": {
-          "customer_account_required": "Un compte client est nécessaire pour finaliser la commande",
+          "customer_account_required": "Un compte client est requis pour finaliser la commande",
           "invalid_cart": "Le panier n'est plus valide",
           "not_authorized": "Échec de l'authentification lors du paiement. Vérifiez les identifiants de votre application",
-          "killswitch_enabled": "Le passage en caisse est temporairement indisponible",
-          "policy_violation": "Impossible de finaliser l'achat en raison des restrictions de configuration des règles",
+          "killswitch_enabled": "Le paiement est temporairement indisponible",
+          "policy_violation": "Impossible de finaliser la commande en raison des restrictions de configuration de la politique",
           "unrecoverable_failure": "Impossible de charger la caisse. Veuillez réessayer."
         }
       },
@@ -2521,7 +2522,7 @@
         "failed_to_copy": "Échec de la copie"
       },
       "discount_errors": {
-        "generic_error": "Votre commande n'a pas pu être traitée car votre code de réduction n'est plus valide. Vérifiez le total de votre commande et réessayez."
+        "generic_error": "Votre commande n'a pas pu être traitée car votre code de réduction n'est plus disponible. Vérifiez le total de votre commande et réessayez."
       },
       "b2b_errors": {
         "lost_b2b_purchasing_permissions": "Vous n'avez plus l'autorisation de passer des commandes B2B. %{logout_url} pour passer une commande personnelle à la place.",
