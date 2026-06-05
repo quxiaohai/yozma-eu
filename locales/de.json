@@ -949,7 +949,7 @@
         "discount_code_replaced": "Rabattcode %{old_code} entfernt und %{code} wurde angewendet",
         "discount_code_replaced_multiple": "Mehrere Rabattcodes wurden entfernt und %{code} wurde angewendet",
         "discount_code_allocations_mismatch": "Ihr <strong style=\"text-transform:uppercase\">%{code}</strong> Rabattcode wurde geändert. Überprüfen Sie Ihren Warenkorb und versuchen Sie es erneut.",
-        "order_discounts_apply_to_local_shop": "Rabatte gelten nur für Artikel von %{shop_name}",
+        "order_discounts_apply_to_local_shop": "Bestellrabatte gelten nur für Artikel von %{shop_name}",
         "gift_card_applied": "Geschenkkarte angewendet",
         "gift_card_and_discount_title": "Rabattcode oder Geschenkkarte",
         "gift_card_and_discount_label": "Rabattcode oder Geschenkkarte",
@@ -985,7 +985,8 @@
           "other": "Keine Geschäfte in %{country} mit Ihren Artikeln verfügbar"
         },
         "pickup_unavailable_banner_body": {
-          "ship_to_address": "An Lieferadresse senden"
+          "ship_to_address": "An Lieferadresse senden",
+          "ship_to_address_instead_html": "%{link} stattdessen"
         },
         "tip_label": "Tipp",
         "unconfirmed_label": "Unbestätigt",
@@ -1008,11 +1009,11 @@
         "gift_card_savings_notice": "Nach %{gift_card_amount} an Geschenkkarten",
         "cost_table_title": "Kostenübersicht",
         "price_per_item": {
-          "accessibility_label": "%{price} pro Stück"
+          "accessibility_label": "%{price} pro Artikel"
         },
         "quantity_label": "Menge",
         "product_image_quantity_label": "Menge",
-        "scroll_order_summary": "Scrollen Sie für weitere Artikel",
+        "scroll_order_summary": "Scrollen für weitere Artikel",
         "collapse_order_summary_short": "Verbergen",
         "sale_price": "Verkaufspreis",
         "compare_at_sale": "Verkauf (%{sale_amount})",
@@ -1026,7 +1027,7 @@
         },
         "gift_card_ending": "Geschenkkarte endet mit %{last_characters}",
         "multiple_shipping_lines_label": "Versandgesamtbetrag",
-        "recurring_total_tooltip": "Versandkosten, Steuern, Abgaben oder etwaige Rabatte sind nicht enthalten.",
+        "recurring_total_tooltip": "Versandkosten, Steuern, Zölle oder anwendbare Rabatte sind nicht enthalten.",
         "confirmation_number_label": "Bestätigung #%{confirmation_number}",
         "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> konnte nicht mit Ihren bestehenden Rabatten verwendet werden.",
         "percent_off_shipping": "%{percent}% Rabatt auf den Versand",
@@ -1045,7 +1046,7 @@
         "payment_terms_totals": {
           "due_today": "Heute fällig insgesamt",
           "due_today_next": "Fällig heute",
-          "due_later": "Gesamt fällig %{due_at}",
+          "due_later": "Gesamtbetrag fällig %{due_at}",
           "due_on_fulfillment": "Gesamtbetrag bei Erfüllung fällig",
           "due_on_fulfillment_next": "Fällig bei Erfüllung",
           "due_on_receipt": "Gesamtbetrag bei Erhalt fällig",
@@ -1076,7 +1077,10 @@
         "discount_discovery": {
           "back_to_finalize_order": "Zurück, um die Bestellung abzuschließen"
         },
-        "estimated_taxes_finalization_tooltip_content_short": "Steuer nach der Zahlung endgültig festgelegt"
+        "estimated_taxes_finalization_tooltip_content_short": "Steuer nach der Zahlung endgültig festgelegt",
+        "price_before_discount_aria_text": "Originalpreis",
+        "original_price": "Originalpreis",
+        "order_total_updated_label": "Aktualisierter Gesamtbetrag"
       },
       "shipping": {
         "shipping_method_title": "Versandart",
