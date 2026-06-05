@@ -1721,8 +1721,8 @@
         "show_more_options": "Meer opties tonen"
       },
       "post_purchase": {
-        "escape_confirmation": "U heeft voor uw bestelling betaald.",
-        "escape_action": "Bekijk bestelbevestiging ›",
+        "escape_confirmation": "Je hebt voor je bestelling betaald.",
+        "escape_action": "Bekijk orderbevestiging ›",
         "components": {
           "expand": "Bekijk meer",
           "processing": "Bezig met verwerken…",
@@ -1734,12 +1734,12 @@
         "redirecting_title": "Wordt doorgestuurd…",
         "redirecting_notice": "Wacht terwijl we u doorverwijzen.",
         "redirecting_to_bank": "Doorverwijzen naar {{bank}}",
-        "complete_your_purchase_title": "Voltooi uw aankoop",
+        "complete_your_purchase_title": "Voltooi je aankoop",
         "continue_to_payment_gateway_notice": "Ga door naar betaling om uw betaalgegevens toe te voegen.",
         "continue_to_payment_gateway_button_label": "Doorgaan naar betaling",
-        "complete_your_purchase_title_error": "Corrigeer uw betaalgegevens",
-        "continue_to_payment_gateway_notice_error": "Uw betaalgegevens konden niet worden geverifieerd.",
-        "continue_to_payment_gateway_button_label_error": "Werk betalingsgegevens bij",
+        "complete_your_purchase_title_error": "Corrigeer uw betalingsgegevens",
+        "continue_to_payment_gateway_notice_error": "Uw betalingsgegevens konden niet worden geverifieerd.",
+        "continue_to_payment_gateway_button_label_error": "Betaalgegevens bijwerken",
         "page_title": "Bestelling verwerken",
         "title": "Bestelling verwerken",
         "your_order_has_been_received_title": "Bedankt voor uw bestelling",
@@ -2234,10 +2234,10 @@
         "artifact_dissatisfaction_without_violation": "Er was een probleem bij het verwerken van uw bestelling. Probeer het over een paar minuten opnieuw."
       },
       "pickup_point": {
-        "open_twenty_four_hours": "24 uur per dag, 7 dagen per week open",
+        "open_twenty_four_hours": "24/7 geopend",
         "selector_tabs": "Afhaalpuntkiezer",
         "could_not_resolve_address": "Uw adres kon niet worden gevonden. Probeer het opnieuw of gebruik een ander adres",
-        "no_pickup_points_near_you": "Geen afhaalpunten gevonden in de buurt van het gekozen adres",
+        "no_pickup_points_near_you": "Geen afhaalpunten gevonden in de buurt van het geselecteerde adres",
         "no_pickup_points_near_location": "Geen afhaalpunten gevonden in de buurt van uw locatie",
         "pickup_unavailable_banner_title": {
           "one": "Geen afhaalpunten beschikbaar voor uw artikel",
@@ -2245,8 +2245,8 @@
         },
         "paginator": {
           "header": {
-            "one": "Weergeven %{first} - %{last} van %{count} punt",
-            "other": "Weergeven %{first} - %{last} van %{count} punten"
+            "one": "Toont %{first} - %{last} van %{count} punten",
+            "other": "Toont %{first} - %{last} van %{count} punten"
           }
         },
         "number_of_pickup_points_near_location": {
@@ -2257,9 +2257,9 @@
         "geolocation": {
           "shared_location_button": "Gebruik mijn locatie",
           "errors": {
-            "unsuported_by_browser": "Het bepalen van de locatie wordt niet ondersteund door uw browser. Probeer het opnieuw of gebruik een andere browser.",
-            "permission_not_allowed": "Sta het delen van uw locatie toe.",
-            "permission_denied": "Kon uw locatie niet bepalen. Probeer het opnieuw."
+            "unsuported_by_browser": "Het verkrijgen van geolocatie wordt niet ondersteund door uw browser. Probeer het opnieuw of gebruik een andere browser.",
+            "permission_not_allowed": "Locatie delen toestaan.",
+            "permission_denied": "Kon je locatie niet vinden. Probeer het opnieuw."
           }
         }
       },
