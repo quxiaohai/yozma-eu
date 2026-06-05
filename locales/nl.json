@@ -894,15 +894,15 @@
         "banner_title": {
           "some_products_one": "Dit product is niet beschikbaar voor levering naar %{location_name}.",
           "some_products_other": "Deze producten zijn niet beschikbaar voor levering aan %{location_name}.",
-          "all_products_one": "Het product in uw winkelwagen is niet beschikbaar voor levering aan %{location_name}.",
+          "all_products_one": "Het product in uw winkelwagen is niet beschikbaar voor levering naar %{location_name}.",
           "all_products_other": "De producten in uw winkelwagen zijn niet beschikbaar voor levering naar %{location_name}."
         },
-        "indeterminate_location_fallback": "je locatie",
+        "indeterminate_location_fallback": "jouw locatie",
         "change_address_only": "Wijzig het afleveradres om door te gaan.",
         "change_address_or_remove": "Wijzig het afleveradres of %{remove_action}.",
         "remove_items_action": {
           "one": "verwijder niet-beschikbaar artikel",
-          "other": "verwijder niet-beschikbare artikelen"
+          "other": "verwijder niet-beschikbare items"
         },
         "empty_cart_action": "winkelwagen legen en terugkeren naar de winkel"
       },
@@ -1602,9 +1602,9 @@
         "empty_stable_id": "De merchandise-instructie voor %{position} %{name} bevat een lege stabiele ID.",
         "invalid_stable_id_target": "De merchandise-instructie voor %{position} %{name} verwijst naar stable ID %{stable_id}, maar die stable ID staat niet in de merchandise-lijnen.",
         "duplicate_variant_id": "De merchandise-instructie voor %{position} %{name} bevat een dubbele variant-ID %{variant_id}.",
-        "invalid_variant_id_target": "De instructie voor de merchandise %{name} verwijst naar variant-ID %{variant_id}, maar die variant zit niet in de merchandise-lijnen.",
-        "invalid_price_override_target": "De prijswijzigingsinstructie voor artikelregel %{stable_id} is ongeldig omdat het een onderdeel van een bundel is.",
-        "discount_not_supported": "De instructie voor het toepassen van de handelskorting op goederen ondersteunt dit soort korting niet."
+        "invalid_variant_id_target": "De merchandise-instructie voor %{name} verwijst naar variant-ID %{variant_id}, maar die variant zit niet in de merchandise-lijnen.",
+        "invalid_price_override_target": "De prijsaanpassing voor artikelregel %{stable_id} is ongeldig omdat het een onderdeel van een bundel is.",
+        "discount_not_supported": "De instructie voor het toepassen van de merchandise-korting door de handelaar ondersteunt dit soort korting niet."
       },
       "payment_errors": {
         "amount_too_small": "Het minimumbedrag voor betaling moet hoger zijn dan $0,50 USD. Probeer het opnieuw met een hoger bedrag.",
@@ -2094,8 +2094,8 @@
         "unavailable_policy": "Er is geen %{policy_name} opgegeven voor deze winkel. Voor meer informatie kunt u rechtstreeks contact opnemen met %{shop_name}."
       },
       "mor_policies": {
-        "terms_and_conditions": "Voorwaarden van de Handelsverkoper",
-        "privacy_policy": "Privacybeleid van de Handelsregisterhouder"
+        "terms_and_conditions": "Voorwaarden van de Merchant of Record",
+        "privacy_policy": "Privacybeleid van de Merchant of Record"
       },
       "markets": {
         "invalid_market_manager_error": "Controleer uw contactgegevens voordat u de betaling voltooit"
@@ -2185,9 +2185,9 @@
         "runtime_error": "Er was een probleem bij het verwerken van uw verzoek. Neem contact op met de winkelier."
       },
       "no_address_location": {
-        "header": "U heeft geen verzendadres voor deze locatie",
-        "alt_header": "Ontbrekend afleveradres",
-        "message": "Neem contact met ons op om een adres voor deze locatie toe te voegen om de aankoop af te ronden."
+        "header": "Je hebt geen verzendadres voor deze locatie",
+        "alt_header": "Ontbrekend verzendadres",
+        "message": "Neem contact met ons op om een adres voor deze locatie toe te voegen om de betaling te voltooien."
       },
       "order_errors": {
         "creation_failure": "Er is een probleem opgetreden bij het aanmaken van uw bestelling. Probeer het opnieuw, of neem contact met ons op voor meer informatie.",
@@ -2252,7 +2252,7 @@
       "notice_banner": {
         "subscription_changed": "Een van uw abonnementen is gewijzigd.",
         "company_location_changed": "Je winkelwagen is bijgewerkt. Controleer je bestelling voordat je deze verzendt.",
-        "company_location_changed_product_removed": "Je winkelwagen is bijgewerkt omdat sommige producten op deze locatie niet beschikbaar zijn. Controleer je bestelling voordat je deze verzendt.",
+        "company_location_changed_product_removed": "Je winkelwagen is bijgewerkt omdat sommige producten niet beschikbaar zijn op deze locatie. Controleer je bestelling voordat je deze verzendt.",
         "individual_violations_title": {
           "DeliveryViolations": "Verzendadres",
           "OtherViolations": "Bestelinformatie",
@@ -2263,16 +2263,16 @@
         "editable_shipping_address_violations_message_footer": "Om het adres voor deze locatie permanent bij te werken, {{emailLink}}.",
         "editable_shipping_address_violations_email_link": "neem contact met ons op",
         "shipping_address_incomplete_title": "Verzendadres is onvolledig",
-        "calculating_shipping": "De verzendkosten worden nog berekend. Probeer het over een paar seconden opnieuw. Er is nog niets in rekening gebracht.",
-        "calculating_taxes": "Belastingen worden nog berekend. Probeer het over een paar seconden opnieuw. Er is nog niets in rekening gebracht.",
+        "calculating_shipping": "Verzending wordt nog berekend. Probeer het over een paar seconden opnieuw. Je bent nog niet belast.",
+        "calculating_taxes": "Belastingen worden nog berekend. Probeer het over een paar seconden opnieuw. Er is nog geen bedrag in rekening gebracht.",
         "generic_processing_error": {
           "title": "Er was een probleem bij het verwerken van uw bestelling",
           "body": "Je bent niet belast. Probeer het opnieuw of gebruik een andere betaalmethode."
         },
-        "payment_method_not_available_with_payment_terms": "De door u gekozen betaalmethode is niet langer beschikbaar omdat de betaling voor deze bestelling nu op {{paymentTerms}} voorwaarden plaatsvindt.",
-        "payment_method_not_available_with_fulfillment_terms": "De door u gekozen betaalmethode is niet langer beschikbaar omdat de betaling voor deze bestelling nu bij levering verschuldigd is",
+        "payment_method_not_available_with_payment_terms": "De betaalmethode die u hebt gekozen is niet langer beschikbaar omdat de betaling voor deze bestelling nu op {{paymentTerms}} voorwaarden plaatsvindt.",
+        "payment_method_not_available_with_fulfillment_terms": "De door u gekozen betaalmethode is niet langer beschikbaar omdat de betaling voor deze bestelling nu bij levering verschuldigd is.",
         "payment_method_not_available_with_fixed_terms": "De door u gekozen betaalmethode is niet langer beschikbaar omdat de betaling voor deze bestelling later verschuldigd is.",
-        "payment_method_not_available_with_review_requirement": "De door u gekozen betaalmethode is niet langer beschikbaar omdat de betaling verschuldigd wordt zodra uw bestelling is bevestigd.",
+        "payment_method_not_available_with_review_requirement": "De door u gekozen betaalmethode is niet langer beschikbaar omdat de betaling pas verschuldigd is zodra uw bestelling is bevestigd.",
         "contact_information": {
           "header": "Om uw gegevens bij te werken, {{emailLink}}.",
           "email_link": "neem contact met ons op"

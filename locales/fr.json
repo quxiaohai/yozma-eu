@@ -2891,7 +2891,7 @@
         "ctas": {
           "store_owner": {
             "header": "Êtes-vous le propriétaire du magasin ?",
-            "caption": "Vous avez des difficultés à accéder à votre boutique ? Essayez la fonctionnalité %{forgot_your_store_link}. Si vous souhaitez réactiver votre boutique, contactez %{shopify_support_link}.",
+            "caption": "Vous avez des difficultés à accéder à votre boutique ? Essayez la fonction %{forgot_your_store_link}. Si vous souhaitez réactiver votre boutique, contactez %{shopify_support_link}.",
             "shopify_support_link_text": "Assistance Shopify"
           },
           "sell_in_person": {
@@ -2899,47 +2899,51 @@
             "link_text": "Commencer l'essai gratuit"
           },
           "open_a_store": {
-            "header": "Ouvrir une nouvelle boutique Shopify",
-            "caption": "Commencez un essai gratuit de 3 jours, puis poursuivez pour 1 $/mois pendant les 3 mois suivants.",
+            "header": "Ouvrez une nouvelle boutique Shopify",
+            "caption": "Commencez un essai gratuit de 3 jours, puis continuez pour 1 $/mois pendant les 3 mois suivants.",
             "link_text": "Inscrivez-vous maintenant"
+          },
+          "editions": {
+            "caption": "Avec plus de 100 mises à jour de produits, vous pouvez être plus productif, créatif et puissant dans le commerce que vous ne l'avez jamais imaginé.",
+            "link_text": "Découvrez les dernières éditions"
           }
         },
-        "title": "Créez un site de commerce en ligne et vendez sur Internet ! Logiciel de commerce électronique par Shopify",
+        "title": "Créez un site e-commerce et vendez en ligne ! Logiciel e-commerce par Shopify",
         "heros": {
           "store_unavailable": "Désolé, ce magasin est actuellement indisponible.",
-          "store_not_exist": "Ce magasin n'existe pas.",
+          "store_not_exist": "Cette boutique n'existe pas.",
           "no_storefront": "Cette boutique n'a pas encore de site web."
         },
         "links": {
-          "explore_other_stores": "Explorer d'autres magasins",
+          "explore_other_stores": "Explorez d'autres magasins",
           "start_free_trial": "Commencez un essai gratuit"
         },
         "owner_ctas": {
           "header": "Êtes-vous le propriétaire du magasin ?",
-          "fix_domain": "Terminez la configuration de votre nouvelle adresse web en vous rendant sur %{domain_settings_link}. Cliquez sur « Connecter le domaine » et saisissez : %{domain}.<br>Si vous avez des difficultés à accéder à votre boutique, essayez la page %{forgot_your_store_link}.",
-          "forgot_your_store_link_text": "avez-vous oublié votre magasin",
+          "fix_domain": "Terminez la configuration de votre nouvelle adresse web, rendez-vous sur %{domain_settings_link}. Cliquez sur « Connecter le domaine » et saisissez : %{domain}.<br>Si vous avez des difficultés à accéder à votre boutique, essayez la page %{forgot_your_store_link}.",
+          "forgot_your_store_link_text": "vous avez oublié votre magasin",
           "add_storefront": "Vous pouvez configurer votre site web en ajoutant le canal Boutique en ligne dans votre %{admin_link}. Si vous avez des difficultés à accéder à votre boutique, essayez la page %{forgot_your_store_link}.",
-          "admin_link_text": "administrateur"
+          "admin_link_text": "admin"
         }
       },
       "blank": "ne peut pas être vide",
       "blocked_address": "Cet emplacement n'est pas pris en charge",
       "credit_card_session_expired": "L'autorisation de la carte de crédit a expiré, veuillez saisir à nouveau vos informations de paiement. Votre carte n'a pas été débitée.",
       "empty": "ne peut pas être vide",
-      "invalid_email": "doit être une adresse courriel valide",
+      "invalid_email": "doit être une adresse e-mail valide",
       "discount_disabled": "Cette remise a été désactivée",
       "discount_expired": "Cette remise n'est plus valable",
       "discount_limit_reached": "Cette remise a atteint sa limite d'utilisation",
       "discount_not_found": "Impossible de trouver une remise valide correspondant au code saisi",
       "customer_already_used_once_per_customer_discount_notice": "Cette remise a atteint sa limite d'utilisation",
       "gift_card_already_applied": "Le code a déjà été appliqué à votre commande",
-      "gift_card_currency_mismatch": "Votre carte cadeau est en %{gift_card_currency}. Contactez-nous pour la faire réémettre en %{checkout_currency}.",
-      "gift_card_depleted": "Il ne reste plus de crédit sur cette carte-cadeau",
-      "gift_card_disabled": "La carte-cadeau est désactivée",
-      "gift_card_expired": "La carte-cadeau a expiré",
+      "gift_card_currency_mismatch": "Cette carte cadeau ne peut pas être utilisée pour cet achat. Contactez %{shop_name} pour la faire réémettre.",
+      "gift_card_depleted": "Il ne reste plus de fonds sur cette carte cadeau",
+      "gift_card_disabled": "La carte cadeau est désactivée",
+      "gift_card_expired": "La carte cadeau a expiré",
       "bad_domain": "contient un nom de domaine invalide",
       "taken": "a déjà été pris",
-      "invalid_province_in_country": "n'est pas une province valide en %{country}",
+      "invalid_province_in_country": "n'est pas une province valide dans %{country}",
       "invalid_state_in_country": "n'est pas un état valide dans %{country}",
       "invalid_region_in_country": "n'est pas une région valide dans %{country}",
       "full_name_required": "Entrez un prénom et un nom de famille",
@@ -2947,8 +2951,8 @@
       "invalid_type": "désolé, nous n'acceptons pas les cartes de ce type",
       "invalid_format": "le format n'est pas valide",
       "expired": "a expiré",
-      "invalid_start_date_or_issue_number_for_debit": "une date de début valide ou un numéro d'édition est requis",
-      "reset_password_html": "Cette adresse courriel est déjà associée à un compte. Si ce compte vous appartient, vous pouvez <a href=\"/account/login#recover\">réinitialiser votre mot de passe</a>",
+      "invalid_start_date_or_issue_number_for_debit": "une date de début valide ou un numéro d'émission est requis",
+      "reset_password_html": "Cette adresse e-mail est déjà associée à un compte. Si ce compte vous appartient, vous pouvez <a href=\"/account/login#recover\">réinitialiser votre mot de passe</a>",
       "verify_email": "Nous avons envoyé un e-mail à %{customer_email}, veuillez cliquer sur le lien inclus pour vérifier votre adresse e-mail.",
       "product_not_available": "le produit n'est pas publié pour ce client."
     },
@@ -3021,20 +3025,20 @@
         "product_sold_out": "Le produit '%{name}' est déjà en rupture de stock.",
         "variant_not_found": "Impossible de trouver la variante",
         "variant_requires_selling_plan": "La variante ne peut être achetée qu'avec un plan de vente.",
-        "selling_plan_not_available_for_company_locations": "Un achat unique est disponible pour les commandes interentreprises",
-        "digital_product_not_available_for_company_locations": "Cet article ne peut pas être ajouté à une commande interentreprises",
+        "selling_plan_not_available_for_company_locations": "Un achat unique est disponible pour les commandes B2B uniquement",
+        "digital_product_not_available_for_company_locations": "Cet article ne peut pas être ajouté à une commande B2B",
         "selling_plan_not_applicable": "Impossible d'appliquer le plan de vente à la variante",
-        "shipping_address_not_required": "Ce panier ne nécessite pas d'expédition",
-        "shipping_address_invalid": "Un problème est survenu lors du calcul de vos frais de port. Continuez vers la caisse pour choisir un tarif d'expédition avant de finaliser votre commande.",
+        "shipping_address_not_required": "Ce panier ne nécessite pas de livraison",
+        "shipping_address_invalid": "Un problème est survenu lors du calcul de vos frais de livraison. Continuez vers la caisse pour choisir un tarif d'expédition avant de finaliser votre commande.",
         "bundle_requires_components": "Le produit groupé '%{name}' ne peut pas être ajouté au panier.",
         "gift_card_with_components_not_supported": "Le produit groupé '%{name}' ne peut pas être ajouté au panier.",
         "gift_card_price_must_be_greater_than_zero": "Le produit groupé '%{name}' ne peut pas être ajouté au panier.",
-        "gift_card_recipient_validation_error": "Le destinataire spécifié de la carte-cadeau est invalide",
+        "gift_card_recipient_validation_error": "Le destinataire spécifié de la carte cadeau est invalide",
         "view_lines_limit_reached": "Les lignes doivent contenir au maximum %{limit} caractères",
-        "cart_too_large": "Le panier est trop volumineux.",
+        "cart_too_large": "Le panier est trop grand.",
         "cart_attributes_error": "Les attributs du panier contiennent des données invalides.",
         "merchandise_line_transformers": {
-          "run_error": "Une erreur est survenue dans votre panier."
+          "run_error": "Une erreur s'est produite dans votre panier."
         },
         "merchandise_not_applicable": "L'article ne peut pas être acheté dans cette configuration."
       },
