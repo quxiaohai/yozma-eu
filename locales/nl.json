@@ -87,22 +87,22 @@
     "general": {
       "description": "Beschrijving",
       "view_product": "Bekijk product",
-      "quick_add": "+ Snelle toevoeging",
+      "quick_add": "+ Snel toevoegen",
       "add_to_cart_short": "+ Toevoegen",
-      "add_to_cart_button": "NU KOPEN",
+      "add_to_cart_button": "KOOP NU",
       "pre_order_button": "Vooraf bestellen",
       "sold_out_button": "Uitverkocht",
       "unavailable_button": "Niet beschikbaar",
-      "added_to_cart": "Toegevoegd aan je winkelwagentje!",
+      "added_to_cart": "Toegevoegd aan je winkelwagen!",
       "sold_out_badge": "Uitverkocht",
-      "on_sale_badge": "In de uitverkoop",
+      "on_sale_badge": "In de aanbieding",
       "discount_badge_html": "Besparen {{ savings }}",
-      "sku": "Artikelnummer:",
+      "sku": "SKU:",
       "variant": "Variant",
-      "view_in_space": "Bekijk in uw ruimte",
-      "taxes_included": "Belastingen inbegrepen.",
-      "taxes_excluded": "Belasting uitgesloten.",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Verzendkosten berekend</a> bij het afrekenen",
+      "view_in_space": "Bekijk in jouw ruimte",
+      "taxes_included": "Inclusief belasting.",
+      "taxes_excluded": "Exclusief belasting.",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Verzending berekend</a> bij het afrekenen",
       "size_chart": "Maattabel",
       "available_colors_count": {
         "one": "{{ count }} kleur beschikbaar",
@@ -421,16 +421,16 @@
   "password": {
     "general": {
       "follow_us": "Volg ons",
-      "powered_by": "Deze winkel is mogelijk gemaakt door",
-      "store_owner": "Winkeleigenaar?",
+      "powered_by": "Deze winkel wordt aangedreven door",
+      "store_owner": "Winkelier?",
       "login": "Inloggen"
     },
     "storefront_access": {
-      "enter_password": "Ga binnen met een wachtwoord",
+      "enter_password": "Inloggen met wachtwoord",
       "store_access": "Winkeltoegang",
-      "instructions": "Voer onderstaand het wachtwoord in de winkel binnen te gaan",
+      "instructions": "Voer hieronder het wachtwoord in om toegang te krijgen tot de winkel",
       "password": "Wachtwoord",
-      "enter_store": "Ga de winkel binnen"
+      "enter_store": "Winkel binnenkomen"
     }
   },
   "apps": {
@@ -447,14 +447,14 @@
   "pagefly": {
     "products": {
       "product": {
-        "regular_price": "Regular price",
-        "sold_out": "Sold out",
-        "unavailable": "Unavailable",
-        "on_sale": "Sale",
-        "quantity": "Quantity",
-        "add_to_cart": "Add to cart",
-        "back_to_collection": "Back to {{ title }}",
-        "view_details": "View details"
+        "regular_price": "Reguliere prijs",
+        "sold_out": "Uitverkocht",
+        "unavailable": "Niet beschikbaar",
+        "on_sale": "Uitverkoop",
+        "quantity": "Aantal",
+        "add_to_cart": "Toevoegen aan winkelwagen",
+        "back_to_collection": "Terug naar {{ title }}",
+        "view_details": "Bekijk details"
       }
     },
     "article": {

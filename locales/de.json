@@ -2969,11 +2969,12 @@
     "notices": {
       "customer": {
         "subscribe_error": "Abonnementfehler",
-        "unsubscribe_error": "Fehler beim Abbestellen",
+        "unsubscribe_error": "Abmeldefehler",
         "no_account_found": "Kein Konto mit dieser E-Mail-Adresse gefunden.",
-        "invalid_credentials": "Falsche E-Mail-Adresse oder falsches Passwort.",
-        "denylisted_reset_password": "Auf Ihr Konto konnte nicht zugegriffen werden, da das aktuelle Kennwort nicht sicher ist. Sie erhalten eine E-Mail, um Ihr Kennwort zu aktualisieren.",
-        "signup_disabled": "Die Erstellung von Kundenkonten wurde deaktiviert."
+        "invalid_credentials": "Ungültige E-Mail oder Passwort.",
+        "denylisted_reset_password": "Ihr Konto konnte nicht aufgerufen werden, da das aktuelle Passwort nicht sicher ist. Sie erhalten eine E-Mail, um Ihr Passwort zu aktualisieren.",
+        "signup_disabled": "Die Erstellung von Kundenkonten wurde deaktiviert.",
+        "password_reset_error": "Passwort zurücksetzen Fehler"
       },
       "line_item": {
         "item_status": {
@@ -2991,7 +2992,7 @@
         "fulfillment_status": {
           "complete": "Abschließen",
           "unfulfilled": "Unerfüllt",
-          "restocked": "Wieder aufgefüllt"
+          "restocked": "Wieder auf Lager"
         },
         "transaction_status": {
           "failure": "Fehler"
@@ -3002,11 +3003,11 @@
           "customer": "Kunde hat Bestellung geändert/storniert",
           "other": "Andere"
         },
-        "cash_on_delivery": "Nachnahme (Barzahlung bei Lieferung)"
+        "cash_on_delivery": "Nachnahme (COD)"
       },
       "cart": {
         "only_n_items_available": "Sie können nur %{count} %{name} zum Warenkorb hinzufügen.",
-        "too_many_items_in_cart": "Sie können nicht mehr %{name} zum Warenkorb hinzufügen.",
+        "too_many_items_in_cart": "Sie können %{name} nicht mehr zum Warenkorb hinzufügen.",
         "only_one_added_to_cart": "Nur 1 Artikel wurde aufgrund der Verfügbarkeit zu Ihrem Warenkorb hinzugefügt.",
         "only_n_added_to_cart": "Es wurden nur %{quantity} Artikel aufgrund der Verfügbarkeit zu Ihrem Warenkorb hinzugefügt.",
         "maximum_available_quantity_reached": "Die maximale Menge dieses Artikels befindet sich bereits in Ihrem Warenkorb.",
@@ -3016,10 +3017,10 @@
         "missing_parameters": "keine gültige ID oder Linienparameter",
         "generic_error": "Warenkorb-Fehler",
         "invalid_input": "%{parameter} Parameter ist ungültig.",
-        "too_many_line_items_error": "Ihr Warenkorb darf nicht mehr als %{max} Artikel enthalten.",
+        "too_many_line_items_error": "Ihr Warenkorb kann nicht mehr als %{max} Artikel enthalten.",
         "stock_problems_html": "Ein oder mehrere Artikel sind nicht mehr verfügbar. Wir haben einen <a href='%{link}'>aktualisierten Warenkorb</a> bereitgestellt.",
         "items_changed": "Ein oder mehrere Artikel haben sich geändert.",
-        "variant_not_found": "Variante nicht gefunden",
+        "variant_not_found": "Kann Variante nicht finden",
         "selling_plan_not_available_for_company_locations": "Für B2B-Bestellungen ist nur ein einmaliger Kauf möglich",
         "digital_product_not_available_for_company_locations": "Dieser Artikel kann nicht zu einer B2B-Bestellung hinzugefügt werden",
         "buyer_cannot_purchase_for_company_locations": "Für diesen Standort können Sie nicht kaufen.",
@@ -3036,7 +3037,8 @@
           "run_error": "Ein Fehler ist in Ihrem Warenkorb aufgetreten."
         },
         "merchandise_not_applicable": "Artikel kann nicht wie konfiguriert gekauft werden.",
-        "link_no_longer_exists": "Der Link existiert nicht mehr."
+        "link_no_longer_exists": "Der Link existiert nicht mehr.",
+        "variant_requires_selling_plan": "Die Variante kann nur mit einem Verkaufsplan erworben werden."
       },
       "storefront": {
         "invalid_password": "Passwort falsch, bitte versuchen Sie es erneut."
@@ -3044,8 +3046,8 @@
       "tags": {
         "add_articles": "Suche auf Artikel mit dem Tag %{tag} eingrenzen",
         "add_products": "Auswahl auf Produkte mit dem Tag %{tag} eingrenzen",
-        "remove_articles": "Suche auf Artikel ausweiten, die nicht mit %{tag} markiert sind",
-        "remove_products": "Entferne das Tag %{tag}"
+        "remove_articles": "Suche auf Artikel ausweiten, die nicht mit %{tag} gekennzeichnet sind",
+        "remove_products": "Tag %{tag} entfernen"
       }
     },
     "email_marketing": {
