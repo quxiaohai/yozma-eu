@@ -816,8 +816,8 @@
         "invalid_shipping_method_summary": "Selecteer een geldig afleveradres om de beschikbare verzendmethoden te bekijken"
       },
       "remote_merchandise_only": {
-        "title": "Voltooi uw aankoop",
-        "remote_only_notice": "Deze artikelen worden verkocht en verzonden door andere winkels. Rond uw aankoop af bij elke winkel afzonderlijk.",
+        "title": "Voltooi je aankoop",
+        "remote_only_notice": "Deze artikelen worden verkocht en verzonden door andere winkels. Rond je aankoop af bij elke winkel afzonderlijk.",
         "single_shop_transition": "We leiden je door naar %{advertiser} om je aankoop te voltooien."
       },
       "stock": {
@@ -1621,7 +1621,7 @@
           "duplicate": "De cadeaubon is al op uw bestelling toegepast",
           "insufficient_funds": "Deze cadeaubon heeft geen tegoed meer",
           "generic": "De cadeaubon kon niet aan de kassa worden toegevoegd",
-          "throttle_limit_exceeded": "U heeft het maximaal aantal pogingen overschreden. Probeer het later opnieuw.",
+          "throttle_limit_exceeded": "U heeft het maximale aantal pogingen overschreden. Probeer het later opnieuw.",
           "no_longer_available": "Deze cadeaubon kan niet langer worden gebruikt bij deze kassa"
         }
       },
@@ -1730,8 +1730,8 @@
         }
       },
       "processing": {
-        "redirecting_page_title": "Wordt doorgestuurd…",
-        "redirecting_title": "Wordt doorgestuurd…",
+        "redirecting_page_title": "Doorverwijzen…",
+        "redirecting_title": "Doorverwijzen…",
         "redirecting_notice": "Wacht terwijl we u doorverwijzen.",
         "redirecting_to_bank": "Doorverwijzen naar {{bank}}",
         "complete_your_purchase_title": "Voltooi je aankoop",
@@ -1742,11 +1742,11 @@
         "continue_to_payment_gateway_button_label_error": "Betaalgegevens bijwerken",
         "page_title": "Bestelling verwerken",
         "title": "Bestelling verwerken",
-        "your_order_has_been_received_title": "Bedankt voor uw bestelling",
-        "you_will_receive_confirmation": "We krijgen op dit moment veel bestellingen binnen. U ontvangt binnenkort een bevestiging per e-mail of sms. Als u deze binnen het uur niet ontvangt, laat het ons dan weten.",
-        "you_will_not_be_charged": "Je wordt nog niet in rekening gebracht",
+        "your_order_has_been_received_title": "Bedankt voor je bestelling",
+        "you_will_receive_confirmation": "We krijgen op dit moment veel bestellingen binnen. Je zou binnenkort een bevestiging per e-mail of sms moeten ontvangen. Als je deze binnen het uur niet ontvangt, laat het ons dan weten.",
+        "you_will_not_be_charged": "Je wordt nog niet gefactureerd",
         "wait": {
-          "short": "Uw bestelling wordt verwerkt.",
+          "short": "Je bestelling wordt verwerkt.",
           "medium": {
             "one": "Je bestelling wordt verwerkt. De geschatte wachttijd is %{count} minuut.",
             "other": "Je bestelling wordt verwerkt. De geschatte wachttijd is %{count} minuten."
@@ -2071,11 +2071,11 @@
         "blocks": {
           "contact_method_title": "Contact opnemen",
           "change_contact_method_link_label": "Contactgegevens wijzigen",
-          "change_billing_address_link_label": "Wijzig factuuradres",
-          "change_company_location_link_label": "Bedrijfsadres wijzigen",
+          "change_billing_address_link_label": "Adres voor facturering wijzigen",
+          "change_company_location_link_label": "Bedrijfslocatie wijzigen",
           "change_shipping_address_link_label": "Verzendadres wijzigen",
           "purchase_order_number_title": "PO-nummer",
-          "change_purchase_order_number_label": "Wijzig inkoopordernummer",
+          "change_purchase_order_number_label": "Wijzig PO-nummer",
           "change_delivery_method_link_label": "Wijzig bezorgmethode",
           "no_purchase_order_number": "(Geen inkoopordernummer)",
           "due_after_order_reviewed_html": "Verschuldigd nadat de bestelling is beoordeeld",
@@ -2123,7 +2123,7 @@
         "terms_and_policies": "Voorwaarden en beleidsregels"
       },
       "remote_policies": {
-        "unavailable_policy": "Er is geen %{policy_name} opgegeven voor deze winkel. Voor meer informatie kunt u rechtstreeks contact opnemen met %{shop_name}."
+        "unavailable_policy": "Er is geen %{policy_name} verstrekt voor deze winkel. Voor meer informatie kunt u rechtstreeks contact opnemen met %{shop_name}."
       },
       "mor_policies": {
         "terms_and_conditions": "Voorwaarden van de Merchant of Record",
@@ -2569,10 +2569,10 @@
       },
       "remote": {
         "errors": {
-          "only_remote_merchandise_lines": "De kassa bevat alleen goederen van externe verkopers. Om de aankoop te voltooien, wordt u doorgestuurd naar de externe winkel.",
-          "currency_mismatch": "Dit artikel kan niet aan uw winkelwagen worden toegevoegd omdat het afkomstig is van een winkel die een andere munteenheid gebruikt.",
-          "currency_mismatch_removal": "Een artikel is uit uw winkelwagen verwijderd omdat het afkomstig is van een winkel die een andere munteenheid gebruikt.",
-          "max_remote_shops_exceeded": "Dit product kan niet worden toegevoegd omdat uw winkelwagen al het maximum aantal van andere winkels bevat."
+          "only_remote_merchandise_lines": "De kassa bevat alleen externe merchandise. Om de aankoop te voltooien is een doorverwijzing naar de externe winkel vereist.",
+          "currency_mismatch": "Dit artikel kan niet aan je winkelwagen worden toegevoegd omdat het afkomstig is van een winkel die een andere valuta gebruikt.",
+          "currency_mismatch_removal": "Een artikel is uit je winkelwagen verwijderd omdat het uit een winkel komt die een andere valuta gebruikt.",
+          "max_remote_shops_exceeded": "Dit product kan niet worden toegevoegd omdat je winkelwagen al het maximum aantal van andere winkels bevat."
         }
       },
       "units": {
@@ -2598,7 +2598,7 @@
       },
       "required_extensions": {
         "errors": {
-          "interaction_required": "Een extensie-interactie is vereist om de afhandeling te voltooien."
+          "interaction_required": "Een extensie-interactie is vereist om de betaling te voltooien."
         }
       },
       "taxes": {
