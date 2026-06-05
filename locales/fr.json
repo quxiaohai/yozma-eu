@@ -892,7 +892,7 @@
         },
         "unpurchasable_product": {
           "title": "Produit non achetable",
-          "message": "Ces articles ne sont pas disponibles pour les commandes interentreprises.",
+          "message": "Ces articles ne sont pas disponibles pour les commandes B2B.",
           "status_column_header": "Non disponible"
         },
         "unpurchasable_product_generic": {
@@ -916,7 +916,7 @@
             "other": "Aucune livraison disponible pour %{count} articles"
           },
           "message": {
-            "one": "Cet article sera retiré de votre panier car aucune méthode de livraison n'est disponible pour votre adresse.",
+            "one": "Cet article sera retiré de votre panier car aucun mode de livraison n'est disponible pour votre adresse.",
             "other": "Ces articles seront retirés de votre panier car aucun mode de livraison n'est disponible pour votre adresse."
           },
           "status_column_header": "Pas de livraison"
@@ -2333,7 +2333,7 @@
             "other": "%{count} ans"
           }
         },
-        "recurring_totals": "%{total_price} toutes les %{interval}",
+        "recurring_totals": "%{total_price} tous les %{interval}",
         "recurring_totals_with_initial_order_shipping_discount": "Premier paiement %{total_price_with_discount}, puis %{recurring_total}",
         "recurring_totals_with_policies": {
           "first_cycles": {
@@ -2782,11 +2782,12 @@
         "tax_details": "Détails fiscaux supplémentaires",
         "vat_number": {
           "field": {
-            "tooltip": "Valide le numéro de TVA et applique automatiquement l'autoliquidation sur les commandes lorsque cela est applicable"
+            "tooltip": "Valide le numéro de TVA et applique automatiquement l'autoliquidation sur les commandes éligibles",
+            "label": "Numéro de TVA (optionnel)"
           },
           "vaulted": "Numéro de TVA : %{number}",
           "badge": "Numéro de TVA : %{number}",
-          "domestic_order": "L'exonération de la taxe inversée s'applique uniquement aux commandes transfrontalières dans l'UE. La TVA normale est appliquée pour les commandes locales.",
+          "domestic_order": "L'exonération de la TVA à l'inverse s'applique uniquement aux commandes transfrontalières dans l'UE. La TVA standard est facturée pour les commandes locales.",
           "status": {
             "invalid_format": {
               "at": "Les numéros de TVA autrichiens contiennent AT et 9 caractères",
@@ -2805,18 +2806,18 @@
               "ie": "Les numéros de TVA irlandais contiennent IE et 8 à 9 caractères",
               "it": "Les numéros de TVA italiens contiennent IT et 11 caractères",
               "lv": "Les numéros de TVA en Lettonie contiennent LV et 11 caractères",
-              "lt": "Les numéros de TVA lituaniens contiennent LT et de 9 à 12 caractères",
+              "lt": "Les numéros de TVA en Lituanie contiennent LT et 9 à 12 caractères",
               "lu": "Les numéros de TVA luxembourgeois contiennent LU et 8 caractères",
-              "mt": "Les numéros de TVA de Malte contiennent MT et 8 caractères",
+              "mt": "Les numéros de TVA à Malte contiennent MT et 8 caractères",
               "nl": "Les numéros de TVA des Pays-Bas contiennent NL et 12 caractères",
               "pl": "Les numéros de TVA en Pologne contiennent PL et 10 caractères",
               "pt": "Les numéros de TVA portugais contiennent PT et 9 caractères",
               "ro": "Les numéros de TVA en Roumanie contiennent RO et 10 caractères",
               "sk": "Les numéros de TVA slovaques contiennent SK et 10 caractères",
               "si": "Les numéros de TVA slovènes contiennent SI et 8 caractères",
-              "es": "Les numéros de TVA espagnols contiennent ES et 9 caractères",
+              "es": "Les numéros de TVA en Espagne contiennent ES et 9 caractères",
               "se": "Les numéros de TVA suédois contiennent SE et 12 caractères",
-              "gb": "Les numéros de TVA du Royaume-Uni contiennent GB ou XI et de 5 à 12 caractères"
+              "gb": "Les numéros de TVA du Royaume-Uni contiennent GB ou XI et 5 à 12 caractères"
             },
             "invalid_number": {
               "at": "Entrez un numéro de TVA autrichien valide",
@@ -2836,7 +2837,17 @@
               "sk": "Entrez un numéro de TVA slovaque valide",
               "si": "Entrez un numéro de TVA slovène valide",
               "se": "Entrez un numéro de TVA suédois valide",
-              "gb": "Entrez un numéro de TVA valide du Royaume-Uni"
+              "gb": "Entrez un numéro de TVA valide du Royaume-Uni",
+              "cz": "Entrez un numéro de TVA tchèque valide",
+              "ee": "Entrez un numéro de TVA estonien valide",
+              "fr": "Entrez un numéro de TVA français valide",
+              "gr": "Entrez un numéro de TVA grec valide",
+              "ie": "Entrez un numéro de TVA irlandais valide",
+              "it": "Entrez un numéro de TVA italien valide",
+              "lu": "Entrez un numéro de TVA luxembourgeois valide",
+              "nl": "Entrez un numéro de TVA néerlandais valide",
+              "pl": "Entrez un numéro de TVA polonais valide",
+              "es": "Entrez un numéro de TVA espagnol valide"
             }
           },
           "accessibility": {

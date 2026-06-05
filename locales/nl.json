@@ -763,11 +763,11 @@
         "company_attention_label": "Bedrijf/Aandacht",
         "optional_company_attention_label": "Bedrijf/Aandacht (optioneel)",
         "address2_label": "Appartement, suite, enz.",
-        "optional_address2_label": "Appartement, suite, enzovoort (optioneel)",
+        "optional_address2_label": "Appartement, suite, enz. (optioneel)",
         "suburb_label": "Voorstad",
         "country_label": "Land/Regio",
-        "county_label": "Graafschap",
-        "county_placeholder": "Graafschap",
+        "county_label": "County",
+        "county_placeholder": "County",
         "state_and_territory_label": "Staat/gebied",
         "state_and_territory_placeholder": "Staat/gebied",
         "phone_country_code_label": "Landcode telefoonnummer",
@@ -775,10 +775,10 @@
         "pincode_label": "PIN-code",
         "optional_pincode_label": "PIN-code (optioneel)",
         "pincode_placeholder": "PIN-code",
-        "civic_number_warning": "Voeg een huisnummer toe als u er een heeft",
+        "civic_number_warning": "Voeg een huisnummer toe als je er een hebt",
         "different_shipping_address_label": "Verzenden naar een ander adres",
         "different_shipping_address_text": "Gebruik een eenmalig adres voor deze bestelling",
-        "change_company_location_link_label": "Bedrijfsadres wijzigen"
+        "change_company_location_link_label": "Bedrijfslocatie wijzigen"
       },
       "delivery_options": {
         "ship_to_address": "Verzend naar adres",
@@ -2104,7 +2104,7 @@
       },
       "change_currency": {
         "credit_card_will_be_charged_html": "Uw creditcard wordt belast met %{amount}",
-        "payment_total_label": "Totaal betaling",
+        "payment_total_label": "Betalingsbedrag",
         "change_currency_link": "Wissel naar %{currency_name}",
         "card_provider_fx_charges_warning": "Uw kaartaanbieder kan kosten in rekening brengen voor transacties in %{currency_code}.",
         "currency_not_supported_by_shop": "De door u geselecteerde valuta is niet langer beschikbaar. Alle prijzen zijn nu in %{currency_code}."
@@ -2607,6 +2607,9 @@
             }
           }
         }
+      },
+      "company_location": {
+        "location_rollup_accessibility_label": "Locatie-opties voor het bedrijf"
       }
     },
     "links": {
