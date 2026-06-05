@@ -823,14 +823,14 @@
       "stock": {
         "page_title": "Voorraadproblemen",
         "items_unavailable_notice": "Sommige artikelen zijn niet langer beschikbaar.",
-        "reduced_with_quantity_label": "Nog maar %{quantity_available} beschikbaar",
-        "remove_from_cart_button_label": "Uit winkelwagen verwijderen",
+        "reduced_with_quantity_label": "Nog maar %{quantity_available} over",
+        "remove_from_cart_button_label": "Verwijderen uit winkelwagen",
         "go_back_to_cart_button_label": "Ga terug naar mijn winkelwagen",
         "continue_cta_label": "Doorgaan met afrekenen",
         "quantity_update": {
-          "page_title": "Aantal bijwerken",
-          "title": "Aantal bijwerken",
-          "description": "De beschikbare hoeveelheden voor deze artikelen zijn gewijzigd en zijn bijgewerkt in uw winkelwagen."
+          "page_title": "Hoeveelheid bijwerken",
+          "title": "Hoeveelheid bijwerken",
+          "description": "Beschikbare hoeveelheden voor deze artikelen zijn gewijzigd en bijgewerkt in uw winkelwagen."
         },
         "unpurchasable_product": {
           "title": "Niet te koop staand product",
@@ -868,11 +868,11 @@
         },
         "price_and_quantity_update": {
           "title": "Prijs- en hoeveelheidupdate",
-          "description": "De prijzen en beschikbare hoeveelheden van deze artikelen zijn gewijzigd en bijgewerkt in uw winkelwagen."
+          "description": "Prijzen en beschikbare hoeveelheden voor deze artikelen zijn gewijzigd en bijgewerkt in uw winkelwagen."
         },
         "out_of_stock": {
-          "description": "Deze artikelen zijn niet langer beschikbaar en zijn uit uw winkelwagen verwijderd.",
-          "items_unavailable": "Sommige artikelen zijn niet langer beschikbaar en zijn uit uw winkelwagen verwijderd."
+          "description": "Deze artikelen zijn niet langer beschikbaar en worden uit je winkelwagen verwijderd.",
+          "items_unavailable": "Sommige artikelen zijn niet langer beschikbaar en worden uit je winkelwagen verwijderd."
         },
         "out_of_stock_in_context_label": "Dit product is niet beschikbaar in uw land/regio."
       },
@@ -1098,12 +1098,12 @@
         "estimated_time_range": "Geschatte %{min_time}–%{max_time}",
         "default_description": "Verzending binnen 1 werkdag",
         "unbranded_description_with_fulfillment_days": {
-          "one": "Verzending op de volgende werkdag",
-          "other": "Wordt verzonden binnen %{count} werkdagen"
+          "one": "Verzending volgende werkdag",
+          "other": "Verzending binnen %{count} werkdagen"
         },
         "unbranded_description_with_fulfillment_weeks": {
-          "one": "Wordt verzonden in %{count} week",
-          "other": "Verzending binnen %{count} weken"
+          "one": "Verzending binnen %{count} week",
+          "other": "Wordt verzonden in %{count} weken"
         },
         "shipping_line_phone": "Uw koerier kan dit nummer gebruiken om contact met u op te nemen.",
         "shipping_line_delivery_phone": "U kunt worden gecontacteerd met updates over uw levering.",
@@ -1218,7 +1218,8 @@
         "split_shipping_more_shipping_options": "Meer verzendmogelijkheden",
         "add_shipping_address": "Voeg verzendadres toe",
         "add_new_delivery_address": "Voeg een nieuw afleveradres toe",
-        "local_delivery": "Lokale levering"
+        "local_delivery": "Lokale levering",
+        "unbranded_description_same_day": "Verzending dezelfde werkdag"
       },
       "localized_fields": {
         "additional_information": {
@@ -1697,21 +1698,21 @@
       },
       "shipping_errors": {
         "shipping_method": "De verzendopties voor uw bestelling zijn gewijzigd. Controleer uw keuze.",
-        "shipping_method_not_available": "Je winkelwagen is bijgewerkt en de artikelen die je hebt toegevoegd kunnen niet naar je adres worden verzonden. Verwijder de artikelen om je bestelling te voltooien.",
+        "shipping_method_not_available": "Je winkelwagen is bijgewerkt en de toegevoegde artikelen kunnen niet naar jouw adres worden verzonden. Verwijder de artikelen om je bestelling te voltooien.",
         "shipping_method_not_available_generic": {
-          "one": "Uw bestelling kan niet naar het opgegeven adres worden verzonden. Controleer uw adres om zeker te zijn dat het klopt en probeer het opnieuw, of kies een ander adres.",
-          "other": "Sommige artikelen in uw winkelwagen kunnen niet naar het door u opgegeven adres worden verzonden. Controleer uw adres om zeker te zijn dat het klopt en probeer het opnieuw, of kies een ander adres."
+          "one": "Uw bestelling kan niet naar het geselecteerde adres worden verzonden. Controleer uw adres om te zorgen dat het correct is en probeer het opnieuw, of kies een ander adres.",
+          "other": "Sommige artikelen in je winkelwagen kunnen niet naar het door jou opgegeven adres worden verzonden. Controleer je adres om te zorgen dat het correct is en probeer het opnieuw, of kies een ander adres."
         },
-        "shipping_method_not_available_due_to_unsatisfied_conditions": "De artikelen in de winkelwagen voldoen niet aan de prijs- of gewichtseisen om in aanmerking te komen voor verzending. Werk uw winkelwagen bij en probeer het opnieuw.",
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "Artikelen in het winkelwagentje voldoen niet aan de prijs- of gewichtseisen om in aanmerking te komen voor verzending. Werk je winkelwagentje bij en probeer het opnieuw.",
         "shipping_method_not_available_updated": {
-          "one": "Het artikel dat u hebt toegevoegd wordt niet naar uw locatie verzonden. Verwijder het om af te rekenen, of neem contact op met de winkel.",
-          "other": "Een of meer artikelen die u hebt toegevoegd, worden niet naar uw locatie verzonden. Verwijder ze om af te rekenen, of neem contact op met de winkel."
+          "one": "Het artikel dat je hebt toegevoegd wordt niet naar jouw locatie verzonden. Verwijder het om af te rekenen, of neem contact op met de winkel.",
+          "other": "Een of meer artikelen die je hebt toegevoegd, worden niet naar jouw locatie verzonden. Verwijder ze om af te rekenen, of neem contact op met de winkel."
         },
-        "empty_state": "Voer uw verzendadres in om de beschikbare verzendwijzen te bekijken.",
+        "empty_state": "Voer uw verzendadres in om de beschikbare verzendmethoden te bekijken.",
         "invalid_selected_address": "Geselecteerd verzendadres is niet geldig",
-        "invalid_selected_address_with_update_link": "De geselecteerde verzendadres is niet geldig. %{update_address_link} of kies een ander adres",
+        "invalid_selected_address_with_update_link": "Geselecteerd verzendadres is niet geldig. %{update_address_link} of kies een ander adres",
         "unavailable_addresses_only_countries": "Uw bestelling kan alleen worden verzonden naar {{countriesList}}. Voeg een nieuw adres toe om door te gaan.",
-        "unavailable_address_country": "Verzending is niet mogelijk naar het door u gekozen land. Gebruik een ander adres om door te gaan",
+        "unavailable_address_country": "Verzending is niet beschikbaar in het door u geselecteerde land. Gebruik een ander adres om door te gaan",
         "unavailable_selected_address_for_region": "Verzending is niet beschikbaar voor {{region}}. Kies een ander adres om door te gaan"
       },
       "alternative_payment_method_banner": {
@@ -2116,11 +2117,11 @@
       "shop_policies": {
         "policies_label": "Beleidsregels",
         "select_policy_label": "Selecteer een polis",
-        "terms_of_service": "Gebruiksvoorwaarden",
+        "terms_of_service": "Servicevoorwaarden",
         "legal_notice": "Juridische kennisgeving",
-        "purchase_options_policy": "Beleidsregels voor aankoopopties",
+        "purchase_options_policy": "Aankoopoptiesbeleid",
         "contact_information": "Contact opnemen",
-        "cookie_preferences": "Koekjes",
+        "cookie_preferences": "Cookies",
         "terms_and_policies": "Voorwaarden en beleidsregels"
       },
       "remote_policies": {
@@ -2436,30 +2437,41 @@
         }
       },
       "split_delivery": {
-        "pickup_all_items": "Pak alle artikelen op",
+        "pickup_all_items": "Pak alle items op",
         "items_for_pickup": "Items om af te halen",
-        "items_for_shipping": "Te verzenden artikelen",
+        "items_for_shipping": "Items voor verzending",
         "delivery_method": "Gesplitste leveringsmethode",
-        "delivery_method_menu": "Gesplitste bezorgmethode menu",
+        "delivery_method_menu": "Menu voor gesplitste leveringsmethode",
         "inventory_issue_banner": {
           "heading": {
             "cannot_be_picked_up": {
-              "other": "%{count} items kunnen niet worden opgehaald"
+              "other": "%{count} artikelen kunnen niet worden opgehaald"
             }
           },
           "remove_item": {
-            "one": "Verwijder artikel",
-            "other": "Items verwijderen"
+            "one": "item verwijderen",
+            "other": "verwijder items"
           },
           "ship_separately": {
-            "one": "verzend het apart",
-            "other": "verzend ze apart"
+            "one": "Verzend het apart",
+            "other": "Verzend ze apart"
           },
           "pick_them_up_in_store": {
-            "one": "haal het in de winkel op",
-            "other": "haal ze in de winkel op"
+            "one": "Haal het op in de winkel",
+            "other": "Haalt u ze in de winkel op"
+          },
+          "remove_item_only": {
+            "one": "Item verwijderen",
+            "other": "Verwijder items"
           }
-        }
+        },
+        "cross_border": {
+          "modal": {
+            "content": "Je afhaal- en verzendlocaties moeten zich in hetzelfde land bevinden. Het wijzigen van het land zal alle items terugzetten naar verzending."
+          },
+          "banner": "Uw bezorgmethode is bijgewerkt"
+        },
+        "items_moved_to_shipping_toast": "Items die niet kunnen worden opgehaald, zijn naar verzending verplaatst"
       },
       "captcha": {
         "title": "Voltooi de CAPTCHA om door te gaan",
@@ -2480,10 +2492,10 @@
         "lost_permissions_title": "Geen locatie-toestemmingen"
       },
       "shop_pay_external": {
-        "title": "Shop Pay Afrekenen",
+        "title": "Betaal met Shop Pay",
         "errors": {
           "problem_loading": "Er is een probleem met het laden van Shop Pay",
-          "try_again_later": "Controleer uw verbinding of sluit dit venster en probeer het over een paar ogenblikken opnieuw.",
+          "try_again_later": "Controleer uw verbinding of sluit dit venster en probeer het over een paar momenten opnieuw.",
           "checkout_has_expired": "Je afrekenproces is verlopen. Sluit dit venster en probeer opnieuw af te rekenen bij {{shopName}}."
         }
       },
