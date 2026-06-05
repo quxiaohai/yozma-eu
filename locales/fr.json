@@ -1164,7 +1164,7 @@
         },
         "estimated_delivery_date_range": "de %{minimum} à %{maximum} jours ouvrables",
         "estimated_delivery_time": "Livraison estimée %{time}",
-        "estimated_delivery_time_range": "Livraison estimée entre %{min_time} et %{max_time}",
+        "estimated_delivery_time_range": "Livraison estimée %{min_time}–%{max_time}",
         "two_day_delivery": "Livraison en 2 jours %{time}",
         "arrives_time": "Arrive dans %{time}",
         "arrives_time_range": "Arrive entre %{min_time} et %{max_time}",
@@ -1185,11 +1185,11 @@
         "shipping_line_phone": "Votre livreur peut utiliser ce numéro pour vous contacter.",
         "shipping_line_delivery_phone_label": "Numéro de téléphone mobile",
         "shipping_line_delivery_phone": "Vous pourriez être contacté pour des mises à jour concernant votre livraison.",
-        "optional_shipping_line_delivery_instructions_label": "Instructions de livraison (facultatif)",
+        "optional_shipping_line_delivery_instructions_label": "Instructions de livraison (optionnel)",
         "shipping_line_delivery_instructions": "Saisissez les informations nécessaires telles que les codes de porte ou les instructions de dépôt.",
         "other_method": {
           "zero": "Aucune autre méthode disponible",
-          "one": "%{count} autre méthode disponible sur"
+          "one": "%{count} autre méthode disponible à"
         },
         "prime_not_available": {
           "default": "La livraison Prime n'est pas disponible pour votre commande. Vos options de livraison ont été mises à jour."
@@ -1291,16 +1291,16 @@
           "generic_error": "Un problème est survenu lors de l'enregistrement de votre adresse. Veuillez réessayer.",
           "one_time_address_subtitle": "Utilisez une adresse unique pour cette commande"
         },
-        "different_shipping_method_summary": "Saisissez une autre adresse de livraison pour voir les modes d'expédition disponibles",
-        "invalid_shipping_method_summary": "Saisissez une adresse de livraison valide pour voir les modes de livraison disponibles",
-        "invalid_shipping_method_summary_selected": "Sélectionnez une autre adresse de livraison pour voir les modes d'expédition disponibles",
+        "different_shipping_method_summary": "Saisissez une adresse de livraison différente pour voir les méthodes d'expédition disponibles",
+        "invalid_shipping_method_summary": "Entrez une adresse de livraison valide pour voir les méthodes d'expédition disponibles",
+        "invalid_shipping_method_summary_selected": "Sélectionnez une autre adresse de livraison pour voir les méthodes d'expédition disponibles",
         "method_summary": {
-          "incomplete_address_entered": "Saisissez une adresse de livraison complète pour voir les modes de livraison disponibles",
-          "incomplete_address_selected": "Sélectionnez une adresse de livraison complète pour voir les modes d'expédition disponibles"
+          "incomplete_address_entered": "Entrez une adresse de livraison complète pour voir les méthodes d'expédition disponibles",
+          "incomplete_address_selected": "Sélectionnez une adresse de livraison complète pour voir les méthodes d'expédition disponibles"
         },
         "local_pickup": {
           "search_address": "Rechercher une adresse",
-          "rollup_title": "Lieu de prise en charge",
+          "rollup_title": "Lieu de retrait",
           "rollup_accessibility_label": "Options de lieu de retrait"
         },
         "missing_shipping_address": "L'adresse de livraison est manquante",

@@ -1944,7 +1944,7 @@
         "gift_card_title": "Geschenkkarten",
         "resend_gift_cards": "Geschenkkarten erneut senden",
         "thank_you_title": "Ihre Bestellung ist bestätigt",
-        "thank_you_title_payment": "Ihre Zahlung ist bestätigt",
+        "thank_you_title_payment": "Ihre Zahlung wurde bestätigt",
         "thank_you_title_review": "Ihre Bestellung wurde zur Überprüfung eingereicht",
         "thank_you_title_payments_app_pending_default": "Ihre Zahlung wird bearbeitet",
         "thank_you_title_payments_app_pending_buyer_action_required": "Ihre Bestellung wurde erhalten",
@@ -1984,7 +1984,7 @@
         },
         "thank_you_unconfirmed_items_description": {
           "one": "Ihnen wurde hierfür nichts berechnet",
-          "other": "Ihnen wurden hierfür keine Kosten berechnet"
+          "other": "Ihnen wurden dafür keine Kosten berechnet"
         },
         "thank_you_from_other_store": "Aus einem anderen Geschäft",
         "thank_you_payments_app_failed_pending_payment": "Ihnen wurde Ihre Bestellung nicht berechnet. Gehen Sie zurück zu Ihrem Warenkorb, um Ihre Bestellung zu überprüfen und erneut zu bezahlen.",
@@ -1999,9 +1999,9 @@
         "thank_you_payments_app_pending_payment_description_default_with_email": "Sie erhalten in Kürze eine Bestätigungs-E-Mail mit Ihrer Bestellnummer.",
         "thank_you_payments_app_pending_payment_description_default_with_email_payment": "Sie erhalten in Kürze eine Bestätigungs-E-Mail mit Ihrer Bestellnummer.",
         "thank_you_payments_app_pending_payment_description_default_with_email_pick_up": "Sie erhalten in Kürze eine Bestätigungs-E-Mail mit Ihrer Bestellnummer.",
-        "thank_you_payments_app_pending_payment_description_default_with_phone": "Sie erhalten in Kürze eine Bestätigungsnachricht mit Ihrer Bestellnummer.",
-        "thank_you_payments_app_pending_payment_description_default_with_phone_payment": "Sie erhalten in Kürze eine Bestätigungsnachricht mit Ihrer Bestellnummer.",
-        "thank_you_payments_app_pending_payment_description_default_with_phone_pick_up": "Sie erhalten in Kürze eine Bestätigungsnachricht mit Ihrer Bestellnummer.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone": "Sie erhalten in Kürze eine Bestätigungs-SMS mit Ihrer Bestellnummer.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_payment": "Sie erhalten in Kürze eine Bestätigungs-SMS mit Ihrer Bestellnummer.",
+        "thank_you_payments_app_pending_payment_description_default_with_phone_pick_up": "Sie erhalten in Kürze eine Bestätigungs-SMS mit Ihrer Bestellnummer.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing": "Kontaktieren Sie uns per E-Mail oder Telefon, um eine Auftragsbestätigung zu erhalten.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_payment": "Kontaktieren Sie uns per E-Mail oder Telefon, um eine Auftragsbestätigung zu erhalten.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_missing_pick_up": "Kontaktieren Sie uns per E-Mail oder Telefon, um eine Auftragsbestätigung zu erhalten.",
@@ -2015,7 +2015,7 @@
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Nach Abschluss Ihrer Zahlung erhalten Sie eine Bestätigungsnachricht mit Ihrer Bestellnummer.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Nach Abschluss Ihrer Zahlung erhalten Sie eine Bestätigungsnachricht mit Ihrer Bestellnummer.",
         "thank_you_payments_app_pending_payment_description_provider_action_required_default": "Ihre Zahlung wird bearbeitet. Sie erhalten eine E-Mail, sobald Ihre Zahlung bestätigt wurde.",
-        "track_your_order_link_text": "Verfolge deine Bestellung",
+        "track_your_order_link_text": "Verfolgen Sie Ihre Bestellung",
         "checkout_again": "Erneut zur Kasse gehen",
         "checkout_on_another_store": "An einem anderen Geschäft bezahlen",
         "order_status_confirmed_order_with_email": "Sie erhalten eine E-Mail, sobald Ihre Bestellung fertig ist.",
@@ -2052,7 +2052,7 @@
         "contact_us": "Kontaktieren Sie uns",
         "contact_us_lowercase": "kontaktieren Sie uns",
         "contact_us_html": "Brauchen Sie Hilfe? %{contact_us}",
-        "updated_time": "Aktualisiert vor %{time_ago}",
+        "updated_time": "Vor %{time_ago} aktualisiert",
         "failure": "Nicht geliefert",
         "failed_title": "Ihre Bestellung konnte nicht zugestellt werden",
         "failed_contact_merchant": "Kontaktieren Sie %{company}, um die Lieferung zu vereinbaren.",
@@ -2151,7 +2151,7 @@
           "title": "Mehrwertsteuerrechnungen"
         },
         "verify_shop_account_title": "Überprüfen Sie Ihr Shop-Konto",
-        "verify_shop_account_message": "Ihre Informationen wurden bei Shop gespeichert. Verifizieren Sie Ihr Konto, um es automatisch in Millionen von Geschäften zu verwenden.",
+        "verify_shop_account_message": "Ihre Informationen wurden mit Shop gespeichert, verifizieren Sie Ihr Konto, um sie automatisch in Millionen von Geschäften zu verwenden.",
         "verify_shop_account_cta": "Verifizieren Sie Ihr Konto",
         "verify_shop_account_confirmation": "Kassendaten gespeichert",
         "announcement": {
@@ -2349,10 +2349,10 @@
         "line_to_check_out": "Sie sind an der Reihe zur Kasse",
         "cart_summary_heading": "Ihr Warenkorb",
         "inventory": {
-          "partial_inventory_banner": "Ein Teil Ihres Warenkorbs ist ausverkauft und kann beim Bezahlen nicht erworben werden.",
+          "partial_inventory_banner": "Ein Teil Ihres Warenkorbs ist ausverkauft und kann beim Bezahlen nicht gekauft werden.",
           "sold_out": {
             "heading": "Ihr Warenkorb ist ausverkauft",
-            "storefront_body": "Zurück zum Laden, um mit dem Einkaufen fortzufahren",
+            "storefront_body": "Zurück zum Geschäft, um weiter einzukaufen",
             "no_storefront_body": "Leider ist der Artikel, den Sie kaufen möchten, nicht mehr verfügbar.",
             "link": "Zurück zum Geschäft"
           }
@@ -2363,10 +2363,10 @@
           "one": "Geschätzte Wartezeit: {{count}} Minute",
           "other": "Geschätzte Wartezeit: {{count}} Minuten"
         },
-        "last_checked": "(Zuletzt geprüft: {{time}})",
+        "last_checked": "(Letzte Überprüfung: {{time}})",
         "footer": {
-          "heading": "Aktualisieren Sie diese Seite nicht, sie wird automatisch erneuert.",
-          "body": "Artikel in Ihrem Warenkorb sind erst nach Abschluss des Bestellvorgangs reserviert."
+          "heading": "Bitte aktualisieren Sie diese Seite nicht, sie wird automatisch aktualisiert.",
+          "body": "Artikel in Ihrem Warenkorb sind nicht reserviert, bis Sie den Checkout abschließen."
         }
       },
       "cart_checkout_validation": {
