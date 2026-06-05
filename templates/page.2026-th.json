@@ -176,8 +176,8 @@
         "media_eQyRHL": {
           "type": "media",
           "settings": {
-            "pc_image_url": "shopify://shop_images/1_293f750d-8a7f-48d7-9440-3eb4001728fd.jpg",
-            "mb_image_url": "shopify://shop_images/eaea6e721ec743400762f7b529a78c31_e7a3a407-9c52-40ab-a611-f1d96fb8e5d8.jpg",
+            "pc_image_url": "shopify://shop_images/1_6.2_240a4adc-5c48-4143-a672-4e2e11d18559.jpg",
+            "mb_image_url": "shopify://shop_images/6.2_1e4deb94-d4d1-4012-9bcb-8c84cd551cc6.jpg",
             "image_link": "shopify://products/in-10",
             "slide_tab": "Yozma IN 10",
             "show_subtitle": false,
@@ -338,6 +338,7 @@
     },
     "mc_main_countdown_6GFNm9": {
       "type": "mc_main-countdown",
+      "disabled": true,
       "name": "MC Main Countdown",
       "settings": {
         "page_color": "#141414",
