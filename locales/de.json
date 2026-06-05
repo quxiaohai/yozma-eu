@@ -1321,11 +1321,11 @@
           "other": "Kredit- und Debitkartenzahlungen sind derzeit nicht verfügbar.<br><a href=\"%{current_url}\">Diese Seite aktualisieren</a> oder eine andere Zahlungsmethode versuchen."
         },
         "card_fields_processing_error": "Bei der Zahlungsabwicklung ist ein Problem aufgetreten. Versuchen Sie, diese Seite zu aktualisieren, oder überprüfen Sie Ihre Internetverbindung.",
-        "technical_error": "Zahlungen können derzeit wegen eines technischen Problems nicht bearbeitet werden. Versuchen Sie es in ein paar Minuten erneut.",
+        "technical_error": "Zahlungen können derzeit aufgrund eines technischen Problems nicht verarbeitet werden. Bitte versuchen Sie es in ein paar Minuten erneut.",
         "no_method_error": "Dieser Shop kann derzeit keine Zahlungen akzeptieren.",
         "not_configured_error": "Dieser Shop kann derzeit keine Zahlungen akzeptieren.",
         "missing_credit_card_error": "Geben Sie Ihre Kartendaten ein, um die Zahlung abzuschließen",
-        "shop_pay_ideal_unavailable_error": "iDEAL | Wero steht für diese Bestellung nicht zur Verfügung. Wählen Sie eine andere Zahlungsmethode.",
+        "shop_pay_ideal_unavailable_error": "iDEAL | Wero ist für diese Bestellung nicht verfügbar. Wählen Sie eine andere Zahlungsmethode.",
         "payment_method_not_available_for_shipping_address_error": "Zahlungsmethode für die ausgewählte Lieferadresse nicht verfügbar. Wählen Sie eine andere Zahlungsmethode.",
         "billing_address_not_supported_for_payment_method_error": "Diese Zahlungsmethode ist für Ihre Rechnungsadresse und Währung nicht verfügbar. Versuchen Sie eine andere Zahlungsmethode.",
         "generic_incorrect_card_info": "Ihre Zahlungsdaten konnten nicht verifiziert werden. Überprüfen Sie Ihre Kartendaten und versuchen Sie es erneut.",
@@ -1343,12 +1343,12 @@
         "afterpay_label": "Afterpay",
         "cashapppay_label": "Cash App Bezahlen",
         "blik_label": "BLIK",
-        "twint_label": "ZWEIFACH",
-        "swish_label": "Schwung",
+        "twint_label": "TWINT",
+        "swish_label": "Swish",
         "grabpay_label": "GrabPay",
         "kcp_creditcard_label": "KCP Kreditkarte",
         "usdc_cashback_title": "%{incentive_percentage}% Cashback",
-        "usdc_cashback_additional_info": "Erhalte %{incentive_percentage}% in USDC auf Base innerhalb von 30 Tagen zurück, bis zu 100 USDC.",
+        "usdc_cashback_additional_info": "Bezahlen Sie mit USDC auf Base und erhalten Sie %{incentive_percentage}% innerhalb von 30 Tagen zurück auf Ihre Wallet.",
         "purchase_options_card_update_agreement_label_html": "Indem Sie Ihre Zahlungsmethode aktualisieren, autorisieren Sie Zahlungen für alle wiederkehrenden oder aufgeschobenen Käufe gemäß der <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">Stornierungsbedingungen</a> dieses Geschäfts.",
         "subscription_card_update_agreement_label": "Die Änderung der Zahlungsmethode aktualisiert Ihr Abonnement und zukünftige wiederkehrende Zahlungen.",
         "subscription_agreement_label": "Ein oder mehrere Artikel in Ihrem Warenkorb sind ein aufgeschobener Kauf oder ein Abonnement. Wenn Sie mit der Zahlung fortfahren, stimmen Sie zu, dass Ihre Zahlungsmethode automatisch zum auf dieser Seite angegebenen Preis und in der angegebenen Häufigkeit belastet wird, bis das Abonnement endet oder Sie es kündigen. Alle Kündigungen unterliegen dem %{cancelled}.",
@@ -1389,9 +1389,9 @@
           "label": "Guthaben im Geschäft",
           "apply_label": "Guthaben einlösen",
           "add_label": "Guthaben hinzufügen",
-          "manage_label": "Guthaben verwalten",
-          "buying_gift_card": "Sie können Guthaben aus dem Geschäft nicht verwenden, um eine Geschenkkarte zu kaufen",
-          "no_fixed_selling_plans": "Sie können Guthaben im Geschäft nicht mit Kauf auf Rechnung verwenden"
+          "manage_label": "Verwalte Guthaben im Geschäft",
+          "buying_gift_card": "Sie können Guthaben im Geschäft nicht verwenden, um eine Geschenkkarte zu kaufen.",
+          "no_fixed_selling_plans": "Sie können Guthaben im Geschäft nicht mit Kauf auf Rechnung verwenden."
         },
         "clear": "Löschen",
         "billing_must_match_shipping_notice": "Die Rechnungsadresse Ihrer Zahlungsmethode muss mit der Lieferadresse übereinstimmen.",
@@ -1400,7 +1400,7 @@
         "use_location_shipping_address_label": "Versandadresse des Standorts verwenden",
         "no_working_method_error": "Dieser Shop kann derzeit keine Zahlungen akzeptieren. Aktualisieren Sie diese Seite oder kommen Sie später wieder.",
         "brand_not_available": "Dieser Laden akzeptiert {{brand}} nicht. Verwenden Sie eine andere Karte zur Zahlung.",
-        "shipping_rate_updated": "Verfügbare Versandarten wurden aktualisiert. Bestätigen Sie Ihre Auswahl, bevor Sie zur Kasse gehen.",
+        "shipping_rate_updated": "Verfügbare Versandmethoden wurden aktualisiert. Bestätigen Sie Ihre Auswahl, bevor Sie zur Kasse gehen.",
         "billing_address_invalid_phone": "Aktualisieren Sie die Telefonnummer in Ihrer Rechnungsadresse für {{label}} {{last_digits}}, um fortzufahren.",
         "billing_address_invalid_phone_no_card": "Aktualisieren Sie die Telefonnummer in Ihrer Rechnungsadresse, um fortzufahren.",
         "preview_not_available": {
@@ -1419,7 +1419,7 @@
           }
         },
         "simulated_checkout": "Vorschau bald verfügbar",
-        "simulated_express_checkout": "Brieftaschen sind in der Vorschau des Editors aufgrund Ihrer Region oder Ihres Browsers nicht verfügbar",
+        "simulated_express_checkout": "Brieftaschen sind in der Editor-Vorschau aufgrund Ihrer Region oder Ihres Browsers nicht verfügbar",
         "vaulting_agreement_label": "Speichere meine Zahlungsinformationen bei %{company} für einen schnelleren Checkout.",
         "business_customer_vaulting_payment_label": "Speichern Sie diese Zahlungsmethode beim Bezahlen und autorisieren Sie %{company}, sie für zukünftige Einkäufe an diesem Standort zu belasten. Alle Kontakte, die diesem Standort zugewiesen sind, können die Zahlungsmethode verwenden.",
         "business_customer_with_bank_account_vaulting_payment_label": "Speichern Sie diese Zahlungsmethode beim Bezahlen und autorisieren Sie %{company}, Ihr Konto für zukünftige Einkäufe, die Sie für diesen Standort genehmigen, zu belasten, bis Sie die Erlaubnis widerrufen. Alle Kontakte, die diesem Standort zugewiesen sind, können die Zahlungsmethode verwenden.",
@@ -1429,7 +1429,7 @@
         "saved_credit_card_info": "Letzte vier Ziffern",
         "saved_credit_card_cvv_verification": "Geben Sie zur Verifizierung den Sicherheitscode Ihrer Karte ein.",
         "saved_credit_cards_modal": {
-          "done": "Erledigt",
+          "done": "Fertig",
           "cancel": "Abbrechen"
         },
         "add_credit_card_modal": {
@@ -1491,7 +1491,7 @@
         "markets_pro_disclaimer_privacy_policy_title": "Datenschutzerklärung des Händlers",
         "alternative_payment_currency_total_notice": "Hinweis: Ihnen werden %{amount_due} berechnet.",
         "alternative_payment_currency_total_manual_payment_notice": "Hinweis: Der umgerechnete Gesamtbetrag beträgt %{amount_due}.",
-        "waiting_on_taxes_message": "Wenn Ihre Steuern nicht innerhalb der nächsten Sekunden berechnet werden, laden Sie die Seite neu.",
+        "waiting_on_taxes_message": "Wenn Ihre Steuern nicht innerhalb der nächsten Sekunden berechnet werden, aktualisieren Sie die Seite.",
         "waiting_on_taxes_notice": "Steuern berechnen",
         "payment_method_rollup_accessibility_label": "Zahlungsmethoden Optionen",
         "expired_payment_method": "Die ausgewählte Zahlungsmethode ist abgelaufen",
@@ -1513,7 +1513,7 @@
         "bank_account_connect_another": "Ein weiteres Bankkonto verbinden",
         "bank_account_missing": "Das Bankkonto muss verbunden sein",
         "bank_account_generic_error": "Konnte das Bankkonto nicht hinzufügen. Bitte versuchen Sie es später erneut.",
-        "separate_payments_label": "Ihre Artikel stammen aus mehr als einem Geschäft. Die Zahlung erfolgt in %{separate_payments_link}.",
+        "separate_payments_label": "Ihre Artikel stammen aus mehr als einem Geschäft. Ihnen wird in %{separate_payments_link} berechnet.",
         "separate_payments_text": "getrennte Zahlungen",
         "choose_new_payment_method": "Wählen Sie eine neue Zahlungsmethode",
         "network_card_payment_options": "Wählen Sie ein Kartennetzwerk",
@@ -1571,7 +1571,13 @@
         "purchase_options_subscription_agreement_label": "Ihr Warenkorb enthält ein automatisch verlängerndes Abonnement. Durch Klicken auf \"%{button_label}\" %{consent_text} %{cancellation_instructions}",
         "purchase_options_subscription_consent_text": "Sie stimmen ausdrücklich und vorbehaltlos zu, dass Ihnen der im Warenkorb angezeigte wiederkehrende Betrag (zzgl. Versand und Steuern) automatisch berechnet wird, bis das Abonnement endet oder Sie es kündigen.",
         "purchase_options_subscription_cancellation_instructions": "%{cancel_text} Bitte beachten Sie die %{cancellation_policy_label}.",
-        "purchase_options_subscription_cancel_text": "Sie können jederzeit kündigen, indem Sie zu Ihrem Konto gehen oder den Laden kontaktieren."
+        "purchase_options_subscription_cancel_text": "Sie können jederzeit kündigen, indem Sie zu Ihrem Konto gehen oder den Laden kontaktieren.",
+        "usdc_cashback_terms": "Bedingungen und Einschränkungen gelten",
+        "subscription_heading": "Abonnementvertrag",
+        "use_location_billing_address_label": "Standort als Rechnungsadresse verwenden",
+        "vault_for_payment_later": {
+          "notice": "Sie werden jetzt nicht belastet. Indem Sie mit Ihrer Zahlung fortfahren, stimmen Sie zu, dass Ihre Zahlungsmethode belastet wird, sobald Ihre Bestellung bearbeitet wird."
+        }
       },
       "billing": {
         "billing_address_rollup_accessibility_label": "Rechnung an Optionen",
