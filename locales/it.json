@@ -816,11 +816,11 @@
         },
         "unshippable_product": {
           "header": {
-            "other": "Consegna non disponibile per %{count} articoli"
+            "other": "Nessuna consegna disponibile per %{count} articoli"
           },
           "message": {
-            "one": "Questo articolo sarà rimosso dal tuo carrello perché non sono disponibili metodi di consegna per il tuo indirizzo.",
-            "other": "Questi articoli saranno rimossi dal tuo carrello perché non ci sono metodi di consegna disponibili per il tuo indirizzo."
+            "one": "Questo articolo verrà rimosso dal tuo carrello perché non sono disponibili metodi di consegna per il tuo indirizzo.",
+            "other": "Questi articoli verranno rimossi dal tuo carrello perché non ci sono metodi di consegna disponibili per il tuo indirizzo."
           }
         },
         "price_update": {
@@ -1563,7 +1563,7 @@
         "email_blank": "Inserisci un'email"
       },
       "store_credit_errors": {
-        "generic_error": "C'è stato un problema con il credito del tuo negozio. Riprova o ricarica la pagina."
+        "generic_error": "C'è stato un problema con il tuo credito in negozio. Riprova o ricarica la pagina."
       },
       "redeemable_errors": {
         "gift_card": {
@@ -2108,11 +2108,11 @@
             "one": "Primo pagamento %{total_price}",
             "other": "Primi %{count} pagamenti di %{total_price} ciascuno"
           },
-          "following_cycles": ", poi %{total_price} ogni %{interval}"
+          "following_cycles": ", quindi %{total_price} ogni %{interval}"
         },
         "recurring_totals_with_initial_order_shipping_discount_with_policies": {
           "first_cycles": {
-            "one": ", poi %{count} pagamento a %{total_price}",
+            "one": ", quindi %{count} pagamento a %{total_price}",
             "other": ", quindi %{count} pagamenti da %{total_price} ciascuno"
           }
         }
@@ -2525,11 +2525,11 @@
         "tax_details": "Dettagli fiscali aggiuntivi",
         "vat_number": {
           "field": {
-            "label": "Partita IVA (facoltativo)",
-            "tooltip": "Valida il numero di partita IVA e applica automaticamente il reverse charge sugli ordini quando è idoneo"
+            "label": "Partita IVA (opzionale)",
+            "tooltip": "Convalida il numero di partita IVA e applica automaticamente il meccanismo del reverse charge sugli ordini quando applicabile"
           },
           "add": "Aggiungi un numero di partita IVA",
-          "domestic_order": "L'esenzione da inversione contabile si applica solo agli ordini transfrontalieri nell'UE. L'IVA standard viene addebitata per gli ordini locali.",
+          "domestic_order": "L'esenzione dall'inversione contabile si applica solo agli ordini transfrontalieri nell'UE. L'IVA standard viene applicata per gli ordini locali.",
           "status": {
             "invalid_format": {
               "at": "I numeri di partita IVA austriaci contengono AT e 9 caratteri",
@@ -2594,7 +2594,7 @@
           },
           "accessibility": {
             "status": {
-              "validating": "La verifica del numero di partita IVA è in corso",
+              "validating": "La convalida del numero di partita IVA è in corso",
               "valid": "Il numero di partita IVA è valido"
             }
           }

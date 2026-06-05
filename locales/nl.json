@@ -548,49 +548,52 @@
           },
           "buyer_identity": {
             "business_customer_does_not_match_company": "Bedrijfcontactpersoon heeft geen toegang tot het bedrijf.",
-            "customer_account_required": "U moet zich aanmelden om door te gaan.",
+            "customer_account_required": "Je moet inloggen om door te gaan.",
             "company_location_required": "De klant moet een bedrijfslocatie kiezen om door te gaan.",
             "company_purchase_permission_required": "De klant heeft geen toestemming om bedrijfsbestellingen te plaatsen.",
-            "personal_order_not_allowed": "Persoonlijke bestellingen zijn niet toegestaan in deze winkel.",
+            "personal_order_not_allowed": "Persoonlijke bestellingen zijn niet toegestaan voor deze winkel.",
             "lost_access_to_company": "Klant heeft de toegang tot elk bedrijf verloren.",
             "contact_info_does_not_match_customer_account": "Contactgegevens moeten overeenkomen met het account waarmee je bent ingelogd.",
             "phone_number_does_not_match_expected_pattern": "Het opgegeven telefoonnummer komt niet overeen met het verwachte patroon.",
-            "email_required": "Een e-mailadres is vereist wanneer de goederen worden gekocht met een abonnement.",
+            "email_required": "Een e-mailadres is vereist wanneer de merchandise wordt gekocht via een abonnement.",
             "checkout_completion_target_is_missing": "Doel voor het voltooien van de afrekenprocedure ontbreekt.",
-            "invalid_customer_profile": "Er werd een ongeldig klantprofiel opgegeven.",
-            "customer_profile_access_restricted": "De kassa heeft geen toestemming om toegang te krijgen tot het klantenprofiel.",
+            "invalid_customer_profile": "Er is een ongeldig klantprofiel opgegeven.",
+            "customer_profile_access_restricted": "Checkout heeft geen toestemming om toegang te krijgen tot het klantprofiel.",
             "checkout_completion_target_is_invalid_proc": "Ongeldig doel voor het voltooien van de betaling.",
-            "buyer_identity_presentment_currency_does_not_match": "Er was een probleem bij het verwerken van uw bestelling. Probeer het over een paar minuten opnieuw."
+            "buyer_identity_presentment_currency_does_not_match": "Er was een probleem bij het verwerken van uw bestelling. Probeer het over een paar minuten opnieuw.",
+            "missing_contact_method": "Ontbreekt een geldige contactmethode."
           },
           "delivery": {
-            "only_one_delivery_line_allowed": "De winkelwagen mag slechts één leveringsregel bevatten.",
+            "only_one_delivery_line_allowed": "Winkelwagen mag slechts één leveringsregel bevatten.",
             "wrong_number_of_delivery_lines": "Voor elke groep goederen moet een leveringslijn worden opgegeven.",
-            "external_delivery_promise_error": "Een fout bij het ophalen van de externe leveringsbelofte.",
+            "external_delivery_promise_error": "Een fout bij het ophalen van een externe leveringsbelofte.",
             "options_instructions_invalid": "De opgegeven instructies komen niet overeen met het verwachte patroon.",
             "destination_address_required": "Een bestemmingsadres is vereist om door te gaan.",
-            "local_pickup_delivery_line_detail_changed": "De huidige afhaalstrategie voor lokale levering moet worden gewijzigd om door te kunnen gaan.",
-            "selected_pickup_option_no_longer_available": "De eerder gekozen afhaaloptie is niet langer beschikbaar.",
-            "local_pickup_no_delivery_strategy_available": "Geen beschikbare afhaalbezorgingsmethode gevonden.",
-            "origin_location_id_required": "Een herkomstlocatie-ID is vereist wanneer de LEVERING IN WINKEL wordt aangevraagd.",
-            "invalid_origin_location_id": "Kon geen locatie vinden die overeenkomt met de oorsprongslocatie-ID.",
+            "local_pickup_delivery_line_detail_changed": "De huidige strategie voor lokale afhaling moet worden gewijzigd om door te kunnen gaan.",
+            "selected_pickup_option_no_longer_available": "De eerder geselecteerde afhaaloptie is niet langer beschikbaar.",
+            "local_pickup_no_delivery_strategy_available": "Geen beschikbare lokale afhaalbezorgstrategie gevonden.",
+            "origin_location_id_required": "Een herkomstlocatie-ID is vereist wanneer de RETAIL-bezorgmethode wordt aangevraagd.",
+            "invalid_origin_location_id": "Kon geen locatie vinden die overeenkomt met de oorsprong locatie-ID.",
             "origin_location_id_not_allowed": "De gevraagde bezorgmethoden ondersteunen geen herkomstlocatie-ID.",
-            "auto_fulfill_not_allowed": "Deze sessie is niet gemachtigd om het afhandelingsgedrag te overschrijven.",
-            "auto_fulfill_required": "Automatisch uitvoeren is vereist wanneer de VERKOOP-leveringsmethode wordt aangevraagd.",
-            "prefetch_shipping_rates_used": "Vooraf opgehaalde verzendtarieven mogen nooit tarieven teruggeven.",
+            "auto_fulfill_not_allowed": "Deze sessie is niet gemachtigd om het vervulgedrag te overschrijven.",
+            "auto_fulfill_required": "Automatisch uitvoeren is vereist wanneer de RETAIL bezorgmethode wordt aangevraagd.",
+            "prefetch_shipping_rates_used": "Vooraf opgehaalde verzendtarieven mogen nooit tarieven retourneren.",
             "fulfillment_constraints_not_satisfied": "Een of meer leveringsvoorwaarden zijn niet voldaan.",
-            "must_fulfill_from_constraint_not_satisfied": "Vereisten voor uitvoering worden niet voldaan omdat artikelen niet vanuit de benodigde locaties kunnen worden geleverd.",
-            "must_fulfill_from_same_location_constraint_not_satisfied": "Vereisten voor uitvoering worden niet voldaan omdat artikelen niet vanuit dezelfde locatie kunnen worden geleverd.",
-            "delivery_strategy_conditions_not_satisfied": "Bezorgmethoden zijn beschikbaar voor deze locatie, maar aan de voorwaarden ervan wordt niet voldaan.",
+            "must_fulfill_from_constraint_not_satisfied": "Vereisten voor orderverwerking worden niet voldaan omdat artikelen niet vanuit de vereiste locaties kunnen worden geleverd.",
+            "must_fulfill_from_same_location_constraint_not_satisfied": "Vereisten voor orderverwerking worden niet voldaan omdat artikelen niet vanuit dezelfde locatie kunnen worden geleverd.",
+            "delivery_strategy_conditions_not_satisfied": "Bezorgstrategieën zijn beschikbaar voor deze locatie, maar aan de voorwaarden wordt niet voldaan.",
             "out_of_stock_at_origin_location": "Geen voorraad op de oorspronkelijke locatie.",
-            "invalid_signature": "Ongeldige kortingshandtekening."
+            "invalid_signature": "Ongeldige kortingshandtekening.",
+            "mixed_destination_countries": "Bezorging is niet beschikbaar omdat de bezorglijnen meerdere landen overspannen."
           },
           "discount": {
             "custom_discount_not_honoured": "De opgegeven aangepaste korting is niet gehonoreerd.",
             "unsupported_expectation": "De opgegeven kortingsregel bevatte een verwachting die het beleid niet kon interpreteren.",
             "additional_requested_discount_code_discarded": "{{code}} is geldig maar niet toepasbaar. Controleer de kortingsvoorwaarden.",
-            "additional_requested_discount_discarded": "Uw korting is geldig maar niet toepasbaar. Controleer de kortingsvoorwaarden.",
+            "additional_requested_discount_discarded": "Je korting is geldig maar niet toepasbaar. Controleer de kortingsvoorwaarden.",
             "allocations_mismatch": "Je kortingscode is gewijzigd. Bekijk je winkelwagen en probeer het opnieuw.",
-            "discount_title_too_long": "Kortingtitel mag niet langer zijn dan 255 tekens."
+            "discount_title_too_long": "Kortingtitel mag niet langer zijn dan 255 tekens.",
+            "mixed_destination_countries": "Kortingen zijn niet beschikbaar omdat de leveringslijnen meerdere landen beslaan."
           },
           "tax": {
             "new_tax_must_be_accepted": "De belastingen die aan uw bestelling verbonden zijn, zijn gewijzigd. Controleer en probeer het opnieuw.",
@@ -657,17 +660,17 @@
             "retail_attribution_required": "Retailtoewijzing is vereist voor deze afhandeling."
           },
           "captcha": {
-            "metadata_missing": "Het invullen van een captcha is vereist voor deze afhandeling.",
-            "metadata_mismatch": "De opgegeven captcha-aanbieder en het type komen niet overeen met de verwachte waarden.",
-            "token_missing": "Er moet een captcha-token worden opgegeven om deze aankoop te voltooien.",
-            "job_enqueue_failed": "Het valideren van de captcha kon niet in de wachtrij worden geplaatst.",
+            "metadata_missing": "Het voltooien van een captcha is vereist voor deze afhandeling.",
+            "metadata_mismatch": "De opgegeven captcha-provider en het type komen niet overeen met de verwachte waarden.",
+            "token_missing": "Er moet een captcha-token worden opgegeven om deze betaling te voltooien.",
+            "job_enqueue_failed": "De captcha-validatieopdracht kon niet in de wachtrij worden geplaatst.",
             "job_already_queued": "Captcha-validatie is al in de wachtrij geplaatst voor deze captcha-token.",
-            "token_expired": "De opgegeven captcha-token is verlopen. Voltooi een nieuwe captcha om door te gaan met afrekenen.",
+            "token_expired": "De verstrekte captcha-token is verlopen. Voltooi een nieuwe captcha om door te gaan met afrekenen.",
             "token_invalid": "De opgegeven captcha-token was ongeldig. Voltooi een nieuwe captcha om door te gaan met afrekenen.",
             "token_not_valid_for_session": "De opgegeven captcha kan niet worden gebruikt bij deze kassa."
           },
           "fx_reconciliation_override": {
-            "shop_currency_mismatch": "Het ontvangen bedrag moet in de winkelmunt zijn."
+            "shop_currency_mismatch": "Het ontvangen bedrag moet in de winkelvaluta zijn."
           },
           "checkout_source": {
             "revoked": "Deze kassa is niet langer beschikbaar."
