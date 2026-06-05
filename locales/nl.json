@@ -1643,10 +1643,10 @@
         "deferred_payment_required": "Deze bestelling vereist een uitgestelde betaling. Controleer uw bestelling en probeer het opnieuw.",
         "deferred_amount_changed": "Uw betaling kon niet worden verwerkt omdat het uitgestelde betalingsbedrag is gewijzigd. Controleer uw bestelling en probeer het opnieuw.",
         "deferred_date_changed": "Uw betaling kon niet worden verwerkt omdat de uitgestelde betaaldatum is gewijzigd. Controleer uw bestelling en probeer het opnieuw.",
-        "order_total_changed": "Het totaalbedrag van uw bestelling is gewijzigd. Controleer het en probeer het opnieuw.",
+        "order_total_changed": "Uw totaalbedrag van de bestelling is gewijzigd. Controleer het en probeer het opnieuw.",
         "payment_processing": "Uw betaling kan om technische redenen niet worden verwerkt. Probeer het opnieuw of gebruik een andere betaalmethode.",
         "payment_processing_no_retry": "Uw betaling kan om technische redenen niet worden verwerkt. Probeer een andere betaalmethode.",
-        "paypal_zero_amount": "Je kunt PayPal niet gebruiken voor bestellingen van %{amount}. Bevestig dat je bestelling klopt en betaal zonder PayPal.",
+        "paypal_zero_amount": "Je kunt PayPal niet gebruiken voor bestellingen van %{amount}. Bevestig dat je bestelling klopt en reken af zonder PayPal.",
         "paypal_invalid_token": "PayPal was niet beschikbaar. Probeer het opnieuw of gebruik een andere betaalmethode.",
         "pay_later_failed": "Er is een fout opgetreden bij het verwerken van uw betaling met Achteraf Betalen. Kies een andere betaalmethode en probeer het opnieuw.",
         "three_d_secure_failed": "Uw betaling kon niet worden geverifieerd. Probeer het opnieuw of gebruik een andere betaalmethode.",
@@ -1660,7 +1660,7 @@
         "shipping_company_required_error": "{{shopName}} vereist een bedrijfsnaam voor het verzendadres.",
         "decision_rule_block": "Er was een probleem bij het verwerken van uw betaling. Neem contact op met de winkelier.",
         "pick_up_card": "Uw kaart is geweigerd. Probeer het opnieuw of gebruik een andere betaalmethode.",
-        "cannot_verify": "Uw betaalgegevens konden niet worden geverifieerd. Controleer uw kaartgegevens en probeer het opnieuw.",
+        "cannot_verify": "Uw betalingsgegevens konden niet worden geverifieerd. Controleer uw kaartgegevens en probeer het opnieuw.",
         "expired_card": "Uw kaart is verlopen. Gebruik een andere betaalmethode.",
         "card_declined": "Uw kaart is geweigerd. Probeer het opnieuw of gebruik een andere betaalmethode.",
         "processing_error": "Er was een probleem bij het verwerken van uw betaling. Probeer het opnieuw of gebruik een andere betaalmethode.",
@@ -1671,13 +1671,13 @@
         "test_mode_live_card": "Deze winkel kan geen echte bestellingen of echte betalingen accepteren.",
         "test_mode_enabled_only_test_cards": "Testmodus is ingeschakeld, alleen testkredietkaarten kunnen worden toegevoegd.",
         "transient_error": "Er was een probleem bij het verwerken van uw betaling. Probeer deze pagina te vernieuwen of controleer uw internetverbinding.",
-        "missing_shipping_address": "Uw betaling kon niet worden verwerkt omdat uw afleveradres ontbreekt. Voeg een afleveradres toe en probeer het opnieuw.",
+        "missing_shipping_address": "Uw betaling kon niet worden verwerkt omdat uw verzendadres ontbreekt. Voeg een verzendadres toe en probeer het opnieuw.",
         "invalid_shipping_address": "Uw betaling kon niet worden verwerkt omdat we uw verzendadres niet konden vinden. Controleer uw verzendadres en probeer het opnieuw.",
         "successful_offsite_with_gift_card_error": "Er was een probleem bij het verwerken van uw cadeaubonbetaling. Probeer het opnieuw of gebruik een andere betaalmethode.",
-        "development_store_order_limit_reached": "Je hebt het limiet bereikt voor bestellingen in de ontwikkelwinkel met deze betaalverwerker. Om een nieuwe bestelling te plaatsen, moet je een test-betaalgateway gebruiken. Lees meer over %{development_store_order_testing_docs_link}.",
+        "development_store_order_limit_reached": "Je hebt het limiet bereikt voor bestellingen in de ontwikkelwinkel met deze betalingsverwerker. Om een nieuwe bestelling te plaatsen, moet je een testbetaalgateway gebruiken. Lees meer over %{development_store_order_testing_docs_link}.",
         "development_store_with_order_limit": "Om een testbestelling te plaatsen, moet je een test-betaalgateway gebruiken. Lees meer over %{development_store_order_testing_docs_link}.",
         "development_store_order_testing_docs_link": "bestellingen testen in ontwikkelwinkels",
-        "payment_above_threshold": "Het te betalen bedrag is hoger dan de geldlimiet voor deze regio. Verlaag het totaal en probeer het opnieuw.",
+        "payment_above_threshold": "Het betaalbedrag is hoger dan de geldlimiet voor deze regio. Verlaag het totaal en probeer het opnieuw.",
         "risky": "Er was een probleem bij het verwerken van uw betaling. Probeer het opnieuw of gebruik een andere betaalmethode.",
         "expired_buyer_action": "De betaalmethode is verlopen. Probeer het opnieuw.",
         "name_mismatch": "Controleer uw kaartgegevens. De naam op uw kaart en het factuuradres komen niet overeen.",
@@ -1686,7 +1686,12 @@
         "paypal_over_capture": "Uw totaalbedrag is bijgewerkt. Betaal met {{walletName}} om uw bestelling te voltooien.",
         "captcha_required": "Voer betalingsgegevens in en los de captcha op om uw aankoop te voltooien.",
         "captcha_required_without_payment_information": "Los de captcha op om uw aankoop te voltooien.",
-        "payment_credential_delegation_error": "Er was een probleem bij het verwerken van uw betaling. Kies een nieuwe betaalmethode."
+        "payment_credential_delegation_error": "Er was een probleem bij het verwerken van uw betaling. Kies een nieuwe betaalmethode.",
+        "currency": {
+          "no_longer_supported": "De valuta van de winkel wordt niet langer ondersteund."
+        },
+        "installments_payment_method_incompatible": "De geselecteerde betaalmethode kan niet worden gebruikt voor gespreide betalingen. Kies een andere betaalmethode.",
+        "cancelled_payment": "Uw betaling is geannuleerd. Probeer het opnieuw of gebruik een andere betaalmethode."
       },
       "shipping_errors": {
         "shipping_method": "De verzendopties voor uw bestelling zijn gewijzigd. Controleer uw keuze.",
@@ -1758,7 +1763,7 @@
         "open_app_text": "Open de {{paymentMethod}} app",
         "header": "Betaal met {{paymentMethod}}",
         "qr_code": {
-          "instructions": "Voltooi je aankoop met je {{paymentMethod}} code"
+          "instructions": "Voltooi uw aankoop met uw {{paymentMethod}}-code"
         },
         "external": {
           "instructions": "Bevestig de betaling in je app om deze aankoop te voltooien"

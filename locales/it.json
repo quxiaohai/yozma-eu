@@ -2676,7 +2676,7 @@
       "verify_email": "Abbiamo inviato un'email a %{customer_email}, per favore clicca sul link incluso per verificare il tuo indirizzo email.",
       "product_not_available": "il prodotto non è pubblicato per questo cliente.",
       "shop_404": {
-        "title": "Crea un sito web di commercio elettronico e vendi online! Software per commercio elettronico di Shopify",
+        "title": "Crea un sito Ecommerce e vendi online! Software Ecommerce di Shopify",
         "heros": {
           "store_unavailable": "Spiacenti, questo negozio non è attualmente disponibile."
         },
@@ -2750,29 +2750,29 @@
         "only_n_added_to_cart": "Sono stati aggiunti al carrello solo %{quantity} articoli a causa della disponibilità.",
         "maximum_available_quantity_reached": "La quantità massima di questo articolo è già nel tuo carrello.",
         "empty_update": "impossibile aggiornare il carrello vuoto",
-        "missing_parameters": "nessun id valido o parametro di linea",
+        "missing_parameters": "nessun parametro id o linea valido",
         "generic_error": "Errore nel carrello",
         "product_not_available": "Prodotto non disponibile",
         "too_many_line_items_error": "Il tuo carrello non può contenere più di %{max} articoli.",
-        "link_expired": "Collegamento scaduto",
-        "link_no_longer_exists": "Il collegamento non esiste più.",
+        "link_expired": "Link scaduto",
+        "link_no_longer_exists": "Il link non esiste più.",
         "stock_problems_html": "Uno o più articoli non sono più disponibili. Abbiamo fornito un <a href='%{link}'>carrello aggiornato</a>.",
-        "items_changed": "Uno o più elementi sono cambiati.",
+        "items_changed": "Uno o più articoli sono cambiati.",
         "variant_not_found": "Impossibile trovare la variante",
         "variant_requires_selling_plan": "La variante può essere acquistata solo con un piano di vendita.",
-        "selling_plan_not_available_for_company_locations": "È disponibile solo l'acquisto singolo per gli ordini B2B",
-        "buyer_cannot_purchase_for_company_locations": "Non puoi acquistare per questa posizione",
+        "selling_plan_not_available_for_company_locations": "È disponibile solo l'acquisto una tantum per gli ordini B2B",
+        "buyer_cannot_purchase_for_company_locations": "Non puoi effettuare acquisti per questa località",
         "selling_plan_not_applicable": "Impossibile applicare il piano di vendita alla variante",
-        "shipping_address_invalid": "Si è verificato un problema nel calcolo delle tariffe di spedizione. Procedi al pagamento per scegliere una tariffa di spedizione prima di completare il tuo ordine.",
+        "shipping_address_invalid": "Si è verificato un problema nel calcolo delle tariffe di spedizione. Procedi al pagamento per scegliere una tariffa di spedizione prima di completare l'ordine.",
         "bundle_requires_components": "Il prodotto in bundle '%{name}' non può essere aggiunto al carrello.",
         "gift_card_with_components_not_supported": "Il prodotto in bundle '%{name}' non può essere aggiunto al carrello.",
         "gift_card_price_must_be_greater_than_zero": "Il prodotto in bundle '%{name}' non può essere aggiunto al carrello.",
-        "gift_card_recipient_validation_error": "Il destinatario della carta regalo specificato non è valido",
+        "gift_card_recipient_validation_error": "Il destinatario specificato della carta regalo non è valido",
         "view_lines_limit_reached": "Le righe devono essere lunghe al massimo %{limit}",
         "merchandise_line_transformers": {
           "run_error": "Si è verificato un errore nel tuo carrello."
         },
-        "merchandise_not_applicable": "L'articolo non può essere acquistato nella configurazione selezionata."
+        "merchandise_not_applicable": "L'articolo non può essere acquistato con la configurazione selezionata."
       },
       "storefront": {
         "invalid_password": "Password errata, riprova per favore."
@@ -2858,6 +2858,13 @@
       "buyer_consent_product": "Questo articolo è un acquisto ricorrente o differito. Continuando, accetto la %{cancellationPolicyLink} e autorizzo ad addebitare il mio metodo di pagamento ai prezzi, con la frequenza e nelle date indicate in questa pagina fino al completamento dell'ordine o alla cancellazione, se consentito.",
       "buyer_consent_cart": "Uno o più articoli nel tuo carrello sono acquisti ricorrenti o differiti. Continuando, accetto la %{cancellationPolicyLink} e autorizzo ad addebitare il mio metodo di pagamento ai prezzi, con la frequenza e nelle date indicate in questa pagina fino al completamento dell’ordine o alla cancellazione, se consentito.",
       "cancellation_policy": "politica di cancellazione"
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "in_stock": "Disponibile in magazzino"
+        }
+      }
     }
   },
   "customer_accounts": {
