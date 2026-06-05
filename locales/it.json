@@ -174,12 +174,12 @@
       "apply_filters": "Applica",
       "sort_by": "Ordina per",
       "remove_filter": "Rimuovi filtro \"{{ name }}\"",
-      "no_results": "Nessun prodotto corrisponde a quei filtri.",
-      "price_range_to": "a",
-      "price_filter_from": "Da prezzo",
-      "price_filter_to": "Per prezzare",
+      "no_results": "Nessun prodotto corrisponde a questi filtri.",
+      "price_range_to": "per",
+      "price_filter_from": "Prezzo di partenza",
+      "price_filter_to": "Per prezzo",
       "price_filter": "{{ min_price }} - {{ max_price }}",
-      "availability_label": "Disponibile solo in magazzino"
+      "availability_label": "Disponibile solo"
     }
   },
   "blog": {
@@ -214,10 +214,12 @@
   "contact": {
     "form": {
       "name": "Nome",
-      "email": "Posta elettronica",
+      "email": "E-mail",
       "message": "Messaggio",
       "submit": "Invia messaggio",
-      "success_message": "Il tuo messaggio è stato inviato."
+      "success_message": "Il tuo messaggio è stato inviato.",
+      "question": "Domande",
+      "product_name": "Nome del prodotto"
     }
   },
   "customer": {
@@ -227,7 +229,7 @@
       "orders": "Ordini",
       "addresses": "Indirizzi",
       "logout": "Disconnetti",
-      "no_orders": "Non hai ancora effettuato alcun ordine.",
+      "no_orders": "Non hai ancora effettuato ordini.",
       "continue_shopping": "Continua a fare acquisti"
     },
     "login": {
@@ -358,13 +360,13 @@
       "limit_reached_html": "Hai diritto alla spedizione gratuita."
     },
     "shipping_estimator": {
-      "estimate_shipping": "Stima della spedizione",
+      "estimate_shipping": "Calcola la spedizione",
       "country": "Paese",
       "province": "Provincia",
       "zip": "Codice postale",
       "estimate": "Stima",
       "no_results": "Spiacenti, non effettuiamo spedizioni al tuo indirizzo.",
-      "one_result": "C'è una sola tariffa di spedizione per il tuo indirizzo:",
+      "one_result": "C'è una tariffa di spedizione per il tuo indirizzo:",
       "multiple_results": "Ci sono diverse tariffe di spedizione per il tuo indirizzo:",
       "error": "Si è verificato uno o più errori durante il recupero delle tariffe di spedizione:"
     }

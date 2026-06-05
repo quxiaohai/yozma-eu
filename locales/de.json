@@ -157,8 +157,8 @@
   "collection": {
     "general": {
       "empty_collection": "Diese Sammlung ist leer",
-      "all_collections": "Alle Sammlungen",
-      "no_collections": "Dieser Laden enthält keine Sammlung.",
+      "all_collections": "Alle Kollektionen",
+      "no_collections": "Dieser Shop enthält keine Kollektion.",
       "continue_shopping": "Weiter einkaufen"
     },
     "products_count": {
@@ -169,7 +169,7 @@
     "faceting": {
       "filters": "Filter",
       "filter_and_sort": "Filtern und sortieren",
-      "filter_button": "Filterung",
+      "filter_button": "Filter",
       "clear_filters": "Alle löschen",
       "apply_filters": "Anwenden",
       "sort_by": "Sortieren nach",
@@ -177,9 +177,9 @@
       "no_results": "Keine Produkte entsprechen diesen Filtern.",
       "price_range_to": "zu",
       "price_filter_from": "Ab Preis",
-      "price_filter_to": "Zu bewerten",
+      "price_filter_to": "Zum Preis",
       "price_filter": "{{ min_price }} - {{ max_price }}",
-      "availability_label": "Nur vorrätig"
+      "availability_label": "Nur auf Lager"
     }
   },
   "blog": {
@@ -217,7 +217,9 @@
       "email": "E-Mail",
       "message": "Nachricht",
       "submit": "Nachricht senden",
-      "success_message": "Ihre Nachricht wurde gesendet."
+      "success_message": "Ihre Nachricht wurde gesendet.",
+      "question": "Fragen",
+      "product_name": "Produktname"
     }
   },
   "customer": {
@@ -362,7 +364,7 @@
       "country": "Land",
       "province": "Provinz",
       "zip": "Postleitzahl",
-      "estimate": "Schätzung",
+      "estimate": "Schätzen",
       "no_results": "Entschuldigung, wir liefern nicht an Ihre Adresse.",
       "one_result": "Für Ihre Adresse gilt ein einheitlicher Versandtarif:",
       "multiple_results": "Für Ihre Adresse gibt es mehrere Versandtarife:",

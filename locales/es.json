@@ -177,9 +177,9 @@
       "no_results": "No hay productos que coincidan con esos filtros.",
       "price_range_to": "a",
       "price_filter_from": "Desde el precio",
-      "price_filter_to": "Para fijar el precio",
+      "price_filter_to": "Para cotizar",
       "price_filter": "{{ min_price }}-{{ max_price }}",
-      "availability_label": "Solo en existencia"
+      "availability_label": "Solo en stock"
     }
   },
   "blog": {
@@ -217,14 +217,16 @@
       "email": "Correo electrónico",
       "message": "Mensaje",
       "submit": "Enviar mensaje",
-      "success_message": "Tu mensaje ha sido enviado."
+      "success_message": "Tu mensaje ha sido enviado.",
+      "question": "Preguntas",
+      "product_name": "Nombre del producto"
     }
   },
   "customer": {
     "account": {
       "welcome": "Bienvenido, {{first_name}}",
       "tagline": "Ver todos tus pedidos y administrar la información de tu cuenta.",
-      "orders": "Pedidos",
+      "orders": "Órdenes",
       "addresses": "Direcciones",
       "logout": "Cerrar sesión",
       "no_orders": "Aún no has realizado ningún pedido.",
@@ -257,7 +259,7 @@
     },
     "activate_account": {
       "title": "Activar cuenta",
-      "instructions": "Introduzca una contraseña para crear su cuenta:",
+      "instructions": "Introduce una contraseña para crear tu cuenta:",
       "password": "Contraseña",
       "password_confirmation": "Confirmación de contraseña",
       "submit": "Activar",
@@ -350,7 +352,7 @@
       "change_quantity": "Cambiar cantidad",
       "increase_quantity": "Aumentar cantidad",
       "decrease_quantity": "Disminuir cantidad",
-      "remove": "Quitar",
+      "remove": "Eliminar",
       "remove_with_title": "Eliminar {{ title }}"
     },
     "free_shipping_bar": {
@@ -365,8 +367,8 @@
       "estimate": "Estimación",
       "no_results": "Lo sentimos, no realizamos envíos a su dirección.",
       "one_result": "Hay una tarifa de envío para su dirección:",
-      "multiple_results": "Hay varias tarifas de gastos de envío para tu dirección:",
-      "error": "Se produjo un error al recuperar las tarifas de gastos de envío:"
+      "multiple_results": "Hay varias tarifas de envío para su dirección:",
+      "error": "Se produjo uno o más errores al obtener las tarifas de envío:"
     }
   },
   "search": {
