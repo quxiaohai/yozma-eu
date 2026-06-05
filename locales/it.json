@@ -796,7 +796,7 @@
       },
       "remote_merchandise_only": {
         "title": "Completa il tuo acquisto",
-        "remote_only_notice": "Questi articoli sono venduti e spediti da altri negozi. Completa l'acquisto separatamente presso ciascun negozio.",
+        "remote_only_notice": "Questi articoli sono venduti e spediti da altri negozi. Effettua il pagamento separatamente per ogni negozio per completare l'acquisto.",
         "return_to_store_label": "Torna al negozio",
         "checkout_on_shop_label": "Procedi al pagamento su %{shop_name}",
         "single_shop_transition": "Reindirizzandoti a %{advertiser} per completare il tuo acquisto."
@@ -1116,7 +1116,7 @@
         "add_address": "Usa un indirizzo diverso",
         "address_confirm": "Sei sicuro di voler eliminare questo indirizzo dal tuo account?",
         "address_form": {
-          "generic_error": "Si è verificato un problema nel salvare il tuo indirizzo. Riprova.",
+          "generic_error": "Si è verificato un problema durante il salvataggio del tuo indirizzo. Riprova.",
           "one_time_address_subtitle": "Usa un indirizzo usa e getta per questo ordine"
         },
         "different_shipping_method_summary": "Inserisci un indirizzo di spedizione diverso per vedere i metodi di spedizione disponibili",
@@ -1565,7 +1565,7 @@
           "not_available": "Questa carta regalo non è più disponibile",
           "invalid": "Inserisci una carta regalo valida",
           "currency_mismatch": "Sono accettate solo le carte regalo in %{shop_currency}",
-          "generic": "La carta regalo non può essere aggiunta al pagamento",
+          "generic": "La carta regalo non può essere aggiunta al checkout",
           "no_longer_available": "Questa carta regalo non può più essere utilizzata con questo pagamento"
         }
       },
@@ -1675,14 +1675,14 @@
         "continue_to_payment_gateway_button_label": "Continua al pagamento",
         "continue_to_payment_gateway_notice_error": "Le informazioni di pagamento non possono essere verificate.",
         "continue_to_payment_gateway_button_label_error": "Aggiorna le informazioni di pagamento",
-        "page_title": "Elaborazione dell'ordine",
-        "title": "Elaborazione dell'ordine",
-        "you_will_receive_confirmation": "Stiamo ricevendo molti ordini in questo momento. Dovresti ricevere conferma via email o messaggio presto. Se non la ricevi entro un'ora, faccelo sapere.",
-        "you_will_not_be_charged": "Non ti verrà addebitato nulla per ora",
+        "page_title": "Elaborazione ordine",
+        "title": "Elaborazione ordine",
+        "you_will_receive_confirmation": "Stiamo ricevendo molti ordini in questo momento. Dovresti ricevere una conferma via email o SMS a breve. Se non la ricevi entro un'ora, faccelo sapere.",
+        "you_will_not_be_charged": "Non ti verrà ancora addebitato nulla",
         "wait": {
           "medium": {
-            "one": "Il tuo ordine è in elaborazione. Il tempo di attesa stimato è di %{count} minuto.",
-            "other": "Il tuo ordine è in elaborazione. Il tempo di attesa stimato è di %{count} minuti."
+            "one": "Il tuo ordine è in fase di elaborazione. Il tempo di attesa stimato è di %{count} minuto.",
+            "other": "Il tuo ordine è in fase di elaborazione. Il tempo di attesa stimato è di %{count} minuti."
           },
           "long": "Riceverai un'email non appena il tuo ordine sarà elaborato. Attualmente c'è un alto volume di ordini.",
           "refresh_this_page": "aggiorna questa pagina"
@@ -1985,22 +1985,22 @@
         "review_title": "Completa il tuo ordine",
         "review_and_confirm_title": "Rivedi e conferma",
         "checkout_as_guest": "Procedi come ospite",
-        "checkout_a_different_way": "Prova un modo diverso",
+        "checkout_a_different_way": "Scopri un modo diverso",
         "blocks": {
           "change_contact_method_link_label": "Modifica le informazioni di contatto",
           "change_billing_address_link_label": "Cambia indirizzo di fatturazione",
           "change_shipping_address_link_label": "Cambia indirizzo di spedizione",
           "change_shipping_method_link_label": "Cambia metodo di spedizione",
           "change_payment_method_link_label": "Cambia metodo di pagamento",
-          "purchase_order_number_title": "Numero d'ordine",
-          "change_purchase_order_number_label": "Cambia il numero dell'ordine",
+          "purchase_order_number_title": "Numero d'ordine PO",
+          "change_purchase_order_number_label": "Cambia numero PO",
           "no_address": "(Senza indirizzo)",
           "no_purchase_order_number": "(Nessun numero PO)",
-          "due_after_order_reviewed_html": "Due dopo che l'ordine è stato esaminato",
+          "due_after_order_reviewed_html": "Dovuto dopo la revisione dell'ordine",
           "company_location": "Sede dell'azienda",
           "pickup_items_at": {
             "one": "Ritira %{count} articolo presso",
-            "other": "Ritira %{count} articoli presso"
+            "other": "Ritira %{count} articoli a"
           }
         },
         "block_title": "Rivedi le tue informazioni",
@@ -2150,7 +2150,7 @@
         "network_failure": "Il tuo ordine non è stato inviato a causa di un errore di rete. Controlla la tua connessione e riprova."
       },
       "session_errors": {
-        "session_not_unique": "C'è stato un problema nell'elaborazione del tuo ordine. Ricarica questa pagina per tornare al negozio.",
+        "session_not_unique": "Si è verificato un problema durante l'elaborazione del tuo ordine. Ricarica questa pagina per tornare al negozio.",
         "session_already_finished": "Questo ordine è già stato inviato. Puoi tornare al negozio per iniziare un nuovo ordine."
       },
       "artifact_errors": {
@@ -2500,7 +2500,7 @@
       },
       "required_extensions": {
         "errors": {
-          "interaction_required": "È necessaria un'interazione di estensione per completare il pagamento."
+          "interaction_required": "È necessaria un'interazione con l'estensione per completare il pagamento."
         }
       },
       "taxes": {

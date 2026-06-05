@@ -116,13 +116,13 @@
     },
     "price": {
       "regular_price": "Reguliere prijs",
-      "sale_price": "Aanbiedingsprijs",
+      "sale_price": "Verkoopprijs",
       "from_price_html": "Vanaf {{ price_min }}"
     },
     "quantity": {
       "label": "Aantal",
       "increase_quantity": "Aantal verhogen",
-      "decrease_quantity": "Aantal verminderen",
+      "decrease_quantity": "Aantal verlagen",
       "minimum_of": "Minimaal {{ min }}",
       "maximum_of": "Maximum van {{ max }}",
       "increment_of": "Toename van {{ step }}"
@@ -150,8 +150,8 @@
       "view_store_info": "Bekijk winkelinformatie",
       "check_other_stores": "Controleer beschikbaarheid bij andere winkels",
       "pick_up_available": "Afhalen mogelijk",
-      "pick_up_currently_unavailable": "Ophalen momenteel niet beschikbaar",
-      "pick_up_available_at": "Afhalen mogelijk bij {{ location_name }}",
+      "pick_up_currently_unavailable": "Afhalen momenteel niet beschikbaar",
+      "pick_up_available_at": "Afhalen beschikbaar bij {{ location_name }}",
       "pick_up_unavailable_at": "Afhalen momenteel niet beschikbaar bij {{ location_name }}"
     }
   },
@@ -376,15 +376,15 @@
     "general": {
       "title": "Zoeken",
       "terms": "Resultaten voor \"{{ terms }}\"",
-      "search_placeholder": "Zoek naar...",
+      "search_placeholder": "Zoeken naar...",
       "products": "Producten",
       "suggestions": "Suggesties",
       "collections": "Collecties",
       "posts": "Blogberichten",
       "pages": "Pagina's",
       "clear": "Wissen",
-      "view_all": "Alles weergeven",
-      "view_all_results": "Alle resultaten weergeven",
+      "view_all": "Bekijk alles",
+      "view_all_results": "Bekijk alle resultaten",
       "no_results": "Er konden geen resultaten worden gevonden."
     },
     "results_count": {
@@ -2618,8 +2618,8 @@
     "addresses": {
       "pincode": "Pincode",
       "state_and_territory": "Staat/gebied",
-      "county": "Graafschap",
-      "confirm": "Weet u zeker dat u dit adres wilt verwijderen?"
+      "county": "County",
+      "confirm": "Weet je zeker dat je dit adres wilt verwijderen?"
     },
     "collections": {
       "sorting": {
@@ -3835,6 +3835,13 @@
           "invalid_code": "Voer de juiste 6-cijferige code in"
         }
       }
+    }
+  },
+  "products": {
+    "product": {
+      "photos": "Foto's",
+      "video": "Video",
+      "3d": "3D"
     }
   }
 }
