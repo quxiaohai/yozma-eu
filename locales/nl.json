@@ -957,7 +957,7 @@
         "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> kortingscode is momenteel niet voor jou beschikbaar",
         "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> kortingscode vereist een in aanmerking komende klant",
         "shipping_information_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> kortingscode is niet beschikbaar voor uw verzendadres",
-        "subtotal_label": "Tussentotaal",
+        "subtotal_label": "Subtotaal",
         "pickup_unavailable_banner_title": {
           "one": "Geen winkels beschikbaar met uw artikel",
           "other": "Geen winkels beschikbaar met uw artikelen"
@@ -983,7 +983,7 @@
         "total_savings": "Totale besparingen",
         "total_due_label": "Totaal te betalen",
         "deposit_label": "Storting",
-        "total_due_today_label": "Totaal vandaag te betalen",
+        "total_due_today_label": "Totaal te betalen vandaag",
         "total_due_later_label": "Totaal later te betalen",
         "payment_due_label": "Betaling verschuldigd",
         "vat_label_html": "Inclusief %{amount} aan belastingen",
@@ -1061,7 +1061,10 @@
         },
         "gift_card_applied": "Cadeaukaart toegepast",
         "scroll_order_summary": "Scroll voor meer items",
-        "sale_price": "Verkoopprijs"
+        "sale_price": "Verkoopprijs",
+        "tax_line": {
+          "gst": "btw"
+        }
       },
       "shipping": {
         "shipping_method_title": "Verzendmethode",
@@ -1248,10 +1251,10 @@
       "payment": {
         "network_card_payment_options": "Kies een kaartnetwerk",
         "network_card_persistence_description": "Het gekozen netwerk wordt opgeslagen bij uw betaalmethode voor toekomstige aankopen.",
-        "amazon_payments_label": "Amazon Betalen",
+        "amazon_payments_label": "Amazon Pay",
         "amazon_payments_login_hint": "Je wordt gevraagd om in te loggen met Amazon.",
         "amazon_payments_logout": "Afmelden bij Amazon Pay",
-        "amazon_payments_failed_mfa_challenge": "De gekozen betaalmethode kon niet worden gebruikt. Kies een andere methode of neem contact op met uw bank of kaartuitgever.",
+        "amazon_payments_failed_mfa_challenge": "De geselecteerde betaalmethode kon niet worden gebruikt. Kies een andere methode of neem contact op met uw bank of kaartuitgever.",
         "amazon_payments_abandoned_mfa_challenge": "Uw betaling kon niet worden voltooid. Probeer een andere betaalmethode of neem contact op met uw bank of kaartuitgever.",
         "amazon_payments_could_not_enqueue_authorize": "Er was een probleem bij het verwerken van uw betaling. Probeer het opnieuw of gebruik een andere betaalmethode.",
         "amount_left_to_pay_label": "Betaling verschuldigd:",
@@ -1350,7 +1353,7 @@
         "multibanco_label": "Multibank",
         "eps_label": "eps-overschrijving",
         "klarna_slice_it_label": "Financiering met Klarna",
-        "afterpay_label": "Achteraf betalen",
+        "afterpay_label": "Afterpay",
         "cashapppay_label": "Cash App Betalen",
         "swish_label": "Zwijgzaam",
         "grabpay_label": "PakBetalen",
@@ -1491,7 +1494,7 @@
         "purchase_order_number": {
           "title": "PO-nummer"
         },
-        "alternative_payment_currency_total_notice": "Opmerking: er wordt %{amount_due} in rekening gebracht.",
+        "alternative_payment_currency_total_notice": "Opmerking: u wordt %{amount_due} in rekening gebracht.",
         "alternative_payment_currency_total_manual_payment_notice": "Opmerking: het omgerekende totaalbedrag is %{amount_due}.",
         "waiting_on_taxes_message": "Als uw belastingen niet binnen enkele seconden worden berekend, vernieuw dan de pagina.",
         "payment_method_rollup_accessibility_label": "Betaalmethoden opties",
