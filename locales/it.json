@@ -1264,7 +1264,7 @@
         "generic_incorrect_card_info": "I dettagli del tuo pagamento non possono essere verificati. Controlla i dati della tua carta e riprova.",
         "sofort_label": "Bonifico bancario immediato",
         "paypal_wallet_label": "Portafoglio PayPal",
-        "shop_pay_installments_label": "Rate Shop Pay",
+        "shop_pay_installments_label": "Pagamenti rateali con Shop Pay",
         "default": "Predefinito",
         "continue_to_guest_checkout": "Continua come ospite al pagamento",
         "paypal_modal": {
@@ -1277,15 +1277,15 @@
         "afterpay_label": "Dopo pagamento",
         "cashapppay_label": "Cash App Paga",
         "blik_label": "BLIK",
-        "twint_label": "DOPPIO GEMELLO",
-        "swish_label": "Fruscio",
+        "twint_label": "TWINT",
+        "swish_label": "Swish",
         "grabpay_label": "GrabPay",
         "kcp_creditcard_label": "Carta di Credito KCP",
-        "usdc_cashback_additional_info": "Ricevi indietro %{incentive_percentage}% in USDC su Base entro 30 giorni, fino a 100 USDC.",
-        "usdc_cashback_terms": "Si applicano i termini",
+        "usdc_cashback_additional_info": "Paga con USDC su Base e ricevi %{incentive_percentage}% indietro nel tuo portafoglio entro 30 giorni.",
+        "usdc_cashback_terms": "Si applicano termini e limiti",
         "purchase_options_card_update_agreement_label_html": "Aggiornando il metodo di pagamento, autorizzi i pagamenti per qualsiasi acquisto ricorrente o differito secondo la <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">politica di cancellazione</a> di questo negozio.",
         "subscription_card_update_agreement_label": "Modificare il metodo di pagamento aggiornerà il tuo abbonamento e i pagamenti ricorrenti futuri.",
-        "subscription_agreement_label": "Uno o più articoli nel tuo carrello sono un acquisto differito o in abbonamento. Continuando con il pagamento, accetti che il tuo metodo di pagamento venga addebitato automaticamente al prezzo e con la frequenza indicati in questa pagina fino alla fine o alla cancellazione. Tutte le cancellazioni sono soggette al %{cancelled}.",
+        "subscription_agreement_label": "Uno o più articoli nel tuo carrello sono un acquisto differito o in abbonamento. Continuando con il pagamento, accetti che il tuo metodo di pagamento venga addebitato automaticamente al prezzo e con la frequenza indicati in questa pagina fino al termine o alla cancellazione. Tutte le cancellazioni sono soggette al %{cancelled}.",
         "subscription_agreement_cancelled": "politica di cancellazione",
         "subscription_heading": "Contratto di abbonamento",
         "subscription_agreement_label_html": "Capisco che sto accettando un abbonamento. Si rinnoverà al prezzo e con la frequenza indicati fino a quando non terminerà o sarà\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">annullato</a>.",
@@ -1320,15 +1320,15 @@
         },
         "order_covered_by_store_credit_notice": "Il tuo ordine è coperto dal credito del negozio.",
         "store_credit": {
-          "apply_label": "Applica il credito del negozio",
+          "apply_label": "Applica credito in negozio",
           "add_label": "Aggiungi credito negozio",
           "manage_label": "Gestisci il credito del negozio",
           "buying_gift_card": "Non puoi usare il credito del negozio per acquistare una carta regalo",
           "no_fixed_selling_plans": "Non puoi utilizzare il credito del negozio con le opzioni di acquisto differito"
         },
         "use_order_billing_address_label": "Usa l'indirizzo di fatturazione dell'ordine",
-        "use_location_billing_address_label": "Usa l'indirizzo di fatturazione della località",
-        "use_location_shipping_address_label": "Usa l'indirizzo di spedizione della località",
+        "use_location_billing_address_label": "Usa l'indirizzo di fatturazione della posizione",
+        "use_location_shipping_address_label": "Usa l'indirizzo di spedizione della posizione",
         "no_working_method_error": "Questo negozio non può accettare pagamenti in questo momento. Ricarica questa pagina o torna più tardi.",
         "brand_not_available": "Questo negozio non accetta {{brand}}. Usa una carta diversa per pagare.",
         "shipping_rate_updated": "I metodi di spedizione disponibili sono stati aggiornati. Conferma la tua scelta prima di procedere al pagamento.",
@@ -1349,7 +1349,7 @@
           }
         },
         "simulated_checkout": "Anteprima in arrivo presto",
-        "simulated_express_checkout": "I portafogli non sono disponibili nell'anteprima dell'editor a causa della tua regione o del tuo browser",
+        "simulated_express_checkout": "I portafogli non sono disponibili nell'anteprima dell'editor a causa della tua regione o del browser utilizzato",
         "vaulting_agreement_label": "Salva le mie informazioni di pagamento con %{company} per un checkout più veloce.",
         "business_customer_vaulting_payment_label": "Salva questo metodo di pagamento al momento del pagamento e autorizza %{company} a addebitare l'importo per acquisti futuri in questa sede. Tutti i contatti assegnati a questa sede possono utilizzare il metodo di pagamento.",
         "business_customer_with_bank_account_vaulting_payment_label": "Salva questo metodo di pagamento al momento del checkout e autorizza %{company} a addebitare il tuo conto per gli acquisti futuri che approvi per questa sede, fino a quando non annulli. Tutti i contatti assegnati a questa sede possono utilizzare il metodo di pagamento.",
@@ -1439,7 +1439,12 @@
         "purchase_options_subscription_agreement_label": "Il tuo carrello contiene un abbonamento a rinnovo automatico. Cliccando su \"%{button_label},\" %{consent_text} %{cancellation_instructions}",
         "purchase_options_subscription_consent_text": "accetti espressamente e in modo affermativo che ti verrà addebitato automaticamente l'importo ricorrente indicato nel tuo carrello (più spedizione e tasse) fino alla fine dell'abbonamento o alla cancellazione.",
         "purchase_options_subscription_cancellation_instructions": "%{cancel_text} Si prega di consultare il %{cancellation_policy_label}.",
-        "purchase_options_subscription_cancel_text": "Puoi cancellare in qualsiasi momento accedendo al tuo account o contattando il negozio."
+        "purchase_options_subscription_cancel_text": "Puoi cancellare in qualsiasi momento accedendo al tuo account o contattando il negozio.",
+        "usdc_cashback_title": "%{incentive_percentage}% cashback",
+        "vault_for_payment_later": {
+          "pay_button_label": "Effettua l'ordine",
+          "notice": "Non ti verrà addebitato nulla ora. Continuando con il pagamento, accetti che il tuo metodo di pagamento venga addebitato quando il tuo ordine sarà elaborato."
+        }
       },
       "billing": {
         "billing_address_title": "Fatturare a",

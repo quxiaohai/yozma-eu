@@ -185,25 +185,25 @@
   "blog": {
     "general": {
       "empty_blog": "Deze blog is leeg",
-      "back_to_home": "Terug naar startpagina",
-      "view": "Bekijken",
+      "back_to_home": "Terug naar home",
+      "view": "Bekijk",
       "all_posts": "Alle berichten"
     },
     "post": {
       "written_by": "Door {{ author }}",
       "share": "Delen",
-      "tags": "Labels",
-      "continue_reading": "Lezen volgende"
+      "tags": "Tags",
+      "continue_reading": "Volgende lezen"
     },
     "comments": {
       "leave_comment": "Laat een reactie achter",
-      "moderated": "Alle opmerkingen worden gematigd voordat ze worden gepubliceerd.",
+      "moderated": "Alle reacties worden gemodereerd voordat ze worden gepubliceerd.",
       "name": "Naam",
       "email": "E-mail",
       "message": "Bericht",
       "submit": "Verzenden",
-      "comment_sent": "Je opmerking is verzonden. We zullen deze over een tijdje publiceren, aangezien onze blog gemodereerd is.",
-      "comment_published": "Uw opmerking is gepubliceerd.",
+      "comment_sent": "Je reactie is verzonden. We zullen deze binnenkort publiceren, aangezien onze blog wordt gemodereerd.",
+      "comment_published": "Je reactie is gepubliceerd.",
       "count": {
         "zero": "{{ count }} reacties",
         "one": "{{ count }} opmerking",
@@ -324,12 +324,12 @@
       "empty": "Je winkelwagen is leeg",
       "item_count": {
         "one": "{{ count }} artikel",
-        "other": "{{ count }} artikelen",
-        "zero": "{{ count }} artikelen"
+        "other": "{{ count }} items",
+        "zero": "{{ count }} items"
       },
       "continue_shopping": "Doorgaan met winkelen",
       "weight": "Gewicht",
-      "subtotal": "Tussentotaal",
+      "subtotal": "Subtotaal",
       "total": "Totaal",
       "add_order_note": "Voeg bestelnotitie toe",
       "edit_order_note": "Bewerk bestelnotitie",
@@ -340,7 +340,7 @@
       "we_accept": "Wij accepteren",
       "taxes_and_shipping_policy_at_checkout_html": "Belastingen en <a href=\"{{ link }}\" class=\"link\">verzending</a> worden berekend bij het afrekenen",
       "taxes_included_but_shipping_at_checkout": "Belastingen inbegrepen en verzendkosten worden berekend bij het afrekenen",
-      "taxes_included_and_shipping_policy_html": "Inclusief belasting. <a href=\"{{ link }}\" class=\"link\">Verzending</a> wordt berekend bij het afrekenen.",
+      "taxes_included_and_shipping_policy_html": "Belastingen inbegrepen. <a href=\"{{ link }}\" class=\"link\">Verzending</a> wordt berekend bij het afrekenen.",
       "taxes_and_shipping_at_checkout": "Belastingen en verzendkosten worden berekend bij het afrekenen"
     },
     "order": {
@@ -349,7 +349,7 @@
       "quantity": "Aantal",
       "change_quantity": "Aantal wijzigen",
       "increase_quantity": "Aantal verhogen",
-      "decrease_quantity": "Aantal verminderen",
+      "decrease_quantity": "Aantal verlagen",
       "remove": "Verwijderen",
       "remove_with_title": "Verwijder {{ title }}"
     },
@@ -432,12 +432,12 @@
   },
   "apps": {
     "shopify_reviews": {
-      "review_info": "Dit product heeft een beoordeling van {{ rating_value }} van {{ rating_max }} sterren.",
-      "leave_review": "Laat een recensie achter",
+      "review_info": "Dit product heeft een beoordeling van {{ rating_value }} van de {{ rating_max }} sterren.",
+      "leave_review": "Laat een beoordeling achter",
       "review_count": {
-        "zero": "Dit product heeft nog geen recensies.",
-        "one": "Het heeft {{ count }} recensie gekregen.",
-        "other": "Het heeft {{ count }} recensies gekregen."
+        "zero": "Dit product heeft nog geen beoordelingen.",
+        "one": "Het heeft {{ count }} beoordeling ontvangen.",
+        "other": "Het heeft {{ count }} beoordelingen ontvangen."
       }
     }
   },

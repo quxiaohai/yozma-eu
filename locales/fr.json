@@ -1140,8 +1140,8 @@
         }
       },
       "shipping": {
-        "shipping_method_title": "Mode d'expédition",
-        "shipping_method_rollup_accessibility_label": "Options de mode d'expédition",
+        "shipping_method_title": "Méthode d'expédition",
+        "shipping_method_rollup_accessibility_label": "Options de méthode d'expédition",
         "shipping_method_first_shipment_group_title": {
           "one": "Première expédition",
           "other": "Premières expéditions"
@@ -1182,7 +1182,7 @@
           "other": "Expédié sous %{count} semaines"
         },
         "shipping_line_phone_label": "Numéro de téléphone portable (obligatoire)",
-        "shipping_line_phone": "Votre livreur peut utiliser ce numéro pour vous contacter.",
+        "shipping_line_phone": "Votre coursier peut utiliser ce numéro pour vous contacter.",
         "shipping_line_delivery_phone_label": "Numéro de téléphone mobile",
         "shipping_line_delivery_phone": "Vous pourriez être contacté pour des mises à jour concernant votre livraison.",
         "optional_shipping_line_delivery_instructions_label": "Instructions de livraison (optionnel)",
@@ -1204,11 +1204,11 @@
             "other": "Livraison gratuite pour %{count} livraisons"
           },
           "first_n_order_free_with_cycle": {
-            "one": "Livraison gratuite pour %{count} livraisons supplémentaires, puis %{recurring_order_shipping_price}",
+            "one": "Livraison gratuite pour %{count} livraison(s) supplémentaire(s), puis %{recurring_order_shipping_price}",
             "other": "Livraison gratuite pour %{count} livraisons supplémentaires, puis %{recurring_order_shipping_price}"
           },
           "first_n_order_free_with_cycle_delivery_not_included": {
-            "one": "Livraison gratuite pour %{count} livraisons, puis %{recurring_order_shipping_price}",
+            "one": "Livraison gratuite pour %{count} livraison, puis %{recurring_order_shipping_price}",
             "other": "Livraison gratuite pour %{count} livraisons, puis %{recurring_order_shipping_price}"
           },
           "max_cycles_base_shipping": {
@@ -1266,7 +1266,7 @@
         },
         "one_time_purchase_shipping": "Expédition unique",
         "duties_and_taxes_title": "Droits et taxes",
-        "shipping_information_required_notice": "Les informations de livraison sont obligatoires. {{link}}.",
+        "shipping_information_required_notice": "Les informations de livraison sont requises. {{link}}.",
         "shipping_information_redirect_link": "Entrez vos informations ici",
         "loading_progressive_rates": "Recherche de plus de tarifs…",
         "no_other_methods_available": "Aucune autre méthode disponible",
@@ -1274,7 +1274,7 @@
           "ddu_caption": "Des frais supplémentaires peuvent s'appliquer",
           "ddp_caption": "Pas de frais supplémentaires à la livraison"
         },
-        "shipping_used_as_billing_notice": "Cela servira également d'adresse de facturation pour cette commande.",
+        "shipping_used_as_billing_notice": "Cela sera également utilisé comme votre adresse de facturation pour cette commande.",
         "address_update": "Mettre à jour l'adresse",
         "shipping_address_rollup_accessibility_label": "Options d'adresse de livraison",
         "third_party_address_timeout": "Impossible de charger les adresses. Réessayez ou utilisez une autre adresse.",
@@ -1314,12 +1314,14 @@
         "split_shipping_first_shipment_notice": "Votre première commande arrivera en %{quantity_shipments}",
         "split_shipping_multiple_shipment_quantity_label": "%{quantity} expéditions",
         "split_shipping_multiple_shipment_notice_one_time_purchase": "Votre commande arrivera en %{quantity} livraisons",
-        "split_shipping_more_shipping_options": "Plus d'options d'expédition",
+        "split_shipping_more_shipping_options": "Plus d'options de livraison",
         "split_shipping_shipment_number": "Expédition %{number}",
         "split_shipping_merchandise_quantity_label_inline_primary": "Quantité : %{quantity}",
         "split_shipping_option_free": "Livraison gratuite",
         "split_shipping_option_custom": "Personnalisé",
-        "choose_new_address": "Choisissez une nouvelle adresse"
+        "choose_new_address": "Choisissez une nouvelle adresse",
+        "shipping_address_title": "Livrer à",
+        "split_shipping_multiple_shipment_notice": "Votre commande arrivera en plusieurs livraisons"
       },
       "localized_fields": {
         "additional_information": {

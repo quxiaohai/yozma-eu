@@ -2310,8 +2310,9 @@
         "description": "Zeigen Sie Ihre Unterstützung für das Team bei %{shop_name}",
         "presets_description": "Wählen Sie einen Trinkgeldprozentsatz aus",
         "custom_label": "Benutzerdefinierte Spitze",
-        "update_tip": "Aktualisierungshinweis",
-        "message": "Danke, wir wissen das zu schätzen."
+        "update_tip": "Aktualisierungstipp",
+        "message": "Danke, wir wissen das zu schätzen.",
+        "not_available_with_spi": "Nicht verfügbar mit Shop Pay Ratenzahlung"
       },
       "open_graph_meta_tag": {
         "title_with_products": {
@@ -2660,7 +2661,7 @@
             "stock_problems": "Einige Artikel sind nicht mehr verfügbar. Schließen Sie {{walletName}} und versuchen Sie es erneut.",
             "price_change": "Einige Artikelpreise haben sich geändert. Schließen Sie {{walletName}}, um Ihre Bestellung zu überprüfen und es erneut zu versuchen.",
             "queue": "Sie wurden in eine Warteschlange zum Bezahlen eingereiht. Schließen Sie {{walletName}}, um fortzufahren.",
-            "currency_change": "Du kannst keine andere Adresse mit {{walletName}} verwenden. Nutze die ursprüngliche Adresse oder probiere eine andere Zahlungsmethode."
+            "currency_change": "Sie können mit {{walletName}} keine andere Adresse verwenden. Verwenden Sie die ursprüngliche Adresse oder probieren Sie eine andere Zahlungsmethode."
           },
           "unsupported": {
             "address": "Der Händler kann an diese Adresse nicht liefern",
@@ -2702,10 +2703,11 @@
             "phone": "Geben Sie eine Telefonnummer ein"
           },
           "formatting": {
-            "name_contains_emojis": "Lösche das Emoji aus deinem Namen",
-            "postal_code_contains_emoji": "Lösche Emojis aus deiner Postleitzahl",
+            "name_contains_emojis": "Entferne Emojis aus deinem Namen",
+            "postal_code_contains_emoji": "Entfernen Sie Emojis aus Ihrer Postleitzahl",
             "first_name_too_long": "Der Vorname enthält zu viele Buchstaben",
-            "last_name_too_long": "Der Nachname enthält zu viele Buchstaben"
+            "last_name_too_long": "Der Nachname enthält zu viele Buchstaben",
+            "address_too_long": "Die Adresszeile ist zu lang"
           },
           "select_different_shipping_address_to_resolve_errors": "Ihre Lieferadresse ist ungültig. Wählen Sie eine andere Adresse oder verwenden Sie eine neue.",
           "processing_error_checkout_as_guest": "Bei der Verarbeitung Ihrer Zahlung ist ein Problem aufgetreten. Versuchen Sie es erneut oder {{checkout_as_guest_link}}."
@@ -2742,10 +2744,11 @@
         }
       },
       "units": {
-        "centiliter": "kl",
-        "ounce": "Unze",
-        "pound": "Pfund",
-        "gallon": "Liter"
+        "centiliter": "cl",
+        "ounce": "oz",
+        "pound": "lb",
+        "gallon": "gal",
+        "liter": "L"
       },
       "memberships": {
         "delivery_promise_unfulfillable": "Die Adresse wird für die aktuelle Mitgliedschaft nicht unterstützt.",
@@ -2761,7 +2764,7 @@
       },
       "too_many_requests": {
         "title": "Zu viele Versuche beim Bezahlen",
-        "body": "Bitte warten Sie einige Minuten und versuchen Sie es erneut von Ihrem Warenkorb aus.",
+        "body": "Bitte warten Sie ein paar Minuten und versuchen Sie es erneut aus Ihrem Warenkorb.",
         "body_no_cart": "Bitte warten Sie ein paar Minuten und versuchen Sie es erneut."
       },
       "required_extensions": {
