@@ -2314,7 +2314,8 @@
         "description": "Montrez votre soutien à l'équipe de %{shop_name}",
         "custom_label": "Pointe personnalisée",
         "update_tip": "Conseil de mise à jour",
-        "message": "Merci, nous vous en sommes reconnaissants."
+        "message": "Merci, nous vous en sommes reconnaissants.",
+        "not_available_with_spi": "Non disponible avec les paiements échelonnés Shop Pay"
       },
       "open_graph_meta_tag": {
         "title_with_products": {
@@ -2660,14 +2661,14 @@
             "title": "{{walletName}} non disponible",
             "description": "{{walletName}} n’était pas disponible. Utilisez un autre mode de paiement ou réessayez plus tard.",
             "instructions": "Un problème est survenu avec {{walletName}}. Retournez au magasin pour réessayer ou choisissez un autre mode de paiement.",
-            "unavailable_for_country": "{{walletName}} n'est pas disponible en {{countryName}}. Sélectionnez un autre mode de paiement pour finaliser votre achat"
+            "unavailable_for_country": "{{walletName}} n'est pas disponible dans {{countryName}}. Sélectionnez un autre mode de paiement pour finaliser votre achat"
           },
           "unavailable_terminal": {
-            "instructions": "{{walletName}} n’est actuellement pas disponible pour votre commande. Pour poursuivre votre achat, choisissez une autre méthode de paiement."
+            "instructions": "{{walletName}} n'est actuellement pas disponible pour votre commande. Pour continuer votre achat, choisissez une autre méthode de paiement."
           },
-          "generic": "Un problème est survenu avec {{walletName}}. Réessayez ou utilisez un autre mode de paiement.",
+          "generic": "Il y a eu un problème avec {{walletName}}. Réessayez ou utilisez un autre mode de paiement.",
           "discount_code": "Impossible d'appliquer ce code de réduction. Vérifiez votre code et réessayez.",
-          "terminal": "Un problème est survenu avec {{walletName}}. Utilisez un autre mode de paiement.",
+          "terminal": "Il y a eu un problème avec {{walletName}}. Utilisez un autre mode de paiement.",
           "detour": {
             "price_change": "Certains prix des articles ont changé. Fermez {{walletName}} pour revoir votre commande et réessayez.",
             "queue": "Vous avez été placé dans une file d'attente pour le paiement. Fermez {{walletName}} pour continuer.",
@@ -2679,45 +2680,48 @@
             "postal_code": "Cet emplacement n'est pas pris en charge"
           },
           "outdated": {
-            "shipping_method": "Les options de livraison ont changé pour votre commande. Veuillez revoir votre choix.",
+            "shipping_method": "Les options de livraison ont changé pour votre commande. Veuillez revoir votre sélection.",
             "payment_terms": "Les conditions de paiement ont changé. Veuillez vérifier votre commande"
           },
           "invalid": {
             "shipping_address": "Entrez une adresse de livraison valide",
             "billing_address": "Entrez une adresse de facturation valide",
-            "shipping_option": "Choisissez une option d'expédition valide",
-            "email": "Entrez une adresse courriel valide",
+            "shipping_option": "Choisissez une option de livraison valide",
+            "email": "Entrez une adresse e-mail valide",
             "zone": "Entrez un état / une province valide",
             "billing_zone": "Entrez un état / une province de facturation valide",
             "emirate": "Entrez un émirat valide",
             "postal_code": "Entrez un code postal valide",
             "phone": "Entrez un numéro de téléphone valide",
             "billing_phone": "Entrez un numéro de téléphone valide pour l'adresse de facturation",
-            "reduction_code": "Entrez un code de réduction ou une carte-cadeau valide",
+            "reduction_code": "Entrez un code de réduction ou une carte cadeau valide",
             "billing_must_match_shipping": "Doit correspondre à l'adresse de livraison",
             "billing_zip": "Entrez un code postal / ZIP de facturation valide"
           },
           "missing": {
             "billing_first_name": "Entrez un prénom pour l'adresse de facturation",
             "last_name": "Entrez un nom de famille",
-            "address1": "Saisissez une adresse",
+            "address1": "Entrez une adresse",
             "address2": "Entrez un appartement, une suite, etc.",
-            "billing_address2": "Saisissez un appartement, une suite, etc., pour l'adresse de facturation.",
+            "billing_address2": "Entrez un appartement, une suite, etc. pour l'adresse de facturation.",
             "billing_city": "Entrez une ville pour l'adresse de facturation",
             "province": "Sélectionnez un état / une province",
             "billing_province": "Sélectionnez un état / une province pour l'adresse de facturation",
             "country": "Sélectionnez un pays/région",
-            "billing_zip": "Entrez un code postal / code postal de facturation",
-            "phone": "Entrez un numéro de téléphone"
+            "billing_zip": "Entrez un code postal / ZIP de facturation",
+            "phone": "Entrez un numéro de téléphone",
+            "billing_address1": "Saisir une adresse de facturation",
+            "contact_info": "Saisir les informations de contact"
           },
           "formatting": {
-            "name_contains_emojis": "Supprimez les émoticônes de votre nom",
-            "postal_code_contains_emoji": "Supprimez les émoticônes de votre code postal",
+            "name_contains_emojis": "Supprimez les emojis de votre nom",
+            "postal_code_contains_emoji": "Supprimez les emojis de votre code postal",
             "last_name_too_long": "Le nom de famille contient trop de lettres",
             "address_too_long": "La ligne d'adresse est trop longue"
           },
           "select_different_shipping_address_to_resolve_errors": "Votre adresse de livraison est invalide. Sélectionnez une autre adresse ou utilisez-en une nouvelle.",
-          "processing_error_checkout_as_guest": "Un problème est survenu lors du traitement de votre paiement. Veuillez réessayer ou {{checkout_as_guest_link}}."
+          "processing_error_checkout_as_guest": "Un problème est survenu lors du traitement de votre paiement. Veuillez réessayer ou {{checkout_as_guest_link}}.",
+          "subscription_review_required": "Votre commande inclut un abonnement. Vous devez examiner les conditions ci-dessous avant de finaliser votre commande."
         },
         "scrim": {
           "continue_purchase_in_window": "Continuez votre achat dans la fenêtre {{walletName}}",
@@ -2753,12 +2757,13 @@
       },
       "units": {
         "meter": "moyen",
-        "ounce": "once",
+        "ounce": "oz",
         "fluid_ounce": "fl oz",
-        "pint": "Portugal",
+        "pint": "pt",
         "gallon": "fille",
         "inch": "dans",
-        "foot": "pied"
+        "foot": "pied",
+        "square_foot": "p²"
       },
       "memberships": {
         "delivery_promise_unfulfillable": "L'adresse n'est pas prise en charge pour l'abonnement actuel.",

@@ -1205,11 +1205,11 @@
       },
       "localized_fields": {
         "additional_information": {
-          "tax_credential_br": "BSN/KVK",
+          "tax_credential_br": "CPF/CNPJ",
           "shipping_credential_br": "CPF/CNPJ",
           "shipping_credential_cn": "Inwoners-ID-nummer",
           "tax_credential_it": "Fiscaal nummer (optioneel)",
-          "tax_credential_co": "Identiteitskaart/BTW",
+          "tax_credential_co": "Identificatienummer/BTW",
           "tax_credential_type_co": "Type Identiteitskaart",
           "shipping_credential_co": "Identificatienummer/BTW",
           "shipping_credential_type_co": "Type Identiteitskaart",
@@ -1221,15 +1221,15 @@
           "shipping_credential_gt": "NIT/BTW",
           "tax_credential_my": "TIN/Registratienummer",
           "shipping_credential_my": "TIN/Registratienummer",
-          "tax_credential_type_mx": "Fiscale regeling",
+          "tax_credential_type_mx": "Fiscale Regeling",
           "tax_credential_use_mx": "Gebruik van CFDI",
           "tax_credential_py": "CI/RUC/BTW",
           "shipping_credential_py": "CI/RUC/BTW",
           "tax_credential_pt": "NIF/BTW",
           "shipping_credential_pt": "NIF/BTW",
-          "shipping_credential_tw": "Nationaal identiteitsnummer/btw-nummer",
-          "tax_credential_tr": "Republiek Turkije Identificatienummer/BTW",
-          "shipping_credential_tr": "Republiek Turkije Identificatienummer/BTW"
+          "shipping_credential_tw": "Nationaal ID-nummer/btw-nummer",
+          "tax_credential_tr": "Turkije Republiek Identificatienummer/BTW",
+          "shipping_credential_tr": "Turkije Republiek Identificatienummer/BTW"
         }
       },
       "payment": {
@@ -2061,24 +2061,24 @@
       },
       "marketing": {
         "accept_marketing_checkbox_label": "Stuur mij e-mails met nieuws en aanbiedingen",
-        "post_accept_marketing_checkbox_label": "U bent ingeschreven om e-mailnieuws en aanbiedingen te ontvangen",
-        "pending_accept_marketing_checkbox_label": "Controleer uw e-mail om uw inschrijving op nieuws en aanbiedingen te bevestigen",
+        "post_accept_marketing_checkbox_label": "Je bent geabonneerd om e-mailnieuws en aanbiedingen te ontvangen",
+        "pending_accept_marketing_checkbox_label": "Controleer je e-mail om je abonnement op nieuws en aanbiedingen te bevestigen",
         "accept_sms_checkbox_label": "Stuur me een bericht met nieuws en aanbiedingen",
         "disclaimer": {
-          "terms_of_service": "Gebruiksvoorwaarden"
+          "terms_of_service": "Servicevoorwaarden"
         },
         "sms": {
           "disclaimer": {
-            "terms_of_service": "Gebruiksvoorwaarden",
+            "terms_of_service": "Servicevoorwaarden",
             "description_html": "Door u aan te melden via sms, gaat u akkoord met het ontvangen van terugkerende geautomatiseerde marketingberichten, inclusief winkelwagenherinneringen, op het opgegeven telefoonnummer. Toestemming is geen aankoopvoorwaarde. Antwoord STOP om u af te melden. Antwoord HELP voor hulp. De frequentie van berichten kan variëren. Berichten- en datakosten kunnen van toepassing zijn. Bekijk onze %{privacy_policy_link} en %{terms_of_service_link}.",
-            "description_transactional_html": "U kunt sms-berichten ontvangen over orderbevestiging en verzendupdates. Antwoord STOP om u af te melden. Antwoord HELP voor hulp. De frequentie van berichten kan variëren. Er kunnen kosten voor berichten en data van toepassing zijn. Bekijk onze %{privacy_policy_modal_link} en %{terms_of_service_modal_link}."
+            "description_transactional_html": "U kunt sms-berichten ontvangen over orderbevestiging en verzendupdates. Antwoord STOP om u af te melden. Antwoord HELP voor hulp. De frequentie van berichten kan variëren. Berichten- en datakosten kunnen van toepassing zijn. Bekijk onze %{privacy_policy_modal_link} en %{terms_of_service_modal_link}."
           },
           "get_offers_by_text": "Ontvang aanbiedingen per sms"
         },
         "unsubscribe": {
-          "description": "Je ontvangt geen herinneringen aan je winkelwagen meer van ons."
+          "description": "Je ontvangt geen winkelwagenherinneringen meer van ons."
         },
-        "accept_shop_pay_marketing_checkbox_label": "Schrijf mij in voor nieuws en aanbiedingen van deze winkel"
+        "accept_shop_pay_marketing_checkbox_label": "Schrijf me in voor nieuws en aanbiedingen van deze winkel"
       },
       "shop_policies": {
         "policies_label": "Beleidsregels",
