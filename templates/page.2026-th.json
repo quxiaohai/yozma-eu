@@ -909,17 +909,9 @@
             "url": "shopify://blogs/ebike/yozma-june-electric-dirt-bike-events"
           }
         },
-        "card_ExdDLg": {
-          "type": "card",
-          "settings": {
-            "desktop_image": "shopify://shop_images/Yozma-IN-10-Pro-Feature-Forums.jpg",
-            "title": "Twist and Go: Yozma IN 10 Pro Packs 5500W and 60 Miles of Range",
-            "text": "",
-            "url": "shopify://blogs/news/twist-and-go-yozma-in-10-pro-packs-5500w-and-60-miles-of-range"
-          }
-        },
         "card_QBffqa": {
           "type": "card",
+          "disabled": true,
           "settings": {
             "desktop_image": "shopify://shop_images/Yozma-IN-10_YT_03022026.jpg",
             "title": "Yozma IN 10 Pro First Look: A Real Mini Moto for Under $2,000?",
@@ -931,9 +923,9 @@
           "type": "card",
           "settings": {
             "desktop_image": "shopify://shop_images/product-mb-yozma-bike.jpg",
-            "title": "The Comprehensive Guide to Electric Bicycle Maintenance and Care",
+            "title": "New vs Used Electric Dirt Bike: A Practical EU Buyer’s Checklist",
             "text": "",
-            "url": "shopify://blogs/ebike/electric-bicycle-maintenance-and-care-guide"
+            "url": "shopify://blogs/ebike/new-vs-used-electric-dirt-bike"
           }
         },
         "media1": {
@@ -993,7 +985,6 @@
       },
       "block_order": [
         "card_nfmFyG",
-        "card_ExdDLg",
         "card_QBffqa",
         "media3",
         "media1",
