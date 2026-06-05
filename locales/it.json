@@ -1136,10 +1136,10 @@
           "tax_credential_it": "Codice fiscale (facoltativo)",
           "tax_email_it": "PEC (facoltativo)",
           "tax_credential_cl": "Codice fiscale",
-          "shipping_credential_cl": "Codice fiscale",
+          "shipping_credential_cl": "RUT",
           "tax_credential_co": "Cedola/IVA",
           "tax_credential_type_co": "Tipo Documento",
-          "shipping_credential_co": "Cedola/IVA",
+          "shipping_credential_co": "Cédula/IVA",
           "shipping_credential_type_co": "Tipo Documento",
           "tax_credential_cr": "Numero di identificazione/RUT",
           "shipping_credential_cr": "Numero di identificazione/RUT",
@@ -2244,7 +2244,7 @@
         "toggle_location": "Cambia posizione",
         "toggle_more_locations": {
           "one": "%{count} altra posizione",
-          "other": "%{count} altre località"
+          "other": "%{count} altre sedi"
         },
         "toggle_multiple_locations": "%{count}+ altre località",
         "your_location": "la tua posizione",
@@ -2261,14 +2261,15 @@
         },
         "selected_pickup_option_no_longer_available": {
           "title": "La tua posizione precedentemente selezionata non è più disponibile",
-          "ship_to_address_link": "spedire all'indirizzo"
+          "ship_to_address_link": "spedire all'indirizzo",
+          "description": "Abbiamo selezionato la sede più vicina con i tuoi articoli disponibili in magazzino"
         },
         "could_not_resolve_address": "Non è stato possibile trovare il tuo indirizzo. Riprova o usa un indirizzo diverso",
         "paginator": {
-          "accessibility_label": "Paginazione per ritiro locale"
+          "accessibility_label": "Paginazione per il ritiro locale"
         },
         "reveal_more_label": {
-          "one": "Mostra %{count} altre località",
+          "one": "Mostra %{count} altre posizioni",
           "other": "Mostra %{count} altre località"
         },
         "pickup_unavailable_banner_title": {
@@ -2291,7 +2292,32 @@
         "location_far_away_other_items": {
           "one": "%{count} località con i tuoi articoli",
           "other": "%{count} sedi con i tuoi articoli"
-        }
+        },
+        "location_information_far_away_one_item": {
+          "one": "C'è %{count} punto vendita con il tuo articolo",
+          "other": "Ci sono %{count} sedi con il tuo articolo"
+        },
+        "location_information_far_away_other_items": {
+          "one": "C'è %{count} sede con i tuoi articoli",
+          "other": "Ci sono %{count} sedi con i tuoi articoli"
+        },
+        "location_nearby_one_item": {
+          "one": "C'è %{count} punto vendita vicino con il tuo articolo",
+          "other": "Ci sono %{count} punti vendita nelle vicinanze con il tuo articolo"
+        },
+        "location_nearby_other_items": {
+          "one": "C'è %{count} punto vendita vicino con i tuoi articoli",
+          "other": "Ci sono %{count} sedi vicine con i tuoi articoli"
+        },
+        "location_nearby_short_one_item": {
+          "one": "%{count} località vicine con il tuo articolo",
+          "other": "%{count} sedi vicine con il tuo articolo"
+        },
+        "location_nearby_short_other_items": {
+          "one": "%{count} località vicine con i tuoi articoli",
+          "other": "%{count} sedi vicine con i tuoi articoli"
+        },
+        "or": "O oppure"
       },
       "split_delivery": {
         "pickup_all_items": "Raccogli tutti gli articoli",
