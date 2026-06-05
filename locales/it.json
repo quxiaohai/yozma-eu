@@ -1020,10 +1020,10 @@
         "delivery_tomorrow": "Consegna il giorno successivo %{time}",
         "two_day_delivery": "Consegna in 2 giorni %{time}",
         "arrives_time": "Arriva in %{time}",
-        "arrives_time_range": "Arriva in %{min_time}–%{max_time}",
+        "arrives_time_range": "Arriva entro %{min_time}–%{max_time}",
         "estimated_time": "Stimato %{time}",
         "estimated_time_range": "Stimato %{min_time}–%{max_time}",
-        "default_description": "Spedito entro 1 giorno lavorativo",
+        "default_description": "Spedito in 1 giorno lavorativo",
         "unbranded_description_same_day": "Spedito lo stesso giorno lavorativo",
         "unbranded_description_with_fulfillment_days": {
           "one": "Spedito il giorno lavorativo successivo",
@@ -1037,12 +1037,12 @@
         "shipping_line_phone": "Il tuo corriere potrebbe utilizzare questo numero per contattarti.",
         "shipping_line_delivery_phone_label": "Numero di telefono cellulare",
         "shipping_line_delivery_phone": "Potresti essere contattato per aggiornamenti sulla tua consegna.",
-        "optional_shipping_line_delivery_instructions_label": "Istruzioni per la consegna (facoltative)",
+        "optional_shipping_line_delivery_instructions_label": "Istruzioni per la consegna (opzionale)",
         "shipping_line_delivery_instructions": "Inserisci le informazioni necessarie come i codici della porta o le istruzioni per la consegna.",
         "other_method": {
           "zero": "Nessun altro metodo disponibile",
           "one": "%{count} altro metodo disponibile su",
-          "other": "Altri %{count} metodi disponibili a partire da"
+          "other": "%{count} altri metodi disponibili a partire da"
         },
         "shipping_rate_discounted_amount": "Prima: %{original_amount}. Ora: %{amount}",
         "subscription_delivery_description": {
@@ -1101,10 +1101,10 @@
         },
         "one_time_purchase_shipping": "Spedizione unica",
         "shipping_information_required_notice": "Le informazioni di spedizione sono obbligatorie. {{link}}.",
-        "loading_progressive_rates": "Ricerca di altre tariffe…",
+        "loading_progressive_rates": "Ricerca di più tariffe…",
         "no_other_methods_available": "Nessun altro metodo disponibile",
         "duties_and_taxes_options": {
-          "ddu_caption": "Potrebbero essere applicati costi aggiuntivi"
+          "ddu_caption": "Potrebbero essere applicate tariffe aggiuntive"
         },
         "shipping_used_as_billing_notice": "Questo sarà anche utilizzato come il tuo indirizzo di fatturazione per questo ordine.",
         "shipping_address_title": "Spedisci a",
@@ -1119,7 +1119,7 @@
           "generic_error": "Si è verificato un problema durante il salvataggio del tuo indirizzo. Riprova.",
           "one_time_address_subtitle": "Usa un indirizzo usa e getta per questo ordine"
         },
-        "different_shipping_method_summary": "Inserisci un indirizzo di spedizione diverso per vedere i metodi di spedizione disponibili",
+        "different_shipping_method_summary": "Inserisci un indirizzo di spedizione diverso per visualizzare i metodi di spedizione disponibili",
         "invalid_shipping_method_summary": "Inserisci un indirizzo di spedizione valido per visualizzare i metodi di spedizione disponibili",
         "invalid_shipping_method_summary_selected": "Seleziona un indirizzo di spedizione diverso per visualizzare i metodi di spedizione disponibili",
         "method_summary": {
@@ -1128,16 +1128,17 @@
         },
         "local_pickup": {
           "rollup_title": "Luogo di ritiro",
-          "rollup_accessibility_label": "Opzioni per il luogo di ritiro"
+          "rollup_accessibility_label": "Opzioni di luogo di ritiro"
         },
-        "missing_shipping_address": "L'indirizzo di spedizione manca",
+        "missing_shipping_address": "L'indirizzo di spedizione è mancante",
         "split_shipping_merchandise_quantity_label_additional": "+%{quantity} in più",
         "pre_order_ships_now": "Spedizione immediata",
         "pre_order_ships_later": "Spedizione posticipata",
         "pre_order_ships_date": "Spedito il %{date}",
         "split_shipping_multiple_shipment_notice": "Il tuo ordine arriverà in più spedizioni",
         "split_shipping_multiple_shipment_notice_one_time_purchase": "Il tuo ordine arriverà in %{quantity} spedizioni",
-        "split_shipping_option_custom": "Personalizzato"
+        "split_shipping_option_custom": "Personalizzato",
+        "duties_and_taxes_title": "Dazi e tasse"
       },
       "localized_fields": {
         "additional_information": {

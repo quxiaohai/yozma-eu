@@ -1503,7 +1503,7 @@
         "billing_address_rollup_accessibility_label": "Factureren aan opties",
         "same_as_shipping": "Zelfde als het afleveradres",
         "add_address": "Gebruik een ander adres",
-        "address_confirm": "Weet u zeker dat u dit adres uit uw account wilt verwijderen?"
+        "address_confirm": "Weet je zeker dat je dit adres uit je account wilt verwijderen?"
       },
       "payment_summary": {
         "express_payment_gateway_label": "Druk uit",
@@ -1671,10 +1671,11 @@
         "unavailable_selected_address_for_region": "Verzending is niet beschikbaar voor {{region}}. Kies een ander adres om door te gaan"
       },
       "alternative_payment_method_banner": {
-        "express_checkout": "Snel afrekenen",
+        "express_checkout": "Snelle afhandeling",
         "or_pay_another_way": "Of betaal op een andere manier",
         "or_check_out_another_way": "Of bekijk een andere manier",
-        "or_pay_with_credit_card": "Of betaal met creditcard"
+        "or_pay_with_credit_card": "Of betaal met creditcard",
+        "show_more_options": "Meer opties tonen"
       },
       "post_purchase": {
         "escape_confirmation": "U heeft voor uw bestelling betaald.",
@@ -2104,13 +2105,13 @@
       "change_currency": {
         "credit_card_will_be_charged_html": "Uw creditcard wordt belast met %{amount}",
         "payment_total_label": "Totaal betaling",
-        "change_currency_link": "Wijzig naar %{currency_name}",
+        "change_currency_link": "Wissel naar %{currency_name}",
         "card_provider_fx_charges_warning": "Uw kaartaanbieder kan kosten in rekening brengen voor transacties in %{currency_code}.",
         "currency_not_supported_by_shop": "De door u geselecteerde valuta is niet langer beschikbaar. Alle prijzen zijn nu in %{currency_code}."
       },
       "change_country": {
         "cart_updated_based_on_country": "Je winkelwagen is bijgewerkt op basis van je verzendland.",
-        "cart_and_currency_updated_based_on_country": "Je winkelwagen en valuta zijn bijgewerkt op basis van het land van verzending."
+        "cart_and_currency_updated_based_on_country": "Je winkelwagen en valuta zijn bijgewerkt op basis van je verzendland."
       },
       "change_cart_localization": {
         "verify_shipping_address": "Uw land/regio is bijgewerkt. Voer uw verzendadres in om door te gaan met afrekenen."
@@ -2394,8 +2395,8 @@
       },
       "b2b_errors": {
         "lost_b2b_purchasing_permissions": "Je hebt geen toestemming meer om B2B-bestellingen te plaatsen. %{logout_url} om in plaats daarvan een persoonlijke bestelling te plaatsen.",
-        "log_out_link_text": "Afmelden",
-        "lost_permissions_subtitle": "U hebt geen toestemming meer om B2B-bestellingen te plaatsen. Log uit om een persoonlijke bestelling te plaatsen.",
+        "log_out_link_text": "Uitloggen",
+        "lost_permissions_subtitle": "Je hebt geen toestemming meer om B2B-bestellingen te plaatsen. Log uit om een persoonlijke bestelling te plaatsen.",
         "lost_permissions_title": "Geen locatie-toestemmingen"
       },
       "shop_pay_external": {
@@ -2848,7 +2849,7 @@
     },
     "challenge": {
       "message": "Om door te gaan, laat ons weten dat je geen robot bent.",
-      "error": "Uw antwoord was niet correct, probeer het alstublieft opnieuw."
+      "error": "Je antwoord was niet correct, probeer het alstublieft opnieuw."
     },
     "checkpoint": {
       "message": "Los de captcha op om door te gaan",
