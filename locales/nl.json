@@ -1953,9 +1953,9 @@
         "order_status_updates_with_missing": "Kies hoe u verzendupdates wilt ontvangen.",
         "order_status_confirmed_with_installments_payment_return": "Richt uw aandacht weer op de verkoopmedewerker.",
         "order_status_confirmed_with_installments_payment_confirm": "U ontvangt binnenkort een bevestigingsmail met uw bestelnummer en details van uw afbetalingsschema.",
-        "confirmed_title": "Uw bestelling is bevestigd",
-        "confirmed_description": "We hebben uw bestelling ontvangen en zijn deze aan het klaarmaken. Kom terug naar deze pagina voor updates over de status van uw verzending.",
-        "confirmed_orders_title": "Uw bestellingen zijn bevestigd",
+        "confirmed_title": "Je bestelling is bevestigd",
+        "confirmed_description": "We hebben je bestelling geaccepteerd en zijn deze aan het klaarmaken. Kom terug naar deze pagina voor updates over de status van je verzending.",
+        "confirmed_orders_title": "Je bestellingen zijn bevestigd",
         "ready_for_pickup_title": "Uw bestelling is klaar om op te halen",
         "ready_for_pickup_description": "Uw bestelling is klaar om op te halen. Neem uw bestelbevestiging mee wanneer u uw bestelling komt ophalen.",
         "ready_for_delivery_title": "Uw bestelling is klaar voor levering",
@@ -1983,10 +1983,10 @@
         "attempted_delivery_local_description_html": "We konden uw bestelling niet bezorgen. Om een nieuwe levering in te plannen, %{contact_us}.",
         "delivered": "Geleverd",
         "delivered_title": "Uw bestelling is geleverd",
-        "delivered_description_html": "Uw bestelling is afgeleverd op het door u opgegeven adres. Als u het niet heeft ontvangen, of als u andere problemen heeft, %{contact_us}.",
+        "delivered_description_html": "Uw bestelling is afgeleverd op het door u opgegeven adres. Als u deze niet heeft ontvangen, of als u andere problemen heeft, %{contact_us}.",
         "delivered_local_title": "Uw bestelling is geleverd",
         "delivered_local_description_html": "Je bestelling nog niet ontvangen? %{let_us_know}.",
-        "choose_payment_method_later": "Kies later de betaalmethode",
+        "choose_payment_method_later": "Kies later een betaalmethode",
         "picked_up_title": "Uw bestelling is opgehaald",
         "picked_up_description_html": "Uw bestelling is opgehaald bij %{location_name} op %{date}.",
         "failure": "Niet geleverd",
@@ -2001,10 +2001,10 @@
           "one": "koop dit product ook",
           "other": "koop ook deze producten"
         },
-        "customer_information_hidden_fields_message": "Meld u aan om alle klantgegevens te bekijken.",
-        "cancelled_title": "Uw bestelling is geannuleerd",
+        "customer_information_hidden_fields_message": "Meld je aan om alle klantinformatie te bekijken.",
+        "cancelled_title": "Je bestelling is geannuleerd",
         "cancelled_description": "Uw bestelling is geannuleerd op %{date}. Neem contact met ons op als u vragen heeft.",
-        "customer_validation_error_phone": "Voer een geldig telefoon- of bestelnummer in.",
+        "customer_validation_error_phone": "Voer een geldig telefoon- of ordernummer in.",
         "unfulfilled_items_title": "Voorbereiden op verzending",
         "unfulfilled_items_description": "We zijn deze artikelen momenteel aan het klaarmaken voor verzending.",
         "marker": {
@@ -2062,7 +2062,8 @@
         "announcement": {
           "expand": "Uitvouwen",
           "collapse": "Samenvouwen"
-        }
+        },
+        "checkout_on_another_store": "Afrekenen in een andere winkel"
       },
       "review": {
         "title": "Beoordeling",
@@ -2685,8 +2686,8 @@
               "se": "Voer een geldig Zweeds btw-nummer in",
               "gb": "Voer een geldig btw-nummer van het Verenigd Koninkrijk in"
             },
-            "service_unavailable": "Validatiedienst niet beschikbaar",
-            "service_error": "Validatiedienst niet beschikbaar"
+            "service_unavailable": "Validatieservice niet beschikbaar",
+            "service_error": "Validatieservice niet beschikbaar"
           },
           "accessibility": {
             "status": {
