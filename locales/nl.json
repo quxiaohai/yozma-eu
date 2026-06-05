@@ -943,10 +943,10 @@
         "enter_shipping_address": "Voer het afleveradres in",
         "gift_cards_apply_to_local_shop": "Cadeaubonnen zijn alleen geldig voor artikelen van %{shop_name}",
         "add_discount_or_gift_card": "Voeg een kortingscode of cadeaubon toe",
-        "remove_gift_card_label": "Duidelijke cadeaubon",
-        "remove_discount_label": "Kortingsbedrag verwijderen",
+        "remove_gift_card_label": "Waardebon wissen",
+        "remove_discount_label": "Kortingscode verwijderen",
         "return_restocking_fee_label": "Aanvulvergoeding",
-        "return_shipping_fee_label": "Retourverzending",
+        "return_shipping_fee_label": "Retourzending",
         "applied_discount_message": "%{amount} korting op de totale bestelwaarde",
         "gift_card_has_been_applied": "Cadeaukaart is toegepast",
         "gift_card_has_been_removed": "Cadeaubon is verwijderd",
@@ -977,9 +977,9 @@
         "estimated_taxes_label": "Geschatte belastingen",
         "estimated_taxes_finalization_tooltip_content": "De definitieve belasting en het totaalbedrag worden per e-mail of sms bevestigd nadat u uw bestelling heeft geplaatst.",
         "estimated_taxes_finalization_tooltip_content_short": "Belasting definitief na betaling",
-        "order_total_label": "Besteltotaal",
+        "order_total_label": "Bestelling Totaal",
         "price_before_discount_aria_text": "Oorspronkelijke prijs",
-        "price_after_discount_aria_text": "Afgeprijsde prijs",
+        "price_after_discount_aria_text": "Kortingprijs",
         "total_savings": "Totale besparingen",
         "total_due_label": "Totaal te betalen",
         "deposit_label": "Storting",
@@ -1020,8 +1020,8 @@
           "due_on_fulfillment_title": "Saldo van {{amount_due}} is verschuldigd bij uitvoering"
         },
         "payment_terms_totals": {
-          "due_today": "Totaal vandaag te betalen",
-          "due_today_next": "Vervaldag vandaag",
+          "due_today": "Totaal te betalen vandaag",
+          "due_today_next": "Vervaldatum vandaag",
           "due_later": "Totaal te betalen %{due_at}",
           "due_on_fulfillment": "Totaal te betalen bij levering",
           "due_on_fulfillment_next": "Vervaldatum bij uitvoering",
@@ -1033,8 +1033,8 @@
         "duties_and_taxes_label": "Heffingen en belastingen",
         "error_duties_tooltip": "Deze bestelling wordt vanuit een ander land verzonden, dus er kunnen invoerrechten en belastingen in rekening worden gebracht bij levering.",
         "may_be_charged_on_delivery": "Kan bij levering worden betaald",
-        "recurring_payments": "Terugkerende Betalingen",
-        "recurring_total_multiple_label": "Deze bestelling bevat een terugkerende kosten voor meerdere artikelen.",
+        "recurring_payments": "Terugkerende betalingen",
+        "recurring_total_multiple_label": "Deze bestelling bevat een terugkerende betaling voor meerdere artikelen.",
         "deferred_total_due_date_label": "Totaal te betalen {{date}}",
         "deferred_total_due_date_label_next": "Vervaldatum %{date}",
         "full_price": "Volledige prijs: %{price}",
@@ -1059,7 +1059,9 @@
         "number_items": {
           "other": "%{count} items"
         },
-        "gift_card_applied": "Cadeaukaart toegepast"
+        "gift_card_applied": "Cadeaukaart toegepast",
+        "scroll_order_summary": "Scroll voor meer items",
+        "sale_price": "Verkoopprijs"
       },
       "shipping": {
         "shipping_method_title": "Verzendmethode",

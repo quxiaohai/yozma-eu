@@ -2632,22 +2632,25 @@
     "collections": {
       "sorting": {
         "manual": "In evidenza",
-        "best_selling": "I più venduti",
+        "best_selling": "Più venduti",
         "price_ascending": "Prezzo, dal più basso al più alto",
-        "price_descending": "Prezzo, da alto a basso",
-        "date_ascending": "Data, dal più vecchio al più nuovo",
-        "date_descending": "Data, dal più recente al più vecchio"
+        "price_descending": "Prezzo, dal più alto al più basso",
+        "date_ascending": "Data, dal più vecchio al più recente",
+        "date_descending": "Data, dal più recente al più vecchio",
+        "az": "In ordine alfabetico, dalla A alla Z",
+        "za": "In ordine alfabetico, da Z ad A",
+        "most_relevant": "Più rilevante"
       }
     },
     "errors": {
       "blank": "non può essere vuoto",
-      "credit_card_session_expired": "L'autorizzazione della carta di credito è scaduta, per favore inserisci nuovamente le tue informazioni di pagamento. La tua carta non è stata addebitata.",
+      "credit_card_session_expired": "L'autorizzazione della carta di credito è scaduta, inserisci nuovamente le informazioni di pagamento. La tua carta non è stata addebitata.",
       "empty": "non può essere vuoto",
       "invalid_email": "deve essere un indirizzo email valido",
-      "discount_disabled": "Questo sconto è stato disattivato",
+      "discount_disabled": "Questo sconto è stato disabilitato",
       "discount_expired": "Questo sconto non è più valido",
       "discount_limit_reached": "Questo sconto ha raggiunto il suo limite di utilizzo",
-      "customer_already_used_once_per_customer_discount_notice": "Questo sconto ha raggiunto il suo limite di utilizzo",
+      "customer_already_used_once_per_customer_discount_notice": "Questo sconto ha raggiunto il limite di utilizzo",
       "gift_card_already_applied": "Il codice è già stato applicato al tuo checkout",
       "gift_card_code_invalid": "Il codice non è valido",
       "gift_card_currency_mismatch": "La tua carta regalo è in %{gift_card_currency}. Contattaci per farla riemettere in %{checkout_currency}.",
@@ -2782,33 +2785,33 @@
     },
     "email_marketing": {
       "subscribed": {
-        "confirmation": "Grazie per esserti iscritto alla nostra lista di distribuzione.",
-        "unsubscribe": "Disiscriviti"
+        "confirmation": "Grazie per esserti iscritto alla nostra mailing list.",
+        "unsubscribe": "Annulla iscrizione"
       },
       "unsubscribed": {
-        "confirmation": "Ti sei disiscritto dalla nostra lista di distribuzione.",
-        "preview": "Stai visualizzando cosa vedranno i clienti quando si disiscriveranno."
+        "confirmation": "Ti sei cancellato dalla nostra lista di distribuzione.",
+        "preview": "Stai visualizzando in anteprima ciò che i clienti vedranno quando si disiscrivono."
       },
       "sms_unsubscribe_confirm": {
-        "message": "Sei sicuro di voler disiscrivere dalla marketing via SMS?",
-        "button": "Disiscriviti"
+        "message": "Sei sicuro di voler annullare l'iscrizione al marketing via SMS?",
+        "button": "Annulla iscrizione"
       },
       "open_tracking": {
         "opt_in": {
-          "opted_in_html": "<b>Hai scelto di attivare il tracciamento delle aperture delle email.</b>",
-          "visibility": "I tassi di apertura delle email saranno riportati in modo anonimo. Vedremo solo se hai aperto un'email come parte di un tasso di apertura aggregato delle email.",
-          "opt_out_html": "Puoi <a style='text-decoration:underline;' href='%{link}'>disattivare</a> il tracciamento dell'apertura delle email se non desideri condividere queste informazioni.",
-          "preview_bar": "Stai visualizzando cosa vedranno i clienti quando si iscriveranno al tracciamento delle aperture delle email."
+          "opted_in_html": "<b>Hai scelto di attivare il tracciamento dell'apertura delle email.</b>",
+          "visibility": "I tassi di apertura delle email saranno riportati in forma anonima. Vedremo solo se hai aperto un'email come parte di un tasso di apertura aggregato.",
+          "opt_out_html": "Puoi <a style='text-decoration:underline;' href='%{link}'>disattivare</a> il tracciamento dell'apertura delle email se non vuoi condividere queste informazioni.",
+          "preview_bar": "Stai visualizzando in anteprima ciò che i clienti vedranno quando acconsentiranno al tracciamento dell'apertura delle email."
         },
         "opt_out": {
-          "opted_out_html": "<b>Hai disattivato il tracciamento delle aperture delle email.</b>",
+          "opted_out_html": "<b>Hai disattivato il tracciamento dell'apertura delle email.</b>",
           "visibility": "Non vedremo se hai aperto le nostre email.",
           "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Iscriviti</a> al tracciamento delle aperture email.",
-          "preview_bar": "Stai visualizzando cosa vedranno i clienti quando disattiveranno il tracciamento delle aperture delle email."
+          "preview_bar": "Stai visualizzando in anteprima ciò che i clienti vedranno quando scelgono di disattivare il tracciamento dell'apertura delle email."
         },
         "no_longer_track": {
-          "status_html": "<b>Non tracciamo più l'apertura di nessuna email.</b>",
-          "privacy_policy": "Dopo l'invio di questa email, abbiamo aggiornato la nostra informativa sulla privacy e non tracciamo più le aperture."
+          "status_html": "<b>Non tracciamo più l'apertura delle email.</b>",
+          "privacy_policy": "Dopo l'invio di questa email, abbiamo aggiornato la nostra politica sulla privacy e non tracciamo più le aperture."
         },
         "track": {
           "status_html": "<b>Il tracciamento dell'apertura delle email è segnalato.</b>",
@@ -2816,7 +2819,7 @@
         },
         "updated_policy": {
           "status_html": "<b>Il tracciamento dell'apertura delle email è segnalato.</b>",
-          "visibility": "Abbiamo aggiornato la nostra politica e ora tracciamo le aperture delle email. I tassi di apertura delle email saranno riportati in modo anonimo. Vedremo solo se hai aperto un'email come parte del tasso totale di apertura delle email.",
+          "visibility": "Abbiamo aggiornato la nostra politica e ora tracciamo l'apertura delle email. I tassi di apertura delle email saranno riportati in forma anonima. Vedremo solo se hai aperto un'email come parte del tasso totale di apertura delle email.",
           "opt_out_html": "Se non desideri condividere queste informazioni, puoi <a style='text-decoration:underline;' href='%{link}'>annullare l'iscrizione.</a>"
         }
       }
@@ -2843,7 +2846,7 @@
       "error": "La tua risposta non era corretta, per favore riprova."
     },
     "checkpoint": {
-      "error": "La convalida del Captcha è fallita"
+      "error": "La validazione del captcha non è riuscita"
     },
     "store_availability": {
       "pick_up_time": {
