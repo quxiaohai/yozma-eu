@@ -2110,7 +2110,7 @@
         },
         "checkout_review_and_pay": "Uw bestelling %{order_name} is bijgewerkt. Bekijk deze wijzigingen en betaal vervolgens om uw bestelling te bevestigen.",
         "order_updated_on": "Uw bestelling is bijgewerkt op %{last_edited_at}.",
-        "order_review_and_pay": "Uw bestelling is bijgewerkt. Controleer en betaal om uw bestelling te bevestigen.",
+        "order_review_and_pay": "Je bestelling is bijgewerkt. Controleer en betaal om je bestelling te bevestigen.",
         "pay_now": "Betaal nu"
       },
       "change_currency": {
@@ -2137,7 +2137,7 @@
       "open_graph_meta_tag": {
         "title_with_products": {
           "zero": "Koop %{product_name}",
-          "one": "Koop %{product_name} en %{count} ander item",
+          "one": "Koop %{product_name} en %{count} ander artikel",
           "other": "Koop %{product_name} en %{count} andere artikelen"
         }
       },
@@ -2190,8 +2190,8 @@
         "message": "Neem contact met ons op om een adres voor deze locatie toe te voegen om de betaling te voltooien."
       },
       "order_errors": {
-        "creation_failure": "Er is een probleem opgetreden bij het aanmaken van uw bestelling. Probeer het opnieuw, of neem contact met ons op voor meer informatie.",
-        "network_failure": "Uw bestelling kon niet worden verzonden vanwege een netwerkfout. Controleer uw verbinding en probeer het opnieuw.",
+        "creation_failure": "Er was een probleem bij het aanmaken van uw bestelling. Probeer het opnieuw, of neem contact met ons op voor meer informatie.",
+        "network_failure": "Je bestelling kon niet worden verzonden vanwege een netwerkfout. Controleer je verbinding en probeer het opnieuw.",
         "inventory_reservation_failure": "Sommige artikelen zijn niet langer beschikbaar."
       },
       "session_errors": {
@@ -2250,7 +2250,7 @@
         }
       },
       "notice_banner": {
-        "subscription_changed": "Een van uw abonnementen is gewijzigd.",
+        "subscription_changed": "Een van je abonnementen is gewijzigd.",
         "company_location_changed": "Je winkelwagen is bijgewerkt. Controleer je bestelling voordat je deze verzendt.",
         "company_location_changed_product_removed": "Je winkelwagen is bijgewerkt omdat sommige producten niet beschikbaar zijn op deze locatie. Controleer je bestelling voordat je deze verzendt.",
         "individual_violations_title": {
@@ -2523,13 +2523,14 @@
       "offsite_payment_failed": {
         "title": "Betaling buiten de site mislukt",
         "payment_not_processed_text": "Probeer de QR-code opnieuw te scannen. Als het nog steeds niet werkt, laat het dan aan ons personeel weten en probeer een andere betaalmethode.",
-        "payment_link_expired_text": "Probeer de QR-code opnieuw te scannen."
+        "payment_link_expired_text": "Probeer de QR-code opnieuw te scannen.",
+        "payment_link_expired_title": "Betalingslink verlopen"
       },
       "one": {
         "errors": {
           "merchandise": {
-            "gift_card_price_must_be_greater_than_zero": "De waarde van de cadeaubon moet groter zijn dan 0.",
-            "subtotal_limit_reached": "De maximale waarde van de bestelde artikelen is bereikt.",
+            "gift_card_price_must_be_greater_than_zero": "De prijs van de cadeaubon moet groter zijn dan 0.",
+            "subtotal_limit_reached": "De maximale waarde van de regelitems is bereikt.",
             "signature_mismatch": "Handtekening van merchandise komt niet overeen voor regel %{stable_id}."
           }
         }

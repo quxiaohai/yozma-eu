@@ -1801,7 +1801,7 @@
         },
         "thank_you_unconfirmed_items_description": {
           "one": "Non ti è stato addebitato nulla per questo",
-          "other": "Non sei stato addebitato per questi"
+          "other": "Non ti è stato addebitato nulla per questi"
         },
         "thank_you_payments_app_failed_pending_payment": "Non ti è stato addebitato nulla per il tuo ordine. Torna al carrello per rivedere il tuo ordine e pagare di nuovo.",
         "thank_you_payments_app_failed_pending_payment_payment": "Non ti è stato addebitato nulla per il tuo ordine. Torna al carrello per rivedere il tuo ordine e pagare di nuovo.",
@@ -1830,7 +1830,7 @@
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone": "Dopo aver completato il pagamento, riceverai un messaggio di conferma con il numero dell'ordine.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "Dopo aver completato il pagamento, riceverai un messaggio di conferma con il numero dell'ordine.",
         "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "Dopo aver completato il pagamento, riceverai un messaggio di conferma con il numero dell'ordine.",
-        "thank_you_payments_app_pending_payment_description_provider_action_required_default": "Il tuo pagamento è in fase di elaborazione. Riceverai un'email quando il tuo pagamento sarà confermato.",
+        "thank_you_payments_app_pending_payment_description_provider_action_required_default": "Il tuo pagamento è in fase di elaborazione. Riceverai un'email quando il pagamento sarà confermato.",
         "track_your_order_link_text": "Traccia il tuo ordine",
         "checkout_again": "Procedi nuovamente al pagamento",
         "checkout_on_remote_shop_link_text": "Procedi al pagamento su %{remoteShopName}",
@@ -1983,7 +1983,7 @@
           "other": "Si è verificato un problema nell'invio delle tue carte regalo. Riprova o contattaci."
         },
         "verify_shop_account_message": "Le tue informazioni sono state salvate con Shop, verifica il tuo account per usarle automaticamente in milioni di negozi.",
-        "verify_shop_account_confirmation": "Dettagli di pagamento salvati",
+        "verify_shop_account_confirmation": "Dettagli del pagamento salvati",
         "confirmed_description": "Abbiamo accettato il tuo ordine e lo stiamo preparando. Torna su questa pagina per aggiornamenti sullo stato della spedizione.",
         "non_shippable_title": "Il tuo ordine è completo"
       },
@@ -2126,7 +2126,7 @@
         }
       },
       "throttle": {
-        "line_to_check_out": "Sei in coda per pagare",
+        "line_to_check_out": "Sei in coda per il pagamento",
         "inventory": {
           "partial_inventory_banner": "Parte del tuo carrello è esaurita e non sarà disponibile per l'acquisto al momento del pagamento.",
           "sold_out": {
@@ -2135,15 +2135,15 @@
             "no_storefront_body": "Sfortunatamente l'articolo che desideri acquistare non è più disponibile."
           }
         },
-        "time_to_checkout_title": "È il momento di completare l'acquisto - {{shopName}}",
+        "time_to_checkout_title": "È ora di pagare - {{shopName}}",
         "estimated_wait_time": {
           "calculating": "Calcolo del tempo di attesa stimato",
-          "less_than_one": "Tempo di attesa stimato: Meno di un minuto"
+          "less_than_one": "Tempo di attesa stimato: meno di un minuto"
         },
         "last_checked": "(Ultimo controllo: {{time}})",
         "footer": {
           "heading": "Non aggiornare questa pagina, si aggiornerà automaticamente.",
-          "body": "Gli articoli nel tuo carrello non sono riservati finché non completi il pagamento."
+          "body": "Gli articoli nel tuo carrello non sono riservati fino a quando non completi il pagamento."
         }
       },
       "cart_checkout_validation": {
