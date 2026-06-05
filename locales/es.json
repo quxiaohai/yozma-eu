@@ -757,7 +757,7 @@
         "paid": "Este pago ya ha sido enviado. Visite la página del pedido para más detalles."
       },
       "contact": {
-        "shipping_used_as_billing_notice": "Esto también se usará como su dirección de facturación para este pedido.",
+        "shipping_used_as_billing_notice": "Esta también se usará como su dirección de facturación para este pedido.",
         "delivery_option_title": "Método de entrega",
         "email_or_phone_label": "Correo electrónico o número de teléfono móvil",
         "email_or_phone_placeholder": "Correo electrónico o número de teléfono móvil",
@@ -809,7 +809,7 @@
         "subscription_pickup_information": "Este método de entrega se aplicará a todos los artículos de este pedido y a todos los pedidos futuros de esta suscripción."
       },
       "customer_account": {
-        "save_my_information_label": "Guarde esta información para la próxima vez",
+        "save_my_information_label": "Guarda esta información para la próxima vez",
         "invalid_address": "La dirección seleccionada no es válida. %{update_address_link} o seleccione una dirección diferente.",
         "incomplete_address": "La dirección seleccionada está incompleta. %{update_address_link} o seleccione una dirección diferente.",
         "invalid_shipping_method_summary": "Seleccione una dirección de envío válida para ver los métodos de envío disponibles",
@@ -869,8 +869,8 @@
           "other": "Estos productos serán eliminados de tu carrito porque no están disponibles en tu país/región."
         },
         "all_products_in_cart_unavailable": {
-          "one": "Este producto no está disponible en su país/región.",
-          "other": "Estos productos no están disponibles en su país/región."
+          "one": "Este producto no está disponible en tu país/región.",
+          "other": "Estos productos no están disponibles en tu país/región."
         }
       },
       "merchandise_unavailable_in_buyer_location": {
