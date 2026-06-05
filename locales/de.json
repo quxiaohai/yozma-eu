@@ -1080,7 +1080,10 @@
         "estimated_taxes_finalization_tooltip_content_short": "Steuer nach der Zahlung endgültig festgelegt",
         "price_before_discount_aria_text": "Originalpreis",
         "original_price": "Originalpreis",
-        "order_total_updated_label": "Aktualisierter Gesamtbetrag"
+        "order_total_updated_label": "Aktualisierter Gesamtbetrag",
+        "tax_line": {
+          "gst": "MwSt"
+        }
       },
       "shipping": {
         "shipping_method_title": "Versandart",
@@ -1308,14 +1311,14 @@
         "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label} Gesamt %{total_shop_price}",
         "offsite_gateway_redirect_hint_no_button_label": "Sie werden zu %{gateway_label} weitergeleitet, um Ihren Kauf abzuschließen.",
         "receiver_payment_experience_hint": "Nach Aufgabe Ihrer Bestellung erhalten Sie die Zahlungsdetails. Zahlen Sie den Betrag bei Multibanco oder online innerhalb von %{due_days} Tagen.",
-        "billing_address_rollup_accessibility_label": "Rechnungsadresse Optionen",
+        "billing_address_rollup_accessibility_label": "Rechnungsadressoptionen",
         "billing_address_description": "Wählen Sie die Adresse aus, die mit Ihrer Karte oder Zahlungsmethode übereinstimmt.",
         "billing_address_description_no_shipping_address": "Geben Sie die Adresse ein, die mit Ihrer Karte oder Zahlungsmethode übereinstimmt.",
         "no_js_credit_card_fields_redirect_hint": "Sie werden weitergeleitet, um Ihre Zahlungsinformationen hinzuzufügen.",
-        "card_fields_container_prefix": "Feldbehälter für:",
+        "card_fields_container_prefix": "Feldcontainer für:",
         "card_fields_unavailable_html": {
-          "one": "Zahlungen mit Kredit- und Debitkarten sind derzeit nicht verfügbar.<br><a href=\"%{current_url}\">Diese Seite aktualisieren</a> oder später erneut versuchen.",
-          "other": "Kredit- und Debitkartenzahlungen sind derzeit nicht verfügbar.<br><a href=\"%{current_url}\">Diese Seite aktualisieren</a> oder eine andere Zahlungsmethode ausprobieren."
+          "one": "Kredit- und Debitkartenzahlungen sind derzeit nicht verfügbar.<br><a href=\"%{current_url}\">Diese Seite aktualisieren</a> oder später erneut versuchen.",
+          "other": "Kredit- und Debitkartenzahlungen sind derzeit nicht verfügbar.<br><a href=\"%{current_url}\">Diese Seite aktualisieren</a> oder eine andere Zahlungsmethode versuchen."
         },
         "card_fields_processing_error": "Bei der Zahlungsabwicklung ist ein Problem aufgetreten. Versuchen Sie, diese Seite zu aktualisieren, oder überprüfen Sie Ihre Internetverbindung.",
         "technical_error": "Zahlungen können derzeit wegen eines technischen Problems nicht bearbeitet werden. Versuchen Sie es in ein paar Minuten erneut.",
@@ -1337,9 +1340,9 @@
         "klarna_pay_now_label": "Jetzt mit Klarna bezahlen",
         "multibanco_label": "Multibank",
         "klarna_slice_it_label": "Finanzieren mit Klarna",
-        "afterpay_label": "Nachzahlung",
+        "afterpay_label": "Afterpay",
         "cashapppay_label": "Cash-App-Zahlung",
-        "blik_label": "Blick",
+        "blik_label": "BLIK",
         "twint_label": "ZWEIFACH",
         "swish_label": "Schwung",
         "grabpay_label": "GrabBezahlen",
@@ -1364,7 +1367,7 @@
         },
         "apple": {
           "connect": "Klicken Sie, um Ihr Apple Pay-Konto zu verbinden",
-          "not_available": "Apple Pay ist in diesem Browser nicht verfügbar. Um Ihr Apple-Pay-Konto zu verbinden, müssen Sie Safari auf einem Apple-Gerät verwenden."
+          "not_available": "Apple Pay ist in diesem Browser nicht verfügbar. Um Ihr Apple Pay-Konto zu verbinden, müssen Sie Safari auf einem Apple-Gerät verwenden."
         },
         "google": {
           "connect": "Klicken Sie, um sich mit Ihrem Google Pay-Konto zu verbinden"
@@ -1396,7 +1399,7 @@
         "location_shipping_address_label": "Versandadresse des Standorts",
         "use_location_shipping_address_label": "Versandadresse des Standorts verwenden",
         "no_working_method_error": "Dieses Geschäft kann derzeit keine Zahlungen annehmen. Laden Sie diese Seite neu oder kommen Sie später wieder.",
-        "brand_not_available": "Dieser Shop akzeptiert {{brand}} nicht. Verwenden Sie eine andere Karte zur Zahlung.",
+        "brand_not_available": "Dieser Laden akzeptiert {{brand}} nicht. Verwenden Sie eine andere Karte zur Zahlung.",
         "shipping_rate_updated": "Verfügbare Versandarten wurden aktualisiert. Bestätigen Sie Ihre Auswahl, bevor Sie zur Kasse gehen.",
         "billing_address_invalid_phone": "Aktualisieren Sie die Telefonnummer in Ihrer Rechnungsadresse für {{label}} {{last_digits}}, um fortzufahren.",
         "billing_address_invalid_phone_no_card": "Aktualisieren Sie die Telefonnummer in Ihrer Rechnungsadresse, um fortzufahren.",
@@ -1419,7 +1422,7 @@
         "simulated_express_checkout": "Brieftaschen sind in der Vorschau des Editors aufgrund Ihrer Region oder Ihres Browsers nicht verfügbar",
         "vaulting_agreement_label": "Speichere meine Zahlungsinformationen bei %{company} für einen schnelleren Checkout.",
         "business_customer_vaulting_payment_label": "Speichern Sie diese Zahlungsmethode beim Bezahlen und autorisieren Sie %{company}, sie für zukünftige Einkäufe an diesem Standort zu belasten. Alle Kontakte, die diesem Standort zugewiesen sind, können die Zahlungsmethode verwenden.",
-        "business_customer_with_bank_account_vaulting_payment_label": "Speichern Sie diese Zahlungsmethode beim Bezahlen und autorisieren Sie %{company}, Ihr Konto für zukünftige Einkäufe an diesem Standort, die Sie genehmigen, zu belasten, bis Sie widerrufen. Alle Kontakte, die diesem Standort zugewiesen sind, können die Zahlungsmethode verwenden.",
+        "business_customer_with_bank_account_vaulting_payment_label": "Speichern Sie diese Zahlungsmethode beim Bezahlen und autorisieren Sie %{company}, Ihr Konto für zukünftige Einkäufe, die Sie für diesen Standort genehmigen, zu belasten, bis Sie die Erlaubnis widerrufen. Alle Kontakte, die diesem Standort zugewiesen sind, können die Zahlungsmethode verwenden.",
         "purchase_options_and_vaulting_agreement_label": "Ein oder mehrere Artikel in Ihrem Warenkorb sind ein aufgeschobener Kauf oder ein Abonnement. Wenn Sie mit der Zahlung fortfahren, stimmen Sie zu, dass Ihre Zahlungsmethode automatisch zum auf dieser Seite angegebenen Preis und in der angegebenen Häufigkeit belastet wird, bis das Abonnement endet oder Sie es kündigen. Alle Kündigungen unterliegen der %{cancellation_policy_label}.",
         "purchase_options_cancellation_policy_label": "Stornierungsbedingungen",
         "saved_credit_card": "Ihre gespeicherte Kreditkarte",
@@ -1515,10 +1518,10 @@
         "choose_new_payment_method": "Wählen Sie eine neue Zahlungsmethode aus",
         "network_card_payment_options": "Wählen Sie ein Kartennetzwerk",
         "network_card_persistence_description": "Das ausgewählte Netzwerk wird zusammen mit Ihrer Zahlungsmethode für zukünftige Transaktionen gespeichert.",
-        "amazon_payments_label": "Amazon Bezahlung",
-        "amazon_payments_login_hint": "Sie werden gebeten, sich mit Amazon anzumelden.",
-        "amazon_payments_failed_mfa_challenge": "Die gewählte Zahlungsmethode konnte nicht verwendet werden. Wählen Sie eine andere Methode oder wenden Sie sich an Ihre Bank oder Kartenaussteller.",
-        "amazon_payments_abandoned_mfa_challenge": "Ihre Zahlung konnte nicht abgeschlossen werden. Versuchen Sie eine andere Zahlungsmethode oder wenden Sie sich an Ihre Bank oder Kartenherausgeber.",
+        "amazon_payments_label": "Amazon Pay",
+        "amazon_payments_login_hint": "Sie werden aufgefordert, sich mit Amazon anzumelden.",
+        "amazon_payments_failed_mfa_challenge": "Die ausgewählte Zahlungsmethode konnte nicht verwendet werden. Wählen Sie eine andere Methode oder wenden Sie sich an Ihre Bank oder den Kartenaussteller.",
+        "amazon_payments_abandoned_mfa_challenge": "Ihre Zahlung konnte nicht abgeschlossen werden. Versuchen Sie eine andere Zahlungsmethode oder wenden Sie sich an Ihre Bank oder den Kartenaussteller.",
         "amazon_payments_could_not_enqueue_authorize": "Bei der Verarbeitung Ihrer Zahlung ist ein Problem aufgetreten. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
         "amount_left_to_pay_label": "Zahlung fällig:",
         "discount_button_action_label": "Rabattcode anwenden",

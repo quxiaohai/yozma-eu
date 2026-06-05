@@ -565,48 +565,50 @@
             "business_customer_does_not_match_company": "Le contact de l'entreprise n'a pas accès à l'entreprise.",
             "company_location_required": "Le client doit choisir un emplacement d'entreprise pour continuer.",
             "company_purchase_permission_required": "Le client n'a pas la permission de passer des commandes au nom de l'entreprise.",
-            "personal_order_not_allowed": "Les commandes personnelles ne sont pas autorisées dans cette boutique.",
+            "personal_order_not_allowed": "Les commandes personnelles ne sont pas autorisées pour cette boutique.",
             "lost_access_to_company": "Le client a perdu l'accès à toute entreprise.",
             "contact_info_does_not_match_customer_account": "Les informations de contact doivent correspondre au compte auquel vous êtes connecté.",
-            "phone_number_does_not_match_expected_pattern": "Le numéro de téléphone indiqué ne correspond pas au modèle attendu.",
-            "email_required": "Un courriel est requis lorsque la marchandise est achetée par abonnement.",
+            "phone_number_does_not_match_expected_pattern": "Le numéro de téléphone spécifié ne correspond pas au format attendu.",
+            "email_required": "Un e-mail est requis lorsque la marchandise est achetée via un abonnement.",
             "missing_contact_method": "Méthode de contact valide manquante.",
             "checkout_completion_target_is_missing": "La cible de finalisation de la commande est manquante.",
             "invalid_customer_profile": "Un profil client invalide a été fourni.",
-            "customer_profile_access_restricted": "Le passage en caisse n'a pas la permission d'accéder au profil du client.",
+            "customer_profile_access_restricted": "Le paiement n'a pas la permission d'accéder au profil client.",
             "checkout_completion_target_is_invalid_proc": "Cible de finalisation de commande invalide.",
             "buyer_identity_presentment_currency_does_not_match": "Un problème est survenu lors du traitement de votre commande. Veuillez réessayer dans quelques minutes."
           },
           "delivery": {
-            "only_one_delivery_line_allowed": "Le panier doit contenir une seule ligne de livraison.",
+            "only_one_delivery_line_allowed": "Le panier ne doit contenir qu'une seule ligne de livraison.",
             "wrong_number_of_delivery_lines": "Une ligne de livraison doit être spécifiée pour chaque groupe de marchandises.",
             "external_delivery_promise_error": "Une erreur de récupération de la promesse de livraison externe.",
             "destination_address_required": "Une adresse de destination est requise pour continuer.",
             "pickup_points_unavailable": "Les points de retrait ne sont actuellement pas disponibles.",
-            "local_pickup_delivery_line_detail_changed": "La stratégie actuelle de retrait en magasin doit être modifiée pour pouvoir continuer.",
-            "selected_pickup_option_no_longer_available": "L'option de retrait précédemment choisie n'est plus disponible.",
+            "local_pickup_delivery_line_detail_changed": "La stratégie actuelle de livraison en retrait sur place doit être modifiée pour pouvoir continuer.",
+            "selected_pickup_option_no_longer_available": "L'option de retrait précédemment sélectionnée n'est plus disponible.",
             "local_pickup_no_delivery_strategy_available": "Aucune stratégie de livraison en retrait local disponible trouvée.",
             "origin_location_id_required": "Un identifiant de lieu d'origine est requis lorsque la méthode de livraison DÉTAIL est demandée.",
-            "invalid_origin_location_id": "Impossible de trouver un lieu correspondant à l’identifiant du lieu d’origine.",
+            "invalid_origin_location_id": "Impossible de trouver un emplacement correspondant à l'ID de l'emplacement d'origine.",
             "origin_location_id_not_allowed": "Les méthodes de livraison demandées ne prennent pas en charge un identifiant de lieu d'origine.",
             "auto_fulfill_not_allowed": "Cette session n'est pas autorisée à outrepasser le comportement d'exécution.",
-            "auto_fulfill_required": "La réalisation automatique est requise lorsque la méthode de livraison DÉTAIL est demandée.",
+            "auto_fulfill_required": "L'exécution automatique est requise lorsque la méthode de livraison DÉTAIL est demandée.",
             "prefetch_shipping_rates_used": "Les tarifs d'expédition préchargés ne doivent jamais renvoyer de tarifs.",
-            "fulfillment_constraints_not_satisfied": "Une ou plusieurs contraintes d'exécution n'ont pas été satisfaites.",
-            "must_fulfill_from_constraint_not_satisfied": "Les contraintes d'exécution ne sont pas satisfaites car les articles ne peuvent pas être fournis depuis les emplacements requis.",
-            "must_fulfill_from_same_location_constraint_not_satisfied": "Les contraintes d'exécution ne sont pas respectées car les articles ne peuvent pas être fournis depuis le même endroit.",
+            "fulfillment_constraints_not_satisfied": "Une ou plusieurs contraintes de traitement n'ont pas été satisfaites.",
+            "must_fulfill_from_constraint_not_satisfied": "Les contraintes de traitement ne sont pas satisfaites car les articles ne peuvent pas être expédiés depuis les emplacements requis.",
+            "must_fulfill_from_same_location_constraint_not_satisfied": "Les contraintes de traitement ne sont pas satisfaites car les articles ne peuvent pas être expédiés depuis le même emplacement.",
             "delivery_strategy_conditions_not_satisfied": "Des stratégies de livraison sont disponibles pour cet emplacement, mais leurs conditions ne sont pas remplies.",
             "out_of_stock_at_origin_location": "Rupture de stock à l'emplacement d'origine.",
-            "invalid_signature": "Signature de remise invalide."
+            "invalid_signature": "Signature de remise invalide.",
+            "mixed_destination_countries": "La livraison est indisponible car les zones de livraison couvrent plusieurs pays."
           },
           "discount": {
-            "discounts_not_allowed_for_b2b": "Les remises ne sont pas autorisées dans les boutiques interentreprises.",
-            "custom_discount_not_honoured": "La remise personnalisée fournie n'a pas été respectée.",
-            "unsupported_expectation": "La ligne de remise fournie contenait une attente que la politique ne pouvait pas interpréter.",
-            "additional_requested_discount_code_discarded": "{{code}} est valide mais non applicable. Vérifiez les conditions de remise.",
-            "additional_requested_discount_discarded": "Votre remise est valide mais non applicable. Vérifiez les conditions de la remise.",
+            "discounts_not_allowed_for_b2b": "Les remises ne sont pas autorisées dans les magasins B2B.",
+            "custom_discount_not_honoured": "La remise personnalisée fournie n'a pas été prise en compte.",
+            "unsupported_expectation": "La ligne de réduction fournie contenait une attente que la politique ne pouvait pas interpréter.",
+            "additional_requested_discount_code_discarded": "{{code}} est valide mais non applicable. Vérifiez les conditions de réduction.",
+            "additional_requested_discount_discarded": "Votre réduction est valide mais non applicable. Vérifiez les conditions de la réduction.",
             "allocations_mismatch": "Votre code de réduction a changé. Vérifiez votre panier et réessayez.",
-            "discount_title_too_long": "Le titre de la remise ne peut pas dépasser 255 caractères."
+            "discount_title_too_long": "Le titre de la remise ne peut pas dépasser 255 caractères.",
+            "mixed_destination_countries": "Les remises ne sont pas disponibles car les lignes de livraison couvrent plusieurs pays."
           },
           "tax": {
             "new_tax_must_be_accepted": "Les taxes associées à votre commande ont changé. Veuillez vérifier et réessayer.",
@@ -668,7 +670,7 @@
           },
           "inventory": {
             "missing_quantity_value": "Le champ de quantité est manquant dans les lignes d'inventaire de l'acheteur.",
-            "changing_behavior_not_allowed": "Ce client n'a pas la permission de modifier le comportement des stocks.",
+            "changing_behavior_not_allowed": "Ce client n'a pas la permission de modifier le comportement de l'inventaire.",
             "only_one_inventory_behavior_allowed": "Actuellement, un seul mode de gestion des stocks est autorisé par passage en caisse."
           },
           "optional_duties": {
@@ -679,19 +681,19 @@
             "retail_attribution_required": "L'attribution au détail est requise pour ce passage en caisse."
           },
           "captcha": {
-            "metadata_missing": "Il est nécessaire de remplir un captcha pour ce paiement.",
+            "metadata_missing": "La complétion d'un captcha est requise pour ce paiement.",
             "metadata_mismatch": "Le fournisseur et le type de captcha fournis ne correspondent pas aux valeurs attendues.",
-            "token_missing": "Un jeton captcha doit être fourni pour finaliser cet achat.",
-            "job_enqueue_failed": "La mise en file d'attente de la tâche de validation captcha a échoué.",
+            "token_missing": "Un jeton captcha doit être fourni pour finaliser ce paiement.",
+            "job_enqueue_failed": "La tâche de validation du captcha n'a pas pu être mise en file d'attente.",
             "job_already_queued": "La validation Captcha a déjà été mise en file d'attente pour ce jeton captcha.",
-            "token_expired": "Le jeton captcha fourni a expiré. Veuillez compléter un nouveau captcha pour continuer le paiement.",
-            "token_invalid": "Le jeton captcha fourni était invalide. Veuillez compléter un nouveau captcha pour continuer le paiement."
+            "token_expired": "Le jeton captcha fourni a expiré. Complétez un nouveau captcha pour continuer le paiement.",
+            "token_invalid": "Le jeton captcha fourni est invalide. Veuillez compléter un nouveau captcha pour continuer le paiement."
           },
           "fx_reconciliation_override": {
-            "shop_currency_mismatch": "Le montant reçu doit être dans la monnaie du magasin."
+            "shop_currency_mismatch": "Le montant reçu doit être dans la devise du magasin."
           },
           "checkout_source": {
-            "revoked": "Cette caisse n'est plus disponible."
+            "revoked": "Ce passage en caisse n'est plus disponible."
           }
         },
         "full_price": "Prix plein :",
