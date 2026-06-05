@@ -887,7 +887,7 @@
         "discount_code_applied_with_code": "Il codice sconto %{code} è stato applicato",
         "discount_code_removed": "Il codice sconto %{code} è stato rimosso",
         "discount_code_replaced": "Codice sconto %{old_code} rimosso e %{code} è stato applicato",
-        "discount_code_replaced_multiple": "Sono stati rimossi più codici sconto e %{code} è stato applicato",
+        "discount_code_replaced_multiple": "Più codici sconto rimossi e %{code} è stato applicato",
         "order_discounts_apply_to_local_shop": "Gli sconti sull'ordine si applicano solo agli articoli di %{shop_name}",
         "gift_card_applied": "Carta regalo applicata",
         "enter_shipping_address": "Inserisci l'indirizzo di spedizione",
@@ -908,9 +908,9 @@
         "gift_card_subscriptions_notice": "Le carte regalo si applicheranno solo al tuo primo pagamento",
         "discount_already_applied": "È stato applicato uno sconto a questo ordine. Non puoi aggiungere un altro sconto.",
         "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> codice sconto non è valido per gli articoli nel tuo carrello",
-        "discount_requires_customer_notice": "Inserisci le tue informazioni di spedizione per applicare il codice sconto <strong style=\"text-transform:uppercase\">%{code}</strong>",
+        "discount_requires_customer_notice": "Inserisci le informazioni di spedizione per applicare il codice sconto <strong style=\"text-transform:uppercase\">%{code}</strong>",
         "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> codice sconto non è disponibile per te in questo momento",
-        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> codice sconto richiede cliente idoneo",
+        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> codice sconto riservato ai clienti idonei",
         "shipping_information_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> codice sconto non è disponibile per il tuo indirizzo di spedizione",
         "customer_already_used_once_per_customer_discount_notice": "Il codice sconto <strong style=\"text-transform:uppercase\">%{code}</strong> è già stato utilizzato",
         "subtotal_label": "Totale parziale",
@@ -932,7 +932,7 @@
         "estimated_taxes_label": "Tasse stimate",
         "estimated_taxes_label_short": "Stimato",
         "information_estimated_taxes_label": "Tasse (stimate)",
-        "estimated_taxes_finalization_tooltip_content": "L'imposta finale e il totale saranno confermati via email o messaggio di testo dopo aver effettuato l'ordine.",
+        "estimated_taxes_finalization_tooltip_content": "L'imposta finale e il totale saranno confermati via email o SMS dopo aver effettuato l'ordine.",
         "order_total_label": "Totale Ordine",
         "total_savings": "Risparmio totale",
         "deposit_label": "Deposito",
@@ -959,13 +959,13 @@
         "recurring_subtotal_label": "Totale parziale ricorrente",
         "recurring_total_tooltip": "Non include spedizione, tasse, dazi o eventuali sconti applicabili.",
         "confirmation_number_label": "Conferma #%{confirmation_number}",
-        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> non può essere utilizzato con gli sconti già applicati.",
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> non può essere utilizzato con i tuoi sconti attuali.",
         "percent_off_shipping": "%{percent}% di sconto sulla spedizione",
         "amount_off_shipping": "%{amount} di sconto sulla spedizione",
         "deferred_payment_info": {
           "title": "Il pagamento di %{amount_due} è dovuto entro %{due_at}",
-          "due_on_fulfillment_title": "Il pagamento di %{amount_due} è dovuto al completamento",
-          "due_on_receipt_title": "Il pagamento di %{amount_due} è dovuto al ricevimento"
+          "due_on_fulfillment_title": "Il pagamento di %{amount_due} è dovuto al completamento dell'ordine",
+          "due_on_receipt_title": "Il pagamento di %{amount_due} è dovuto alla ricezione"
         },
         "deferred_balance_info": {
           "title": "Il saldo di {{amount_due}} è dovuto il {{due_at}}",
@@ -980,20 +980,26 @@
           "due_later_checkout_to_draft": "Totale dovuto in seguito"
         },
         "maximum_discount_code_limit_reached": "Hai raggiunto il numero massimo di codici sconto. Rimuovi un codice esistente per usare <strong style=\"text-transform:uppercase\">%{code}</strong>.",
-        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> non funziona al momento. Contattaci per assistenza.",
-        "due_on_fulfillment": "Due alla consegna",
-        "duties_label": "Compiti",
-        "error_duties_tooltip": "Questo ordine viene spedito da un altro paese, quindi potrebbero essere addebitati dazi e imposte alla consegna.",
-        "may_be_charged_on_delivery": "Può essere pagato alla consegna",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> non funziona in questo momento. Contattaci per assistenza.",
+        "due_on_fulfillment": "Dovuto al completamento",
+        "duties_label": "Doveri",
+        "error_duties_tooltip": "Questo ordine viene spedito da un altro paese, quindi potrebbero essere addebitati dazi e tasse alla consegna.",
+        "may_be_charged_on_delivery": "Potrebbe essere addebitato alla consegna",
         "updated_shipping_method": "Metodo di spedizione aggiornato: %{shipping_method}",
         "recurring_total_multiple_label": "Questo ordine prevede un addebito ricorrente per più articoli.",
         "deferred_total_due_date_label": "Totale dovuto {{date}}",
         "deferred_total_due_date_label_next": "Due %{date}",
         "collapse_component_information": {
-          "other": "Nascondi %{count} elementi"
+          "other": "Nascondi %{count} elementi",
+          "one": "Nascondi %{count} elemento"
         },
         "alternative_payment_currency_total": "Addebitato %{amount_due}",
-        "discount_applies_to_subscription_items_only": "Questo sconto si applica solo agli articoli in abbonamento"
+        "discount_applies_to_subscription_items_only": "Questo sconto si applica solo agli articoli in abbonamento",
+        "discount_code_allocations_mismatch": "Il tuo codice sconto <strong style=\"text-transform:uppercase\">%{code}</strong> è cambiato. Controlla il tuo carrello e riprova.",
+        "compare_at_sale": "Saldi (%{sale_amount})",
+        "estimated_taxes_finalization_tooltip_content_short": "Tassa finalizzata dopo il pagamento",
+        "duties_and_taxes_label": "Dazi e tasse",
+        "full_price": "Prezzo intero: %{price}"
       },
       "shipping": {
         "shipping_method_rollup_accessibility_label": "Opzioni di metodo di spedizione",
