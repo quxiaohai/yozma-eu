@@ -157,8 +157,8 @@
   "collection": {
     "general": {
       "empty_collection": "Deze collectie is leeg",
-      "all_collections": "Alle verzamelingen",
-      "no_collections": "Deze winkel bevat geen collectie.",
+      "all_collections": "Alle collecties",
+      "no_collections": "Deze winkel bevat geen enkele collectie.",
       "continue_shopping": "Doorgaan met winkelen"
     },
     "products_count": {
@@ -177,7 +177,7 @@
       "no_results": "Geen producten komen overeen met die filters.",
       "price_range_to": "naar",
       "price_filter_from": "Vanaf prijs",
-      "price_filter_to": "Te koop",
+      "price_filter_to": "Te prijzen",
       "price_filter": "{{ min_price }} - {{ max_price }}",
       "availability_label": "Alleen op voorraad"
     }
@@ -217,13 +217,15 @@
       "email": "E-mail",
       "message": "Bericht",
       "submit": "Bericht verzenden",
-      "success_message": "Uw bericht is verzonden."
+      "success_message": "Je bericht is verzonden.",
+      "question": "Vragen",
+      "product_name": "Productnaam"
     }
   },
   "customer": {
     "account": {
       "welcome": "Welkom, {{first_name}}",
-      "tagline": "Bekijk al uw bestellingen en beheer uw accountinformatie.",
+      "tagline": "Bekijk al je bestellingen en beheer je accountgegevens.",
       "orders": "Bestellingen",
       "addresses": "Adressen",
       "logout": "Uitloggen",
@@ -358,15 +360,15 @@
       "limit_reached_html": "Je komt in aanmerking voor gratis verzending."
     },
     "shipping_estimator": {
-      "estimate_shipping": "Geschatte verzendkosten",
+      "estimate_shipping": "Verzendkosten schatten",
       "country": "Land",
       "province": "Provincie",
       "zip": "Postcode",
       "estimate": "Schatting",
-      "no_results": "Sorry, we verzenden niet naar je adres.",
-      "one_result": "Er is één verzendtarief voor je adres:",
-      "multiple_results": "Er zijn meerdere verzendtarieven voor je adres:",
-      "error": "Er zijn een of meer fouten opgetreden bij het ophalen van de verzendtarieven:"
+      "no_results": "Sorry, we verzenden niet naar uw adres.",
+      "one_result": "Er is één verzendtarief voor uw adres:",
+      "multiple_results": "Er zijn verschillende verzendtarieven voor uw adres:",
+      "error": "Er is een of meer fouten opgetreden bij het ophalen van de verzendtarieven:"
     }
   },
   "search": {
