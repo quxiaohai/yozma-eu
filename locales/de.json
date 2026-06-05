@@ -493,14 +493,17 @@
     "checkout": {
       "split_delivery": {
         "items_for_shipping": "Artikel zum Versand",
-        "pickup_all_items": "Alle Gegenstände aufheben",
-        "items_for_pickup": "Abholgegenstände",
+        "pickup_all_items": "Alle Artikel abholen",
+        "items_for_pickup": "Artikel zur Abholung",
         "delivery_method": "Liefermethode aufteilen",
-        "delivery_method_menu": "Menü für Lieferart aufteilen",
+        "delivery_method_menu": "Menü für Liefermethoden aufteilen",
         "inventory_issue_banner": {
           "pick_them_up_in_store": {
-            "one": "im Geschäft abholen",
-            "other": "im Geschäft abholen"
+            "one": "Im Geschäft abholen",
+            "other": "Im Geschäft abholen"
+          },
+          "ship_separately": {
+            "other": "Versenden Sie sie separat"
           }
         },
         "cross_border": {
@@ -508,7 +511,8 @@
             "content": "Ihre Abhol- und Versandorte müssen sich im selben Land befinden. Ein Länderwechsel setzt alle Artikel auf Versand zurück."
           },
           "banner": "Ihre Liefermethode wurde aktualisiert"
-        }
+        },
+        "items_moved_to_shipping_toast": "Artikel, die nicht abgeholt werden konnten, wurden zum Versand weitergeleitet"
       },
       "general": {
         "page_title": "Zur Kasse",
@@ -843,7 +847,7 @@
       },
       "stock": {
         "page_title": "Bestandsprobleme",
-        "title": "Nicht vorrätig",
+        "title": "Nicht auf Lager",
         "items_unavailable_notice": "Einige Artikel sind nicht mehr verfügbar.",
         "quantity_column_header": "Menge",
         "reduced_with_quantity_label": "Nur noch %{quantity_available} verfügbar",
@@ -865,8 +869,8 @@
         "unfulfillable_product": {
           "title": "Lieferung nicht verfügbar",
           "default_message": {
-            "one": "Die gewählte Lieferart ist für diesen Artikel nicht mehr verfügbar.",
-            "other": "Die gewählte Lieferart ist für diese Artikel nicht mehr verfügbar."
+            "one": "Die gewählte Liefermethode ist für diesen Artikel nicht mehr verfügbar.",
+            "other": "Die gewählte Liefermethode ist für diese Artikel nicht mehr verfügbar."
           }
         },
         "unshippable_product": {
@@ -876,8 +880,8 @@
             "other": "Keine Lieferung für %{count} Artikel verfügbar"
           },
           "message": {
-            "one": "Dieser Artikel wird aus Ihrem Warenkorb entfernt, da für Ihre Adresse keine Liefermöglichkeiten verfügbar sind.",
-            "other": "Diese Artikel werden aus Ihrem Warenkorb entfernt, da für Ihre Adresse keine Liefermöglichkeiten verfügbar sind."
+            "one": "Dieser Artikel wird aus Ihrem Warenkorb entfernt, da für Ihre Adresse keine Liefermethoden verfügbar sind.",
+            "other": "Diese Artikel werden aus Ihrem Warenkorb entfernt, da für Ihre Adresse keine Liefermethoden verfügbar sind."
           },
           "status_column_header": "Keine Lieferung"
         },
@@ -889,10 +893,11 @@
           "description": "Preise und verfügbare Mengen für diese Artikel haben sich geändert und wurden in Ihrem Warenkorb aktualisiert."
         },
         "out_of_stock": {
-          "description": "Diese Artikel sind nicht mehr verfügbar und wurden aus Ihrem Warenkorb entfernt.",
-          "items_unavailable": "Einige Artikel sind nicht mehr verfügbar und wurden aus Ihrem Warenkorb entfernt."
+          "description": "Diese Artikel sind nicht mehr verfügbar und werden aus Ihrem Warenkorb entfernt.",
+          "items_unavailable": "Einige Artikel sind nicht mehr verfügbar und werden aus Ihrem Warenkorb entfernt."
         },
-        "out_of_stock_in_context_label": "Dieses Produkt ist in Ihrem Land/Ihrer Region nicht verfügbar."
+        "out_of_stock_in_context_label": "Dieses Produkt ist in Ihrem Land/Ihrer Region nicht verfügbar.",
+        "continue_shopping_button_label": "Weiter"
       },
       "contextual_availability": {
         "products_not_available": {
@@ -2324,7 +2329,7 @@
         },
         "recurring_totals_with_initial_order_shipping_discount_with_policies": {
           "first_cycles": {
-            "one": ", dann %{count} Zahlung zu %{total_price}",
+            "one": ", dann %{count} Zahlung bei %{total_price}",
             "other": ", dann %{count} Zahlungen zu je %{total_price}"
           }
         }
@@ -2763,19 +2768,19 @@
         }
       },
       "taxes": {
-        "tax_details": "Zusätzliche Steuerangaben",
+        "tax_details": "Zusätzliche Steuerinformationen",
         "vat_number": {
           "field": {
             "label": "Umsatzsteuer-Identifikationsnummer (optional)",
-            "tooltip": "Überprüft die Umsatzsteuer-Identifikationsnummer und wendet bei berechtigten Bestellungen automatisch das Umkehrverfahren an"
+            "tooltip": "Validiert die USt-IdNr. und wendet bei berechtigten Bestellungen automatisch das Reverse-Charge-Verfahren an"
           },
-          "add": "Eine Umsatzsteuer-Identifikationsnummer hinzufügen",
+          "add": "Umsatzsteuer-Identifikationsnummer hinzufügen",
           "vaulted": "Umsatzsteuer-Identifikationsnummer: %{number}",
           "badge": "Umsatzsteuer-Identifikationsnummer: %{number}",
           "domestic_order": "Die Umkehrung der Steuerschuldnerschaft gilt nur für grenzüberschreitende Bestellungen innerhalb der EU. Für lokale Bestellungen wird die reguläre Mehrwertsteuer berechnet.",
           "status": {
             "invalid_format": {
-              "at": "Österreichische Umsatzsteuer-Identifikationsnummern enthalten AT und 9 Zeichen",
+              "at": "Österreichische USt-IdNr. enthalten AT und 9 Zeichen",
               "be": "Belgische Mehrwertsteuernummern enthalten BE und 10 Zeichen",
               "bg": "Bulgarische Mehrwertsteuernummern enthalten BG und 9-10 Zeichen",
               "hr": "Kroatische Mehrwertsteuernummern enthalten HR und 11 Zeichen",
