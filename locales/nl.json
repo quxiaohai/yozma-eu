@@ -18,20 +18,21 @@
     "page": "Pagina {{ page }}",
     "home": "Startpagina",
     "accessibility": {
-      "skip_to_content": "Sla naar inhoud over",
+      "skip_to_content": "Ga naar inhoud",
       "pagination": "Paginanavigatie",
       "go_to_page": "Ga naar pagina {{ index }}",
       "go_to_item": "Ga naar item {{ index }}",
-      "item_nth_of_count": "Item {{ index }} van {{ count }}",
+      "item_nth_of_count": "Artikel {{ index }} van {{ count }}",
       "drag": "Slepen",
       "close": "Sluiten",
       "next": "Volgende",
       "previous": "Vorige",
       "play_video": "Video afspelen",
-      "read_more": "Lees meer"
+      "read_more": "Lees meer",
+      "load_video": "Video laden: {{ description }}"
     },
     "label": {
-      "color": "Kleur",
+      "color": "Kleur, Kleur",
       "white": "Wit",
       "size": "Maat"
     },
@@ -47,13 +48,13 @@
     "newsletter": {
       "email": "E-mail",
       "subscribe": "Abonneer je",
-      "notify_me": "Breng mij op de hoogte",
-      "subscribed_successfully": "U bent geabonneerd op onze nieuwsbrief."
+      "notify_me": "Stel me op de hoogte",
+      "subscribed_successfully": "Je bent geabonneerd op onze nieuwsbrief."
     },
     "localization": {
       "country": "Land",
       "language": "Taal",
-      "change_country_accessibility_text": "Wijzig land of valuta",
+      "change_country_accessibility_text": "Land of valuta wijzigen",
       "change_language_accessibility_text": "Taal wijzigen"
     },
     "privacy_bar": {
@@ -66,7 +67,7 @@
     "on_boarding": {
       "blog_post_category": "Categorie",
       "blog_post_title": "Artikel",
-      "blog_post_excerpt": "Schrijf tekst over je blogbericht.",
+      "blog_post_excerpt": "Schrijf tekst over je blogpost.",
       "product_vendor": "Verkoper",
       "product_title": "Product",
       "product_description": "Schrijf tekst over uw product.",
@@ -241,7 +242,7 @@
       "sign_up": "Aanmelden"
     },
     "recover_password": {
-      "title": "Herstel wachtwoord",
+      "title": "Wachtwoord herstellen",
       "email": "E-mail",
       "submit": "Herstellen",
       "back_to_login": "Terug naar inloggen",
@@ -253,7 +254,7 @@
       "last_name": "Achternaam",
       "email": "E-mail",
       "password": "Wachtwoord",
-      "accepts_marketing": "Meld u aan voor onze nieuwsbrief",
+      "accepts_marketing": "Meld je aan voor onze nieuwsbrief",
       "submit": "Account aanmaken",
       "login": "Inloggen"
     },
@@ -269,7 +270,7 @@
       "title": "Wachtwoord opnieuw instellen",
       "password": "Wachtwoord",
       "password_confirmation": "Wachtwoordbevestiging",
-      "submit": "Herstellen"
+      "submit": "Resetten"
     },
     "order": {
       "order": "Bestel",
@@ -290,7 +291,7 @@
       "shipping": "Verzending",
       "taxes_included": "Inclusief belastingen",
       "taxes_excluded": "Belastingen niet inbegrepen",
-      "total_duties": "Belastingen",
+      "total_duties": "Heffingen",
       "refunded_amount": "Terugbetaald bedrag",
       "total": "Totaal",
       "shipping_address": "Verzendadres",

@@ -493,24 +493,34 @@
     "checkout": {
       "split_delivery": {
         "items_for_shipping": "Articles à expédier",
-        "pickup_all_items": "Ramassez tous les objets",
+        "pickup_all_items": "Ramassez tous les articles",
         "items_for_pickup": "Articles à retirer",
         "delivery_method": "Méthode de livraison fractionnée",
         "delivery_method_menu": "Menu de méthode de livraison fractionnée",
         "inventory_issue_banner": {
           "remove_item": {
-            "one": "Supprimer l'article",
-            "other": "Supprimer les articles"
+            "one": "supprimer l'article",
+            "other": "supprimer les articles"
           },
           "ship_separately": {
-            "one": "expédier séparément",
-            "other": "expédiez-les séparément"
+            "one": "Expédiez-le séparément",
+            "other": "Expédiez-les séparément"
           },
           "pick_them_up_in_store": {
-            "one": "retirez-le en magasin",
-            "other": "récupérez-les en magasin"
+            "one": "Retirez-le en magasin",
+            "other": "Retirez-les en magasin"
+          },
+          "remove_item_only": {
+            "one": "Supprimer l'article",
+            "other": "Supprimer les articles"
           }
-        }
+        },
+        "cross_border": {
+          "modal": {
+            "content": "Vos points de retrait et d'expédition doivent être dans le même pays. Changer de pays réinitialisera tous les articles en mode expédition."
+          }
+        },
+        "items_moved_to_shipping_toast": "Les articles qui ne peuvent pas être récupérés ont été déplacés vers l'expédition"
       },
       "general": {
         "page_title": "Passer à la caisse",
@@ -868,7 +878,7 @@
       "stock": {
         "page_title": "Problèmes de stock",
         "title": "Rupture de stock",
-        "reduced_with_quantity_label": "Il ne reste que %{quantity_available}",
+        "reduced_with_quantity_label": "Il ne reste que %{quantity_available} exemplaire(s)",
         "go_back_to_cart_button_label": "Retourner à mon panier",
         "remove": "Supprimer",
         "return_to_store_label": "Retour au magasin",
@@ -913,7 +923,7 @@
         },
         "price_update": {
           "title": "Mise à jour des prix",
-          "description": "Les prix de ces articles ont changé et sont mis à jour dans votre panier.",
+          "description": "Les prix de ces articles ont changé et ont été mis à jour dans votre panier.",
           "updated_price": "Prix mis à jour"
         },
         "price_and_quantity_update": {
@@ -1178,8 +1188,8 @@
           "other": "Expédié sous %{count} jours ouvrables"
         },
         "unbranded_description_with_fulfillment_weeks": {
-          "one": "Expédié sous %{count} semaine",
-          "other": "Expédié sous %{count} semaines"
+          "one": "Expédié dans %{count} semaine",
+          "other": "Expédié dans %{count} semaines"
         },
         "shipping_line_phone_label": "Numéro de téléphone portable (obligatoire)",
         "shipping_line_phone": "Votre coursier peut utiliser ce numéro pour vous contacter.",
@@ -1845,24 +1855,24 @@
         "missing_cvc": "Entrez un code de sécurité"
       },
       "shipping_errors": {
-        "shipping_method": "Les options de livraison ont changé pour votre commande. Veuillez revoir votre choix.",
-        "shipping_method_not_available": "Votre panier a été mis à jour et les articles que vous avez ajoutés ne peuvent pas être expédiés à votre adresse. Retirez les articles pour finaliser votre commande.",
+        "shipping_method": "Les options de livraison ont changé pour votre commande. Veuillez revoir votre sélection.",
+        "shipping_method_not_available": "Votre panier a été mis à jour et les articles que vous avez ajoutés ne peuvent pas être expédiés à votre adresse. Supprimez les articles pour finaliser votre commande.",
         "shipping_method_not_available_generic": {
-          "one": "Votre commande ne peut pas être expédiée à l'adresse choisie. Vérifiez votre adresse pour vous assurer qu'elle est correcte et réessayez, ou choisissez une autre adresse.",
-          "other": "Certains articles dans votre panier ne peuvent pas être expédiés à l'adresse que vous avez saisie. Vérifiez votre adresse pour vous assurer qu'elle est correcte et réessayez, ou choisissez une autre adresse."
+          "one": "Votre commande ne peut pas être expédiée à l'adresse sélectionnée. Vérifiez votre adresse pour vous assurer qu'elle est correcte et réessayez, ou choisissez une autre adresse.",
+          "other": "Certains articles dans votre panier ne peuvent pas être expédiés à l'adresse que vous avez saisie. Vérifiez votre adresse pour vous assurer qu'elle est correcte et réessayez, ou sélectionnez une autre adresse."
         },
-        "shipping_method_not_available_due_to_unsatisfied_conditions": "Les articles dans le panier ne remplissent pas les conditions de prix ou de poids pour bénéficier de la livraison. Mettez à jour votre panier et réessayez.",
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "Les articles dans le panier ne répondent pas aux exigences de prix ou de poids pour bénéficier de la livraison. Mettez à jour votre panier et réessayez.",
         "shipping_method_not_available_updated": {
-          "one": "L'article que vous avez ajouté ne peut pas être expédié à votre adresse. Retirez-le pour passer à la caisse, ou contactez le magasin.",
-          "other": "Un ou plusieurs articles que vous avez ajoutés ne sont pas expédiés à votre adresse. Supprimez-les pour passer à la caisse, ou contactez le magasin."
+          "one": "L'article que vous avez ajouté ne peut pas être expédié à votre adresse. Supprimez-le pour passer à la caisse, ou contactez le magasin.",
+          "other": "Un ou plusieurs articles que vous avez ajoutés ne sont pas expédiés vers votre emplacement. Supprimez-les pour passer à la caisse, ou contactez le magasin."
         },
         "payment_method_not_supported": "Vous ne pouvez pas utiliser ce mode de paiement pour %{country}. Utilisez un autre mode de paiement pour expédier vers ce pays.",
-        "empty_state": "Saisissez votre adresse de livraison pour voir les modes d'expédition disponibles.",
+        "empty_state": "Entrez votre adresse de livraison pour voir les méthodes d'expédition disponibles.",
         "title": "Livraison non disponible",
         "invalid_selected_address": "L'adresse de livraison sélectionnée n'est pas valide",
         "invalid_selected_address_with_update_link": "L'adresse de livraison sélectionnée n'est pas valide. %{update_address_link} ou choisissez une autre adresse",
         "unavailable_addresses_only_countries": "Votre commande ne peut être expédiée qu'à {{countriesList}}. Ajoutez une nouvelle adresse pour continuer.",
-        "unavailable_address_country": "La livraison n'est pas disponible dans le pays que vous avez choisi. Utilisez une autre adresse pour continuer",
+        "unavailable_address_country": "La livraison n'est pas disponible dans le pays que vous avez sélectionné. Utilisez une autre adresse pour continuer",
         "unavailable_selected_address": "Livraison non disponible pour l'adresse sélectionnée",
         "unavailable_selected_address_for_region": "La livraison n’est pas disponible pour {{region}}. Sélectionnez une autre adresse pour continuer"
       },
@@ -2265,7 +2275,7 @@
         "terms_of_sale": "Conditions de vente",
         "purchase_options_policy": "Politique des options d'achat",
         "contact_information": "Contactez-nous",
-        "cookie_preferences": "Biscuits",
+        "cookie_preferences": "Cookies",
         "terms_and_policies": "Conditions et politiques"
       },
       "mor_policies": {
@@ -2626,8 +2636,8 @@
       "shop_pay_external": {
         "title": "Paiement Shop Pay",
         "errors": {
-          "problem_loading": "Un problème est survenu lors du chargement de Shop Pay",
-          "checkout_has_expired": "Votre session de paiement a expiré. Fermez cette fenêtre et essayez de finaliser votre commande à nouveau depuis {{shopName}}."
+          "problem_loading": "Il y a un problème lors du chargement de Shop Pay",
+          "checkout_has_expired": "Votre session de paiement a expiré. Fermez cette fenêtre et essayez de passer à nouveau la commande sur {{shopName}}."
         },
         "return_to_store": "Retour à {{shopName}}",
         "return_to_store_simple": "Retour au magasin"

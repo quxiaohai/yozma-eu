@@ -2638,7 +2638,7 @@
       },
       "wallets": {
         "return_to_store": "Zurück zum Geschäft",
-        "return_to_checkout": "Zurück zur Kasse",
+        "return_to_checkout": "Zur Kasse zurück",
         "redirect_hint": "Sie werden aufgefordert, sich mit {{walletName}} anzumelden.",
         "logged_in": "Verbunden mit {{email}}",
         "payment_in_progress_title": "Zahlung wird bearbeitet",
@@ -2715,8 +2715,8 @@
           "subscription_review_required": "Ihre Bestellung umfasst ein Abonnement. Sie müssen die untenstehenden Bedingungen überprüfen, bevor Sie Ihre Bestellung abschließen."
         },
         "scrim": {
-          "continue_purchase_in_window": "Fahren Sie mit Ihrem Kauf im {{walletName}} Fenster fort",
-          "and_return_to_checkout": "und zur Kasse zurückkehren"
+          "continue_purchase_in_window": "Fahren Sie mit Ihrem Kauf im {{walletName}}-Fenster fort",
+          "and_return_to_checkout": "und zurück zur Kasse"
         }
       },
       "note": {
@@ -2887,16 +2887,16 @@
     },
     "collections": {
       "sorting": {
-        "manual": "Empfohlen",
+        "manual": "Ausgewählt",
         "best_selling": "Bestseller",
-        "az": "Alphabetisch, A–Z",
+        "az": "Alphabetisch, A-Z",
         "price_ascending": "Preis, aufsteigend",
         "price_descending": "Preis, von hoch nach niedrig",
         "date_descending": "Datum, neu nach alt"
       }
     },
     "errors": {
-      "credit_card_session_expired": "Die Kreditkartenautorisierung ist abgelaufen, bitte geben Sie Ihre Zahlungsinformationen erneut ein. Ihre Karte wurde nicht belastet.",
+      "credit_card_session_expired": "Die Autorisierung der Kreditkarte ist abgelaufen, bitte geben Sie Ihre Zahlungsinformationen erneut ein. Ihre Karte wurde nicht belastet.",
       "invalid_email": "muss eine gültige E-Mail-Adresse sein",
       "discount_not_found": "Es konnte kein gültiger Rabatt gefunden werden, der dem eingegebenen Code entspricht",
       "gift_card_already_applied": "Der Code wurde bereits auf Ihren Kauf angewendet",
@@ -2960,7 +2960,9 @@
             "shopify_support_link_text": "Shopify-Unterstützung"
           }
         }
-      }
+      },
+      "customer_already_used_once_per_customer_discount_notice": "Dieser Rabatt hat sein Nutzungslimit erreicht",
+      "contains_html_tags": "kann keine HTML-Tags enthalten"
     },
     "notices": {
       "customer": {
@@ -3045,42 +3047,43 @@
     },
     "email_marketing": {
       "subscribed": {
-        "confirmation": "Vielen Dank, dass Sie sich für unseren Verteiler angemeldet haben.",
+        "confirmation": "Vielen Dank, dass Sie sich für unseren Newsletter angemeldet haben.",
         "disclaimer": "Sie können sich jederzeit abmelden.",
-        "unsubscribe": "Abbestellen"
+        "unsubscribe": "Abmelden"
       },
       "unsubscribed": {
-        "confirmation": "Sie haben sich von unserem Verteiler abgemeldet.",
-        "disclaimer": "Sie erhalten keine weiteren Werbeinformationen von uns. Sie können sich jederzeit wieder anmelden.",
-        "preview": "Sie sehen eine Vorschau dessen, was Kunden sehen werden, wenn sie sich abmelden."
+        "confirmation": "Sie haben sich von unserem Mailingliste abgemeldet.",
+        "disclaimer": "Sie werden keine weiteren Marketing-Updates von uns erhalten. Sie können sich jederzeit wieder anmelden.",
+        "preview": "Sie sehen eine Vorschau darauf, was Kunden sehen werden, wenn sie sich abmelden."
       },
       "sms_unsubscribe_confirm": {
-        "message": "Sind Sie sicher, dass Sie den SMS-Werbeversand abbestellen möchten?"
+        "message": "Sind Sie sicher, dass Sie sich von SMS-Marketing abmelden möchten?",
+        "button": "Abmelden"
       },
       "open_tracking": {
         "opt_in": {
-          "opted_in_html": "<b>Sie haben sich für die Verfolgung des Öffnens von E-Mails angemeldet.</b>",
-          "visibility": "Die Öffnungsraten von E-Mails werden anonym gemeldet. Wir sehen nur, ob Sie eine E-Mail im Rahmen einer zusammengefassten Öffnungsrate geöffnet haben.",
-          "opt_out_html": "Sie können <a style='text-decoration:underline;' href='%{link}'>das Tracking des Öffnens von E-Mails deaktivieren</a>, wenn Sie diese Informationen nicht teilen möchten.",
-          "preview_bar": "Sie sehen eine Vorschau dessen, was Kunden sehen werden, wenn sie sich für die Verfolgung des Öffnens von E-Mails anmelden."
+          "opted_in_html": "<b>Sie haben sich für das Tracking des Öffnens von E-Mails angemeldet.</b>",
+          "visibility": "Die Öffnungsraten von E-Mails werden anonym gemeldet. Wir sehen nur, ob Sie eine E-Mail im Rahmen einer aggregierten Öffnungsrate geöffnet haben.",
+          "opt_out_html": "Sie können das <a style='text-decoration:underline;' href='%{link}'>Tracking des Öffnens von E-Mails deaktivieren</a>, wenn Sie diese Informationen nicht teilen möchten.",
+          "preview_bar": "Sie sehen eine Vorschau dessen, was Kunden sehen werden, wenn sie sich für das E-Mail-Öffnungs-Tracking anmelden."
         },
         "opt_out": {
-          "opted_out_html": "<b>Sie haben sich gegen das Nachverfolgen des Öffnens von E-Mails entschieden.</b>",
-          "visibility": "Wir können nicht sehen, ob Sie unsere E-Mails geöffnet haben.",
-          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Anmelden</a> für das Tracking von E-Mail-Öffnungen.",
-          "preview_bar": "Sie sehen eine Vorschau dessen, was Kunden sehen werden, wenn sie das Nachverfolgen des Öffnens von E-Mails ablehnen."
+          "opted_out_html": "<b>Sie haben sich von der E-Mail-Öffnungsüberwachung abgemeldet.</b>",
+          "visibility": "Wir werden nicht sehen, ob Sie unsere E-Mails geöffnet haben.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Zustimmen</a> zum E-Mail-Öffnungs-Tracking.",
+          "preview_bar": "Sie sehen eine Vorschau darauf, was Kunden sehen werden, wenn sie sich von der E-Mail-Öffnungsüberwachung abmelden."
         },
         "no_longer_track": {
           "status_html": "<b>Wir verfolgen keine E-Mail-Öffnungen mehr.</b>",
-          "privacy_policy": "Nachdem diese E-Mail versandt wurde, haben wir unsere Datenschutzerklärung aktualisiert und verfolgen das Öffnen nicht mehr."
+          "privacy_policy": "Nachdem diese E-Mail gesendet wurde, haben wir unsere Datenschutzrichtlinie aktualisiert und verfolgen keine Öffnungen mehr."
         },
         "track": {
-          "status_html": "<b>Das Öffnen der E-Mail wird gemeldet.</b>",
+          "status_html": "<b>Email-Öffnungs-Tracking wird gemeldet.</b>",
           "visibility": "Wir sehen nur, ob Sie die E-Mail geöffnet haben, als Teil der gesamten Öffnungsrate der E-Mails."
         },
         "updated_policy": {
-          "status_html": "<b>Das Öffnen der E-Mail wird gemeldet.</b>",
-          "visibility": "Wir haben unsere Richtlinie aktualisiert und verfolgen nun das Öffnen von E-Mails. Die Öffnungsraten der E-Mails werden anonym gemeldet. Wir sehen nur, ob Sie eine E-Mail geöffnet haben, als Teil der gesamten Öffnungsrate.",
+          "status_html": "<b>Email-Öffnungs-Tracking wird gemeldet.</b>",
+          "visibility": "Wir haben unsere Richtlinie aktualisiert und verfolgen jetzt das Öffnen von E-Mails. Die Öffnungsraten werden anonym gemeldet. Wir sehen nur, ob Sie eine E-Mail im Rahmen der gesamten Öffnungsrate geöffnet haben.",
           "opt_out_html": "Wenn Sie diese Informationen nicht teilen möchten, können Sie sich <a style='text-decoration:underline;' href='%{link}'>abmelden.</a>"
         }
       }
@@ -3109,8 +3112,8 @@
       "submit_button_text": "Absenden"
     },
     "checkpoint": {
-      "message": "Löse das Captcha, um fortzufahren",
-      "error": "Captcha-Überprüfung fehlgeschlagen",
+      "message": "Captcha lösen, um fortzufahren",
+      "error": "Captcha-Validierung fehlgeschlagen",
       "submit_button_text": "Absenden"
     },
     "store_availability": {
