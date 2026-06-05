@@ -909,6 +909,15 @@
             "url": "shopify://blogs/ebike/yozma-june-electric-dirt-bike-events"
           }
         },
+        "card_rrYedR": {
+          "type": "card",
+          "settings": {
+            "desktop_image": "shopify://shop_images/1_6.2_240a4adc-5c48-4143-a672-4e2e11d18559.jpg",
+            "title": "Celebrate Yozma 1st Anniversary: Spin, Win, and Ride",
+            "text": "",
+            "url": "shopify://blogs/ebike/celebrate-yozma-1st-anniversary-spin-win-and-ride"
+          }
+        },
         "card_QBffqa": {
           "type": "card",
           "disabled": true,
@@ -985,6 +994,7 @@
       },
       "block_order": [
         "card_nfmFyG",
+        "card_rrYedR",
         "card_QBffqa",
         "media3",
         "media1",
