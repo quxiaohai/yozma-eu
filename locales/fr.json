@@ -1966,7 +1966,7 @@
         "page_title_no_name": "Merci !",
         "purchase_order_number_title": "Numéro de bon de commande #%{purchase_order_number}",
         "failed_pending_payment_page_title": "Il y a un problème avec votre paiement",
-        "cashback_notice": "Vous recevrez votre remboursement après 30 jours",
+        "cashback_notice": "Vous recevrez votre cashback après 30 jours",
         "shipping_address_map_title": "Carte Google affichant l'emplacement de l'adresse de livraison : %{address}",
         "payment_method_title": "Méthode de paiement",
         "payment_method_not_charged": "Non chargé",
@@ -1975,7 +1975,7 @@
         "estimated_arrival": "Date de livraison estimée :",
         "estimated_delivery": "Estimation actuelle de la livraison :",
         "re-order": "Commander à nouveau les mêmes articles",
-        "confirmed_items_count": "%{confirmed_count} sur %{total_count} articles sont confirmés",
+        "confirmed_items_count": "%{confirmed_count} articles sur %{total_count} sont confirmés",
         "items_fulfilled_by_store": {
           "one": "Les articles que vous avez achetés proviendront de %{remote_shop_name}.",
           "other": "Les articles que vous avez achetés proviendront d'autres magasins."
@@ -2099,7 +2099,7 @@
         "order_status_confirmed_with_installments_payment_return": "Ramenez votre attention vers le vendeur.",
         "order_status_confirmed_with_installments_payment_confirm": "Vous recevrez bientôt un courriel de confirmation contenant votre numéro de commande ainsi que les détails de votre calendrier de versements.",
         "confirmed_title": "Votre commande est confirmée",
-        "confirmed_description": "Nous avons accepté votre commande et nous la préparons. Revenez sur cette page pour suivre l’état de votre envoi.",
+        "confirmed_description": "Nous avons accepté votre commande et nous la préparons. Revenez sur cette page pour des mises à jour sur le statut de votre expédition.",
         "ready_for_pickup_description": "Votre commande est prête à être retirée. Apportez votre confirmation de commande lorsque vous venez chercher votre commande.",
         "shop_phone_description": "Vous recevrez un message texte contenant un lien vers l'application Boutique pour vous aider à suivre votre commande.",
         "order_updates_description_html": "Les mises à jour seront envoyées à %{customer_contact}",
@@ -2116,8 +2116,8 @@
         "out_for_delivery_local_description_html": "Votre commande arrivera bientôt.",
         "attempted_delivery_title": "Une tentative de livraison de votre commande a été effectuée",
         "attempted_delivery_description_html": "Une tentative de livraison de votre commande a été effectuée, mais elle a échoué. %{contact_us} pour organiser une nouvelle tentative de livraison.",
-        "attempted_delivery_local_description_html": "Nous n'avons pas pu livrer votre commande. Pour planifier une nouvelle livraison, %{contact_us}.",
-        "delivered_description_html": "Votre commande a été livrée à l'adresse que vous avez fournie. Si vous ne l'avez pas reçue, ou si vous rencontrez d'autres problèmes, %{contact_us}.",
+        "attempted_delivery_local_description_html": "Nous n'avons pas pu livrer votre commande. Pour programmer une nouvelle livraison, %{contact_us}.",
+        "delivered_description_html": "Votre commande a été livrée à l'adresse que vous avez fournie. Si vous ne l'avez pas reçue, ou si vous avez d'autres problèmes, %{contact_us}.",
         "delivered_local_description_html": "Vous n'avez pas reçu votre commande ? %{let_us_know}.",
         "choose_payment_method_later": "Choisir le mode de paiement plus tard",
         "picked_up_title": "Votre commande a été récupérée",
@@ -2135,7 +2135,7 @@
           "other": "achetez aussi ces produits"
         },
         "customer_information_hidden_fields_message": "Connectez-vous pour voir toutes les informations client.",
-        "customer_validation_error": "Entrez un courriel valide ou un numéro de commande.",
+        "customer_validation_error": "Entrez un e-mail ou un numéro de commande valide.",
         "customer_validation_error_phone": "Entrez un numéro de téléphone ou de commande valide.",
         "unfulfilled_items_title": "Préparation à l'expédition",
         "unfulfilled_items_description": "Nous préparons actuellement ces articles pour l'expédition.",
@@ -2204,7 +2204,8 @@
         },
         "verify_shop_account_title": "Vérifiez votre compte Boutique",
         "verify_shop_account_message": "Vos informations ont été enregistrées avec Shop, vérifiez votre compte pour les utiliser automatiquement dans des millions de boutiques.",
-        "verify_shop_account_cta": "Vérifiez votre compte"
+        "verify_shop_account_cta": "Vérifiez votre compte",
+        "company_location_section_title": "Entreprise et localisation"
       },
       "vaulted": {
         "change_button": "Changer"
