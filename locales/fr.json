@@ -2960,9 +2960,9 @@
       "customer": {
         "password_reset_error": "Erreur de réinitialisation du mot de passe",
         "subscribe_error": "Erreur d'abonnement",
-        "no_account_found": "Aucun compte trouvé avec cet courriel.",
-        "invalid_credentials": "Adresse courriel ou mot de passe incorrect.",
-        "denylisted_reset_password": "Votre compte n'a pas pu être consulté car le mot de passe actuel n'est pas sûr. Vous recevrez un courriel pour mettre à jour votre mot de passe.",
+        "no_account_found": "Aucun compte trouvé avec cet e-mail.",
+        "invalid_credentials": "Email ou mot de passe incorrect.",
+        "denylisted_reset_password": "Votre compte n'a pas pu être accessible car le mot de passe actuel n'est pas sécurisé. Vous recevrez un e-mail pour mettre à jour votre mot de passe.",
         "signup_disabled": "La création de compte client a été désactivée."
       },
       "address": {
@@ -2984,7 +2984,7 @@
           "authorized": "Autorisé",
           "pending": "En attente",
           "paid": "Payé",
-          "unpaid": "Non payé",
+          "unpaid": "Impayé",
           "voided": "Annulé",
           "partially_paid": "Partiellement payé",
           "partially_refunded": "Partiellement remboursé",
@@ -2994,7 +2994,7 @@
           "fulfilled": "Expédié",
           "complete": "Terminer",
           "partial": "Partiel",
-          "unfulfilled": "Non réalisé",
+          "unfulfilled": "Non rempli",
           "restocked": "Réapprovisionné"
         },
         "transaction_status": {
@@ -3005,7 +3005,7 @@
           "inventory": "Articles indisponibles",
           "customer": "Client a modifié/annulé la commande"
         },
-        "cash_on_delivery": "Paiement à la livraison (PAL)"
+        "cash_on_delivery": "Paiement à la livraison (COD)"
       },
       "cart": {
         "only_n_items_available": "Vous ne pouvez ajouter que %{count} %{name} au panier.",
@@ -3046,10 +3046,10 @@
         "invalid_password": "Mot de passe incorrect, veuillez réessayer."
       },
       "tags": {
-        "add_articles": "Restreindre la recherche aux articles contenant également le tag %{tag}",
-        "add_products": "Restreindre la sélection aux produits correspondant au tag %{tag}",
+        "add_articles": "Restreindre la recherche aux articles comportant également le tag %{tag}",
+        "add_products": "Restreindre la sélection aux produits correspondant à la balise %{tag}",
         "remove_articles": "Élargir la recherche aux articles qui ne sont pas étiquetés %{tag}",
-        "remove_products": "Supprimer le %{tag}"
+        "remove_products": "Supprimer le tag %{tag}"
       }
     },
     "email_marketing": {

@@ -2095,8 +2095,10 @@
       "tips": {
         "description": "Mostra il tuo supporto per la squadra su %{shop_name}",
         "presets_description": "Seleziona una percentuale di mancia",
-        "update_tip": "Suggerimento aggiornamento",
-        "message": "Grazie, lo apprezziamo."
+        "update_tip": "Suggerimento per l'aggiornamento",
+        "message": "Grazie, lo apprezziamo.",
+        "custom_label": "Punta personalizzata",
+        "not_available_with_spi": "Non disponibile con i pagamenti rateali Shop Pay"
       },
       "open_graph_meta_tag": {
         "title_with_products": {
@@ -2425,7 +2427,7 @@
           "unavailable_terminal": {
             "instructions": "{{walletName}} non è attualmente disponibile per il tuo ordine. Per continuare l'acquisto, scegli un altro metodo di pagamento."
           },
-          "discount_code": "Impossibile applicare questo codice sconto. Controlla il tuo codice e riprova.",
+          "discount_code": "Impossibile applicare questo codice sconto. Controlla il codice e riprova.",
           "terminal": "Si è verificato un problema con {{walletName}}. Usa un metodo di pagamento diverso.",
           "detour": {
             "price_change": "Alcuni prezzi degli articoli sono cambiati. Chiudi {{walletName}} per rivedere il tuo ordine e riprova.",
@@ -2461,8 +2463,8 @@
             "billing_zip": "Inserisci un CAP / codice postale per la fatturazione"
           },
           "formatting": {
-            "name_contains_emojis": "Elimina le emoji dal tuo nome",
-            "postal_code_contains_emoji": "Elimina emoji dal tuo codice postale"
+            "name_contains_emojis": "Elimina l'emoji dal tuo nome",
+            "postal_code_contains_emoji": "Elimina le emoji dal tuo codice postale"
           },
           "select_different_shipping_address_to_resolve_errors": "Il tuo indirizzo di spedizione non è valido. Seleziona un indirizzo diverso o usa uno nuovo."
         },
@@ -2497,9 +2499,10 @@
         }
       },
       "units": {
-        "gallon": "gallo",
-        "foot": "piede",
-        "square_foot": "piedi²"
+        "gallon": "gal",
+        "foot": "ft",
+        "square_foot": "ft²",
+        "liter": "L"
       },
       "memberships": {
         "delivery_promise_unfulfillable": "L'indirizzo non è supportato per l'abbonamento attuale.",
@@ -2516,7 +2519,7 @@
       "too_many_requests": {
         "title": "Troppi tentativi di pagamento",
         "body": "Attendere qualche minuto e riprovare dal carrello.",
-        "body_no_cart": "Per favore, aspetta qualche minuto e riprova."
+        "body_no_cart": "Attendere qualche minuto e riprovare."
       },
       "required_extensions": {
         "errors": {
