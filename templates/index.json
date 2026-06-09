@@ -555,37 +555,46 @@
         "media3": {
           "type": "card",
           "settings": {
-            "desktop_image": "shopify://shop_images/product-mb-yozma-bike.jpg",
-            "title": "The Comprehensive Guide to Electric Bicycle Maintenance and Care",
+            "desktop_image": "shopify://shop_images/blog_banner.jpg",
+            "title": "Yozma June Events Are Coming: Big Rewards, Team Spirit & Family Rides",
             "text": "",
-            "url": "shopify://blogs/ebike/electric-bicycle-maintenance-and-care-guide"
+            "url": "shopify://blogs/ebike/yozma-june-electric-dirt-bike-events"
+          }
+        },
+        "card_8UbhWn": {
+          "type": "card",
+          "settings": {
+            "desktop_image": "shopify://shop_images/1_6.2_240a4adc-5c48-4143-a672-4e2e11d18559.jpg",
+            "title": "Celebrate Yozma 1st Anniversary: Spin, Win, and Ride",
+            "text": "",
+            "url": "shopify://blogs/ebike/celebrate-yozma-1st-anniversary-spin-win-and-ride"
           }
         },
         "media1": {
           "type": "card",
           "settings": {
-            "desktop_image": "shopify://shop_images/photo-34.webp",
-            "title": "Power Meets Play: Exploring The Yozma IN 10 Electric Dirt Bike",
+            "desktop_image": "shopify://shop_images/MVI_7211_1_d8bb9b6e-292f-4b25-826b-7d0c4348f89a.png",
+            "title": "Mid-Drive vs Hub Motor Electric Dirt Bike: Which Is Better for Off-Road Riding?",
             "text": "",
-            "url": "shopify://blogs/news/power-meets-play-exploring-the-yozma-in-10-electric-dirt-bike"
+            "url": "shopify://blogs/ebike/mid-drive-vs-hub-motor-electric-dirt-bike"
           }
         },
         "card_whmxzD": {
           "type": "card",
           "settings": {
-            "desktop_image": "shopify://shop_images/DSC01380.webp",
-            "title": "e-MTB Brakes: A Simple Guide to Safer, Faster Stops(2026)",
+            "desktop_image": "shopify://shop_images/DSC_3323_1_2da40f11-2084-4624-9d68-bc5edbdfe7c0.png",
+            "title": "Introducing The Yozma Electric Dirt Bike",
             "text": "",
-            "url": "shopify://blogs/ebike/emtb-brake-pads-setup-and-bed-in-guide"
+            "url": "shopify://blogs/news/introducing-the-yozma-electric-dirt-bike"
           }
         },
         "card_Rgk6tT": {
           "type": "card",
           "settings": {
             "desktop_image": "shopify://shop_images/yozma-electric-dirt-bike-47.webp",
-            "title": "From Balance Bike to Electric Power: How to Smoothly Transition Your Kid to a Dirt Bike",
+            "title": "New vs Used Electric Dirt Bike: A Practical EU Buyer’s Checklist",
             "text": "",
-            "url": "shopify://blogs/ebike/kids-electric-dirt-bike-transition-guide"
+            "url": "shopify://blogs/ebike/new-vs-used-electric-dirt-bike"
           }
         },
         "card_dAUNGr": {
@@ -594,7 +603,7 @@
             "desktop_image": "shopify://shop_images/image.webp",
             "title": "Mini Dirt Bike Safety Gear: Essential Protection for Kids!",
             "text": "",
-            "url": "shopify://blogs/ebike/kids-dirt-bike-safety-gear-guide"
+            "url": "shopify://blogs/news/best-electric-dirt-bike-black-friday-deals-2025-yozma-in-10-takes-the-lead"
           }
         },
         "media4": {
@@ -618,6 +627,7 @@
       },
       "block_order": [
         "media3",
+        "card_8UbhWn",
         "media1",
         "card_whmxzD",
         "card_Rgk6tT",

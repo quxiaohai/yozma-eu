@@ -28,7 +28,8 @@
       "next": "Siguiente",
       "previous": "Anterior",
       "play_video": "Reproducir video",
-      "read_more": "Leer más"
+      "read_more": "Leer más",
+      "load_video": "Cargar video: {{ description }}"
     },
     "label": {
       "color": "Color,Color",
@@ -48,7 +49,7 @@
       "email": "Correo electrónico",
       "subscribe": "Suscribirse",
       "notify_me": "Notificarme",
-      "subscribed_successfully": "Te has suscrito a nuestro boletín informativo."
+      "subscribed_successfully": "Te has suscrito a nuestro boletín."
     },
     "localization": {
       "country": "País",
@@ -66,7 +67,7 @@
     "on_boarding": {
       "blog_post_category": "Categoría",
       "blog_post_title": "Artículo",
-      "blog_post_excerpt": "Escribe texto sobre tu entrada del blog.",
+      "blog_post_excerpt": "Escribe texto sobre tu publicación de blog.",
       "product_vendor": "Vendedor",
       "product_title": "Producto",
       "product_description": "Escribe texto sobre tu producto.",
@@ -88,19 +89,19 @@
       "view_product": "Ver producto",
       "quick_add": "+ Añadir rápido",
       "add_to_cart_short": "+ Añadir",
-      "add_to_cart_button": "COMPRAR AHORA",
-      "pre_order_button": "Pedido anticipado",
+      "add_to_cart_button": "COMPRA AHORA",
+      "pre_order_button": "Preordenar",
       "sold_out_button": "Agotado",
       "unavailable_button": "No disponible",
       "added_to_cart": "¡Añadido a tu carrito!",
       "sold_out_badge": "Agotado",
       "on_sale_badge": "En oferta",
-      "discount_badge_html": "Ahorrar {{ savings }}",
+      "discount_badge_html": "Guardar {{ savings }}",
       "sku": "SKU:",
       "variant": "Variante",
       "view_in_space": "Ver en tu espacio",
       "taxes_included": "Impuestos incluidos.",
-      "taxes_excluded": "Impuestos no incluidos.",
+      "taxes_excluded": "Impuestos excluidos.",
       "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link\">Envío calculado</a> al finalizar la compra",
       "size_chart": "Tabla de tallas",
       "available_colors_count": {
@@ -114,7 +115,7 @@
       "error": "No se puede cargar la imagen"
     },
     "price": {
-      "regular_price": "Precio habitual",
+      "regular_price": "Precio regular",
       "sale_price": "Precio de oferta",
       "from_price_html": "Desde {{ price_min }}"
     },
@@ -129,7 +130,7 @@
     "volume_pricing": {
       "title": "Precios por volumen",
       "minimum": "Más de {{ quantity }}",
-      "price_at_each": "{{ price }}/cada uno"
+      "price_at_each": "{{ price }}/unidad"
     },
     "rating_count": {
       "zero": "Sin reseñas",
@@ -138,7 +139,7 @@
     },
     "inventory": {
       "in_stock": "En stock",
-      "oversell_stock": "Reposición próximamente",
+      "oversell_stock": "Reabastecimiento pronto",
       "incoming_stock": "Reposición el {{ next_incoming_date }}",
       "low_stock_with_quantity_count": {
         "one": "Solo queda {{count}} unidad",
@@ -147,9 +148,9 @@
     },
     "store_availability": {
       "view_store_info": "Ver información de la tienda",
-      "check_other_stores": "Comprobar disponibilidad en otras tiendas",
+      "check_other_stores": "Verificar disponibilidad en otras tiendas",
       "pick_up_available": "Recogida disponible",
-      "pick_up_currently_unavailable": "Recogida no disponible actualmente",
+      "pick_up_currently_unavailable": "Recogida actualmente no disponible",
       "pick_up_available_at": "Recogida disponible en {{ location_name }}",
       "pick_up_unavailable_at": "Recogida actualmente no disponible en {{ location_name }}"
     }
@@ -177,9 +178,9 @@
       "no_results": "No hay productos que coincidan con esos filtros.",
       "price_range_to": "a",
       "price_filter_from": "Desde el precio",
-      "price_filter_to": "Para fijar el precio",
+      "price_filter_to": "Para cotizar",
       "price_filter": "{{ min_price }}-{{ max_price }}",
-      "availability_label": "Solo en existencia"
+      "availability_label": "Solo en stock"
     }
   },
   "blog": {
@@ -193,11 +194,11 @@
       "written_by": "Por {{ author }}",
       "share": "Compartir",
       "tags": "Etiquetas",
-      "continue_reading": "Leer siguiente"
+      "continue_reading": "Leyendo siguiente"
     },
     "comments": {
       "leave_comment": "Deja un comentario",
-      "moderated": "Todos los comentarios son revisados antes de ser publicados.",
+      "moderated": "Todos los comentarios son moderados antes de ser publicados.",
       "name": "Nombre",
       "email": "Correo electrónico",
       "message": "Mensaje",
@@ -217,14 +218,16 @@
       "email": "Correo electrónico",
       "message": "Mensaje",
       "submit": "Enviar mensaje",
-      "success_message": "Tu mensaje ha sido enviado."
+      "success_message": "Tu mensaje ha sido enviado.",
+      "question": "Preguntas",
+      "product_name": "Nombre del producto"
     }
   },
   "customer": {
     "account": {
       "welcome": "Bienvenido, {{first_name}}",
       "tagline": "Ver todos tus pedidos y administrar la información de tu cuenta.",
-      "orders": "Pedidos",
+      "orders": "Órdenes",
       "addresses": "Direcciones",
       "logout": "Cerrar sesión",
       "no_orders": "Aún no has realizado ningún pedido.",
@@ -251,13 +254,13 @@
       "last_name": "Apellido",
       "email": "Correo electrónico",
       "password": "Contraseña",
-      "accepts_marketing": "Regístrate en nuestro boletín informativo",
+      "accepts_marketing": "Regístrate en nuestro boletín",
       "submit": "Crear cuenta",
       "login": "Iniciar sesión"
     },
     "activate_account": {
       "title": "Activar cuenta",
-      "instructions": "Introduzca una contraseña para crear su cuenta:",
+      "instructions": "Introduce una contraseña para crear tu cuenta:",
       "password": "Contraseña",
       "password_confirmation": "Confirmación de contraseña",
       "submit": "Activar",
@@ -270,7 +273,7 @@
       "submit": "Restablecer"
     },
     "order": {
-      "order": "Pedido",
+      "order": "Ordenar",
       "order_name": "Ordenar {{name}}",
       "view_details": "Ver detalles del pedido",
       "back": "Atrás",
@@ -281,7 +284,7 @@
       "product": "Producto",
       "quantity": "Cantidad",
       "fulfillment_with_number": "Su pedido fue enviado el {{date}}. Rastree el envío con el número {{tracking_number}}.",
-      "fulfillment": "Tu pedido ha sido enviado el {{date}}.",
+      "fulfillment": "Su pedido ha sido enviado el {{date}}.",
       "track_shipment": "Rastrear envío",
       "subtotal": "Subtotal",
       "discount": "Descuento",
@@ -350,7 +353,7 @@
       "change_quantity": "Cambiar cantidad",
       "increase_quantity": "Aumentar cantidad",
       "decrease_quantity": "Disminuir cantidad",
-      "remove": "Quitar",
+      "remove": "Eliminar",
       "remove_with_title": "Eliminar {{ title }}"
     },
     "free_shipping_bar": {
@@ -365,75 +368,75 @@
       "estimate": "Estimación",
       "no_results": "Lo sentimos, no realizamos envíos a su dirección.",
       "one_result": "Hay una tarifa de envío para su dirección:",
-      "multiple_results": "Hay varias tarifas de gastos de envío para tu dirección:",
-      "error": "Se produjo un error al recuperar las tarifas de gastos de envío:"
+      "multiple_results": "Hay varias tarifas de envío para su dirección:",
+      "error": "Se produjo uno o más errores al obtener las tarifas de envío:"
     }
   },
   "search": {
     "general": {
       "title": "Buscar",
-      "terms": "Resultados de «{{ terms }}»",
-      "search_placeholder": "Buscar…",
+      "terms": "Resultados para \"{{ terms }}\"",
+      "search_placeholder": "Buscar...",
       "products": "Productos",
       "suggestions": "Sugerencias",
       "collections": "Colecciones",
-      "posts": "Entradas de blog",
+      "posts": "Publicaciones de blog",
       "pages": "Páginas",
       "clear": "Borrar",
       "view_all": "Ver todo",
       "view_all_results": "Ver todos los resultados",
-      "no_results": "No se encontraron resultados."
+      "no_results": "No se pudieron encontrar resultados."
     },
     "results_count": {
-      "zero": "0 resultados para «{{ terms }}»",
-      "one": "1 resultado para «{{ terms }}»",
-      "other": "{{ count }} resultados para «{{ terms }}»"
+      "zero": "0 resultados para \"{{ terms }}\"",
+      "one": "1 resultado para \"{{ terms }}\"",
+      "other": "{{ count }} resultados para \"{{ terms }}\""
     }
   },
   "gift_card": {
     "general": {
-      "title": "Aquí tienes tu tarjeta de regalo",
+      "title": "Aquí está tu tarjeta de regalo",
       "copy": "Copiar",
       "print": "Imprimir",
       "scan": "o escanea este código QR",
       "back_to_store": "Volver a la tienda"
     },
     "issued": {
-      "remaining_amount": "Importe disponible",
+      "remaining_amount": "Cantidad restante",
       "out_of_html": "de {{ initial_value }}",
-      "redeem_instructions": "Usa este código para canjear la tarjeta de regalo al finalizar la compra:",
+      "redeem_instructions": "Usa este código para canjear tu tarjeta de regalo al finalizar la compra:",
       "code": "Código de tarjeta de regalo",
-      "expires_on": "Caduca el: {{ expires_on }}",
-      "expired": "Tu tarjeta de regalo ha caducado o se ha desactivado.",
-      "add_to_apple_wallet": "Añadir a Apple Wallet"
+      "expires_on": "Expira el: {{ expires_on }}",
+      "expired": "Su tarjeta de regalo ha expirado o ha sido desactivada.",
+      "add_to_apple_wallet": "Agregar a Apple Wallet"
     },
     "recipient": {
-      "checkbox": "Quiero enviar esto como un regalo.",
-      "email_label": "Correo electrónico de la persona destinataria",
-      "name_label": "Nombre de la persona destinataria (opcional)",
-      "send_on_label": "Enviar el (opcional)",
+      "checkbox": "Quiero enviar esto como regalo",
+      "email_label": "Correo electrónico del destinatario",
+      "name_label": "Nombre del destinatario (opcional)",
+      "send_on_label": "Enviar en (opcional)",
       "message_label": "Mensaje (opcional)"
     }
   },
   "password": {
     "general": {
       "follow_us": "Síguenos",
-      "powered_by": "Esta tienda se ha creado con",
-      "store_owner": "¿Eres el dueño?",
+      "powered_by": "Esta tienda funciona con",
+      "store_owner": "¿Dueño de tienda?",
       "login": "Iniciar sesión"
     },
     "storefront_access": {
-      "enter_password": "Accede con tu contraseña",
+      "enter_password": "Entrar usando contraseña",
       "store_access": "Acceso a la tienda",
-      "instructions": "Escribe la contraseña a continuación para acceder a la tienda",
+      "instructions": "Introduce la contraseña abajo para acceder a la tienda",
       "password": "Contraseña",
       "enter_store": "Entrar a la tienda"
     }
   },
   "apps": {
     "shopify_reviews": {
-      "review_info": "Este producto ha recibido {{ rating_value }} de {{ rating_max }} estrellas.",
-      "leave_review": "Dejar una reseña",
+      "review_info": "Este producto tiene una calificación de {{ rating_value }} de {{ rating_max }} estrellas.",
+      "leave_review": "Deja una reseña",
       "review_count": {
         "zero": "Este producto aún no tiene reseñas.",
         "one": "Ha recibido {{ count }} reseña.",
@@ -444,46 +447,46 @@
   "pagefly": {
     "products": {
       "product": {
-        "regular_price": "Regular price",
-        "sold_out": "Sold out",
-        "unavailable": "Unavailable",
-        "on_sale": "Sale",
-        "quantity": "Quantity",
-        "add_to_cart": "Add to cart",
-        "back_to_collection": "Back to {{ title }}",
-        "view_details": "View details"
+        "regular_price": "Precio regular",
+        "sold_out": "Agotado",
+        "unavailable": "No disponible",
+        "on_sale": "Oferta",
+        "quantity": "Cantidad",
+        "add_to_cart": "Añadir al carrito",
+        "back_to_collection": "Volver a {{ title }}",
+        "view_details": "Ver detalles"
       }
     },
     "article": {
-      "tags": "Tags:",
-      "all_topics": "All topics",
-      "by_author": "by {{ author }}",
-      "posted_in": "Posted in",
-      "read_more": "Read more",
-      "back_to_blog": "Back to {{ title }}"
+      "tags": "Etiquetas:",
+      "all_topics": "Todos los temas",
+      "by_author": "por {{ author }}",
+      "posted_in": "Publicado en",
+      "read_more": "Leer más",
+      "back_to_blog": "Volver a {{ title }}"
     },
     "comments": {
-      "title": "Leave a comment",
-      "name": "Name",
-      "email": "Email",
-      "message": "Message",
-      "post": "Post comment",
-      "moderated": "Please note, comments must be approved before they are published",
-      "success_moderated": "Your comment was posted successfully. We will publish it in a little while, as our blog is moderated.",
-      "success": "Your comment was posted successfully! Thank you!",
+      "title": "Deja un comentario",
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "message": "Mensaje",
+      "post": "Publicar comentario",
+      "moderated": "Tenga en cuenta que los comentarios deben ser aprobados antes de ser publicados",
+      "success_moderated": "Tu comentario se publicó con éxito. Lo publicaremos en un momento, ya que nuestro blog está moderado.",
+      "success": "¡Tu comentario se publicó con éxito! ¡Gracias!",
       "comments_with_count": {
         "one": "{{ count }} comentario",
         "other": "{{ count }} comentarios"
       }
     },
     "password_page": {
-      "login_form_message": "Ingrese a la tienda usando la contraseña:",
+      "login_form_message": "Entrar a la tienda usando contraseña:",
       "login_form_password_label": "Contraseña",
       "login_form_password_placeholder": "Tu contraseña",
       "login_form_submit": "Entrar",
       "signup_form_email_label": "Correo electrónico",
       "signup_form_success": "¡Te enviaremos un correo electrónico justo antes de que abramos!",
-      "password_link": "Ingresar usando contraseña"
+      "password_link": "Entrar usando contraseña"
     }
   },
   "shopify": {
@@ -502,9 +505,9 @@
         "back_to_contact_information": "Volver a la información",
         "back_to_shipping_method": "Volver al envío",
         "back_to_payment_method": "Volver al pago",
-        "choose_shipping_method": "Elija un método de envío",
+        "choose_shipping_method": "Elige un método de envío",
         "choose_payment_method": "Elige un método de pago",
-        "choose_billing_address": "Elija una dirección de facturación",
+        "choose_billing_address": "Elige una dirección de facturación",
         "contact_us_html": "Contáctanos para más información",
         "autocomplete_single_item": "1 artículo disponible",
         "autocomplete_multi_item": "{{number}} artículos disponibles",
@@ -515,7 +518,7 @@
           "external_and_new_window": "Abre un sitio web externo en una ventana nueva."
         },
         "checkout_context": {
-          "step_one": "%{shop_name} - Pago"
+          "step_one": "%{shop_name} - Pagar"
         },
         "errors": {
           "session_identifier_not_unique_error": "Algo salió mal con su pedido, intente realizar la compra nuevamente.",
@@ -754,7 +757,7 @@
         "paid": "Este pago ya ha sido enviado. Visite la página del pedido para más detalles."
       },
       "contact": {
-        "shipping_used_as_billing_notice": "Esto también se usará como su dirección de facturación para este pedido.",
+        "shipping_used_as_billing_notice": "Esta también se usará como su dirección de facturación para este pedido.",
         "delivery_option_title": "Método de entrega",
         "email_or_phone_label": "Correo electrónico o número de teléfono móvil",
         "email_or_phone_placeholder": "Correo electrónico o número de teléfono móvil",
@@ -806,7 +809,7 @@
         "subscription_pickup_information": "Este método de entrega se aplicará a todos los artículos de este pedido y a todos los pedidos futuros de esta suscripción."
       },
       "customer_account": {
-        "save_my_information_label": "Guarde esta información para la próxima vez",
+        "save_my_information_label": "Guarda esta información para la próxima vez",
         "invalid_address": "La dirección seleccionada no es válida. %{update_address_link} o seleccione una dirección diferente.",
         "incomplete_address": "La dirección seleccionada está incompleta. %{update_address_link} o seleccione una dirección diferente.",
         "invalid_shipping_method_summary": "Seleccione una dirección de envío válida para ver los métodos de envío disponibles",
@@ -866,8 +869,8 @@
           "other": "Estos productos serán eliminados de tu carrito porque no están disponibles en tu país/región."
         },
         "all_products_in_cart_unavailable": {
-          "one": "Este producto no está disponible en su país/región.",
-          "other": "Estos productos no están disponibles en su país/región."
+          "one": "Este producto no está disponible en tu país/región.",
+          "other": "Estos productos no están disponibles en tu país/región."
         }
       },
       "merchandise_unavailable_in_buyer_location": {
@@ -1415,7 +1418,7 @@
       "billing": {
         "billing_address_rollup_accessibility_label": "Facturar a opciones",
         "add_address": "Usar una dirección diferente",
-        "address_confirm": "¿Está seguro de que desea eliminar esta dirección de su cuenta?"
+        "address_confirm": "¿Estás seguro de que quieres eliminar esta dirección de tu cuenta?"
       },
       "company_location": {
         "location_rollup_accessibility_label": "Opciones de ubicación de la empresa"
@@ -1424,93 +1427,99 @@
         "credit_card_expires_on_notice": "Expira el %{month}/%{year}"
       },
       "field_errors": {
-        "handle_phone_invalid": "Ingrese un número de teléfono válido",
+        "handle_phone_invalid": "Introduce un número de teléfono válido",
         "email_or_phone_blank": "Introduce un correo electrónico o número de teléfono",
         "email_or_phone_invalid": "Introduce un correo electrónico válido o un número de teléfono móvil",
-        "address_first_name_blank": "Introduzca un nombre",
-        "address_first_name_contains_emojis": "El nombre no puede contener emoticonos",
-        "address_first_name_contains_url": "El nombre no puede contener una dirección web",
+        "address_first_name_blank": "Introduzca un nombre de pila",
+        "address_first_name_contains_emojis": "El nombre no puede contener emojis",
+        "address_first_name_contains_url": "El nombre no puede contener una URL",
         "address_last_name_blank": "Introduzca un apellido",
-        "address_last_name_contains_emojis": "El apellido no puede contener emoticonos",
-        "address_last_name_contains_url": "El apellido no puede contener una dirección web",
+        "address_last_name_contains_emojis": "El apellido no puede contener emojis",
+        "address_last_name_contains_url": "El apellido no puede contener una URL",
         "address_address1_blank": "Introduzca una dirección",
-        "address_address1_contains_emojis": "Address1 no puede contener emoticonos",
+        "address_address1_contains_emojis": "Address1 no puede contener emojis",
         "address_address1_contains_html_tags": "Address1 no puede contener etiquetas HTML.",
         "address_address2_blank": "Ingrese un apartamento, suite, etc.",
-        "address_address2_too_long": "La segunda línea de dirección es demasiado larga (el máximo es de 255 caracteres)",
-        "address_address2_contains_emojis": "Address2 no puede contener emoticonos",
+        "address_address2_too_long": "La segunda línea de la dirección es demasiado larga (el máximo es de 255 caracteres)",
+        "address_address2_contains_emojis": "Address2 no puede contener emojis",
         "address_address2_contains_html_tags": "Address2 no puede contener etiquetas HTML.",
         "address_city_blank": "Introduce una ciudad",
         "address_city_too_long": "La ciudad es demasiado larga (el máximo es de 255 caracteres)",
-        "address_city_contains_emojis": "La ciudad no puede contener emoticonos",
-        "address_country_blank": "Seleccione un país/región",
-        "address_country_not_supported": "No realizamos envíos a este país o región. Introduzca una nueva dirección de envío y vuelva a intentarlo.",
+        "address_city_contains_emojis": "La ciudad no puede contener emojis",
+        "address_country_blank": "Selecciona un país/región",
+        "address_country_not_supported": "No realizamos envíos a este país o región. Introduce una nueva dirección de envío y vuelve a intentarlo.",
         "address_province_blank": "Seleccione un estado / provincia",
         "address_province_invalid": "Seleccione un estado / provincia válido",
-        "address_company_blank": "Introduzca un nombre de empresa",
+        "address_company_blank": "Introduce el nombre de una empresa",
         "address_company_contains_emojis": "La empresa no puede contener emojis",
-        "address_phone_blank": "Ingrese un número de teléfono válido",
-        "address_phone_contains_emojis": "El número de teléfono no puede contener emoticonos",
-        "address_phone_invalid": "Ingrese un número de teléfono válido",
+        "address_phone_blank": "Introduce un número de teléfono válido",
+        "address_phone_contains_emojis": "El número de teléfono no puede contener emojis",
+        "address_phone_invalid": "Introduce un número de teléfono válido",
         "address_zip_blank": "Introduzca un código postal",
         "address_zip_blocked_address": "Esta ubicación no está soportada",
         "address_zip_too_long": "El código postal es demasiado largo (el máximo es de 255 caracteres)",
         "address_zip_not_supported": "Esta ubicación no está soportada",
-        "address_zip_invalid_for_country": "Ingrese un código postal válido para %{country}",
+        "address_zip_invalid_for_country": "Introduce un código postal válido para %{country}",
         "address_zip_invalid_for_province": "Ingrese un código postal válido para %{province}",
         "address_zip_invalid_for_country_and_province": "Ingrese un código postal válido para %{province}, %{country}",
-        "credit_card_name_blank": "Ingrese su nombre tal como está escrito en su tarjeta",
-        "credit_card_name_invalid": "Ingrese su nombre tal como está escrito en su tarjeta",
-        "credit_card_number_invalid": "Introduzca un número de tarjeta válido",
-        "credit_card_expiry_invalid": "Introduzca una fecha de vencimiento válida",
-        "credit_card_month_invalid": "Ingrese un mes de vencimiento válido",
-        "credit_card_year_invalid": "Introduzca un año de vencimiento válido",
+        "credit_card_name_blank": "Ingrese su nombre exactamente como está escrito en su tarjeta",
+        "credit_card_name_invalid": "Ingrese su nombre exactamente como está escrito en su tarjeta",
+        "credit_card_number_invalid": "Introduce un número de tarjeta válido",
+        "credit_card_expiry_invalid": "Ingrese una fecha de vencimiento válida",
+        "credit_card_month_invalid": "Introduce un mes de expiración válido",
+        "credit_card_year_invalid": "Ingrese un año de expiración válido",
         "credit_card_start_invalid": "Introduzca una fecha de inicio de tarjeta válida",
-        "credit_card_start_month_invalid": "Ingrese un mes de inicio de tarjeta válido",
+        "credit_card_start_month_invalid": "Introduce un mes de inicio de tarjeta válido",
         "credit_card_start_year_invalid": "Ingrese un año de inicio de tarjeta válido",
         "credit_card_number_blank": "Introduzca un número de tarjeta",
-        "credit_card_verification_value_blank": "Introduzca el CVV o código de seguridad de su tarjeta",
-        "delivery_line_detail_changed": "Algunos detalles de la entrega pueden haber cambiado. Verifique su método de envío y vuelva a intentarlo.",
+        "credit_card_verification_value_blank": "Introduce el CVV o código de seguridad de tu tarjeta",
+        "delivery_line_detail_changed": "Algunos detalles de la entrega pueden haber cambiado. Verifica tu método de envío y vuelve a intentarlo.",
         "delivery_zone_not_found": "La zona especificada no se encontró en el país especificado.",
         "reduction_code_code_not_found": "Introduce un código de descuento o tarjeta de regalo válido",
         "reduction_code_gift_card_unusable": "No puedes usar una tarjeta de regalo para comprar otra tarjeta de regalo",
-        "reduction_code_gift_cards_not_supported_with_deferred_purchase_options": "Las tarjetas de regalo no son compatibles con las opciones de compra aplazada.",
-        "shipping_line_phone_blank": "Ingrese un número de teléfono para usar este método de entrega",
-        "shipping_line_phone_invalid": "Ingrese un número de teléfono válido",
-        "tips_invalid_tip_amount": "Introduce una propina menor a %{amount}",
-        "gift_card_already_applied": "Esta tarjeta de regalo ya ha sido aplicada a su pedido",
+        "reduction_code_gift_cards_not_supported_with_deferred_purchase_options": "Las tarjetas de regalo no son compatibles con las opciones de compra diferida.",
+        "shipping_line_phone_blank": "Introduce un número de teléfono para usar este método de entrega",
+        "shipping_line_phone_invalid": "Introduce un número de teléfono válido",
+        "tips_invalid_tip_amount": "Ingrese una propina menor a %{amount}",
+        "gift_card_already_applied": "Esta tarjeta de regalo ya ha sido aplicada a tu pedido",
         "gift_card_depleted": "Esta tarjeta de regalo no tiene fondos disponibles",
         "gift_card_currency_mismatch": "Solo se pueden usar tarjetas de regalo en %{checkout_currency} con este pedido",
-        "gift_cards_not_supported_with_deferred_purchase_options": "Las tarjetas de regalo no son compatibles con las opciones de compra aplazada.",
+        "gift_cards_not_supported_with_deferred_purchase_options": "Las tarjetas de regalo no son compatibles con las opciones de compra diferida.",
         "gift_card_buying_gift_card": "No puedes usar una tarjeta de regalo para comprar otra tarjeta de regalo",
-        "payment_gateway_missing": "Elija un método de pago.",
+        "payment_gateway_missing": "Elige un método de pago.",
         "payment_gateway_needs_paid_plan_error": "Este método de pago no está disponible en la tienda en este momento",
         "payment_gateway_not_in_test_mode": "no está configurado para probar pedidos. Esta tienda no puede aceptar pedidos reales ni pagos reales.",
         "payment_gateway_incompatible_with_multi_currency": "Para completar esta compra en tu moneda local, necesitas pagar con tarjeta de crédito.",
         "payment_gateway_unsupported_for_subscriptions": "Este método de pago no está disponible para pedidos de suscripción.",
-        "payment_gateway_unsupported_for_deferred_purchase_options": "Este método de pago no está disponible para opciones de compra aplazada.",
-        "payment_gateway_unsupported_for_country": "Este método de pago no está disponible para el país de envío.",
+        "payment_gateway_unsupported_for_deferred_purchase_options": "Este método de pago no está disponible para opciones de compra diferida.",
+        "payment_gateway_unsupported_for_country": "Este método de pago no está disponible para tu país de envío.",
         "payment_gateway_unsupported_for_development_store_html": "Para realizar un pedido de prueba, necesitarás usar una pasarela de pago de prueba. Aprende más sobre <a href=\"%{docs_link}\">cómo probar pedidos en tiendas de desarrollo</a>.",
-        "payment_gateway_unsupported_for_order_above_maximum_orders_html": "Has alcanzado el límite de pedidos en tiendas de desarrollo con este procesador de pagos. Para realizar otro pedido, necesitarás usar una pasarela de pago de prueba. Aprende más sobre <a href=\"%{docs_link}\">pruebas de pedidos en tiendas de desarrollo</a>.",
-        "purchase_options_agreement_blank": "Para continuar con su compra, acepte los términos de compra aplazada o recurrente.",
+        "payment_gateway_unsupported_for_order_above_maximum_orders_html": "Has alcanzado el límite de pedidos en tiendas de desarrollo con este procesador de pagos. Para realizar otro pedido, necesitarás usar una pasarela de pago de prueba. Aprende más sobre <a href=\"%{docs_link}\">cómo probar pedidos en tiendas de desarrollo</a>.",
+        "purchase_options_agreement_blank": "Para continuar con su compra, acepte los términos de compra diferida o recurrente.",
         "physical_gift_card_invalid_quantity": "Los artículos de tarjeta de regalo física deben tener una cantidad que coincida con el número de códigos de tarjeta de regalo.",
         "physical_gift_card_duplicate_code": "El artículo de tarjeta de regalo física contiene un código duplicado.",
         "physical_gift_card_invalid_code": "El código de la tarjeta de regalo física no es válido.",
-        "email_blank": "Introduzca un correo electrónico",
+        "email_blank": "Introduce un correo electrónico",
         "phone_blank": "Introduzca un número de teléfono",
         "address_country_invalid": "Seleccione un país/región de la lista",
-        "address_zip_invalid": "Introduzca un código postal válido",
+        "address_zip_invalid": "Ingrese un código postal / ZIP válido",
         "gift_card_invalid": "La tarjeta de regalo \"••••%{last_four_characters}\" ya no es válida",
-        "vaulting_agreement_blank": "Su método de pago debe guardarse porque el pago del saldo de este pedido se debe realizar más adelante.",
-        "sms_marketing_phone_invalid": "Ingrese un número de teléfono válido",
-        "shipping_method_invalid_phone_number": "Actualice el número de teléfono en su dirección de entrega para ver los métodos de envío disponibles.",
-        "split_cart_international_shipping_not_supported": "Todos los artículos deben usar el mismo método de entrega al enviarse internacionalmente. Actualice el método de entrega o cree varios pedidos.",
-        "invalid_delivery_address_reference_handle": "No se pudo encontrar una referencia de dirección de entrega que coincida con ninguna de las direcciones de entrega disponibles.",
+        "vaulting_agreement_blank": "Tu método de pago debe guardarse porque el pago del saldo de este pedido se realizará más adelante.",
+        "sms_marketing_phone_invalid": "Introduce un número de teléfono válido",
+        "shipping_method_invalid_phone_number": "Actualiza el número de teléfono en tu dirección de entrega para ver los métodos de envío disponibles.",
+        "split_cart_international_shipping_not_supported": "Todos los artículos deben usar el mismo método de entrega al enviarse internacionalmente. Actualice el método de entrega o cree múltiples pedidos.",
+        "invalid_delivery_address_reference_handle": "No se pudo asociar la referencia del destinatario de la dirección de entrega con ninguna dirección de entrega disponible.",
         "must_use_available_delivery_address": "La dirección de entrega debe seleccionarse de las direcciones de entrega disponibles.",
         "must_use_available_shipping_rate": "La tarifa de envío debe seleccionarse de las tarifas de envío disponibles.",
         "split_by_delivery_method_not_allowed": "No se permite dividir por método de entrega para esta sesión o tienda.",
         "split_by_delivery_method_requires_merchandise_from_single_location": "Dividir por método de entrega requiere que las líneas individuales de mercancía se cumplan desde una sola ubicación.",
-        "split_by_delivery_method_unsupported_method_type": "Dividido por método de entrega intentado con un tipo de método de entrega no compatible."
+        "split_by_delivery_method_unsupported_method_type": "Dividido por método de entrega intentado con un tipo de método de entrega no compatible.",
+        "address_address1_contains_mathematical_symbols": "La primera línea de dirección no puede contener símbolos matemáticos",
+        "address_address2_contains_mathematical_symbols": "La segunda línea de dirección no puede contener símbolos matemáticos",
+        "address_subdistrict_blank": "Ingrese un subdistrito",
+        "address_generic_error": "Error de campo",
+        "credit_card_name_billing_invalid": "Ingrese su nombre en la dirección de facturación primero",
+        "gift_card_expired": "Esta tarjeta de regalo ha expirado"
       },
       "payment_errors": {
         "insufficient_funds": "Su pago fue rechazado debido a fondos insuficientes. Intente de nuevo o use un método de pago diferente.",
@@ -1592,10 +1601,10 @@
         "unavailable_selected_address_for_region": "El envío no está disponible para {{region}}. Seleccione una dirección diferente para continuar"
       },
       "alternative_payment_method_banner": {
-        "express_checkout": "Pago rápido",
-        "or": "O\n\no",
+        "express_checkout": "Pago exprés",
+        "or": "O o",
         "or_check_out_another_way": "O prueba otra forma",
-        "or_pay_with_credit_card": "O pagar con tarjeta de crédito"
+        "or_pay_with_credit_card": "O paga con tarjeta de crédito"
       },
       "post_purchase": {
         "components": {
@@ -2001,7 +2010,7 @@
         "cart_and_currency_updated_based_on_country": "Tu carrito y la moneda se han actualizado según tu país de envío."
       },
       "change_cart_localization": {
-        "verify_shipping_address": "Su país/región ha sido actualizado. Ingrese su dirección de envío para continuar con la compra."
+        "verify_shipping_address": "Tu país/región ha sido actualizado. Ingresa tu dirección de envío para continuar con la compra."
       },
       "tips": {
         "description": "Muestra tu apoyo al equipo en %{shop_name}",
@@ -2074,7 +2083,7 @@
         "session_already_finished": "Este pedido ya ha sido enviado. Puede regresar a la tienda para iniciar un nuevo pedido."
       },
       "artifact_errors": {
-        "artifact_dissatisfaction_without_violation": "Hubo un problema al procesar su pedido. Intente de nuevo en unos minutos."
+        "artifact_dissatisfaction_without_violation": "Hubo un problema al procesar su pedido. Inténtelo de nuevo en unos minutos."
       },
       "pickup_point": {
         "business_hours": "Horario de atención",
@@ -2266,9 +2275,9 @@
         }
       },
       "captcha": {
-        "title": "Complete el CAPTCHA para continuar",
+        "title": "Completa el CAPTCHA para continuar",
         "errors": {
-          "not_solved": "Complete el CAPTCHA para continuar"
+          "not_solved": "Completa el CAPTCHA para continuar"
         }
       },
       "discount_errors": {
@@ -2499,6 +2508,9 @@
         "invalid_variant_id_target": "La instrucción de mercancía %{name} hace referencia al ID de variante %{variant_id}, pero esa variante no está en las líneas de mercancía.",
         "invalid_price_override_target": "La instrucción de anulación de precio para el artículo de línea %{stable_id} no es válida ya que es un componente de un paquete.",
         "discount_not_supported": "La instrucción del comerciante para aplicar descuento en mercancía no admite este tipo de descuento."
+      },
+      "address_management": {
+        "saved_with_store": "Guardado con esta tienda"
       }
     },
     "links": {
@@ -3702,6 +3714,13 @@
           "invalid_code": "Introduzca el código correcto de 6 dígitos"
         }
       }
+    }
+  },
+  "products": {
+    "product": {
+      "photos": "Fotos",
+      "video": "Vídeo",
+      "3d": "3D"
     }
   }
 }
