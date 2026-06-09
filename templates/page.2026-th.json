@@ -300,7 +300,7 @@
           "type": "nav_tab",
           "settings": {
             "title": "Support",
-            "position": 11
+            "position": 10
           }
         }
       },
@@ -736,8 +736,8 @@
         "slide_text_color": "#ffffff",
         "slide_desc_color": "#ffffff",
         "slide_desc_background_image": "shopify://shop_images/th-turntable-vector.png",
-        "mode_type": "click",
-        "display_position": 1
+        "mode_type": "setting",
+        "display_position": 2
       }
     },
     "mc_th_product_card_N8t7NT": {
