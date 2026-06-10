@@ -1560,8 +1560,8 @@
           "type": "item",
           "disabled": true,
           "settings": {
-            "title": "8. Can this promotion be combined with other discounts or offers?",
-            "content": "<p>This promotion cannot be combined with any other promotions or discounts. Only one offer may be applied per order.</p>"
+            "title": "7. Is the Yozma IN10 street legal in Europe?",
+            "content": "<p>The Yozma IN10 is designed as an off-road electric dirt bike and is not supplied with a Certificate of Conformity (COC). As a result, it is generally not eligible for registration or legal use on public roads within the EU. Riders should only use the vehicle on private land or designated off-road trails and are responsible for complying with all applicable local regulations.</p>"
           }
         },
         "item_pf66DX": {
