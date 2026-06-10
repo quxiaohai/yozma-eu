@@ -1549,19 +1549,18 @@
             "content": "<p>Yes. Our e-bike features <strong>three adjustable riding modes</strong>, allowing you to choose the ideal balance between speed and range:</p><p><strong>- 1st Mode:</strong> 18 mph (29 km/h)<br/><strong>- 2nd Mode:</strong> 24 mph (38 km/h)<br/><strong>- 3rd Mode:</strong> 40 mph (64 km/h)</p><p>Range may vary depending on rider weight, terrain, temperature, riding habits, and throttle usage.</p>"
           }
         },
+        "item_G3YHFt": {
+          "type": "item",
+          "settings": {
+            "title": "6. Is the Yozma IN10 street legal in Europe?",
+            "content": "<p>The Yozma IN10 is designed as an off-road electric dirt bike and is not supplied with a Certificate of Conformity (COC). As a result, it is generally not eligible for registration or legal use on public roads within the EU. Riders should only use the vehicle on private land or designated off-road trails and are responsible for complying with all applicable local regulations.</p>"
+          }
+        },
         "item_RYmhMd": {
           "type": "item",
           "settings": {
             "title": "6. Safety Instructions —— Important Tips",
             "content": "<p>1. Wear Proper Protective Gear</p><p>Always wear an approved helmet when riding. Protective gear such as goggles, gloves, elbow and knee pads, and long pants is strongly recommended. Wear lace-up shoes with rubber soles. Do not ride barefoot, in open-toed shoes, or in high heels.</p><p>2. Ride Only in Safe and Legal Areas</p><p>Do not ride on highways, indoors, on slopes exceeding 30°, or on uneven, slippery, or unfamiliar terrain. Beginners should practice in an open area before riding in public spaces.</p><p>3. Operate Responsibly to Minimize Risk</p><p>Always hold the handlebars with both hands and avoid high-risk maneuvers. Do not ride under the influence of alcohol, medication, or when unwell. Obey local traffic laws and yield to pedestrians and other road users.</p><p>4. Battery Safety and Handling</p><p>Do not store batteries in environments above 70°F (21°C) or below 32°F (0°C). Batteries must be disposed of in accordance with local regulations. Do not throw batteries into fire or dispose of them with household waste.</p><p>5. Observe Weight and Weather Limits</p><p>Maximum load is 120 kg. The recommended rider weight is approximately 80 kg. Do not ride in rain, storms, fog, or other extreme weather conditions. Avoid water exposure to the motorcycle and battery.</p>"
-          }
-        },
-        "item_G3YHFt": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "title": "7. Is the Yozma IN10 street legal in Europe?",
-            "content": "<p>The Yozma IN10 is designed as an off-road electric dirt bike and is not supplied with a Certificate of Conformity (COC). As a result, it is generally not eligible for registration or legal use on public roads within the EU. Riders should only use the vehicle on private land or designated off-road trails and are responsible for complying with all applicable local regulations.</p>"
           }
         },
         "item_pf66DX": {
@@ -1581,8 +1580,8 @@
         "item_GB6DXn",
         "item_jPNtWR",
         "item_nzectQ",
-        "item_RYmhMd",
         "item_G3YHFt",
+        "item_RYmhMd",
         "item_pf66DX"
       ],
       "name": "春促FAQ",
