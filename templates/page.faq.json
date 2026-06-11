@@ -61,7 +61,7 @@
             "title": "About IN 10",
             "default_open_1": "Yes",
             "title_1": "What‘s in the box?",
-            "answer_1": "<p>Yozma E-bike*1<br/>48V 23.4Ah Lithium-Ion*1<br/>Battery Charger*1<br/>Assembly Tools*1<br/>Pedals*2<br/>Handle Bars Shipped Installed On Bike*1<br/>User Manual*1<br/>Number plate decals*1 <br/>Note: Please keep this box for at least 30 days in case of return or after-sales service.</p>",
+            "answer_1": "<p>Yozma E-bike*1<br/>48V 23.4Ah Lithium-Ion*1<br/>Battery Charger*1<br/>Assembly Tools*1<br/>Pedals*2<br/>Handle Bars Shipped Installed On Bike*1<br/>User Manual*1<br/>Number plate decals*1 <br/>Note: Please keep this box for at least 30 days in case of return or after-sales service.</p><p><strong><br/>Note: The Yozma IN10 is designed strictly foroff-roaduse on private property or designated trails. It does not have a COC (Certificate of Conformity) for public road registration in the EU. Please check your local laws and regulations before purchasing.\"</strong></p>",
             "default_open_2": "No",
             "title_2": "What is the top speed of the Yozma IN10?",
             "answer_2": "<p>The Yozma IN10 reaches up to 20 Km/h in the third speed mode.</p>",
@@ -164,7 +164,12 @@
           }
         },
         "contact": {
-          "type": "contact"
+          "type": "contact",
+          "settings": {
+            "background_color": "#fbfbfb",
+            "title": "Contact US",
+            "button_text": "Send message"
+          }
         }
       },
       "block_order": [
