@@ -37,8 +37,8 @@
         "media2": {
           "type": "media",
           "settings": {
-            "pc_image_url": "shopify://shop_images/6.2_db27a8df-cfa2-4bba-a3bd-e1eb12b2fd95.jpg",
-            "mb_image_url": "shopify://shop_images/6.2_3a2426a1-83f7-4cad-89f3-35bf28767266.jpg",
+            "pc_image_url": "shopify://shop_images/6.5_760476e6-8f2d-4524-9e25-91a67255748d.jpg",
+            "mb_image_url": "shopify://shop_images/6.5.jpg",
             "image_link": "shopify://products/in-10",
             "slide_tab": "",
             "show_subtitle": false,
