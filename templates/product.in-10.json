@@ -1082,6 +1082,18 @@
             "author": "YozmaSport"
           }
         },
+        "youtube_dL8eDk": {
+          "type": "youtube",
+          "settings": {
+            "video_url": "https://www.youtube.com/watch?v=qUTZ86b3mOY",
+            "cover_image": "shopify://shop_images/6.5_760476e6-8f2d-4524-9e25-91a67255748d.jpg",
+            "video_url_mobile": "",
+            "date": "2025/09/10",
+            "content": "This electric dirt bike cost less than a IPhone! Yozma IN10",
+            "avatar": "shopify://shop_images/channels4_profile_6.jpg",
+            "author": "ENDOPRYSM"
+          }
+        },
         "youtube_KnBpjU": {
           "type": "youtube",
           "settings": {
@@ -1201,6 +1213,7 @@
         "video_pAyz4R",
         "video_aHP8PY",
         "youtube_39FbLF",
+        "youtube_dL8eDk",
         "youtube_KnBpjU",
         "youtube_neaVWW",
         "youtube_VQgGtR",
