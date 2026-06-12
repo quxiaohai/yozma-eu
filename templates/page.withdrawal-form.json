@@ -24,9 +24,9 @@
             "form_id": "1027815",
             "text_color": "#202020",
             "button_background_color": "#202020",
-            "button_label_color": "#FFFFFF",
-            "links_color": "#1878B9",
-            "errors_color": "#E02229",
+            "button_label_color": "#ffffff",
+            "links_color": "#1878b9",
+            "errors_color": "#e02229",
             "text_alignment": "center",
             "form_alignment": "center",
             "padding_top": 0,
@@ -47,10 +47,47 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "mc_section_text_khxPzx": {
+      "type": "mc_section-text",
+      "blocks": {
+        "text_xf6Ptx": {
+          "type": "text",
+          "settings": {
+            "padding": "0px 0px 0px 0px",
+            "mb_padding": "0px 0px 0px 0px",
+            "text": "<p>EU Right of Withdrawal<br/><br/>EU customers have the right to withdraw from their purchase within 14 days of receiving the product without providing any reason.<br/><br/>To submit a withdrawal request, please complete the form below.<br/><br/></p>",
+            "image_height": 40,
+            "mb_image_height": 32,
+            "alignment": "center",
+            "mb_alignment": "center",
+            "style": "normal",
+            "weight": 400,
+            "line_height": 120,
+            "pc_size": 18,
+            "mb_size": 14,
+            "width": 100,
+            "mb_width": 100,
+            "color": "#ffffff",
+            "bold_color": "#ffffff",
+            "gradient_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_xf6Ptx"
+      ],
+      "name": "MC Section Text",
+      "settings": {
+        "page_color": "#000000",
+        "layout": "column",
+        "mb_layout": "column"
+      }
     }
   },
   "order": [
     "main",
-    "17812444684073ebb7"
+    "17812444684073ebb7",
+    "mc_section_text_khxPzx"
   ]
 }
