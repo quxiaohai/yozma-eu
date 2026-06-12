@@ -56,7 +56,7 @@
           "settings": {
             "padding": "0px 0px 0px 0px",
             "mb_padding": "0px 0px 0px 0px",
-            "text": "<p>EU Right of Withdrawal<br/><br/>EU customers have the right to withdraw from their purchase within 14 days of receiving the product without providing any reason.<br/><br/>To submit a withdrawal request, please complete the form below.<br/><br/></p>",
+            "text": "<p>EU Right of Withdrawal</p><p>EU customers have the right to withdraw from their purchase within 14 days of receiving the product without providing any reason.<br/><br/><em><strong>To submit a withdrawal request, please complete the form below.</strong></em></p>",
             "image_height": 40,
             "mb_image_height": 32,
             "alignment": "center",
