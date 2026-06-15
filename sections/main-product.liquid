@@ -738,10 +738,43 @@
         width: 100%;
         height: 55px;
         padding: 0;
+        position: relative;
+        overflow: hidden;
+        --before-background: #000000;
+        transition: color 0.3s, box-shadow 0.3s;
+    }
+
+    .product-info__buy-buttons .button:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: var(--before-background);
+        transform: translate3d(-100%, 0, 0);
+        transition: transform 0.3s;
+    }
+
+    .product-info__buy-buttons .button > div {
+        position: relative;
+        z-index: 2;
+    }
+
+    .product-info__buy-buttons .button:hover:before {
+        transform: translate3d(0, 0, 0);
     }
 
     .product-info__buy-box .button[type="submit"] {
         width: calc(100% - 185px);
+    }
+
+    .product-info__buy-buttons .button[type="button"] {
+        --before-background: #FFFFFF;
+    }
+    .product-info__buy-buttons .button[type="button"]:hover {
+        box-shadow: 0 0 0 1px #000;
+        color: #000000;
     }
 
     .product-info__buy-box .quantity-selector {
@@ -938,6 +971,56 @@
           margin-right: 3px;
         }
     }
+    {%- assign service_cards = section.blocks |where: 'type', 'service_card' -%}
+    {%- if service_cards != blank -%}
+.product-info__service-card {
+    padding: 20px 0;
+    align-items: stretch;
+  }
+  .product-info__service-card .card {
+    flex: 1;
+  }
+  .product-info__service-card .card .image {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    margin: 0 auto;
+  }
+  .product-info__service-card .card .info {
+    padding-top: 4px;
+  }
+  .product-info__service-card .card .name {
+    color: #000000;
+    font-size: 16px;
+  }
+  .product-info__service-card .card .desc {
+    color: #999999;
+    font-size: 12px;
+  }
+  @media screen and (max-width: 1023px) {
+    .product-info__service-card {
+      padding: 1rem 0;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .product-info__service-card .card {
+      width: 7.78125rem;
+    }
+    .product-info__service-card .card .image {
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+    .product-info__service-card .card .info {
+      padding-top: 0.2rem;
+    }
+    .product-info__service-card .card .name {
+      font-size: 0.75rem;
+    }
+    .product-info__service-card .card .desc {
+      font-size: 0.5rem;
+    }
+  }
+    {%- endif -%}
 </style>
 
 {%- capture product_form_id -%}product-form-{{ product.id }}-{{ section.id }}{%- endcapture -%}
@@ -3921,6 +4004,73 @@ quick buy information in a template, that will be extracted in JS, but ensure it
           "id": "review_text",
           "label": "Review text",
           "default": "1,642 Reviews"
+        },
+      ]
+    },
+     {
+      "type": "service_card",
+      "name": "Service card",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image_icon1",
+          "label": "Icon #1"
+        },
+        {
+          "type": "text",
+          "id": "title1",
+          "label": "Name #1"
+        },
+        {
+          "type": "text",
+          "id": "text1",
+          "label": "Text #1"
+        },
+         {
+          "type": "image_picker",
+          "id": "image_icon2",
+          "label": "Icon #2"
+        },
+        {
+          "type": "text",
+          "id": "title2",
+          "label": "Name #2"
+        },
+        {
+          "type": "text",
+          "id": "text2",
+          "label": "Text #2"
+        },
+         {
+          "type": "image_picker",
+          "id": "image_icon3",
+          "label": "Icon #3"
+        },
+        {
+          "type": "text",
+          "id": "title3",
+          "label": "Name #3"
+        },
+        {
+          "type": "text",
+          "id": "text3",
+          "label": "Text #3"
+        },
+         {
+          "type": "image_picker",
+          "id": "image_icon4",
+          "label": "Icon #4"
+        },
+        {
+          "type": "text",
+          "id": "title4",
+          "label": "Name #4"
+        },
+        {
+          "type": "text",
+          "id": "text4",
+          "label": "Text #4"
         },
       ]
     }

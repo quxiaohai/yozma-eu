@@ -344,6 +344,29 @@ Supported variables
                             block: block
                         -%}
                     </div>
+                {%- when 'service_card' -%}
+                <div class="product-info__service-card flex-left">
+                    {%- for v in (1..4) -%}
+                        {%- liquid
+                            assign icon = 'image_icon' | append: v
+                            assign title = 'title' | append: v
+                            assign text = 'text' | append: v
+                        -%}
+                        {%- if bs[icon] != blank and bs[title] != blank -%}
+                            <div class="card">
+                                {% render 'global-image', media_type: 'icon', desktop_img: bs[icon], desktop_size: 200 %}
+                                <div class="info text-center">
+                                    <div class="name fw-700 lh-4">{{ bs[title] }}</div>
+                                    {%- if bs[text] != blank -%}
+                                        <div class="desc lh-2">
+                                            {{ bs[text] }}
+                                        </div>
+                                    {%- endif -%}
+                                </div>
+                            </div>
+                        {%- endif -%}
+                    {%- endfor -%}
+                </div>
                 {%- when 'image_card' -%}
                     {%- assign bs = block.settings -%}
                     <div class="product-info__image-card flex-center">

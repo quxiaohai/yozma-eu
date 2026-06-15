@@ -162,6 +162,23 @@
             "mb_padding": "4px 0px 4px 0px"
           }
         },
+        "service_card": {
+          "type": "service_card",
+          "settings": {
+            "image_icon1": "shopify://shop_images/dispatching-icon.png",
+            "title1": "Fast Shipping",
+            "text1": "3-12 bussiness days",
+            "image_icon2": "shopify://shop_images/warranty-icon.png",
+            "title2": "Hassle-free Warranty",
+            "text2": "12-Month Warranty Period",
+            "image_icon3": "shopify://shop_images/safety-payment-icon.png",
+            "title3": "Secure Payment",
+            "text3": "Buy with confidence",
+            "image_icon4": "shopify://shop_images/customer-service-icon.png",
+            "title4": "Customer Service",
+            "text4": "Lifetime customer support"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -369,6 +386,7 @@
         "countdown_timer_gHWnpr",
         "countdown_gHWnpr",
         "payment_terms",
+        "service_card",
         "variant_picker",
         "bundled_sale_NbiiyC",
         "quantity_selector",
