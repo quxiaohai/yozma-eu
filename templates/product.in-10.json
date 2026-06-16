@@ -74,7 +74,6 @@
         },
         "inventory_PMqcYg": {
           "type": "inventory",
-          "disabled": true,
           "settings": {
             "padding": "12px 0px 12px 0px",
             "mb_padding": "12px 0px 12px 0px",
@@ -84,8 +83,8 @@
         "separator": {
           "type": "separator",
           "settings": {
-            "padding": "36px 0px 4px 0px",
-            "mb_padding": "28px 0px 0px 0px",
+            "padding": "6px 0px 4px 0px",
+            "mb_padding": "4px 0px 0px 0px",
             "device": "all"
           }
         },
