@@ -3286,6 +3286,7 @@ var ProductGallery = class extends HTMLElement {
         this._pageDots = Array.from(this.querySelectorAll("page-dots"));
         this._viewInSpaceButton = this.querySelector("[data-shopify-xr]");
         this._customCursor = this.querySelector(".product-gallery__cursor");
+        this._mediaTag = this.querySelector(".product-gallery-media-badge");
         this.addEventListener("carousel:change", this._onCarouselChanged);
         if (this._viewInSpaceButton) {
             this.addEventListener("carousel:settle", this._updateViewInSpaceButton);
@@ -3397,7 +3398,12 @@ var ProductGallery = class extends HTMLElement {
         if (!event.detail.variant) {
             return;
         }
-        console.log('--------event-----------', event.detail.variant.options[0]);
+        if (this._mediaTag) {
+            this._mediaTag.hidden = !event.detail.mediaTag;
+            if (event.detail.mediaTag) {
+                this._mediaTag.innerHTML = event.detail.mediaTag;
+            }
+        }
         let newMediaPosition;
         if (event.detail.previousVariant === null) {
             newMediaPosition = event.detail.variant["featured_media"]["position"];
@@ -3784,9 +3790,11 @@ var _VariantPicker = class _VariantPicker extends HTMLElement {
     async selectCombination({optionValues, productChange}) {
         const previousVariant = this.selectedVariant;
         const newContent = document.createRange().createContextualFragment(await __privateMethod(this, _VariantPicker_instances, renderForCombination_fn).call(this, optionValues));
+        let newMediaTag = null;
         if (!productChange) {
             const newVariantPicker = deepQuerySelector(newContent, `${this.tagName}[form-id="${this.getAttribute("form-id")}"]`);
             const newVariant = JSON.parse(newVariantPicker.querySelector("script[data-variant]")?.textContent || "{}");
+            newMediaTag = deepQuerySelector(newContent,  '.product-gallery-media-badge');
             __privateSet(this, _selectedVariant, newVariant);
             __privateGet(this, _form).id.value = __privateGet(this, _selectedVariant)?.id;
             __privateGet(this, _form).id.dispatchEvent(new Event("change", {bubbles: true}));
@@ -3808,6 +3816,7 @@ var _VariantPicker = class _VariantPicker extends HTMLElement {
                 detail: {
                     formId: __privateGet(this, _form).id,
                     variant: __privateGet(this, _selectedVariant),
+                    mediaTag: newMediaTag?.innerHTML,
                     previousVariant
                 }
             }));

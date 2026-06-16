@@ -175,7 +175,7 @@
         position: absolute;
         top: 50%;
         margin-top: -13px;
-        z-index: 1;
+        z-index: 2;
         cursor: pointer;
         opacity: 0;
         transition: opacity 0.3s;
@@ -286,6 +286,7 @@
         }
     }
 
+    .product-info__inventory .variant-inventory,
     .product-quick-add .button[type="submit"] {
         animation: ani-slide-shake 2s ease-in-out infinite;
     }
@@ -1037,6 +1038,24 @@
     }
   }
     {%- endif -%}
+{%- if ss.show_media_saved_tag -%}
+  .product-media-badge {
+    display: {% if ss.media_saved_tag_type == 'first' %}none{% else %}flex{% endif %};
+  }
+
+  .product-gallery__media-list {
+    gap: 0;
+  }
+
+  .product-gallery__media-list.is-first + .product-media-badge {
+    display: flex;
+  }
+
+  .product-gallery__media-list-wrapper .product-gallery__media {
+    background-color: #f9f9f8;
+    z-index: 1;
+  }
+   {%- endif -%}
 </style>
 
 {%- capture product_form_id -%}product-form-{{ product.id }}-{{ section.id }}{%- endcapture -%}
@@ -1089,7 +1108,8 @@
                         {%- render 'buy-buttons',
                             product: product,
                             form_id: product_form_id,
-                            show_payment_button:ss.show_fixed_checkout,
+                            show_fixed_cart_button: ss.show_fixed_cart_button,
+                            show_payment_button: buy_buttons_block.settings.show_payment_button,
                             show_gift_card_recipient: buy_buttons_block.settings.show_gift_card_recipient,
                             atc_button_background: buy_buttons_block.settings.atc_button_background,
                             atc_button_text_color: buy_buttons_block.settings.atc_button_text_color,
@@ -4160,11 +4180,33 @@ quick buy information in a template, that will be extracted in JS, but ensure it
       "label": "Show add to cart on scroll",
       "default": true
     },
-     {
+    {
       "type": "checkbox",
-      "id": "show_fixed_checkout",
-      "label": "Show Fixed Checkout",
+      "id": "show_fixed_cart_button",
+      "label": "Show fixed add to cart button",
       "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_media_saved_tag",
+      "label": "Show media saved tag",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "media_saved_tag_type",
+      "label": "Media saved tag type",
+      "options": [
+        {
+        "value": "first",
+        "label": "First show"
+        },
+        {
+        "value": "all",
+        "label": "All show"
+        }
+      ],
+      "default": "first"
     },
     {
       "type": "checkbox",
