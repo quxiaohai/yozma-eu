@@ -689,7 +689,13 @@ Supported variables
                             -%}
                         </div>
                     {%- endif -%}
-
+                {%- when 'payment_methods' -%}
+                    <ul class="footer__payment-icons h-stack wrap gap-2">
+                        {%- for type in shop.enabled_payment_types -%}
+                            <li class="contents">{{ type | payment_type_svg_tag }}</li>
+                        {%- endfor -%}
+                        <li class="contents">{{ 'klarna' | payment_type_svg_tag }}</li>
+                    </ul>
                 {%- when 'pickup_availability' -%}
                     <div class="product-info__pickup-availability">
                         {%- render 'pickup-availability', product_variant: product.selected_or_first_available_variant -%}

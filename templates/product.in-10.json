@@ -224,6 +224,9 @@
             "payment_button_text_color": ""
           }
         },
+        "payment_methods": {
+          "type": "payment_methods"
+        },
         "separator_VaBbkK": {
           "type": "separator",
           "settings": {
@@ -390,6 +393,7 @@
         "bundled_sale_NbiiyC",
         "quantity_selector",
         "buy_buttons",
+        "payment_methods",
         "separator_VaBbkK",
         "product_specs",
         "icons_list_jWPkpY",
@@ -410,6 +414,7 @@
         "enable_specs": true,
         "specs_limit": "6",
         "show_fixed_add_to_cart": true,
+        "show_fixed_checkout": false,
         "show_fixed_discount_tag": true,
         "fixed_discount_tag": "Saved",
         "fixed_content": "Yozma IN 10 Electric Mini Dirt Bike For Teens & Adults",
