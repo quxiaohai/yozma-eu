@@ -100,7 +100,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       characterData: true
     });
 
-    Shopify.analytics.subscribe('customer_event', () => {
+    setTimeout(() => {
         console.log('过来了----');
         Shopify.analytics.publish('customer_extras', {
             "event":"customer_extras",
@@ -112,7 +112,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             "customer_country": Shopify.country || "",
             "customer_locale": Shopify.locale || ""
         });
-    });
+    }, 2000);
   });
 </script>
 </head>
