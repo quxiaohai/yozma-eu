@@ -161,7 +161,7 @@
             "mb_padding": "4px 0px 4px 0px"
           }
         },
-        "service_card": {
+        "service_card1": {
           "type": "service_card",
           "settings": {
             "image_icon1": "shopify://shop_images/dispatching-icon.png",
@@ -389,7 +389,7 @@
         "countdown_timer_gHWnpr",
         "countdown_gHWnpr",
         "payment_terms",
-        "service_card",
+        "service_card1",
         "variant_picker",
         "bundled_sale_NbiiyC",
         "quantity_selector",
