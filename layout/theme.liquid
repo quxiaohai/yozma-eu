@@ -100,19 +100,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       characterData: true
     });
 
-    setTimeout(() => {
-        console.log('过来了----');
-        Shopify.analytics.publish('customer_extras', {
-            "event":"customer_extras",
-            "customer_id": "{{ customer.id | default: "null" }}",
-            "customer_email":"{{ customer.email | md5 | default: "null"  }}",
-            "customer_total_spent":"{{ customer.total_spent | default: "null"  }}",
-            "customer_orders_count":"{{ customer.orders_count | default: "null"  }}",
-            "customer_has_account":"{{ customer.has_account | default: "null"  }}",
-            "customer_country": Shopify.country || "",
-            "customer_locale": Shopify.locale || ""
-        });
-    }, 2000);
+      Shopify.analytics.publish('customer_extras', {
+          "event":"customer_extras",
+          "customer_country": Shopify.country || "",
+          "customer_locale": Shopify.locale || ""
+      });
   });
 </script>
 </head>
