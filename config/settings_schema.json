@@ -660,7 +660,7 @@
       {
         "type": "checkbox",
         "id": "show_in_stock_badge",
-        "label": "Show in stock badge1",
+        "label": "Show in stock badge",
         "default": true
       },
       {
