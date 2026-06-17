@@ -900,6 +900,16 @@
     "mc_main_ces": {
       "type": "mc_main-ces",
       "blocks": {
+        "card_jLiErN": {
+          "type": "card",
+          "settings": {
+            "desktop_image": "shopify://shop_images/6.11.jpg",
+            "mobile_image": "shopify://shop_images/6.11_EU.jpg",
+            "title": "From Match Day to Ride Day: Yozma x Belgian Red Devils",
+            "text": "",
+            "url": "shopify://blogs/ebike/yozma-belgian-red-devils-partnership"
+          }
+        },
         "card_nfmFyG": {
           "type": "card",
           "settings": {
@@ -993,6 +1003,7 @@
         }
       },
       "block_order": [
+        "card_jLiErN",
         "card_nfmFyG",
         "card_rrYedR",
         "card_QBffqa",

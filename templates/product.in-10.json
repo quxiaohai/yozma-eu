@@ -226,7 +226,8 @@
           }
         },
         "payment_methods": {
-          "type": "payment_methods"
+          "type": "payment_methods",
+          "settings": {}
         },
         "separator_VaBbkK": {
           "type": "separator",
