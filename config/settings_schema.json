@@ -673,7 +673,7 @@
         "type": "color",
         "id": "in_stock_badge_color",
         "label": "In stock badge color",
-        "default": "#00a341"
+        "default": "#00a342"
       },
       {
         "type": "color",
