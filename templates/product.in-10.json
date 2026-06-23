@@ -191,7 +191,7 @@
             "bg_image": "shopify://shop_images/1_4f3d694c-520e-4d41-9fea-ef49f16442bf.png",
             "padding_left": 130,
             "padding_right": 80,
-            "mb_padding_left": 50,
+            "mb_padding_left": 45,
             "mb_padding_right": 50,
             "discount_text": "Extra 100 OFF",
             "discount_text_color": "#ffffff",
