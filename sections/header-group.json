@@ -182,13 +182,13 @@
           "settings": {
             "title": "Prime Day Sale",
             "type": "icon",
-            "location": "after",
+            "location": "before",
             "badge_text": "Hot",
             "badge_text_color": "#ffffff",
             "badge_bg_color": "#ff0000",
             "badge_icon": "shopify://shop_images/Hot_icon_96ee56cc-6eea-4456-aee5-984b5571d0eb.png",
             "mb_badge_icon": "shopify://shop_images/Hot_icon_96ee56cc-6eea-4456-aee5-984b5571d0eb.png",
-            "icon_size": 1.1
+            "icon_size": 1.8
           }
         }
       },
