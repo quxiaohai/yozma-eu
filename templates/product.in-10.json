@@ -190,17 +190,21 @@
             "bg_color": "",
             "bg_image": "shopify://shop_images/1_4f3d694c-520e-4d41-9fea-ef49f16442bf.png",
             "padding_left": 130,
-            "padding_right": 150,
+            "padding_right": 80,
             "mb_padding_left": 50,
             "mb_padding_right": 50,
             "discount_text": "Extra 100 OFF",
-            "discount_text_color": "#FFFFFF",
+            "discount_text_color": "#ffffff",
             "discount_code": "IN 100 OFF",
-            "discount_code_color": "#B90606",
-            "copy_text": "Copy",
+            "discount_code_color": "#b90606",
+            "copy_text": "Copy Code",
             "copy_text_color": "#ffffff",
             "copy_success": "Copied",
-            "copy_success_color": "#ffe0e9"
+            "copy_success_color": "#B90606",
+            "show_countdown": false,
+            "countdown_text": "Ends in Today",
+            "countdown_start_date": "2026-06-24T00:00:00",
+            "duration": 2
           }
         },
         "variant_picker": {
