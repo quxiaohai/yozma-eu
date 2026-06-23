@@ -59,6 +59,7 @@
         },
         "message_hE6azf": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "<p>Announce something here</p>",
             "url": ""
