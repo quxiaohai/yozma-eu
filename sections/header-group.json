@@ -53,8 +53,16 @@
           "type": "message",
           "settings": {
             "icon": "shopify://shop_images/yozma-bar-icon.png",
-            "text": "<p>🏆 YOZMA 1st Anniversary Sale Is Live – Up to €200 Off + Spin & Win! 🎁<br/></p>",
+            "text": "<p>🏆 YOZMA Prime Day Is Live – Up to €200 Off + Spin & Win! 🎁<br/></p>",
             "url": "shopify://products/in-10"
+          }
+        },
+        "message_hE6azf": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Announce something here</p>",
+            "url": ""
           }
         },
         "message_48xPMD": {
@@ -91,6 +99,7 @@
       },
       "block_order": [
         "message_43xPMD",
+        "message_hE6azf",
         "message_48xPMD",
         "message_RU4Pwf",
         "message_Hm9xjY",
@@ -180,15 +189,15 @@
         "menu_badge_fKAQ6i": {
           "type": "menu_badge",
           "settings": {
-            "title": "Anniversary Sale",
-            "location": "before",
+            "title": "Prime Day Sale",
             "type": "icon",
+            "location": "before",
             "badge_text": "Hot",
             "badge_text_color": "#ffffff",
             "badge_bg_color": "#ff0000",
-            "badge_icon": "shopify://shop_images/header-icon.svg",
-            "mb_badge_icon": "shopify://shop_images/header-dark-icon.svg",
-            "icon_size": 1.1
+            "badge_icon": "shopify://shop_images/Hot_icon_96ee56cc-6eea-4456-aee5-984b5571d0eb.png",
+            "mb_badge_icon": "shopify://shop_images/Hot_icon_96ee56cc-6eea-4456-aee5-984b5571d0eb.png",
+            "icon_size": 1.8
           }
         }
       },

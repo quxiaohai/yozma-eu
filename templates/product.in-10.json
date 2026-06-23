@@ -164,6 +164,8 @@
         "service_card1": {
           "type": "service_card",
           "settings": {
+            "padding": "12px 0px 12px 0px",
+            "mb_padding": "4px 0px 4px 0px",
             "image_icon1": "shopify://shop_images/dispatching-icon.png",
             "title1": "Fast Shipping",
             "text1": "3-12 bussiness days",
@@ -176,6 +178,29 @@
             "image_icon4": "shopify://shop_images/customer-service-icon.png",
             "title4": "Customer Service",
             "text4": "Lifetime customer support"
+          }
+        },
+        "discount_PDGCHE": {
+          "type": "discount",
+          "settings": {
+            "padding": "12px 0px 12px 0px",
+            "mb_padding": "4px 0px 4px 0px",
+            "top": 0,
+            "bottom": 0,
+            "bg_color": "",
+            "bg_image": "shopify://shop_images/1_4f3d694c-520e-4d41-9fea-ef49f16442bf.png",
+            "padding_left": 130,
+            "padding_right": 150,
+            "mb_padding_left": 50,
+            "mb_padding_right": 50,
+            "discount_text": "Extra 100 OFF",
+            "discount_text_color": "#FFFFFF",
+            "discount_code": "IN 100 OFF",
+            "discount_code_color": "#B90606",
+            "copy_text": "Copy",
+            "copy_text_color": "#ffffff",
+            "copy_success": "Copied",
+            "copy_success_color": "#ffe0e9"
           }
         },
         "variant_picker": {
@@ -227,7 +252,10 @@
         },
         "payment_methods": {
           "type": "payment_methods",
-          "settings": {}
+          "settings": {
+            "padding": "12px 0px 12px 0px",
+            "mb_padding": "4px 0px 4px 0px"
+          }
         },
         "separator_VaBbkK": {
           "type": "separator",
@@ -391,6 +419,7 @@
         "countdown_gHWnpr",
         "payment_terms",
         "service_card1",
+        "discount_PDGCHE",
         "variant_picker",
         "bundled_sale_NbiiyC",
         "quantity_selector",
@@ -417,6 +446,8 @@
         "specs_limit": "6",
         "show_fixed_add_to_cart": true,
         "show_fixed_cart_button": false,
+        "show_media_saved_tag": true,
+        "media_saved_tag_type": "first",
         "show_fixed_discount_tag": true,
         "fixed_discount_tag": "Saved",
         "fixed_content": "Yozma IN 10 Electric Mini Dirt Bike For Teens & Adults",
