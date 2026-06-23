@@ -53,8 +53,15 @@
           "type": "message",
           "settings": {
             "icon": "shopify://shop_images/yozma-bar-icon.png",
-            "text": "<p>🏆 YOZMA 1st Anniversary Sale Is Live – Up to €200 Off + Spin & Win! 🎁<br/></p>",
+            "text": "<p>🏆 YOZMA Prime Day Is Live – Up to €200 Off + Spin & Win! 🎁<br/></p>",
             "url": "shopify://products/in-10"
+          }
+        },
+        "message_hE6azf": {
+          "type": "message",
+          "settings": {
+            "text": "<p>Announce something here</p>",
+            "url": ""
           }
         },
         "message_48xPMD": {
@@ -91,6 +98,7 @@
       },
       "block_order": [
         "message_43xPMD",
+        "message_hE6azf",
         "message_48xPMD",
         "message_RU4Pwf",
         "message_Hm9xjY",
