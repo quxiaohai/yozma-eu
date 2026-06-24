@@ -200,7 +200,7 @@
             "copy_text": "Copy Code",
             "copy_text_color": "#ffffff",
             "copy_success": "Copied",
-            "copy_success_color": "#B90606",
+            "copy_success_color": "#b90606",
             "show_countdown": false,
             "countdown_text": "Ends in Today",
             "countdown_start_date": "2026-06-24T00:00:00",
@@ -998,6 +998,31 @@
         "mb_param_text_size": 15
       }
     },
+    "1782268488feb88588": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_4JD3we": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_4JD3we"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "mc_section_text_8KKRQb": {
       "type": "mc_section-text",
       "blocks": {
@@ -1703,6 +1728,7 @@
     "mc_media_image_MEcse8",
     "mc_media_image_jFVamk",
     "mc_product_compare_XipJGP",
+    "1782268488feb88588",
     "mc_section_text_8KKRQb",
     "mc_community_media_slide_h8A3wc",
     "mc_product_compare",
