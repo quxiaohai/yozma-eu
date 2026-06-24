@@ -188,11 +188,11 @@
             "top": 0,
             "bottom": 0,
             "bg_color": "",
-            "bg_image": "shopify://shop_images/1_4f3d694c-520e-4d41-9fea-ef49f16442bf.png",
-            "padding_left": 130,
-            "padding_right": 80,
-            "mb_padding_left": 45,
-            "mb_padding_right": 50,
+            "bg_image": "shopify://shop_images/US_25CM_a3d2b8c2-388b-4bf6-9489-94ebc515516c.png",
+            "padding_left": 180,
+            "padding_right": 40,
+            "mb_padding_left": 60,
+            "mb_padding_right": 30,
             "discount_text": "Extra 100 OFF",
             "discount_text_color": "#ffffff",
             "discount_code": "IN 100 OFF",
@@ -200,8 +200,8 @@
             "copy_text": "Copy Code",
             "copy_text_color": "#ffffff",
             "copy_success": "Copied",
-            "copy_success_color": "#B90606",
-            "show_countdown": false,
+            "copy_success_color": "#b90606",
+            "show_countdown": true,
             "countdown_text": "Ends in Today",
             "countdown_start_date": "2026-06-24T00:00:00",
             "duration": 2
@@ -998,6 +998,31 @@
         "mb_param_text_size": 15
       }
     },
+    "1782268488feb88588": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_4JD3we": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "real_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_4JD3we"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "mc_section_text_8KKRQb": {
       "type": "mc_section-text",
       "blocks": {
@@ -1703,6 +1728,7 @@
     "mc_media_image_MEcse8",
     "mc_media_image_jFVamk",
     "mc_product_compare_XipJGP",
+    "1782268488feb88588",
     "mc_section_text_8KKRQb",
     "mc_community_media_slide_h8A3wc",
     "mc_product_compare",
