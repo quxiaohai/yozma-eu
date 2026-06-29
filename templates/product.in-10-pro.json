@@ -287,8 +287,8 @@
         "description_mb_size": 14,
         "description_pc_margin_bottom": 40,
         "description_mb_margin_bottom": 30,
-        "pc_image": "shopify://shop_images/PC_3-30_IN_10_PRO_W.png",
-        "mb_image": "shopify://shop_images/3-30_IN_10_PRO_W.png",
+        "pc_image": "shopify://shop_images/IN10_PRO_96KM_PC.png",
+        "mb_image": "shopify://shop_images/in10_pro_96KM.png",
         "image_radius": 0,
         "mb_image_radius": 0,
         "image_width": 100,
@@ -383,7 +383,7 @@
             "head": "Ride More, Recharge Less",
             "head_color": "#ffffff",
             "head_gradient_color": "",
-            "text": "<p>The <strong>60V27Ah</strong> lithium-ion battery now delivers up to <strong>88 km </strong>per charge, surpassing the original IN10. Quick 6–7 hour charging keeps you on the move, supporting riders up to<strong> 150 kg </strong>(330 lbs) on both trails and city roads.</p>",
+            "text": "<p>The <strong>60V27Ah</strong> lithium-ion battery now delivers up to <strong>96 km </strong>per charge, surpassing the original IN10. Quick 6–7 hour charging keeps you on the move, supporting riders up to<strong> 150 kg </strong>(330 lbs) on both trails and city roads.</p>",
             "text_color": "#b2b2b2",
             "text_bold_color": "#ff0000"
           }
