@@ -1268,10 +1268,9 @@
         },
         "item_fcVKfM": {
           "type": "item",
-          "disabled": true,
           "settings": {
-            "title": "How many riding modes are available?",
-            "content": "<p>IN 10 Pro offers three speed modes (approx. <strong>22 MPH</strong>, <strong>34 MPH</strong>, and <strong>47 MPH</strong>) to suit different riding preferences.</p>"
+            "title": "Is the Yozma IN10 Pro street legal in Europe?",
+            "content": "<p>The Yozma IN10  Pro is designed strictly for <strong>off-road</strong>use on private property or designated trails. It does not have a COC (Certificate of Conformity) for public road registration in the EU. Please check your local laws and regulations before purchasing.</p>"
           }
         },
         "item_UrTPVR": {
