@@ -39,7 +39,7 @@
           "settings": {
             "padding": "12px 0px 12px 0px",
             "mb_padding": "4px 0px 4px 0px",
-            "text": "<ul><li><strong>Torque:</strong>220 N.M</li><li><strong>Max Load</strong>: 150 kg</li><li><strong>Battery</strong>: 60V 27Ah</li><li><strong>Max Range</strong>: 88 km</li><li><strong>Suitable Height</strong>: 140 cm-190 cm</li></ul>"
+            "text": "<ul><li><strong>Torque:</strong>220 N.M</li><li><strong>Max Load</strong>: 150 kg</li><li><strong>Battery</strong>: 60V 27Ah</li><li><strong>Max Range</strong>: 96 km</li><li><strong>Suitable Height</strong>: 140 cm-190 cm</li></ul>"
           }
         },
         "separator_VBDgqA": {
@@ -178,7 +178,7 @@
             "custom_icon": "shopify://shop_images/question-icon-3.png",
             "icon_width": 24,
             "title": "F&Q",
-            "content": "<p>1. How long does shipping take? When will my order been dispatched?<br/><br/>Yozma IN 10 Pro ebikes are shipped from our <strong>Germany or Italy</strong> warehouse, and delivery typically takes 3-15 business days depending on your location. You’ll receive a tracking number once your order is on the way.<br/></p><p>2. What if the package is broken/missing?<br/><br/>Due to FedEx's or Fedex’s failure to deliver the bike as required during transportation, parts of the wear and scratch may cause by the parts crashing together, although we have packed all the parts to prevent these situations as much as we can. Please send us the related pictures via <a href=\"https://eu.yozmasport.com/pages/contact\" target=\"_blank\" title=\"Contact Us\">support.eu@yozmasport.com</a>, we will solve it for you.<br/><br/>3. Can I return my order for personal reasons ?<br/><br/>To be eligible for a return, your item must be in the same condition that you received it, unworn, unused, or the ebike must have less than ten (10) miles on the odometer and must include all items that were inside the box (charger, keys, hardware, etc.), and in its original packaging.For specific fees, please click <a href=\"https://eu.yozmasport.com/pages/return-refund-policy\" target=\"_blank\" title=\"Return & Refund Policy\">HERE.</a></p>",
+            "content": "<p>1. How long does shipping take? When will my order been dispatched?<br/><br/>Yozma IN 10 Pro ebikes are shipped from our <strong>Germany or Italy</strong> warehouse, and delivery typically takes 3-15 business days depending on your location. You’ll receive a tracking number once your order is on the way.<br/></p><p>2. What if the package is broken/missing?<br/><br/>Due to FedEx's or Fedex’s failure to deliver the bike as required during transportation, parts of the wear and scratch may cause by the parts crashing together, although we have packed all the parts to prevent these situations as much as we can. Please send us the related pictures via <a href=\"https://eu.yozmasport.com/pages/contact\" target=\"_blank\" title=\"Contact Us\">support.eu@yozmasport.com</a>, we will solve it for you.<br/><br/>3. Can I return my order for personal reasons ?<br/><br/>To be eligible for a return, your item must be in the same condition that you received it, unworn, unused, or the ebike must have less than ten (10) miles on the odometer and must include all items that were inside the box (charger, keys, hardware, etc.), and in its original packaging.For specific fees, please click <a href=\"https://eu.yozmasport.com/pages/return-refund-policy\" target=\"_blank\" title=\"Return & Refund Policy\">HERE. </a></p><p><strong>4：</strong>Is the Yozma IN10 Pro street legal in Europe?</p><p><br/>The Yozma IN10 Pro is designed strictly for <strong>off-road</strong>use on private property or designated trails. It does not have a COC (Certificate of Conformity) for public road registration in the EU. Please check your local laws and regulations before purchasing.</p>",
             "page": ""
           }
         },
@@ -244,6 +244,9 @@
         "enable_specs": true,
         "specs_limit": "6",
         "show_fixed_add_to_cart": true,
+        "show_fixed_cart_button": true,
+        "show_media_saved_tag": true,
+        "media_saved_tag_type": "first",
         "show_fixed_discount_tag": true,
         "fixed_discount_tag": "Saved",
         "fixed_content": "In Stock—Estimated delivery in 5-15 business days.",
@@ -284,8 +287,8 @@
         "description_mb_size": 14,
         "description_pc_margin_bottom": 40,
         "description_mb_margin_bottom": 30,
-        "pc_image": "shopify://shop_images/PC_3-30_IN_10_PRO_W.png",
-        "mb_image": "shopify://shop_images/3-30_IN_10_PRO_W.png",
+        "pc_image": "shopify://shop_images/IN10_PRO_96KM_PC.png",
+        "mb_image": "shopify://shop_images/in10_pro_96KM.png",
         "image_radius": 0,
         "mb_image_radius": 0,
         "image_width": 100,
@@ -380,7 +383,7 @@
             "head": "Ride More, Recharge Less",
             "head_color": "#ffffff",
             "head_gradient_color": "",
-            "text": "<p>The <strong>60V27Ah</strong> lithium-ion battery now delivers up to <strong>88 km </strong>per charge, surpassing the original IN10. Quick 6–7 hour charging keeps you on the move, supporting riders up to<strong> 150 kg </strong>(330 lbs) on both trails and city roads.</p>",
+            "text": "<p>The <strong>60V27Ah</strong> lithium-ion battery now delivers up to <strong>96 km </strong>per charge, surpassing the original IN10. Quick 6–7 hour charging keeps you on the move, supporting riders up to<strong> 150 kg </strong>(330 lbs) on both trails and city roads.</p>",
             "text_color": "#b2b2b2",
             "text_bold_color": "#ff0000"
           }
@@ -433,7 +436,7 @@
           "type": "slide",
           "settings": {
             "title": "Specification",
-            "param_text": "<ul><li><strong>Top speed </strong>50 Km/h</li><li><strong>Range </strong>88 km</li><li><strong>Motor </strong>5500W Peak, Brushless Motor</li><li><strong>Charger</strong> 60V5A Charger</li><li><strong>Charger Voltage </strong>100-220V, 50-60Hz</li><li><strong>Charging Time </strong>0%-100% 6.0-7.0 Hours</li><li><strong>Display</strong> LCD Display</li><li><strong>Ride Mode </strong>Three-speed with Reverse gear</li><li><strong>Drivetrain </strong>420H chain, 124 links</li><li><strong>Battery</strong> 60V27Ah Lithium-ion Battery</li><li><strong>Suspension Type </strong>Inverted hydraulic fork</li><li><strong>Brakes</strong> Heavy-duty Hydraulic Brakes</li><li><strong>Frame</strong> High Carbon Steel</li><li><strong>Chain</strong> 116links（420 chain）Heavy Duty Chain</li><li><strong>Max Climbing</strong> 30 degrees</li><li><strong>Front Suspension</strong> Hydraulic Suspension</li><li><strong>Rear Suspension</strong> Nitrogen Shock Absorber</li><li><strong>Waterproof</strong> IPX6</li><li><strong>Bike Weight </strong>121lbs（55kg)</li><li><strong>Maximum Load </strong>330lbs (150kg)</li></ul>"
+            "param_text": "<p></p><ul><li><strong>Range </strong>96 km</li><li><strong>Motor </strong>5500W Peak, Brushless Motor</li><li><strong>Charger</strong> 60V5A Charger</li><li><strong>Charger Voltage </strong>100-220V, 50-60Hz</li><li><strong>Charging Time </strong>0%-100% 6.0-7.0 Hours</li><li><strong>Display</strong> LCD Display</li><li><strong>Ride Mode </strong>Three-speed with Reverse gear</li><li><strong>Drivetrain </strong>420H chain, 124 links</li><li><strong>Battery</strong> 60V27Ah Lithium-ion Battery</li><li><strong>Suspension Type </strong>Inverted hydraulic fork</li><li><strong>Brakes</strong> Heavy-duty Hydraulic Brakes</li><li><strong>Frame</strong> High Carbon Steel</li><li><strong>Chain</strong> 116links（420 chain）Heavy Duty Chain</li><li><strong>Max Climbing</strong> 30 degrees</li><li><strong>Front Suspension</strong> Hydraulic Suspension</li><li><strong>Rear Suspension</strong> Nitrogen Shock Absorber</li><li><strong>Waterproof</strong> IPX6</li><li><strong>Bike Weight </strong>121lbs（55kg)</li><li><strong>Maximum Load </strong>330lbs (150kg)</li></ul>"
           }
         },
         "slide_fnAFgV": {
@@ -1145,7 +1148,7 @@
             "button_color": "#000000",
             "button_hover_color": "#ffffff",
             "button_url": "",
-            "product_params": "€2,199\n60V27 Ah\n220 Nm\n88 Km\n330 lbs（150kg）\n17''/14''\n4.7ft - 6.3ft(140cm-190cm)\n6-7 Hours"
+            "product_params": "€2,199\n60V27 Ah\n220 Nm\n96 Km\n330 lbs（150kg）\n17''/14''\n4.7ft - 6.3ft(140cm-190cm)\n6-7 Hours"
           }
         },
         "product_tVHKM3": {
@@ -1265,10 +1268,9 @@
         },
         "item_fcVKfM": {
           "type": "item",
-          "disabled": true,
           "settings": {
-            "title": "How many riding modes are available?",
-            "content": "<p>IN 10 Pro offers three speed modes (approx. <strong>22 MPH</strong>, <strong>34 MPH</strong>, and <strong>47 MPH</strong>) to suit different riding preferences.</p>"
+            "title": "Is the Yozma IN10 Pro street legal in Europe?",
+            "content": "<p>The Yozma IN10  Pro is designed strictly for <strong>off-road</strong>use on private property or designated trails. It does not have a COC (Certificate of Conformity) for public road registration in the EU. Please check your local laws and regulations before purchasing.</p>"
           }
         },
         "item_UrTPVR": {
@@ -1336,7 +1338,8 @@
         "button_background": "",
         "button_text_color": "",
         "accordion_background": "#171717",
-        "accordion_text_color": ""
+        "accordion_text_color": "",
+        "theme_size": "large"
       }
     },
     "specification_table_efdmkD": {
