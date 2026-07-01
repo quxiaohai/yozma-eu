@@ -9,6 +9,41 @@
  */
 {
   "sections": {
+    "video_MXmpNQ": {
+      "type": "video",
+      "blocks": {
+        "play_tC7jCj": {
+          "type": "play",
+          "disabled": true,
+          "settings": {}
+        },
+        "heading_y9xH6t": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "play_tC7jCj",
+        "heading_y9xH6t"
+      ],
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/Yozma一周年 正片 3840x2160 30s 纯净版.mp4",
+        "mobile_video": "shopify://files/videos/Yozma一周年 正片 3840x2160 30s 纯净版.mp4",
+        "external_video_url": "",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "mc_banner_slide": {
       "type": "mc_banner-slide",
       "blocks": {
@@ -104,6 +139,7 @@
         "media_Yi7pih",
         "media3"
       ],
+      "disabled": true,
       "name": "MC Banner Slide",
       "settings": {
         "page_color": "",
@@ -276,7 +312,7 @@
       "name": "MC Product List",
       "settings": {
         "page_color": "#ffffff",
-        "page_top": 0,
+        "page_top": 30,
         "page_bottom": 30,
         "show_title": true,
         "title": "",
@@ -755,6 +791,7 @@
     }
   },
   "order": [
+    "video_MXmpNQ",
     "mc_banner_slide",
     "mc_flip_countdown_nEQfMH",
     "mc_product_list",
