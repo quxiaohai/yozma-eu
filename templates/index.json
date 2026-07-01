@@ -33,7 +33,7 @@
       "name": "Video",
       "settings": {
         "full_width": true,
-        "allow_transparent_header": false,
+        "allow_transparent_header": true,
         "autoplay": true,
         "video_size": "lg",
         "video": "shopify://files/videos/Yozma一周年 正片 3840x2160 30s 纯净版.mp4",
