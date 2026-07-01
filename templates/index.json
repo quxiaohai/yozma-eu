@@ -584,6 +584,143 @@
         "mb_card_text_size": 16
       }
     },
+    "mc_photo_wall_am8R8D": {
+      "type": "mc_photo-wall",
+      "blocks": {
+        "image_KaLyMN": {
+          "type": "image",
+          "settings": {
+            "image_ratio": ""
+          }
+        },
+        "image_rXYcXL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5193.jpg",
+            "image_ratio": ""
+          }
+        },
+        "image_bCegmc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC03538.jpg",
+            "image_ratio": ""
+          }
+        },
+        "image_PFxGAb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_1943.jpg",
+            "image_ratio": ""
+          }
+        },
+        "image_w8PDdK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5183.jpg",
+            "image_ratio": ""
+          }
+        },
+        "image_n7jihR": {
+          "type": "image",
+          "settings": {
+            "image_ratio": ""
+          }
+        },
+        "image_VnrpUU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5192.jpg",
+            "image_ratio": ""
+          }
+        },
+        "image_4PQ8xF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_1974.jpg",
+            "image_ratio": ""
+          }
+        },
+        "image_mkmdbc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC03226.jpg",
+            "image_ratio": ""
+          }
+        },
+        "image_ibxpmY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC06682.jpg",
+            "image_ratio": ""
+          }
+        },
+        "image_qFaUXC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC03684.jpg",
+            "image_ratio": ""
+          }
+        },
+        "image_49iHHq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/12.jpg",
+            "image_ratio": ""
+          }
+        },
+        "image_EqT4Jw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5_e43a5676-8c94-4eb5-b20f-ad238e99d4d6.jpg",
+            "image_ratio": ""
+          }
+        },
+        "image_n4yrew": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/new-enhance-photo-base-2.jpg",
+            "image_ratio": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_KaLyMN",
+        "image_rXYcXL",
+        "image_bCegmc",
+        "image_PFxGAb",
+        "image_w8PDdK",
+        "image_n7jihR",
+        "image_VnrpUU",
+        "image_4PQ8xF",
+        "image_mkmdbc",
+        "image_ibxpmY",
+        "image_qFaUXC",
+        "image_49iHHq",
+        "image_EqT4Jw",
+        "image_n4yrew"
+      ],
+      "name": "MC Photo Wall",
+      "settings": {
+        "page_color": "#000000",
+        "show_title": false,
+        "title": "Yozma",
+        "title_pc_size": 48,
+        "title_mb_size": 24,
+        "title_margin_bottom": 16,
+        "title_color": "#ffffff",
+        "title_gradient_color": "",
+        "show_description": false,
+        "description": "<p>description</p>",
+        "description_color": "#ffffff",
+        "description_pc_size": 18,
+        "description_mb_size": 14,
+        "description_pc_margin_bottom": 40,
+        "description_mb_margin_bottom": 30,
+        "loop_speed": 1,
+        "image_border_radius": 4
+      }
+    },
     "178226965038bea44f": {
       "type": "apps",
       "blocks": {
@@ -799,6 +936,7 @@
     "mc_media_slide",
     "mc_text_slide",
     "mc_media_text_YBqLhX",
+    "mc_photo_wall_am8R8D",
     "178226965038bea44f",
     "mc_main_ces",
     "mc_review_slide",
