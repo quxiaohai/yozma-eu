@@ -190,14 +190,14 @@
         "menu_badge_fKAQ6i": {
           "type": "menu_badge",
           "settings": {
-            "title": "Prime Day Sale",
-            "type": "text",
+            "title": "Tiktok Challenge",
+            "type": "icon",
             "location": "after",
             "badge_text": "Hot",
             "badge_text_color": "#ffffff",
             "badge_bg_color": "#ff0000",
-            "badge_icon": "shopify://shop_images/Hot_icon_96ee56cc-6eea-4456-aee5-984b5571d0eb.png",
-            "mb_badge_icon": "shopify://shop_images/Hot_icon_96ee56cc-6eea-4456-aee5-984b5571d0eb.png",
+            "badge_icon": "shopify://shop_images/tiktok-challenge-icon.svg",
+            "mb_badge_icon": "shopify://shop_images/tiktok-challenge-dark-icon.svg",
             "icon_size": 1.8
           }
         }
