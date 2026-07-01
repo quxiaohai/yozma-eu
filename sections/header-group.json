@@ -198,7 +198,7 @@
             "badge_bg_color": "#ff0000",
             "badge_icon": "shopify://shop_images/tiktok-challenge-icon.svg",
             "mb_badge_icon": "shopify://shop_images/tiktok-challenge-dark-icon.svg",
-            "icon_size": 1.8
+            "icon_size": 1.4
           }
         }
       },
