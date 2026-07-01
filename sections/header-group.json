@@ -192,7 +192,7 @@
           "settings": {
             "title": "Tiktok Challenge",
             "type": "icon",
-            "location": "after",
+            "location": "before",
             "badge_text": "Hot",
             "badge_text_color": "#ffffff",
             "badge_bg_color": "#ff0000",
