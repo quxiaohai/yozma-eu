@@ -587,9 +587,45 @@
     "mc_photo_wall_am8R8D": {
       "type": "mc_photo-wall",
       "blocks": {
-        "image_KaLyMN": {
+        "image_DwcV9C": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/MVI_7211.jpg",
+            "image_ratio": ""
+          }
+        },
+        "image_qtL8rC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/photo-8_61a3ac2a-7cf7-4832-8c7e-ace88cb78ae9.jpg",
+            "image_ratio": ""
+          }
+        },
+        "image_kTWcMM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Yozma_1.jpg",
+            "image_ratio": ""
+          }
+        },
+        "image_CWhRxC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_7394.jpg",
+            "image_ratio": ""
+          }
+        },
+        "image_MXbkQi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2025-08-13_170348_282.jpg",
+            "image_ratio": ""
+          }
+        },
+        "image_6Yx8ye": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2025-08-13_170400_739.jpg",
             "image_ratio": ""
           }
         },
@@ -607,6 +643,13 @@
             "image_ratio": ""
           }
         },
+        "image_wUw9PH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2025-08-13_170259_411.jpg",
+            "image_ratio": ""
+          }
+        },
         "image_PFxGAb": {
           "type": "image",
           "settings": {
@@ -618,12 +661,6 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/IMG_5183.jpg",
-            "image_ratio": ""
-          }
-        },
-        "image_n7jihR": {
-          "type": "image",
-          "settings": {
             "image_ratio": ""
           }
         },
@@ -685,12 +722,17 @@
         }
       },
       "block_order": [
-        "image_KaLyMN",
+        "image_DwcV9C",
+        "image_qtL8rC",
+        "image_kTWcMM",
+        "image_CWhRxC",
+        "image_MXbkQi",
+        "image_6Yx8ye",
         "image_rXYcXL",
         "image_bCegmc",
+        "image_wUw9PH",
         "image_PFxGAb",
         "image_w8PDdK",
-        "image_n7jihR",
         "image_VnrpUU",
         "image_4PQ8xF",
         "image_mkmdbc",
@@ -703,6 +745,8 @@
       "name": "MC Photo Wall",
       "settings": {
         "page_color": "#000000",
+        "page_top": 20,
+        "page_bottom": 5,
         "show_title": false,
         "title": "Yozma",
         "title_pc_size": 48,
