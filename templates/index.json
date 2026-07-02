@@ -587,160 +587,184 @@
     "mc_photo_wall_am8R8D": {
       "type": "mc_photo-wall",
       "blocks": {
-        "image_DwcV9C": {
-          "type": "image",
+        "bottom_image_GLAVmt": {
+          "type": "bottom_image",
           "settings": {
-            "image": "shopify://shop_images/MVI_7211.jpg",
+            "image": "shopify://shop_images/IMG_7394.jpg",
             "image_ratio": ""
           }
         },
-        "image_qtL8rC": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/photo-8_61a3ac2a-7cf7-4832-8c7e-ace88cb78ae9.jpg",
-            "image_ratio": ""
-          }
-        },
-        "image_kTWcMM": {
+        "image_edpNTe": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Yozma_1.jpg",
             "image_ratio": ""
           }
         },
-        "image_CWhRxC": {
-          "type": "image",
+        "bottom_image_DFF4iG": {
+          "type": "bottom_image",
           "settings": {
-            "image": "shopify://shop_images/IMG_7394.jpg",
+            "image": "shopify://shop_images/MVI_7239.jpg",
             "image_ratio": ""
           }
         },
-        "image_MXbkQi": {
+        "image_bLzAJK": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2025-08-13_170348_282.jpg",
+            "image": "shopify://shop_images/photo-8_61a3ac2a-7cf7-4832-8c7e-ace88cb78ae9.jpg",
             "image_ratio": ""
           }
         },
-        "image_6Yx8ye": {
+        "bottom_image_7HgFt8": {
+          "type": "bottom_image",
+          "settings": {
+            "image": "shopify://shop_images/MVI_7211.jpg",
+            "image_ratio": ""
+          }
+        },
+        "image_YCLbQa": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/2025-08-13_170400_739.jpg",
             "image_ratio": ""
           }
         },
-        "image_rXYcXL": {
-          "type": "image",
+        "bottom_image_BWYymM": {
+          "type": "bottom_image",
           "settings": {
-            "image": "shopify://shop_images/IMG_5193.jpg",
+            "image": "shopify://shop_images/IMG_5183.jpg",
             "image_ratio": ""
           }
         },
-        "image_bCegmc": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/DSC03538.jpg",
-            "image_ratio": ""
-          }
-        },
-        "image_wUw9PH": {
+        "image_eWRBj3": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/2025-08-13_170259_411.jpg",
             "image_ratio": ""
           }
         },
-        "image_PFxGAb": {
-          "type": "image",
+        "bottom_image_F8WTMF": {
+          "type": "bottom_image",
           "settings": {
-            "image": "shopify://shop_images/IMG_1943.jpg",
+            "image": "shopify://shop_images/photo-44_d19f18b6-bf00-436e-b30f-4b30b013ace3.jpg",
             "image_ratio": ""
           }
         },
-        "image_w8PDdK": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/IMG_5183.jpg",
-            "image_ratio": ""
-          }
-        },
-        "image_VnrpUU": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/IMG_5192.jpg",
-            "image_ratio": ""
-          }
-        },
-        "image_4PQ8xF": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/IMG_1974.jpg",
-            "image_ratio": ""
-          }
-        },
-        "image_mkmdbc": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/DSC03226.jpg",
-            "image_ratio": ""
-          }
-        },
-        "image_ibxpmY": {
+        "image_fh7jW7": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/DSC06682.jpg",
             "image_ratio": ""
           }
         },
-        "image_qFaUXC": {
+        "bottom_image_HXMC44": {
+          "type": "bottom_image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5192.jpg",
+            "image_ratio": ""
+          }
+        },
+        "image_GkWFMd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC03226.jpg",
+            "image_ratio": ""
+          }
+        },
+        "bottom_image_aggzUd": {
+          "type": "bottom_image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_1974.jpg",
+            "image_ratio": ""
+          }
+        },
+        "image_CBHCDr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5181.jpg",
+            "image_ratio": ""
+          }
+        },
+        "bottom_image_VpmE6a": {
+          "type": "bottom_image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_1943.jpg",
+            "image_ratio": ""
+          }
+        },
+        "image_h6P4pp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC03538.jpg",
+            "image_ratio": ""
+          }
+        },
+        "bottom_image_pPjTPe": {
+          "type": "bottom_image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5193.jpg",
+            "image_ratio": ""
+          }
+        },
+        "image_eczwnf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/new-enhance-photo-base-2.jpg",
+            "image_ratio": ""
+          }
+        },
+        "bottom_image_h9TcUq": {
+          "type": "bottom_image",
+          "settings": {
+            "image": "shopify://shop_images/12.jpg",
+            "image_ratio": ""
+          }
+        },
+        "image_f9AN8k": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/DSC03684.jpg",
             "image_ratio": ""
           }
         },
-        "image_49iHHq": {
-          "type": "image",
+        "bottom_image_DEV7ey": {
+          "type": "bottom_image",
           "settings": {
-            "image": "shopify://shop_images/12.jpg",
+            "image": "shopify://shop_images/IMG_6226.jpg",
             "image_ratio": ""
           }
         },
-        "image_EqT4Jw": {
+        "image_CJLCRQ": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/5_e43a5676-8c94-4eb5-b20f-ad238e99d4d6.jpg",
             "image_ratio": ""
           }
-        },
-        "image_n4yrew": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/new-enhance-photo-base-2.jpg",
-            "image_ratio": ""
-          }
         }
       },
       "block_order": [
-        "image_DwcV9C",
-        "image_qtL8rC",
-        "image_kTWcMM",
-        "image_CWhRxC",
-        "image_MXbkQi",
-        "image_6Yx8ye",
-        "image_rXYcXL",
-        "image_bCegmc",
-        "image_wUw9PH",
-        "image_PFxGAb",
-        "image_w8PDdK",
-        "image_VnrpUU",
-        "image_4PQ8xF",
-        "image_mkmdbc",
-        "image_ibxpmY",
-        "image_qFaUXC",
-        "image_49iHHq",
-        "image_EqT4Jw",
-        "image_n4yrew"
+        "bottom_image_GLAVmt",
+        "image_edpNTe",
+        "bottom_image_DFF4iG",
+        "image_bLzAJK",
+        "bottom_image_7HgFt8",
+        "image_YCLbQa",
+        "bottom_image_BWYymM",
+        "image_eWRBj3",
+        "bottom_image_F8WTMF",
+        "image_fh7jW7",
+        "bottom_image_HXMC44",
+        "image_GkWFMd",
+        "bottom_image_aggzUd",
+        "image_CBHCDr",
+        "bottom_image_VpmE6a",
+        "image_h6P4pp",
+        "bottom_image_pPjTPe",
+        "image_eczwnf",
+        "bottom_image_h9TcUq",
+        "image_f9AN8k",
+        "bottom_image_DEV7ey",
+        "image_CJLCRQ"
       ],
       "name": "MC Photo Wall",
       "settings": {
@@ -748,7 +772,7 @@
         "page_top": 20,
         "page_bottom": 5,
         "show_title": false,
-        "title": "Yozma",
+        "title": "Ride with Yozma",
         "title_pc_size": 48,
         "title_mb_size": 24,
         "title_margin_bottom": 16,
