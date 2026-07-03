@@ -902,7 +902,7 @@
       "name": "MC Main Ces",
       "settings": {
         "page_color": "#ffffff",
-        "page_top": 5,
+        "page_top": 0,
         "page_bottom": 20,
         "title": "<p>Discover the world of YOZMA</p>",
         "title_decorate_image": "shopify://shop_images/title-text-tag.png",
