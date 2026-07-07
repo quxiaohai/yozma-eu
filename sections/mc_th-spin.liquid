@@ -438,319 +438,317 @@
         endif
     -%}
 </div>
-{%- if discount != blank -%}
-    <script>
-        $heybike.ready(() => {
-            const node = document.getElementById('{{ section.id }}-spin');
-            const nodeList = $heybike.getNodeList(node);
-            const form = document.getElementById('{{ form_id }}');
-            {%- if discount != blank -%}
-            const spinElem = node.querySelector('.spin-image');
-            let currentRotation = 0.0;
-            let animating = false;
-            let animStartTime = 0;
-            let startRotation = 0;
-            let targetRotation = 0;
-            let animationId = null;
-            let currentPrize = null;
-            let isOpen = false;
-            let scrollPos = 0;
+<script>
+    $heybike.ready(() => {
+        const node = document.getElementById('{{ section.id }}-spin');
+        const nodeList = $heybike.getNodeList(node);
+        const form = document.getElementById('{{ form_id }}');
+        {%- if discount != blank -%}
+        const spinElem = node.querySelector('.spin-image');
+        let currentRotation = 0.0;
+        let animating = false;
+        let animStartTime = 0;
+        let startRotation = 0;
+        let targetRotation = 0;
+        let animationId = null;
+        let currentPrize = null;
+        let isOpen = false;
+        let scrollPos = 0;
 
-            const prizes = [
-                {%- liquid
-                    assign angle = 0
-                -%}
-                {%- for v in (1..9) -%}
-                {%- liquid
-                    assign icon = 'gift_icon' | append: v
-                    assign code = 'discount_code' | append: v
-                    assign name = 'prize_name' | append: v
-                    assign weight = 'prize_weight' | append: v
-                -%}
-                {
-                    icon: '{{ ds[icon] | image_url: width: 300 }}',
-                    code: '{{ ds[code] }}',
-                    angle: {{ 360 | minus: angle }},
-                    title: `{{ ds[name] }}`,
-                    weight: {{ ds[weight] }}}{% if forloop.last == false %},{% endif %}
-                {%- liquid
-                    assign angle = angle | plus: 40
-                -%}
-                {%- endfor -%}
-            ];
+        const prizes = [
+            {%- liquid
+                assign angle = 0
+            -%}
+            {%- for v in (1..9) -%}
+            {%- liquid
+                assign icon = 'gift_icon' | append: v
+                assign code = 'discount_code' | append: v
+                assign name = 'prize_name' | append: v
+                assign weight = 'prize_weight' | append: v
+            -%}
+            {
+                icon: '{{ ds[icon] | image_url: width: 300 }}',
+                code: '{{ ds[code] }}',
+                angle: {{ 360 | minus: angle }},
+                title: `{{ ds[name] }}`,
+                weight: {{ ds[weight] }}}{% if forloop.last == false %},{% endif %}
+            {%- liquid
+                assign angle = angle | plus: 40
+            -%}
+            {%- endfor -%}
+        ];
 
-            const getSelectPrize = () => {
-                const list = prizes.filter(item => item.weight > 0);
-                const len = list.length;
-                const totalWeight = list.reduce((prev, cur) => cur.weight + prev, 0);
-                const r = Math.random() * totalWeight;
-                let cumulative = 0;
-                for (let k = 0; k < len; k++) {
-                    cumulative += list[k].weight;
-                    if (r <= cumulative) return list[k];
-                }
-                return list[len - 1];
-            };
-
-            function startWheel(rotateRad) {
-                spinElem.style.transform = `rotate(${rotateRad}deg)`;
+        const getSelectPrize = () => {
+            const list = prizes.filter(item => item.weight > 0);
+            const len = list.length;
+            const totalWeight = list.reduce((prev, cur) => cur.weight + prev, 0);
+            const r = Math.random() * totalWeight;
+            let cumulative = 0;
+            for (let k = 0; k < len; k++) {
+                cumulative += list[k].weight;
+                if (r <= cumulative) return list[k];
             }
+            return list[len - 1];
+        };
 
-            function easeOutCubic(t) {
-                return 1 - Math.pow(1 - t, 3);
-            }
+        function startWheel(rotateRad) {
+            spinElem.style.transform = `rotate(${rotateRad}deg)`;
+        }
 
-            function animateSpin(now) {
-                const elapsed = now - animStartTime;
-                let progress = Math.min(1, elapsed / 1800);
-                const easeProgress = easeOutCubic(progress);
-                currentRotation = startRotation + (targetRotation - startRotation) * easeProgress;
-                startWheel(currentRotation);
-                if (progress < 1) {
-                    animationId = requestAnimationFrame(animateSpin);
-                } else {
-                    if (animationId) cancelAnimationFrame(animationId);
-                    animationId = null;
-                    openModal();
-                }
-            }
+        function easeOutCubic(t) {
+            return 1 - Math.pow(1 - t, 3);
+        }
 
-            function startSpin() {
-                if (animating) return;
-                const minRounds = 6;
-                const maxRounds = 14;
-                const rounds = Math.round(minRounds + Math.random() * (maxRounds - minRounds));
-                currentPrize = getSelectPrize();
-                const extraRad = currentPrize.angle;
-                const deltaRad = rounds * 360 + extraRad;
-                startRotation = currentRotation;
-                targetRotation = startRotation + deltaRad;
-                animating = true;
-                animStartTime = performance.now();
-                if (animationId) cancelAnimationFrame(animationId);
+        function animateSpin(now) {
+            const elapsed = now - animStartTime;
+            let progress = Math.min(1, elapsed / 1800);
+            const easeProgress = easeOutCubic(progress);
+            currentRotation = startRotation + (targetRotation - startRotation) * easeProgress;
+            startWheel(currentRotation);
+            if (progress < 1) {
                 animationId = requestAnimationFrame(animateSpin);
+            } else {
+                if (animationId) cancelAnimationFrame(animationId);
+                animationId = null;
+                openModal();
             }
-            {%- endif -%}
+        }
 
-            const successText = () => {
-                nodeList.formInfo.innerHTML = `<div class="form-success flex-left">
-                    <svg class="icon" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="32" height="32">
-                        <path
-                            d="M512 1024A512 512 0 1 1 512 0a512 512 0 0 1 0 1024z m-49.590857-377.197714L315.977143 498.614857 219.428571 590.848c70.217143 37.814857 168.594286 106.788571 252.854858 213.723429C531.821714 692.662857 715.337143 463.725714 804.571429 443.245714c-14.409143-57.709714-22.528-166.034286 0-223.817143-183.003429 120.685714-342.162286 427.373714-342.162286 427.373715z"
-                            fill="#1afa29"></path>
-                    </svg>
-                    <span>{{ ss.success }}</span>
-                </div>`;
-            }
+        function startSpin() {
+            if (animating) return;
+            const minRounds = 6;
+            const maxRounds = 14;
+            const rounds = Math.round(minRounds + Math.random() * (maxRounds - minRounds));
+            currentPrize = getSelectPrize();
+            const extraRad = currentPrize.angle;
+            const deltaRad = rounds * 360 + extraRad;
+            startRotation = currentRotation;
+            targetRotation = startRotation + deltaRad;
+            animating = true;
+            animStartTime = performance.now();
+            if (animationId) cancelAnimationFrame(animationId);
+            animationId = requestAnimationFrame(animateSpin);
+        }
+        {%- endif -%}
 
-            const klaviyoSubscribe = async (email) => {
-                const createSubscriptionResponse = await fetch(`https://a.klaviyo.com/client/subscriptions/?company_id={{ ss.klaviyo_api_key }}`, {
-                    method: "POST",
-                    headers: {
-                        accept: "application/json",
-                        revision: "2026-04-15",
-                        "content-type": "application/json"
-                    },
-                    body: JSON.stringify({
-                        data: {
-                            type: "subscription",
-                            relationships: {
-                                list: {
-                                    data: {
-                                        type: "list",
-                                        id: '{{ ss.klaviyo_list_id }}'
-                                    }
+        const successText = () => {
+            nodeList.formInfo.innerHTML = `<div class="form-success flex-left">
+                <svg class="icon" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+                    <path
+                        d="M512 1024A512 512 0 1 1 512 0a512 512 0 0 1 0 1024z m-49.590857-377.197714L315.977143 498.614857 219.428571 590.848c70.217143 37.814857 168.594286 106.788571 252.854858 213.723429C531.821714 692.662857 715.337143 463.725714 804.571429 443.245714c-14.409143-57.709714-22.528-166.034286 0-223.817143-183.003429 120.685714-342.162286 427.373714-342.162286 427.373715z"
+                        fill="#1afa29"></path>
+                </svg>
+                <span>{{ ss.success }}</span>
+            </div>`;
+        }
+
+        const klaviyoSubscribe = async (email) => {
+            const createSubscriptionResponse = await fetch(`https://a.klaviyo.com/client/subscriptions/?company_id={{ ss.klaviyo_api_key }}`, {
+                method: "POST",
+                headers: {
+                    accept: "application/json",
+                    revision: "2026-04-15",
+                    "content-type": "application/json"
+                },
+                body: JSON.stringify({
+                    data: {
+                        type: "subscription",
+                        relationships: {
+                            list: {
+                                data: {
+                                    type: "list",
+                                    id: '{{ ss.klaviyo_list_id }}'
                                 }
-                            },
-                            attributes: {
-                                profile: {
-                                    data: {
-                                        type: "profile",
-                                        attributes: {
-                                            email: email
-                                        }
+                            }
+                        },
+                        attributes: {
+                            profile: {
+                                data: {
+                                    type: "profile",
+                                    attributes: {
+                                        email: email
                                     }
                                 }
                             }
                         }
-                    })
-                });
-                if (!createSubscriptionResponse.ok) {
-                    return alert(` HTTP ${createSubscriptionResponse.status}`);
-                }
-                successText();
-                {%- if discount != blank -%}
-                startSpin();
-                {%- endif -%}
-            };
-
-            const omnisendSubscribe = async (email) => {
-                const createSubscriptionResponse = await fetch(`https://api.omnisend.com/api/contacts`, {
-                    method: "POST",
-                    headers: {
-                        Authorization: "Omnisend-API-Key 69de08bd3ff781a3a5fe5f9a-Ooeog9UU5A5v6oyim1QlAyD0OH4SoakwsxIAsZIMQdhaKY7sqH",
-                        "Omnisend-Version": "2026-03-15",
-                        accept: 'application/json',
-                        "content-type": "application/json"
-                    },
-                    body: JSON.stringify({
-                        address: '1234 Main St',
-                        birthdate: '1990-01-01',
-                        city: 'Los Angeles',
-                        country: 'United States',
-                        countryCode: 'US',
-                        createdAt: '2024-01-01T00:00:00Z',
-                        firstName: 'John',
-                        gender: 'm',
-                        identifiers: [
-                            {
-                                channels: {
-                                    additionalProp: {status: 'subscribed', statusChangedAt: '2024-01-01T00:00:00Z'},
-                                    email: email
-                                },
-                                consent: {
-                                    createdAt: '2026-01-01T00:00:00Z',
-                                    ip: '192.168.1.1',
-                                    source: 'omnisend-form',
-                                    userAgent: 'Mozilla/5.0'
-                                },
-                                id: email,
-                                sendWelcomeMessage: true,
-                                source: 'api',
-                                type: 'email'
-                            }
-                        ],
-                        lastName: 'Doe',
-                        postalCode: '90001',
-                        state: 'New York',
-                        tags: ['tag1', 'tag2']
-                    })
-                });
-                if (!createSubscriptionResponse.ok) {
-                    return alert(` HTTP ${createSubscriptionResponse.status}`);
-                }
-                successText();
-                startSpin();
-            };
-
-            form.addEventListener('submit', ev => {
-                klaviyoSubscribe(nodeList.email.value);
-                ev.stopImmediatePropagation();
-                ev.preventDefault();
+                    }
+                })
             });
-
-            nodeList.privacy?.addEventListener('click', (ev) => {
-                if (ev.target.tagName.toLocaleLowerCase() === 'a') {
-                    return false;
-                }
-                ev.preventDefault();
-                ev.stopPropagation();
-                nodeList.privacy.classList.toggle('checked');
-                if (nodeList.privacy.classList.contains('checked')) {
-                    nodeList.submit.removeAttribute('disabled');
-                } else {
-                    nodeList.submit.setAttribute('disabled', true);
-                }
-            });
+            if (!createSubscriptionResponse.ok) {
+                return alert(` HTTP ${createSubscriptionResponse.status}`);
+            }
+            successText();
             {%- if discount != blank -%}
-            function openModal() {
-                if (isOpen) return;
-                isOpen = true;
-                nodeList.prizeName.textContent = currentPrize.title;
-                nodeList.code.textContent = currentPrize.code;
-                nodeList.cover.innerHTML = `<img src="${currentPrize.icon}" class="image" alt="${currentPrize.code}"/>`
-                nodeList.btn.href = '/discount/' + currentPrize.code + '?redirect=' + encodeURIComponent('{{ ss.model_button_url }}');
-                nodeList.modal.style.setProperty('--background', `url("{{ ds.model_bg_image | image_url: width: 500 }}")`);
-                scrollPos = window.scrollY;
-                document.body.style.overflow = 'hidden';
-                document.body.style.position = 'fixed';
-                document.body.style.top = '-' + scrollPos + 'px';
-                document.body.style.width = '100%';
-                nodeList.overlay.style.display = 'flex';
-                history.pushState({easter: true}, '');
-                spawnConfetti();
-            }
+            startSpin();
+            {%- endif -%}
+        };
 
-            function closeModal() {
-                if (!isOpen) return;
-                isOpen = false;
-                nodeList.overlay.style.display = 'none';
-                document.body.style.overflow = '';
-                document.body.style.position = '';
-                document.body.style.top = '';
-                document.body.style.width = '';
-                window.scrollTo(0, scrollPos);
-                if (eggElement && eggElement.parentNode) {
-                    eggElement.parentNode.removeChild(eggElement);
-                    eggElement = null;
-                }
-            }
-
-            nodeList.close.addEventListener('click', closeModal);
-            nodeList.overlay.addEventListener('click', function (e) {
-                if (e.target === nodeList.overlay) closeModal();
+        const omnisendSubscribe = async (email) => {
+            const createSubscriptionResponse = await fetch(`https://api.omnisend.com/api/contacts`, {
+                method: "POST",
+                headers: {
+                    Authorization: "Omnisend-API-Key 69de08bd3ff781a3a5fe5f9a-Ooeog9UU5A5v6oyim1QlAyD0OH4SoakwsxIAsZIMQdhaKY7sqH",
+                    "Omnisend-Version": "2026-03-15",
+                    accept: 'application/json',
+                    "content-type": "application/json"
+                },
+                body: JSON.stringify({
+                    address: '1234 Main St',
+                    birthdate: '1990-01-01',
+                    city: 'Los Angeles',
+                    country: 'United States',
+                    countryCode: 'US',
+                    createdAt: '2024-01-01T00:00:00Z',
+                    firstName: 'John',
+                    gender: 'm',
+                    identifiers: [
+                        {
+                            channels: {
+                                additionalProp: {status: 'subscribed', statusChangedAt: '2024-01-01T00:00:00Z'},
+                                email: email
+                            },
+                            consent: {
+                                createdAt: '2026-01-01T00:00:00Z',
+                                ip: '192.168.1.1',
+                                source: 'omnisend-form',
+                                userAgent: 'Mozilla/5.0'
+                            },
+                            id: email,
+                            sendWelcomeMessage: true,
+                            source: 'api',
+                            type: 'email'
+                        }
+                    ],
+                    lastName: 'Doe',
+                    postalCode: '90001',
+                    state: 'New York',
+                    tags: ['tag1', 'tag2']
+                })
             });
-
-            window.addEventListener('popstate', function () {
-                if (isOpen) closeModal();
-            });
-
-            function spawnConfetti() {
-                // Clear existing confetti
-                while (nodeList.confetti.firstChild) {
-                    nodeList.confetti.removeChild(nodeList.confetti.firstChild);
-                }
-                const emojis = ['\uD83E\uDD5A', '\uD83D\uDC23', '\uD83D\uDC30', '\uD83C\uDF38', '\uD83C\uDF37', '\u2728'];
-                const pieces = 24;
-                for (let i = 0; i < pieces; i++) {
-                    let el = document.createElement('div');
-                    el.className = 'easter-confetti-piece';
-                    el.textContent = emojis[i % emojis.length];
-                    el.style.left = Math.random() * 100 + '%';
-                    el.style.fontSize = (14 + Math.random() * 14) + 'px';
-                    el.style.animationDelay = (Math.random() * 0.8) + 's';
-                    el.style.animationDuration = (2 + Math.random() * 1.5) + 's';
-                    nodeList.confetti.appendChild(el);
-                }
+            if (!createSubscriptionResponse.ok) {
+                return alert(` HTTP ${createSubscriptionResponse.status}`);
             }
+            successText();
+            startSpin();
+        };
 
-            nodeList.copy.addEventListener('click', function () {
-                const code = nodeList.code.textContent;
-                if (navigator.clipboard && navigator.clipboard.writeText) {
-                    navigator.clipboard.writeText(code).then(function () {
-                        nodeList.copy.classList.add('active');
-                        setTimeout(function () {
-                            nodeList.copy.classList.remove('active');
-                        }, 2000);
-                    });
-                } else {
-                    const ta = document.createElement('textarea');
-                    ta.value = code;
-                    ta.style.position = 'fixed';
-                    ta.style.left = '-9999px';
-                    document.body.appendChild(ta);
-                    ta.select();
-                    document.execCommand('copy');
-                    document.body.removeChild(ta);
+        form.addEventListener('submit', ev => {
+            klaviyoSubscribe(nodeList.email.value);
+            ev.stopImmediatePropagation();
+            ev.preventDefault();
+        });
+
+        nodeList.privacy?.addEventListener('click', (ev) => {
+            if (ev.target.tagName.toLocaleLowerCase() === 'a') {
+                return false;
+            }
+            ev.preventDefault();
+            ev.stopPropagation();
+            nodeList.privacy.classList.toggle('checked');
+            if (nodeList.privacy.classList.contains('checked')) {
+                nodeList.submit.removeAttribute('disabled');
+            } else {
+                nodeList.submit.setAttribute('disabled', true);
+            }
+        });
+        {%- if discount != blank -%}
+        function openModal() {
+            if (isOpen) return;
+            isOpen = true;
+            nodeList.prizeName.textContent = currentPrize.title;
+            nodeList.code.textContent = currentPrize.code;
+            nodeList.cover.innerHTML = `<img src="${currentPrize.icon}" class="image" alt="${currentPrize.code}"/>`
+            nodeList.btn.href = '/discount/' + currentPrize.code + '?redirect=' + encodeURIComponent('{{ ss.model_button_url }}');
+            nodeList.modal.style.setProperty('--background', `url("{{ ds.model_bg_image | image_url: width: 500 }}")`);
+            scrollPos = window.scrollY;
+            document.body.style.overflow = 'hidden';
+            document.body.style.position = 'fixed';
+            document.body.style.top = '-' + scrollPos + 'px';
+            document.body.style.width = '100%';
+            nodeList.overlay.style.display = 'flex';
+            history.pushState({easter: true}, '');
+            spawnConfetti();
+        }
+
+        function closeModal() {
+            if (!isOpen) return;
+            isOpen = false;
+            nodeList.overlay.style.display = 'none';
+            document.body.style.overflow = '';
+            document.body.style.position = '';
+            document.body.style.top = '';
+            document.body.style.width = '';
+            window.scrollTo(0, scrollPos);
+            if (eggElement && eggElement.parentNode) {
+                eggElement.parentNode.removeChild(eggElement);
+                eggElement = null;
+            }
+        }
+
+        nodeList.close.addEventListener('click', closeModal);
+        nodeList.overlay.addEventListener('click', function (e) {
+            if (e.target === nodeList.overlay) closeModal();
+        });
+
+        window.addEventListener('popstate', function () {
+            if (isOpen) closeModal();
+        });
+
+        function spawnConfetti() {
+            // Clear existing confetti
+            while (nodeList.confetti.firstChild) {
+                nodeList.confetti.removeChild(nodeList.confetti.firstChild);
+            }
+            const emojis = ['\uD83E\uDD5A', '\uD83D\uDC23', '\uD83D\uDC30', '\uD83C\uDF38', '\uD83C\uDF37', '\u2728'];
+            const pieces = 24;
+            for (let i = 0; i < pieces; i++) {
+                let el = document.createElement('div');
+                el.className = 'easter-confetti-piece';
+                el.textContent = emojis[i % emojis.length];
+                el.style.left = Math.random() * 100 + '%';
+                el.style.fontSize = (14 + Math.random() * 14) + 'px';
+                el.style.animationDelay = (Math.random() * 0.8) + 's';
+                el.style.animationDuration = (2 + Math.random() * 1.5) + 's';
+                nodeList.confetti.appendChild(el);
+            }
+        }
+
+        nodeList.copy.addEventListener('click', function () {
+            const code = nodeList.code.textContent;
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(code).then(function () {
                     nodeList.copy.classList.add('active');
                     setTimeout(function () {
                         nodeList.copy.classList.remove('active');
                     }, 2000);
-                }
-            });
-
-            function init() {
-                {%- if request.design_mode -%}
-                currentPrize = prizes[0];
-                openModal();
-                {%- endif -%}
+                });
+            } else {
+                const ta = document.createElement('textarea');
+                ta.value = code;
+                ta.style.position = 'fixed';
+                ta.style.left = '-9999px';
+                document.body.appendChild(ta);
+                ta.select();
+                document.execCommand('copy');
+                document.body.removeChild(ta);
+                nodeList.copy.classList.add('active');
+                setTimeout(function () {
+                    nodeList.copy.classList.remove('active');
+                }, 2000);
             }
-
-            // init();
-            {%- endif -%}
         });
-    </script>
-{%- endif -%}
+
+        function init() {
+            {%- if request.design_mode -%}
+            currentPrize = prizes[0];
+            openModal();
+            {%- endif -%}
+        }
+
+        // init();
+        {%- endif -%}
+    });
+</script>
 {% schema %}
 {
   "name": "MC Th Spin",
