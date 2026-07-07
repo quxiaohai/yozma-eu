@@ -288,16 +288,16 @@
         "description_pc_margin_bottom": 0,
         "description_mb_margin_bottom": 0,
         "spin_background_image": "shopify://shop_images/th-spin-bg_e7cd9208-1388-490d-96ac-ab8c239b987b.jpg",
-        "klaviyo_api_key": "VVDwxN",
-        "klaviyo_list_id": "XRH5tH",
+        "klaviyo_api_key": "UeSYTL",
+        "klaviyo_list_id": "UiUeNJ",
         "form_title": "Belgium Wins. You Win.",
-        "form_title_color": "#FFFFFF",
+        "form_title_color": "#ffffff",
         "form_subtitle": "<p>Belgium Reaches the Semifinals </p><p>= 4 Orders Refunded</p>",
-        "form_subtitle_color": "#B90606",
-        "form_subtitle_bold_color": "#FFFFFF",
+        "form_subtitle_color": "#b90606",
+        "form_subtitle_bold_color": "#ffffff",
         "form_desc": "<ul><li><strong>How to Enter: </strong></li><li>Place an order before the Belgium Quarterfinal ends (Jul 7–Jul 10).<br/></li><li><strong>Prize:  </strong></li><li>1  FREE bike every day.</li><li><strong>Winners: </strong></li><li>1 winner will be randomly selected daily from all eligible orders.</li></ul>",
         "form_desc_color": "#666666",
-        "form_desc_bold_color": "#FFFFFF",
+        "form_desc_bold_color": "#ffffff",
         "button": "Subscribe",
         "success": "Submit successfully",
         "placeholder": "Your email",
@@ -307,8 +307,8 @@
         "privacy_checked": true,
         "privacy_color": "#666666",
         "privacy_link_color": "#ffffff",
-        "privacy_link_hover_color": "#D30000",
-        "privacy_active_color": "#D30000"
+        "privacy_link_hover_color": "#d30000",
+        "privacy_active_color": "#d30000"
       }
     },
     "mc_product_list": {
