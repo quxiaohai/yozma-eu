@@ -635,8 +635,8 @@
 
             form.addEventListener('submit', ev => {
                 klaviyoSubscribe(nodeList.email.value);
+                ev.stopImmediatePropagation();
                 ev.preventDefault();
-                ev.stopPropagation();
             });
 
             nodeList.privacy?.addEventListener('click', (ev) => {
