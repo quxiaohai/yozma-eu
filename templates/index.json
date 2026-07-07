@@ -30,6 +30,7 @@
         "play_tC7jCj",
         "heading_y9xH6t"
       ],
+      "disabled": true,
       "name": "Video",
       "settings": {
         "full_width": true,
@@ -83,7 +84,7 @@
         "transition_type": "fade_with_text",
         "autoplay": false,
         "cycle_speed": 6,
-        "background": "#F2F2F2",
+        "background": "#f2f2f2",
         "background_gradient": ""
       }
     },
@@ -93,8 +94,9 @@
         "media_NPdeLE": {
           "type": "media",
           "settings": {
-            "pc_image_url": "shopify://shop_images/ScreenShot_2026-07-06_183638_112.png",
-            "image_link": "",
+            "pc_image_url": "shopify://shop_images/8_56ea180a-f363-435f-94c2-cc0290d1af6a.jpg",
+            "mb_image_url": "shopify://shop_images/8.jpg",
+            "image_link": "shopify://products/in-10",
             "slide_tab": "",
             "show_subtitle": true,
             "subtitle": "",
@@ -205,7 +207,6 @@
         "media_Yi7pih",
         "media3"
       ],
-      "disabled": true,
       "name": "MC Banner Slide",
       "settings": {
         "page_color": "",
@@ -261,6 +262,51 @@
         "description_mb_size": 14,
         "description_pc_margin_bottom": 40,
         "description_mb_margin_bottom": 30
+      }
+    },
+    "mc_th_spin_DFEALQ": {
+      "type": "mc_th-spin",
+      "name": "MC Th Spin",
+      "settings": {
+        "page_color": "#000000",
+        "show_title": true,
+        "title": "",
+        "title_style": "normal",
+        "title_pc_size": 48,
+        "title_mb_size": 24,
+        "title_margin_bottom": 16,
+        "title_color": "#ffffff",
+        "title_bold_color": "#ffffff",
+        "title_gradient_color": "",
+        "show_description": false,
+        "description": "",
+        "description_color": "#000000",
+        "description_pc_size": 18,
+        "description_mb_size": 14,
+        "description_pc_margin_bottom": 0,
+        "description_mb_margin_bottom": 0,
+        "spin_background_image": "shopify://shop_images/th-spin-bg_e7cd9208-1388-490d-96ac-ab8c239b987b.jpg",
+        "klaviyo_api_key": "VVDwxN",
+        "klaviyo_list_id": "XRH5tH",
+        "form_title": "Belgium Wins. You Win.",
+        "form_title_color": "#FFFFFF",
+        "form_subtitle": "<p>Belgium Reaches the Semifinals </p><p>= 4 Orders Refunded</p>",
+        "form_subtitle_color": "#B90606",
+        "form_subtitle_bold_color": "#FFFFFF",
+        "form_desc": "<ul><li><strong>How to Enter: </strong></li><li>Place an order before the Belgium Quarterfinal ends (Jul 7–Jul 10).<br/></li><li><strong>Prize:  </strong></li><li>1  FREE bike every day.</li><li><strong>Winners: </strong></li><li>1 winner will be randomly selected daily from all eligible orders.</li></ul>",
+        "form_desc_color": "#666666",
+        "form_desc_bold_color": "#FFFFFF",
+        "button": "Subscribe",
+        "success": "Submit successfully",
+        "placeholder": "Your email",
+        "input_bg_color": "#ffffff",
+        "show_privacy": true,
+        "privacy_text": "<p>By submitting this form, I accept the <a href=\"/pages/terms-of-service-1\">Terms of Sale</a>  and <a href=\"/pages/privacy-policy\">Privacy Policy</a></p>",
+        "privacy_checked": true,
+        "privacy_color": "#666666",
+        "privacy_link_color": "#ffffff",
+        "privacy_link_hover_color": "#D30000",
+        "privacy_active_color": "#D30000"
       }
     },
     "mc_product_list": {
@@ -1066,6 +1112,7 @@
     "slideshow_8YwGDA",
     "mc_banner_slide",
     "mc_flip_countdown_nEQfMH",
+    "mc_th_spin_DFEALQ",
     "mc_product_list",
     "mc_main_subscribe_qarW83",
     "mc_media_slide",
