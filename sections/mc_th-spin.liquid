@@ -67,10 +67,24 @@
         color: {{ ss.form_title_color }};
     }
 
+    .mc_th-spin .form-wrap .subtitle {
+        font-size: 24px;
+        color: {{ ss.form_subtitle_color }};
+        padding-top: 20px;
+    }
+
+    .mc_th-spin .form-wrap .subtitle strong {
+        color: {{ ss.form_subtitle_bold_color }};
+    }
+
     .mc_th-spin .form-wrap .intro {
         padding-top: 20px;
         font-size: 18px;
         color: {{ ss.form_desc_color }};
+    }
+
+    .mc_th-spin .form-wrap .intro strong {
+        color: {{ ss.form_desc_bold_color }};
     }
 
     .mc_th-spin .form-wrap .intro ul {
@@ -218,6 +232,11 @@
             font-size: 2.1621621622vw;
         }
 
+        .mc_th-spin .form-wrap .subtitle {
+            padding-top: 1.3513513514vw;
+            font-size: 1.62162162vw;
+        }
+
         .mc_th-spin .form-wrap > .image {
             height: 17.5675675676vw;
             top: 1.7567567568vw;
@@ -304,6 +323,11 @@
             font-size: 1rem;
         }
 
+        .mc_th-spin .form-wrap .subtitle {
+            padding-top: 1.125rem;
+            font-size: 0.85rem;
+        }
+
         .mc_th-spin .form-wrap .intro {
             padding-top: 1.125rem;
             font-size: 0.75rem;
@@ -365,6 +389,11 @@
                 <div class="title fw-600 relative z-1 lh-2">
                     {{ ss.form_title }}
                 </div>
+                {%- if ss.form_subtitle != blank -%}
+                    <div class="subtitle relative z-1 lh-2">
+                        {{ ss.form_subtitle }}
+                    </div>
+                {%- endif -%}
                 <div class="intro relative z-1 lh-2">
                     {{ ss.form_desc }}
                 </div>
@@ -403,8 +432,10 @@
     </div>
     {%- liquid
         assign discount = section.blocks | first
-        assign ds = discount.settings
-        render 'spin-popup', ds: ds
+        if discount != blank
+            assign ds = discount.settings
+            render 'spin-popup', ds: ds
+        endif
     -%}
 </div>
 {%- if discount != blank -%}
@@ -413,6 +444,7 @@
             const node = document.getElementById('{{ section.id }}-spin');
             const nodeList = $heybike.getNodeList(node);
             const form = document.getElementById('{{ form_id }}');
+            {%- if discount != blank -%}
             const spinElem = node.querySelector('.spin-image');
             let currentRotation = 0.0;
             let animating = false;
@@ -498,6 +530,7 @@
                 if (animationId) cancelAnimationFrame(animationId);
                 animationId = requestAnimationFrame(animateSpin);
             }
+            {%- endif -%}
 
             const successText = () => {
                 nodeList.formInfo.innerHTML = `<div class="form-success flex-left">
@@ -546,7 +579,9 @@
                     return alert(` HTTP ${createSubscriptionResponse.status}`);
                 }
                 successText();
+                {%- if discount != blank -%}
                 startSpin();
+                {%- endif -%}
             };
 
             const omnisendSubscribe = async (email) => {
@@ -617,7 +652,7 @@
                     nodeList.submit.setAttribute('disabled', true);
                 }
             });
-
+            {%- if discount != blank -%}
             function openModal() {
                 if (isOpen) return;
                 isOpen = true;
@@ -712,6 +747,7 @@
             }
 
             // init();
+            {%- endif -%}
         });
     </script>
 {%- endif -%}
@@ -915,6 +951,23 @@
     },
     {
       "type": "richtext",
+      "id": "form_subtitle",
+      "label": "Form subtitle"
+    },
+    {
+      "type": "color",
+      "id": "form_subtitle_color",
+      "label": "Form subtitle color",
+      "default": "#666"
+    },
+    {
+      "type": "color",
+      "id": "form_subtitle_bold_color",
+      "label": "Form subtitle bold color",
+      "default": "#666"
+    },
+    {
+      "type": "richtext",
       "id": "form_desc",
       "label": "Form desc",
       "default": "<ul><li>1.<strong>How to Participate:</strong><br/>Subscribe to our newsletter to<br/>receive one spin of the wheel.</li><li>2.<strong>Prizes Include:</strong><br/>$100 Off Coupon,$50 Off Coupon,Free Bike,<br/>Free Order Opportunity,Battery (IN10),Keychain,Helmet</li><li>3.<strong>Winning Details:</strong><br/>Each subscriber is allowed one spin only.<br/>Prizes are subject to availability; first come, first served.</li></ul>"
@@ -923,6 +976,12 @@
       "type": "color",
       "id": "form_desc_color",
       "label": "Form title color",
+      "default": "#666"
+    },
+    {
+      "type": "color",
+      "id": "form_desc_bold_color",
+      "label": "Form title bold color",
       "default": "#666"
     },
     {
