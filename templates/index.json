@@ -269,6 +269,8 @@
       "name": "MC Th Spin",
       "settings": {
         "page_color": "#000000",
+        "page_top": 5,
+        "page_bottom": 15,
         "show_title": true,
         "title": "",
         "title_style": "normal",
