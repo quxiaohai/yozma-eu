@@ -308,7 +308,8 @@
         "privacy_color": "#666666",
         "privacy_link_color": "#ffffff",
         "privacy_link_hover_color": "#d30000",
-        "privacy_active_color": "#d30000"
+        "privacy_active_color": "#d30000",
+        "form_top": 50
       }
     },
     "mc_product_list": {

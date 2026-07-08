@@ -110,7 +110,7 @@
     }
 
     .mc_th-spin .form-wrap .form-info {
-        padding-top: 75px;
+        padding-top: {{ ss.form_top }}px;
     }
 
     .mc_th-spin .form-wrap .field {
@@ -253,7 +253,7 @@
         }
 
         .mc_th-spin .form-wrap .form-info {
-            padding-top: 5.0675675676vw;
+            padding-top: {{ ss.form_top | divided_by: 14.8 }}vw;
         }
 
         .mc_th-spin .form-wrap .field {
@@ -917,6 +917,12 @@
     {
       "type": "header",
       "content": "Form"
+    },
+    {
+      "type": "number",
+      "id": "form_top",
+      "label": "Desktop form margin top",
+      "default": 75
     },
     {
       "type": "text",
