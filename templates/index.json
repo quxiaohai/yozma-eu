@@ -126,8 +126,8 @@
           "disabled": true,
           "settings": {
             "media_type": "image",
-            "pc_image_url": "shopify://shop_images/IN_10_-_PC_3840_x_1599_9.jpg",
-            "mb_image_url": "shopify://shop_images/IN_10_-_1500_x_2180.jpg",
+            "pc_image_url": "shopify://shop_images/pc_9140919f-034c-475c-a1f1-8702a998d113.jpg",
+            "mb_image_url": "shopify://shop_images/2c4fc3fb24d0e79c83aa21af689efa7f.jpg",
             "image_link": "shopify://products/in-10",
             "enable_video_looping": true,
             "slide_tab": "Yozma IN 10",
