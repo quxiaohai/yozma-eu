@@ -583,6 +583,7 @@
     },
     "mc_th_spin_w6GHGB": {
       "type": "mc_th-spin",
+      "disabled": true,
       "name": "MC Th Spin",
       "settings": {
         "page_color": "#000000",
