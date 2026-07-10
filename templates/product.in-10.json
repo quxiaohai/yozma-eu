@@ -180,6 +180,14 @@
             "text4": "Lifetime customer support"
           }
         },
+        "text_Xdfn6E": {
+          "type": "text",
+          "settings": {
+            "padding": "12px 0px 12px 0px",
+            "mb_padding": "4px 0px 4px 0px",
+            "text": "<ul><li>Buy 2 Bikes & Save an Extra <strong>€100  OFF</strong><br/>（Auto-applied at checkout from 7.10 --7.20）</li></ul>"
+          }
+        },
         "discount_PDGCHE": {
           "type": "discount",
           "disabled": true,
@@ -435,6 +443,7 @@
         "countdown_gHWnpr",
         "payment_terms",
         "service_card1",
+        "text_Xdfn6E",
         "discount_PDGCHE",
         "variant_picker",
         "klarna_on_site_messaging_app_block_k9fUWq",
@@ -596,6 +605,7 @@
         "description_pc_margin_bottom": 0,
         "description_mb_margin_bottom": 0,
         "spin_background_image": "shopify://shop_images/th-spin-bg_e7cd9208-1388-490d-96ac-ab8c239b987b.jpg",
+        "form_top": 75,
         "klaviyo_api_key": "UeSYTL",
         "klaviyo_list_id": "UiUeNJ",
         "form_title": "Belgium Wins. You Win.",
