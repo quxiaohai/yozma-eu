@@ -93,6 +93,7 @@
       "blocks": {
         "media_NPdeLE": {
           "type": "media",
+          "disabled": true,
           "settings": {
             "media_type": "image",
             "pc_image_url": "shopify://shop_images/16_8_3667016f-9c96-4f11-b32d-7b190e62ef88.jpg",
@@ -325,6 +326,7 @@
     },
     "mc_th_spin_DFEALQ": {
       "type": "mc_th-spin",
+      "disabled": true,
       "name": "MC Th Spin",
       "settings": {
         "page_color": "#000000",
