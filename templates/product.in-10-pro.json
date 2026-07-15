@@ -617,6 +617,7 @@
       "settings": {
         "page_color": "#000000",
         "page_top": 10,
+        "page_bottom": 10,
         "layout": "column",
         "mb_layout": "column"
       }
@@ -851,7 +852,7 @@
       "name": "MC Community Media Slide",
       "settings": {
         "page_color": "",
-        "page_top": 0,
+        "page_top": 10,
         "title": "<p>Hear from Our Riders</p>",
         "title_decorate_image": "shopify://shop_images/title-text-tag-5.png",
         "title_color": "#ffffff",
