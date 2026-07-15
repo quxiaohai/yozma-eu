@@ -1,5 +1,5 @@
 {%- assign ss = section.settings -%}
-<style>
+{% stylesheet %}
     .mc_prize-wheel-popup {
         width: 100%;
         max-width: 500px;
@@ -443,7 +443,7 @@
             font-size: 12px;
         }
     }
-</style>
+{% endstylesheet %}
 <hey-popup data-section-id="{{ section.id }}">
     <div class="m-popup">
         <div class="popup-view flex-center">
@@ -1201,23 +1201,27 @@
           "label": "Banner image",
           "type": "image_picker",
           "info": "Please upload an image no larger than 2 megabytes.",
-          "id": "image_url"
+          "id": "image_url",
+          "visible_if": "{{ block.settings.media_type == 'image' }}"
         },
         {
           "type": "checkbox",
           "id": "enable_video_looping",
           "label": "Enable video looping",
-          "default": true
+          "default": true,
+          "visible_if": "{{ block.settings.media_type == 'video' }}"
         },
         {
           "type": "video",
           "id": "video",
-          "label": "Video"
+          "label": "Video",
+          "visible_if": "{{ block.settings.media_type == 'video' }}"
         },
         {
           "type": "image_picker",
           "id": "cover_image",
-          "label": "Cover image"
+          "label": "Cover image",
+          "visible_if": "{{ block.settings.media_type == 'video' }}"
         },
         {
           "type": "color",
