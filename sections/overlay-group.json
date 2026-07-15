@@ -44,6 +44,30 @@
         "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.</p>"
       }
     },
+    "mc_prize_wheel_popup": {
+      "type": "mc_prize-wheel-popup",
+      "disabled": true,
+      "settings": {
+        "background_color": "#fffaf3",
+        "background_image": "shopify://shop_images/prize-wheel-popup-bg.jpg",
+        "spin_turntable_image": "shopify://shop_images/prize-wheel-popup-spin.png",
+        "spin_pointer_image": "shopify://shop_images/prize-wheel-popup-pointer.png"
+      },
+      "blocks": {
+        "discount": {
+          "type": "discount",
+          "settings": {
+            "show_countdown": true,
+            "media_type": "video",
+            "image_url": "shopify://shop_images/pc_984ed375-cdbd-4a33-b3f9-21dc71764e1e.jpg",
+            "video": "shopify://files/videos/e9f3551d3c964dafa1d42097a34d3730.HD-720p-4.5Mbps-77469743.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "discount"
+      ]
+    },
     "cart-drawer": {
       "type": "cart-drawer",
       "settings": {
@@ -71,6 +95,7 @@
     "newsletter-popup",
     "newsletter_popup_fix_jnaJBc",
     "privacy-banner",
+    "mc_prize_wheel_popup",
     "cart-drawer",
     "search-drawer"
   ]
