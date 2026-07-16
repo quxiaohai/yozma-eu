@@ -24,8 +24,8 @@
         "pc_width": 1920,
         "mb_width": 750,
         "media_type": "image",
-        "pc_image_url": "shopify://shop_images/CA_bannerpc_1e2e3e98-b91d-40f0-a0f0-e2789f0dc554.jpg",
-        "mb_image_url": "shopify://shop_images/CA_bannermo_2038ab38-78b3-4655-b4a7-8f35ef57da4b.jpg",
+        "pc_image_url": "shopify://shop_images/PC_2026.7.16.jpg",
+        "mb_image_url": "shopify://shop_images/MC_2026.7.16.jpg",
         "content_pos": "center",
         "mb_content_pos": "mb_top",
         "video_play_show": false,
@@ -74,6 +74,7 @@
         "tab_bg_color": "#eed230",
         "tab_active_color": "#ffffff",
         "tab_bg_active_color": "#1a1a1a",
+        "show_tab_active_underline": false,
         "tab_radius": 6,
         "show_tab_border": true,
         "tab_border_color": "#000000",
@@ -139,6 +140,7 @@
           "type": "product_item",
           "settings": {
             "product": "yozma-in-10-corporate-purchase",
+            "product_quantity": 5,
             "show_banner_image": false,
             "pc_banner_image": "shopify://shop_images/photo-34_0a6e1e00-839b-40e9-bad2-98c432b19dea.jpg",
             "mb_banner_image": "shopify://shop_images/photo-34_0a6e1e00-839b-40e9-bad2-98c432b19dea.jpg",
@@ -169,6 +171,62 @@
       "block_order": [
         "product_item_GW9ezJ"
       ],
+      "name": "easter-product-card",
+      "settings": {
+        "page_color": "#000000",
+        "page_bottom": 20,
+        "show_title": true,
+        "title": "Rock Your Ride",
+        "title_pc_size": 48,
+        "title_mb_size": 24,
+        "title_color": "#ffffff",
+        "title_gradient_color": "linear-gradient(180deg, rgba(255, 228, 49, 1), rgba(249, 32, 32, 1) 100%)",
+        "show_description": true,
+        "description": "Yozma isn’t just a bike—it’s motion, power, and attitude.",
+        "description_color": "#ffffff",
+        "description_pc_size": 20,
+        "description_mb_size": 14
+      }
+    },
+    "easter_product_card_Jn4Vqi": {
+      "type": "easter-product-card",
+      "blocks": {
+        "product_item_XXwyRd": {
+          "type": "product_item",
+          "settings": {
+            "product": "worry-free-purchase",
+            "product_quantity": 5,
+            "show_banner_image": false,
+            "pc_banner_image": "shopify://shop_images/photo-34_0a6e1e00-839b-40e9-bad2-98c432b19dea.jpg",
+            "mb_banner_image": "shopify://shop_images/photo-34_0a6e1e00-839b-40e9-bad2-98c432b19dea.jpg",
+            "show_sale": true,
+            "sale_price": "",
+            "sale_price_suffix": "",
+            "sale_text_color": "#ffffff",
+            "pc_product_image": "shopify://shop_images/a063bb63b961cc56054416cb24249faf_d9e3439a-42e7-42d0-8ad5-41e0653d3238.png",
+            "pc_product_hover_image": "shopify://shop_images/photo-34_0a6e1e00-839b-40e9-bad2-98c432b19dea.jpg",
+            "mb_product_image": "shopify://shop_images/a063bb63b961cc56054416cb24249faf_d9e3439a-42e7-42d0-8ad5-41e0653d3238.png",
+            "mb_product_hover_image": "shopify://shop_images/photo-34_0a6e1e00-839b-40e9-bad2-98c432b19dea.jpg",
+            "product_title": "Yozma IN 10",
+            "product_desc": "Electric Mini Dirt Bike For Teens & Adults",
+            "product_intro": "<ul><li><strong>Torque:</strong>146 N.M</li><li><strong>Max Load</strong>: 120 kg</li><li><strong>Battery</strong>: 48V 23.4Ah</li><li><strong>Max Range</strong>: 85km</li><li><strong>Suitable Height</strong>: 120 cm-180 cm</li></ul>",
+            "product_price": "€1.399,00",
+            "product_price_color": "#ff0000",
+            "product_original_price": "€1.599,00",
+            "show_button1": true,
+            "button1": "Add to cart",
+            "button1_text_color": "#ffffff",
+            "button1_bg_color": "#000000",
+            "button2": "Buy Now",
+            "button2_text_color": "#ffffff",
+            "button2_bg_color": "#ff0000"
+          }
+        }
+      },
+      "block_order": [
+        "product_item_XXwyRd"
+      ],
+      "disabled": true,
       "name": "easter-product-card",
       "settings": {
         "page_color": "#000000",
@@ -359,7 +417,8 @@
         "button_background": "#f0f0f0",
         "button_text_color": "#ffffff",
         "accordion_background": "#0d0d0c",
-        "accordion_text_color": ""
+        "accordion_text_color": "",
+        "theme_size": "large"
       }
     }
   },
@@ -369,6 +428,7 @@
     "main_navigation_T4B4me",
     "easter_sale_service_VHJBca",
     "easter_product_card_nhFk7x",
+    "easter_product_card_Jn4Vqi",
     "easter_service_policy_Keq8kJ",
     "faq_yAhtym"
   ]
