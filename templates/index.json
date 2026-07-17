@@ -760,6 +760,135 @@
         "mb_card_text_size": 16
       }
     },
+    "mc_photo_wall_new_gXKWQK": {
+      "type": "mc_photo-wall-new",
+      "blocks": {
+        "image_FLP6Xa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_7394.jpg",
+            "image_ratio": ""
+          }
+        },
+        "image_zHxXTN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC03226.jpg",
+            "image_ratio": ""
+          }
+        },
+        "image_hNDJtU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_1974.jpg",
+            "image_ratio": ""
+          }
+        },
+        "image_JyNyBC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5181.jpg",
+            "image_ratio": ""
+          }
+        },
+        "image_TYa3Ln": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_1943.jpg",
+            "image_ratio": ""
+          }
+        },
+        "image_EEpNFa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC03538.jpg",
+            "image_ratio": ""
+          }
+        },
+        "image_PAtanL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5193.jpg",
+            "image_ratio": ""
+          }
+        },
+        "image_gPBPkL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/new-enhance-photo-base-2.jpg",
+            "image_ratio": ""
+          }
+        },
+        "image_GDJCqr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC03684.jpg",
+            "image_ratio": ""
+          }
+        },
+        "image_bMgQFV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/12.jpg",
+            "image_ratio": ""
+          }
+        },
+        "image_YeXJxV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6226.jpg",
+            "image_ratio": ""
+          }
+        },
+        "image_GN3U3F": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5_e43a5676-8c94-4eb5-b20f-ad238e99d4d6.jpg",
+            "image_ratio": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_FLP6Xa",
+        "image_zHxXTN",
+        "image_hNDJtU",
+        "image_JyNyBC",
+        "image_TYa3Ln",
+        "image_EEpNFa",
+        "image_PAtanL",
+        "image_gPBPkL",
+        "image_GDJCqr",
+        "image_bMgQFV",
+        "image_YeXJxV",
+        "image_GN3U3F"
+      ],
+      "disabled": true,
+      "name": "MC Photo Wall New",
+      "settings": {
+        "page_color": "#000000",
+        "show_title": false,
+        "title": "Ride with Yozma",
+        "title_pc_size": 48,
+        "title_mb_size": 24,
+        "title_margin_bottom": 16,
+        "title_color": "#ffffff",
+        "title_gradient_color": "",
+        "show_description": false,
+        "description": "<p>Every Adventure Starts with a Ride</p>",
+        "description_color": "#ffffff",
+        "description_pc_size": 18,
+        "description_mb_size": 14,
+        "description_pc_margin_bottom": 40,
+        "description_mb_margin_bottom": 30,
+        "loop_speed": 1,
+        "image_border_radius": 4,
+        "show_card": true,
+        "card_name": "",
+        "card_name_color": "#000000",
+        "card_desc": "",
+        "card_desc_color": "#000000"
+      }
+    },
     "mc_photo_wall_am8R8D": {
       "type": "mc_photo-wall",
       "blocks": {
@@ -1182,6 +1311,7 @@
     "mc_media_slide",
     "mc_text_slide",
     "mc_media_text_YBqLhX",
+    "mc_photo_wall_new_gXKWQK",
     "mc_photo_wall_am8R8D",
     "178226965038bea44f",
     "mc_main_ces",
