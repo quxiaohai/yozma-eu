@@ -348,7 +348,7 @@
           "type": "item",
           "settings": {
             "title": "3. Does the quantity include the threshold number?",
-            "content": "<p>Yes. The threshold number <strong>is included</strong>.</p><p>For example:</p><ul><li><strong>5 bikes → 10% OFF</strong></li><li><strong>10 bikes → 15% OFF</strong></li><li><strong>20 bikes → 20% OFF</strong></li></ul>"
+            "content": "<p>Yes. The threshold number <strong>is included</strong>.</p><p>For example:</p><ul><li><strong>5 bikes → 10% OFF</strong></li><li><strong>10 bikes → 15% OFF</strong></li><li><strong>30 bikes → 25% OFF</strong></li></ul>"
           }
         },
         "item_EkNJPz": {
